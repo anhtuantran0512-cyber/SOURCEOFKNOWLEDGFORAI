@@ -1,0 +1,2 @@
+# SOURCEOFKNOWLEDGFORAI
+Resource and project 
