@@ -1,0 +1,226 @@
+---
+source: "lucianlabs"
+id: "287"
+title: "Filmstrip page speed audit"
+category: "Site Builder Tools"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#287"
+tags: ["lighthouse", "performance", "audit", "web-vitals", "builder"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Filmstrip page speed audit (287, Site Builder Tools)
+[What it does] Press Run audit and a filmstrip below captures the page drawing itself in time order, from blank to skeleton to finished, frame by frame, with a marker dropped at the moment the largest image appears. When the audit finishes, the Performance, Accessibility, Best practices and SEO rings above draw to their scores as the numbers climb, colored green, orange or red by score. The metric bars below fill alongside their thresholds too.
+[How to use it] Press Run again to watch the filmstrip and score rings fill
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #287 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#287 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u287{position:relative;width:340px;height:340px;border-radius:30px;overflow:hidden;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:var(--ux-ink)}
+.u287-sc{position:absolute;left:12px;right:12px;top:16px;display:grid;grid-template-columns:repeat(4,1fr);text-align:center}
+.u287-rg{position:relative;width:54px;height:54px;margin:0 auto}
+.u287-rg svg{width:54px;height:54px;transform:rotate(-90deg)}
+.u287-rg circle{fill:none;stroke-width:5}
+.u287-rg .t{stroke:var(--ux-surface-3)}
+.u287-rg .f{stroke:var(--c);stroke-linecap:round;stroke-dasharray:144.5;stroke-dashoffset:144.5;transition:stroke .3s}
+.u287-rg b{position:absolute;inset:0;display:grid;place-items:center;font-size:15px;font-weight:900;color:var(--c);font-variant-numeric:tabular-nums}
+.u287-rg::before{content:"";position:absolute;inset:5px;border-radius:50%;background:color-mix(in srgb,var(--c) 10%,transparent)}
+.u287-sc small{display:block;margin-top:5px;font-size:9px;font-weight:800;color:var(--ux-ink-2);white-space:nowrap}
+.u287-fs{position:absolute;left:12px;right:12px;top:100px;height:86px;padding:8px;border-radius:14px;background:var(--ux-surface-2)}
+.u287-fr{display:grid;grid-template-columns:repeat(6,1fr);gap:5px;height:56px}
+.u287-fm{position:relative;border-radius:6px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line);overflow:hidden;opacity:0;transform:translateY(6px);transition:opacity .25s,transform .35s cubic-bezier(.3,1.5,.5,1)}
+.u287-fm.is-on{opacity:1;transform:none}
+.u287-fm i{position:absolute;left:4px;right:4px;border-radius:2px;background:var(--ux-surface-3)}
+.u287-fm.k2 i,.u287-fm.k3 i{background:color-mix(in srgb,var(--ux-ink) 18%,transparent)}
+.u287-fm.k3 .im{background:linear-gradient(135deg,#818CF8,#F472B6)}
+.u287-tl{position:relative;height:14px;margin-top:6px;border-top:1px solid var(--ux-line)}
+.u287-tl span{position:absolute;top:3px;font-size:8px;font-weight:800;color:var(--ux-ink-3);transform:translateX(-50%);font-variant-numeric:tabular-nums}
+.u287-lc{position:absolute;top:4px;bottom:20px;width:2px;margin-left:-1px;background:#10B981;opacity:0;transition:opacity .3s}
+.u287-lc.is-on{opacity:1}
+.u287-lc em{position:absolute;top:-2px;left:3px;padding:1px 5px;border-radius:4px;background:#10B981;color:#fff;font-style:normal;font-size:8px;font-weight:850;white-space:nowrap}
+.u287-mt{position:absolute;left:14px;right:14px;top:196px}
+.u287-m{display:grid;grid-template-columns:96px 1fr 48px;align-items:center;gap:8px;height:24px;font-size:10px;font-weight:750;color:var(--ux-ink-2)}
+.u287-m b{text-align:right;font-weight:900;color:var(--c);font-variant-numeric:tabular-nums}
+.u287-br{position:relative;height:6px;border-radius:3px;background:linear-gradient(90deg,color-mix(in srgb,#10B981 25%,transparent) 0 40%,color-mix(in srgb,#F59E0B 25%,transparent) 40% 70%,color-mix(in srgb,#E11D48 25%,transparent) 70%)}
+.u287-br i{position:absolute;top:-3px;width:12px;height:12px;margin-left:-6px;border-radius:50%;background:var(--c);box-shadow:0 0 0 2px var(--ux-surface);left:0;transition:left .8s cubic-bezier(.3,1.2,.5,1)}
+.u287-go{position:absolute;left:14px;right:14px;bottom:14px;height:40px;border:0;border-radius:12px;background:var(--ux-ink);color:var(--ux-surface);font:inherit;font-size:12px;font-weight:850;cursor:pointer;transition:opacity .2s}
+.u287-go:disabled{opacity:.5;cursor:default}
+.u287-go:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){.u287-fm,.u287-br i,.u287-lc{transition:none}}
+</style>
+<div class="ux u287">
+  <div class="u287-sc"></div>
+  <div class="u287-fs" aria-hidden="true"><div class="u287-fr"></div><div class="u287-tl"></div><span class="u287-lc"><em>LCP</em></span></div>
+  <div class="u287-mt"></div>
+  <button type="button" class="u287-go"></button>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var sc = root.querySelector('.u287-sc'), fr = root.querySelector('.u287-fr'), tl = root.querySelector('.u287-tl'), lc = root.querySelector('.u287-lc'), mt = root.querySelector('.u287-mt'), go = root.querySelector('.u287-go');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var CAT = [['Performance', 92], ['Accessibility', 100], ['Best practices', 83], ['SEO', 64]];
+  var MT = [['Largest paint', '1.2 s', .3, 0], ['Layout shift', '0.02', .1, 0], ['Input delay', '310 ms', .72, 1]];
+  function col(v) { return v >= 90 ? '#10B981' : v >= 50 ? '#F59E0B' : '#E11D48'; }
+  var R = CAT.map(function (c) {
+    var d = document.createElement('div'); d.innerHTML = '<div class="u287-rg"><svg viewBox="0 0 54 54" aria-hidden="true"><circle class="t" cx="27" cy="27" r="23"/><circle class="f" cx="27" cy="27" r="23"/></svg><b>0</b></div><small></small>';
+    d.querySelector('small').textContent = c[0]; d.style.setProperty('--c', col(c[1])); d.setAttribute('role', 'img');
+    sc.appendChild(d); return { el: d, f: d.querySelector('.f'), b: d.querySelector('b'), v: c[1], n: c[0] };
+  });
+  var K = [0, 1, 1, 2, 3, 3], F = K.map(function (k, i) {
+    var d = document.createElement('div'); d.className = 'u287-fm k' + k;
+    if (k >= 1) d.innerHTML = '<i style="top:5px;height:4px;width:40%"></i><i style="top:13px;height:3px"></i><i style="top:19px;height:3px;right:12px"></i>';
+    if (k >= 2) d.innerHTML += '<i class="im" style="top:27px;height:22px"></i>';
+    fr.appendChild(d);
+    var t = document.createElement('span'); t.style.left = ((i + .5) / 6 * 100) + '%'; t.textContent = (0.3 + i * 0.3).toFixed(1) + ' s'; tl.appendChild(t);
+    return d;
+  });
+  var M = MT.map(function (m) {
+    var d = document.createElement('div'); d.className = 'u287-m'; d.innerHTML = '<span></span><div class="u287-br"><i></i></div><b></b>'; d.querySelector('span').textContent = m[0]; d.querySelector('b').textContent = m[1]; d.style.setProperty('--c', m[3] ? '#F59E0B' : '#10B981');
+    mt.appendChild(d); return { i: d.querySelector('i'), p: m[2] };
+  });
+  lc.style.left = 'calc(8px + ' + (4.5 / 6) + ' * (100% - 16px))';
+  var gen = 0;
+  function later(g, ms, fn) { setTimeout(function () { if (g === gen && root.isConnected) fn(); }, rm ? 0 : ms); }
+  function run() {
+    var g = ++gen; go.disabled = true; go.textContent = 'Auditing…';
+    R.forEach(function (r) { r.f.style.transition = 'none'; r.f.style.strokeDashoffset = 144.5; r.b.textContent = '0'; });
+    F.forEach(function (f) { f.classList.remove('is-on'); }); lc.classList.remove('is-on'); M.forEach(function (m) { m.i.style.left = '0'; });
+    F.forEach(function (f, i) { later(g, 300 + i * 330, function () { f.classList.add('is-on'); if (i === 4) lc.classList.add('is-on'); }); });
+    later(g, 2400, function () {
+      var t0 = performance.now();
+      R.forEach(function (r, k) { r.f.style.transition = rm ? 'none' : 'stroke-dashoffset 1.1s cubic-bezier(.3,.9,.3,1) ' + (k * .1) + 's'; r.f.style.strokeDashoffset = (144.5 * (1 - r.v / 100)).toFixed(1); r.el.setAttribute('aria-label', r.n + ' ' + r.v); });
+      (function f(now) { if (g !== gen) return; var q = rm ? 1 : Math.min(1, (now - t0) / 1200), e = 1 - Math.pow(1 - q, 3); R.forEach(function (r) { r.b.textContent = Math.round(r.v * e); }); if (q < 1) requestAnimationFrame(f); })(t0);
+      M.forEach(function (m) { m.i.style.left = (m.p * 100) + '%'; });
+      go.disabled = false; go.textContent = 'Run again';
+    });
+  }
+  go.addEventListener('click', run);
+  if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { if (es[0].isIntersecting) { io.disconnect(); run(); } }); io.observe(root); } else run();
+})();
+</script>
+--- Code end ---

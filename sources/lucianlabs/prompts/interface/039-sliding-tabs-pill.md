@@ -1,0 +1,231 @@
+---
+source: "lucianlabs"
+id: "039"
+title: "Sliding pill tabs"
+category: "Menus & Tabs"
+collection: "interface"
+url: "https://lucianlabs.dev/en/uxui-prompt/#039"
+tags: ["tabs", "segmented", "pill", "slide", "stagger"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Sliding pill tabs (039, Menus & Tabs)
+[What it does] Press a tab and the black pill stretches and glides over to it, while the list below slides in row by row from the direction you moved.
+[How to use it] Press the tabs back and forth. With a keyboard, use the left and right arrow keys
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #039 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#039 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u039{position:relative;width:340px;height:380px}
+.u039-tabs{position:relative;display:flex;padding:5px;border-radius:999px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line)}
+.u039-pill{position:absolute;left:0;top:5px;bottom:5px;width:var(--w,80px);border-radius:999px;background:var(--ux-ink);transform:translateX(var(--x,5px));box-shadow:0 8px 16px -10px var(--ux-shadow-strong);transition:transform .5s var(--ux-spring),width .5s var(--ux-spring)}
+.u039-tab{position:relative;flex:1;height:42px;border:0;padding:0;border-radius:999px;background:none;font-size:14px;font-weight:680;color:var(--ux-ink-2);white-space:nowrap;transition:color .35s var(--ux-ease)}
+.u039-tab[aria-selected="true"]{color:var(--ux-page)}
+.u039-tab:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+.u039-panel{position:relative;height:312px;margin-top:14px;overflow:hidden;border-radius:22px}
+.u039-list{position:absolute;inset:0;margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.u039-row{display:flex;align-items:center;gap:12px;padding:10px;border-radius:18px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line);transition:transform .55s var(--ux-spring),opacity .35s var(--ux-ease)}
+.u039-art{position:relative;width:52px;height:52px;flex:none;border-radius:14px;background:var(--g);overflow:hidden}
+.u039-art::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 25%,rgba(255,255,255,.45),transparent 55%)}
+.u039-row b{display:block;font-size:15px;font-weight:700;letter-spacing:-.02em}
+.u039-row small{display:block;margin-top:3px;font-size:12.5px;color:var(--ux-ink-3)}
+.u039-row em{margin-left:auto;font-style:normal;font-size:12.5px;font-weight:650;color:var(--ux-ink-3);font-variant-numeric:tabular-nums}
+.u039-badge{margin-left:6px;padding:2px 6px;border-radius:6px;font-size:10.5px;font-weight:800;background:var(--ux-accent-soft);color:var(--ux-accent);vertical-align:2px}
+</style>
+<div class="ux u039">
+  <div class="u039-tabs" role="tablist" aria-label="Library">
+    <span class="u039-pill" aria-hidden="true"></span>
+    <button class="u039-tab" type="button" role="tab" aria-selected="true">All</button>
+    <button class="u039-tab" type="button" role="tab" aria-selected="false">Music</button>
+    <button class="u039-tab" type="button" role="tab" aria-selected="false">Podcasts</button>
+    <button class="u039-tab" type="button" role="tab" aria-selected="false">Audiobooks</button>
+  </div>
+  <div class="u039-panel" role="tabpanel"></div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var tabs = Array.prototype.slice.call(root.querySelectorAll('.u039-tab'));
+  var pill = root.querySelector('.u039-pill');
+  var panel = root.querySelector('.u039-panel');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var DATA = [
+    [['Midnight Drive', 'Lumen · Album', '3:40', 'linear-gradient(140deg,#8B6CFF,#FF6B8B)'], ['Design Talk #42', 'Motion Lab · Podcast', '48m', 'linear-gradient(140deg,#22C3A6,#3D8BFF)'], ['Walking Slowly', 'Audiobook · Chapter 2', '1h 12m', 'linear-gradient(140deg,#FFB547,#FF7A45)'], ['Neon Garden', 'Kiri · Single', '2:58', 'linear-gradient(140deg,#3D8BFF,#B04FD0)']],
+    [['Midnight Drive', 'Lumen · Album', '3:40', 'linear-gradient(140deg,#8B6CFF,#FF6B8B)'], ['Neon Garden', 'Kiri · Single', '2:58', 'linear-gradient(140deg,#3D8BFF,#B04FD0)'], ['Paper Moon', 'Haru · EP', '4:12', 'linear-gradient(140deg,#FF8A65,#FFC24B)'], ['Blue Hour', 'Sola · Album', '3:05', 'linear-gradient(140deg,#0EA5E9,#22C3A6)']],
+    [['Design Talk #42', 'Motion Lab · New episode', '48m', 'linear-gradient(140deg,#22C3A6,#3D8BFF)'], ['People at Work', 'Studio F · Ep. 18', '36m', 'linear-gradient(140deg,#FF7A93,#8B6CFF)'], ['Code Review Radio', 'Devcast · Ep. 7', '52m', 'linear-gradient(140deg,#5B8CFF,#22C3A6)'], ['Morning Briefing', 'Daily · Today', '12m', 'linear-gradient(140deg,#FFB547,#E5484D)']],
+    [['Walking Slowly', 'Audiobook · On chapter 2', '1h 12m', 'linear-gradient(140deg,#FFB547,#FF7A45)'], ['Small Habits', 'Audiobook · Not started', '6h', 'linear-gradient(140deg,#8B6CFF,#3D8BFF)'], ['Ocean Hours', 'Audiobook · Finished', '4h 30m', 'linear-gradient(140deg,#0EA5E9,#5B8CFF)'], ['Night Library', 'Audiobook · New', '8h', 'linear-gradient(140deg,#B04FD0,#FF6B8B)']]
+  ];
+  var cur = 0, list = null;
+  function movePill(animate) {
+    var t = tabs[cur];
+    if (!animate) pill.style.transition = 'none';
+    pill.style.setProperty('--x', t.offsetLeft + 'px');
+    pill.style.setProperty('--w', t.offsetWidth + 'px');
+    if (!animate) { void pill.offsetWidth; pill.style.transition = ''; }
+  }
+  function make(i) {
+    var ul = document.createElement('ul');
+    ul.className = 'u039-list';
+    ul.innerHTML = DATA[i].map(function (r, k) {
+      return '<li class="u039-row" style="transition-delay:' + (k * 45) + 'ms"><span class="u039-art" style="--g:' + r[3] + '" aria-hidden="true"></span><span><b>' + r[0] + (i === 0 && k === 0 ? '<span class="u039-badge">Playing</span>' : '') + '</b><small>' + r[1] + '</small></span><em>' + r[2] + '</em></li>';
+    }).join('');
+    return ul;
+  }
+  function select(i, focus) {
+    if (i === cur && list) return;
+    var dir = i > cur ? 1 : -1;
+    cur = i;
+    tabs.forEach(function (t, k) { t.setAttribute('aria-selected', String(k === i)); t.tabIndex = k === i ? 0 : -1; });
+    if (focus) tabs[i].focus();
+    movePill(true);
+    var next = make(i), old = list;
+    list = next;
+    if (!old || rm) { if (old) old.remove(); panel.appendChild(next); return; }
+    Array.prototype.forEach.call(next.children, function (r) { r.style.transform = 'translateX(' + (dir * 70) + '%)'; r.style.opacity = '0'; });
+    panel.appendChild(next);
+    void next.offsetWidth;
+    Array.prototype.forEach.call(next.children, function (r) { r.style.transform = ''; r.style.opacity = ''; });
+    Array.prototype.forEach.call(old.children, function (r) { r.style.transform = 'translateX(' + (-dir * 60) + '%)'; r.style.opacity = '0'; });
+    setTimeout(function () { old.remove(); }, 700);
+  }
+  tabs.forEach(function (t, i) {
+    t.addEventListener('click', function () { select(i); });
+    t.addEventListener('keydown', function (e) {
+      var d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+      if (d) { e.preventDefault(); select((i + d + tabs.length) % tabs.length, true); }
+    });
+  });
+  var uid = 'u039-' + Math.random().toString(36).slice(2, 7);
+  panel.id = uid;
+  tabs.forEach(function (t) { t.setAttribute('aria-controls', uid); });
+  list = make(0);
+  panel.appendChild(list);
+  tabs.forEach(function (t, k) { t.tabIndex = k === 0 ? 0 : -1; });
+  movePill(false);
+})();
+</script>
+--- Code end ---

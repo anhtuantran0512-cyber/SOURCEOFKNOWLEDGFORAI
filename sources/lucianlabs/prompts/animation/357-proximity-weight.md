@@ -1,0 +1,202 @@
+---
+source: "lucianlabs"
+id: "357"
+title: "Proximity-weighted letters"
+category: "Cursor & Hover"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#357"
+tags: ["variable-font", "typography", "proximity", "hover", "weight"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Proximity-weighted letters (357, Cursor & Hover)
+[What it does] Each letter of the headline changes weight and size with its distance from the cursor, so a bulge of bolder type rolls across the words around the cursor. Letter cells keep a fixed width so lines never wobble as letters thicken, and a press flips to the opposite mode where only the letters near the cursor thin out. When the cursor leaves, every letter eases back to regular weight.
+[How to use it] Move the cursor slowly over the headline, and press to flip the mode
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #357 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#357 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u357{position:relative;width:340px;height:340px;border-radius:30px;overflow:hidden;background:#101014;box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:#F4F1EA}
+.u357-tx{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:0;pointer-events:none;font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+.u357-ln{display:flex;justify-content:center}
+.u357-c{display:inline-block;text-align:center;font-size:40px;line-height:1.18;letter-spacing:-.02em;font-weight:var(--w,400);transform:scale(var(--s,1));color:hsl(40 30% calc(60% + var(--k,0) * 36%))}
+.u357-hit{position:absolute;inset:0;border:0;padding:0;background:transparent;cursor:crosshair;border-radius:inherit}
+.u357-hit:focus-visible{outline:2px solid #F4F1EA;outline-offset:-6px}
+.u357-md{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);padding:4px 11px;border-radius:999px;background:rgba(244,241,234,.1);font-size:11px;font-weight:750;color:rgba(244,241,234,.75);pointer-events:none}
+</style>
+<div class="ux u357">
+  <div class="u357-tx" aria-hidden="true"></div>
+  <button type="button" class="u357-hit" aria-label="Headline that thickens near the cursor, press to flip the mode"></button>
+  <div class="u357-md" aria-live="polite"></div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var tx = root.querySelector('.u357-tx'), hit = root.querySelector('.u357-hit'), md = root.querySelector('.u357-md');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var LINES = ['Come closer', 'and letters', 'breathe deep'];
+  var C = [];
+  LINES.forEach(function (l) {
+    var ln = document.createElement('div'); ln.className = 'u357-ln'; tx.appendChild(ln);
+    l.split('').forEach(function (ch) { var s = document.createElement('span'); s.className = 'u357-c'; s.textContent = ch === ' ' ? ' ' : ch; ln.appendChild(s); C.push({ el: s, w: 400, tw: 400, k: 0, x: 0, y: 0 }); });
+  });
+  hit.setAttribute('aria-description', LINES.join(' '));
+  function measure() {
+    var rb = root.getBoundingClientRect(), k = root.offsetWidth / (rb.width || 1);
+    C.forEach(function (c) { c.el.style.width = ''; c.el.style.setProperty('--w', 900); });
+    C.forEach(function (c) { c.el.style.width = Math.ceil(c.el.getBoundingClientRect().width * k * 0.94) + 'px'; });
+    C.forEach(function (c) { c.el.style.setProperty('--w', Math.round(c.w)); var r = c.el.getBoundingClientRect(); c.x = (r.left + r.width / 2 - rb.left) * k; c.y = (r.top + r.height / 2 - rb.top) * k; });
+  }
+  var ptr = null, inv = false, raf = 0, last = 0;
+  function frame(now) {
+    raf = 0;
+    if (!root.isConnected) return;
+    var dt = Math.min(0.05, Math.max(0, (now - last) / 1000)), busy = false; last = now;
+    C.forEach(function (c) {
+      var f = 0;
+      if (ptr) { var d = Math.hypot(c.x - ptr.x, (c.y - ptr.y) * 1.3); f = d < 110 ? 0.5 + 0.5 * Math.cos(d / 110 * Math.PI) : 0; }
+      var tw = inv ? 800 - f * 700 : 300 + f * 600, tk = inv ? 1 - f : f;
+      var a = rm ? 1 : Math.min(1, dt * (ptr ? 14 : 4));
+      c.w += (tw - c.w) * a; c.k += (tk - c.k) * a;
+      if (Math.abs(tw - c.w) > 1) busy = true;
+      c.el.style.setProperty('--w', Math.round(c.w / 10) * 10);
+      c.el.style.setProperty('--s', (1 + (inv ? (1 - f) : f) * 0.12).toFixed(3));
+      c.el.style.setProperty('--k', c.k.toFixed(3));
+    });
+    if (busy) raf = requestAnimationFrame(frame);
+  }
+  function kick() { if (!raf) { last = performance.now(); raf = requestAnimationFrame(frame); } }
+  root.addEventListener('pointermove', function (e) { var b = root.getBoundingClientRect(), k = root.offsetWidth / (b.width || 1); ptr = { x: (e.clientX - b.left) * k, y: (e.clientY - b.top) * k }; kick(); });
+  root.addEventListener('pointerleave', function () { ptr = null; kick(); });
+  hit.addEventListener('click', function () { inv = !inv; md.textContent = inv ? 'Lighter near' : 'Bolder near'; C.forEach(function (c) { if (!ptr) c.w = inv ? 800 : 300; }); kick(); });
+  md.textContent = 'Bolder near';
+  C.forEach(function (c) { c.w = 300; });
+  measure(); kick();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { if (root.isConnected) measure(); });
+})();
+</script>
+--- Code end ---

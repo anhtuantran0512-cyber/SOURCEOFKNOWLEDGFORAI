@@ -1,0 +1,6971 @@
+[
+ {
+  "id": "001",
+  "slug": "liquid-glass-button",
+  "title": "Liquid glass button",
+  "category": "Buttons",
+  "collection": "interface",
+  "tags": [
+   "button",
+   "glass",
+   "loading",
+   "success",
+   "magnetic"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#001",
+  "prompt_path": "sources/lucianlabs/prompts/interface/001-liquid-glass-button.md",
+  "demo_path": "sources/lucianlabs/demos/interface/001-liquid-glass-button.html",
+  "prompt_chars": 13187
+ },
+ {
+  "id": "002",
+  "slug": "magnetic-letter-button",
+  "title": "Magnetic arrow button",
+  "category": "Buttons",
+  "collection": "interface",
+  "tags": [
+   "button",
+   "magnetic",
+   "cta",
+   "hover",
+   "arrow"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#002",
+  "prompt_path": "sources/lucianlabs/prompts/interface/002-magnetic-letter-button.md",
+  "demo_path": "sources/lucianlabs/demos/interface/002-magnetic-letter-button.html",
+  "prompt_chars": 10676
+ },
+ {
+  "id": "003",
+  "slug": "hold-to-confirm",
+  "title": "Hold to delete",
+  "category": "Buttons",
+  "collection": "interface",
+  "tags": [
+   "button",
+   "hold",
+   "destructive",
+   "confirm",
+   "undo"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#003",
+  "prompt_path": "sources/lucianlabs/prompts/interface/003-hold-to-confirm.md",
+  "demo_path": "sources/lucianlabs/demos/interface/003-hold-to-confirm.html",
+  "prompt_chars": 12447
+ },
+ {
+  "id": "004",
+  "slug": "fill-progress-download",
+  "title": "Progress download button",
+  "category": "Buttons",
+  "collection": "interface",
+  "tags": [
+   "button",
+   "download",
+   "progress",
+   "success",
+   "cancel"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#004",
+  "prompt_path": "sources/lucianlabs/prompts/interface/004-fill-progress-download.md",
+  "demo_path": "sources/lucianlabs/demos/interface/004-fill-progress-download.html",
+  "prompt_chars": 13094
+ },
+ {
+  "id": "005",
+  "slug": "paper-plane-send",
+  "title": "Paper plane send button",
+  "category": "Buttons",
+  "collection": "interface",
+  "tags": [
+   "button",
+   "send",
+   "paper-plane",
+   "offset-path",
+   "chat"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#005",
+  "prompt_path": "sources/lucianlabs/prompts/interface/005-paper-plane-send.md",
+  "demo_path": "sources/lucianlabs/demos/interface/005-paper-plane-send.html",
+  "prompt_chars": 15871
+ },
+ {
+  "id": "006",
+  "slug": "ink-ripple-button",
+  "title": "Ink ripple subscribe button",
+  "category": "Buttons",
+  "collection": "interface",
+  "tags": [
+   "button",
+   "ripple",
+   "subscribe",
+   "toggle",
+   "counter"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#006",
+  "prompt_path": "sources/lucianlabs/prompts/interface/006-ink-ripple-button.md",
+  "demo_path": "sources/lucianlabs/demos/interface/006-ink-ripple-button.html",
+  "prompt_chars": 11885
+ },
+ {
+  "id": "007",
+  "slug": "play-pause-morph",
+  "title": "Play–pause morph",
+  "category": "Buttons",
+  "collection": "interface",
+  "tags": [
+   "button",
+   "play",
+   "pause",
+   "morph",
+   "audio",
+   "progress"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#007",
+  "prompt_path": "sources/lucianlabs/prompts/interface/007-play-pause-morph.md",
+  "demo_path": "sources/lucianlabs/demos/interface/007-play-pause-morph.html",
+  "prompt_chars": 13119
+ },
+ {
+  "id": "008",
+  "slug": "copy-to-check",
+  "title": "Copy button that turns into a check",
+  "category": "Buttons",
+  "collection": "interface",
+  "tags": [
+   "button",
+   "copy",
+   "clipboard",
+   "tooltip",
+   "code"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#008",
+  "prompt_path": "sources/lucianlabs/prompts/interface/008-copy-to-check.md",
+  "demo_path": "sources/lucianlabs/demos/interface/008-copy-to-check.html",
+  "prompt_chars": 12033
+ },
+ {
+  "id": "009",
+  "slug": "rolling-label-button",
+  "title": "Rolling label button",
+  "category": "Buttons",
+  "collection": "interface",
+  "tags": [
+   "button",
+   "hover",
+   "stagger",
+   "typography",
+   "toggle"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#009",
+  "prompt_path": "sources/lucianlabs/prompts/interface/009-rolling-label-button.md",
+  "demo_path": "sources/lucianlabs/demos/interface/009-rolling-label-button.html",
+  "prompt_chars": 9482
+ },
+ {
+  "id": "010",
+  "slug": "split-action-button",
+  "title": "Split action button",
+  "category": "Buttons",
+  "collection": "interface",
+  "tags": [
+   "button",
+   "split",
+   "menu",
+   "deploy",
+   "progress"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#010",
+  "prompt_path": "sources/lucianlabs/prompts/interface/010-split-action-button.md",
+  "demo_path": "sources/lucianlabs/demos/interface/010-split-action-button.html",
+  "prompt_chars": 16685
+ },
+ {
+  "id": "011",
+  "slug": "fab-radial-menu",
+  "title": "Radial floating button",
+  "category": "Buttons",
+  "collection": "interface",
+  "tags": [
+   "button",
+   "fab",
+   "radial",
+   "menu",
+   "stagger"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#011",
+  "prompt_path": "sources/lucianlabs/prompts/interface/011-fab-radial-menu.md",
+  "demo_path": "sources/lucianlabs/demos/interface/011-fab-radial-menu.html",
+  "prompt_chars": 12935
+ },
+ {
+  "id": "012",
+  "slug": "bookmark-ribbon",
+  "title": "Bookmark ribbon",
+  "category": "Buttons",
+  "collection": "interface",
+  "tags": [
+   "button",
+   "bookmark",
+   "toggle",
+   "burst",
+   "counter"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#012",
+  "prompt_path": "sources/lucianlabs/prompts/interface/012-bookmark-ribbon.md",
+  "demo_path": "sources/lucianlabs/demos/interface/012-bookmark-ribbon.html",
+  "prompt_chars": 11304
+ },
+ {
+  "id": "013",
+  "slug": "squash-toggle",
+  "title": "Stretchy switch",
+  "category": "Toggles & Pickers",
+  "collection": "interface",
+  "tags": [
+   "switch",
+   "toggle",
+   "squash",
+   "drag",
+   "stretch"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#013",
+  "prompt_path": "sources/lucianlabs/prompts/interface/013-squash-toggle.md",
+  "demo_path": "sources/lucianlabs/demos/interface/013-squash-toggle.html",
+  "prompt_chars": 10619
+ },
+ {
+  "id": "014",
+  "slug": "checkbox-ink",
+  "title": "To-do checklist",
+  "category": "Toggles & Pickers",
+  "collection": "interface",
+  "tags": [
+   "checkbox",
+   "todo",
+   "strike",
+   "progress",
+   "list"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#014",
+  "prompt_path": "sources/lucianlabs/prompts/interface/014-checkbox-ink.md",
+  "demo_path": "sources/lucianlabs/demos/interface/014-checkbox-ink.html",
+  "prompt_chars": 12201
+ },
+ {
+  "id": "015",
+  "slug": "radio-card-group",
+  "title": "Plan radio cards",
+  "category": "Toggles & Pickers",
+  "collection": "interface",
+  "tags": [
+   "radio",
+   "card",
+   "select",
+   "plan",
+   "pricing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#015",
+  "prompt_path": "sources/lucianlabs/prompts/interface/015-radio-card-group.md",
+  "demo_path": "sources/lucianlabs/demos/interface/015-radio-card-group.html",
+  "prompt_chars": 11613
+ },
+ {
+  "id": "016",
+  "slug": "star-rating",
+  "title": "Star rating",
+  "category": "Toggles & Pickers",
+  "collection": "interface",
+  "tags": [
+   "rating",
+   "stars",
+   "hover",
+   "feedback",
+   "radio"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#016",
+  "prompt_path": "sources/lucianlabs/prompts/interface/016-star-rating.md",
+  "demo_path": "sources/lucianlabs/demos/interface/016-star-rating.html",
+  "prompt_chars": 11513
+ },
+ {
+  "id": "017",
+  "slug": "range-slider-bubble",
+  "title": "Tilting value bubble slider",
+  "category": "Toggles & Pickers",
+  "collection": "interface",
+  "tags": [
+   "slider",
+   "range",
+   "bubble",
+   "physics",
+   "drag"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#017",
+  "prompt_path": "sources/lucianlabs/prompts/interface/017-range-slider-bubble.md",
+  "demo_path": "sources/lucianlabs/demos/interface/017-range-slider-bubble.html",
+  "prompt_chars": 11498
+ },
+ {
+  "id": "018",
+  "slug": "stepper-rolling",
+  "title": "Rolling quantity stepper",
+  "category": "Toggles & Pickers",
+  "collection": "interface",
+  "tags": [
+   "stepper",
+   "quantity",
+   "odometer",
+   "counter",
+   "cart"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#018",
+  "prompt_path": "sources/lucianlabs/prompts/interface/018-stepper-rolling.md",
+  "demo_path": "sources/lucianlabs/demos/interface/018-stepper-rolling.html",
+  "prompt_chars": 11488
+ },
+ {
+  "id": "019",
+  "slug": "chip-multi-select",
+  "title": "Interest chips multi-select",
+  "category": "Toggles & Pickers",
+  "collection": "interface",
+  "tags": [
+   "chips",
+   "multi-select",
+   "filter",
+   "limit",
+   "toggle"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#019",
+  "prompt_path": "sources/lucianlabs/prompts/interface/019-chip-multi-select.md",
+  "demo_path": "sources/lucianlabs/demos/interface/019-chip-multi-select.html",
+  "prompt_chars": 10542
+ },
+ {
+  "id": "020",
+  "slug": "color-swatch-picker",
+  "title": "Product color picker",
+  "category": "Toggles & Pickers",
+  "collection": "interface",
+  "tags": [
+   "swatch",
+   "color",
+   "product",
+   "radio",
+   "liquid"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#020",
+  "prompt_path": "sources/lucianlabs/prompts/interface/020-color-swatch-picker.md",
+  "demo_path": "sources/lucianlabs/demos/interface/020-color-swatch-picker.html",
+  "prompt_chars": 12146
+ },
+ {
+  "id": "021",
+  "slug": "sun-moon-toggle",
+  "title": "Day–night sky switch",
+  "category": "Toggles & Pickers",
+  "collection": "interface",
+  "tags": [
+   "toggle",
+   "switch",
+   "day-night",
+   "theme",
+   "sky"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#021",
+  "prompt_path": "sources/lucianlabs/prompts/interface/021-sun-moon-toggle.md",
+  "demo_path": "sources/lucianlabs/demos/interface/021-sun-moon-toggle.html",
+  "prompt_chars": 10924
+ },
+ {
+  "id": "022",
+  "slug": "like-heart-burst",
+  "title": "Heart burst like",
+  "category": "Toggles & Pickers",
+  "collection": "interface",
+  "tags": [
+   "like",
+   "heart",
+   "burst",
+   "toggle",
+   "counter"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#022",
+  "prompt_path": "sources/lucianlabs/prompts/interface/022-like-heart-burst.md",
+  "demo_path": "sources/lucianlabs/demos/interface/022-like-heart-burst.html",
+  "prompt_chars": 11696
+ },
+ {
+  "id": "023",
+  "slug": "settings-switch-list",
+  "title": "Expanding notification settings",
+  "category": "Toggles & Pickers",
+  "collection": "interface",
+  "tags": [
+   "settings",
+   "switch",
+   "list",
+   "expand",
+   "disclosure"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#023",
+  "prompt_path": "sources/lucianlabs/prompts/interface/023-settings-switch-list.md",
+  "demo_path": "sources/lucianlabs/demos/interface/023-settings-switch-list.html",
+  "prompt_chars": 13696
+ },
+ {
+  "id": "024",
+  "slug": "dual-thumb-range",
+  "title": "Price histogram range filter",
+  "category": "Toggles & Pickers",
+  "collection": "interface",
+  "tags": [
+   "range",
+   "dual-thumb",
+   "price",
+   "filter",
+   "histogram"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#024",
+  "prompt_path": "sources/lucianlabs/prompts/interface/024-dual-thumb-range.md",
+  "demo_path": "sources/lucianlabs/demos/interface/024-dual-thumb-range.html",
+  "prompt_chars": 12682
+ },
+ {
+  "id": "025",
+  "slug": "floating-label-field",
+  "title": "Notched floating label field",
+  "category": "Inputs & Search",
+  "collection": "interface",
+  "tags": [
+   "input",
+   "floating-label",
+   "outlined",
+   "validation",
+   "form"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#025",
+  "prompt_path": "sources/lucianlabs/prompts/interface/025-floating-label-field.md",
+  "demo_path": "sources/lucianlabs/demos/interface/025-floating-label-field.html",
+  "prompt_chars": 12311
+ },
+ {
+  "id": "026",
+  "slug": "otp-code-input",
+  "title": "6-digit code input",
+  "category": "Inputs & Search",
+  "collection": "interface",
+  "tags": [
+   "otp",
+   "code",
+   "verification",
+   "input",
+   "paste"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#026",
+  "prompt_path": "sources/lucianlabs/prompts/interface/026-otp-code-input.md",
+  "demo_path": "sources/lucianlabs/demos/interface/026-otp-code-input.html",
+  "prompt_chars": 11930
+ },
+ {
+  "id": "027",
+  "slug": "expanding-search",
+  "title": "Expanding top-bar search",
+  "category": "Inputs & Search",
+  "collection": "interface",
+  "tags": [
+   "search",
+   "expand",
+   "combobox",
+   "suggestions",
+   "header"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#027",
+  "prompt_path": "sources/lucianlabs/prompts/interface/027-expanding-search.md",
+  "demo_path": "sources/lucianlabs/demos/interface/027-expanding-search.html",
+  "prompt_chars": 15298
+ },
+ {
+  "id": "028",
+  "slug": "autogrow-textarea-counter",
+  "title": "Auto-growing reply box",
+  "category": "Inputs & Search",
+  "collection": "interface",
+  "tags": [
+   "textarea",
+   "autogrow",
+   "counter",
+   "ring",
+   "composer"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#028",
+  "prompt_path": "sources/lucianlabs/prompts/interface/028-autogrow-textarea-counter.md",
+  "demo_path": "sources/lucianlabs/demos/interface/028-autogrow-textarea-counter.html",
+  "prompt_chars": 11848
+ },
+ {
+  "id": "029",
+  "slug": "tag-input",
+  "title": "Colored tag input",
+  "category": "Inputs & Search",
+  "collection": "interface",
+  "tags": [
+   "tags",
+   "chips",
+   "input",
+   "keyboard",
+   "suggestions"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#029",
+  "prompt_path": "sources/lucianlabs/prompts/interface/029-tag-input.md",
+  "demo_path": "sources/lucianlabs/demos/interface/029-tag-input.html",
+  "prompt_chars": 13020
+ },
+ {
+  "id": "030",
+  "slug": "range-date-picker",
+  "title": "Date range calendar",
+  "category": "Inputs & Search",
+  "collection": "interface",
+  "tags": [
+   "date",
+   "calendar",
+   "range",
+   "picker",
+   "booking"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#030",
+  "prompt_path": "sources/lucianlabs/prompts/interface/030-range-date-picker.md",
+  "demo_path": "sources/lucianlabs/demos/interface/030-range-date-picker.html",
+  "prompt_chars": 18147
+ },
+ {
+  "id": "031",
+  "slug": "select-listbox",
+  "title": "Custom select listbox",
+  "category": "Inputs & Search",
+  "collection": "interface",
+  "tags": [
+   "select",
+   "listbox",
+   "dropdown",
+   "keyboard",
+   "typeahead"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#031",
+  "prompt_path": "sources/lucianlabs/prompts/interface/031-select-listbox.md",
+  "demo_path": "sources/lucianlabs/demos/interface/031-select-listbox.html",
+  "prompt_chars": 14588
+ },
+ {
+  "id": "032",
+  "slug": "file-drop-upload",
+  "title": "Drag-and-drop upload",
+  "category": "Inputs & Search",
+  "collection": "interface",
+  "tags": [
+   "upload",
+   "dropzone",
+   "drag-drop",
+   "progress",
+   "file"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#032",
+  "prompt_path": "sources/lucianlabs/prompts/interface/032-file-drop-upload.md",
+  "demo_path": "sources/lucianlabs/demos/interface/032-file-drop-upload.html",
+  "prompt_chars": 13997
+ },
+ {
+  "id": "033",
+  "slug": "inline-edit-field",
+  "title": "Inline title editing",
+  "category": "Inputs & Search",
+  "collection": "interface",
+  "tags": [
+   "inline-edit",
+   "input",
+   "title",
+   "save",
+   "cancel"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#033",
+  "prompt_path": "sources/lucianlabs/prompts/interface/033-inline-edit-field.md",
+  "demo_path": "sources/lucianlabs/demos/interface/033-inline-edit-field.html",
+  "prompt_chars": 12338
+ },
+ {
+  "id": "034",
+  "slug": "autocomplete-combobox",
+  "title": "Airport autocomplete",
+  "category": "Inputs & Search",
+  "collection": "interface",
+  "tags": [
+   "autocomplete",
+   "combobox",
+   "typeahead",
+   "search",
+   "listbox"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#034",
+  "prompt_path": "sources/lucianlabs/prompts/interface/034-autocomplete-combobox.md",
+  "demo_path": "sources/lucianlabs/demos/interface/034-autocomplete-combobox.html",
+  "prompt_chars": 13611
+ },
+ {
+  "id": "035",
+  "slug": "currency-input-tick",
+  "title": "Money transfer amount",
+  "category": "Inputs & Search",
+  "collection": "interface",
+  "tags": [
+   "currency",
+   "amount",
+   "input",
+   "transfer",
+   "validation"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#035",
+  "prompt_path": "sources/lucianlabs/prompts/interface/035-currency-input-tick.md",
+  "demo_path": "sources/lucianlabs/demos/interface/035-currency-input-tick.html",
+  "prompt_chars": 13093
+ },
+ {
+  "id": "036",
+  "slug": "password-strength",
+  "title": "Password strength meter",
+  "category": "Inputs & Search",
+  "collection": "interface",
+  "tags": [
+   "password",
+   "strength",
+   "meter",
+   "validation",
+   "form"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#036",
+  "prompt_path": "sources/lucianlabs/prompts/interface/036-password-strength.md",
+  "demo_path": "sources/lucianlabs/demos/interface/036-password-strength.html",
+  "prompt_chars": 12125
+ },
+ {
+  "id": "037",
+  "slug": "dropdown-menu-stagger",
+  "title": "Account switcher menu",
+  "category": "Menus & Tabs",
+  "collection": "interface",
+  "tags": [
+   "dropdown",
+   "menu",
+   "account",
+   "stagger",
+   "workspace"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#037",
+  "prompt_path": "sources/lucianlabs/prompts/interface/037-dropdown-menu-stagger.md",
+  "demo_path": "sources/lucianlabs/demos/interface/037-dropdown-menu-stagger.html",
+  "prompt_chars": 15104
+ },
+ {
+  "id": "038",
+  "slug": "context-menu-origin",
+  "title": "Right-click context menu",
+  "category": "Menus & Tabs",
+  "collection": "interface",
+  "tags": [
+   "context-menu",
+   "right-click",
+   "submenu",
+   "files",
+   "origin"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#038",
+  "prompt_path": "sources/lucianlabs/prompts/interface/038-context-menu-origin.md",
+  "demo_path": "sources/lucianlabs/demos/interface/038-context-menu-origin.html",
+  "prompt_chars": 18511
+ },
+ {
+  "id": "039",
+  "slug": "sliding-tabs-pill",
+  "title": "Sliding pill tabs",
+  "category": "Menus & Tabs",
+  "collection": "interface",
+  "tags": [
+   "tabs",
+   "segmented",
+   "pill",
+   "slide",
+   "stagger"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#039",
+  "prompt_path": "sources/lucianlabs/prompts/interface/039-sliding-tabs-pill.md",
+  "demo_path": "sources/lucianlabs/demos/interface/039-sliding-tabs-pill.html",
+  "prompt_chars": 12432
+ },
+ {
+  "id": "040",
+  "slug": "vertical-rail-expand",
+  "title": "Expanding side rail",
+  "category": "Menus & Tabs",
+  "collection": "interface",
+  "tags": [
+   "sidebar",
+   "rail",
+   "navigation",
+   "expand",
+   "collapse"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#040",
+  "prompt_path": "sources/lucianlabs/prompts/interface/040-vertical-rail-expand.md",
+  "demo_path": "sources/lucianlabs/demos/interface/040-vertical-rail-expand.html",
+  "prompt_chars": 13921
+ },
+ {
+  "id": "041",
+  "slug": "bottom-tab-mobile",
+  "title": "Notched bottom tab bar",
+  "category": "Menus & Tabs",
+  "collection": "interface",
+  "tags": [
+   "tab-bar",
+   "mobile",
+   "navigation",
+   "notch",
+   "indicator"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#041",
+  "prompt_path": "sources/lucianlabs/prompts/interface/041-bottom-tab-mobile.md",
+  "demo_path": "sources/lucianlabs/demos/interface/041-bottom-tab-mobile.html",
+  "prompt_chars": 11243
+ },
+ {
+  "id": "042",
+  "slug": "wizard-stepper",
+  "title": "Step-by-step wizard",
+  "category": "Menus & Tabs",
+  "collection": "interface",
+  "tags": [
+   "stepper",
+   "wizard",
+   "onboarding",
+   "progress",
+   "steps"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#042",
+  "prompt_path": "sources/lucianlabs/prompts/interface/042-wizard-stepper.md",
+  "demo_path": "sources/lucianlabs/demos/interface/042-wizard-stepper.html",
+  "prompt_chars": 14403
+ },
+ {
+  "id": "043",
+  "slug": "pagination-slide",
+  "title": "Stretching pagination",
+  "category": "Menus & Tabs",
+  "collection": "interface",
+  "tags": [
+   "pagination",
+   "pager",
+   "elastic",
+   "indicator",
+   "rolling-number"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#043",
+  "prompt_path": "sources/lucianlabs/prompts/interface/043-pagination-slide.md",
+  "demo_path": "sources/lucianlabs/demos/interface/043-pagination-slide.html",
+  "prompt_chars": 13772
+ },
+ {
+  "id": "044",
+  "slug": "faq-accordion",
+  "title": "FAQ accordion",
+  "category": "Menus & Tabs",
+  "collection": "interface",
+  "tags": [
+   "accordion",
+   "faq",
+   "disclosure",
+   "expand",
+   "keyboard"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#044",
+  "prompt_path": "sources/lucianlabs/prompts/interface/044-faq-accordion.md",
+  "demo_path": "sources/lucianlabs/demos/interface/044-faq-accordion.html",
+  "prompt_chars": 11702
+ },
+ {
+  "id": "045",
+  "slug": "hamburger-fullscreen",
+  "title": "Full-screen menu from the button",
+  "category": "Menus & Tabs",
+  "collection": "interface",
+  "tags": [
+   "hamburger",
+   "menu",
+   "fullscreen",
+   "clip-path",
+   "stagger",
+   "focus-trap"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#045",
+  "prompt_path": "sources/lucianlabs/prompts/interface/045-hamburger-fullscreen.md",
+  "demo_path": "sources/lucianlabs/demos/interface/045-hamburger-fullscreen.html",
+  "prompt_chars": 13861
+ },
+ {
+  "id": "046",
+  "slug": "command-palette",
+  "title": "Command palette",
+  "category": "Menus & Tabs",
+  "collection": "interface",
+  "tags": [
+   "command-palette",
+   "combobox",
+   "search",
+   "keyboard",
+   "filter"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#046",
+  "prompt_path": "sources/lucianlabs/prompts/interface/046-command-palette.md",
+  "demo_path": "sources/lucianlabs/demos/interface/046-command-palette.html",
+  "prompt_chars": 16386
+ },
+ {
+  "id": "047",
+  "slug": "segmented-control",
+  "title": "Period segmented control",
+  "category": "Menus & Tabs",
+  "collection": "interface",
+  "tags": [
+   "segmented",
+   "control",
+   "period",
+   "count-up",
+   "chart-morph"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#047",
+  "prompt_path": "sources/lucianlabs/prompts/interface/047-segmented-control.md",
+  "demo_path": "sources/lucianlabs/demos/interface/047-segmented-control.html",
+  "prompt_chars": 14256
+ },
+ {
+  "id": "048",
+  "slug": "scroll-underline-tabs",
+  "title": "Swipe-linked underline tabs",
+  "category": "Menus & Tabs",
+  "collection": "interface",
+  "tags": [
+   "tabs",
+   "swipe",
+   "underline",
+   "scroll-linked",
+   "overflow"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#048",
+  "prompt_path": "sources/lucianlabs/prompts/interface/048-scroll-underline-tabs.md",
+  "demo_path": "sources/lucianlabs/demos/interface/048-scroll-underline-tabs.html",
+  "prompt_chars": 14733
+ },
+ {
+  "id": "049",
+  "slug": "editorial-hover-reveal",
+  "title": "Layered editorial card",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "card",
+   "editorial",
+   "parallax",
+   "hover",
+   "reveal"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#049",
+  "prompt_path": "sources/lucianlabs/prompts/interface/049-editorial-hover-reveal.md",
+  "demo_path": "sources/lucianlabs/demos/interface/049-editorial-hover-reveal.html",
+  "prompt_chars": 13879
+ },
+ {
+  "id": "050",
+  "slug": "spotlight-news-card",
+  "title": "Spotlight-tilt news card",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "news",
+   "card",
+   "tilt",
+   "glare",
+   "read-state"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#050",
+  "prompt_path": "sources/lucianlabs/prompts/interface/050-spotlight-news-card.md",
+  "demo_path": "sources/lucianlabs/demos/interface/050-spotlight-news-card.html",
+  "prompt_chars": 12479
+ },
+ {
+  "id": "051",
+  "slug": "product-add-to-cart",
+  "title": "Add-to-cart product card",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "product",
+   "cart",
+   "fly",
+   "badge",
+   "variant"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#051",
+  "prompt_path": "sources/lucianlabs/prompts/interface/051-product-add-to-cart.md",
+  "demo_path": "sources/lucianlabs/demos/interface/051-product-add-to-cart.html",
+  "prompt_chars": 16300
+ },
+ {
+  "id": "052",
+  "slug": "flip-info-card",
+  "title": "Flip-around membership card",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "card",
+   "flip",
+   "3d",
+   "drag",
+   "hologram"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#052",
+  "prompt_path": "sources/lucianlabs/prompts/interface/052-flip-info-card.md",
+  "demo_path": "sources/lucianlabs/demos/interface/052-flip-info-card.html",
+  "prompt_chars": 14176
+ },
+ {
+  "id": "053",
+  "slug": "swipe-card-stack",
+  "title": "Swipeable card stack",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "swipe",
+   "card-stack",
+   "drag",
+   "gesture",
+   "undo"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#053",
+  "prompt_path": "sources/lucianlabs/prompts/interface/053-swipe-card-stack.md",
+  "demo_path": "sources/lucianlabs/demos/interface/053-swipe-card-stack.html",
+  "prompt_chars": 15170
+ },
+ {
+  "id": "054",
+  "slug": "profile-follow-card",
+  "title": "Follow profile card",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "profile",
+   "follow",
+   "odometer",
+   "suggestions",
+   "social"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#054",
+  "prompt_path": "sources/lucianlabs/prompts/interface/054-profile-follow-card.md",
+  "demo_path": "sources/lucianlabs/demos/interface/054-profile-follow-card.html",
+  "prompt_chars": 15878
+ },
+ {
+  "id": "055",
+  "slug": "music-player-card",
+  "title": "Vinyl record player card",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "music",
+   "player",
+   "vinyl",
+   "tonearm",
+   "seek"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#055",
+  "prompt_path": "sources/lucianlabs/prompts/interface/055-music-player-card.md",
+  "demo_path": "sources/lucianlabs/demos/interface/055-music-player-card.html",
+  "prompt_chars": 17157
+ },
+ {
+  "id": "056",
+  "slug": "pricing-toggle",
+  "title": "Monthly–yearly pricing toggle",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "pricing",
+   "toggle",
+   "odometer",
+   "plan",
+   "radio-card"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#056",
+  "prompt_path": "sources/lucianlabs/prompts/interface/056-pricing-toggle.md",
+  "demo_path": "sources/lucianlabs/demos/interface/056-pricing-toggle.html",
+  "prompt_chars": 14914
+ },
+ {
+  "id": "057",
+  "slug": "testimonial-carousel",
+  "title": "Face-picker testimonial carousel",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "carousel",
+   "testimonial",
+   "autoplay",
+   "swipe",
+   "avatars"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#057",
+  "prompt_path": "sources/lucianlabs/prompts/interface/057-testimonial-carousel.md",
+  "demo_path": "sources/lucianlabs/demos/interface/057-testimonial-carousel.html",
+  "prompt_chars": 14821
+ },
+ {
+  "id": "058",
+  "slug": "reading-progress-article",
+  "title": "Reading-progress article card",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "article",
+   "reading-progress",
+   "toc",
+   "scroll-spy",
+   "ring"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#058",
+  "prompt_path": "sources/lucianlabs/prompts/interface/058-reading-progress-article.md",
+  "demo_path": "sources/lucianlabs/demos/interface/058-reading-progress-article.html",
+  "prompt_chars": 13661
+ },
+ {
+  "id": "059",
+  "slug": "event-rsvp-card",
+  "title": "Event RSVP card",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "event",
+   "rsvp",
+   "avatars",
+   "segmented",
+   "confetti"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#059",
+  "prompt_path": "sources/lucianlabs/prompts/interface/059-event-rsvp-card.md",
+  "demo_path": "sources/lucianlabs/demos/interface/059-event-rsvp-card.html",
+  "prompt_chars": 16297
+ },
+ {
+  "id": "060",
+  "slug": "image-compare-slider",
+  "title": "Day–night compare slider",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "image",
+   "compare",
+   "before-after",
+   "slider",
+   "drag"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#060",
+  "prompt_path": "sources/lucianlabs/prompts/interface/060-image-compare-slider.md",
+  "demo_path": "sources/lucianlabs/demos/interface/060-image-compare-slider.html",
+  "prompt_chars": 13468
+ },
+ {
+  "id": "061",
+  "slug": "image-lightbox-zoom",
+  "title": "Thumbnail-to-lightbox zoom",
+  "category": "Cards & Content",
+  "collection": "interface",
+  "tags": [
+   "lightbox",
+   "gallery",
+   "zoom",
+   "flip",
+   "swipe-dismiss"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#061",
+  "prompt_path": "sources/lucianlabs/prompts/interface/061-image-lightbox-zoom.md",
+  "demo_path": "sources/lucianlabs/demos/interface/061-image-lightbox-zoom.html",
+  "prompt_chars": 17325
+ },
+ {
+  "id": "062",
+  "slug": "login-card-feedback",
+  "title": "Sign-in card feedback",
+  "category": "Sign-in & Sign-up",
+  "collection": "interface",
+  "tags": [
+   "login",
+   "form",
+   "loading",
+   "error-shake",
+   "success"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#062",
+  "prompt_path": "sources/lucianlabs/prompts/interface/062-login-card-feedback.md",
+  "demo_path": "sources/lucianlabs/demos/interface/062-login-card-feedback.html",
+  "prompt_chars": 15665
+ },
+ {
+  "id": "063",
+  "slug": "signup-multistep",
+  "title": "One-question-at-a-time sign-up",
+  "category": "Sign-in & Sign-up",
+  "collection": "interface",
+  "tags": [
+   "signup",
+   "conversational",
+   "multistep",
+   "validation",
+   "chips"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#063",
+  "prompt_path": "sources/lucianlabs/prompts/interface/063-signup-multistep.md",
+  "demo_path": "sources/lucianlabs/demos/interface/063-signup-multistep.html",
+  "prompt_chars": 16267
+ },
+ {
+  "id": "064",
+  "slug": "magic-link-sent",
+  "title": "Envelope magic-link sign-in",
+  "category": "Sign-in & Sign-up",
+  "collection": "interface",
+  "tags": [
+   "magic-link",
+   "passwordless",
+   "envelope",
+   "countdown",
+   "resend"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#064",
+  "prompt_path": "sources/lucianlabs/prompts/interface/064-magic-link-sent.md",
+  "demo_path": "sources/lucianlabs/demos/interface/064-magic-link-sent.html",
+  "prompt_chars": 14418
+ },
+ {
+  "id": "065",
+  "slug": "two-factor-code",
+  "title": "Number-match device approval",
+  "category": "Sign-in & Sign-up",
+  "collection": "interface",
+  "tags": [
+   "2fa",
+   "number-matching",
+   "approval",
+   "countdown",
+   "security"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#065",
+  "prompt_path": "sources/lucianlabs/prompts/interface/065-two-factor-code.md",
+  "demo_path": "sources/lucianlabs/demos/interface/065-two-factor-code.html",
+  "prompt_chars": 15858
+ },
+ {
+  "id": "066",
+  "slug": "social-login-buttons",
+  "title": "Social sign-in buttons",
+  "category": "Sign-in & Sign-up",
+  "collection": "interface",
+  "tags": [
+   "social-login",
+   "oauth",
+   "collapse",
+   "loading",
+   "provider"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#066",
+  "prompt_path": "sources/lucianlabs/prompts/interface/066-social-login-buttons.md",
+  "demo_path": "sources/lucianlabs/demos/interface/066-social-login-buttons.html",
+  "prompt_chars": 14372
+ },
+ {
+  "id": "067",
+  "slug": "forgot-password-countdown",
+  "title": "Lockout countdown",
+  "category": "Sign-in & Sign-up",
+  "collection": "interface",
+  "tags": [
+   "lockout",
+   "countdown",
+   "ring",
+   "unlock",
+   "reset"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#067",
+  "prompt_path": "sources/lucianlabs/prompts/interface/067-forgot-password-countdown.md",
+  "demo_path": "sources/lucianlabs/demos/interface/067-forgot-password-countdown.html",
+  "prompt_chars": 12303
+ },
+ {
+  "id": "068",
+  "slug": "terms-scroll-consent",
+  "title": "Read-to-agree terms",
+  "category": "Sign-in & Sign-up",
+  "collection": "interface",
+  "tags": [
+   "terms",
+   "consent",
+   "scroll",
+   "checkbox",
+   "select-all"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#068",
+  "prompt_path": "sources/lucianlabs/prompts/interface/068-terms-scroll-consent.md",
+  "demo_path": "sources/lucianlabs/demos/interface/068-terms-scroll-consent.html",
+  "prompt_chars": 13872
+ },
+ {
+  "id": "069",
+  "slug": "avatar-crop-upload",
+  "title": "Avatar crop editor",
+  "category": "Sign-in & Sign-up",
+  "collection": "interface",
+  "tags": [
+   "avatar",
+   "crop",
+   "drag",
+   "zoom",
+   "upload"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#069",
+  "prompt_path": "sources/lucianlabs/prompts/interface/069-avatar-crop-upload.md",
+  "demo_path": "sources/lucianlabs/demos/interface/069-avatar-crop-upload.html",
+  "prompt_chars": 17669
+ },
+ {
+  "id": "070",
+  "slug": "toast-stack",
+  "title": "Stacking toasts",
+  "category": "Alerts & Feedback",
+  "collection": "interface",
+  "tags": [
+   "toast",
+   "stack",
+   "swipe-dismiss",
+   "promise",
+   "notification"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#070",
+  "prompt_path": "sources/lucianlabs/prompts/interface/070-toast-stack.md",
+  "demo_path": "sources/lucianlabs/demos/interface/070-toast-stack.html",
+  "prompt_chars": 15483
+ },
+ {
+  "id": "071",
+  "slug": "snackbar-undo",
+  "title": "Swipe-to-delete with undo",
+  "category": "Alerts & Feedback",
+  "collection": "interface",
+  "tags": [
+   "snackbar",
+   "undo",
+   "swipe-to-delete",
+   "countdown",
+   "list"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#071",
+  "prompt_path": "sources/lucianlabs/prompts/interface/071-snackbar-undo.md",
+  "demo_path": "sources/lucianlabs/demos/interface/071-snackbar-undo.html",
+  "prompt_chars": 15922
+ },
+ {
+  "id": "072",
+  "slug": "inline-alert-dismiss",
+  "title": "Collapsing inline alerts",
+  "category": "Alerts & Feedback",
+  "collection": "interface",
+  "tags": [
+   "alert",
+   "inline",
+   "dismiss",
+   "collapse",
+   "status"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#072",
+  "prompt_path": "sources/lucianlabs/prompts/interface/072-inline-alert-dismiss.md",
+  "demo_path": "sources/lucianlabs/demos/interface/072-inline-alert-dismiss.html",
+  "prompt_chars": 14435
+ },
+ {
+  "id": "073",
+  "slug": "announcement-banner",
+  "title": "Rolling announcement banner",
+  "category": "Alerts & Feedback",
+  "collection": "interface",
+  "tags": [
+   "banner",
+   "announcement",
+   "rolling",
+   "dismiss",
+   "autoplay"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#073",
+  "prompt_path": "sources/lucianlabs/prompts/interface/073-announcement-banner.md",
+  "demo_path": "sources/lucianlabs/demos/interface/073-announcement-banner.html",
+  "prompt_chars": 13555
+ },
+ {
+  "id": "074",
+  "slug": "notification-bell",
+  "title": "Notification bell dropdown",
+  "category": "Alerts & Feedback",
+  "collection": "interface",
+  "tags": [
+   "bell",
+   "notification",
+   "badge",
+   "dropdown",
+   "read-state"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#074",
+  "prompt_path": "sources/lucianlabs/prompts/interface/074-notification-bell.md",
+  "demo_path": "sources/lucianlabs/demos/interface/074-notification-bell.html",
+  "prompt_chars": 14959
+ },
+ {
+  "id": "075",
+  "slug": "upload-toast-progress",
+  "title": "Upload progress panel",
+  "category": "Alerts & Feedback",
+  "collection": "interface",
+  "tags": [
+   "upload",
+   "progress",
+   "toast",
+   "retry",
+   "collapse"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#075",
+  "prompt_path": "sources/lucianlabs/prompts/interface/075-upload-toast-progress.md",
+  "demo_path": "sources/lucianlabs/demos/interface/075-upload-toast-progress.html",
+  "prompt_chars": 16245
+ },
+ {
+  "id": "076",
+  "slug": "tooltip-arrow",
+  "title": "Gliding tooltip",
+  "category": "Alerts & Feedback",
+  "collection": "interface",
+  "tags": [
+   "tooltip",
+   "hover",
+   "focus",
+   "placement",
+   "shortcut"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#076",
+  "prompt_path": "sources/lucianlabs/prompts/interface/076-tooltip-arrow.md",
+  "demo_path": "sources/lucianlabs/demos/interface/076-tooltip-arrow.html",
+  "prompt_chars": 13763
+ },
+ {
+  "id": "077",
+  "slug": "popover-anchor",
+  "title": "Reaction popover",
+  "category": "Alerts & Feedback",
+  "collection": "interface",
+  "tags": [
+   "popover",
+   "anchor",
+   "emoji",
+   "reactions",
+   "outside-click"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#077",
+  "prompt_path": "sources/lucianlabs/prompts/interface/077-popover-anchor.md",
+  "demo_path": "sources/lucianlabs/demos/interface/077-popover-anchor.html",
+  "prompt_chars": 14275
+ },
+ {
+  "id": "078",
+  "slug": "chat-composer-reply",
+  "title": "Swipe-to-reply chat",
+  "category": "Alerts & Feedback",
+  "collection": "interface",
+  "tags": [
+   "chat",
+   "reply",
+   "swipe",
+   "typing",
+   "composer"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#078",
+  "prompt_path": "sources/lucianlabs/prompts/interface/078-chat-composer-reply.md",
+  "demo_path": "sources/lucianlabs/demos/interface/078-chat-composer-reply.html",
+  "prompt_chars": 16984
+ },
+ {
+  "id": "079",
+  "slug": "skeleton-to-content",
+  "title": "Skeleton that blooms into a post",
+  "category": "Loading & Progress",
+  "collection": "interface",
+  "tags": [
+   "skeleton",
+   "shimmer",
+   "loading",
+   "blur-up",
+   "stagger"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#079",
+  "prompt_path": "sources/lucianlabs/prompts/interface/079-skeleton-to-content.md",
+  "demo_path": "sources/lucianlabs/demos/interface/079-skeleton-to-content.html",
+  "prompt_chars": 11912
+ },
+ {
+  "id": "080",
+  "slug": "orbit-spinner",
+  "title": "Orbit sync spinner",
+  "category": "Loading & Progress",
+  "collection": "interface",
+  "tags": [
+   "spinner",
+   "orbit",
+   "sync",
+   "loading",
+   "success"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#080",
+  "prompt_path": "sources/lucianlabs/prompts/interface/080-orbit-spinner.md",
+  "demo_path": "sources/lucianlabs/demos/interface/080-orbit-spinner.html",
+  "prompt_chars": 13166
+ },
+ {
+  "id": "081",
+  "slug": "ring-draw-check",
+  "title": "Payment ring and check",
+  "category": "Loading & Progress",
+  "collection": "interface",
+  "tags": [
+   "ring",
+   "payment",
+   "progress",
+   "check",
+   "receipt"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#081",
+  "prompt_path": "sources/lucianlabs/prompts/interface/081-ring-draw-check.md",
+  "demo_path": "sources/lucianlabs/demos/interface/081-ring-draw-check.html",
+  "prompt_chars": 14573
+ },
+ {
+  "id": "082",
+  "slug": "circular-progress-count",
+  "title": "Install progress on the icon",
+  "category": "Loading & Progress",
+  "collection": "interface",
+  "tags": [
+   "circular",
+   "progress",
+   "install",
+   "pause",
+   "app"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#082",
+  "prompt_path": "sources/lucianlabs/prompts/interface/082-circular-progress-count.md",
+  "demo_path": "sources/lucianlabs/demos/interface/082-circular-progress-count.html",
+  "prompt_chars": 12147
+ },
+ {
+  "id": "083",
+  "slug": "indeterminate-bar",
+  "title": "Queue bar turning into progress",
+  "category": "Loading & Progress",
+  "collection": "interface",
+  "tags": [
+   "indeterminate",
+   "progress",
+   "deploy",
+   "log",
+   "morph"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#083",
+  "prompt_path": "sources/lucianlabs/prompts/interface/083-indeterminate-bar.md",
+  "demo_path": "sources/lucianlabs/demos/interface/083-indeterminate-bar.html",
+  "prompt_chars": 13396
+ },
+ {
+  "id": "084",
+  "slug": "wave-dots-loader",
+  "title": "Voice-reactive dot loader",
+  "category": "Loading & Progress",
+  "collection": "interface",
+  "tags": [
+   "voice",
+   "dots",
+   "wave",
+   "loader",
+   "press-and-hold"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#084",
+  "prompt_path": "sources/lucianlabs/prompts/interface/084-wave-dots-loader.md",
+  "demo_path": "sources/lucianlabs/demos/interface/084-wave-dots-loader.html",
+  "prompt_chars": 11937
+ },
+ {
+  "id": "085",
+  "slug": "pull-to-refresh",
+  "title": "Pull to refresh",
+  "category": "Loading & Progress",
+  "collection": "interface",
+  "tags": [
+   "pull-to-refresh",
+   "gesture",
+   "rubber-band",
+   "spinner",
+   "list"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#085",
+  "prompt_path": "sources/lucianlabs/prompts/interface/085-pull-to-refresh.md",
+  "demo_path": "sources/lucianlabs/demos/interface/085-pull-to-refresh.html",
+  "prompt_chars": 13292
+ },
+ {
+  "id": "086",
+  "slug": "typing-indicator",
+  "title": "Streaming AI answer",
+  "category": "Loading & Progress",
+  "collection": "interface",
+  "tags": [
+   "typing",
+   "streaming",
+   "ai",
+   "cursor",
+   "stop"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#086",
+  "prompt_path": "sources/lucianlabs/prompts/interface/086-typing-indicator.md",
+  "demo_path": "sources/lucianlabs/demos/interface/086-typing-indicator.html",
+  "prompt_chars": 13584
+ },
+ {
+  "id": "087",
+  "slug": "linear-steps-progress",
+  "title": "Delivery steps with a truck",
+  "category": "Loading & Progress",
+  "collection": "interface",
+  "tags": [
+   "steps",
+   "tracking",
+   "delivery",
+   "timeline",
+   "progress"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#087",
+  "prompt_path": "sources/lucianlabs/prompts/interface/087-linear-steps-progress.md",
+  "demo_path": "sources/lucianlabs/demos/interface/087-linear-steps-progress.html",
+  "prompt_chars": 13176
+ },
+ {
+  "id": "088",
+  "slug": "empty-state-float",
+  "title": "Empty folder that swallows paper",
+  "category": "Empty & Error States",
+  "collection": "interface",
+  "tags": [
+   "empty-state",
+   "onboarding",
+   "folder",
+   "template",
+   "list"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#088",
+  "prompt_path": "sources/lucianlabs/prompts/interface/088-empty-state-float.md",
+  "demo_path": "sources/lucianlabs/demos/interface/088-empty-state-float.html",
+  "prompt_chars": 20525
+ },
+ {
+  "id": "089",
+  "slug": "not-found-404",
+  "title": "404 that fixes the typo",
+  "category": "Empty & Error States",
+  "collection": "interface",
+  "tags": [
+   "404",
+   "not-found",
+   "compass",
+   "spring",
+   "typo"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#089",
+  "prompt_path": "sources/lucianlabs/prompts/interface/089-not-found-404.md",
+  "demo_path": "sources/lucianlabs/demos/interface/089-not-found-404.html",
+  "prompt_chars": 16678
+ },
+ {
+  "id": "090",
+  "slug": "error-retry",
+  "title": "Error widget that plugs back in",
+  "category": "Empty & Error States",
+  "collection": "interface",
+  "tags": [
+   "error",
+   "retry",
+   "backoff",
+   "countdown",
+   "recovery"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#090",
+  "prompt_path": "sources/lucianlabs/prompts/interface/090-error-retry.md",
+  "demo_path": "sources/lucianlabs/demos/interface/090-error-retry.html",
+  "prompt_chars": 18846
+ },
+ {
+  "id": "091",
+  "slug": "offline-reconnect",
+  "title": "Offline message queue",
+  "category": "Empty & Error States",
+  "collection": "interface",
+  "tags": [
+   "offline",
+   "reconnect",
+   "queue",
+   "banner",
+   "chat"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#091",
+  "prompt_path": "sources/lucianlabs/prompts/interface/091-offline-reconnect.md",
+  "demo_path": "sources/lucianlabs/demos/interface/091-offline-reconnect.html",
+  "prompt_chars": 17910
+ },
+ {
+  "id": "092",
+  "slug": "no-results-search",
+  "title": "Empty search that loosens filters",
+  "category": "Empty & Error States",
+  "collection": "interface",
+  "tags": [
+   "no-results",
+   "search",
+   "filter",
+   "suggestion",
+   "empty-state"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#092",
+  "prompt_path": "sources/lucianlabs/prompts/interface/092-no-results-search.md",
+  "demo_path": "sources/lucianlabs/demos/interface/092-no-results-search.html",
+  "prompt_chars": 21656
+ },
+ {
+  "id": "093",
+  "slug": "success-burst",
+  "title": "Celebration when every task is done",
+  "category": "Empty & Error States",
+  "collection": "interface",
+  "tags": [
+   "success",
+   "confetti",
+   "checklist",
+   "celebration",
+   "streak"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#093",
+  "prompt_path": "sources/lucianlabs/prompts/interface/093-success-burst.md",
+  "demo_path": "sources/lucianlabs/demos/interface/093-success-burst.html",
+  "prompt_chars": 17666
+ },
+ {
+  "id": "094",
+  "slug": "weather-widget",
+  "title": "Weather sky you scrub through",
+  "category": "Widgets & Charts",
+  "collection": "interface",
+  "tags": [
+   "weather",
+   "widget",
+   "scrub",
+   "sky",
+   "slider"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#094",
+  "prompt_path": "sources/lucianlabs/prompts/interface/094-weather-widget.md",
+  "demo_path": "sources/lucianlabs/demos/interface/094-weather-widget.html",
+  "prompt_chars": 18604
+ },
+ {
+  "id": "095",
+  "slug": "bar-chart-hover",
+  "title": "Bar chart that changes shape",
+  "category": "Widgets & Charts",
+  "collection": "interface",
+  "tags": [
+   "chart",
+   "bar",
+   "morph",
+   "tooltip",
+   "scrub"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#095",
+  "prompt_path": "sources/lucianlabs/prompts/interface/095-bar-chart-hover.md",
+  "demo_path": "sources/lucianlabs/demos/interface/095-bar-chart-hover.html",
+  "prompt_chars": 17836
+ },
+ {
+  "id": "096",
+  "slug": "line-chart-scrub",
+  "title": "Stock line that splits as you scrub",
+  "category": "Widgets & Charts",
+  "collection": "interface",
+  "tags": [
+   "chart",
+   "line",
+   "scrub",
+   "stock",
+   "morph"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#096",
+  "prompt_path": "sources/lucianlabs/prompts/interface/096-line-chart-scrub.md",
+  "demo_path": "sources/lucianlabs/demos/interface/096-line-chart-scrub.html",
+  "prompt_chars": 17357
+ },
+ {
+  "id": "097",
+  "slug": "donut-hover-expand",
+  "title": "Donut that re-splits",
+  "category": "Widgets & Charts",
+  "collection": "interface",
+  "tags": [
+   "chart",
+   "donut",
+   "legend",
+   "filter",
+   "hover"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#097",
+  "prompt_path": "sources/lucianlabs/prompts/interface/097-donut-hover-expand.md",
+  "demo_path": "sources/lucianlabs/demos/interface/097-donut-hover-expand.html",
+  "prompt_chars": 14133
+ },
+ {
+  "id": "098",
+  "slug": "kpi-count-up",
+  "title": "Live metric with rolling digits",
+  "category": "Widgets & Charts",
+  "collection": "interface",
+  "tags": [
+   "kpi",
+   "odometer",
+   "sparkline",
+   "realtime",
+   "dashboard"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#098",
+  "prompt_path": "sources/lucianlabs/prompts/interface/098-kpi-count-up.md",
+  "demo_path": "sources/lucianlabs/demos/interface/098-kpi-count-up.html",
+  "prompt_chars": 17381
+ },
+ {
+  "id": "099",
+  "slug": "activity-rings",
+  "title": "Activity rings that lap",
+  "category": "Widgets & Charts",
+  "collection": "interface",
+  "tags": [
+   "rings",
+   "activity",
+   "progress",
+   "week",
+   "overlap"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#099",
+  "prompt_path": "sources/lucianlabs/prompts/interface/099-activity-rings.md",
+  "demo_path": "sources/lucianlabs/demos/interface/099-activity-rings.html",
+  "prompt_chars": 14832
+ },
+ {
+  "id": "100",
+  "slug": "flip-clock-timer",
+  "title": "Folding flip timer",
+  "category": "Widgets & Charts",
+  "collection": "interface",
+  "tags": [
+   "timer",
+   "flip-clock",
+   "countdown",
+   "pomodoro",
+   "3d"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#100",
+  "prompt_path": "sources/lucianlabs/prompts/interface/100-flip-clock-timer.md",
+  "demo_path": "sources/lucianlabs/demos/interface/100-flip-clock-timer.html",
+  "prompt_chars": 17396
+ },
+ {
+  "id": "101",
+  "slug": "split-pane",
+  "title": "Split workspace",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "split-pane",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#101",
+  "prompt_path": "sources/lucianlabs/prompts/interface/101-split-pane.md",
+  "demo_path": "sources/lucianlabs/demos/interface/101-split-pane.html",
+  "prompt_chars": 8075
+ },
+ {
+  "id": "102",
+  "slug": "nested-tree",
+  "title": "Nested file tree",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "nested-tree",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#102",
+  "prompt_path": "sources/lucianlabs/prompts/interface/102-nested-tree.md",
+  "demo_path": "sources/lucianlabs/demos/interface/102-nested-tree.html",
+  "prompt_chars": 7767
+ },
+ {
+  "id": "103",
+  "slug": "breadcrumb",
+  "title": "Breadcrumb path",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "breadcrumb",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#103",
+  "prompt_path": "sources/lucianlabs/prompts/interface/103-breadcrumb.md",
+  "demo_path": "sources/lucianlabs/demos/interface/103-breadcrumb.html",
+  "prompt_chars": 7938
+ },
+ {
+  "id": "104",
+  "slug": "minimap",
+  "title": "Canvas minimap",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "minimap",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#104",
+  "prompt_path": "sources/lucianlabs/prompts/interface/104-minimap.md",
+  "demo_path": "sources/lucianlabs/demos/interface/104-minimap.html",
+  "prompt_chars": 9234
+ },
+ {
+  "id": "105",
+  "slug": "floorplan",
+  "title": "Studio floor plan",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "floorplan",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#105",
+  "prompt_path": "sources/lucianlabs/prompts/interface/105-floorplan.md",
+  "demo_path": "sources/lucianlabs/demos/interface/105-floorplan.html",
+  "prompt_chars": 7899
+ },
+ {
+  "id": "106",
+  "slug": "seat-map",
+  "title": "Theater seat map",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "seat-map",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#106",
+  "prompt_path": "sources/lucianlabs/prompts/interface/106-seat-map.md",
+  "demo_path": "sources/lucianlabs/demos/interface/106-seat-map.html",
+  "prompt_chars": 7925
+ },
+ {
+  "id": "107",
+  "slug": "metro",
+  "title": "Transit route picker",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "metro",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#107",
+  "prompt_path": "sources/lucianlabs/prompts/interface/107-metro.md",
+  "demo_path": "sources/lucianlabs/demos/interface/107-metro.html",
+  "prompt_chars": 8034
+ },
+ {
+  "id": "108",
+  "slug": "timezone",
+  "title": "Time zone overlap",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "timezone",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#108",
+  "prompt_path": "sources/lucianlabs/prompts/interface/108-timezone.md",
+  "demo_path": "sources/lucianlabs/demos/interface/108-timezone.html",
+  "prompt_chars": 8208
+ },
+ {
+  "id": "109",
+  "slug": "availability",
+  "title": "Weekly availability painter",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "availability",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#109",
+  "prompt_path": "sources/lucianlabs/prompts/interface/109-availability.md",
+  "demo_path": "sources/lucianlabs/demos/interface/109-availability.html",
+  "prompt_chars": 7969
+ },
+ {
+  "id": "110",
+  "slug": "conflict",
+  "title": "Schedule conflict fixer",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "conflict",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#110",
+  "prompt_path": "sources/lucianlabs/prompts/interface/110-conflict.md",
+  "demo_path": "sources/lucianlabs/demos/interface/110-conflict.html",
+  "prompt_chars": 7848
+ },
+ {
+  "id": "111",
+  "slug": "gantt",
+  "title": "Task duration editor",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "gantt",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#111",
+  "prompt_path": "sources/lucianlabs/prompts/interface/111-gantt.md",
+  "demo_path": "sources/lucianlabs/demos/interface/111-gantt.html",
+  "prompt_chars": 9250
+ },
+ {
+  "id": "112",
+  "slug": "sequencer",
+  "title": "Rhythm step sequencer",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "sequencer",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#112",
+  "prompt_path": "sources/lucianlabs/prompts/interface/112-sequencer.md",
+  "demo_path": "sources/lucianlabs/demos/interface/112-sequencer.html",
+  "prompt_chars": 8363
+ },
+ {
+  "id": "113",
+  "slug": "pixel-editor",
+  "title": "Pixel icon workbench",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "pixel-editor",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#113",
+  "prompt_path": "sources/lucianlabs/prompts/interface/113-pixel-editor.md",
+  "demo_path": "sources/lucianlabs/demos/interface/113-pixel-editor.html",
+  "prompt_chars": 7694
+ },
+ {
+  "id": "114",
+  "slug": "path-pen",
+  "title": "Vector pen path",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "path-pen",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#114",
+  "prompt_path": "sources/lucianlabs/prompts/interface/114-path-pen.md",
+  "demo_path": "sources/lucianlabs/demos/interface/114-path-pen.html",
+  "prompt_chars": 8377
+ },
+ {
+  "id": "115",
+  "slug": "gradient-stops",
+  "title": "Gradient stops",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "gradient-stops",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#115",
+  "prompt_path": "sources/lucianlabs/prompts/interface/115-gradient-stops.md",
+  "demo_path": "sources/lucianlabs/demos/interface/115-gradient-stops.html",
+  "prompt_chars": 8118
+ },
+ {
+  "id": "116",
+  "slug": "bezier",
+  "title": "Bezier easing curve",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "bezier",
+   "easing",
+   "editor",
+   "motion-design",
+   "native"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#116",
+  "prompt_path": "sources/lucianlabs/prompts/interface/116-bezier.md",
+  "demo_path": "sources/lucianlabs/demos/interface/116-bezier.html",
+  "prompt_chars": 16769
+ },
+ {
+  "id": "117",
+  "slug": "spacing",
+  "title": "Spacing ruler",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "spacing",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#117",
+  "prompt_path": "sources/lucianlabs/prompts/interface/117-spacing.md",
+  "demo_path": "sources/lucianlabs/demos/interface/117-spacing.html",
+  "prompt_chars": 7402
+ },
+ {
+  "id": "118",
+  "slug": "typography",
+  "title": "Type specimen",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "typography",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#118",
+  "prompt_path": "sources/lucianlabs/prompts/interface/118-typography.md",
+  "demo_path": "sources/lucianlabs/demos/interface/118-typography.html",
+  "prompt_chars": 7138
+ },
+ {
+  "id": "119",
+  "slug": "shadow",
+  "title": "Layered shadows",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "shadow",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#119",
+  "prompt_path": "sources/lucianlabs/prompts/interface/119-shadow.md",
+  "demo_path": "sources/lucianlabs/demos/interface/119-shadow.html",
+  "prompt_chars": 7342
+ },
+ {
+  "id": "120",
+  "slug": "corner-radii",
+  "title": "Linked corner radius",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "corner-radii",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#120",
+  "prompt_path": "sources/lucianlabs/prompts/interface/120-corner-radii.md",
+  "demo_path": "sources/lucianlabs/demos/interface/120-corner-radii.html",
+  "prompt_chars": 7881
+ },
+ {
+  "id": "121",
+  "slug": "grid-composer",
+  "title": "Grid layout builder",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "grid-composer",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#121",
+  "prompt_path": "sources/lucianlabs/prompts/interface/121-grid-composer.md",
+  "demo_path": "sources/lucianlabs/demos/interface/121-grid-composer.html",
+  "prompt_chars": 7215
+ },
+ {
+  "id": "122",
+  "slug": "z-order",
+  "title": "Layer stacking order",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "z-order",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#122",
+  "prompt_path": "sources/lucianlabs/prompts/interface/122-z-order.md",
+  "demo_path": "sources/lucianlabs/demos/interface/122-z-order.html",
+  "prompt_chars": 7948
+ },
+ {
+  "id": "123",
+  "slug": "blend-mode",
+  "title": "Blend modes",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "blend-mode",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#123",
+  "prompt_path": "sources/lucianlabs/prompts/interface/123-blend-mode.md",
+  "demo_path": "sources/lucianlabs/demos/interface/123-blend-mode.html",
+  "prompt_chars": 7457
+ },
+ {
+  "id": "124",
+  "slug": "contrast",
+  "title": "Contrast checker",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "contrast",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#124",
+  "prompt_path": "sources/lucianlabs/prompts/interface/124-contrast.md",
+  "demo_path": "sources/lucianlabs/demos/interface/124-contrast.html",
+  "prompt_chars": 8357
+ },
+ {
+  "id": "125",
+  "slug": "snapping",
+  "title": "Snap guides",
+  "category": "Layout, Schedule & Design",
+  "collection": "interface",
+  "tags": [
+   "snapping",
+   "native",
+   "spatial"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#125",
+  "prompt_path": "sources/lucianlabs/prompts/interface/125-snapping.md",
+  "demo_path": "sources/lucianlabs/demos/interface/125-snapping.html",
+  "prompt_chars": 8638
+ },
+ {
+  "id": "126",
+  "slug": "markdown-preview",
+  "title": "Markdown twin note",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "markdown-preview",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#126",
+  "prompt_path": "sources/lucianlabs/prompts/interface/126-markdown-preview.md",
+  "demo_path": "sources/lucianlabs/demos/interface/126-markdown-preview.html",
+  "prompt_chars": 8961
+ },
+ {
+  "id": "127",
+  "slug": "diff-hunk",
+  "title": "Change hunk review",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "diff-hunk",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#127",
+  "prompt_path": "sources/lucianlabs/prompts/interface/127-diff-hunk.md",
+  "demo_path": "sources/lucianlabs/demos/interface/127-diff-hunk.html",
+  "prompt_chars": 8706
+ },
+ {
+  "id": "128",
+  "slug": "document-replace",
+  "title": "Find and replace",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "document-replace",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#128",
+  "prompt_path": "sources/lucianlabs/prompts/interface/128-document-replace.md",
+  "demo_path": "sources/lucianlabs/demos/interface/128-document-replace.html",
+  "prompt_chars": 8858
+ },
+ {
+  "id": "129",
+  "slug": "code-fold",
+  "title": "Foldable code blocks",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "code-fold",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#129",
+  "prompt_path": "sources/lucianlabs/prompts/interface/129-code-fold.md",
+  "demo_path": "sources/lucianlabs/demos/interface/129-code-fold.html",
+  "prompt_chars": 10552
+ },
+ {
+  "id": "130",
+  "slug": "csv-mapping",
+  "title": "CSV field mapper",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "csv-mapping",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#130",
+  "prompt_path": "sources/lucianlabs/prompts/interface/130-csv-mapping.md",
+  "demo_path": "sources/lucianlabs/demos/interface/130-csv-mapping.html",
+  "prompt_chars": 11009
+ },
+ {
+  "id": "131",
+  "slug": "repeat-form",
+  "title": "Companion entries",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "repeat-form",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#131",
+  "prompt_path": "sources/lucianlabs/prompts/interface/131-repeat-form.md",
+  "demo_path": "sources/lucianlabs/demos/interface/131-repeat-form.html",
+  "prompt_chars": 8494
+ },
+ {
+  "id": "132",
+  "slug": "rule-builder",
+  "title": "Condition branch builder",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "rule-builder",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#132",
+  "prompt_path": "sources/lucianlabs/prompts/interface/132-rule-builder.md",
+  "demo_path": "sources/lucianlabs/demos/interface/132-rule-builder.html",
+  "prompt_chars": 8958
+ },
+ {
+  "id": "133",
+  "slug": "unit-converter",
+  "title": "Two-way unit converter",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "unit-converter",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#133",
+  "prompt_path": "sources/lucianlabs/prompts/interface/133-unit-converter.md",
+  "demo_path": "sources/lucianlabs/demos/interface/133-unit-converter.html",
+  "prompt_chars": 8823
+ },
+ {
+  "id": "134",
+  "slug": "bill-allocation",
+  "title": "Weighted bill split",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "bill-allocation",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#134",
+  "prompt_path": "sources/lucianlabs/prompts/interface/134-bill-allocation.md",
+  "demo_path": "sources/lucianlabs/demos/interface/134-bill-allocation.html",
+  "prompt_chars": 9419
+ },
+ {
+  "id": "135",
+  "slug": "recipe-scale",
+  "title": "Recipe scaler",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "recipe-scale",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#135",
+  "prompt_path": "sources/lucianlabs/prompts/interface/135-recipe-scale.md",
+  "demo_path": "sources/lucianlabs/demos/interface/135-recipe-scale.html",
+  "prompt_chars": 8856
+ },
+ {
+  "id": "136",
+  "slug": "envelope-address",
+  "title": "Envelope address layout",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "envelope-address",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#136",
+  "prompt_path": "sources/lucianlabs/prompts/interface/136-envelope-address.md",
+  "demo_path": "sources/lucianlabs/demos/interface/136-envelope-address.html",
+  "prompt_chars": 8812
+ },
+ {
+  "id": "137",
+  "slug": "card-format",
+  "title": "Card number formatter",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "card-format",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#137",
+  "prompt_path": "sources/lucianlabs/prompts/interface/137-card-format.md",
+  "demo_path": "sources/lucianlabs/demos/interface/137-card-format.html",
+  "prompt_chars": 9111
+ },
+ {
+  "id": "138",
+  "slug": "redaction-editor",
+  "title": "Document redaction",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "redaction-editor",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#138",
+  "prompt_path": "sources/lucianlabs/prompts/interface/138-redaction-editor.md",
+  "demo_path": "sources/lucianlabs/demos/interface/138-redaction-editor.html",
+  "prompt_chars": 8441
+ },
+ {
+  "id": "139",
+  "slug": "document-notes",
+  "title": "Margin notes",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "document-notes",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#139",
+  "prompt_path": "sources/lucianlabs/prompts/interface/139-document-notes.md",
+  "demo_path": "sources/lucianlabs/demos/interface/139-document-notes.html",
+  "prompt_chars": 9135
+ },
+ {
+  "id": "140",
+  "slug": "rich-text",
+  "title": "Selection formatting",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "rich-text",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#140",
+  "prompt_path": "sources/lucianlabs/prompts/interface/140-rich-text.md",
+  "demo_path": "sources/lucianlabs/demos/interface/140-rich-text.html",
+  "prompt_chars": 9362
+ },
+ {
+  "id": "141",
+  "slug": "shortcut-recorder",
+  "title": "Shortcut recorder",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "shortcut-recorder",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#141",
+  "prompt_path": "sources/lucianlabs/prompts/interface/141-shortcut-recorder.md",
+  "demo_path": "sources/lucianlabs/demos/interface/141-shortcut-recorder.html",
+  "prompt_chars": 9060
+ },
+ {
+  "id": "142",
+  "slug": "phrase-alignment",
+  "title": "Translation phrase pairing",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "phrase-alignment",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#142",
+  "prompt_path": "sources/lucianlabs/prompts/interface/142-phrase-alignment.md",
+  "demo_path": "sources/lucianlabs/demos/interface/142-phrase-alignment.html",
+  "prompt_chars": 9300
+ },
+ {
+  "id": "143",
+  "slug": "spreadsheet-cells",
+  "title": "Calculating cells",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "spreadsheet-cells",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#143",
+  "prompt_path": "sources/lucianlabs/prompts/interface/143-spreadsheet-cells.md",
+  "demo_path": "sources/lucianlabs/demos/interface/143-spreadsheet-cells.html",
+  "prompt_chars": 9196
+ },
+ {
+  "id": "144",
+  "slug": "table-columns",
+  "title": "Column order editor",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "table-columns",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#144",
+  "prompt_path": "sources/lucianlabs/prompts/interface/144-table-columns.md",
+  "demo_path": "sources/lucianlabs/demos/interface/144-table-columns.html",
+  "prompt_chars": 10225
+ },
+ {
+  "id": "145",
+  "slug": "transcript-correction",
+  "title": "Word-level transcript fix",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "transcript-correction",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#145",
+  "prompt_path": "sources/lucianlabs/prompts/interface/145-transcript-correction.md",
+  "demo_path": "sources/lucianlabs/demos/interface/145-transcript-correction.html",
+  "prompt_chars": 8648
+ },
+ {
+  "id": "146",
+  "slug": "json-tree",
+  "title": "JSON value tree",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "json-tree",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#146",
+  "prompt_path": "sources/lucianlabs/prompts/interface/146-json-tree.md",
+  "demo_path": "sources/lucianlabs/demos/interface/146-json-tree.html",
+  "prompt_chars": 9187
+ },
+ {
+  "id": "147",
+  "slug": "regex-tester",
+  "title": "Regex playground",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "regex-tester",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#147",
+  "prompt_path": "sources/lucianlabs/prompts/interface/147-regex-tester.md",
+  "demo_path": "sources/lucianlabs/demos/interface/147-regex-tester.html",
+  "prompt_chars": 9377
+ },
+ {
+  "id": "148",
+  "slug": "citation-formatter",
+  "title": "Citation formatter",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "citation-formatter",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#148",
+  "prompt_path": "sources/lucianlabs/prompts/interface/148-citation-formatter.md",
+  "demo_path": "sources/lucianlabs/demos/interface/148-citation-formatter.html",
+  "prompt_chars": 9564
+ },
+ {
+  "id": "149",
+  "slug": "merge-conflict",
+  "title": "Conflict sentence merge",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "merge-conflict",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#149",
+  "prompt_path": "sources/lucianlabs/prompts/interface/149-merge-conflict.md",
+  "demo_path": "sources/lucianlabs/demos/interface/149-merge-conflict.html",
+  "prompt_chars": 9177
+ },
+ {
+  "id": "150",
+  "slug": "line-cleaner",
+  "title": "Line tidier",
+  "category": "Document & Data Editing",
+  "collection": "interface",
+  "tags": [
+   "line-cleaner",
+   "editing",
+   "interactive"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#150",
+  "prompt_path": "sources/lucianlabs/prompts/interface/150-line-cleaner.md",
+  "demo_path": "sources/lucianlabs/demos/interface/150-line-cleaner.html",
+  "prompt_chars": 8592
+ },
+ {
+  "id": "151",
+  "slug": "contribution-heatmap",
+  "title": "Weekly contribution grid",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "contribution-heatmap",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#151",
+  "prompt_path": "sources/lucianlabs/prompts/interface/151-contribution-heatmap.md",
+  "demo_path": "sources/lucianlabs/demos/interface/151-contribution-heatmap.html",
+  "prompt_chars": 8548
+ },
+ {
+  "id": "152",
+  "slug": "treemap-drilldown",
+  "title": "Drill-down treemap",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "treemap-drilldown",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#152",
+  "prompt_path": "sources/lucianlabs/prompts/interface/152-treemap-drilldown.md",
+  "demo_path": "sources/lucianlabs/demos/interface/152-treemap-drilldown.html",
+  "prompt_chars": 9455
+ },
+ {
+  "id": "153",
+  "slug": "sankey-route",
+  "title": "Visit-to-purchase flow",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "sankey-route",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#153",
+  "prompt_path": "sources/lucianlabs/prompts/interface/153-sankey-route.md",
+  "demo_path": "sources/lucianlabs/demos/interface/153-sankey-route.html",
+  "prompt_chars": 9275
+ },
+ {
+  "id": "154",
+  "slug": "radar-comparison",
+  "title": "Overlapping skill radar",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "radar-comparison",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#154",
+  "prompt_path": "sources/lucianlabs/prompts/interface/154-radar-comparison.md",
+  "demo_path": "sources/lucianlabs/demos/interface/154-radar-comparison.html",
+  "prompt_chars": 9399
+ },
+ {
+  "id": "155",
+  "slug": "scatter-selection",
+  "title": "Scatter plot picker",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "scatter-selection",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#155",
+  "prompt_path": "sources/lucianlabs/prompts/interface/155-scatter-selection.md",
+  "demo_path": "sources/lucianlabs/demos/interface/155-scatter-selection.html",
+  "prompt_chars": 9713
+ },
+ {
+  "id": "156",
+  "slug": "boxplot-outliers",
+  "title": "Box plot outliers",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "boxplot-outliers",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#156",
+  "prompt_path": "sources/lucianlabs/prompts/interface/156-boxplot-outliers.md",
+  "demo_path": "sources/lucianlabs/demos/interface/156-boxplot-outliers.html",
+  "prompt_chars": 9111
+ },
+ {
+  "id": "157",
+  "slug": "stacked-area-isolate",
+  "title": "Stacked usage areas",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "stacked-area-isolate",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#157",
+  "prompt_path": "sources/lucianlabs/prompts/interface/157-stacked-area-isolate.md",
+  "demo_path": "sources/lucianlabs/demos/interface/157-stacked-area-isolate.html",
+  "prompt_chars": 9410
+ },
+ {
+  "id": "158",
+  "slug": "waterfall-breakdown",
+  "title": "Profit waterfall bridge",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "waterfall-breakdown",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#158",
+  "prompt_path": "sources/lucianlabs/prompts/interface/158-waterfall-breakdown.md",
+  "demo_path": "sources/lucianlabs/demos/interface/158-waterfall-breakdown.html",
+  "prompt_chars": 9533
+ },
+ {
+  "id": "159",
+  "slug": "candlestick-detail",
+  "title": "Daily candlesticks",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "candlestick-detail",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#159",
+  "prompt_path": "sources/lucianlabs/prompts/interface/159-candlestick-detail.md",
+  "demo_path": "sources/lucianlabs/demos/interface/159-candlestick-detail.html",
+  "prompt_chars": 9664
+ },
+ {
+  "id": "160",
+  "slug": "funnel-conversion",
+  "title": "Conversion funnel",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "funnel-conversion",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#160",
+  "prompt_path": "sources/lucianlabs/prompts/interface/160-funnel-conversion.md",
+  "demo_path": "sources/lucianlabs/demos/interface/160-funnel-conversion.html",
+  "prompt_chars": 8871
+ },
+ {
+  "id": "161",
+  "slug": "cohort-retention",
+  "title": "Weekly retention cohorts",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "cohort-retention",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#161",
+  "prompt_path": "sources/lucianlabs/prompts/interface/161-cohort-retention.md",
+  "demo_path": "sources/lucianlabs/demos/interface/161-cohort-retention.html",
+  "prompt_chars": 9312
+ },
+ {
+  "id": "162",
+  "slug": "correlation-matrix",
+  "title": "Correlation matrix",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "correlation-matrix",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#162",
+  "prompt_path": "sources/lucianlabs/prompts/interface/162-correlation-matrix.md",
+  "demo_path": "sources/lucianlabs/demos/interface/162-correlation-matrix.html",
+  "prompt_chars": 9041
+ },
+ {
+  "id": "163",
+  "slug": "bullet-target",
+  "title": "Bullet chart target",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "bullet-target",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#163",
+  "prompt_path": "sources/lucianlabs/prompts/interface/163-bullet-target.md",
+  "demo_path": "sources/lucianlabs/demos/interface/163-bullet-target.html",
+  "prompt_chars": 8989
+ },
+ {
+  "id": "164",
+  "slug": "histogram-rebin",
+  "title": "Rebinning histogram",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "histogram-rebin",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#164",
+  "prompt_path": "sources/lucianlabs/prompts/interface/164-histogram-rebin.md",
+  "demo_path": "sources/lucianlabs/demos/interface/164-histogram-rebin.html",
+  "prompt_chars": 9209
+ },
+ {
+  "id": "165",
+  "slug": "forecast-band",
+  "title": "Forecast confidence band",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "forecast-band",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#165",
+  "prompt_path": "sources/lucianlabs/prompts/interface/165-forecast-band.md",
+  "demo_path": "sources/lucianlabs/demos/interface/165-forecast-band.html",
+  "prompt_chars": 9272
+ },
+ {
+  "id": "166",
+  "slug": "streaming-log-filter",
+  "title": "Log error filter",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "streaming-log-filter",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#166",
+  "prompt_path": "sources/lucianlabs/prompts/interface/166-streaming-log-filter.md",
+  "demo_path": "sources/lucianlabs/demos/interface/166-streaming-log-filter.html",
+  "prompt_chars": 9277
+ },
+ {
+  "id": "167",
+  "slug": "trace-spans",
+  "title": "Trace span breakdown",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "trace-spans",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#167",
+  "prompt_path": "sources/lucianlabs/prompts/interface/167-trace-spans.md",
+  "demo_path": "sources/lucianlabs/demos/interface/167-trace-spans.html",
+  "prompt_chars": 9355
+ },
+ {
+  "id": "168",
+  "slug": "request-waterfall",
+  "title": "Request timing waterfall",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "request-waterfall",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#168",
+  "prompt_path": "sources/lucianlabs/prompts/interface/168-request-waterfall.md",
+  "demo_path": "sources/lucianlabs/demos/interface/168-request-waterfall.html",
+  "prompt_chars": 9293
+ },
+ {
+  "id": "169",
+  "slug": "schema-relationships",
+  "title": "Table relation map",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "schema-relationships",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#169",
+  "prompt_path": "sources/lucianlabs/prompts/interface/169-schema-relationships.md",
+  "demo_path": "sources/lucianlabs/demos/interface/169-schema-relationships.html",
+  "prompt_chars": 9621
+ },
+ {
+  "id": "170",
+  "slug": "incident-timeline",
+  "title": "Timeline that zooms into an incident",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "incident-timeline",
+   "zoom",
+   "analytics",
+   "chart",
+   "svg"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#170",
+  "prompt_path": "sources/lucianlabs/prompts/interface/170-incident-timeline.md",
+  "demo_path": "sources/lucianlabs/demos/interface/170-incident-timeline.html",
+  "prompt_chars": 16691
+ },
+ {
+  "id": "171",
+  "slug": "resource-allocation",
+  "title": "Capacity budget split",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "resource-allocation",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#171",
+  "prompt_path": "sources/lucianlabs/prompts/interface/171-resource-allocation.md",
+  "demo_path": "sources/lucianlabs/demos/interface/171-resource-allocation.html",
+  "prompt_chars": 8694
+ },
+ {
+  "id": "172",
+  "slug": "orderbook-depth",
+  "title": "Order book depth",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "orderbook-depth",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#172",
+  "prompt_path": "sources/lucianlabs/prompts/interface/172-orderbook-depth.md",
+  "demo_path": "sources/lucianlabs/demos/interface/172-orderbook-depth.html",
+  "prompt_chars": 9558
+ },
+ {
+  "id": "173",
+  "slug": "compass-calibration",
+  "title": "Compass calibration",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "compass-calibration",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#173",
+  "prompt_path": "sources/lucianlabs/prompts/interface/173-compass-calibration.md",
+  "demo_path": "sources/lucianlabs/demos/interface/173-compass-calibration.html",
+  "prompt_chars": 9837
+ },
+ {
+  "id": "174",
+  "slug": "wind-rose",
+  "title": "Wind rose",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "wind-rose",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#174",
+  "prompt_path": "sources/lucianlabs/prompts/interface/174-wind-rose.md",
+  "demo_path": "sources/lucianlabs/demos/interface/174-wind-rose.html",
+  "prompt_chars": 9981
+ },
+ {
+  "id": "175",
+  "slug": "normalized-comparison",
+  "title": "Normalized comparison rails",
+  "category": "Analytics & Data",
+  "collection": "interface",
+  "tags": [
+   "normalized-comparison",
+   "analytics"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#175",
+  "prompt_path": "sources/lucianlabs/prompts/interface/175-normalized-comparison.md",
+  "demo_path": "sources/lucianlabs/demos/interface/175-normalized-comparison.html",
+  "prompt_chars": 10086
+ },
+ {
+  "id": "176",
+  "slug": "revision-filmstrip",
+  "title": "Version filmstrip",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "revision-filmstrip",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#176",
+  "prompt_path": "sources/lucianlabs/prompts/interface/176-revision-filmstrip.md",
+  "demo_path": "sources/lucianlabs/demos/interface/176-revision-filmstrip.html",
+  "prompt_chars": 10261
+ },
+ {
+  "id": "177",
+  "slug": "history-undo-redo",
+  "title": "Branching edit history",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "history",
+   "undo-redo",
+   "branching",
+   "tree",
+   "editor"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#177",
+  "prompt_path": "sources/lucianlabs/prompts/interface/177-history-undo-redo.md",
+  "demo_path": "sources/lucianlabs/demos/interface/177-history-undo-redo.html",
+  "prompt_chars": 15835
+ },
+ {
+  "id": "178",
+  "slug": "bulk-selection-dock",
+  "title": "Bulk selection dock",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "bulk-selection-dock",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#178",
+  "prompt_path": "sources/lucianlabs/prompts/interface/178-bulk-selection-dock.md",
+  "demo_path": "sources/lucianlabs/demos/interface/178-bulk-selection-dock.html",
+  "prompt_chars": 10357
+ },
+ {
+  "id": "179",
+  "slug": "clipboard-shelf",
+  "title": "Clipboard shelf",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "clipboard-shelf",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#179",
+  "prompt_path": "sources/lucianlabs/prompts/interface/179-clipboard-shelf.md",
+  "demo_path": "sources/lucianlabs/demos/interface/179-clipboard-shelf.html",
+  "prompt_chars": 9882
+ },
+ {
+  "id": "180",
+  "slug": "approval-signoff",
+  "title": "Approval sign-off line",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "approval-signoff",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#180",
+  "prompt_path": "sources/lucianlabs/prompts/interface/180-approval-signoff.md",
+  "demo_path": "sources/lucianlabs/demos/interface/180-approval-signoff.html",
+  "prompt_chars": 9797
+ },
+ {
+  "id": "181",
+  "slug": "capacity-dispatcher",
+  "title": "Workload dispatcher",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "capacity-dispatcher",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#181",
+  "prompt_path": "sources/lucianlabs/prompts/interface/181-capacity-dispatcher.md",
+  "demo_path": "sources/lucianlabs/demos/interface/181-capacity-dispatcher.html",
+  "prompt_chars": 10252
+ },
+ {
+  "id": "182",
+  "slug": "queue-dispenser",
+  "title": "Queue caller",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "queue-dispenser",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#182",
+  "prompt_path": "sources/lucianlabs/prompts/interface/182-queue-dispenser.md",
+  "demo_path": "sources/lucianlabs/demos/interface/182-queue-dispenser.html",
+  "prompt_chars": 9790
+ },
+ {
+  "id": "183",
+  "slug": "ranked-ballot",
+  "title": "Ranked ballot",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "ranked-ballot",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#183",
+  "prompt_path": "sources/lucianlabs/prompts/interface/183-ranked-ballot.md",
+  "demo_path": "sources/lucianlabs/demos/interface/183-ranked-ballot.html",
+  "prompt_chars": 9560
+ },
+ {
+  "id": "184",
+  "slug": "permission-matrix",
+  "title": "Role permission matrix",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "permission-matrix",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#184",
+  "prompt_path": "sources/lucianlabs/prompts/interface/184-permission-matrix.md",
+  "demo_path": "sources/lucianlabs/demos/interface/184-permission-matrix.html",
+  "prompt_chars": 10421
+ },
+ {
+  "id": "185",
+  "slug": "key-rotation",
+  "title": "Key rotation vault",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "key-rotation",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#185",
+  "prompt_path": "sources/lucianlabs/prompts/interface/185-key-rotation.md",
+  "demo_path": "sources/lucianlabs/demos/interface/185-key-rotation.html",
+  "prompt_chars": 9815
+ },
+ {
+  "id": "186",
+  "slug": "device-pairing",
+  "title": "Device pairing radar",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "device-pairing",
+   "radar",
+   "bluetooth",
+   "scan",
+   "connect"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#186",
+  "prompt_path": "sources/lucianlabs/prompts/interface/186-device-pairing.md",
+  "demo_path": "sources/lucianlabs/demos/interface/186-device-pairing.html",
+  "prompt_chars": 15296
+ },
+ {
+  "id": "187",
+  "slug": "checkin-ticket",
+  "title": "Ticket check-in",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "checkin-ticket",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#187",
+  "prompt_path": "sources/lucianlabs/prompts/interface/187-checkin-ticket.md",
+  "demo_path": "sources/lucianlabs/demos/interface/187-checkin-ticket.html",
+  "prompt_chars": 11931
+ },
+ {
+  "id": "188",
+  "slug": "canary-rollout",
+  "title": "Canary rollout",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "canary-rollout",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#188",
+  "prompt_path": "sources/lucianlabs/prompts/interface/188-canary-rollout.md",
+  "demo_path": "sources/lucianlabs/demos/interface/188-canary-rollout.html",
+  "prompt_chars": 10394
+ },
+ {
+  "id": "189",
+  "slug": "release-promotion",
+  "title": "Release promotion gate",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "release-promotion",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#189",
+  "prompt_path": "sources/lucianlabs/prompts/interface/189-release-promotion.md",
+  "demo_path": "sources/lucianlabs/demos/interface/189-release-promotion.html",
+  "prompt_chars": 9771
+ },
+ {
+  "id": "190",
+  "slug": "scheduled-outbox",
+  "title": "Scheduled outbox",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "scheduled-outbox",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#190",
+  "prompt_path": "sources/lucianlabs/prompts/interface/190-scheduled-outbox.md",
+  "demo_path": "sources/lucianlabs/demos/interface/190-scheduled-outbox.html",
+  "prompt_chars": 10500
+ },
+ {
+  "id": "191",
+  "slug": "event-replay",
+  "title": "Event replay tape",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "event-replay",
+   "session-replay",
+   "timeline",
+   "scrub",
+   "debugging"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#191",
+  "prompt_path": "sources/lucianlabs/prompts/interface/191-event-replay.md",
+  "demo_path": "sources/lucianlabs/demos/interface/191-event-replay.html",
+  "prompt_chars": 18308
+ },
+ {
+  "id": "192",
+  "slug": "channel-mixer",
+  "title": "Three-channel mixer",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "channel-mixer",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#192",
+  "prompt_path": "sources/lucianlabs/prompts/interface/192-channel-mixer.md",
+  "demo_path": "sources/lucianlabs/demos/interface/192-channel-mixer.html",
+  "prompt_chars": 10701
+ },
+ {
+  "id": "193",
+  "slug": "breathing-coach",
+  "title": "Breathing pacer",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "breathing-coach",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#193",
+  "prompt_path": "sources/lucianlabs/prompts/interface/193-breathing-coach.md",
+  "demo_path": "sources/lucianlabs/demos/interface/193-breathing-coach.html",
+  "prompt_chars": 10460
+ },
+ {
+  "id": "194",
+  "slug": "wave-loop-editor",
+  "title": "Audio loop region",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "wave-loop-editor",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#194",
+  "prompt_path": "sources/lucianlabs/prompts/interface/194-wave-loop-editor.md",
+  "demo_path": "sources/lucianlabs/demos/interface/194-wave-loop-editor.html",
+  "prompt_chars": 12199
+ },
+ {
+  "id": "195",
+  "slug": "video-chapters",
+  "title": "Video chapter rail",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "video-chapters",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#195",
+  "prompt_path": "sources/lucianlabs/prompts/interface/195-video-chapters.md",
+  "demo_path": "sources/lucianlabs/demos/interface/195-video-chapters.html",
+  "prompt_chars": 10286
+ },
+ {
+  "id": "196",
+  "slug": "control-handoff",
+  "title": "Shared control handoff",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "control-handoff",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#196",
+  "prompt_path": "sources/lucianlabs/prompts/interface/196-control-handoff.md",
+  "demo_path": "sources/lucianlabs/demos/interface/196-control-handoff.html",
+  "prompt_chars": 10355
+ },
+ {
+  "id": "197",
+  "slug": "guided-spotlight",
+  "title": "Guided spotlight tour",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "onboarding",
+   "spotlight",
+   "tour",
+   "coachmark",
+   "overlay"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#197",
+  "prompt_path": "sources/lucianlabs/prompts/interface/197-guided-spotlight.md",
+  "demo_path": "sources/lucianlabs/demos/interface/197-guided-spotlight.html",
+  "prompt_chars": 17127
+ },
+ {
+  "id": "198",
+  "slug": "network-hop-test",
+  "title": "Network path diagnosis",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "network-hop-test",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#198",
+  "prompt_path": "sources/lucianlabs/prompts/interface/198-network-hop-test.md",
+  "demo_path": "sources/lucianlabs/demos/interface/198-network-hop-test.html",
+  "prompt_chars": 10750
+ },
+ {
+  "id": "199",
+  "slug": "checksum-verifier",
+  "title": "Checksum verifier",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "checksum-verifier",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#199",
+  "prompt_path": "sources/lucianlabs/prompts/interface/199-checksum-verifier.md",
+  "demo_path": "sources/lucianlabs/demos/interface/199-checksum-verifier.html",
+  "prompt_chars": 10077
+ },
+ {
+  "id": "200",
+  "slug": "receipt-fold",
+  "title": "Folding receipt",
+  "category": "Workflow & Systems",
+  "collection": "interface",
+  "tags": [
+   "receipt-fold",
+   "new-century"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#200",
+  "prompt_path": "sources/lucianlabs/prompts/interface/200-receipt-fold.md",
+  "demo_path": "sources/lucianlabs/demos/interface/200-receipt-fold.html",
+  "prompt_chars": 10486
+ },
+ {
+  "id": "201",
+  "slug": "automation-flow",
+  "title": "Step-by-step automation flow",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "automation",
+   "workflow",
+   "nodes",
+   "pipeline",
+   "saas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#201",
+  "prompt_path": "sources/lucianlabs/prompts/animation/201-automation-flow.md",
+  "demo_path": "sources/lucianlabs/demos/animation/201-automation-flow.html",
+  "prompt_chars": 14661
+ },
+ {
+  "id": "202",
+  "slug": "iso-data-blocks",
+  "title": "Rising isometric data blocks",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "isometric",
+   "3d",
+   "bar-chart",
+   "svg",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#202",
+  "prompt_path": "sources/lucianlabs/prompts/animation/202-iso-data-blocks.md",
+  "demo_path": "sources/lucianlabs/demos/animation/202-iso-data-blocks.html",
+  "prompt_chars": 13347
+ },
+ {
+  "id": "203",
+  "slug": "product-hotspots",
+  "title": "Leader-lined product hotspots",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "hotspot",
+   "annotation",
+   "product",
+   "color-swatch",
+   "headphones"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#203",
+  "prompt_path": "sources/lucianlabs/prompts/animation/203-product-hotspots.md",
+  "demo_path": "sources/lucianlabs/demos/animation/203-product-hotspots.html",
+  "prompt_chars": 21163
+ },
+ {
+  "id": "204",
+  "slug": "regroup-bubbles",
+  "title": "Regrouping budget bubbles",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "bubble-chart",
+   "force-layout",
+   "grouping",
+   "physics",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#204",
+  "prompt_path": "sources/lucianlabs/prompts/animation/204-regroup-bubbles.md",
+  "demo_path": "sources/lucianlabs/demos/animation/204-regroup-bubbles.html",
+  "prompt_chars": 14237
+ },
+ {
+  "id": "205",
+  "slug": "wave-letters",
+  "title": "Rippling letter logo",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "wave",
+   "spring",
+   "logo",
+   "hover"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#205",
+  "prompt_path": "sources/lucianlabs/prompts/animation/205-wave-letters.md",
+  "demo_path": "sources/lucianlabs/demos/animation/205-wave-letters.html",
+  "prompt_chars": 10410
+ },
+ {
+  "id": "206",
+  "slug": "force-network",
+  "title": "Springy relationship network",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "force-directed",
+   "network",
+   "graph",
+   "physics",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#206",
+  "prompt_path": "sources/lucianlabs/prompts/animation/206-force-network.md",
+  "demo_path": "sources/lucianlabs/demos/animation/206-force-network.html",
+  "prompt_chars": 13763
+ },
+ {
+  "id": "207",
+  "slug": "testimonial-columns",
+  "title": "Two-column testimonial wall",
+  "category": "Social Proof",
+  "collection": "animation",
+  "tags": [
+   "testimonials",
+   "marquee",
+   "reviews",
+   "social-proof",
+   "landing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#207",
+  "prompt_path": "sources/lucianlabs/prompts/animation/207-testimonial-columns.md",
+  "demo_path": "sources/lucianlabs/demos/animation/207-testimonial-columns.html",
+  "prompt_chars": 11803
+ },
+ {
+  "id": "208",
+  "slug": "magnify-dock",
+  "title": "Cursor-magnified app dock",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "dock",
+   "magnify",
+   "hover",
+   "macos",
+   "launcher"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#208",
+  "prompt_path": "sources/lucianlabs/prompts/animation/208-magnify-dock.md",
+  "demo_path": "sources/lucianlabs/demos/animation/208-magnify-dock.html",
+  "prompt_chars": 12663
+ },
+ {
+  "id": "209",
+  "slug": "phone-country-input",
+  "title": "Country-aware phone number input",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "phone",
+   "country-code",
+   "input-mask",
+   "form",
+   "validation"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#209",
+  "prompt_path": "sources/lucianlabs/prompts/animation/209-phone-country-input.md",
+  "demo_path": "sources/lucianlabs/demos/animation/209-phone-country-input.html",
+  "prompt_chars": 14289
+ },
+ {
+  "id": "210",
+  "slug": "avatar-stack-join",
+  "title": "Webinar sign-up card with a growing crowd",
+  "category": "Social Proof",
+  "collection": "animation",
+  "tags": [
+   "avatar-stack",
+   "webinar",
+   "rsvp",
+   "social-proof",
+   "counter"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#210",
+  "prompt_path": "sources/lucianlabs/prompts/animation/210-avatar-stack-join.md",
+  "demo_path": "sources/lucianlabs/demos/animation/210-avatar-stack-join.html",
+  "prompt_chars": 14433
+ },
+ {
+  "id": "211",
+  "slug": "glow-border-cta",
+  "title": "Glow-border sign-up CTA",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "cta",
+   "button",
+   "glow",
+   "conversion",
+   "landing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#211",
+  "prompt_path": "sources/lucianlabs/prompts/animation/211-glow-border-cta.md",
+  "demo_path": "sources/lucianlabs/demos/animation/211-glow-border-cta.html",
+  "prompt_chars": 15561
+ },
+ {
+  "id": "212",
+  "slug": "hide-on-scroll-header",
+  "title": "Hide-on-scroll header",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "header",
+   "navbar",
+   "scroll",
+   "sticky",
+   "navigation"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#212",
+  "prompt_path": "sources/lucianlabs/prompts/animation/212-hide-on-scroll-header.md",
+  "demo_path": "sources/lucianlabs/demos/animation/212-hide-on-scroll-header.html",
+  "prompt_chars": 9863
+ },
+ {
+  "id": "213",
+  "slug": "auto-feature-tabs",
+  "title": "Auto-advancing feature tabs",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "tabs",
+   "autoplay",
+   "features",
+   "progress",
+   "landing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#213",
+  "prompt_path": "sources/lucianlabs/prompts/animation/213-auto-feature-tabs.md",
+  "demo_path": "sources/lucianlabs/demos/animation/213-auto-feature-tabs.html",
+  "prompt_chars": 16819
+ },
+ {
+  "id": "214",
+  "slug": "bento-features",
+  "title": "Living bento feature grid",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "bento",
+   "features",
+   "grid",
+   "hover",
+   "landing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#214",
+  "prompt_path": "sources/lucianlabs/prompts/animation/214-bento-features.md",
+  "demo_path": "sources/lucianlabs/demos/animation/214-bento-features.html",
+  "prompt_chars": 14059
+ },
+ {
+  "id": "215",
+  "slug": "support-chat-widget",
+  "title": "Support chat from a launcher bubble",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "chat-widget",
+   "support",
+   "launcher",
+   "chatbot",
+   "help"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#215",
+  "prompt_path": "sources/lucianlabs/prompts/animation/215-support-chat-widget.md",
+  "demo_path": "sources/lucianlabs/demos/animation/215-support-chat-widget.html",
+  "prompt_chars": 14712
+ },
+ {
+  "id": "216",
+  "slug": "hero-stagger-intro",
+  "title": "Staggered hero entrance",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "hero",
+   "landing",
+   "stagger",
+   "entrance",
+   "reveal"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#216",
+  "prompt_path": "sources/lucianlabs/prompts/animation/216-hero-stagger-intro.md",
+  "demo_path": "sources/lucianlabs/demos/animation/216-hero-stagger-intro.html",
+  "prompt_chars": 12663
+ },
+ {
+  "id": "217",
+  "slug": "plan-compare-table",
+  "title": "Plan comparison with differences only",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "pricing",
+   "comparison-table",
+   "sticky-header",
+   "filter",
+   "saas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#217",
+  "prompt_path": "sources/lucianlabs/prompts/animation/217-plan-compare-table.md",
+  "demo_path": "sources/lucianlabs/demos/animation/217-plan-compare-table.html",
+  "prompt_chars": 13137
+ },
+ {
+  "id": "218",
+  "slug": "docking-mini-player",
+  "title": "Mini player that docks on scroll",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "audio-player",
+   "mini-player",
+   "sticky",
+   "podcast",
+   "media"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#218",
+  "prompt_path": "sources/lucianlabs/prompts/animation/218-docking-mini-player.md",
+  "demo_path": "sources/lucianlabs/demos/animation/218-docking-mini-player.html",
+  "prompt_chars": 14024
+ },
+ {
+  "id": "219",
+  "slug": "circular-theme-switch",
+  "title": "Circular-reveal dark mode",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "dark-mode",
+   "theme",
+   "toggle",
+   "circular-reveal",
+   "navigation"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#219",
+  "prompt_path": "sources/lucianlabs/prompts/animation/219-circular-theme-switch.md",
+  "demo_path": "sources/lucianlabs/demos/animation/219-circular-theme-switch.html",
+  "prompt_chars": 10847
+ },
+ {
+  "id": "220",
+  "slug": "quote-share-tooltip",
+  "title": "Selection quote-share tooltip",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text-selection",
+   "tooltip",
+   "share",
+   "highlight",
+   "blog"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#220",
+  "prompt_path": "sources/lucianlabs/prompts/animation/220-quote-share-tooltip.md",
+  "demo_path": "sources/lucianlabs/demos/animation/220-quote-share-tooltip.html",
+  "prompt_chars": 12903
+ },
+ {
+  "id": "221",
+  "slug": "sticky-buy-sheet",
+  "title": "Sticky buy bar with option sheet",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "sticky-cta",
+   "bottom-sheet",
+   "product-page",
+   "ecommerce",
+   "options"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#221",
+  "prompt_path": "sources/lucianlabs/prompts/animation/221-sticky-buy-sheet.md",
+  "demo_path": "sources/lucianlabs/demos/animation/221-sticky-buy-sheet.html",
+  "prompt_chars": 15543
+ },
+ {
+  "id": "222",
+  "slug": "repo-star-button",
+  "title": "Open-source star button with star history",
+  "category": "Social Proof",
+  "collection": "animation",
+  "tags": [
+   "github",
+   "star",
+   "open-source",
+   "social-proof",
+   "counter"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#222",
+  "prompt_path": "sources/lucianlabs/prompts/animation/222-repo-star-button.md",
+  "demo_path": "sources/lucianlabs/demos/animation/222-repo-star-button.html",
+  "prompt_chars": 16966
+ },
+ {
+  "id": "223",
+  "slug": "sticky-stack-cards",
+  "title": "Shrinking sticky card stack",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "sticky",
+   "stack",
+   "cards",
+   "features"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#223",
+  "prompt_path": "sources/lucianlabs/prompts/animation/223-sticky-stack-cards.md",
+  "demo_path": "sources/lucianlabs/demos/animation/223-sticky-stack-cards.html",
+  "prompt_chars": 9465
+ },
+ {
+  "id": "224",
+  "slug": "cited-ai-answer",
+  "title": "AI answer with traceable sources",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "ai",
+   "citations",
+   "sources",
+   "answer",
+   "search"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#224",
+  "prompt_path": "sources/lucianlabs/prompts/animation/224-cited-ai-answer.md",
+  "demo_path": "sources/lucianlabs/demos/animation/224-cited-ai-answer.html",
+  "prompt_chars": 13666
+ },
+ {
+  "id": "225",
+  "slug": "cookie-consent",
+  "title": "Cookie consent with a bite",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "cookie",
+   "consent",
+   "banner",
+   "privacy",
+   "gdpr"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#225",
+  "prompt_path": "sources/lucianlabs/prompts/animation/225-cookie-consent.md",
+  "demo_path": "sources/lucianlabs/demos/animation/225-cookie-consent.html",
+  "prompt_chars": 14114
+ },
+ {
+  "id": "226",
+  "slug": "grid-beam-hero",
+  "title": "Grid-beam hero background",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "hero",
+   "background",
+   "grid",
+   "beams",
+   "spotlight"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#226",
+  "prompt_path": "sources/lucianlabs/prompts/animation/226-grid-beam-hero.md",
+  "demo_path": "sources/lucianlabs/demos/animation/226-grid-beam-hero.html",
+  "prompt_chars": 11274
+ },
+ {
+  "id": "227",
+  "slug": "live-orders-table",
+  "title": "Live table with incoming orders",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "data-table",
+   "realtime",
+   "sorting",
+   "dashboard",
+   "orders"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#227",
+  "prompt_path": "sources/lucianlabs/prompts/animation/227-live-orders-table.md",
+  "demo_path": "sources/lucianlabs/demos/animation/227-live-orders-table.html",
+  "prompt_chars": 13361
+ },
+ {
+  "id": "228",
+  "slug": "glow-border-cards",
+  "title": "Cursor-lit glowing card borders",
+  "category": "Cursor & Hover",
+  "collection": "animation",
+  "tags": [
+   "glow",
+   "border",
+   "spotlight",
+   "cards",
+   "hover"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#228",
+  "prompt_path": "sources/lucianlabs/prompts/animation/228-glow-border-cards.md",
+  "demo_path": "sources/lucianlabs/demos/animation/228-glow-border-cards.html",
+  "prompt_chars": 9643
+ },
+ {
+  "id": "229",
+  "slug": "terminal-demo",
+  "title": "Self-typing terminal demo",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "terminal",
+   "cli",
+   "typing",
+   "onboarding",
+   "landing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#229",
+  "prompt_path": "sources/lucianlabs/prompts/animation/229-terminal-demo.md",
+  "demo_path": "sources/lucianlabs/demos/animation/229-terminal-demo.html",
+  "prompt_chars": 13672
+ },
+ {
+  "id": "230",
+  "slug": "promo-code-summary",
+  "title": "Order summary that recalculates with a promo code",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "checkout",
+   "promo-code",
+   "discount",
+   "order-summary",
+   "ecommerce"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#230",
+  "prompt_path": "sources/lucianlabs/prompts/animation/230-promo-code-summary.md",
+  "demo_path": "sources/lucianlabs/demos/animation/230-promo-code-summary.html",
+  "prompt_chars": 17206
+ },
+ {
+  "id": "231",
+  "slug": "tilt-to-flat-screen",
+  "title": "Tilt-to-flat product screen",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "hero",
+   "scroll",
+   "perspective",
+   "product-shot",
+   "landing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#231",
+  "prompt_path": "sources/lucianlabs/prompts/animation/231-tilt-to-flat-screen.md",
+  "demo_path": "sources/lucianlabs/demos/animation/231-tilt-to-flat-screen.html",
+  "prompt_chars": 11795
+ },
+ {
+  "id": "232",
+  "slug": "passkey-signin",
+  "title": "One-touch passkey sign-in",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "passkey",
+   "login",
+   "biometric",
+   "webauthn",
+   "auth"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#232",
+  "prompt_path": "sources/lucianlabs/prompts/animation/232-passkey-signin.md",
+  "demo_path": "sources/lucianlabs/demos/animation/232-passkey-signin.html",
+  "prompt_chars": 12644
+ },
+ {
+  "id": "233",
+  "slug": "ai-prompt-hero",
+  "title": "Rotating-example AI prompt box",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "ai",
+   "prompt",
+   "hero",
+   "placeholder",
+   "input"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#233",
+  "prompt_path": "sources/lucianlabs/prompts/animation/233-ai-prompt-hero.md",
+  "demo_path": "sources/lucianlabs/demos/animation/233-ai-prompt-hero.html",
+  "prompt_chars": 14850
+ },
+ {
+  "id": "234",
+  "slug": "logo-wall-cycle",
+  "title": "Cycling customer logo wall",
+  "category": "Social Proof",
+  "collection": "animation",
+  "tags": [
+   "logos",
+   "social-proof",
+   "customers",
+   "cycle",
+   "landing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#234",
+  "prompt_path": "sources/lucianlabs/prompts/animation/234-logo-wall-cycle.md",
+  "demo_path": "sources/lucianlabs/demos/animation/234-logo-wall-cycle.html",
+  "prompt_chars": 12953
+ },
+ {
+  "id": "235",
+  "slug": "ai-tldr",
+  "title": "AI TL;DR that folds long text",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "ai",
+   "summary",
+   "tldr",
+   "highlight",
+   "productivity"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#235",
+  "prompt_path": "sources/lucianlabs/prompts/animation/235-ai-tldr.md",
+  "demo_path": "sources/lucianlabs/demos/animation/235-ai-tldr.html",
+  "prompt_chars": 13683
+ },
+ {
+  "id": "236",
+  "slug": "reveal-footer",
+  "title": "Curtain-reveal footer",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "footer",
+   "reveal",
+   "scroll",
+   "newsletter",
+   "layout"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#236",
+  "prompt_path": "sources/lucianlabs/prompts/animation/236-reveal-footer.md",
+  "demo_path": "sources/lucianlabs/demos/animation/236-reveal-footer.html",
+  "prompt_chars": 10995
+ },
+ {
+  "id": "237",
+  "slug": "line-mask-reveal",
+  "title": "Line-by-line mask reveal headline",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "mask",
+   "reveal",
+   "headline",
+   "stagger"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#237",
+  "prompt_path": "sources/lucianlabs/prompts/animation/237-line-mask-reveal.md",
+  "demo_path": "sources/lucianlabs/demos/animation/237-line-mask-reveal.html",
+  "prompt_chars": 11168
+ },
+ {
+  "id": "238",
+  "slug": "status-page",
+  "title": "Status page with uptime bars",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "status-page",
+   "uptime",
+   "incidents",
+   "monitoring",
+   "saas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#238",
+  "prompt_path": "sources/lucianlabs/prompts/animation/238-status-page.md",
+  "demo_path": "sources/lucianlabs/demos/animation/238-status-page.html",
+  "prompt_chars": 13785
+ },
+ {
+  "id": "239",
+  "slug": "api-playground",
+  "title": "Try-it API example",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "api",
+   "code-sample",
+   "docs",
+   "request",
+   "developer"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#239",
+  "prompt_path": "sources/lucianlabs/prompts/animation/239-api-playground.md",
+  "demo_path": "sources/lucianlabs/demos/animation/239-api-playground.html",
+  "prompt_chars": 14477
+ },
+ {
+  "id": "240",
+  "slug": "cart-drawer",
+  "title": "Cart drawer with free-shipping bar",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "cart",
+   "drawer",
+   "free-shipping",
+   "ecommerce",
+   "quantity"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#240",
+  "prompt_path": "sources/lucianlabs/prompts/animation/240-cart-drawer.md",
+  "demo_path": "sources/lucianlabs/demos/animation/240-cart-drawer.html",
+  "prompt_chars": 16819
+ },
+ {
+  "id": "241",
+  "slug": "horizontal-pin-track",
+  "title": "Vertical scroll, horizontal track",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "horizontal",
+   "pin",
+   "sticky",
+   "story"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#241",
+  "prompt_path": "sources/lucianlabs/prompts/animation/241-horizontal-pin-track.md",
+  "demo_path": "sources/lucianlabs/demos/animation/241-horizontal-pin-track.html",
+  "prompt_chars": 11189
+ },
+ {
+  "id": "242",
+  "slug": "category-chip-scrollspy",
+  "title": "Category chip bar that follows scroll",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "scrollspy",
+   "tabs",
+   "sticky",
+   "menu",
+   "food-delivery"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#242",
+  "prompt_path": "sources/lucianlabs/prompts/animation/242-category-chip-scrollspy.md",
+  "demo_path": "sources/lucianlabs/demos/animation/242-category-chip-scrollspy.html",
+  "prompt_chars": 12281
+ },
+ {
+  "id": "243",
+  "slug": "trust-badges",
+  "title": "Tap-to-verify security badges",
+  "category": "Social Proof",
+  "collection": "animation",
+  "tags": [
+   "trust",
+   "security",
+   "badges",
+   "compliance",
+   "saas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#243",
+  "prompt_path": "sources/lucianlabs/prompts/animation/243-trust-badges.md",
+  "demo_path": "sources/lucianlabs/demos/animation/243-trust-badges.html",
+  "prompt_chars": 11671
+ },
+ {
+  "id": "244",
+  "slug": "form-error-jump",
+  "title": "Form validation that takes you to errors",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "validation",
+   "form",
+   "error-summary",
+   "accessibility",
+   "signup"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#244",
+  "prompt_path": "sources/lucianlabs/prompts/animation/244-form-error-jump.md",
+  "demo_path": "sources/lucianlabs/demos/animation/244-form-error-jump.html",
+  "prompt_chars": 14808
+ },
+ {
+  "id": "245",
+  "slug": "text-scramble-decode",
+  "title": "Scramble-decoding headline",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "scramble",
+   "decode",
+   "headline",
+   "glitch"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#245",
+  "prompt_path": "sources/lucianlabs/prompts/animation/245-text-scramble-decode.md",
+  "demo_path": "sources/lucianlabs/demos/animation/245-text-scramble-decode.html",
+  "prompt_chars": 12711
+ },
+ {
+  "id": "246",
+  "slug": "bar-chart-race",
+  "title": "Rank-swapping bar race",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "bar-chart-race",
+   "ranking",
+   "timeline",
+   "scrubber",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#246",
+  "prompt_path": "sources/lucianlabs/prompts/animation/246-bar-chart-race.md",
+  "demo_path": "sources/lucianlabs/demos/animation/246-bar-chart-race.html",
+  "prompt_chars": 13677
+ },
+ {
+  "id": "247",
+  "slug": "scroll-expand-video",
+  "title": "Scroll-to-fill intro video",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "video",
+   "scroll",
+   "expand",
+   "hero",
+   "landing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#247",
+  "prompt_path": "sources/lucianlabs/prompts/animation/247-scroll-expand-video.md",
+  "demo_path": "sources/lucianlabs/demos/animation/247-scroll-expand-video.html",
+  "prompt_chars": 11917
+ },
+ {
+  "id": "248",
+  "slug": "feature-vote-board",
+  "title": "Feature request board that reorders on votes",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "voting",
+   "roadmap",
+   "feedback",
+   "reorder",
+   "saas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#248",
+  "prompt_path": "sources/lucianlabs/prompts/animation/248-feature-vote-board.md",
+  "demo_path": "sources/lucianlabs/demos/animation/248-feature-vote-board.html",
+  "prompt_chars": 12691
+ },
+ {
+  "id": "249",
+  "slug": "seo-preview",
+  "title": "Live search result preview",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "seo",
+   "meta-tags",
+   "og-preview",
+   "search-snippet",
+   "builder"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#249",
+  "prompt_path": "sources/lucianlabs/prompts/animation/249-seo-preview.md",
+  "demo_path": "sources/lucianlabs/demos/animation/249-seo-preview.html",
+  "prompt_chars": 12408
+ },
+ {
+  "id": "250",
+  "slug": "unsaved-changes-bar",
+  "title": "Unsaved changes bar",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "save-bar",
+   "dirty-state",
+   "settings",
+   "form",
+   "saas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#250",
+  "prompt_path": "sources/lucianlabs/prompts/animation/250-unsaved-changes-bar.md",
+  "demo_path": "sources/lucianlabs/demos/animation/250-unsaved-changes-bar.html",
+  "prompt_chars": 13627
+ },
+ {
+  "id": "251",
+  "slug": "stagger-reveal-grid",
+  "title": "Staggered scroll-in feature cards",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll-reveal",
+   "stagger",
+   "features",
+   "grid",
+   "landing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#251",
+  "prompt_path": "sources/lucianlabs/prompts/animation/251-stagger-reveal-grid.md",
+  "demo_path": "sources/lucianlabs/demos/animation/251-stagger-reveal-grid.html",
+  "prompt_chars": 11255
+ },
+ {
+  "id": "252",
+  "slug": "announcement-pill",
+  "title": "Shining expandable announcement pill",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "announcement",
+   "badge",
+   "hero",
+   "shine",
+   "changelog"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#252",
+  "prompt_path": "sources/lucianlabs/prompts/animation/252-announcement-pill.md",
+  "demo_path": "sources/lucianlabs/demos/animation/252-announcement-pill.html",
+  "prompt_chars": 12653
+ },
+ {
+  "id": "253",
+  "slug": "recent-purchase-toast",
+  "title": "Recent purchase notification",
+  "category": "Social Proof",
+  "collection": "animation",
+  "tags": [
+   "social-proof",
+   "toast",
+   "fomo",
+   "ecommerce",
+   "notification"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#253",
+  "prompt_path": "sources/lucianlabs/prompts/animation/253-recent-purchase-toast.md",
+  "demo_path": "sources/lucianlabs/demos/animation/253-recent-purchase-toast.html",
+  "prompt_chars": 12767
+ },
+ {
+  "id": "254",
+  "slug": "share-dialog",
+  "title": "Share dialog with link access",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "share",
+   "permissions",
+   "copy-link",
+   "dialog",
+   "collaboration"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#254",
+  "prompt_path": "sources/lucianlabs/prompts/animation/254-share-dialog.md",
+  "demo_path": "sources/lucianlabs/demos/animation/254-share-dialog.html",
+  "prompt_chars": 15452
+ },
+ {
+  "id": "255",
+  "slug": "kanban-drag",
+  "title": "Drag-to-move kanban cards",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "kanban",
+   "drag-and-drop",
+   "board",
+   "tasks",
+   "productivity"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#255",
+  "prompt_path": "sources/lucianlabs/prompts/animation/255-kanban-drag.md",
+  "demo_path": "sources/lucianlabs/demos/animation/255-kanban-drag.html",
+  "prompt_chars": 13599
+ },
+ {
+  "id": "256",
+  "slug": "site-preloader",
+  "title": "Count-up site preloader",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "preloader",
+   "loading",
+   "portfolio",
+   "reveal",
+   "intro"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#256",
+  "prompt_path": "sources/lucianlabs/prompts/animation/256-site-preloader.md",
+  "demo_path": "sources/lucianlabs/demos/animation/256-site-preloader.html",
+  "prompt_chars": 11254
+ },
+ {
+  "id": "257",
+  "slug": "responsive-preview",
+  "title": "Drag-to-resize responsive preview",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "responsive",
+   "preview",
+   "breakpoints",
+   "builder",
+   "container-query"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#257",
+  "prompt_path": "sources/lucianlabs/prompts/animation/257-responsive-preview.md",
+  "demo_path": "sources/lucianlabs/demos/animation/257-responsive-preview.html",
+  "prompt_chars": 14089
+ },
+ {
+  "id": "258",
+  "slug": "blur-up-gallery",
+  "title": "Blur-up photo loading",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "image-loading",
+   "blur-up",
+   "lqip",
+   "gallery",
+   "performance"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#258",
+  "prompt_path": "sources/lucianlabs/prompts/animation/258-blur-up-gallery.md",
+  "demo_path": "sources/lucianlabs/demos/animation/258-blur-up-gallery.html",
+  "prompt_chars": 15107
+ },
+ {
+  "id": "259",
+  "slug": "article-paywall",
+  "title": "Mid-article membership paywall",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "paywall",
+   "membership",
+   "blog",
+   "unlock",
+   "subscription"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#259",
+  "prompt_path": "sources/lucianlabs/prompts/animation/259-article-paywall.md",
+  "demo_path": "sources/lucianlabs/demos/animation/259-article-paywall.html",
+  "prompt_chars": 14011
+ },
+ {
+  "id": "260",
+  "slug": "word-fill-paragraph",
+  "title": "Scroll-filled sentence",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "text",
+   "reveal",
+   "reading",
+   "story"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#260",
+  "prompt_path": "sources/lucianlabs/prompts/animation/260-word-fill-paragraph.md",
+  "demo_path": "sources/lucianlabs/demos/animation/260-word-fill-paragraph.html",
+  "prompt_chars": 9007
+ },
+ {
+  "id": "261",
+  "slug": "rating-breakdown",
+  "title": "Review filter by star bars",
+  "category": "Social Proof",
+  "collection": "animation",
+  "tags": [
+   "reviews",
+   "rating",
+   "histogram",
+   "filter",
+   "ecommerce"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#261",
+  "prompt_path": "sources/lucianlabs/prompts/animation/261-rating-breakdown.md",
+  "demo_path": "sources/lucianlabs/demos/animation/261-rating-breakdown.html",
+  "prompt_chars": 12800
+ },
+ {
+  "id": "262",
+  "slug": "store-locator",
+  "title": "Store locator map synced with a list",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "store-locator",
+   "map",
+   "list",
+   "sync",
+   "location"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#262",
+  "prompt_path": "sources/lucianlabs/prompts/animation/262-store-locator.md",
+  "demo_path": "sources/lucianlabs/demos/animation/262-store-locator.html",
+  "prompt_chars": 14348
+ },
+ {
+  "id": "263",
+  "slug": "shimmer-gradient-text",
+  "title": "Flowing gradient headline and thinking text",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "gradient-text",
+   "shimmer",
+   "headline",
+   "ai",
+   "loading-text"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#263",
+  "prompt_path": "sources/lucianlabs/prompts/animation/263-shimmer-gradient-text.md",
+  "demo_path": "sources/lucianlabs/demos/animation/263-shimmer-gradient-text.html",
+  "prompt_chars": 10304
+ },
+ {
+  "id": "264",
+  "slug": "email-typo-fix",
+  "title": "Email input that catches typos",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "email",
+   "typo",
+   "validation",
+   "autocomplete",
+   "signup"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#264",
+  "prompt_path": "sources/lucianlabs/prompts/animation/264-email-typo-fix.md",
+  "demo_path": "sources/lucianlabs/demos/animation/264-email-typo-fix.html",
+  "prompt_chars": 13009
+ },
+ {
+  "id": "265",
+  "slug": "delivery-cutoff",
+  "title": "Delivery promise with order cutoff",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "delivery",
+   "countdown",
+   "shipping",
+   "eta",
+   "ecommerce"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#265",
+  "prompt_path": "sources/lucianlabs/prompts/animation/265-delivery-cutoff.md",
+  "demo_path": "sources/lucianlabs/demos/animation/265-delivery-cutoff.html",
+  "prompt_chars": 15213
+ },
+ {
+  "id": "266",
+  "slug": "palette-generator",
+  "title": "Shuffle-to-generate color palette",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "palette",
+   "color",
+   "generator",
+   "design-tokens",
+   "builder"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#266",
+  "prompt_path": "sources/lucianlabs/prompts/animation/266-palette-generator.md",
+  "demo_path": "sources/lucianlabs/demos/animation/266-palette-generator.html",
+  "prompt_chars": 13463
+ },
+ {
+  "id": "267",
+  "slug": "locale-switch",
+  "title": "Language switch with text swap",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "i18n",
+   "language",
+   "locale",
+   "dropdown",
+   "website"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#267",
+  "prompt_path": "sources/lucianlabs/prompts/animation/267-locale-switch.md",
+  "demo_path": "sources/lucianlabs/demos/animation/267-locale-switch.html",
+  "prompt_chars": 12842
+ },
+ {
+  "id": "268",
+  "slug": "mention-comment",
+  "title": "Mention list that follows @",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "mention",
+   "comment",
+   "autocomplete",
+   "collaboration",
+   "textarea"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#268",
+  "prompt_path": "sources/lucianlabs/prompts/animation/268-mention-comment.md",
+  "demo_path": "sources/lucianlabs/demos/animation/268-mention-comment.html",
+  "prompt_chars": 14886
+ },
+ {
+  "id": "269",
+  "slug": "type-to-delete",
+  "title": "Type-the-name delete confirmation",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "delete",
+   "confirm",
+   "destructive",
+   "modal",
+   "saas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#269",
+  "prompt_path": "sources/lucianlabs/prompts/animation/269-type-to-delete.md",
+  "demo_path": "sources/lucianlabs/demos/animation/269-type-to-delete.html",
+  "prompt_chars": 15454
+ },
+ {
+  "id": "270",
+  "slug": "floating-ui-hero",
+  "title": "Cursor-parallax floating UI hero",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "hero",
+   "parallax",
+   "floating",
+   "composition",
+   "landing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#270",
+  "prompt_path": "sources/lucianlabs/prompts/animation/270-floating-ui-hero.md",
+  "demo_path": "sources/lucianlabs/demos/animation/270-floating-ui-hero.html",
+  "prompt_chars": 11007
+ },
+ {
+  "id": "271",
+  "slug": "changelog-filter",
+  "title": "Filterable changelog",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "changelog",
+   "release-notes",
+   "filter",
+   "timeline",
+   "saas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#271",
+  "prompt_path": "sources/lucianlabs/prompts/animation/271-changelog-filter.md",
+  "demo_path": "sources/lucianlabs/demos/animation/271-changelog-filter.html",
+  "prompt_chars": 13333
+ },
+ {
+  "id": "272",
+  "slug": "install-command-tabs",
+  "title": "Install command tabs by package manager",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "install",
+   "code",
+   "copy",
+   "tabs",
+   "docs"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#272",
+  "prompt_path": "sources/lucianlabs/prompts/animation/272-install-command-tabs.md",
+  "demo_path": "sources/lucianlabs/demos/animation/272-install-command-tabs.html",
+  "prompt_chars": 13398
+ },
+ {
+  "id": "273",
+  "slug": "detail-side-panel",
+  "title": "Detail side panel from a list row",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "side-panel",
+   "master-detail",
+   "drawer",
+   "crm",
+   "list"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#273",
+  "prompt_path": "sources/lucianlabs/prompts/animation/273-detail-side-panel.md",
+  "demo_path": "sources/lucianlabs/demos/animation/273-detail-side-panel.html",
+  "prompt_chars": 14697
+ },
+ {
+  "id": "274",
+  "slug": "morphing-button-form",
+  "title": "Button that morphs into a form",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "morph",
+   "button",
+   "form",
+   "newsletter",
+   "feedback"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#274",
+  "prompt_path": "sources/lucianlabs/prompts/animation/274-morphing-button-form.md",
+  "demo_path": "sources/lucianlabs/demos/animation/274-morphing-button-form.html",
+  "prompt_chars": 11935
+ },
+ {
+  "id": "275",
+  "slug": "scrollspy-toc",
+  "title": "Scroll-following table of contents",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "toc",
+   "scrollspy",
+   "navigation",
+   "docs"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#275",
+  "prompt_path": "sources/lucianlabs/prompts/animation/275-scrollspy-toc.md",
+  "demo_path": "sources/lucianlabs/demos/animation/275-scrollspy-toc.html",
+  "prompt_chars": 10202
+ },
+ {
+  "id": "276",
+  "slug": "hover-preview-list",
+  "title": "Photo-following work list",
+  "category": "Cursor & Hover",
+  "collection": "animation",
+  "tags": [
+   "hover-preview",
+   "list",
+   "editorial",
+   "cursor",
+   "follow"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#276",
+  "prompt_path": "sources/lucianlabs/prompts/animation/276-hover-preview-list.md",
+  "demo_path": "sources/lucianlabs/demos/animation/276-hover-preview-list.html",
+  "prompt_chars": 11501
+ },
+ {
+  "id": "277",
+  "slug": "speed-gauge",
+  "title": "Jittery-needle speed test",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "speed-test",
+   "gauge",
+   "needle",
+   "network",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#277",
+  "prompt_path": "sources/lucianlabs/prompts/animation/277-speed-gauge.md",
+  "demo_path": "sources/lucianlabs/demos/animation/277-speed-gauge.html",
+  "prompt_chars": 16070
+ },
+ {
+  "id": "278",
+  "slug": "seat-price-calculator",
+  "title": "Seat-based price calculator",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "pricing",
+   "calculator",
+   "slider",
+   "plans",
+   "saas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#278",
+  "prompt_path": "sources/lucianlabs/prompts/animation/278-seat-price-calculator.md",
+  "demo_path": "sources/lucianlabs/demos/animation/278-seat-price-calculator.html",
+  "prompt_chars": 16580
+ },
+ {
+  "id": "279",
+  "slug": "slot-booking",
+  "title": "Booking slot that splits to confirm",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "booking",
+   "calendar",
+   "time-slot",
+   "scheduling",
+   "form"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#279",
+  "prompt_path": "sources/lucianlabs/prompts/animation/279-slot-booking.md",
+  "demo_path": "sources/lucianlabs/demos/animation/279-slot-booking.html",
+  "prompt_chars": 12692
+ },
+ {
+  "id": "280",
+  "slug": "ai-image-generate",
+  "title": "AI image generation from noise",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "ai",
+   "image-generation",
+   "diffusion",
+   "prompt",
+   "creative"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#280",
+  "prompt_path": "sources/lucianlabs/prompts/animation/280-ai-image-generate.md",
+  "demo_path": "sources/lucianlabs/demos/animation/280-ai-image-generate.html",
+  "prompt_chars": 14509
+ },
+ {
+  "id": "281",
+  "slug": "marker-highlight",
+  "title": "Sweeping highlighter",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "highlight",
+   "marker",
+   "emphasis",
+   "reading"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#281",
+  "prompt_path": "sources/lucianlabs/prompts/animation/281-marker-highlight.md",
+  "demo_path": "sources/lucianlabs/demos/animation/281-marker-highlight.html",
+  "prompt_chars": 9953
+ },
+ {
+  "id": "282",
+  "slug": "clip-reveal-photos",
+  "title": "Widening photo reveal",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "reveal",
+   "clip-path",
+   "gallery",
+   "photo"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#282",
+  "prompt_path": "sources/lucianlabs/prompts/animation/282-clip-reveal-photos.md",
+  "demo_path": "sources/lucianlabs/demos/animation/282-clip-reveal-photos.html",
+  "prompt_chars": 8937
+ },
+ {
+  "id": "283",
+  "slug": "cancel-save-offer",
+  "title": "Save offer before canceling",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "churn",
+   "retention",
+   "subscription",
+   "modal",
+   "saas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#283",
+  "prompt_path": "sources/lucianlabs/prompts/animation/283-cancel-save-offer.md",
+  "demo_path": "sources/lucianlabs/demos/animation/283-cancel-save-offer.html",
+  "prompt_chars": 16034
+ },
+ {
+  "id": "284",
+  "slug": "domain-connect",
+  "title": "Step-by-step domain connection",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "domain",
+   "dns",
+   "ssl",
+   "verification",
+   "hosting"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#284",
+  "prompt_path": "sources/lucianlabs/prompts/animation/284-domain-connect.md",
+  "demo_path": "sources/lucianlabs/demos/animation/284-domain-connect.html",
+  "prompt_chars": 13717
+ },
+ {
+  "id": "285",
+  "slug": "team-invite",
+  "title": "Team invites through to acceptance",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "team",
+   "invite",
+   "members",
+   "roles",
+   "saas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#285",
+  "prompt_path": "sources/lucianlabs/prompts/animation/285-team-invite.md",
+  "demo_path": "sources/lucianlabs/demos/animation/285-team-invite.html",
+  "prompt_chars": 13125
+ },
+ {
+  "id": "286",
+  "slug": "mobile-drill-menu",
+  "title": "Step-in mobile submenu",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "mobile-menu",
+   "drilldown",
+   "navigation",
+   "hamburger",
+   "submenu"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#286",
+  "prompt_path": "sources/lucianlabs/prompts/animation/286-mobile-drill-menu.md",
+  "demo_path": "sources/lucianlabs/demos/animation/286-mobile-drill-menu.html",
+  "prompt_chars": 12912
+ },
+ {
+  "id": "287",
+  "slug": "page-speed-audit",
+  "title": "Filmstrip page speed audit",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "lighthouse",
+   "performance",
+   "audit",
+   "web-vitals",
+   "builder"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#287",
+  "prompt_path": "sources/lucianlabs/prompts/animation/287-page-speed-audit.md",
+  "demo_path": "sources/lucianlabs/demos/animation/287-page-speed-audit.html",
+  "prompt_chars": 13630
+ },
+ {
+  "id": "288",
+  "slug": "detail-expand",
+  "title": "Expandable product details",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "read-more",
+   "expand",
+   "product-detail",
+   "ecommerce",
+   "collapse"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#288",
+  "prompt_path": "sources/lucianlabs/prompts/animation/288-detail-expand.md",
+  "demo_path": "sources/lucianlabs/demos/animation/288-detail-expand.html",
+  "prompt_chars": 12983
+ },
+ {
+  "id": "289",
+  "slug": "a11y-panel",
+  "title": "Live display settings panel",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "accessibility",
+   "settings",
+   "font-size",
+   "contrast",
+   "a11y"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#289",
+  "prompt_path": "sources/lucianlabs/prompts/animation/289-a11y-panel.md",
+  "demo_path": "sources/lucianlabs/demos/animation/289-a11y-panel.html",
+  "prompt_chars": 12728
+ },
+ {
+  "id": "290",
+  "slug": "notification-priming",
+  "title": "Ask-first notification permission",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "notifications",
+   "permission",
+   "priming",
+   "onboarding",
+   "web-push"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#290",
+  "prompt_path": "sources/lucianlabs/prompts/animation/290-notification-priming.md",
+  "demo_path": "sources/lucianlabs/demos/animation/290-notification-priming.html",
+  "prompt_chars": 13519
+ },
+ {
+  "id": "291",
+  "slug": "link-shortener",
+  "title": "Link shortener that folds long URLs",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "url-shortener",
+   "links",
+   "copy",
+   "analytics",
+   "marketing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#291",
+  "prompt_path": "sources/lucianlabs/prompts/animation/291-link-shortener.md",
+  "demo_path": "sources/lucianlabs/demos/animation/291-link-shortener.html",
+  "prompt_chars": 14195
+ },
+ {
+  "id": "292",
+  "slug": "filter-shuffle-grid",
+  "title": "Filter-and-reflow gallery",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "filter",
+   "shuffle",
+   "grid",
+   "layout",
+   "transition"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#292",
+  "prompt_path": "sources/lucianlabs/prompts/animation/292-filter-shuffle-grid.md",
+  "demo_path": "sources/lucianlabs/demos/animation/292-filter-shuffle-grid.html",
+  "prompt_chars": 9619
+ },
+ {
+  "id": "293",
+  "slug": "compare-tray",
+  "title": "Product compare tray",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "compare",
+   "tray",
+   "ecommerce",
+   "specs",
+   "table"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#293",
+  "prompt_path": "sources/lucianlabs/prompts/animation/293-compare-tray.md",
+  "demo_path": "sources/lucianlabs/demos/animation/293-compare-tray.html",
+  "prompt_chars": 15162
+ },
+ {
+  "id": "294",
+  "slug": "exploded-assembly",
+  "title": "Device that assembles on scroll",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "exploded",
+   "product",
+   "isometric",
+   "3d"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#294",
+  "prompt_path": "sources/lucianlabs/prompts/animation/294-exploded-assembly.md",
+  "demo_path": "sources/lucianlabs/demos/animation/294-exploded-assembly.html",
+  "prompt_chars": 10418
+ },
+ {
+  "id": "295",
+  "slug": "conditional-contact",
+  "title": "Contact form that adapts to the request",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "contact-form",
+   "conditional",
+   "form",
+   "attachment",
+   "support"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#295",
+  "prompt_path": "sources/lucianlabs/prompts/animation/295-conditional-contact.md",
+  "demo_path": "sources/lucianlabs/demos/animation/295-conditional-contact.html",
+  "prompt_chars": 17042
+ },
+ {
+  "id": "296",
+  "slug": "index-scrubber",
+  "title": "Scrubbable contact index",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "index",
+   "scrubber",
+   "contacts",
+   "list",
+   "magnify"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#296",
+  "prompt_path": "sources/lucianlabs/prompts/animation/296-index-scrubber.md",
+  "demo_path": "sources/lucianlabs/demos/animation/296-index-scrubber.html",
+  "prompt_chars": 12111
+ },
+ {
+  "id": "297",
+  "slug": "block-page-builder",
+  "title": "Stack-the-blocks page builder",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "page-builder",
+   "blocks",
+   "no-code",
+   "reorder",
+   "builder"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#297",
+  "prompt_path": "sources/lucianlabs/prompts/animation/297-block-page-builder.md",
+  "demo_path": "sources/lucianlabs/demos/animation/297-block-page-builder.html",
+  "prompt_chars": 15127
+ },
+ {
+  "id": "298",
+  "slug": "coupon-tear",
+  "title": "Tear-off discount coupon",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "coupon",
+   "discount",
+   "tear",
+   "copy",
+   "ecommerce"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#298",
+  "prompt_path": "sources/lucianlabs/prompts/animation/298-coupon-tear.md",
+  "demo_path": "sources/lucianlabs/demos/animation/298-coupon-tear.html",
+  "prompt_chars": 13005
+ },
+ {
+  "id": "299",
+  "slug": "usage-meter",
+  "title": "Usage meter that warns near the limit",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "usage",
+   "quota",
+   "billing",
+   "progress",
+   "saas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#299",
+  "prompt_path": "sources/lucianlabs/prompts/animation/299-usage-meter.md",
+  "demo_path": "sources/lucianlabs/demos/animation/299-usage-meter.html",
+  "prompt_chars": 13828
+ },
+ {
+  "id": "300",
+  "slug": "domain-search",
+  "title": "Domain search with live availability",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "domain",
+   "search",
+   "availability",
+   "checkout",
+   "builder"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#300",
+  "prompt_path": "sources/lucianlabs/prompts/animation/300-domain-search.md",
+  "demo_path": "sources/lucianlabs/demos/animation/300-domain-search.html",
+  "prompt_chars": 12708
+ },
+ {
+  "id": "301",
+  "slug": "image-optimizer",
+  "title": "Image optimizer with shrinking size",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "image",
+   "optimization",
+   "compression",
+   "webp",
+   "builder"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#301",
+  "prompt_path": "sources/lucianlabs/prompts/animation/301-image-optimizer.md",
+  "demo_path": "sources/lucianlabs/demos/animation/301-image-optimizer.html",
+  "prompt_chars": 15546
+ },
+ {
+  "id": "302",
+  "slug": "feedback-pins",
+  "title": "Feedback pins on the page",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "feedback",
+   "comments",
+   "pins",
+   "review",
+   "builder"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#302",
+  "prompt_path": "sources/lucianlabs/prompts/animation/302-feedback-pins.md",
+  "demo_path": "sources/lucianlabs/demos/animation/302-feedback-pins.html",
+  "prompt_chars": 13748
+ },
+ {
+  "id": "303",
+  "slug": "font-pairing",
+  "title": "Font pairing and type scale",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "typography",
+   "font-pairing",
+   "type-scale",
+   "design-tokens",
+   "builder"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#303",
+  "prompt_path": "sources/lucianlabs/prompts/animation/303-font-pairing.md",
+  "demo_path": "sources/lucianlabs/demos/animation/303-font-pairing.html",
+  "prompt_chars": 12794
+ },
+ {
+  "id": "304",
+  "slug": "address-search",
+  "title": "Search-to-fill shipping address",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "address",
+   "search",
+   "autocomplete",
+   "checkout",
+   "form"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#304",
+  "prompt_path": "sources/lucianlabs/prompts/animation/304-address-search.md",
+  "demo_path": "sources/lucianlabs/demos/animation/304-address-search.html",
+  "prompt_chars": 12709
+ },
+ {
+  "id": "305",
+  "slug": "filter-drawer",
+  "title": "Filter drawer with live result count",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "filter",
+   "bottom-sheet",
+   "ecommerce",
+   "facets",
+   "mobile"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#305",
+  "prompt_path": "sources/lucianlabs/prompts/animation/305-filter-drawer.md",
+  "demo_path": "sources/lucianlabs/demos/animation/305-filter-drawer.html",
+  "prompt_chars": 19603
+ },
+ {
+  "id": "306",
+  "slug": "integration-orbit",
+  "title": "Orbiting integrations",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "integrations",
+   "orbit",
+   "logos",
+   "hover",
+   "landing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#306",
+  "prompt_path": "sources/lucianlabs/prompts/animation/306-integration-orbit.md",
+  "demo_path": "sources/lucianlabs/demos/animation/306-integration-orbit.html",
+  "prompt_chars": 15095
+ },
+ {
+  "id": "307",
+  "slug": "typewriter-rotating-words",
+  "title": "Typewriter rotating keyword",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "typewriter",
+   "rotate",
+   "hero",
+   "caret"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#307",
+  "prompt_path": "sources/lucianlabs/prompts/animation/307-typewriter-rotating-words.md",
+  "demo_path": "sources/lucianlabs/demos/animation/307-typewriter-rotating-words.html",
+  "prompt_chars": 11382
+ },
+ {
+  "id": "308",
+  "slug": "grid-list-flip",
+  "title": "Grid-to-list morph",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "flip",
+   "layout",
+   "grid",
+   "list",
+   "view-toggle"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#308",
+  "prompt_path": "sources/lucianlabs/prompts/animation/308-grid-list-flip.md",
+  "demo_path": "sources/lucianlabs/demos/animation/308-grid-list-flip.html",
+  "prompt_chars": 10517
+ },
+ {
+  "id": "309",
+  "slug": "parallax-mountains",
+  "title": "Layered mountain parallax",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "parallax",
+   "landscape",
+   "hero",
+   "depth"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#309",
+  "prompt_path": "sources/lucianlabs/prompts/animation/309-parallax-mountains.md",
+  "demo_path": "sources/lucianlabs/demos/animation/309-parallax-mountains.html",
+  "prompt_chars": 10177
+ },
+ {
+  "id": "310",
+  "slug": "video-text-title",
+  "title": "Video-through-text headline",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "hero",
+   "text-mask",
+   "video",
+   "headline",
+   "background-clip"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#310",
+  "prompt_path": "sources/lucianlabs/prompts/animation/310-video-text-title.md",
+  "demo_path": "sources/lucianlabs/demos/animation/310-video-text-title.html",
+  "prompt_chars": 11049
+ },
+ {
+  "id": "311",
+  "slug": "today-popup",
+  "title": "Don’t-show-today event popup",
+  "category": "Promos & Rewards",
+  "collection": "animation",
+  "tags": [
+   "popup",
+   "modal",
+   "promotion",
+   "carousel",
+   "ecommerce"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#311",
+  "prompt_path": "sources/lucianlabs/prompts/animation/311-today-popup.md",
+  "demo_path": "sources/lucianlabs/demos/animation/311-today-popup.html",
+  "prompt_chars": 14598
+ },
+ {
+  "id": "312",
+  "slug": "split-curtain-menu",
+  "title": "Split-curtain menu",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "menu",
+   "split",
+   "hover",
+   "navigation"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#312",
+  "prompt_path": "sources/lucianlabs/prompts/animation/312-split-curtain-menu.md",
+  "demo_path": "sources/lucianlabs/demos/animation/312-split-curtain-menu.html",
+  "prompt_chars": 9198
+ },
+ {
+  "id": "313",
+  "slug": "coffee-cup-size",
+  "title": "Coffee cup that fits its size",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "order",
+   "product",
+   "options",
+   "svg",
+   "price"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#313",
+  "prompt_path": "sources/lucianlabs/prompts/animation/313-coffee-cup-size.md",
+  "demo_path": "sources/lucianlabs/demos/animation/313-coffee-cup-size.html",
+  "prompt_chars": 14000
+ },
+ {
+  "id": "314",
+  "slug": "morphing-cursor",
+  "title": "Target-shaped morphing cursor",
+  "category": "Cursor & Hover",
+  "collection": "animation",
+  "tags": [
+   "cursor",
+   "morph",
+   "hover",
+   "pointer",
+   "spring"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#314",
+  "prompt_path": "sources/lucianlabs/prompts/animation/314-morphing-cursor.md",
+  "demo_path": "sources/lucianlabs/demos/animation/314-morphing-cursor.html",
+  "prompt_chars": 12201
+ },
+ {
+  "id": "315",
+  "slug": "drag-to-trash",
+  "title": "Drag-to-trash bin",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "drag",
+   "trash",
+   "delete",
+   "undo",
+   "drop"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#315",
+  "prompt_path": "sources/lucianlabs/prompts/animation/315-drag-to-trash.md",
+  "demo_path": "sources/lucianlabs/demos/animation/315-drag-to-trash.html",
+  "prompt_chars": 13464
+ },
+ {
+  "id": "316",
+  "slug": "spring-tuner",
+  "title": "Spring tuning bench",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "spring",
+   "physics",
+   "motion-design",
+   "graph",
+   "tuning"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#316",
+  "prompt_path": "sources/lucianlabs/prompts/animation/316-spring-tuner.md",
+  "demo_path": "sources/lucianlabs/demos/animation/316-spring-tuner.html",
+  "prompt_chars": 12957
+ },
+ {
+  "id": "317",
+  "slug": "sort-flip-list",
+  "title": "Sort list with flying rows",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "flip",
+   "sort",
+   "list",
+   "table",
+   "reorder"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#317",
+  "prompt_path": "sources/lucianlabs/prompts/animation/317-sort-flip-list.md",
+  "demo_path": "sources/lucianlabs/demos/animation/317-sort-flip-list.html",
+  "prompt_chars": 11059
+ },
+ {
+  "id": "318",
+  "slug": "scroll-draw-route",
+  "title": "Scroll-drawn travel route",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "path",
+   "svg",
+   "timeline",
+   "travel"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#318",
+  "prompt_path": "sources/lucianlabs/prompts/animation/318-scroll-draw-route.md",
+  "demo_path": "sources/lucianlabs/demos/animation/318-scroll-draw-route.html",
+  "prompt_chars": 11121
+ },
+ {
+  "id": "319",
+  "slug": "aurora-mesh",
+  "title": "Cursor-following aurora background",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "gradient",
+   "aurora",
+   "mesh",
+   "canvas",
+   "background"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#319",
+  "prompt_path": "sources/lucianlabs/prompts/animation/319-aurora-mesh.md",
+  "demo_path": "sources/lucianlabs/demos/animation/319-aurora-mesh.html",
+  "prompt_chars": 11610
+ },
+ {
+  "id": "320",
+  "slug": "scratch-card",
+  "title": "Coin-scratch instant ticket",
+  "category": "Promos & Rewards",
+  "collection": "animation",
+  "tags": [
+   "scratch-card",
+   "reveal",
+   "canvas",
+   "game",
+   "reward"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#320",
+  "prompt_path": "sources/lucianlabs/prompts/animation/320-scratch-card.md",
+  "demo_path": "sources/lucianlabs/demos/animation/320-scratch-card.html",
+  "prompt_chars": 13301
+ },
+ {
+  "id": "321",
+  "slug": "page-transition-curtain",
+  "title": "Curtain page transition",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "page-transition",
+   "navigation",
+   "curtain",
+   "route",
+   "website"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#321",
+  "prompt_path": "sources/lucianlabs/prompts/animation/321-page-transition-curtain.md",
+  "demo_path": "sources/lucianlabs/demos/animation/321-page-transition-curtain.html",
+  "prompt_chars": 10479
+ },
+ {
+  "id": "322",
+  "slug": "trending-search-roll",
+  "title": "Rolling trending searches",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "trending",
+   "search",
+   "ticker",
+   "ranking",
+   "ecommerce"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#322",
+  "prompt_path": "sources/lucianlabs/prompts/animation/322-trending-search-roll.md",
+  "demo_path": "sources/lucianlabs/demos/animation/322-trending-search-roll.html",
+  "prompt_chars": 14526
+ },
+ {
+  "id": "323",
+  "slug": "photo-trail",
+  "title": "Cursor-dropped photo trail",
+  "category": "Cursor & Hover",
+  "collection": "animation",
+  "tags": [
+   "cursor-trail",
+   "images",
+   "hover",
+   "editorial",
+   "stack"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#323",
+  "prompt_path": "sources/lucianlabs/prompts/animation/323-photo-trail.md",
+  "demo_path": "sources/lucianlabs/demos/animation/323-photo-trail.html",
+  "prompt_chars": 9840
+ },
+ {
+  "id": "324",
+  "slug": "push-navigation-stack",
+  "title": "Push navigation stack",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "navigation",
+   "push",
+   "stack",
+   "swipe-back",
+   "ios"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#324",
+  "prompt_path": "sources/lucianlabs/prompts/animation/324-push-navigation-stack.md",
+  "demo_path": "sources/lucianlabs/demos/animation/324-push-navigation-stack.html",
+  "prompt_chars": 12829
+ },
+ {
+  "id": "325",
+  "slug": "xray-code-lens",
+  "title": "Code-revealing x-ray lens",
+  "category": "Site Builder Tools",
+  "collection": "animation",
+  "tags": [
+   "x-ray",
+   "code",
+   "lens",
+   "mask",
+   "hover"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#325",
+  "prompt_path": "sources/lucianlabs/prompts/animation/325-xray-code-lens.md",
+  "demo_path": "sources/lucianlabs/demos/animation/325-xray-code-lens.html",
+  "prompt_chars": 11516
+ },
+ {
+  "id": "326",
+  "slug": "waffle-chart",
+  "title": "Flipping-cell waffle chart",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "waffle-chart",
+   "unit-chart",
+   "proportion",
+   "stagger",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#326",
+  "prompt_path": "sources/lucianlabs/prompts/animation/326-waffle-chart.md",
+  "demo_path": "sources/lucianlabs/demos/animation/326-waffle-chart.html",
+  "prompt_chars": 11757
+ },
+ {
+  "id": "327",
+  "slug": "glitch-title",
+  "title": "Glitching signal title",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "glitch",
+   "rgb",
+   "noise",
+   "title"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#327",
+  "prompt_path": "sources/lucianlabs/prompts/animation/327-glitch-title.md",
+  "demo_path": "sources/lucianlabs/demos/animation/327-glitch-title.html",
+  "prompt_chars": 11378
+ },
+ {
+  "id": "328",
+  "slug": "shared-element-detail",
+  "title": "Card that expands into detail",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "shared-element",
+   "flip",
+   "card",
+   "detail",
+   "navigation"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#328",
+  "prompt_path": "sources/lucianlabs/prompts/animation/328-shared-element-detail.md",
+  "demo_path": "sources/lucianlabs/demos/animation/328-shared-element-detail.html",
+  "prompt_chars": 13271
+ },
+ {
+  "id": "329",
+  "slug": "section-color-shift",
+  "title": "Background that shifts per section",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "color",
+   "product",
+   "sticky",
+   "brand"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#329",
+  "prompt_path": "sources/lucianlabs/prompts/animation/329-section-color-shift.md",
+  "demo_path": "sources/lucianlabs/demos/animation/329-section-color-shift.html",
+  "prompt_chars": 10077
+ },
+ {
+  "id": "330",
+  "slug": "starfield-warp",
+  "title": "Hold-to-warp starfield",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "starfield",
+   "warp",
+   "3d-projection",
+   "canvas",
+   "space"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#330",
+  "prompt_path": "sources/lucianlabs/prompts/animation/330-starfield-warp.md",
+  "demo_path": "sources/lucianlabs/demos/animation/330-starfield-warp.html",
+  "prompt_chars": 11276
+ },
+ {
+  "id": "331",
+  "slug": "prize-wheel",
+  "title": "Flick-to-spin prize wheel",
+  "category": "Promos & Rewards",
+  "collection": "animation",
+  "tags": [
+   "wheel",
+   "spin",
+   "flick",
+   "game",
+   "prize"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#331",
+  "prompt_path": "sources/lucianlabs/prompts/animation/331-prize-wheel.md",
+  "demo_path": "sources/lucianlabs/demos/animation/331-prize-wheel.html",
+  "prompt_chars": 12294
+ },
+ {
+  "id": "332",
+  "slug": "collapsing-large-title",
+  "title": "Collapsing large title",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "header",
+   "navigation",
+   "large-title",
+   "mobile"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#332",
+  "prompt_path": "sources/lucianlabs/prompts/animation/332-collapsing-large-title.md",
+  "demo_path": "sources/lucianlabs/demos/animation/332-collapsing-large-title.html",
+  "prompt_chars": 10490
+ },
+ {
+  "id": "333",
+  "slug": "voice-record-button",
+  "title": "Slide-to-cancel voice recorder",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "voice",
+   "record",
+   "hold",
+   "chat",
+   "gesture"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#333",
+  "prompt_path": "sources/lucianlabs/prompts/animation/333-voice-record-button.md",
+  "demo_path": "sources/lucianlabs/demos/animation/333-voice-record-button.html",
+  "prompt_chars": 16347
+ },
+ {
+  "id": "334",
+  "slug": "laptop-lid",
+  "title": "Laptop that wakes when opened",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "laptop",
+   "hinge",
+   "3d",
+   "boot",
+   "css-3d"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#334",
+  "prompt_path": "sources/lucianlabs/prompts/animation/334-laptop-lid.md",
+  "demo_path": "sources/lucianlabs/demos/animation/334-laptop-lid.html",
+  "prompt_chars": 14596
+ },
+ {
+  "id": "335",
+  "slug": "direction-aware-tiles",
+  "title": "Enter-side overlay tiles",
+  "category": "Cursor & Hover",
+  "collection": "animation",
+  "tags": [
+   "direction-aware",
+   "hover",
+   "grid",
+   "overlay",
+   "portfolio"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#335",
+  "prompt_path": "sources/lucianlabs/prompts/animation/335-direction-aware-tiles.md",
+  "demo_path": "sources/lucianlabs/demos/animation/335-direction-aware-tiles.html",
+  "prompt_chars": 9950
+ },
+ {
+  "id": "336",
+  "slug": "bottom-sheet-detents",
+  "title": "Bottom sheet with three detents",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "bottom-sheet",
+   "detents",
+   "spring",
+   "velocity",
+   "mobile"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#336",
+  "prompt_path": "sources/lucianlabs/prompts/animation/336-bottom-sheet-detents.md",
+  "demo_path": "sources/lucianlabs/demos/animation/336-bottom-sheet-detents.html",
+  "prompt_chars": 14180
+ },
+ {
+  "id": "337",
+  "slug": "bloom-hex-map",
+  "title": "Northbound cherry-blossom hex map",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "hex-map",
+   "choropleth",
+   "timeline",
+   "cherry-blossom",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#337",
+  "prompt_path": "sources/lucianlabs/prompts/animation/337-bloom-hex-map.md",
+  "demo_path": "sources/lucianlabs/demos/animation/337-bloom-hex-map.html",
+  "prompt_chars": 16937
+ },
+ {
+  "id": "338",
+  "slug": "word-cube",
+  "title": "Rolling word cube",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "3d",
+   "cube",
+   "rotate",
+   "hero"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#338",
+  "prompt_path": "sources/lucianlabs/prompts/animation/338-word-cube.md",
+  "demo_path": "sources/lucianlabs/demos/animation/338-word-cube.html",
+  "prompt_chars": 12179
+ },
+ {
+  "id": "339",
+  "slug": "drag-card-carousel",
+  "title": "Drag-and-snap card carousel",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "carousel",
+   "slider",
+   "drag",
+   "snap",
+   "cards"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#339",
+  "prompt_path": "sources/lucianlabs/prompts/animation/339-drag-card-carousel.md",
+  "demo_path": "sources/lucianlabs/demos/animation/339-drag-card-carousel.html",
+  "prompt_chars": 12274
+ },
+ {
+  "id": "340",
+  "slug": "keyhole-zoom",
+  "title": "Zoom through the keyhole",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "zoom",
+   "mask",
+   "hero",
+   "reveal"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#340",
+  "prompt_path": "sources/lucianlabs/prompts/animation/340-keyhole-zoom.md",
+  "demo_path": "sources/lucianlabs/demos/animation/340-keyhole-zoom.html",
+  "prompt_chars": 9522
+ },
+ {
+  "id": "341",
+  "slug": "particle-network",
+  "title": "Cursor-linked constellation mesh",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "particles",
+   "network",
+   "constellation",
+   "canvas",
+   "background"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#341",
+  "prompt_path": "sources/lucianlabs/prompts/animation/341-particle-network.md",
+  "demo_path": "sources/lucianlabs/demos/animation/341-particle-network.html",
+  "prompt_chars": 10395
+ },
+ {
+  "id": "342",
+  "slug": "gift-box",
+  "title": "Unribbon-and-open gift box",
+  "category": "Promos & Rewards",
+  "collection": "animation",
+  "tags": [
+   "gift",
+   "unwrap",
+   "reward",
+   "reveal",
+   "celebration"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#342",
+  "prompt_path": "sources/lucianlabs/prompts/animation/342-gift-box.md",
+  "demo_path": "sources/lucianlabs/demos/animation/342-gift-box.html",
+  "prompt_chars": 11848
+ },
+ {
+  "id": "343",
+  "slug": "back-to-top-rocket",
+  "title": "Rocket back-to-top button",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "back-to-top",
+   "progress",
+   "button",
+   "rocket"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#343",
+  "prompt_path": "sources/lucianlabs/prompts/animation/343-back-to-top-rocket.md",
+  "demo_path": "sources/lucianlabs/demos/animation/343-back-to-top-rocket.html",
+  "prompt_chars": 10536
+ },
+ {
+  "id": "344",
+  "slug": "map-pin-drop",
+  "title": "Bouncing map pin drop",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "map",
+   "pin",
+   "drop",
+   "bounce",
+   "location"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#344",
+  "prompt_path": "sources/lucianlabs/prompts/animation/344-map-pin-drop.md",
+  "demo_path": "sources/lucianlabs/demos/animation/344-map-pin-drop.html",
+  "prompt_chars": 12890
+ },
+ {
+  "id": "345",
+  "slug": "soda-can",
+  "title": "Spin-and-open soda can",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "can",
+   "cylinder",
+   "3d",
+   "canvas",
+   "product"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#345",
+  "prompt_path": "sources/lucianlabs/prompts/animation/345-soda-can.md",
+  "demo_path": "sources/lucianlabs/demos/animation/345-soda-can.html",
+  "prompt_chars": 15122
+ },
+ {
+  "id": "346",
+  "slug": "secret-text-mask",
+  "title": "Hidden line inside the cursor",
+  "category": "Cursor & Hover",
+  "collection": "animation",
+  "tags": [
+   "mask",
+   "reveal",
+   "typography",
+   "cursor",
+   "hidden"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#346",
+  "prompt_path": "sources/lucianlabs/prompts/animation/346-secret-text-mask.md",
+  "demo_path": "sources/lucianlabs/demos/animation/346-secret-text-mask.html",
+  "prompt_chars": 10063
+ },
+ {
+  "id": "347",
+  "slug": "pip-corner-throw",
+  "title": "Picture-in-picture corner throw",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "picture-in-picture",
+   "fling",
+   "snap",
+   "spring",
+   "video"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#347",
+  "prompt_path": "sources/lucianlabs/prompts/animation/347-pip-corner-throw.md",
+  "demo_path": "sources/lucianlabs/demos/animation/347-pip-corner-throw.html",
+  "prompt_chars": 16485
+ },
+ {
+  "id": "348",
+  "slug": "circular-text-badge",
+  "title": "Spinning circular text badge",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "circle",
+   "badge",
+   "rotate",
+   "svg"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#348",
+  "prompt_path": "sources/lucianlabs/prompts/animation/348-circular-text-badge.md",
+  "demo_path": "sources/lucianlabs/demos/animation/348-circular-text-badge.html",
+  "prompt_chars": 10150
+ },
+ {
+  "id": "349",
+  "slug": "pixel-dissolve-slider",
+  "title": "Pixel-dissolve photo transition",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "transition",
+   "pixel",
+   "slider",
+   "dissolve",
+   "gallery"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#349",
+  "prompt_path": "sources/lucianlabs/prompts/animation/349-pixel-dissolve-slider.md",
+  "demo_path": "sources/lucianlabs/demos/animation/349-pixel-dissolve-slider.html",
+  "prompt_chars": 10874
+ },
+ {
+  "id": "350",
+  "slug": "padlock-toggle",
+  "title": "Padlock toggle with lifting shackle",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "toggle",
+   "lock",
+   "privacy",
+   "share",
+   "icon"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#350",
+  "prompt_path": "sources/lucianlabs/prompts/animation/350-padlock-toggle.md",
+  "demo_path": "sources/lucianlabs/demos/animation/350-padlock-toggle.html",
+  "prompt_chars": 11751
+ },
+ {
+  "id": "351",
+  "slug": "velocity-skew-list",
+  "title": "List that leans with velocity",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "velocity",
+   "skew",
+   "physics",
+   "list"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#351",
+  "prompt_path": "sources/lucianlabs/prompts/animation/351-velocity-skew-list.md",
+  "demo_path": "sources/lucianlabs/demos/animation/351-velocity-skew-list.html",
+  "prompt_chars": 9691
+ },
+ {
+  "id": "352",
+  "slug": "flow-field",
+  "title": "Swirling flow field",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "flow-field",
+   "generative",
+   "particles",
+   "canvas",
+   "trails"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#352",
+  "prompt_path": "sources/lucianlabs/prompts/animation/352-flow-field.md",
+  "demo_path": "sources/lucianlabs/demos/animation/352-flow-field.html",
+  "prompt_chars": 9810
+ },
+ {
+  "id": "353",
+  "slug": "stamp-card",
+  "title": "Stamp-collecting coffee card",
+  "category": "Promos & Rewards",
+  "collection": "animation",
+  "tags": [
+   "stamp",
+   "loyalty",
+   "reward",
+   "coupon",
+   "progress"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#353",
+  "prompt_path": "sources/lucianlabs/prompts/animation/353-stamp-card.md",
+  "demo_path": "sources/lucianlabs/demos/animation/353-stamp-card.html",
+  "prompt_chars": 12909
+ },
+ {
+  "id": "354",
+  "slug": "mega-menu-morph",
+  "title": "Morphing mega menu",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "menu",
+   "dropdown",
+   "morph",
+   "navigation",
+   "mega-menu"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#354",
+  "prompt_path": "sources/lucianlabs/prompts/animation/354-mega-menu-morph.md",
+  "demo_path": "sources/lucianlabs/demos/animation/354-mega-menu-morph.html",
+  "prompt_chars": 11979
+ },
+ {
+  "id": "355",
+  "slug": "autosave-indicator",
+  "title": "Cloud autosave indicator",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "autosave",
+   "status",
+   "editor",
+   "offline",
+   "sync"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#355",
+  "prompt_path": "sources/lucianlabs/prompts/animation/355-autosave-indicator.md",
+  "demo_path": "sources/lucianlabs/demos/animation/355-autosave-indicator.html",
+  "prompt_chars": 11491
+ },
+ {
+  "id": "356",
+  "slug": "product-loupe",
+  "title": "Watch under the loupe",
+  "category": "Commerce & Pricing",
+  "collection": "animation",
+  "tags": [
+   "magnifier",
+   "loupe",
+   "zoom",
+   "product",
+   "hover"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#356",
+  "prompt_path": "sources/lucianlabs/prompts/animation/356-product-loupe.md",
+  "demo_path": "sources/lucianlabs/demos/animation/356-product-loupe.html",
+  "prompt_chars": 13259
+ },
+ {
+  "id": "357",
+  "slug": "proximity-weight",
+  "title": "Proximity-weighted letters",
+  "category": "Cursor & Hover",
+  "collection": "animation",
+  "tags": [
+   "variable-font",
+   "typography",
+   "proximity",
+   "hover",
+   "weight"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#357",
+  "prompt_path": "sources/lucianlabs/prompts/animation/357-proximity-weight.md",
+  "demo_path": "sources/lucianlabs/demos/animation/357-proximity-weight.html",
+  "prompt_chars": 10250
+ },
+ {
+  "id": "358",
+  "slug": "long-press-peek",
+  "title": "Long-press message peek",
+  "category": "App Screens",
+  "collection": "animation",
+  "tags": [
+   "long-press",
+   "peek",
+   "context-menu",
+   "haptic-touch",
+   "list"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#358",
+  "prompt_path": "sources/lucianlabs/prompts/animation/358-long-press-peek.md",
+  "demo_path": "sources/lucianlabs/demos/animation/358-long-press-peek.html",
+  "prompt_chars": 20559
+ },
+ {
+  "id": "359",
+  "slug": "slope-chart",
+  "title": "Score-or-rank slope chart",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "slope-chart",
+   "comparison",
+   "ranking",
+   "transition",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#359",
+  "prompt_path": "sources/lucianlabs/prompts/animation/359-slope-chart.md",
+  "demo_path": "sources/lucianlabs/demos/animation/359-slope-chart.html",
+  "prompt_chars": 14052
+ },
+ {
+  "id": "360",
+  "slug": "letters-scatter",
+  "title": "Scatter and reassemble letters",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "physics",
+   "scatter",
+   "spring",
+   "drag"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#360",
+  "prompt_path": "sources/lucianlabs/prompts/animation/360-letters-scatter.md",
+  "demo_path": "sources/lucianlabs/demos/animation/360-letters-scatter.html",
+  "prompt_chars": 11467
+ },
+ {
+  "id": "361",
+  "slug": "blinds-slice-slider",
+  "title": "Venetian-blind slide flip",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "transition",
+   "3d",
+   "slider",
+   "blinds",
+   "carousel"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#361",
+  "prompt_path": "sources/lucianlabs/prompts/animation/361-blinds-slice-slider.md",
+  "demo_path": "sources/lucianlabs/demos/animation/361-blinds-slice-slider.html",
+  "prompt_chars": 12135
+ },
+ {
+  "id": "362",
+  "slug": "drum-time-picker",
+  "title": "Rolling drum time picker",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "picker",
+   "time",
+   "wheel",
+   "scroll-snap",
+   "3d"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#362",
+  "prompt_path": "sources/lucianlabs/prompts/animation/362-drum-time-picker.md",
+  "demo_path": "sources/lucianlabs/demos/animation/362-drum-time-picker.html",
+  "prompt_chars": 10255
+ },
+ {
+  "id": "363",
+  "slug": "dot-grid-wave",
+  "title": "Dot grid waves from the cursor",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "dot-grid",
+   "wave",
+   "interference",
+   "canvas",
+   "background"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#363",
+  "prompt_path": "sources/lucianlabs/prompts/animation/363-dot-grid-wave.md",
+  "demo_path": "sources/lucianlabs/demos/animation/363-dot-grid-wave.html",
+  "prompt_chars": 8761
+ },
+ {
+  "id": "364",
+  "slug": "advent-doors",
+  "title": "One-door-a-day advent calendar",
+  "category": "Promos & Rewards",
+  "collection": "animation",
+  "tags": [
+   "advent",
+   "calendar",
+   "doors",
+   "reward",
+   "3d"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#364",
+  "prompt_path": "sources/lucianlabs/prompts/animation/364-advent-doors.md",
+  "demo_path": "sources/lucianlabs/demos/animation/364-advent-doors.html",
+  "prompt_chars": 12690
+ },
+ {
+  "id": "365",
+  "slug": "waitlist-position",
+  "title": "Waitlist position that moves up with referrals",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "waitlist",
+   "referral",
+   "signup",
+   "queue",
+   "launch"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#365",
+  "prompt_path": "sources/lucianlabs/prompts/animation/365-waitlist-position.md",
+  "demo_path": "sources/lucianlabs/demos/animation/365-waitlist-position.html",
+  "prompt_chars": 13898
+ },
+ {
+  "id": "366",
+  "slug": "hover-scrub-thumbs",
+  "title": "Hover-scrub video previews",
+  "category": "Cursor & Hover",
+  "collection": "animation",
+  "tags": [
+   "video",
+   "scrub",
+   "thumbnail",
+   "hover",
+   "preview"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#366",
+  "prompt_path": "sources/lucianlabs/prompts/animation/366-hover-scrub-thumbs.md",
+  "demo_path": "sources/lucianlabs/demos/animation/366-hover-scrub-thumbs.html",
+  "prompt_chars": 13300
+ },
+ {
+  "id": "367",
+  "slug": "population-pyramid",
+  "title": "Year-by-year population pyramid",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "population-pyramid",
+   "demographics",
+   "timeline",
+   "cohort",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#367",
+  "prompt_path": "sources/lucianlabs/prompts/animation/367-population-pyramid.md",
+  "demo_path": "sources/lucianlabs/demos/animation/367-population-pyramid.html",
+  "prompt_chars": 16335
+ },
+ {
+  "id": "368",
+  "slug": "reading-focus",
+  "title": "Sentence-following reading focus",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "reading",
+   "focus",
+   "dim",
+   "accessibility"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#368",
+  "prompt_path": "sources/lucianlabs/prompts/animation/368-reading-focus.md",
+  "demo_path": "sources/lucianlabs/demos/animation/368-reading-focus.html",
+  "prompt_chars": 9920
+ },
+ {
+  "id": "369",
+  "slug": "stack-to-fan",
+  "title": "Photo stack that fans out",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "stack",
+   "fan",
+   "photos",
+   "layout",
+   "morph"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#369",
+  "prompt_path": "sources/lucianlabs/prompts/animation/369-stack-to-fan.md",
+  "demo_path": "sources/lucianlabs/demos/animation/369-stack-to-fan.html",
+  "prompt_chars": 9064
+ },
+ {
+  "id": "370",
+  "slug": "timeline-light-up",
+  "title": "Timeline that lights up",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "timeline",
+   "history",
+   "line",
+   "about"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#370",
+  "prompt_path": "sources/lucianlabs/prompts/animation/370-timeline-light-up.md",
+  "demo_path": "sources/lucianlabs/demos/animation/370-timeline-light-up.html",
+  "prompt_chars": 9344
+ },
+ {
+  "id": "371",
+  "slug": "topographic-contours",
+  "title": "Rising contour map",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "contour",
+   "topography",
+   "marching-squares",
+   "canvas",
+   "map"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#371",
+  "prompt_path": "sources/lucianlabs/prompts/animation/371-topographic-contours.md",
+  "demo_path": "sources/lucianlabs/demos/animation/371-topographic-contours.html",
+  "prompt_chars": 10856
+ },
+ {
+  "id": "372",
+  "slug": "level-up-xp",
+  "title": "Fill-to-level-up XP bar",
+  "category": "Promos & Rewards",
+  "collection": "animation",
+  "tags": [
+   "xp",
+   "level-up",
+   "progress",
+   "gamification",
+   "reward"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#372",
+  "prompt_path": "sources/lucianlabs/prompts/animation/372-level-up-xp.md",
+  "demo_path": "sources/lucianlabs/demos/animation/372-level-up-xp.html",
+  "prompt_chars": 13093
+ },
+ {
+  "id": "373",
+  "slug": "underline-styles",
+  "title": "Five underline hovers",
+  "category": "Navigation",
+  "collection": "animation",
+  "tags": [
+   "underline",
+   "link",
+   "hover",
+   "micro-interaction",
+   "navigation"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#373",
+  "prompt_path": "sources/lucianlabs/prompts/animation/373-underline-styles.md",
+  "demo_path": "sources/lucianlabs/demos/animation/373-underline-styles.html",
+  "prompt_chars": 9784
+ },
+ {
+  "id": "374",
+  "slug": "growth-bubbles",
+  "title": "Quarter-by-quarter app growth bubbles",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "gapminder",
+   "scatter",
+   "bubble",
+   "timeline",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#374",
+  "prompt_path": "sources/lucianlabs/prompts/animation/374-growth-bubbles.md",
+  "demo_path": "sources/lucianlabs/demos/animation/374-growth-bubbles.html",
+  "prompt_chars": 14612
+ },
+ {
+  "id": "375",
+  "slug": "kinetic-captions",
+  "title": "Word-by-word kinetic captions",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "captions",
+   "kinetic",
+   "video",
+   "subtitle"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#375",
+  "prompt_path": "sources/lucianlabs/prompts/animation/375-kinetic-captions.md",
+  "demo_path": "sources/lucianlabs/demos/animation/375-kinetic-captions.html",
+  "prompt_chars": 12967
+ },
+ {
+  "id": "376",
+  "slug": "story-progress",
+  "title": "Tap-through stories",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "stories",
+   "progress",
+   "cube",
+   "tap",
+   "mobile"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#376",
+  "prompt_path": "sources/lucianlabs/prompts/animation/376-story-progress.md",
+  "demo_path": "sources/lucianlabs/demos/animation/376-story-progress.html",
+  "prompt_chars": 11195
+ },
+ {
+  "id": "377",
+  "slug": "sticky-phone-screens",
+  "title": "Phone screens that follow the text",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "sticky",
+   "product",
+   "features",
+   "mockup"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#377",
+  "prompt_path": "sources/lucianlabs/prompts/animation/377-sticky-phone-screens.md",
+  "demo_path": "sources/lucianlabs/demos/animation/377-sticky-phone-screens.html",
+  "prompt_chars": 10865
+ },
+ {
+  "id": "378",
+  "slug": "particle-text",
+  "title": "Particles that form words",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "particles",
+   "text",
+   "spring",
+   "canvas",
+   "morph"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#378",
+  "prompt_path": "sources/lucianlabs/prompts/animation/378-particle-text.md",
+  "demo_path": "sources/lucianlabs/demos/animation/378-particle-text.html",
+  "prompt_chars": 9977
+ },
+ {
+  "id": "379",
+  "slug": "streak-flame",
+  "title": "Growing streak flame",
+  "category": "Promos & Rewards",
+  "collection": "animation",
+  "tags": [
+   "streak",
+   "flame",
+   "habit",
+   "gamification",
+   "progress"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#379",
+  "prompt_path": "sources/lucianlabs/prompts/animation/379-streak-flame.md",
+  "demo_path": "sources/lucianlabs/demos/animation/379-streak-flame.html",
+  "prompt_chars": 14385
+ },
+ {
+  "id": "380",
+  "slug": "emoji-feedback-slider",
+  "title": "Face-changing satisfaction slider",
+  "category": "Forms & Input",
+  "collection": "animation",
+  "tags": [
+   "slider",
+   "feedback",
+   "rating",
+   "emoji",
+   "face"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#380",
+  "prompt_path": "sources/lucianlabs/prompts/animation/380-emoji-feedback-slider.md",
+  "demo_path": "sources/lucianlabs/demos/animation/380-emoji-feedback-slider.html",
+  "prompt_chars": 13971
+ },
+ {
+  "id": "381",
+  "slug": "map-clusters",
+  "title": "Splitting map clusters",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "map",
+   "clustering",
+   "zoom",
+   "markers",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#381",
+  "prompt_path": "sources/lucianlabs/prompts/animation/381-map-clusters.md",
+  "demo_path": "sources/lucianlabs/demos/animation/381-map-clusters.html",
+  "prompt_chars": 16281
+ },
+ {
+  "id": "382",
+  "slug": "text-on-wave-path",
+  "title": "Text flowing along a wave",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "svg",
+   "path",
+   "wave",
+   "marquee"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#382",
+  "prompt_path": "sources/lucianlabs/prompts/animation/382-text-on-wave-path.md",
+  "demo_path": "sources/lucianlabs/demos/animation/382-text-on-wave-path.html",
+  "prompt_chars": 9492
+ },
+ {
+  "id": "383",
+  "slug": "liquid-wave-onboarding",
+  "title": "Liquid-wave onboarding",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "onboarding",
+   "wave",
+   "transition",
+   "svg",
+   "mobile"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#383",
+  "prompt_path": "sources/lucianlabs/prompts/animation/383-liquid-wave-onboarding.md",
+  "demo_path": "sources/lucianlabs/demos/animation/383-liquid-wave-onboarding.html",
+  "prompt_chars": 10719
+ },
+ {
+  "id": "384",
+  "slug": "infinite-feed",
+  "title": "Endlessly appending feed",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "infinite",
+   "feed",
+   "loader",
+   "pagination"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#384",
+  "prompt_path": "sources/lucianlabs/prompts/animation/384-infinite-feed.md",
+  "demo_path": "sources/lucianlabs/demos/animation/384-infinite-feed.html",
+  "prompt_chars": 11065
+ },
+ {
+  "id": "385",
+  "slug": "dot-globe",
+  "title": "Live dotted globe",
+  "category": "Hero & Backgrounds",
+  "collection": "animation",
+  "tags": [
+   "globe",
+   "3d",
+   "dots",
+   "canvas",
+   "realtime"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#385",
+  "prompt_path": "sources/lucianlabs/prompts/animation/385-dot-globe.md",
+  "demo_path": "sources/lucianlabs/demos/animation/385-dot-globe.html",
+  "prompt_chars": 15272
+ },
+ {
+  "id": "386",
+  "slug": "achievement-badges",
+  "title": "Glowing unlockable badges",
+  "category": "Promos & Rewards",
+  "collection": "animation",
+  "tags": [
+   "badges",
+   "achievement",
+   "unlock",
+   "gamification",
+   "flip"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#386",
+  "prompt_path": "sources/lucianlabs/prompts/animation/386-achievement-badges.md",
+  "demo_path": "sources/lucianlabs/demos/animation/386-achievement-badges.html",
+  "prompt_chars": 15635
+ },
+ {
+  "id": "387",
+  "slug": "parallel-coords",
+  "title": "Brushable parallel coordinates",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "parallel-coordinates",
+   "brushing",
+   "filter",
+   "multivariate",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#387",
+  "prompt_path": "sources/lucianlabs/prompts/animation/387-parallel-coords.md",
+  "demo_path": "sources/lucianlabs/demos/animation/387-parallel-coords.html",
+  "prompt_chars": 14222
+ },
+ {
+  "id": "388",
+  "slug": "blur-in-quote",
+  "title": "Word-by-word focus quote",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "quote",
+   "blur",
+   "testimonial",
+   "stagger"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#388",
+  "prompt_path": "sources/lucianlabs/prompts/animation/388-blur-in-quote.md",
+  "demo_path": "sources/lucianlabs/demos/animation/388-blur-in-quote.html",
+  "prompt_chars": 12293
+ },
+ {
+  "id": "389",
+  "slug": "accordion-image-panels",
+  "title": "Side-expanding photo panels",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "accordion",
+   "panels",
+   "gallery",
+   "hover",
+   "expand"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#389",
+  "prompt_path": "sources/lucianlabs/prompts/animation/389-accordion-image-panels.md",
+  "demo_path": "sources/lucianlabs/demos/animation/389-accordion-image-panels.html",
+  "prompt_chars": 9295
+ },
+ {
+  "id": "390",
+  "slug": "chapter-number-roll",
+  "title": "Rolling chapter numbers",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "chapter",
+   "counter",
+   "progress",
+   "reading"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#390",
+  "prompt_path": "sources/lucianlabs/prompts/animation/390-chapter-number-roll.md",
+  "demo_path": "sources/lucianlabs/demos/animation/390-chapter-number-roll.html",
+  "prompt_chars": 10433
+ },
+ {
+  "id": "391",
+  "slug": "chord-diagram",
+  "title": "Month-switching chord diagram",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "chord-diagram",
+   "flow",
+   "network",
+   "transition",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#391",
+  "prompt_path": "sources/lucianlabs/prompts/animation/391-chord-diagram.md",
+  "demo_path": "sources/lucianlabs/demos/animation/391-chord-diagram.html",
+  "prompt_chars": 13674
+ },
+ {
+  "id": "392",
+  "slug": "hand-annotations",
+  "title": "Hand-drawn annotations",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "text",
+   "annotation",
+   "sketch",
+   "svg",
+   "emphasis"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#392",
+  "prompt_path": "sources/lucianlabs/prompts/animation/392-hand-annotations.md",
+  "demo_path": "sources/lucianlabs/demos/animation/392-hand-annotations.html",
+  "prompt_chars": 11339
+ },
+ {
+  "id": "393",
+  "slug": "platform-download",
+  "title": "Platform-aware download section",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "download",
+   "platform",
+   "os-detect",
+   "install",
+   "landing"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#393",
+  "prompt_path": "sources/lucianlabs/prompts/animation/393-platform-download.md",
+  "demo_path": "sources/lucianlabs/demos/animation/393-platform-download.html",
+  "prompt_chars": 14382
+ },
+ {
+  "id": "394",
+  "slug": "scroll-marquee-rows",
+  "title": "Scroll-driven marquee rows",
+  "category": "Scroll Motion",
+  "collection": "animation",
+  "tags": [
+   "scroll",
+   "marquee",
+   "velocity",
+   "typography",
+   "banner"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#394",
+  "prompt_path": "sources/lucianlabs/prompts/animation/394-scroll-marquee-rows.md",
+  "demo_path": "sources/lucianlabs/demos/animation/394-scroll-marquee-rows.html",
+  "prompt_chars": 8906
+ },
+ {
+  "id": "395",
+  "slug": "ridgeline",
+  "title": "Year-shifting temperature ridgeline",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "ridgeline",
+   "distribution",
+   "temperature",
+   "comparison",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#395",
+  "prompt_path": "sources/lucianlabs/prompts/animation/395-ridgeline.md",
+  "demo_path": "sources/lucianlabs/demos/animation/395-ridgeline.html",
+  "prompt_chars": 13871
+ },
+ {
+  "id": "396",
+  "slug": "spoiler-reveal",
+  "title": "Tap-to-reveal spoiler cover",
+  "category": "Text Motion",
+  "collection": "animation",
+  "tags": [
+   "spoiler",
+   "chat",
+   "particles",
+   "reveal",
+   "canvas"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#396",
+  "prompt_path": "sources/lucianlabs/prompts/animation/396-spoiler-reveal.md",
+  "demo_path": "sources/lucianlabs/demos/animation/396-spoiler-reveal.html",
+  "prompt_chars": 11523
+ },
+ {
+  "id": "397",
+  "slug": "tile-flip-wave",
+  "title": "Wave-flipping tile picture",
+  "category": "Sections & Content",
+  "collection": "animation",
+  "tags": [
+   "tiles",
+   "flip",
+   "3d",
+   "wave",
+   "css-3d"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#397",
+  "prompt_path": "sources/lucianlabs/prompts/animation/397-tile-flip-wave.md",
+  "demo_path": "sources/lucianlabs/demos/animation/397-tile-flip-wave.html",
+  "prompt_chars": 11496
+ },
+ {
+  "id": "398",
+  "slug": "regression-drag",
+  "title": "Drag-to-refit regression line",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "regression",
+   "scatter",
+   "statistics",
+   "drag",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#398",
+  "prompt_path": "sources/lucianlabs/prompts/animation/398-regression-drag.md",
+  "demo_path": "sources/lucianlabs/demos/animation/398-regression-drag.html",
+  "prompt_chars": 14880
+ },
+ {
+  "id": "399",
+  "slug": "word-cloud",
+  "title": "Month-reshuffling review word cloud",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "word-cloud",
+   "text",
+   "frequency",
+   "flip-animation",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#399",
+  "prompt_path": "sources/lucianlabs/prompts/animation/399-word-cloud.md",
+  "demo_path": "sources/lucianlabs/demos/animation/399-word-cloud.html",
+  "prompt_chars": 13779
+ },
+ {
+  "id": "400",
+  "slug": "synced-multiples",
+  "title": "Synced-cursor small multiples",
+  "category": "Data Motion",
+  "collection": "animation",
+  "tags": [
+   "small-multiples",
+   "crosshair",
+   "dashboard",
+   "comparison",
+   "data"
+  ],
+  "url": "https://lucianlabs.dev/en/uxui-prompt/#400",
+  "prompt_path": "sources/lucianlabs/prompts/animation/400-synced-multiples.md",
+  "demo_path": "sources/lucianlabs/demos/animation/400-synced-multiples.html",
+  "prompt_chars": 16243
+ }
+]

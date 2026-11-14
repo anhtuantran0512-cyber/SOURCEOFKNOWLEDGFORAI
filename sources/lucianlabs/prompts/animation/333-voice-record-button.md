@@ -1,0 +1,272 @@
+---
+source: "lucianlabs"
+id: "333"
+title: "Slide-to-cancel voice recorder"
+category: "Forms & Input"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#333"
+tags: ["voice", "record", "hold", "chat", "gesture"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Slide-to-cancel voice recorder (333, Forms & Input)
+[What it does] Hold the mic button to start recording: the timer runs and a waveform sized to your voice slides in from the right. Keep holding and slide left, and ‘Slide to cancel’ fades until, past the line, a trash can rises from below and opens its lid, a red recording blob arcs over and drops in, and the lid shuts as the can gives a little shake. Simply let go and a voice message bubble pops up in the chat.
+[How to use it] Hold the mic button and let go to send, or slide left while holding to cancel
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #333 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#333 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u333{position:relative;width:340px;height:350px;display:flex;flex-direction:column;padding:14px;border-radius:28px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);overflow:hidden}
+.u333-chat{flex:1;display:flex;flex-direction:column;justify-content:flex-end;gap:8px;padding:4px 4px 12px;overflow:hidden}
+.u333-in{align-self:flex-start;max-width:78%;padding:9px 13px;border-radius:18px 18px 18px 6px;background:var(--ux-surface-2);font-size:13.5px;font-weight:600}
+.u333-in small{display:block;margin-bottom:2px;font-size:11px;font-weight:750;color:var(--ux-ink-3)}
+.u333-vm{align-self:flex-end;display:flex;align-items:center;gap:8px;padding:9px 12px;border-radius:18px 18px 6px 18px;background:var(--ux-accent);color:var(--ux-accent-ink);animation:u333-up .5s var(--ux-spring)}
+@keyframes u333-up{from{transform:translateY(30px) scale(.8);opacity:0}}
+.u333-vm i{display:block;width:0;height:0;border-left:9px solid currentColor;border-top:6px solid transparent;border-bottom:6px solid transparent}
+.u333-vm .w{display:flex;align-items:center;gap:2px;height:20px}
+.u333-vm .w b{width:3px;border-radius:2px;background:currentColor;opacity:.85}
+.u333-vm span{font:700 11.5px/1 ui-monospace,SFMono-Regular,Menlo,monospace}
+.u333-sys{align-self:center;margin:0;padding:4px 10px;border-radius:999px;background:var(--ux-surface-2);font-size:11.5px;font-weight:700;color:var(--ux-ink-3);animation:u333-up .4s var(--ux-ease)}
+.u333-bar{position:relative;display:flex;align-items:center;gap:8px;height:52px;padding:0 6px 0 14px;border-radius:26px;background:var(--ux-surface-2)}
+.u333-ph{flex:1;font-size:13.5px;font-weight:600;color:var(--ux-ink-3);transition:opacity .2s}
+.u333.is-rec .u333-ph{opacity:0}
+.u333-rec{position:absolute;left:12px;right:64px;top:0;bottom:0;display:flex;align-items:center;gap:8px;opacity:0;pointer-events:none;transition:opacity .2s}
+.u333.is-rec .u333-rec{opacity:1}
+.u333-dot{width:9px;height:9px;border-radius:50%;background:var(--ux-danger);animation:u333-blink 1s steps(2) infinite}
+@keyframes u333-blink{50%{opacity:.25}}
+.u333-tm{font:700 12.5px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--ux-ink);font-variant-numeric:tabular-nums}
+.u333-wv{flex:1;display:flex;align-items:center;justify-content:flex-end;gap:2px;height:28px;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 30%);mask-image:linear-gradient(90deg,transparent,#000 30%)}
+.u333-wv b{flex:none;width:3px;border-radius:2px;background:var(--ux-ink-2)}
+.u333-cx{position:absolute;right:66px;top:0;bottom:0;display:flex;align-items:center;gap:4px;font-size:12px;font-weight:750;color:var(--ux-ink-3);opacity:0;transition:opacity .2s}
+.u333.is-rec .u333-cx{opacity:var(--o,1)}
+
+.u333-trash{position:absolute;left:12px;top:50%;width:28px;height:30px;margin-top:-16px;opacity:0;pointer-events:none;transform-origin:50% 100%}
+.u333-trash svg{width:100%;height:100%;fill:none;stroke:var(--ux-danger);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
+.u333-trash .bd{fill:color-mix(in srgb,var(--ux-danger) 12%,transparent)}
+.u333-trash .lid{transform-box:view-box;transform-origin:3.5px 8px}
+
+.u333-bl{position:absolute;left:13px;top:50%;width:28px;height:14px;margin-top:-7px;border-radius:7px;background:repeating-linear-gradient(90deg,transparent 0 4px,rgba(255,255,255,.9) 4px 6px) 2px 3px/24px 8px no-repeat,var(--ux-danger);box-shadow:0 4px 10px -3px color-mix(in srgb,var(--ux-danger) 60%,transparent);opacity:0;pointer-events:none}
+.u333.is-trash .u333-ph{opacity:0}
+.u333-mic{position:relative;flex:none;width:44px;height:44px;margin-left:auto;border:0;border-radius:50%;display:grid;place-items:center;background:var(--ux-accent);color:var(--ux-accent-ink);touch-action:none;transition:transform .35s var(--ux-spring),background-color .3s}
+.u333-mic svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+.u333.is-rec .u333-mic{transform:translateX(var(--dx,0px)) scale(1.35);background:var(--ux-danger);transition:background-color .3s}
+.u333-mic::before{content:"";position:absolute;inset:-6px;border-radius:50%;background:var(--ux-danger);opacity:0;transform:scale(calc(.9 + var(--lv,0) * .5))}
+.u333.is-rec .u333-mic::before{opacity:.22}
+</style>
+<div class="ux u333">
+  <div class="u333-chat" aria-live="polite"><p class="u333-in"><small>Sua</small>What time was the meeting today?</p></div>
+  <div class="u333-bar">
+    <span class="u333-ph">Aa</span>
+    <div class="u333-rec" aria-hidden="true"><i class="u333-dot"></i><span class="u333-tm">0:00</span><div class="u333-wv"></div></div>
+    <span class="u333-cx" aria-hidden="true">‹ Slide to cancel</span>
+    <span class="u333-trash" aria-hidden="true"><svg viewBox="0 0 28 30"><path class="bd" d="M6 11h16l-1.3 14.2a2 2 0 0 1-2 1.8H9.3a2 2 0 0 1-2-1.8z"/><path d="M11.5 15v8M16.5 15v8"/><g class="lid"><path d="M3.5 8h21M10.5 8V5.8a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1V8"/></g></svg></span>
+    <span class="u333-bl" aria-hidden="true"></span>
+    <button class="u333-mic" type="button" aria-label="Hold to record, release to send"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></svg></button>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var mic = root.querySelector('.u333-mic'), chat = root.querySelector('.u333-chat'), tm = root.querySelector('.u333-tm'), wv = root.querySelector('.u333-wv');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var rec = false, t0 = 0, iv = 0, sx = 0, k = 1, lv = 0, bars = [], canceled = false;
+  function fmt(s) { s = Math.floor(s); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); }
+  function start(e) {
+    rec = true; canceled = false; t0 = performance.now(); bars = [];
+    wv.textContent = '';
+    var r = root.getBoundingClientRect(); k = root.offsetWidth / (r.width || 1); sx = e.clientX;
+    root.classList.add('is-rec');
+    root.style.setProperty('--dx', '0px'); root.style.setProperty('--o', 1);
+    iv = setInterval(function () {
+      if (!root.isConnected) { clearInterval(iv); return; }
+      var s = (performance.now() - t0) / 1000;
+      tm.textContent = fmt(s);
+      lv += ((0.25 + Math.random() * 0.75) * (Math.sin(s * 5) * 0.3 + 0.7) - lv) * 0.5;
+      mic.style.setProperty('--lv', lv.toFixed(2));
+      var b = document.createElement('b');
+      b.style.height = Math.max(3, lv * 26).toFixed(0) + 'px';
+      wv.appendChild(b); bars.push(lv);
+      if (wv.children.length > 60) wv.removeChild(wv.firstChild);
+    }, 70);
+  }
+  function stop(send) {
+    if (!rec) return;
+    rec = false; clearInterval(iv);
+    root.classList.remove('is-rec');
+    root.style.setProperty('--dx', '0px');
+    var dur = (performance.now() - t0) / 1000;
+    if (send && dur > 0.5) {
+      var m = document.createElement('div');
+      m.className = 'u333-vm';
+      m.setAttribute('aria-label', 'Voice message ' + fmt(dur));
+      var w = '';
+      for (var i = 0; i < 18; i++) { var v = bars[Math.floor(i / 18 * bars.length)] || 0.2; w += '<b style="height:' + Math.max(3, v * 20).toFixed(0) + 'px"></b>'; }
+      m.innerHTML = '<i aria-hidden="true"></i><span class="w" aria-hidden="true">' + w + '</span><span>' + fmt(dur) + '</span>';
+      chat.appendChild(m);
+      while (chat.children.length > 4) chat.removeChild(chat.firstChild);
+    }
+  }
+  var trash = root.querySelector('.u333-trash'), lid = trash.querySelector('.lid'), blob = root.querySelector('.u333-bl'), TT = 0;
+  function cancel() {
+    if (canceled) return;
+    canceled = true;
+    stop(false);
+    root.classList.add('is-trash'); clearTimeout(TT);
+    var D = rm ? 0 : 1300;
+    if (!rm && trash.animate) {
+      trash.animate([{ opacity: 0, transform: 'translateY(26px)' }, { opacity: 1, transform: 'none', offset: 0.18 }, { opacity: 1, transform: 'none', offset: 0.6 }, { opacity: 1, transform: 'rotate(-8deg)', offset: 0.65 }, { opacity: 1, transform: 'rotate(7deg)', offset: 0.71 }, { opacity: 1, transform: 'rotate(-3deg)', offset: 0.77 }, { opacity: 1, transform: 'none', offset: 0.84 }, { opacity: 0, transform: 'translateY(26px)' }], { duration: D, easing: 'ease-out' });
+      lid.animate([{ transform: 'none' }, { transform: 'none', offset: 0.1 }, { transform: 'rotate(-40deg)', offset: 0.24 }, { transform: 'rotate(-40deg)', offset: 0.52 }, { transform: 'rotate(5deg)', offset: 0.58 }, { transform: 'none', offset: 0.63 }, { transform: 'none' }], { duration: D });
+      blob.animate([{ opacity: 0, transform: 'translate(130px,0) scale(1.2)' }, { opacity: 1, transform: 'translate(118px,-14px) scale(1.15) rotate(-8deg)', offset: 0.12 }, { opacity: 1, transform: 'translate(64px,-52px) scale(.95) rotate(-20deg)', offset: 0.5 }, { opacity: 1, transform: 'translate(1px,-14px) scale(.6) rotate(-35deg)', offset: 0.86 }, { opacity: 0, transform: 'translate(1px,2px) scale(.3) rotate(-40deg)' }], { duration: 620, delay: 140, easing: 'cubic-bezier(.3,0,.6,1)' });
+    }
+    setTimeout(function () {
+      if (!root.isConnected) return;
+      var n = document.createElement('p');
+      n.className = 'u333-sys'; n.textContent = 'Recording canceled';
+      chat.appendChild(n);
+      setTimeout(function () { n.remove(); }, 1600);
+    }, rm ? 0 : 760);
+    TT = setTimeout(function () { root.classList.remove('is-trash'); }, D);
+  }
+  mic.addEventListener('pointerdown', function (e) {
+    e.preventDefault();
+    try { mic.setPointerCapture(e.pointerId); } catch (er) {  }
+    start(e);
+  });
+  mic.addEventListener('pointermove', function (e) {
+    if (!rec) return;
+    var dx = Math.min(0, (e.clientX - sx) * k);
+    root.style.setProperty('--dx', Math.max(-120, dx).toFixed(0) + 'px');
+    root.style.setProperty('--o', Math.max(0, 1 + dx / 90).toFixed(2));
+    if (dx < -100) cancel();
+  });
+  mic.addEventListener('pointerup', function () { stop(true); });
+  mic.addEventListener('pointercancel', function () { stop(false); });
+  mic.addEventListener('keydown', function (e) { if ((e.key === ' ' || e.key === 'Enter') && !rec && !e.repeat) { e.preventDefault(); start({ clientX: 0 }); } if (e.key === 'Escape' && rec) cancel(); });
+  mic.addEventListener('keyup', function (e) { if (e.key === ' ' || e.key === 'Enter') stop(true); });
+})();
+</script>
+--- Code end ---

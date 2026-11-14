@@ -1,0 +1,221 @@
+---
+source: "lucianlabs"
+id: "019"
+title: "Interest chips multi-select"
+category: "Toggles & Pickers"
+collection: "interface"
+url: "https://lucianlabs.dev/en/uxui-prompt/#019"
+tags: ["chips", "multi-select", "filter", "limit", "toggle"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Interest chips multi-select (019, Toggles & Pickers)
+[What it does] Pick a chip and a check slides out from the left as it fills with color. You can pick up to five; try a sixth and the chip shakes its head while the counter flashes a warning.
+[How to use it] Pick several chips — and see what happens when you go past five
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #019 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#019 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u019{position:relative;width:340px}
+.u019-head{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:16px}
+.u019-head b{display:block;font-size:19px;font-weight:760;letter-spacing:-.03em}
+.u019-head small{display:block;margin-top:4px;font-size:13px;color:var(--ux-ink-3)}
+.u019-cnt{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--ux-ink-2);font-variant-numeric:tabular-nums;transition:color .3s var(--ux-ease)}
+.u019-dots{display:flex;gap:3px}
+.u019-dots i{width:7px;height:7px;border-radius:50%;background:var(--ux-line-2);transition:background-color .3s var(--ux-ease),transform .4s var(--ux-spring)}
+.u019-dots i.on{background:var(--ux-accent);transform:scale(1.15)}
+.u019.is-warn .u019-cnt{color:var(--ux-danger);animation:u019-flash .5s var(--ux-ease)}
+@keyframes u019-flash{30%{transform:scale(1.08)}}
+.u019-list{display:flex;flex-wrap:wrap;align-content:center;gap:8px;height:200px}
+.u019-chip{display:inline-flex;align-items:center;height:42px;padding:0 16px;border:0;border-radius:999px;background:var(--ux-surface);color:var(--ux-ink-2);font-size:14.5px;font-weight:640;
+  box-shadow:inset 0 0 0 1px var(--ux-line-2);transition:background-color .35s var(--ux-ease),color .3s var(--ux-ease),box-shadow .3s var(--ux-ease),padding .45s var(--ux-spring),transform .4s var(--ux-spring)}
+.u019-chip:hover{color:var(--ux-ink);box-shadow:inset 0 0 0 1px var(--ux-ink-3)}
+.u019-chip:active{transform:scale(.94)}
+.u019-chip:focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.u019-chip i{display:grid;place-items:center;width:0;height:18px;margin-right:0;overflow:hidden;opacity:0;transition:width .45s var(--ux-spring),margin .45s var(--ux-spring),opacity .25s var(--ux-ease)}
+.u019-chip svg{width:16px;height:16px;flex:none;fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.u019-chip[aria-pressed="true"]{background:var(--ux-ink);color:var(--ux-page);box-shadow:0 10px 18px -12px var(--ux-shadow-strong);padding-left:12px}
+.u019-chip[aria-pressed="true"] i{width:18px;margin-right:6px;opacity:1}
+.u019-chip.is-no{animation:u019-no .4s var(--ux-ease)}
+@keyframes u019-no{20%{transform:translateX(-5px)}45%{transform:translateX(4px)}70%{transform:translateX(-2px)}}
+.u019-msg{height:20px;margin:14px 0 0;font-size:13px;color:var(--ux-ink-3);transition:color .3s var(--ux-ease)}
+.u019.is-warn .u019-msg{color:var(--ux-danger)}
+</style>
+<div class="ux u019">
+  <div class="u019-head">
+    <div><b>Your interests</b><small>We’ll tune your feed to match</small></div>
+    <span class="u019-cnt"><span class="u019-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span class="u019-n">0/5</span></span>
+  </div>
+  <div class="u019-list" role="group" aria-label="Interests, up to 5"></div>
+  <p class="u019-msg" aria-live="polite"></p>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var list = root.querySelector('.u019-list');
+  var dots = root.querySelectorAll('.u019-dots i');
+  var n = root.querySelector('.u019-n');
+  var msg = root.querySelector('.u019-msg');
+  var NAMES = ['Design systems', 'Motion', 'Typography', '3D', 'Data viz', 'AI agents', 'Accessibility', 'Branding', 'Photo', 'Sound'];
+  var PRE = [0, 1, 5];
+  var MAX = 5, t = 0;
+  var chips = NAMES.map(function (name, i) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'u019-chip';
+    b.setAttribute('aria-pressed', String(PRE.indexOf(i) >= 0));
+    b.innerHTML = '<i aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3.5 8.4l3 3 6-6.4"/></svg></i>';
+    b.appendChild(document.createTextNode(name));
+    list.appendChild(b);
+    return b;
+  });
+  function count() { return chips.filter(function (c) { return c.getAttribute('aria-pressed') === 'true'; }).length; }
+  function render() {
+    var k = count();
+    n.textContent = k + '/' + MAX;
+    Array.prototype.forEach.call(dots, function (d, i) { d.classList.toggle('on', i < k); });
+    if (!root.classList.contains('is-warn')) msg.textContent = k === MAX ? 'You’ve picked all five' : '';
+  }
+  chips.forEach(function (c) {
+    c.addEventListener('click', function () {
+      var on = c.getAttribute('aria-pressed') === 'true';
+      if (!on && count() >= MAX) {
+        c.classList.remove('is-no'); void c.offsetWidth; c.classList.add('is-no');
+        root.classList.remove('is-warn'); void root.offsetWidth; root.classList.add('is-warn');
+        msg.textContent = 'You can pick up to five';
+        clearTimeout(t);
+        t = setTimeout(function () { if (root.isConnected) { root.classList.remove('is-warn'); render(); } }, 1600);
+        return;
+      }
+      c.setAttribute('aria-pressed', String(!on));
+      render();
+    });
+  });
+  render();
+})();
+</script>
+--- Code end ---

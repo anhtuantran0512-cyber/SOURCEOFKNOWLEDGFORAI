@@ -1,0 +1,201 @@
+---
+source: "lucianlabs"
+id: "397"
+title: "Wave-flipping tile picture"
+category: "Sections & Content"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#397"
+tags: ["tiles", "flip", "3d", "wave", "css-3d"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Wave-flipping tile picture (397, Sections & Content)
+[What it does] Sixty-four tiles form one picture, then flip in turn as a ripple spreads from where you press, turning into a different picture on their backs. Each tile tips over in the direction the wave travels, and tiles under the cursor lift slightly forward, rippling after your fingertip.
+[How to use it] Press anywhere on the picture, and pass the cursor over the tiles
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #397 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#397 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u397{position:relative;width:340px;height:340px;border-radius:30px;overflow:hidden;background:#11131C;box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:#fff}
+.u397-gd{position:absolute;left:22px;top:22px;width:296px;height:296px;display:grid;grid-template-columns:repeat(8,1fr);gap:1px;perspective:700px;cursor:pointer;touch-action:manipulation}
+.u397-t{position:relative;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.3,1.5,.5,1)}
+.u397-f{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:2px;background-size:296px 296px}
+.u397-k{transform:rotateY(180deg)}
+.u397-bar{position:absolute;left:30px;right:30px;bottom:30px;display:flex;justify-content:space-between;align-items:center;pointer-events:none}
+.u397-nm{padding:5px 10px;border-radius:999px;background:rgba(17,19,28,.6);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);font-size:11.5px;font-weight:750}
+.u397-go{pointer-events:auto;border:0;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.92);color:#11131C;font:inherit;font-size:11.5px;font-weight:800;cursor:pointer}
+.u397-go:focus-visible{outline:2px solid #FFD43B;outline-offset:2px}
+</style>
+<div class="ux u397">
+  <div class="u397-gd" role="img" aria-label="Tile picture, press to flip"></div>
+  <div class="u397-bar"><span class="u397-nm" aria-live="polite"></span><button type="button" class="u397-go">Flip</button></div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var gd = root.querySelector('.u397-gd'), nm = root.querySelector('.u397-nm'), go = root.querySelector('.u397-go');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var NAMES = ['Dawn sea', 'Starry ridge'], N = 8, S = 296 / N, side = 0;
+  var A = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296 296"><defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF9A8B"/><stop offset=".55" stop-color="#FFD3A5"/><stop offset=".56" stop-color="#3A6EA5"/><stop offset="1" stop-color="#1B3A5C"/></linearGradient></defs><rect width="296" height="296" fill="url(#s)"/><circle cx="148" cy="164" r="44" fill="#FFF1C9"/><rect y="164" width="296" height="132" fill="#2B5584"/>' +
+    [0, 1, 2, 3, 4, 5, 6].map(function (i) { return '<rect x="' + (110 - i * 9) + '" y="' + (172 + i * 16) + '" width="' + (76 + i * 18) + '" height="4" rx="2" fill="#FFE3A3" opacity="' + (0.85 - i * 0.1) + '"/>'; }).join('') +
+    '<path d="M0 120 Q40 108 80 118 T150 112 T230 122 T296 110" stroke="#fff" stroke-width="3" fill="none" opacity=".5"/><path d="M60 70 l10 6 l10 -6 M200 52 l8 5 l8 -5" stroke="#5A3D5C" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>';
+  var Bk = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296 296"><defs><linearGradient id="n" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B1036"/><stop offset="1" stop-color="#3B2A6B"/></linearGradient></defs><rect width="296" height="296" fill="url(#n)"/>' +
+    Array.apply(null, Array(46)).map(function (_, i) { var x = (i * 73) % 296, y = (i * 41) % 170, r = i % 5 ? 1 : 1.8; return '<circle cx="' + x + '" cy="' + y + '" r="' + r + '" fill="#fff" opacity="' + (0.4 + (i % 3) * 0.2) + '"/>'; }).join('') +
+    '<circle cx="222" cy="66" r="26" fill="#FFF6D8"/><circle cx="212" cy="58" r="24" fill="#0B1036" opacity=".9"/><path d="M0 230 L60 150 L100 196 L150 120 L210 200 L250 160 L296 214 V296 H0Z" fill="#241A4A"/><path d="M0 262 L70 200 L120 240 L180 190 L240 246 L296 226 V296 H0Z" fill="#160F33"/><path d="M150 120 L136 140 L146 136 L152 146 L160 134 Z" fill="#E6E2FF"/></svg>';
+  function url(s) { return 'url("data:image/svg+xml,' + encodeURIComponent(s) + '")'; }
+  var T = [];
+  for (var r = 0; r < N; r++) for (var c = 0; c < N; c++) {
+    var t = document.createElement('div'); t.className = 'u397-t';
+    var f = document.createElement('div'); f.className = 'u397-f'; f.style.backgroundImage = url(A); f.style.backgroundPosition = (-c * S) + 'px ' + (-r * S) + 'px';
+    var k = document.createElement('div'); k.className = 'u397-f u397-k'; k.style.backgroundImage = url(Bk); k.style.backgroundPosition = (-c * S) + 'px ' + (-r * S) + 'px';
+    t.appendChild(f); t.appendChild(k); gd.appendChild(t);
+    T.push({ el: t, r: r, c: c, ry: 0, lift: 0 });
+  }
+  function apply(o) { o.el.style.transform = 'translateZ(' + o.lift + 'px) rotateY(' + o.ry + 'deg)'; }
+  function flip(fc, fr) {
+    side = 1 - side; nm.textContent = NAMES[side];
+    T.forEach(function (o) {
+      var d = Math.hypot(o.c - fc, o.r - fr), dir = o.c >= fc ? 1 : -1;
+      o.el.style.transitionDelay = rm ? '0s' : (d * 55).toFixed(0) + 'ms';
+      o.ry += 180 * dir; apply(o);
+    });
+  }
+  gd.addEventListener('click', function (e) {
+    var rc = gd.getBoundingClientRect(), k = gd.offsetWidth / (rc.width || 1);
+    flip((e.clientX - rc.left) * k / S - 0.5, (e.clientY - rc.top) * k / S - 0.5);
+  });
+  go.addEventListener('click', function () { flip(3.5, 3.5); });
+  gd.addEventListener('pointermove', function (e) {
+    if (rm) return;
+    var rc = gd.getBoundingClientRect(), k = gd.offsetWidth / (rc.width || 1), x = (e.clientX - rc.left) * k / S - 0.5, y = (e.clientY - rc.top) * k / S - 0.5;
+    T.forEach(function (o) { var d = Math.hypot(o.c - x, o.r - y), l = d < 2.2 ? Math.round((1 - d / 2.2) * 26) : 0; if (l !== o.lift) { o.lift = l; o.el.style.transitionDelay = '0s'; apply(o); } });
+  });
+  gd.addEventListener('pointerleave', function () { T.forEach(function (o) { if (o.lift) { o.lift = 0; apply(o); } }); });
+  nm.textContent = NAMES[side];
+})();
+</script>
+--- Code end ---

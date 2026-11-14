@@ -1,0 +1,25 @@
+{
+  "generated": "2026-11-14",
+  "totals": {
+    "all": 5768,
+    "codefronts": 5047,
+    "lucianlabs": 400,
+    "motionsites_free": 321
+  },
+  "sources": {
+    "codefronts": {
+      "manifest": "sources/codefronts/manifest.json",
+      "readme": "sources/codefronts/README.md"
+    },
+    "lucianlabs": {
+      "manifest": "sources/lucianlabs/manifest.json",
+      "readme": "sources/lucianlabs/README.md"
+    },
+    "motionsites": {
+      "manifest": "sources/motionsites/manifest.json",
+      "catalog": "sources/motionsites/catalog.json",
+      "readme": "sources/motionsites/README.md",
+      "locked_entries": 451
+    }
+  }
+}

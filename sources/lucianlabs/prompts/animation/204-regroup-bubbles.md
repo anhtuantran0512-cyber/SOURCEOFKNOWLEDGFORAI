@@ -1,0 +1,250 @@
+---
+source: "lucianlabs"
+id: "204"
+title: "Regrouping budget bubbles"
+category: "Data Motion"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#204"
+tags: ["bubble-chart", "force-layout", "grouping", "physics", "data"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Regrouping budget bubbles (204, Data Motion)
+[What it does] Thirty-six project bubbles, each sized by budget, sit in one cluster; pick By team or By status in the tabs above and they jostle apart and gather into new groups. Each group carries its name and budget total along with it, and hovering a bubble shows that project's team, status and budget in a tooltip.
+[How to use it] Switch the tabs above to watch the bubbles regroup, then hover a bubble
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #204 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#204 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u204{position:relative;width:340px;height:340px;border-radius:30px;overflow:hidden;background:var(--ux-surface);color:var(--ux-ink);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong)}
+.u204-tabs{position:absolute;left:50%;top:16px;transform:translateX(-50%);display:flex;padding:3px;border-radius:999px;background:var(--ux-surface-2);box-shadow:inset 0 0 0 1px var(--ux-line);z-index:2}
+.u204-tb{position:relative;border:0;padding:6px 14px;white-space:nowrap;border-radius:999px;background:none;color:var(--ux-ink-2);font:inherit;font-size:12px;font-weight:800;cursor:pointer;transition:color .2s}
+.u204-tb.is-on{color:var(--ux-surface)}
+.u204-tb span{position:relative;z-index:1}
+.u204-pill{position:absolute;top:3px;bottom:3px;border-radius:999px;background:var(--ux-ink);transition:left .35s cubic-bezier(.3,1.3,.5,1),width .35s cubic-bezier(.3,1.3,.5,1)}
+.u204-tb:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+.u204-cv{position:absolute;inset:0;width:100%;height:100%;cursor:default;touch-action:manipulation}
+.u204-lb{position:absolute;left:0;top:0;padding:2px 8px;border-radius:999px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line);font-size:10.5px;font-weight:800;white-space:nowrap;pointer-events:none;transition:opacity .3s;font-variant-numeric:tabular-nums}
+.u204-lg{position:absolute;left:0;right:0;bottom:14px;display:flex;justify-content:center;gap:12px;font-size:10.5px;font-weight:750;color:var(--ux-ink-2);pointer-events:none}
+.u204-lg i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:0}
+.u204-tip{position:absolute;left:0;top:0;padding:6px 9px;border-radius:10px;background:var(--ux-ink);color:var(--ux-surface);font-size:10.5px;font-weight:700;line-height:1.4;white-space:nowrap;pointer-events:none;opacity:0;transform:translate(-50%,-100%);transition:opacity .15s;z-index:3}
+.u204-tip b{font-weight:900}
+.u204-tip.is-on{opacity:1}
+</style>
+<div class="ux u204">
+  <canvas class="u204-cv" role="img" aria-label="Project bubble chart"></canvas>
+  <div class="u204-tabs" role="group" aria-label="Group by"><span class="u204-pill"></span><button type="button" class="u204-tb is-on" aria-pressed="true"><span>All</span></button><button type="button" class="u204-tb" aria-pressed="false"><span>By team</span></button><button type="button" class="u204-tb" aria-pressed="false"><span>By status</span></button></div>
+  <div class="u204-lg"></div>
+  <div class="u204-tip"></div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var cv = root.querySelector('.u204-cv'), cx = cv.getContext('2d'), tabs = root.querySelectorAll('.u204-tb'), pill = root.querySelector('.u204-pill'), lg = root.querySelector('.u204-lg'), tip = root.querySelector('.u204-tip');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var W = 340, H = 340, dpr = Math.min(2, window.devicePixelRatio || 1);
+  cv.width = W * dpr; cv.height = H * dpr; cx.scale(dpr, dpr);
+  var TEAM = ['Design', 'Engineering', 'Marketing', 'Operations'], STAT = ['Planning', 'In progress', 'Done'];
+  var COL = ['#F472B6', '#6366F1', '#F59E0B', '#10B981'];
+  var CEN = [[[170, 178]], [[98, 122], [242, 122], [98, 240], [242, 240]], [[64, 182], [170, 182], [276, 182]]];
+  var seed = 7; function rnd() { seed = (seed * 16807) % 2147483647; return seed / 2147483647; }
+  var TC = [8, 12, 9, 7], SC = [10, 16, 10], P = [], si = [];
+  SC.forEach(function (c, s) { for (var k = 0; k < c; k++) si.push(s); });
+  for (var k = si.length - 1; k > 0; k--) { var j = Math.floor(rnd() * (k + 1)), tmp = si[k]; si[k] = si[j]; si[j] = tmp; }
+  TC.forEach(function (c, tm) { for (var k = 0; k < c; k++) { var v = 0.4 + Math.pow(rnd(), 1.6) * 4.6; P.push({ team: tm, st: si[P.length], v: v, r: 4.5 + Math.sqrt(v) * 5, x: 170 + (rnd() - 0.5) * 220, y: 180 + (rnd() - 0.5) * 200, vx: 0, vy: 0 }); } });
+  var mode = 0, hov = -1, LB = [];
+  for (var k = 0; k < 4; k++) { var l = document.createElement('div'); l.className = 'u204-lb'; root.appendChild(l); LB.push(l); }
+  lg.innerHTML = TEAM.map(function (n, i) { return '<span><i style="background:' + COL[i] + '"></i>' + n + '</span>'; }).join('');
+  function gOf(p) { return mode === 0 ? 0 : mode === 1 ? p.team : p.st; }
+  function step(dt) {
+    P.forEach(function (p) {
+      var c = CEN[mode][gOf(p)];
+      p.vx += (c[0] - p.x) * 5 * dt; p.vy += (c[1] - p.y) * 5 * dt;
+      var damp = Math.exp(-5 * dt); p.vx *= damp; p.vy *= damp;
+      p.x += p.vx * dt * 1.6; p.y += p.vy * dt * 1.6;
+    });
+    for (var it = 0; it < 3; it++) for (var a = 0; a < P.length; a++) for (var b = a + 1; b < P.length; b++) {
+      var A = P[a], B = P[b], dx = B.x - A.x, dy = B.y - A.y, d = Math.sqrt(dx * dx + dy * dy) || 0.01, m = A.r + B.r + 1.5;
+      if (d < m) { var o = (m - d) / 2, ux = dx / d, uy = dy / d; A.x -= ux * o; A.y -= uy * o; B.x += ux * o; B.y += uy * o; }
+    }
+    P.forEach(function (p) { p.x = Math.max(p.r + 4, Math.min(W - p.r - 4, p.x)); p.y = Math.max(p.r + 56, Math.min(H - p.r - 34, p.y)); });
+  }
+  function draw() {
+    cx.clearRect(0, 0, W, H);
+    P.forEach(function (p, i) {
+      cx.globalAlpha = hov >= 0 && hov !== i ? 0.45 : 1;
+      cx.fillStyle = COL[p.team]; cx.beginPath(); cx.arc(p.x, p.y, p.r, 0, 6.2832); cx.fill();
+      cx.fillStyle = 'rgba(255,255,255,.28)'; cx.beginPath(); cx.arc(p.x - p.r * 0.3, p.y - p.r * 0.35, p.r * 0.35, 0, 6.2832); cx.fill();
+      if (hov === i) { cx.globalAlpha = 1; cx.strokeStyle = getComputedStyle(root).color; cx.lineWidth = 2; cx.beginPath(); cx.arc(p.x, p.y, p.r + 2.5, 0, 6.2832); cx.stroke(); }
+    });
+    cx.globalAlpha = 1;
+    var names = mode === 0 ? ['All ' + P.length + ' projects · '] : mode === 1 ? TEAM : STAT;
+    LB.forEach(function (l, g) {
+      if (g >= names.length) { l.style.opacity = 0; return; }
+      var top = 1e9, sx = 0, n = 0, sum = 0;
+      P.forEach(function (p) { if (gOf(p) === g) { top = Math.min(top, p.y - p.r); sx += p.x; n++; sum += p.v; } });
+      l.textContent = (mode === 0 ? names[0] : names[g] + ' · ') + sum.toFixed(1) + 'B';
+      l.style.opacity = 1; l.style.transform = 'translate(' + Math.max(4, Math.min(W - l.offsetWidth - 4, sx / n - l.offsetWidth / 2)).toFixed(1) + 'px,' + Math.max(52, top - 24).toFixed(1) + 'px)';
+    });
+  }
+  var raf = 0, last = 0, vis = true, calm = 0;
+  function frame(now) {
+    raf = 0;
+    if (!root.isConnected || !vis) return;
+    var dt = Math.min(0.033, Math.max(0, (now - last) / 1000)); last = now;
+    step(dt); draw();
+    var e = 0; P.forEach(function (p) { e += Math.abs(p.vx) + Math.abs(p.vy); });
+    calm = e < 8 ? calm + 1 : 0;
+    if (calm < 30) raf = requestAnimationFrame(frame);
+  }
+  function run() { calm = 0; if (!raf && vis) { last = performance.now(); raf = requestAnimationFrame(frame); } }
+  if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { vis = es[0].isIntersecting; run(); }).observe(root);
+  function setMode(m) {
+    mode = m;
+    tabs.forEach(function (b, i) { b.classList.toggle('is-on', i === m); b.setAttribute('aria-pressed', i === m); });
+    var b = tabs[m]; pill.style.left = b.offsetLeft + 'px'; pill.style.width = b.offsetWidth + 'px';
+    if (rm) { for (var i = 0; i < 400; i++) step(0.033); draw(); return; }
+    P.forEach(function (p) { p.vx += (Math.random() - 0.5) * 60; p.vy += (Math.random() - 0.5) * 60; });
+    run();
+  }
+  tabs.forEach(function (b, i) { b.addEventListener('click', function () { setMode(i); }); });
+  function pick(e) {
+    var r = cv.getBoundingClientRect(), k = W / r.width, x = (e.clientX - r.left) * k, y = (e.clientY - r.top) * k, h = -1;
+    P.forEach(function (p, i) { var dx = x - p.x, dy = y - p.y; if (dx * dx + dy * dy <= p.r * p.r) h = i; });
+    if (h !== hov) { hov = h; draw(); }
+    if (h < 0) { tip.classList.remove('is-on'); return; }
+    var p = P[h];
+    tip.innerHTML = '<b>' + 'Project ' + (h + 1) + '</b><br>' + TEAM[p.team] + ' · ' + STAT[p.st] + ' · ' + p.v.toFixed(1) + 'B';
+    tip.style.left = Math.max(70, Math.min(W - 70, p.x)) + 'px'; tip.style.top = (p.y - p.r - 6) + 'px'; tip.classList.add('is-on');
+  }
+  cv.addEventListener('pointermove', pick);
+  cv.addEventListener('pointerdown', pick);
+  cv.addEventListener('pointerleave', function () { hov = -1; tip.classList.remove('is-on'); draw(); });
+  setMode(0);
+})();
+</script>
+--- Code end ---

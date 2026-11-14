@@ -1,0 +1,233 @@
+---
+source: "lucianlabs"
+id: "327"
+title: "Glitching signal title"
+category: "Text Motion"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#327"
+tags: ["text", "glitch", "rgb", "noise", "title"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Glitching signal title (327, Text Motion)
+[What it does] Tap the title and the letters are sliced into horizontal bands that slip out of line, while red and cyan channels split apart and snap back together. Turn on ‘Unstable’ and it jitters at irregular intervals; the strength slider sets how far the slices drift.
+[How to use it] Tap the title for one glitch, or turn on ‘Unstable’ and raise the strength
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #327 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#327 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u327{position:relative;width:340px;height:300px;display:flex;flex-direction:column;padding:18px;border-radius:28px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);overflow:hidden}
+.u327-scr{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:18px;background:#0B0C12;overflow:hidden}
+.u327-scr::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 1px,transparent 1px 3px),radial-gradient(120% 90% at 50% 50%,transparent 55%,rgba(0,0,0,.55))}
+.u327-cap{position:absolute;left:14px;top:12px;margin:0;font:600 10.5px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em;color:rgba(255,255,255,.5)}
+.u327-cap i{display:inline-block;width:6px;height:6px;margin-right:6px;border-radius:50%;background:#FF4D6A;vertical-align:1px;animation:u327-rec 1.2s steps(2) infinite}
+@keyframes u327-rec{50%{opacity:.2}}
+.u327-t{position:relative;padding:6px 10px;border:0;background:none;font:900 46px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:-.04em;color:#F4F0E8;cursor:pointer}
+.u327-t span{display:block;white-space:nowrap}
+.u327-ch{position:absolute;inset:6px 10px;pointer-events:none;opacity:.85;transform:translateX(var(--d,0px))}
+.u327-ch.r{color:#FF2E63;mix-blend-mode:screen}
+.u327-ch.c{color:#08F7FE;mix-blend-mode:screen;transform:translateX(calc(var(--d,0px) * -1))}
+.u327-m{position:relative;mix-blend-mode:screen}
+.u327-sl{position:absolute;inset:0 0;padding:6px 10px;pointer-events:none;background:#0B0C12;color:#F4F0E8;display:none;clip-path:inset(var(--a,0%) 0 var(--b,100%) 0);transform:translateX(var(--x,0px))}
+.u327.is-g .u327-sl{display:block}
+.u327-sub{margin:10px 0 0;font:600 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;color:rgba(255,255,255,.42)}
+.u327-ft{display:flex;align-items:center;gap:12px;margin-top:12px}
+.u327-sw{display:flex;align-items:center;gap:8px;height:36px;padding:0 12px 0 6px;border:0;border-radius:999px;background:var(--ux-surface-2);font-size:13px;font-weight:700;color:var(--ux-ink-2)}
+.u327-sw i{position:relative;width:34px;height:22px;border-radius:999px;background:var(--ux-surface-3);transition:background-color .3s}
+.u327-sw i::after{content:"";position:absolute;left:3px;top:3px;width:16px;height:16px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.3);transition:transform .4s var(--ux-spring)}
+.u327-sw[aria-pressed="true"] i{background:#FF2E63}
+.u327-sw[aria-pressed="true"] i::after{transform:translateX(12px)}
+.u327-ft label{flex:1;display:flex;align-items:center;gap:8px;font-size:12px;font-weight:700;color:var(--ux-ink-3)}
+.u327-r{flex:1;min-width:0;margin:0;accent-color:#FF2E63}
+</style>
+<div class="ux u327">
+  <div class="u327-scr">
+    <p class="u327-cap" aria-hidden="true"><i></i>REC</p>
+    <button class="u327-t" type="button" aria-label="Trigger a glitch">
+      <span class="u327-ch r" aria-hidden="true">NO SIGNAL</span>
+      <span class="u327-ch c" aria-hidden="true">NO SIGNAL</span>
+      <span class="u327-m">NO SIGNAL</span>
+    </button>
+    <p class="u327-sub">CH 07 · STANDBY</p>
+  </div>
+  <div class="u327-ft">
+    <button class="u327-sw" type="button" aria-pressed="false"><i aria-hidden="true"></i>Unstable</button>
+    <label>Strength<input class="u327-r" type="range" min="10" max="100" value="50" aria-label="Glitch strength"></label>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var t = root.querySelector('.u327-t'), sw = root.querySelector('.u327-sw'), range = root.querySelector('.u327-r');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var power = 0.5, iv = 0, end = 0, auto = 0, unstable = false;
+  var slices = [0, 1, 2, 3].map(function () {
+    var s = document.createElement('span');
+    s.className = 'u327-sl'; s.textContent = 'NO SIGNAL'; s.setAttribute('aria-hidden', 'true');
+    t.appendChild(s);
+    return s;
+  });
+  function frame() {
+    if (!root.isConnected) { clearInterval(iv); return; }
+    if (performance.now() > end) { stop(); return; }
+    t.style.setProperty('--d', ((Math.random() * 0.6 + 0.4) * power * 9).toFixed(1) + 'px');
+    slices.forEach(function (s) {
+      var a = Math.random() * 82, h = 5 + Math.random() * 18;
+      s.style.setProperty('--a', a.toFixed(1) + '%');
+      s.style.setProperty('--b', Math.max(0, 100 - a - h).toFixed(1) + '%');
+      s.style.setProperty('--x', ((Math.random() - 0.5) * 2 * power * 30).toFixed(1) + 'px');
+    });
+  }
+  function stop() {
+    clearInterval(iv); iv = 0;
+    root.classList.remove('is-g');
+    t.style.setProperty('--d', '0px');
+  }
+  function glitch(ms) {
+    end = performance.now() + (rm ? 120 : ms);
+    root.classList.add('is-g');
+    frame();
+    if (!iv && !rm) iv = setInterval(frame, 48);
+    if (rm) setTimeout(stop, 120);
+  }
+  function schedule() {
+    clearTimeout(auto);
+    if (!unstable) return;
+    auto = setTimeout(function () { if (!root.isConnected) return; glitch(150 + Math.random() * 250); schedule(); }, 500 + Math.random() * 1100);
+  }
+  t.addEventListener('click', function () { glitch(380); });
+  sw.addEventListener('click', function () {
+    unstable = !unstable;
+    sw.setAttribute('aria-pressed', String(unstable));
+    if (unstable) glitch(200); else stop();
+    schedule();
+  });
+  range.addEventListener('input', function () { power = range.value / 100; });
+  power = range.value / 100;
+})();
+</script>
+--- Code end ---

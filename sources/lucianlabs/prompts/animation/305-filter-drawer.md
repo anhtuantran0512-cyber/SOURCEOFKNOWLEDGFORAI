@@ -1,0 +1,270 @@
+---
+source: "lucianlabs"
+id: "305"
+title: "Filter drawer with live result count"
+category: "Commerce & Pricing"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#305"
+tags: ["filter", "bottom-sheet", "ecommerce", "facets", "mobile"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Filter drawer with live result count (305, Commerce & Pricing)
+[What it does] On a mobile product list, press Filter and a drawer rises from below to set price range, color and size. Whatever you change, the “Show N items” count on the button rolls immediately, and the button is blocked when nothing matches. Press it and the drawer slides away as the list keeps only the matching items and re-settles, with your choices pinned at the top as removable chips.
+[How to use it] Open Filter, pick a color and size, drag the price bar, then press Show
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #305 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#305 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u305{position:relative;width:300px;height:480px;border-radius:32px;overflow:hidden;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:var(--ux-ink)}
+.u305-tp{position:absolute;left:0;right:0;top:0;z-index:2;padding:20px 16px 8px;background:var(--ux-surface)}
+.u305-tp header{display:flex;align-items:center;gap:6px}
+.u305-tp h3{margin:0;font-size:18px;font-weight:900}
+.u305-tp header small{margin-right:auto;font-size:12px;font-weight:800;color:var(--ux-ink-3);font-variant-numeric:tabular-nums}
+.u305-fb{position:relative;display:inline-flex;align-items:center;gap:5px;height:32px;padding:0 12px;border:0;border-radius:999px;background:var(--ux-surface-2);box-shadow:inset 0 0 0 1px var(--ux-line);color:var(--ux-ink);font:inherit;font-size:11.5px;font-weight:850;cursor:pointer}
+.u305-fb svg{width:13px;height:13px}
+.u305-fb i{position:absolute;right:-3px;top:-4px;min-width:16px;height:16px;padding:0 4px;border-radius:8px;background:var(--ux-accent);color:#fff;font-style:normal;font-size:9px;font-weight:900;line-height:16px;text-align:center;transform:scale(0);transition:transform .3s cubic-bezier(.3,1.7,.5,1);box-sizing:border-box}
+.u305-fb i.is-on{transform:none}
+.u305-ac{display:flex;gap:5px;flex-wrap:wrap;min-height:0;margin-top:0;transition:margin .3s}
+.u305-ac:not(:empty){margin-top:9px}
+.u305-ac button{display:inline-flex;align-items:center;gap:4px;height:26px;padding:0 6px 0 10px;border:0;border-radius:999px;background:var(--ux-ink);color:var(--ux-surface);font:inherit;font-size:10.5px;font-weight:800;cursor:pointer;animation:u305-in .35s cubic-bezier(.3,1.6,.5,1)}
+@keyframes u305-in{from{transform:scale(.6);opacity:0}}
+.u305-ac button svg{width:9px;height:9px;opacity:.7}
+.u305-gd{position:absolute;left:12px;right:12px;bottom:0;top:var(--top,64px);display:grid;grid-template-columns:1fr 1fr;gap:9px;align-content:start;overflow-y:auto;scrollbar-width:none;padding-bottom:16px;transition:top .3s}
+.u305-gd::-webkit-scrollbar{display:none}
+.u305-it{transition:opacity .3s,transform .35s cubic-bezier(.3,1.3,.5,1)}
+.u305-it.is-out{display:none}
+.u305-it.is-pop{animation:u305-pop .45s cubic-bezier(.3,1.3,.5,1) backwards}
+@keyframes u305-pop{from{opacity:0;transform:scale(.9) translateY(8px)}}
+.u305-it i{display:block;height:118px;border-radius:14px;position:relative}
+.u305-it i::after{content:"";position:absolute;left:50%;top:18px;width:46px;height:84px;margin-left:-23px;border-radius:16px 16px 26px 26px;background:rgba(255,255,255,.55)}
+.u305-it b{display:block;margin-top:6px;font-size:11px;font-weight:800}
+.u305-it small{font-size:11px;font-weight:850;color:var(--ux-ink-2);font-variant-numeric:tabular-nums}
+.u305-ov{position:absolute;inset:0;z-index:3;background:rgba(10,10,20,.4);opacity:0;pointer-events:none;transition:opacity .3s}
+.u305.is-open .u305-ov{opacity:1;pointer-events:auto}
+.u305-sh{position:absolute;left:0;right:0;bottom:0;z-index:4;padding:10px 16px 16px;border-radius:24px 24px 0 0;background:var(--ux-surface);box-shadow:0 -12px 30px -14px rgba(0,0,0,.35);transform:translateY(105%);transition:transform .45s cubic-bezier(.3,1.1,.4,1)}
+.u305.is-open .u305-sh{transform:none}
+.u305-gr{width:36px;height:4px;margin:0 auto 8px;border-radius:2px;background:var(--ux-surface-3)}
+.u305-sh header{display:flex;align-items:center;justify-content:space-between;font-size:15px;font-weight:900}
+.u305-rs{height:28px;padding:0 10px;border:0;border-radius:8px;background:none;color:var(--ux-ink-3);font:inherit;font-size:11px;font-weight:800;cursor:pointer}
+.u305-sh h5{margin:14px 0 0;font-size:11px;font-weight:850;color:var(--ux-ink-2);display:flex;justify-content:space-between}
+.u305-sh h5 span{font-weight:800;color:var(--ux-ink);font-variant-numeric:tabular-nums}
+.u305-tr{position:relative;height:30px;margin:4px 8px 0;touch-action:none}
+.u305-tr::before{content:"";position:absolute;left:0;right:0;top:13px;height:4px;border-radius:2px;background:var(--ux-surface-3)}
+.u305-rg{position:absolute;top:13px;height:4px;border-radius:2px;background:var(--ux-ink)}
+.u305-mn,.u305-mx{position:absolute;top:5px;width:20px;height:20px;margin-left:-10px;padding:0;border:0;border-radius:50%;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.1),0 2px 6px rgba(0,0,0,.25);cursor:grab}
+.u305-cs,.u305-zs{display:flex;gap:7px;margin-top:8px;flex-wrap:wrap}
+.u305-sw{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 10px 0 6px;border:0;border-radius:999px;background:var(--ux-surface-2);box-shadow:inset 0 0 0 1px var(--ux-line);color:var(--ux-ink);font:inherit;font-size:11px;font-weight:800;cursor:pointer;transition:box-shadow .2s}
+.u305-sw i{width:20px;height:20px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(0,0,0,.12)}
+.u305-sw[aria-pressed="true"],.u305-sz[aria-pressed="true"]{box-shadow:inset 0 0 0 2px var(--ux-ink)}
+.u305-sz{width:44px;height:34px;border:0;border-radius:10px;background:var(--ux-surface-2);box-shadow:inset 0 0 0 1px var(--ux-line);color:var(--ux-ink);font:inherit;font-size:12px;font-weight:850;cursor:pointer}
+.u305-ap{display:block;width:100%;height:48px;margin-top:18px;border:0;border-radius:14px;background:var(--ux-ink);color:var(--ux-surface);font:inherit;font-size:13px;font-weight:850;cursor:pointer;transition:opacity .2s}
+.u305-ap:disabled{opacity:.3;cursor:not-allowed}
+.u305-ap b{display:inline-block;margin:0 1px;font-variant-numeric:tabular-nums}
+.u305-ap b.is-roll{animation:u305-rl .3s cubic-bezier(.3,1.5,.5,1)}
+@keyframes u305-rl{from{transform:translateY(60%);opacity:0}}
+.u305 button:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){.u305-sh,.u305-ov,.u305-gd{transition:none}.u305-it.is-pop,.u305-ac button,.u305-ap b.is-roll{animation:none}}
+</style>
+<div class="ux u305">
+  <div class="u305-tp"><header><h3>Dresses</h3><small class="u305-ct"></small><button type="button" class="u305-fb" aria-expanded="false"><svg viewBox="0 0 13 13" aria-hidden="true"><path d="M1.5 3h10M3.5 6.5h6M5.5 10h2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Filter<i class="u305-bd"></i></button></header><div class="u305-ac"></div></div>
+  <div class="u305-gd"></div>
+  <div class="u305-ov" aria-hidden="true"></div>
+  <div class="u305-sh" role="dialog" aria-hidden="true">
+    <div class="u305-gr" aria-hidden="true"></div>
+    <header>Filter<button type="button" class="u305-rs">Reset</button></header>
+    <h5>Price<span class="u305-pl"></span></h5>
+    <div class="u305-tr"><span class="u305-rg"></span><button type="button" class="u305-mn" role="slider" aria-label="Minimum price"></button><button type="button" class="u305-mx" role="slider" aria-label="Maximum price"></button></div>
+    <h5>Color</h5><div class="u305-cs"></div>
+    <h5>Size</h5><div class="u305-zs"></div>
+    <button type="button" class="u305-ap"></button>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var gd = root.querySelector('.u305-gd'), fb = root.querySelector('.u305-fb'), bd = root.querySelector('.u305-bd'), ac = root.querySelector('.u305-ac'), ct = root.querySelector('.u305-ct'), sh = root.querySelector('.u305-sh'), ov = root.querySelector('.u305-ov'), rs = root.querySelector('.u305-rs'), pl = root.querySelector('.u305-pl'), tr = root.querySelector('.u305-tr'), rg = root.querySelector('.u305-rg'), mn = root.querySelector('.u305-mn'), mx = root.querySelector('.u305-mx'), cs = root.querySelector('.u305-cs'), zs = root.querySelector('.u305-zs'), ap = root.querySelector('.u305-ap'), tp = root.querySelector('.u305-tp');
+  var CN = ['Black', 'Ivory', 'Sage', 'Rose'], CC = ['#27272A', '#F5F0E6', '#9CB59A', '#F2A9B8'], SZ = ['S', 'M', 'L'];
+  var PR = 10, LO = 2, HI = 12;
+  var IT = [[0, 4.9, 'SML'], [1, 3.9, 'SM'], [2, 5.9, 'ML'], [3, 6.9, 'SML'], [0, 8.9, 'M'], [1, 2.9, 'SML'], [2, 10.9, 'SM'], [3, 3.4, 'L'], [1, 7.4, 'ML'], [0, 2.5, 'S']];
+  function won(v) { return '$' + Math.round(v * PR).toLocaleString('ko-KR'); }
+  var cards = IT.map(function (p, i) {
+    var d = document.createElement('div'); d.className = 'u305-it';
+    d.innerHTML = '<i style="background:linear-gradient(160deg,' + CC[p[0]] + ',color-mix(in srgb,' + CC[p[0]] + ' 70%,#000))"></i><b></b><small></small>';
+    d.querySelector('b').textContent = CN[p[0]] + ' · ' + p[2].split('').join('/'); d.querySelector('small').textContent = won(p[1]);
+    gd.appendChild(d); return d;
+  });
+  var f = { lo: LO, hi: HI, c: [], s: [] }, applied = { lo: LO, hi: HI, c: [], s: [] };
+  var SW = CN.map(function (n, i) { var b = document.createElement('button'); b.type = 'button'; b.className = 'u305-sw'; b.setAttribute('aria-pressed', 'false'); b.innerHTML = '<i style="background:' + CC[i] + '"></i>'; b.appendChild(document.createTextNode(n)); b.addEventListener('click', function () { tog(f.c, i); sync(); }); cs.appendChild(b); return b; });
+  var ZB = SZ.map(function (z, i) { var b = document.createElement('button'); b.type = 'button'; b.className = 'u305-sz'; b.setAttribute('aria-pressed', 'false'); b.textContent = z; b.addEventListener('click', function () { tog(f.s, i); sync(); }); zs.appendChild(b); return b; });
+  function tog(a, i) { var k = a.indexOf(i); if (k >= 0) a.splice(k, 1); else a.push(i); }
+  function match(p, q) { return p[1] >= q.lo - 1e-6 && p[1] <= q.hi + 1e-6 && (!q.c.length || q.c.indexOf(p[0]) >= 0) && (!q.s.length || q.s.some(function (s) { return p[2].indexOf(SZ[s]) >= 0; })); }
+  var lastN = -1;
+  function sync() {
+    var n = IT.filter(function (p) { return match(p, f); }).length;
+    SW.forEach(function (b, i) { b.setAttribute('aria-pressed', f.c.indexOf(i) >= 0); }); ZB.forEach(function (b, i) { b.setAttribute('aria-pressed', f.s.indexOf(i) >= 0); });
+    var a = (f.lo - LO) / (HI - LO) * 100, z = (f.hi - LO) / (HI - LO) * 100;
+    mn.style.left = a + '%'; mx.style.left = z + '%'; rg.style.left = a + '%'; rg.style.width = (z - a) + '%';
+    mn.setAttribute('aria-valuetext', won(f.lo)); mx.setAttribute('aria-valuetext', won(f.hi)); pl.textContent = won(f.lo) + ' – ' + won(f.hi);
+    ap.disabled = !n; ap.innerHTML = '';
+    if (n) { ap.appendChild(document.createTextNode('Show ')); var b = document.createElement('b'); b.textContent = n; if (n !== lastN && lastN >= 0) b.className = 'is-roll'; ap.appendChild(b); ap.appendChild(document.createTextNode(' items')); } else ap.textContent = 'No matching items';
+    lastN = n;
+  }
+  function apply() {
+    applied = { lo: f.lo, hi: f.hi, c: f.c.slice(), s: f.s.slice() };
+    var n = 0;
+    cards.forEach(function (d, i) { var ok = match(IT[i], applied); d.classList.toggle('is-out', !ok); d.classList.remove('is-pop'); if (ok) { void d.offsetWidth; d.classList.add('is-pop'); d.style.animationDelay = (n * 0.05) + 's'; n++; } });
+    ct.textContent = n + '';
+    ac.innerHTML = ''; var chips = [];
+    applied.c.forEach(function (i) { chips.push([CN[i], function () { tog(applied.c, i); }]); });
+    applied.s.forEach(function (i) { chips.push([SZ[i], function () { tog(applied.s, i); }]); });
+    if (applied.lo > LO || applied.hi < HI) chips.push([won(applied.lo) + '–' + won(applied.hi), function () { applied.lo = LO; applied.hi = HI; }]);
+    chips.forEach(function (c) { var b = document.createElement('button'); b.type = 'button'; b.setAttribute('aria-label', c[0] + ' — remove filter'); b.appendChild(document.createTextNode(c[0])); b.insertAdjacentHTML('beforeend', '<svg viewBox="0 0 9 9" aria-hidden="true"><path d="M1.5 1.5l6 6M7.5 1.5l-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>'); b.addEventListener('click', function () { c[1](); f = { lo: applied.lo, hi: applied.hi, c: applied.c.slice(), s: applied.s.slice() }; sync(); apply(); }); ac.appendChild(b); });
+    bd.textContent = chips.length; bd.classList.toggle('is-on', chips.length > 0);
+    gd.style.setProperty('--top', (tp.offsetHeight) + 'px');
+  }
+  function open(v) { root.classList.toggle('is-open', v); sh.setAttribute('aria-hidden', !v); fb.setAttribute('aria-expanded', v); if (v) { f = { lo: applied.lo, hi: applied.hi, c: applied.c.slice(), s: applied.s.slice() }; lastN = -1; sync(); } }
+  function dragOn(th, key) {
+    var on = false;
+    th.addEventListener('pointerdown', function (e) { on = true; try { th.setPointerCapture(e.pointerId); } catch (er) {} });
+    th.addEventListener('pointermove', function (e) {
+      if (!on) return; var r = tr.getBoundingClientRect(), v = LO + Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)) * (HI - LO); v = Math.round(v * 2) / 2;
+      if (key === 'lo') f.lo = Math.min(v, f.hi - 1); else f.hi = Math.max(v, f.lo + 1); sync();
+    });
+    th.addEventListener('pointerup', function () { on = false; }); th.addEventListener('pointercancel', function () { on = false; });
+    th.addEventListener('keydown', function (e) { var d = e.key === 'ArrowRight' ? .5 : e.key === 'ArrowLeft' ? -.5 : 0; if (!d) return; e.preventDefault(); if (key === 'lo') f.lo = Math.max(LO, Math.min(f.lo + d, f.hi - 1)); else f.hi = Math.min(HI, Math.max(f.hi + d, f.lo + 1)); sync(); });
+  }
+  dragOn(mn, 'lo'); dragOn(mx, 'hi');
+  fb.addEventListener('click', function () { open(true); });
+  ov.addEventListener('click', function () { open(false); });
+  rs.addEventListener('click', function () { f = { lo: LO, hi: HI, c: [], s: [] }; sync(); });
+  ap.addEventListener('click', function () { if (ap.disabled) return; apply(); open(false); fb.focus({ preventScroll: true }); });
+  root.addEventListener('keydown', function (e) { if (e.key === 'Escape' && root.classList.contains('is-open')) open(false); });
+  apply(); sync();
+})();
+</script>
+--- Code end ---

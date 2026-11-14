@@ -1,0 +1,239 @@
+---
+source: "lucianlabs"
+id: "316"
+title: "Spring tuning bench"
+category: "Site Builder Tools"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#316"
+tags: ["spring", "physics", "motion-design", "graph", "tuning"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Spring tuning bench (316, Site Builder Tools)
+[What it does] Pull the block on the end of the wall-mounted spring and let go: it bounces with the stiffness and damping you set while the graph below draws its position live. More stiffness vibrates faster; less damping wobbles longer. Tap a preset and the sliders glide to its values while the block immediately demonstrates.
+[How to use it] Drag the block sideways and let go, or change presets and sliders
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #316 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#316 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u316{position:relative;width:340px;height:350px;padding:16px;box-sizing:border-box;border-radius:30px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);overflow:hidden;color:var(--ux-ink)}
+.u316-tr{position:relative;height:74px;border-radius:16px;background:var(--ux-surface-2)}
+.u316-tr::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:12px;border-radius:0 4px 4px 0;background:repeating-linear-gradient(135deg,var(--ux-ink-3) 0 2px,transparent 2px 6px)}
+.u316-tr svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.u316-bk{position:absolute;left:0;top:15px;width:44px;height:44px;border:0;padding:0;border-radius:12px;background:linear-gradient(135deg,var(--ux-accent),color-mix(in srgb,var(--ux-accent) 60%,#000));box-shadow:0 6px 12px -6px var(--ux-shadow-strong);touch-action:none;cursor:grab}
+.u316-bk:focus-visible{outline:2px solid var(--ux-ink);outline-offset:2px}
+.u316-gr{display:block;width:100%;height:96px;margin-top:10px;border-radius:14px;background:var(--ux-surface-2)}
+.u316-rw{display:grid;grid-template-columns:52px 1fr 34px;align-items:center;gap:8px;margin-top:10px;font-size:12.5px;font-weight:750}
+.u316-rw input{width:100%;accent-color:var(--ux-accent)}
+.u316-rw output{text-align:right;font:700 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--ux-ink-2)}
+.u316-pr{display:flex;gap:6px;margin-top:10px}
+.u316-ps{flex:1;height:32px;border:0;border-radius:10px;background:var(--ux-surface-2);color:var(--ux-ink-2);font-size:12.5px;font-weight:750;transition:background-color .2s,color .2s}
+.u316-ps[aria-pressed="true"]{background:var(--ux-ink);color:var(--ux-surface)}
+</style>
+<div class="ux u316">
+  <div class="u316-tr"><svg aria-hidden="true"><path fill="none" stroke="var(--ux-ink-2)" stroke-width="2.2" stroke-linejoin="round"/></svg><button class="u316-bk" type="button" aria-label="Block, drag sideways and release"></button></div>
+  <canvas class="u316-gr" aria-hidden="true"></canvas>
+  <label class="u316-rw"><span>Stiffness</span><input class="u316-k" type="range" min="40" max="700" step="10" value="420"><output>420</output></label>
+  <label class="u316-rw"><span>Damping</span><input class="u316-d" type="range" min="2" max="60" step="1" value="6"><output>6</output></label>
+  <div class="u316-pr" role="group" aria-label="Presets"></div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var tr = root.querySelector('.u316-tr'), coil = tr.querySelector('path'), bk = root.querySelector('.u316-bk'), cv = root.querySelector('.u316-gr'), cx = cv.getContext('2d');
+  var ik = root.querySelector('.u316-k'), id = root.querySelector('.u316-d'), ok = ik.nextElementSibling, od = id.nextElementSibling;
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var PRE = [['Bouncy', 420, 6], ['Gentle', 120, 14], ['Snappy', 600, 48]];
+  var REST = 150, x = 0, v = 0, held = false, hist = [], raf = 0, last = 0, still = 0;
+  var GW = 308, GH = 96, dpr = Math.min(3, (window.devicePixelRatio || 1) * 1.5);
+  cv.width = GW * dpr; cv.height = GH * dpr; cx.scale(dpr, dpr);
+  var pbs = PRE.map(function (p, i) {
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'u316-ps'; b.textContent = p[0]; b.setAttribute('aria-pressed', String(i === 0));
+    b.addEventListener('click', function () { preset(i); });
+    root.querySelector('.u316-pr').appendChild(b);
+    return b;
+  });
+  function K() { return +ik.value; }
+  function C() { return +id.value; }
+  function drawSpring() {
+    var bx = REST + x, n = 12, w = bx - 12, d = 'M12 37';
+    for (var i = 1; i <= n; i++) d += ' L' + (12 + w * (i - 0.5) / n).toFixed(1) + ' ' + (i % 2 ? 23 : 51);
+    coil.setAttribute('d', d + ' L' + bx.toFixed(1) + ' 37');
+    bk.style.transform = 'translateX(' + bx.toFixed(1) + 'px)';
+  }
+  var ink = ['#ccc', '#3D8BFF'];
+  function colors() { var cs = getComputedStyle(root); ink = [cs.getPropertyValue('--ux-line-2') || '#ccc', cs.getPropertyValue('--ux-accent') || '#3D8BFF']; }
+  function drawGraph() {
+    cx.clearRect(0, 0, GW, GH);
+    cx.strokeStyle = ink[0];
+    cx.setLineDash([4, 4]); cx.beginPath(); cx.moveTo(0, GH / 2); cx.lineTo(GW, GH / 2); cx.stroke(); cx.setLineDash([]);
+    cx.strokeStyle = ink[1]; cx.lineWidth = 2.2; cx.lineJoin = 'round';
+    cx.beginPath();
+    hist.forEach(function (h, i) { var gx = GW - (hist.length - 1 - i) * 2, gy = GH / 2 - h * 0.36; if (i) cx.lineTo(gx, gy); else cx.moveTo(gx, gy); });
+    cx.stroke();
+    if (hist.length) { cx.fillStyle = cx.strokeStyle; cx.beginPath(); cx.arc(GW - 1, GH / 2 - hist[hist.length - 1] * 0.36, 4, 0, 6.2832); cx.fill(); }
+  }
+  function step(now) {
+    raf = 0;
+    if (!root.isConnected) return;
+    var dt = Math.min(0.03, Math.max(0, (now - last) / 1000)); last = now;
+    if (!held) for (var s = 0; s < 4; s++) { v += (-K() * x - C() * v) * dt / 4; x += v * dt / 4; }
+    hist.push(x); if (hist.length > GW / 2) hist.shift();
+    drawSpring(); drawGraph();
+    still = (!held && Math.abs(x) < 0.2 && Math.abs(v) < 2) ? still + 1 : 0;
+    if (still < GW / 2) raf = requestAnimationFrame(step); else { x = 0; v = 0; drawSpring(); }
+  }
+  function run() { still = 0; colors(); if (rm) { x = 0; v = 0; drawSpring(); drawGraph(); return; } if (!raf) { last = performance.now(); raf = requestAnimationFrame(step); } }
+  function sync() { ok.value = ik.value; od.value = id.value; }
+  function slide(inp, to, ms) {
+    var from = +inp.value, t0 = performance.now();
+    (function f(now) { var t = Math.max(0, Math.min(1, (now - t0) / ms)), e = 1 - Math.pow(1 - t, 3); inp.value = Math.round(from + (to - from) * e); sync(); if (t < 1) requestAnimationFrame(f); })(t0);
+  }
+  function preset(i) {
+    pbs.forEach(function (b, k) { b.setAttribute('aria-pressed', String(k === i)); });
+    slide(ik, PRE[i][1], rm ? 1 : 300); slide(id, PRE[i][2], rm ? 1 : 300);
+    setTimeout(function () { x = 100; v = 0; run(); }, rm ? 0 : 320);
+  }
+  [ik, id].forEach(function (inp) { inp.addEventListener('input', function () { sync(); pbs.forEach(function (b) { b.setAttribute('aria-pressed', 'false'); }); }); });
+  var on = false, sx = 0, x0 = 0, k = 1;
+  bk.addEventListener('pointerdown', function (e) {
+    var r = root.getBoundingClientRect(); k = root.offsetWidth / (r.width || 1);
+    on = true; held = true; sx = e.clientX; x0 = x; v = 0;
+    try { bk.setPointerCapture(e.pointerId); } catch (er) {  }
+    run();
+  });
+  bk.addEventListener('pointermove', function (e) { if (!on) return; x = Math.max(-100, Math.min(100, x0 + (e.clientX - sx) * k)); });
+  function up() { if (!on) return; on = false; held = false; run(); }
+  bk.addEventListener('pointerup', up);
+  bk.addEventListener('pointercancel', up);
+  bk.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowRight' || e.key === 'Enter' || e.key === ' ') { e.preventDefault(); x = e.key === 'ArrowLeft' ? -90 : 90; v = 0; run(); }
+  });
+  colors(); drawSpring(); drawGraph();
+})();
+</script>
+--- Code end ---

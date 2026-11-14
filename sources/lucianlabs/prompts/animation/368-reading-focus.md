@@ -1,0 +1,204 @@
+---
+source: "lucianlabs"
+id: "368"
+title: "Sentence-following reading focus"
+category: "Text Motion"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#368"
+tags: ["text", "reading", "focus", "dim", "accessibility"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Sentence-following reading focus (368, Text Motion)
+[What it does] Only the sentence under the cursor stays sharp while the others fade. As the focus moves, the bar on the left slides along, stretching and shrinking to the sentence’s height, and the counter above rolls to show which sentence you are on. ↑/↓ on the keyboard move one sentence at a time too.
+[How to use it] Hover the sentences. Click the paragraph and use ↑/↓, or press ‘Focus off’ to make everything sharp again
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #368 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#368 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u368{position:relative;width:340px;height:340px;display:flex;flex-direction:column;padding:18px 18px 16px;border-radius:28px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);overflow:hidden}
+.u368-hd{display:flex;align-items:center;justify-content:space-between}
+.u368-hd span{font-size:12px;font-weight:750;color:var(--ux-ink-3)}
+.u368-n{display:inline-flex;height:16px;overflow:hidden;font:700 12px/16px ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--ux-ink)}
+.u368-n i{display:block;font-style:normal;transition:transform .5s var(--ux-spring)}
+.u368-off{height:30px;padding:0 11px;border:0;border-radius:999px;background:var(--ux-surface-2);font-size:12px;font-weight:700;color:var(--ux-ink-2)}
+.u368-p{position:relative;margin:12px 0 0;padding-left:16px;font-size:16.5px;line-height:1.66;font-weight:620;letter-spacing:-.02em;color:var(--ux-ink);outline:none;border-radius:8px}
+.u368-p:focus-visible{box-shadow:0 0 0 2px var(--ux-accent)}
+.u368-s{transition:opacity .45s var(--ux-ease),filter .45s var(--ux-ease),color .45s}
+.u368.is-f .u368-s{opacity:.25;filter:blur(1.2px)}
+.u368.is-f .u368-s.on{opacity:1;filter:none}
+.u368-bar{position:absolute;left:0;top:0;width:4px;height:0;border-radius:4px;background:var(--ux-accent);opacity:0;transition:transform .55s var(--ux-spring),height .55s var(--ux-spring),opacity .3s}
+.u368.is-f .u368-bar{opacity:1}
+</style>
+<div class="ux u368 is-f">
+  <div class="u368-hd"><span>Reading mode · <span class="u368-n" aria-hidden="true"><i></i></span><span class="u368-n2"> / 5</span></span><button class="u368-off" type="button" aria-pressed="false">Focus off</button></div>
+  <p class="u368-p" tabindex="0" aria-label="Paragraph, use the up and down arrows to move between sentences"><span class="u368-bar" aria-hidden="true"></span></p>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var p = root.querySelector('.u368-p'), bar = root.querySelector('.u368-bar'), nEl = root.querySelector('.u368-n i'), off = root.querySelector('.u368-off');
+  var SENT = ['When reading long text, the eye loses its way more often than you think.', 'Keeping just one sentence sharp makes it clear where to read next.', 'Blurring the rest is not about hiding it but about showing the order.', 'The focus follows your hand smoothly.', 'Once you are done, you can see the whole thing again at any time.'];
+  var cur = 0, focusOn = true;
+  nEl.innerHTML = SENT.map(function (_, i) { return '<b style="display:block;font-weight:inherit">' + (i + 1) + '</b>'; }).join('');
+  var spans = SENT.map(function (s, i) {
+    if (i) p.appendChild(document.createTextNode(' '));
+    var e = document.createElement('span');
+    e.className = 'u368-s'; e.textContent = s;
+    e.addEventListener('pointerenter', function () { set(i); });
+    p.appendChild(e);
+    return e;
+  });
+  function place() {
+    var s = spans[cur], rects = s.getClientRects(), pr = p.getBoundingClientRect(), k = p.offsetHeight / (pr.height || 1);
+    if (!rects.length) return;
+    var top = (rects[0].top - pr.top) * k, bottom = (rects[rects.length - 1].bottom - pr.top) * k;
+    bar.style.transform = 'translateY(' + (top + 3).toFixed(1) + 'px)';
+    bar.style.height = Math.max(8, bottom - top - 6).toFixed(1) + 'px';
+  }
+  function set(i) {
+    cur = Math.max(0, Math.min(SENT.length - 1, i));
+    spans.forEach(function (s, k) { s.classList.toggle('on', k === cur); });
+    nEl.style.transform = 'translateY(' + (-16 * cur) + 'px)';
+    place();
+  }
+  p.addEventListener('keydown', function (e) {
+    var d = e.key === 'ArrowDown' ? 1 : e.key === 'ArrowUp' ? -1 : 0;
+    if (!d) return;
+    e.preventDefault();
+    set(cur + d);
+  });
+  off.addEventListener('click', function () {
+    focusOn = !focusOn;
+    root.classList.toggle('is-f', focusOn);
+    off.textContent = focusOn ? 'Focus off' : 'Focus on';
+    off.setAttribute('aria-pressed', String(!focusOn));
+  });
+  requestAnimationFrame(function () { set(0); });
+})();
+</script>
+--- Code end ---

@@ -1,0 +1,251 @@
+---
+source: "lucianlabs"
+id: "074"
+title: "Notification bell dropdown"
+category: "Alerts & Feedback"
+collection: "interface"
+url: "https://lucianlabs.dev/en/uxui-prompt/#074"
+tags: ["bell", "notification", "badge", "dropdown", "read-state"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Notification bell dropdown (074, Alerts & Feedback)
+[What it does] When a new notification arrives the bell shakes, the badge count pops, and a new row pushes in at the top of the open list. Clicking an item clears its unread dot, and “Mark all read” clears the dots one by one. The bell folds the list into itself and back out.
+[How to use it] Wait a moment for a new notification. Click items to mark them read, then try “Mark all read” and fold the list with the bell. Esc closes it too
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #074 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#074 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u074{position:relative;width:340px;height:500px}
+.u074-top{display:flex;align-items:center;justify-content:space-between;height:52px;padding:0 4px 0 8px}
+.u074-top b{font-size:18px;font-weight:850;letter-spacing:-.04em}
+.u074-bell{position:relative;width:48px;height:48px;border:0;padding:0;border-radius:50%;display:grid;place-items:center;background:var(--ux-surface);color:var(--ux-ink);box-shadow:0 0 0 1px var(--ux-line),0 10px 20px -14px var(--ux-shadow-strong);transition:transform .3s var(--ux-spring)}
+.u074-bell:active{transform:scale(.9)}
+.u074-bell:focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.u074-bell svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transform-origin:50% 15%}
+.u074-bell.ring svg{animation:u074-ring .9s var(--ux-ease)}
+@keyframes u074-ring{10%{transform:rotate(18deg)}25%{transform:rotate(-16deg)}40%{transform:rotate(12deg)}55%{transform:rotate(-8deg)}70%{transform:rotate(4deg)}}
+.u074-badge{position:absolute;right:4px;top:4px;min-width:20px;height:20px;padding:0 5px;border-radius:10px;background:#FF5A6E;color:#fff;font-size:11px;font-weight:850;line-height:20px;text-align:center;box-shadow:0 0 0 2.5px var(--ux-surface);font-variant-numeric:tabular-nums;transition:transform .4s var(--ux-spring)}
+.u074-badge.zero{transform:scale(0)}
+.u074-pan{position:absolute;left:0;right:0;top:62px;bottom:0;display:flex;flex-direction:column;border-radius:24px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 50px -30px var(--ux-shadow-strong);transform-origin:calc(100% - 28px) -10px;transition:transform .45s var(--ux-spring),opacity .25s}
+.u074-pan::before{content:"";position:absolute;right:22px;top:-6px;width:14px;height:14px;border-radius:3px;background:var(--ux-surface);transform:rotate(45deg);box-shadow:-1px -1px 0 0 var(--ux-line)}
+.u074.is-closed .u074-pan{transform:scale(.4);opacity:0;pointer-events:none;transition:transform .3s var(--ux-ease),opacity .2s}
+.u074-ph{display:flex;align-items:center;gap:6px;padding:14px 14px 10px}
+.u074-tab{height:32px;padding:0 12px;border:0;border-radius:999px;background:none;font-size:13px;font-weight:750;color:var(--ux-ink-3);transition:background-color .25s,color .25s}
+.u074-tab[aria-selected="true"]{background:var(--ux-ink);color:var(--ux-page)}
+.u074-tab:focus-visible,.u074-all:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+.u074-all{margin-left:auto;border:0;padding:4px 6px;background:none;font-size:12.5px;font-weight:750;color:var(--ux-accent)}
+.u074-all:disabled{color:var(--ux-ink-3);cursor:default}
+.u074-list{position:relative;flex:1;margin:0;padding:0 8px 10px;list-style:none;overflow:hidden}
+.u074-it{display:grid;grid-template-rows:1fr;transition:grid-template-rows .45s var(--ux-ease)}
+.u074-it.new{grid-template-rows:0fr}
+.u074-it.hide{display:none}
+.u074-it>div{min-height:0;overflow:hidden}
+.u074-row{position:relative;display:flex;gap:12px;width:100%;padding:11px 26px 11px 10px;border:0;border-radius:14px;background:none;text-align:left;transition:background-color .2s}
+.u074-row:hover{background:var(--ux-surface-2)}
+.u074-row:focus-visible{outline:2px solid var(--ux-accent);outline-offset:-2px}
+.u074-it.new .u074-row{transform:translateY(-30px);opacity:0}
+.u074-row{transition:background-color .2s,transform .5s var(--ux-spring),opacity .3s}
+.u074-av{position:relative;width:38px;height:38px;flex:none;border-radius:50%;background:var(--g)}
+.u074-av em{position:absolute;right:-3px;bottom:-3px;width:18px;height:18px;border-radius:50%;display:grid;place-items:center;background:var(--ux-surface);font-style:normal;font-size:10px}
+.u074-tx{flex:1;min-width:0;font-size:13px;line-height:1.45;color:var(--ux-ink-2)}
+.u074-tx b{color:var(--ux-ink);font-weight:780}
+.u074-tx small{display:block;margin-top:2px;font-size:11.5px;font-weight:650;color:var(--ux-ink-3)}
+.u074-dot{position:absolute;right:10px;top:50%;width:9px;height:9px;margin-top:-4.5px;border-radius:50%;background:var(--ux-accent);transition:transform .35s var(--ux-spring),opacity .25s}
+.u074-row.read .u074-dot{transform:scale(0);opacity:0}
+.u074-row.read .u074-tx{color:var(--ux-ink-3)}
+</style>
+<div class="ux u074">
+  <div class="u074-top"><b>Workspace</b><button class="u074-bell" type="button" aria-expanded="true" aria-label="Notifications"><svg viewBox="0 0 22 22" aria-hidden="true"><path d="M5.5 15V10a5.5 5.5 0 0 1 11 0v5l1.5 1.5h-14zM9 18.5a2 2 0 0 0 4 0"/></svg><span class="u074-badge" aria-hidden="true">0</span></button></div>
+  <div class="u074-pan" role="region" aria-label="Notification list">
+    <div class="u074-ph" role="tablist" aria-label="Notification type"><button class="u074-tab" type="button" role="tab" aria-selected="true">All</button><button class="u074-tab" type="button" role="tab" aria-selected="false">Mentions</button><button class="u074-all" type="button">Mark all read</button></div>
+    <ul class="u074-list" aria-live="polite"></ul>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var bell = root.querySelector('.u074-bell'), badge = root.querySelector('.u074-badge'), list = root.querySelector('.u074-list'), allB = root.querySelector('.u074-all');
+  var tabs = root.querySelectorAll('.u074-tab');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var D = [
+    ['Doyun Han', ' mentioned you: “@Seoyeon could you check this transition?”', 'Just now', 'linear-gradient(140deg,#8B6CFF,#5B8CFF)', '💬', 1],
+    ['Harin Yoon', ' approved the “Spring campaign” draft', '12 min ago', 'linear-gradient(140deg,#22C3A6,#0EA5E9)', '✅', 0],
+    ['Mina Jung', ' invited you to the “QA” channel', '1 hr ago', 'linear-gradient(140deg,#FF7A93,#B04FD0)', '👋', 0],
+    ['Lumen', ' Your October usage report is ready', 'Yesterday', 'linear-gradient(140deg,#FFB547,#FF7A45)', '📊', 0]
+  ];
+  var NEW = ['Jiho Park', ' replied to your comment: “Sounds good, let’s do it!”', 'Just now', 'linear-gradient(140deg,#3D8BFF,#22C3A6)', '↩', 1];
+  var rows = [], mention = false;
+  function item(d, isNew) {
+    var li = document.createElement('li');
+    li.className = 'u074-it' + (isNew ? ' new' : '');
+    li.setAttribute('data-m', d[5]);
+    li.innerHTML = '<div><button class="u074-row" type="button"><span class="u074-av" style="--g:' + d[3] + '" aria-hidden="true"><em>' + d[4] + '</em></span><span class="u074-tx"><b></b><span></span><small>' + d[2] + '</small></span><span class="u074-dot" aria-hidden="true"></span></button></div>';
+    li.querySelector('b').textContent = d[0]; li.querySelector('.u074-tx>span').textContent = d[1];
+    var row = li.querySelector('.u074-row');
+    row.addEventListener('click', function () { row.classList.add('read'); count(); });
+    return li;
+  }
+  function count() {
+    var n = list.querySelectorAll('.u074-row:not(.read)').length, prev = badge.textContent;
+    badge.textContent = n;
+    badge.classList.toggle('zero', !n);
+    bell.setAttribute('aria-label', 'Notifications, ' + n + ' unread');
+    allB.disabled = !n;
+    list.querySelectorAll('.u074-row').forEach(function (r) { r.setAttribute('aria-label', r.textContent.replace(/\s+/g, ' ').trim() + (r.classList.contains('read') ? '' : ', unread')); });
+    if (n > Number(prev) && !rm) badge.animate([{ transform: 'scale(1)' }, { transform: 'scale(1.5)' }, { transform: 'scale(1)' }], { duration: 450, easing: 'cubic-bezier(.34,1.5,.64,1)' });
+  }
+  D.forEach(function (d, i) { var li = item(d); if (i > 1) li.querySelector('.u074-row').classList.add('read'); list.appendChild(li); });
+  count();
+  function filter() { list.querySelectorAll('.u074-it').forEach(function (li) { li.classList.toggle('hide', mention && li.getAttribute('data-m') !== '1'); }); }
+  tabs.forEach(function (t, i) {
+    t.addEventListener('click', function () { mention = i === 1; tabs.forEach(function (x, k) { x.setAttribute('aria-selected', String(k === i)); }); filter(); });
+  });
+  allB.addEventListener('click', function () {
+    list.querySelectorAll('.u074-row:not(.read)').forEach(function (r, i) { setTimeout(function () { if (!root.isConnected) return; r.classList.add('read'); count(); }, i * 110); });
+  });
+  function setOpen(v) {
+    root.classList.toggle('is-closed', !v);
+    bell.setAttribute('aria-expanded', String(v));
+    root.querySelector('.u074-pan').inert = !v;
+  }
+  bell.addEventListener('click', function () { setOpen(root.classList.contains('is-closed')); });
+  root.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !root.classList.contains('is-closed')) { setOpen(false); bell.focus(); } });
+  setTimeout(function () {
+    if (!root.isConnected) return;
+    var li = item(NEW, true);
+    list.insertBefore(li, list.firstChild);
+    filter();
+    void li.offsetWidth;
+    li.classList.remove('new');
+    bell.classList.remove('ring'); void bell.offsetWidth; bell.classList.add('ring');
+    count();
+  }, rm ? 400 : 2400);
+  bell.addEventListener('animationend', function () { bell.classList.remove('ring'); });
+})();
+</script>
+--- Code end ---

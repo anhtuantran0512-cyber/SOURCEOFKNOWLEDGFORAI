@@ -1,0 +1,248 @@
+---
+source: "lucianlabs"
+id: "268"
+title: "Mention list that follows @"
+category: "App Screens"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#268"
+tags: ["mention", "comment", "autocomplete", "collaboration", "textarea"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Mention list that follows @ (268, App Screens)
+[What it does] Type @ in a comment box and a list of teammates pops out right under the cursor, narrowing by name as you keep typing with the matching letters in bold. Choose with the up and down arrows and press Enter or click, and @name becomes a highlighted mention in your text while the people who'll be notified stack up as avatars below.
+[How to use it] Type @ and the first letter of a name in the comment box, then pick a teammate
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #268 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#268 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u268{position:relative;width:340px;height:340px;border-radius:30px;overflow:hidden;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:var(--ux-ink)}
+.u268-hd{position:absolute;left:20px;top:20px;font-size:15px;font-weight:900}
+.u268-th{position:absolute;left:16px;right:16px;top:52px;display:flex;gap:9px;padding:11px 12px;border-radius:14px;background:var(--ux-surface-2)}
+.u268-th i{flex:none;width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#A5B4FC,#6366F1)}
+.u268-th div{flex:1}
+.u268-th b{display:block;font-size:11px;font-weight:850}
+.u268-th span{display:block;margin-top:2px;font-size:11px;line-height:1.45;font-weight:600;color:var(--ux-ink-2)}
+.u268-bx{position:absolute;left:16px;right:16px;top:130px;height:120px;border-radius:15px;background:var(--ux-surface);box-shadow:inset 0 0 0 1.5px var(--ux-line);transition:box-shadow .2s}
+.u268-bx:focus-within{box-shadow:inset 0 0 0 2px var(--ux-accent)}
+.u268-mr,.u268-ta{position:absolute;inset:0;margin:0;padding:12px 13px;border:0;font:inherit;font-size:12.5px;line-height:1.6;font-weight:600;letter-spacing:0;white-space:pre-wrap;word-wrap:break-word;overflow:hidden;box-sizing:border-box}
+.u268-mr{color:transparent;pointer-events:none}
+.u268-mr mark{color:transparent;background:color-mix(in srgb,var(--ux-accent) 18%,transparent);border-radius:5px;box-shadow:0 0 0 2px color-mix(in srgb,var(--ux-accent) 18%,transparent)}
+.u268-ta{background:none;color:var(--ux-ink);resize:none;outline:none;caret-color:var(--ux-accent)}
+.u268-ta::placeholder{color:var(--ux-ink-3);font-weight:600}
+.u268-pp{position:absolute;z-index:3;width:178px;padding:5px;border-radius:13px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 16px 32px -12px var(--ux-shadow-strong);transform-origin:12px 0;transform:scale(.9) translateY(-4px);opacity:0;pointer-events:none;transition:transform .2s cubic-bezier(.3,1.6,.5,1),opacity .12s}
+.u268.is-pop .u268-pp{transform:none;opacity:1;pointer-events:auto}
+.u268-op{display:flex;align-items:center;gap:8px;width:100%;height:34px;padding:0 7px;border:0;border-radius:9px;background:none;color:var(--ux-ink);font:inherit;font-size:11.5px;font-weight:700;cursor:pointer;text-align:left}
+.u268-op[hidden]{display:none}
+.u268-op.is-on,.u268-op:hover,.u268-op.g-hov{background:var(--ux-surface-2)}
+.u268-op i{flex:none;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;color:#fff;font-style:normal;font-size:9.5px;font-weight:850}
+.u268-op span{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.u268-op span b{font-weight:900;color:var(--ux-accent)}
+.u268-op small{font-size:9.5px;font-weight:750;color:var(--ux-ink-3)}
+.u268-no{padding:9px;font-size:10.5px;font-weight:700;color:var(--ux-ink-3)}
+.u268-ft{position:absolute;left:16px;right:16px;bottom:18px;display:flex;align-items:center;gap:8px}
+.u268-ft small{font-size:10px;font-weight:800;color:var(--ux-ink-3);white-space:nowrap}
+.u268-av{display:flex;flex:1;padding-left:6px;min-height:26px;align-items:center}
+.u268-av i{width:26px;height:26px;margin-left:-6px;border-radius:50%;display:grid;place-items:center;color:#fff;font-style:normal;font-size:10px;font-weight:850;box-shadow:0 0 0 2.5px var(--ux-surface);animation:u268-in .4s cubic-bezier(.3,1.7,.5,1)}
+@keyframes u268-in{from{transform:scale(0)}}
+.u268-sd{height:34px;padding:0 15px;border:0;border-radius:11px;background:var(--ux-ink);color:var(--ux-surface);font:inherit;font-size:12px;font-weight:850;cursor:pointer}
+.u268 button:focus-visible{outline:2px solid var(--ux-accent);outline-offset:1px}
+@media (prefers-reduced-motion: reduce){.u268-pp{transition:none}.u268-av i{animation:none}}
+</style>
+<div class="ux u268">
+  <div class="u268-hd">Comments</div>
+  <div class="u268-th"><i aria-hidden="true"></i><div><b>Lucian</b><span>New landing page draft is up. Focus on the first screen, please!</span></div></div>
+  <div class="u268-bx"><div class="u268-mr" aria-hidden="true"></div><textarea class="u268-ta" placeholder="Leave a comment. Use @ to mention a teammate" aria-label="Comment" aria-autocomplete="list" spellcheck="false"></textarea></div>
+  <div class="u268-pp" role="listbox" aria-label="Teammates"></div>
+  <div class="u268-ft"><small>Will be notified</small><span class="u268-av"></span><button type="button" class="u268-sd">Send</button></div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var bx = root.querySelector('.u268-bx'), mr = root.querySelector('.u268-mr'), ta = root.querySelector('.u268-ta'), pp = root.querySelector('.u268-pp'), av = root.querySelector('.u268-av');
+  var PP = [['Seoyeon Kim', 'Design', '#EC4899'], ['Seojun Park', 'Engineering', '#0EA5E9'], ['Doyun Lee', 'Product', '#10B981'], ['Haeun Choi', 'Marketing', '#F59E0B'], ['Minjae Jung', 'Engineering', '#8B5CF6']];
+  var O = PP.map(function (p, i) {
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'u268-op'; b.setAttribute('role', 'option'); b.tabIndex = -1;
+    b.innerHTML = '<i style="background:' + p[2] + '">' + p[0].charAt(0) + '</i><span></span><small></small>'; b.querySelector('small').textContent = p[1];
+    b.addEventListener('mousedown', function (e) { e.preventDefault(); });
+    b.addEventListener('click', function () { insert(i); });
+    pp.appendChild(b); return b;
+  });
+  var none = document.createElement('div'); none.className = 'u268-no'; none.textContent = 'No matching teammates'; none.hidden = true; pp.appendChild(none);
+  var at = -1, sel = 0, vis = [];
+  function mirror(upto) {
+    var v = ta.value, out = '', re = new RegExp('@(' + PP.map(function (p) { return p[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }).join('|') + ')', 'g'), last = 0, m;
+    var esc = function (s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;'); };
+    while ((m = re.exec(v))) { out += esc(v.slice(last, m.index)) + '<mark>' + esc(m[0]) + '</mark>'; last = m.index + m[0].length; }
+    mr.innerHTML = out + esc(v.slice(last)) + '​';
+    if (upto == null) return null;
+    var tmp = document.createElement('div'); tmp.className = 'u268-mr'; tmp.style.visibility = 'hidden'; tmp.innerHTML = esc(v.slice(0, upto)) + '<span>@</span>'; bx.appendChild(tmp);
+    var s = tmp.querySelector('span'), p = { x: s.offsetLeft, y: s.offsetTop + s.offsetHeight }; tmp.remove(); return p;
+  }
+  function people() {
+    av.innerHTML = ''; var seen = {};
+    PP.forEach(function (p) { if (ta.value.indexOf('@' + p[0]) >= 0 && !seen[p[0]]) { seen[p[0]] = 1; var i = document.createElement('i'); i.style.background = p[2]; i.textContent = p[0].charAt(0); i.title = p[0]; av.appendChild(i); } });
+  }
+  function close() { at = -1; root.classList.remove('is-pop'); ta.removeAttribute('aria-activedescendant'); }
+  function update() {
+    var pos = ta.selectionStart, v = ta.value, k = v.lastIndexOf('@', pos - 1);
+    var q = k >= 0 ? v.slice(k + 1, pos) : null;
+    if (k < 0 || /\s/.test(q) || (k > 0 && !/\s/.test(v[k - 1]))) { mirror(); close(); people(); return; }
+    at = k; var p = mirror(k);
+    vis = [];
+    O.forEach(function (o, i) {
+      var name = PP[i][0], j = q ? name.toLowerCase().indexOf(q.toLowerCase()) : 0, ok = !q || j >= 0;
+      o.hidden = !ok; if (!ok) return; vis.push(i);
+      var sp = o.querySelector('span'); sp.innerHTML = '';
+      if (q) { sp.appendChild(document.createTextNode(name.slice(0, j))); var b = document.createElement('b'); b.textContent = name.slice(j, j + q.length); sp.appendChild(b); sp.appendChild(document.createTextNode(name.slice(j + q.length))); } else sp.textContent = name;
+    });
+    none.hidden = vis.length > 0; sel = 0; hl();
+    var bxl = bx.offsetLeft, bxt = bx.offsetTop, x = Math.min(bxl + p.x, 340 - 16 - 178), y = bxt + p.y + 4;
+    pp.style.left = x + 'px'; pp.style.top = y + 'px';
+    root.classList.add('is-pop'); people();
+  }
+  function hl() { O.forEach(function (o, i) { o.classList.toggle('is-on', vis[sel] === i); }); }
+  function insert(i) {
+    if (at < 0) return;
+    var v = ta.value, pos = ta.selectionStart, txt = '@' + PP[i][0] + ' ';
+    ta.value = v.slice(0, at) + txt + v.slice(pos); var c = at + txt.length; ta.focus({ preventScroll: true }); ta.setSelectionRange(c, c);
+    close(); mirror(); people();
+  }
+  ta.addEventListener('input', update);
+  ta.addEventListener('click', update);
+  ta.addEventListener('keydown', function (e) {
+    if (at < 0 || !vis.length) return;
+    if (e.key === 'ArrowDown') { e.preventDefault(); sel = (sel + 1) % vis.length; hl(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); sel = (sel - 1 + vis.length) % vis.length; hl(); }
+    else if (e.key === 'Enter' || e.key === 'Tab') { e.preventDefault(); insert(vis[sel]); }
+    else if (e.key === 'Escape') close();
+  });
+  ta.addEventListener('scroll', function () { mr.scrollTop = ta.scrollTop; });
+  ta.addEventListener('blur', function () { setTimeout(close, 150); });
+})();
+</script>
+--- Code end ---

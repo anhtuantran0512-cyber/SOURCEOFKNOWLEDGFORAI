@@ -1,0 +1,242 @@
+---
+source: "lucianlabs"
+id: "221"
+title: "Sticky buy bar with option sheet"
+category: "Commerce & Pricing"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#221"
+tags: ["sticky-cta", "bottom-sheet", "product-page", "ecommerce", "options"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Sticky buy bar with option sheet (221, Commerce & Pricing)
+[What it does] Scroll down a product page until the buy button in the content leaves the screen, and a bar with the price and a buy button rises from below and sticks; scroll back up to the original button and the bar slips away. Press Buy on the bar and it stretches upward into a size sheet, and the add button only turns on once you choose a size. After adding, the button turns into a check and the sheet folds straight back into the bar.
+[How to use it] Scroll down until the sticky bar appears, press Buy and pick a size
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #221 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#221 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u221{position:relative;width:300px;height:480px;border-radius:32px;overflow:hidden;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:var(--ux-ink)}
+.u221-sc{position:absolute;inset:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;padding-bottom:90px}
+.u221-sc::-webkit-scrollbar{display:none}
+.u221-sc:focus-visible{outline:2px solid var(--ux-accent);outline-offset:-4px;border-radius:32px}
+.u221-ph{position:relative;height:230px;background:linear-gradient(160deg,#E0E7FF,#C7D2FE)}
+.u221-ph svg{position:absolute;left:50%;top:54%;width:190px;transform:translate(-50%,-50%) rotate(-8deg)}
+.u221-if{padding:16px 18px 0}
+.u221-if h3{margin:0;font-size:16px;font-weight:850}
+.u221-pr{display:flex;align-items:baseline;gap:6px;margin-top:6px}
+.u221-pr em{font-style:normal;font-size:17px;font-weight:900;color:#E11D48}
+.u221-pr b{font-size:17px;font-weight:900}
+.u221-pr s{font-size:11px;color:var(--ux-ink-3)}
+.u221-if small{display:block;margin-top:6px;font-size:10.5px;font-weight:750;color:#059669}
+.u221-mb{display:block;width:calc(100% - 36px);height:46px;margin:16px 18px 0;border:0;border-radius:13px;background:var(--ux-ink);color:var(--ux-surface);font:inherit;font-size:13px;font-weight:850;cursor:pointer}
+.u221-sx{margin:22px 0 0;padding:16px 18px 0;border-top:8px solid var(--ux-surface-2)}
+.u221-sx h4{margin:0;font-size:13px;font-weight:900}
+.u221-sx p{margin:8px 0 0;font-size:11px;line-height:1.55;font-weight:600;color:var(--ux-ink-2)}
+.u221-bk{height:120px;margin-top:12px;border-radius:14px;background:linear-gradient(140deg,#F1F5F9,#E2E8F0)}
+.u221-rv{margin-top:8px;padding:10px 12px;border-radius:12px;background:var(--ux-surface-2);font-size:11px;font-weight:650;color:var(--ux-ink-2)}
+.u221-ov{position:absolute;inset:0;background:rgba(10,10,20,.38);opacity:0;pointer-events:none;transition:opacity .3s}
+.u221.is-sheet .u221-ov{opacity:1;pointer-events:auto}
+.u221-br{position:absolute;left:0;right:0;bottom:0;height:72px;padding:12px 14px 14px;border-radius:22px 22px 0 0;background:var(--ux-surface);box-shadow:0 -1px 0 var(--ux-line),0 -18px 30px -20px var(--ux-shadow-strong);transform:translateY(110%);transition:transform .45s cubic-bezier(.3,1.2,.5,1),height .45s cubic-bezier(.3,1,.4,1);overflow:hidden}
+.u221.is-bar .u221-br{transform:none}
+.u221.is-sheet .u221-br{height:250px;transform:none}
+.u221-rw{display:flex;align-items:center;gap:10px;height:46px;transition:opacity .2s}
+.u221.is-sheet .u221-rw{opacity:0;pointer-events:none}
+.u221-th{flex:none;width:44px;height:44px;border-radius:11px;background:linear-gradient(160deg,#E0E7FF,#A5B4FC)}
+.u221-rw div{flex:1;min-width:0}
+.u221-rw b{display:block;font-size:14px;font-weight:900}
+.u221-rw small{font-size:10px;font-weight:800;color:#E11D48}
+.u221-by{height:42px;padding:0 18px;border:0;border-radius:12px;background:var(--ux-accent);color:#fff;font:inherit;font-size:12.5px;font-weight:850;cursor:pointer}
+.u221-op{position:absolute;left:14px;right:14px;top:14px;opacity:0;transform:translateY(16px);transition:opacity .25s,transform .4s cubic-bezier(.3,1.2,.5,1);pointer-events:none}
+.u221.is-sheet .u221-op{opacity:1;transform:none;transition-delay:.12s;pointer-events:auto}
+.u221-oh{display:flex;align-items:center;justify-content:space-between;font-size:13px;font-weight:900}
+.u221-x{width:28px;height:28px;border:0;border-radius:50%;background:var(--ux-surface-2);color:var(--ux-ink-2);display:grid;place-items:center;cursor:pointer}
+.u221-x svg{width:10px;height:10px}
+.u221-ss{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:12px}
+.u221-sz{position:relative;height:42px;border:0;border-radius:11px;background:var(--ux-surface-2);box-shadow:inset 0 0 0 1px var(--ux-line);color:var(--ux-ink);font:inherit;font-size:12px;font-weight:850;cursor:pointer;transition:box-shadow .2s,background .2s,transform .15s}
+.u221-sz small{display:block;font-size:8.5px;font-weight:800;color:var(--ux-ink-3)}
+.u221-sz:active{transform:scale(.95)}
+.u221-sz[aria-checked="true"]{background:var(--ux-surface);box-shadow:inset 0 0 0 2px var(--ux-ink)}
+.u221-sz:disabled{color:var(--ux-ink-3);cursor:not-allowed;background:repeating-linear-gradient(135deg,transparent 0 6px,color-mix(in srgb,var(--ux-ink) 6%,transparent) 6px 7px),var(--ux-surface-2)}
+.u221-ad{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;height:48px;margin-top:16px;border:0;border-radius:13px;background:var(--ux-ink);color:var(--ux-surface);font:inherit;font-size:13px;font-weight:850;cursor:pointer;transition:background .3s,opacity .2s}
+.u221-ad:disabled{opacity:.35;cursor:not-allowed}
+.u221-ad.is-ok{background:#059669;opacity:1}
+.u221-ad svg{width:14px;height:14px;display:none}
+.u221-ad.is-ok svg{display:block}
+.u221 button:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){.u221-br,.u221-op,.u221-ov,.u221-rw{transition:none}}
+</style>
+<div class="ux u221">
+  <div class="u221-sc" tabindex="0" aria-label="Product page">
+    <div class="u221-ph" aria-hidden="true"><svg viewBox="0 0 190 90"><path d="M10 62c0-10 8-16 22-18l40-6c10-10 18-24 30-26 8 0 10 8 18 12 14 6 38 6 52 12 8 4 10 12 8 20l-4 10H18c-6 0-8-2-8-4z" fill="#fff" stroke="#6366F1" stroke-width="2"/><path d="M12 70h166" stroke="#4F46E5" stroke-width="7" stroke-linecap="round"/><path d="M84 34l10 14M96 28l10 14M108 24l8 14" stroke="#A5B4FC" stroke-width="2.5" stroke-linecap="round"/></svg></div>
+    <div class="u221-if"><h3>Minimal running shoes</h3><div class="u221-pr"><em>31%</em><b>$89</b><s>$129</s></div><small>Free shipping · Ships today</small></div>
+    <button type="button" class="u221-mb">Buy now</button>
+    <div class="u221-sx"><h4>Details</h4><p>Light, sturdy everyday runners. A breathable knit upper and springy cushioning keep you comfortable on long walks.</p><div class="u221-bk"></div><div class="u221-bk"></div></div>
+    <div class="u221-sx"><h4>Reviews</h4><div class="u221-rv">“Roomy in the toe box, very comfy”</div><div class="u221-rv">“The color is nicer than the photos”</div></div>
+  </div>
+  <div class="u221-ov" aria-hidden="true"></div>
+  <div class="u221-br">
+    <div class="u221-rw"><span class="u221-th" aria-hidden="true"></span><div><b>$89</b><small>31%</small></div><button type="button" class="u221-by">Buy now</button></div>
+    <div class="u221-op" role="dialog" aria-hidden="true"><div class="u221-oh"><span>Size</span><button type="button" class="u221-x" aria-label="Close options"><svg viewBox="0 0 10 10" aria-hidden="true"><path d="M2 2l6 6M8 2L2 8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></button></div>
+      <div class="u221-ss" role="radiogroup"></div>
+      <button type="button" class="u221-ad" disabled><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 7.5l2.6 2.6L11 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span></span></button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var sc = root.querySelector('.u221-sc'), mb = root.querySelector('.u221-mb'), by = root.querySelector('.u221-by'), op = root.querySelector('.u221-op'), ss = root.querySelector('.u221-ss'), ad = root.querySelector('.u221-ad'), adl = ad.querySelector('span'), x = root.querySelector('.u221-x'), ov = root.querySelector('.u221-ov'), br = root.querySelector('.u221-br');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var SZ = [['250', 0], ['260', 0], ['270', 0], ['280', 1]], size = -1, sheet = false, gone = false, T = 0;
+  var B = SZ.map(function (z, i) {
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'u221-sz'; b.setAttribute('role', 'radio'); b.setAttribute('aria-checked', 'false'); b.textContent = z[0];
+    if (z[1]) { b.disabled = true; var s = document.createElement('small'); s.textContent = 'Sold out'; b.appendChild(s); }
+    b.addEventListener('click', function () { size = i; B.forEach(function (o, k) { o.setAttribute('aria-checked', k === i); }); sync(); });
+    ss.appendChild(b); return b;
+  });
+  function sync() { ad.disabled = size < 0; if (!ad.classList.contains('is-ok')) adl.textContent = size < 0 ? 'Choose a size' : 'Add to cart'; }
+  function bar() { root.classList.toggle('is-bar', gone || sheet); }
+  function setSheet(v) {
+    sheet = v; root.classList.toggle('is-sheet', v); op.setAttribute('aria-hidden', !v); bar();
+    if (v) setTimeout(function () { (B[size >= 0 ? size : 0]).focus({ preventScroll: true }); }, rm ? 0 : 320);
+  }
+  if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { gone = !es[0].isIntersecting; bar(); }, { root: sc }).observe(mb);
+  by.addEventListener('click', function () { setSheet(true); });
+  mb.addEventListener('click', function () { setSheet(true); });
+  x.addEventListener('click', function () { setSheet(false); });
+  ov.addEventListener('click', function () { setSheet(false); });
+  root.addEventListener('keydown', function (e) { if (e.key === 'Escape' && sheet) setSheet(false); });
+  ad.addEventListener('click', function () {
+    if (size < 0) return;
+    ad.classList.add('is-ok'); adl.textContent = 'Added'; clearTimeout(T);
+    T = setTimeout(function () { setSheet(false); setTimeout(function () { ad.classList.remove('is-ok'); size = -1; B.forEach(function (o) { o.setAttribute('aria-checked', 'false'); }); sync(); }, 450); }, rm ? 600 : 1100);
+  });
+  sync();
+})();
+</script>
+--- Code end ---

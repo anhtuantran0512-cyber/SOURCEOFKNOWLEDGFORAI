@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+_manifest.jsonl
+_failed.txt
+_missing.txt
+*.log
+.DS_Store
+node_modules/

@@ -1,0 +1,226 @@
+---
+source: "lucianlabs"
+id: "291"
+title: "Link shortener that folds long URLs"
+category: "Site Builder Tools"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#291"
+tags: ["url-shortener", "links", "copy", "analytics", "marketing"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Link shortener that folds long URLs (291, Site Builder Tools)
+[What it does] Paste a long address and press Shorten: its characters get pulled toward the middle and fold away, and a short link pops out in their place. Press Copy and the link field flashes as the button turns into a check. The new link slots in at the top of the recent links list below, where each row grows a small bar chart of its clicks over the last 7 days.
+[How to use it] Press Shorten, then copy the short link
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #291 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#291 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u291{position:relative;width:340px;height:340px;border-radius:30px;overflow:hidden;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:var(--ux-ink)}
+.u291-hd{position:absolute;left:18px;top:18px;font-size:15px;font-weight:900}
+.u291-bx{position:absolute;left:14px;right:14px;top:48px;display:flex;align-items:center;gap:6px;height:46px;padding:0 5px 0 12px;border-radius:14px;background:var(--ux-surface-2);box-shadow:inset 0 0 0 1.5px var(--ux-line);overflow:hidden;transition:box-shadow .3s}
+.u291-bx.is-fl{animation:u291-fl .8s ease}
+@keyframes u291-fl{25%{box-shadow:inset 0 0 0 2px var(--ux-accent);background:var(--ux-accent-soft)}}
+.u291-ul{position:relative;flex:1;min-width:0;height:100%;display:flex;align-items:center;overflow:hidden}
+.u291-in{width:100%;border:0;background:none;color:var(--ux-ink-2);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10.5px;font-weight:600;outline:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.u291-fx{position:absolute;inset:0;display:flex;align-items:center;white-space:nowrap;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10.5px;font-weight:600;color:var(--ux-ink-2);pointer-events:none}
+.u291-fx span{display:inline-block;transition:transform .5s cubic-bezier(.6,0,.3,1),opacity .4s}
+.u291-sh{position:absolute;inset:0;display:flex;align-items:center;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:15px;font-weight:850;color:var(--ux-accent);opacity:0;transform:scale(.6);transition:opacity .3s,transform .45s cubic-bezier(.3,1.7,.5,1)}
+.u291.is-short .u291-sh{opacity:1;transform:none}
+.u291.is-short .u291-in{visibility:hidden}
+.u291-go,.u291-cp{flex:none;display:inline-flex;align-items:center;gap:5px;height:36px;padding:0 13px;border:0;border-radius:10px;background:var(--ux-ink);color:var(--ux-surface);font:inherit;font-size:11.5px;font-weight:850;cursor:pointer;transition:background .3s}
+.u291-cp{display:none;background:var(--ux-accent)}
+.u291.is-short .u291-go{display:none}
+.u291.is-short .u291-cp{display:inline-flex}
+.u291-cp.is-ok{background:#059669}
+.u291-cp svg{width:12px;height:12px}
+.u291-rc{position:absolute;left:14px;right:14px;top:108px}
+.u291-rc>small{font-size:10px;font-weight:850;color:var(--ux-ink-3)}
+.u291-ls{margin:6px 0 0;padding:0;list-style:none}
+.u291-it{display:grid;grid-template-rows:1fr;transition:grid-template-rows .45s cubic-bezier(.3,1,.4,1),opacity .3s}
+.u291-it>div{min-height:0;overflow:hidden}
+.u291-it.is-new{grid-template-rows:0fr;opacity:0}
+.u291-rw{display:flex;align-items:center;gap:10px;height:60px;margin-bottom:6px;padding:0 12px;border-radius:13px;background:var(--ux-surface-2)}
+.u291-rw div:first-child{flex:1;min-width:0}
+.u291-rw b{display:block;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;font-weight:800;color:var(--ux-accent)}
+.u291-rw small{display:block;margin-top:2px;font-size:10px;font-weight:650;color:var(--ux-ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.u291-sp{flex:none;display:flex;align-items:flex-end;gap:2px;height:28px}
+.u291-sp i{width:5px;border-radius:2px 2px 1px 1px;background:color-mix(in srgb,var(--ux-accent) 55%,transparent);height:var(--h);transform:scaleY(0);transform-origin:50% 100%;transition:transform .5s cubic-bezier(.3,1.5,.5,1)}
+.u291-sp i:last-child{background:var(--ux-accent)}
+.u291-rw.is-in .u291-sp i{transform:none}
+.u291-nm{flex:none;width:44px;text-align:right;font-size:11px;font-weight:900;font-variant-numeric:tabular-nums}
+.u291-nm em{display:block;font-style:normal;font-size:8.5px;font-weight:800;color:var(--ux-ink-3)}
+.u291 button:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){.u291-fx span,.u291-sh,.u291-it,.u291-sp i{transition:none}.u291-bx.is-fl{animation:none}}
+</style>
+<div class="ux u291">
+  <div class="u291-hd">Shorten a link</div>
+  <div class="u291-bx"><div class="u291-ul"><input class="u291-in" value="https://shop.example.com/campaign/newsletter-october?utm_source=mail&utm_medium=email" aria-label="Long URL" spellcheck="false"><span class="u291-fx" aria-hidden="true"></span><span class="u291-sh" aria-live="polite"></span></div><button type="button" class="u291-go">Shorten</button><button type="button" class="u291-cp"><svg viewBox="0 0 12 12" aria-hidden="true"><rect x="3.5" y="3.5" width="6.5" height="6.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M2 8V2.8C2 2.4 2.4 2 2.8 2H8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg><span>Copy</span></button></div>
+  <div class="u291-rc"><small>Recent links</small><ul class="u291-ls"></ul></div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var inp = root.querySelector('.u291-in'), fx = root.querySelector('.u291-fx'), sh = root.querySelector('.u291-sh'), go = root.querySelector('.u291-go'), cp = root.querySelector('.u291-cp'), cpl = cp.querySelector('span'), bx = root.querySelector('.u291-bx'), ls = root.querySelector('.u291-ls');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var RC = [['lnk.to/sale24', 'Spring sale banner', 1284], ['lnk.to/hire', 'Job posting', 432]];
+  var COPYI = cp.querySelector('svg').innerHTML, CHK = '<path d="M2.5 6.3l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+  function row(r, fresh) {
+    var li = document.createElement('li'); li.className = 'u291-it' + (fresh ? ' is-new' : '');
+    var H = [], s = 0; for (var i = 0; i < 7; i++) { var v = fresh ? (i < 6 ? 0 : 1) : 20 + Math.random() * 80; H.push(v); s = Math.max(s, v); }
+    li.innerHTML = '<div><div class="u291-rw"><div><b></b><small></small></div><span class="u291-sp" aria-hidden="true">' + H.map(function (v, i) { return '<i style="--h:' + Math.max(8, v / s * 100) + '%;transition-delay:' + (i * .05) + 's"></i>'; }).join('') + '</span><span class="u291-nm"></span></div></div>';
+    li.querySelector('b').textContent = r[0]; li.querySelector('small').textContent = r[1];
+    var nm = li.querySelector('.u291-nm'); nm.innerHTML = '<span></span><em></em>'; nm.firstChild.textContent = r[2].toLocaleString('en-US'); nm.lastChild.textContent = 'Clicks ' + '7d';
+    return li;
+  }
+  RC.forEach(function (r) { var li = row(r); ls.appendChild(li); });
+  requestAnimationFrame(function () { Array.prototype.forEach.call(ls.querySelectorAll('.u291-rw'), function (w) { w.classList.add('is-in'); }); });
+  go.addEventListener('click', function () {
+    var v = inp.value, code = 'lnk.to/' + Math.random().toString(36).slice(2, 7);
+    fx.innerHTML = ''; var W = fx.offsetWidth;
+    v.slice(0, 64).split('').forEach(function (ch) { var s = document.createElement('span'); s.textContent = ch; fx.appendChild(s); });
+    inp.style.visibility = 'hidden';
+    var S = fx.children;
+    requestAnimationFrame(function () { Array.prototype.forEach.call(S, function (s) { var dx = W / 2 - (s.offsetLeft + s.offsetWidth / 2); s.style.transform = 'translateX(' + dx.toFixed(1) + 'px) scale(.2)'; s.style.opacity = 0; s.style.transitionDelay = (Math.abs(dx) / W * .25).toFixed(3) + 's'; }); });
+    setTimeout(function () {
+      sh.textContent = code; root.classList.add('is-short'); fx.innerHTML = '';
+      var li = row([code, 'October newsletter', 1], true); ls.insertBefore(li, ls.firstChild); void li.offsetWidth; li.classList.remove('is-new');
+      setTimeout(function () { li.querySelector('.u291-rw').classList.add('is-in'); }, 200);
+      while (ls.children.length > 3) ls.lastChild.remove();
+      cp.focus({ preventScroll: true });
+    }, rm ? 0 : 700);
+  });
+  var T = 0;
+  cp.addEventListener('click', function () {
+    try { navigator.clipboard && navigator.clipboard.writeText('https://' + sh.textContent).catch(function () {}); } catch (e) {}
+    bx.classList.remove('is-fl'); void bx.offsetWidth; bx.classList.add('is-fl');
+    cp.classList.add('is-ok'); cpl.textContent = 'Copied'; cp.querySelector('svg').innerHTML = CHK;
+    clearTimeout(T); T = setTimeout(function () { cp.classList.remove('is-ok'); cpl.textContent = 'Copy'; cp.querySelector('svg').innerHTML = COPYI; }, 1600);
+  });
+})();
+</script>
+--- Code end ---

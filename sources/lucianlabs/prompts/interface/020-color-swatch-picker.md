@@ -1,0 +1,247 @@
+---
+source: "lucianlabs"
+id: "020"
+title: "Product color picker"
+category: "Toggles & Pickers"
+collection: "interface"
+url: "https://lucianlabs.dev/en/uxui-prompt/#020"
+tags: ["swatch", "color", "product", "radio", "liquid"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Product color picker (020, Toggles & Pickers)
+[What it does] Pick a color and it fills the tumbler from the bottom while the glow behind takes on the same color. The selection ring glides to your pick and the color name rolls over.
+[How to use it] Press the color dots below. Arrow keys work too
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #020 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#020 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u020{--c:#2E3A59;--n:#2E3A59;position:relative;width:320px;height:350px;display:flex;flex-direction:column;align-items:center}
+.u020-stage{position:relative;width:320px;height:232px;display:grid;place-items:center}
+.u020-glow{position:absolute;left:50%;top:52%;width:200px;height:200px;margin:-100px 0 0 -100px;border-radius:50%;background:var(--c);filter:blur(42px);opacity:.38;transition:background-color .8s var(--ux-ease)}
+.u020-cup{position:relative;width:104px;height:200px;animation:u020-float 5s ease-in-out infinite}
+@keyframes u020-float{50%{transform:translateY(-6px)}}
+.u020-lid{position:absolute;left:8px;right:8px;top:0;height:34px;border-radius:14px 14px 6px 6px;background:linear-gradient(90deg,#2A2A30,#55555E 35%,#2A2A30);box-shadow:inset 0 -2px 0 rgba(0,0,0,.25)}
+.u020-lid::after{content:"";position:absolute;left:30%;right:30%;top:-7px;height:9px;border-radius:5px 5px 0 0;background:#3A3A42}
+.u020-body{position:absolute;left:0;right:0;top:30px;bottom:0;border-radius:18px 18px 30px 30px;overflow:hidden;background:var(--c);box-shadow:0 24px 30px -18px rgba(0,0,0,.45)}
+.u020-new{position:absolute;inset:0;background:var(--n);clip-path:inset(100% 0 0 0);border-radius:inherit}
+.u020-new.go{animation:u020-rise .7s cubic-bezier(.6,.05,.3,1) forwards}
+@keyframes u020-rise{from{clip-path:inset(100% 0 0 0)}to{clip-path:inset(0 0 0 0)}}
+.u020-shine{position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(90deg,rgba(0,0,0,.22),rgba(255,255,255,.28) 26%,rgba(255,255,255,0) 44%,rgba(0,0,0,.08) 70%,rgba(0,0,0,.28))}
+.u020-mark{position:absolute;left:0;right:0;bottom:48px;text-align:center;font-size:10px;font-weight:800;letter-spacing:.32em;color:rgba(255,255,255,.55)}
+.u020-shadow{position:absolute;left:50%;bottom:6px;width:120px;height:16px;margin-left:-60px;border-radius:50%;background:radial-gradient(closest-side,var(--ux-shadow-strong),transparent);animation:u020-sh 5s ease-in-out infinite}
+@keyframes u020-sh{50%{transform:scaleX(.88);opacity:.7}}
+.u020-name{position:relative;height:24px;width:260px;margin:4px 0 0;overflow:hidden;text-align:center;font-size:16px;font-weight:720;letter-spacing:-.02em}
+.u020-name span{position:absolute;left:0;right:0;top:0;line-height:24px;transition:transform .5s var(--ux-spring),opacity .3s var(--ux-ease)}
+.u020-name small{font-weight:550;color:var(--ux-ink-3);margin-left:6px}
+.u020-row{position:relative;display:flex;gap:12px;margin-top:20px;padding:6px}
+.u020-ring{position:absolute;left:0;top:0;width:48px;height:48px;border-radius:50%;box-shadow:0 0 0 2.5px var(--ux-ink);pointer-events:none;transition:transform .55s var(--ux-spring)}
+.u020-sw{position:relative;width:36px;height:36px;border:0;padding:0;margin:0;border-radius:50%;background:var(--s);box-shadow:inset 0 0 0 1px rgba(0,0,0,.12),inset 0 6px 8px -4px rgba(255,255,255,.35);transition:transform .4s var(--ux-spring)}
+.u020-sw:hover{transform:scale(1.1)}
+.u020-sw:active{transform:scale(.9)}
+.u020-sw:focus-visible{outline:2px solid var(--ux-accent);outline-offset:6px}
+</style>
+<div class="ux u020">
+  <div class="u020-stage" aria-hidden="true">
+    <span class="u020-glow"></span>
+    <span class="u020-shadow"></span>
+    <div class="u020-cup">
+      <span class="u020-lid"></span>
+      <span class="u020-body"><span class="u020-new"></span><span class="u020-mark">LUCIAN</span><span class="u020-shine"></span></span>
+    </div>
+  </div>
+  <p class="u020-name" aria-live="polite"><span>Midnight<small>Stainless tumbler</small></span></p>
+  <div class="u020-row" role="radiogroup" aria-label="Color">
+    <span class="u020-ring" aria-hidden="true"></span>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var row = root.querySelector('.u020-row');
+  var ring = root.querySelector('.u020-ring');
+  var layer = root.querySelector('.u020-new');
+  var name = root.querySelector('.u020-name');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var COLORS = [['Midnight', '#2E3A59'], ['Sage', '#7FA38A'], ['Coral', '#F07C6A'], ['Lavender', '#A796E8'], ['Butter', '#F2C86B'], ['Cloud', '#E9E6E0']];
+  var cur = 0, busy = 0;
+  var sws = COLORS.map(function (c, i) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'u020-sw';
+    b.style.setProperty('--s', c[1]);
+    b.setAttribute('role', 'radio');
+    b.setAttribute('aria-label', c[0]);
+    b.setAttribute('aria-checked', String(i === 0));
+    b.tabIndex = i === 0 ? 0 : -1;
+    row.appendChild(b);
+    return b;
+  });
+  function moveRing(i) { ring.style.transform = 'translate(' + (sws[i].offsetLeft - 6) + 'px,' + (sws[i].offsetTop - 6) + 'px)'; }
+  function rollName(i) {
+    var old = name.lastElementChild;
+    var s = document.createElement('span');
+    s.innerHTML = COLORS[i][0] + '<small>Stainless tumbler</small>';
+    s.style.transform = 'translateY(100%)'; s.style.opacity = '0';
+    name.appendChild(s);
+    void s.offsetWidth;
+    s.style.transform = 'none'; s.style.opacity = '1';
+    old.style.transform = 'translateY(-100%)'; old.style.opacity = '0';
+    setTimeout(function () { old.remove(); }, 500);
+  }
+  function choose(i, focus) {
+    if (i === cur) return;
+    cur = i;
+    sws.forEach(function (b, k) { b.setAttribute('aria-checked', String(k === i)); b.tabIndex = k === i ? 0 : -1; });
+    if (focus) sws[i].focus();
+    moveRing(i);
+    rollName(i);
+    root.style.setProperty('--n', COLORS[i][1]);
+    root.querySelector('.u020-glow').style.backgroundColor = COLORS[i][1];
+    clearTimeout(busy);
+    layer.classList.remove('go'); void layer.offsetWidth;
+    if (rm) { root.style.setProperty('--c', COLORS[i][1]); return; }
+    layer.classList.add('go');
+    busy = setTimeout(function () {
+      if (!root.isConnected) return;
+      root.style.setProperty('--c', COLORS[i][1]);
+      layer.classList.remove('go');
+    }, 720);
+  }
+  sws.forEach(function (b, i) {
+    b.addEventListener('click', function () { choose(i); });
+    b.addEventListener('keydown', function (e) {
+      var d = (e.key === 'ArrowRight' || e.key === 'ArrowDown') ? 1 : (e.key === 'ArrowLeft' || e.key === 'ArrowUp') ? -1 : 0;
+      if (d) { e.preventDefault(); choose((i + d + sws.length) % sws.length, true); }
+    });
+  });
+  ring.style.transition = 'none';
+  moveRing(0);
+  requestAnimationFrame(function () { requestAnimationFrame(function () { ring.style.transition = ''; }); });
+})();
+</script>
+--- Code end ---

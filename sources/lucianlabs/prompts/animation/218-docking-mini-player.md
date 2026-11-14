@@ -1,0 +1,217 @@
+---
+source: "lucianlabs"
+id: "218"
+title: "Mini player that docks on scroll"
+category: "App Screens"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#218"
+tags: ["audio-player", "mini-player", "sticky", "podcast", "media"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Mini player that docks on scroll (218, App Screens)
+[What it does] Press play on the big player at the top of a podcast page and the sound bars dance as the progress bar runs. Scroll down until the big player leaves the screen and it shrinks into a mini bar docked at the bottom, keeping its playback and progress. Press the mini bar and the page glides back up to the big player.
+[How to use it] Press play, scroll down, then press the mini bar at the bottom
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #218 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#218 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u218{position:relative;width:300px;height:480px;border-radius:32px;overflow:hidden;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:var(--ux-ink)}
+.u218-sc{position:absolute;inset:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;padding:16px 16px 90px}
+.u218-sc::-webkit-scrollbar{display:none}
+.u218-sc:focus-visible{outline:2px solid var(--ux-accent);outline-offset:-4px;border-radius:32px}
+.u218-bg{padding:16px;border-radius:24px;background:linear-gradient(160deg,#312E81,#831843);color:#fff}
+.u218-ar{position:relative;width:132px;height:132px;margin:4px auto 0;border-radius:22px;background:linear-gradient(135deg,#F472B6,#F59E0B);box-shadow:0 20px 34px -16px rgba(0,0,0,.6);display:grid;place-items:center;transition:transform .5s cubic-bezier(.3,1.4,.5,1)}
+.u218.is-play .u218-ar{transform:scale(1.04)}
+.u218-ar svg{width:56px;height:56px;opacity:.9}
+.u218-bg small{display:block;margin-top:14px;text-align:center;font-size:10.5px;font-weight:800;opacity:.75}
+.u218-bg h3{margin:3px 0 0;text-align:center;font-size:16px;font-weight:900;letter-spacing:-.02em}
+.u218-wv{display:flex;align-items:center;justify-content:center;gap:3px;height:26px;margin-top:10px}
+.u218-wv i{width:3px;height:6px;border-radius:2px;background:rgba(255,255,255,.7);transition:height .2s}
+.u218.is-play .u218-wv i{animation:u218-wv .9s ease-in-out infinite alternate}
+@keyframes u218-wv{to{height:24px}}
+.u218-pr{height:4px;margin-top:10px;border-radius:2px;background:rgba(255,255,255,.25);overflow:hidden}
+.u218-pr i,.u218-mb>i{display:block;height:100%;width:0;background:#fff}
+.u218-tm{display:flex;justify-content:space-between;margin-top:5px;font-size:9.5px;font-weight:750;opacity:.75;font-variant-numeric:tabular-nums}
+.u218-pl{display:grid;place-items:center;width:52px;height:52px;margin:8px auto 0;border:0;border-radius:50%;background:#fff;color:#831843;cursor:pointer;transition:transform .15s}
+.u218-pl:active{transform:scale(.92)}
+.u218-pl svg{width:20px;height:20px}
+.u218-sx h4{margin:20px 0 0;font-size:13px;font-weight:900}
+.u218-sx p{margin:6px 0 0;font-size:11.5px;line-height:1.6;font-weight:600;color:var(--ux-ink-2)}
+.u218-ep{display:flex;align-items:center;gap:10px;margin-top:9px;padding:9px;border-radius:13px;background:var(--ux-surface-2);font-size:11px;font-weight:750}
+.u218-ep i{flex:none;width:34px;height:34px;border-radius:9px}
+.u218-ch{display:flex;gap:10px;padding:10px 4px;border-bottom:1px solid var(--ux-line);font-size:11.5px;font-weight:700}
+.u218-ch span{flex:none;width:40px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10.5px;color:var(--ux-accent)}
+.u218-mb{position:absolute;left:10px;right:10px;bottom:10px;z-index:2;display:flex;align-items:center;gap:10px;height:58px;padding:0 8px;border:0;border-radius:18px;background:#1E1B4B;color:#fff;font:inherit;text-align:left;cursor:pointer;overflow:hidden;box-shadow:0 16px 30px -12px rgba(0,0,0,.5);transform:translateY(140%) scale(.9);transition:transform .45s cubic-bezier(.3,1.3,.5,1)}
+.u218.is-dock .u218-mb{transform:none}
+.u218-mb>i{position:absolute;left:0;bottom:0;height:3px;background:#F472B6}
+.u218-mb span.a{flex:none;width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,#F472B6,#F59E0B)}
+.u218-mb div{flex:1;min-width:0}
+.u218-mb b{display:block;font-size:11.5px;font-weight:850;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.u218-mb small{display:block;font-size:9.5px;font-weight:700;opacity:.7}
+.u218-mp{flex:none;width:36px;height:36px;border-radius:50%;background:#fff;color:#1E1B4B;display:grid;place-items:center}
+.u218-mp svg{width:14px;height:14px}
+.u218 button:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){.u218-mb,.u218-ar{transition:none}.u218.is-play .u218-wv i{animation:none;height:14px}}
+</style>
+<div class="ux u218">
+  <div class="u218-sc" tabindex="0" aria-label="Podcast page">
+    <div class="u218-bg">
+      <div class="u218-ar" aria-hidden="true"><svg viewBox="0 0 56 56"><rect x="21" y="8" width="14" height="26" rx="7" fill="none" stroke="#fff" stroke-width="3.5"/><path d="M14 27a14 14 0 0 0 28 0M28 41v7" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/></svg></div>
+      <small>Maker Talk · Ep. 42</small><h3>How small teams build big</h3>
+      <div class="u218-wv" aria-hidden="true"></div>
+      <div class="u218-pr"><i></i></div><div class="u218-tm"><span class="u218-cu">0:00</span><span>38:20</span></div>
+      <button type="button" class="u218-pl"></button>
+    </div>
+    <div class="u218-sx"><h4>About this episode</h4><p>How a three-person product reached a million people, and which features they cut or kept in the first year.</p>
+      <h4>More episodes</h4><div class="u218-ep"><i style="background:linear-gradient(135deg,#A5B4FC,#6366F1)"></i>Ep. 41 · Setting your first price</div><div class="u218-ep"><i style="background:linear-gradient(135deg,#6EE7B7,#0EA5E9)"></i>Ep. 40 · Starting without a designer</div><div class="u218-ep"><i style="background:linear-gradient(135deg,#FDE68A,#F97316)"></i>Ep. 39 · The art of a quiet launch</div>
+      <h4>Chapters</h4><div class="u218-ch"><span>00:00</span>Hellos and updates</div><div class="u218-ch"><span>04:12</span>The first three features</div><div class="u218-ch"><span>15:40</span>What we cut, what we kept</div><div class="u218-ch"><span>29:05</span>What comes after a million</div></div>
+  </div>
+  <button type="button" class="u218-mb" aria-label="Back to full player" tabindex="-1"><span class="a" aria-hidden="true"></span><div><b></b><small></small></div><span class="u218-mp" aria-hidden="true"></span><i></i></button>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var sc = root.querySelector('.u218-sc'), bg = root.querySelector('.u218-bg'), pl = root.querySelector('.u218-pl'), wv = root.querySelector('.u218-wv'), pr = root.querySelector('.u218-pr i'), cu = root.querySelector('.u218-cu'), mb = root.querySelector('.u218-mb'), mp = root.querySelector('.u218-mp'), mpr = root.querySelector('.u218-mb>i');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  mb.querySelector('b').textContent = root.querySelector('.u218-bg h3').textContent; mb.querySelector('small').textContent = root.querySelector('.u218-bg small').textContent;
+  for (var i = 0; i < 18; i++) { var b = document.createElement('i'); b.style.animationDelay = (-(i * 137 % 900) / 1000) + 's'; wv.appendChild(b); }
+  var PLAY = '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.5l11 6.5-11 6.5z" fill="currentColor"/></svg>', PAUSE = '<svg viewBox="0 0 20 20" aria-hidden="true"><rect x="4.5" y="3.5" width="4" height="13" rx="1.2" fill="currentColor"/><rect x="11.5" y="3.5" width="4" height="13" rx="1.2" fill="currentColor"/></svg>';
+  var on = false, t = 312, LEN = 2300, last = 0;
+  function sync() { root.classList.toggle('is-play', on); pl.innerHTML = on ? PAUSE : PLAY; pl.setAttribute('aria-label', on ? 'Pause' : 'Play'); mp.innerHTML = on ? PAUSE : PLAY; }
+  function draw() { var p = (t / LEN * 100).toFixed(2) + '%'; pr.style.width = p; mpr.style.width = p; cu.textContent = Math.floor(t / 60) + ':' + ('0' + Math.floor(t % 60)).slice(-2); }
+  (function tick(now) { if (!root.isConnected) return; if (on && last) { t = Math.min(LEN, t + (now - last) / 1000 * 6); draw(); } last = now; requestAnimationFrame(tick); })(0);
+  pl.addEventListener('click', function () { on = !on; sync(); });
+  if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { var gone = !es[0].isIntersecting; root.classList.toggle('is-dock', gone); mb.tabIndex = gone ? 0 : -1; }, { root: sc, threshold: 0 }).observe(pl);
+  mb.addEventListener('click', function () {
+    var y0 = sc.scrollTop, t0 = performance.now(), ms = rm ? 0 : 600;
+    (function f(now) { var k = ms ? Math.min(1, (now - t0) / ms) : 1, e = 1 - Math.pow(1 - k, 3); sc.scrollTop = y0 * (1 - e); if (k < 1) requestAnimationFrame(f); else pl.focus({ preventScroll: true }); })(t0);
+  });
+  sync(); draw();
+})();
+</script>
+--- Code end ---

@@ -1,0 +1,276 @@
+---
+source: "lucianlabs"
+id: "099"
+title: "Activity rings that lap"
+category: "Widgets & Charts"
+collection: "interface"
+url: "https://lucianlabs.dev/en/uxui-prompt/#099"
+tags: ["rings", "activity", "progress", "week", "overlap"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Activity rings that lap (099, Widgets & Charts)
+[What it does] Three rings fill one after another toward the center, and a ring past its goal carries a shadowed tip as it laps a second time. Pick a weekday below and the rings shrink or grow into that day’s values; the moment a ring closes it flashes once while the numbers on the right roll along.
+[How to use it] Press the weekday buttons below to switch days. Hover or focus an item on the right to highlight just that ring. ←/→ also move between days
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #099 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#099 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u099{--m:#FA2D62;--e:#7BD33A;--s:#18C6E8;position:relative;width:340px;height:410px;display:flex;flex-direction:column;padding:20px 18px 14px;border-radius:30px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);overflow:hidden}
+.u099-h{display:flex;align-items:baseline;justify-content:space-between}
+.u099-h b{font-size:20px;font-weight:850;letter-spacing:-.04em}
+.u099-h span{font-size:12.5px;font-weight:750;color:var(--ux-ink-3)}
+.u099-top{display:flex;align-items:center;gap:10px;margin:22px -4px 0 -6px}
+.u099-rg{width:184px;height:184px;flex:none;overflow:visible;transform:rotate(-90deg)}
+.u099-r{transition:opacity .25s}
+.u099.has .u099-r:not(.on){opacity:.22}
+.u099-r circle{fill:none;stroke-linecap:round}
+.u099-r .t{stroke:var(--c);stroke-opacity:.2}
+.u099-r .a,.u099-r .b{stroke:var(--c)}
+.u099-r .cap{fill:var(--c);stroke:none;filter:drop-shadow(0 0 2.5px rgba(0,0,0,.55));opacity:0}
+.u099-r.over .cap{opacity:1}
+.u099-r.fl .a{animation:u099-fl .8s var(--ux-ease)}
+@keyframes u099-fl{40%{filter:drop-shadow(0 0 7px var(--c))}}
+.u099-lg{flex:1;display:flex;flex-direction:column;gap:6px;min-width:0}
+.u099-it{display:block;width:100%;padding:8px 10px;border:0;border-radius:13px;background:transparent;text-align:left;transition:background-color .2s}
+.u099-it:hover,.u099-it.on{background:var(--ux-surface-2)}
+.u099-it small{display:flex;align-items:center;gap:6px;font-size:11.5px;font-weight:750;color:var(--ux-ink-3)}
+.u099-it small i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.u099-it b{display:block;margin-top:1px;font-size:17px;font-weight:850;letter-spacing:-.03em;color:var(--c);font-variant-numeric:tabular-nums}
+.u099-it b span{font-size:12px;font-weight:750;color:var(--ux-ink-3)}
+.u099-wk{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;margin-top:auto;padding:6px;border-radius:18px;background:var(--ux-surface-2)}
+.u099-d{display:flex;flex-direction:column;align-items:center;gap:4px;padding:7px 0 6px;border:0;border-radius:13px;background:transparent;font-size:11.5px;font-weight:800;color:var(--ux-ink-3);transition:background-color .2s,color .2s,transform .3s var(--ux-spring)}
+.u099-d:hover{color:var(--ux-ink)}
+.u099-d:active{transform:scale(.92)}
+.u099-d[aria-pressed="true"]{background:var(--ux-surface);color:var(--ux-ink);box-shadow:0 2px 8px -4px var(--ux-shadow-strong)}
+.u099-d svg{width:30px;height:30px;transform:rotate(-90deg)}
+.u099-d circle{fill:none;stroke-width:3.4;stroke-linecap:round}
+.u099-sum{margin:10px 2px 0;font-size:12.5px;font-weight:700;color:var(--ux-ink-3);text-align:center}
+.u099-sum b{color:var(--ux-ink)}
+.u099-it:focus-visible,.u099-d:focus-visible{outline:2px solid var(--ux-accent);outline-offset:1px}
+</style>
+<div class="ux u099">
+  <div class="u099-h"><b>Activity</b><span class="u099-dt"></span></div>
+  <div class="u099-top">
+    <svg class="u099-rg" viewBox="0 0 164 164" aria-hidden="true"></svg>
+    <div class="u099-lg" role="group" aria-label="Activity rings"></div>
+  </div>
+  <div class="u099-wk" role="group" aria-label="Pick a day"></div>
+  <p class="u099-sum"></p>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var NS = 'http://www.w3.org/2000/svg';
+  var svg = root.querySelector('.u099-rg'), lg = root.querySelector('.u099-lg'), wk = root.querySelector('.u099-wk'), dt = root.querySelector('.u099-dt'), sum = root.querySelector('.u099-sum');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var RING = [['Move', 'var(--m)', 500, ' kcal', 70], ['Exercise', 'var(--e)', 30, ' min', 51], ['Stand', 'var(--s)', 12, ' hr', 32]];
+  var DAYS = [['S', 'Sunday, Oct 4', [0.62, 0.4, 0.75]], ['M', 'Monday, Oct 5', [1.04, 1.1, 1]], ['T', 'Tuesday, Oct 6', [0.88, 0.7, 0.92]], ['W', 'Wednesday, Oct 7', [1.32, 1.6, 1.08]], ['T', 'Thursday, Oct 8', [0.45, 0.2, 0.58]], ['F', 'Friday, Oct 9', [1.12, 1.05, 1.17]], ['S', 'Today · Oct 10', [0.84, 1.24, 0.75]]];
+  var SW = 18;
+  function el(n, a) { var e = document.createElementNS(NS, n); for (var k in a) e.setAttribute(k, a[k]); return e; }
+  var rings = RING.map(function (r, i) {
+    var g = el('g', { class: 'u099-r' }), rad = r[4];
+    g.style.setProperty('--c', r[1]);
+    var C = 2 * Math.PI * rad;
+    [['t', C], ['a', C], ['b', C]].forEach(function (x) { g.appendChild(el('circle', { class: x[0], cx: 82, cy: 82, r: rad, 'stroke-width': SW, 'stroke-dasharray': '0 ' + C })); });
+    g.querySelector('.t').setAttribute('stroke-dasharray', '');
+    g.appendChild(el('circle', { class: 'cap', r: SW / 2 }));
+    svg.appendChild(g);
+    return { g: g, r: rad, C: C, a: g.querySelector('.a'), b: g.querySelector('.b'), cap: g.querySelector('.cap'), p: 0 };
+  });
+  var items = RING.map(function (r, i) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'u099-it'; b.style.setProperty('--c', r[1]);
+    b.innerHTML = '<small><i aria-hidden="true"></i></small><b></b>';
+    b.querySelector('small').appendChild(document.createTextNode(r[0]));
+    b.addEventListener('pointerenter', function () { hi(i); }); b.addEventListener('focus', function () { hi(i); });
+    b.addEventListener('pointerleave', function () { if (document.activeElement !== b) hi(-1); }); b.addEventListener('blur', function () { hi(-1); });
+    lg.appendChild(b);
+    return b;
+  });
+  function hi(i) { root.classList.toggle('has', i >= 0); rings.forEach(function (r, k) { r.g.classList.toggle('on', k === i); }); items.forEach(function (b, k) { b.classList.toggle('on', k === i); }); }
+  function draw(r, p) {
+    var a = Math.min(p, 1), b = Math.max(0, Math.min(p - 1, 1));
+    r.a.setAttribute('stroke-dasharray', (a * r.C).toFixed(2) + ' ' + r.C.toFixed(2));
+    r.b.setAttribute('stroke-dasharray', (b * r.C).toFixed(2) + ' ' + r.C.toFixed(2));
+    r.b.style.display = b > 0 ? '' : 'none';
+    var ang = p * Math.PI * 2;
+    r.cap.setAttribute('cx', (82 + Math.cos(ang) * r.r).toFixed(2)); r.cap.setAttribute('cy', (82 + Math.sin(ang) * r.r).toFixed(2));
+    r.g.classList.toggle('over', p > 1.02);
+  }
+  var mini = DAYS.map(function (d, i) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'u099-d'; b.setAttribute('aria-pressed', 'false');
+    b.setAttribute('aria-label', d[1] + ', ' + RING.map(function (r, k) { return r[0] + ' ' + Math.round(d[2][k] * 100) + '%'; }).join(', '));
+    var s = el('svg', { viewBox: '0 0 30 30', 'aria-hidden': 'true' });
+    [13, 9, 5].forEach(function (rad, k) {
+      var C = 2 * Math.PI * rad;
+      s.appendChild(el('circle', { cx: 15, cy: 15, r: rad, stroke: RING[k][1], 'stroke-opacity': .22 }));
+      s.appendChild(el('circle', { cx: 15, cy: 15, r: rad, stroke: RING[k][1], 'stroke-dasharray': (Math.min(1, d[2][k]) * C).toFixed(2) + ' ' + C.toFixed(2) }));
+    });
+    s.querySelectorAll('circle').forEach(function (c) { c.style.stroke = c.getAttribute('stroke'); });
+    b.appendChild(s); b.appendChild(document.createTextNode(d[0]));
+    b.addEventListener('click', function () { pick(i); });
+    wk.appendChild(b);
+    return b;
+  });
+  var full = DAYS.filter(function (d) { return d[2].every(function (v) { return v >= 1; }); }).length;
+  sum.innerHTML = 'Days this week with all three rings closed: <b>' + full + '</b>';
+  var cur = -1, tw = 0;
+  function txt(i, p) { return Math.round(p * RING[i][2]) + '<span> / ' + RING[i][2] + RING[i][3] + '</span>'; }
+  function pick(i) {
+    if (i === cur) return;
+    cur = i;
+    mini.forEach(function (b, k) { b.setAttribute('aria-pressed', String(k === i)); b.tabIndex = k === i ? 0 : -1; });
+    dt.textContent = DAYS[i][1];
+    var from = rings.map(function (r) { return r.p; }), to = DAYS[i][2], t0 = performance.now(), dur = rm ? 1 : 1100;
+    cancelAnimationFrame(tw);
+    (function f(n) {
+      if (!root.isConnected) return;
+      var done = true;
+      rings.forEach(function (r, k) {
+        var t = Math.max(0, Math.min(1, (n - t0 - k * 110) / dur)), e = 1 - Math.pow(1 - t, 3), p = from[k] + (to[k] - from[k]) * e;
+        if (r.p < 1 && p >= 1 && !rm) { r.g.classList.remove('fl'); void r.g.getBoundingClientRect(); r.g.classList.add('fl'); }
+        r.p = p; draw(r, p);
+        items[k].querySelector('b').innerHTML = txt(k, p);
+        if (t < 1) done = false;
+      });
+      if (!done) tw = requestAnimationFrame(f);
+    })(t0);
+    items.forEach(function (b, k) { b.setAttribute('aria-label', RING[k][0] + ' ' + Math.round(to[k] * RING[k][2]) + RING[k][3] + ', goal ' + RING[k][2] + RING[k][3]); });
+  }
+  wk.addEventListener('keydown', function (e) {
+    var to = e.key === 'ArrowRight' ? cur + 1 : e.key === 'ArrowLeft' ? cur - 1 : e.key === 'Home' ? 0 : e.key === 'End' ? 6 : null;
+    if (to === null) return;
+    e.preventDefault(); to = Math.max(0, Math.min(6, to));
+    pick(to); mini[to].focus();
+  });
+  rings.forEach(function (r) { draw(r, 0); });
+  pick(6);
+})();
+</script>
+--- Code end ---

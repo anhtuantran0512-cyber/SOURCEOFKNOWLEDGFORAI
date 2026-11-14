@@ -1,0 +1,233 @@
+---
+source: "lucianlabs"
+id: "087"
+title: "Delivery steps with a truck"
+category: "Loading & Progress"
+collection: "interface"
+url: "https://lucianlabs.dev/en/uxui-prompt/#087"
+tags: ["steps", "tracking", "delivery", "timeline", "progress"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Delivery steps with a truck (087, Loading & Progress)
+[What it does] Each time the delivery stage changes, a small truck drives along the line to the next dot and the road behind it fills with color. New stages push in at the top of the log below, and on arrival the truck stops and turns into a check flag.
+[How to use it] Press “Next step” to watch the truck drive. After it arrives you can watch again from the start
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #087 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#087 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u087{position:relative;width:340px;height:470px;display:flex;flex-direction:column;padding:22px 20px 20px;border-radius:30px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);overflow:hidden}
+.u087-h small{display:block;font-size:12px;font-weight:700;color:var(--ux-ink-3)}
+.u087-h b{display:block;margin-top:3px;font-size:21px;font-weight:850;letter-spacing:-.045em}
+.u087-h em{font-style:normal;color:var(--ux-accent)}
+.u087-trk{position:relative;height:64px;margin:16px 4px 0}
+.u087-line{position:absolute;left:8px;right:8px;top:42px;height:4px;border-radius:2px;background:var(--ux-surface-3)}
+.u087-line i{position:absolute;inset:0;border-radius:inherit;background:linear-gradient(90deg,#06B6D4,#22C3A6);transform-origin:0 50%;transform:scaleX(var(--p,0));transition:transform 1s cubic-bezier(.5,0,.2,1)}
+.u087-dots{position:absolute;left:0;right:0;top:36px;display:flex;justify-content:space-between}
+.u087-dots span{width:16px;height:16px;border-radius:50%;background:var(--ux-surface);box-shadow:inset 0 0 0 3px var(--ux-surface-3);transition:box-shadow .4s .6s}
+.u087-dots span.on{box-shadow:inset 0 0 0 5px #22C3A6}
+.u087-truck{position:absolute;left:0;top:0;width:44px;height:34px;margin-left:-22px;transform:translateX(var(--x,0px));transition:transform 1s cubic-bezier(.5,0,.2,1)}
+.u087-truck svg{width:44px;height:34px}
+.u087.is-moving .u087-truck svg{animation:u087-bump .25s ease-in-out infinite}
+@keyframes u087-bump{50%{transform:translateY(-2px) rotate(-1deg)}}
+.u087-flag{position:absolute;left:12px;top:-2px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--ux-mint);color:var(--ux-accent-ink);transform:scale(0);transition:transform .5s var(--ux-spring) .2s}
+.u087-flag svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.u087.is-done .u087-flag{transform:none}
+.u087.is-done .u087-truck svg{opacity:.25;transition:opacity .4s}
+.u087-labs{display:flex;justify-content:space-between;margin:6px 0 0;font-size:11px;font-weight:700;color:var(--ux-ink-3)}
+.u087-labs span{width:56px;text-align:center;transition:color .4s}
+.u087-labs span:first-child{text-align:left}
+.u087-labs span:last-child{text-align:right}
+.u087-labs span.on{color:var(--ux-ink)}
+.u087-log{flex:1;margin:16px 0 0;padding:0;list-style:none;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 44px),transparent);mask-image:linear-gradient(180deg,#000 calc(100% - 44px),transparent)}
+.u087-log li{position:relative;display:flex;gap:12px;padding:0 0 12px 22px}
+.u087-log li::before{content:"";position:absolute;left:4px;top:5px;width:8px;height:8px;border-radius:50%;background:var(--ux-line-2)}
+.u087-log li::after{content:"";position:absolute;left:7.5px;top:17px;bottom:2px;width:1px;background:var(--ux-line-2)}
+.u087-log li:first-child::before{background:#22C3A6;box-shadow:0 0 0 4px color-mix(in srgb,#22C3A6 22%,transparent)}
+.u087-log li.new{animation:u087-in .55s var(--ux-spring)}
+@keyframes u087-in{from{opacity:0;transform:translateY(-14px)}}
+.u087-log b{display:block;font-size:14px;font-weight:780;letter-spacing:-.02em}
+.u087-log li:not(:first-child) b{color:var(--ux-ink-2);font-weight:700}
+.u087-log small{display:block;margin-top:2px;font-size:12px;font-weight:600;color:var(--ux-ink-3)}
+.u087-go{height:50px;border:0;border-radius:16px;background:var(--ux-ink);color:var(--ux-page);font-size:14.5px;font-weight:760;transition:transform .3s var(--ux-spring),opacity .3s}
+.u087-go:active{transform:scale(.97)}
+.u087-go[aria-disabled="true"]{opacity:.4}
+.u087-go:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+</style>
+<div class="ux u087">
+  <div class="u087-h"><small>Order LM-0428 · Daily Bottle 500</small><b aria-live="polite"></b></div>
+  <div class="u087-trk" role="progressbar" aria-label="Delivery stage" aria-valuemin="1" aria-valuemax="5">
+    <span class="u087-line" aria-hidden="true"><i></i></span>
+    <span class="u087-dots" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></span>
+    <span class="u087-truck" aria-hidden="true"><svg viewBox="0 0 44 34"><rect x="2" y="6" width="24" height="18" rx="3" fill="#06B6D4"/><path d="M26 11h8l6 7v6H26z" fill="#22C3A6"/><path d="M29 13.5h4l3.5 4H29z" fill="#E6FBF7"/><circle cx="10" cy="26" r="4" fill="#16151B" stroke="#fff" stroke-width="2"/><circle cx="33" cy="26" r="4" fill="#16151B" stroke="#fff" stroke-width="2"/><rect x="6" y="10" width="10" height="3" rx="1.5" fill="#fff" opacity=".7"/></svg><span class="u087-flag"><svg viewBox="0 0 14 14"><path d="M3 7.4l2.6 2.6L11 4.6"/></svg></span></span>
+  </div>
+  <div class="u087-labs" aria-hidden="true"><span>Placed</span><span>Packing</span><span>Shipped</span><span>En route</span><span>Arrived</span></div>
+  <ol class="u087-log" aria-label="Delivery log"></ol>
+  <button class="u087-go" type="button">Next step</button>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var head = root.querySelector('.u087-h b'), trk = root.querySelector('.u087-trk'), line = root.querySelector('.u087-line'), truck = root.querySelector('.u087-truck');
+  var dots = root.querySelectorAll('.u087-dots span'), labs = root.querySelectorAll('.u087-labs span'), log = root.querySelector('.u087-log'), go = root.querySelector('.u087-go');
+  var S = [
+    ['Order <em>placed</em>', 'Order placed', 'Oct 8, 2:14 PM · Paid'],
+    ['We’re <em>packing</em> your order', 'Packing', 'Oct 9, 9:30 AM · Seongsu warehouse'],
+    ['Your parcel has <em>shipped</em>', 'Shipped', 'Oct 10, 7:02 AM · East hub'],
+    ['<em>Arriving</em> today', 'Out for delivery', 'Oct 10, 1:40 PM · Courier on the way'],
+    ['<em>Delivered</em> to your door', 'Delivered', 'Oct 10, 5:58 PM · Left at the door']
+  ];
+  var cur = -1, t = 0;
+  function to(i, first) {
+    cur = i;
+    var w = line.offsetWidth, x = 8 + w * (i / 4);
+    root.classList.toggle('is-moving', !first);
+    clearTimeout(t);
+    t = setTimeout(function () { if (root.isConnected) root.classList.remove('is-moving'); }, 1000);
+    truck.style.setProperty('--x', x + 'px');
+    line.querySelector('i').style.setProperty('--p', (i / 4).toFixed(3));
+    dots.forEach(function (d, k) { d.classList.toggle('on', k <= i); });
+    labs.forEach(function (l, k) { l.classList.toggle('on', k === i); });
+    head.innerHTML = S[i][0];
+    trk.setAttribute('aria-valuenow', i + 1); trk.setAttribute('aria-valuetext', S[i][1]);
+    var li = document.createElement('li');
+    li.className = first ? '' : 'new';
+    li.innerHTML = '<div><b></b><small></small></div>';
+    li.querySelector('b').textContent = S[i][1]; li.querySelector('small').textContent = S[i][2];
+    log.insertBefore(li, log.firstChild);
+    root.classList.toggle('is-done', i === 4);
+    go.textContent = i === 4 ? 'Watch again' : 'Next step';
+  }
+  go.addEventListener('click', function () {
+    if (cur === 4) { log.innerHTML = ''; truck.style.transition = 'none'; line.querySelector('i').style.transition = 'none'; to(0, true); void truck.offsetWidth; truck.style.transition = ''; line.querySelector('i').style.transition = ''; return; }
+    to(cur + 1);
+  });
+  [0, 1, 2].forEach(function (i) { to(i, true); });
+  root.classList.remove('is-moving');
+})();
+</script>
+--- Code end ---

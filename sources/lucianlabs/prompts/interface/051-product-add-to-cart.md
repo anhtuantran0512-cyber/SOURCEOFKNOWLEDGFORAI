@@ -1,0 +1,267 @@
+---
+source: "lucianlabs"
+id: "051"
+title: "Add-to-cart product card"
+category: "Cards & Content"
+collection: "interface"
+url: "https://lucianlabs.dev/en/uxui-prompt/#051"
+tags: ["product", "cart", "fly", "badge", "variant"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Add-to-cart product card (051, Cards & Content)
+[What it does] Pick a color and the bottle refills with it from the top. Press Add and a small bottle arcs up into the cart in the top right, which wobbles as its count goes up.
+[How to use it] Change the color with the swatches, then press Add to cart a few times
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #051 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#051 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u051{--c1:#FF8A65;--c2:#E5484D;position:relative;width:330px;height:480px;display:flex;flex-direction:column;border-radius:30px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);overflow:hidden}
+.u051-stage{position:relative;height:270px;flex:none;margin:8px 8px 0;border-radius:24px;background:radial-gradient(70% 60% at 50% 70%,color-mix(in srgb,var(--c1) 30%,var(--ux-surface-2)),var(--ux-surface-2));transition:background .6s}
+.u051-top{position:absolute;left:14px;right:14px;top:14px;display:flex;justify-content:space-between;align-items:center;z-index:2}
+.u051-new{height:26px;padding:0 10px;border-radius:999px;display:inline-flex;align-items:center;background:var(--ux-surface);font-size:11.5px;font-weight:800;letter-spacing:.04em;color:var(--ux-ink-2)}
+.u051-cart{position:relative;width:44px;height:44px;border:0;padding:0;border-radius:50%;display:grid;place-items:center;background:var(--ux-surface);color:var(--ux-ink);box-shadow:0 6px 14px -8px var(--ux-shadow-strong)}
+.u051-cart svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.u051-cart:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+.u051-cart b{position:absolute;right:-3px;top:-3px;min-width:20px;height:20px;padding:0 5px;border-radius:10px;background:var(--ux-ink);color:var(--ux-page);font-size:11px;font-weight:800;line-height:20px;text-align:center;font-variant-numeric:tabular-nums;transform:scale(0);transition:transform .45s var(--ux-spring)}
+.u051-cart.has b{transform:scale(1)}
+.u051-bottle{position:absolute;left:50%;top:44px;width:110px;height:206px;margin-left:-55px;filter:drop-shadow(0 24px 18px rgba(0,0,0,.18))}
+.u051-bottle svg{width:100%;height:100%;overflow:visible}
+.u051-shadow{position:absolute;left:50%;bottom:16px;width:120px;height:16px;margin-left:-60px;border-radius:50%;background:radial-gradient(closest-side,rgba(0,0,0,.2),transparent)}
+.u051-fly{position:absolute;left:0;top:0;width:34px;height:64px;z-index:5;pointer-events:none}
+.u051-info{display:flex;flex-direction:column;flex:1;padding:16px 20px 18px}
+.u051-row{display:flex;align-items:baseline;justify-content:space-between}
+.u051-name{font-size:18px;font-weight:800;letter-spacing:-.035em}
+.u051-price{font-size:18px;font-weight:800;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.u051-sub{margin-top:3px;font-size:12.5px;font-weight:600;color:var(--ux-ink-3)}
+.u051-sw{display:flex;gap:10px;margin:14px 0 0;padding:0;border:0}
+.u051-sw legend{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.u051-sw label{position:relative;width:30px;height:30px;border-radius:50%;cursor:pointer;background:linear-gradient(140deg,var(--a),var(--b));box-shadow:0 0 0 2px var(--ux-surface),0 0 0 3px transparent;transition:box-shadow .3s,transform .35s var(--ux-spring)}
+.u051-sw label:hover{transform:scale(1.1)}
+.u051-sw input{position:absolute;opacity:0;width:100%;height:100%;margin:0;cursor:pointer}
+.u051-sw label:has(input:checked){box-shadow:0 0 0 2px var(--ux-surface),0 0 0 4px var(--ux-ink)}
+.u051-sw label:has(input:focus-visible){outline:2px solid var(--ux-accent);outline-offset:5px}
+.u051-cname{margin-left:auto;align-self:center;font-size:12.5px;font-weight:700;color:var(--ux-ink-2)}
+.u051-add{position:relative;margin-top:auto;height:52px;border:0;border-radius:16px;display:flex;align-items:center;justify-content:center;gap:8px;background:var(--ux-ink);color:var(--ux-page);font-size:15px;font-weight:750;overflow:hidden;transition:transform .35s var(--ux-spring)}
+.u051-add:active{transform:scale(.97)}
+.u051-add:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+.u051-add svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.u051-add span{transition:transform .4s var(--ux-spring),opacity .25s}
+.u051-add .ok{position:absolute;transform:translateY(120%);opacity:0;display:flex;align-items:center;gap:6px}
+.u051-add.done span:not(.ok){transform:translateY(-120%);opacity:0}
+.u051-add.done .ok{transform:none;opacity:1}
+</style>
+<div class="ux u051">
+  <div class="u051-stage">
+    <div class="u051-top"><span class="u051-new">NEW</span><button class="u051-cart" type="button" aria-label="Cart, 0 items"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h2l1.8 9.2a1 1 0 0 0 1 .8h8.4a1 1 0 0 0 1-.8L19.5 8H7"/><circle cx="9.5" cy="19" r="1.3"/><circle cx="16.5" cy="19" r="1.3"/></svg><b aria-hidden="true">0</b></button></div>
+    <span class="u051-shadow" aria-hidden="true"></span>
+    <div class="u051-bottle" aria-hidden="true"></div>
+  </div>
+  <div class="u051-info">
+    <div class="u051-row"><span class="u051-name">Daily Bottle 500</span><span class="u051-price">$24</span></div>
+    <div class="u051-sub">Stainless · keeps warm 12 h</div>
+    <fieldset class="u051-sw"><legend>Color</legend>
+      <label style="--a:#FF8A65;--b:#E5484D"><input type="radio" name="c" value="0" checked aria-label="Coral"></label>
+      <label style="--a:#7DB4FF;--b:#3D5BFF"><input type="radio" name="c" value="1" aria-label="Blue"></label>
+      <label style="--a:#A5F2D3;--b:#119C72"><input type="radio" name="c" value="2" aria-label="Mint"></label>
+      <label style="--a:#4A4A55;--b:#16151B"><input type="radio" name="c" value="3" aria-label="Charcoal"></label>
+      <span class="u051-cname" aria-live="polite">Coral</span>
+    </fieldset>
+    <button class="u051-add" type="button"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span><span>Add to cart</span><span class="ok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Added</span></button>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var stage = root.querySelector('.u051-stage'), holder = root.querySelector('.u051-bottle');
+  var cart = root.querySelector('.u051-cart'), badge = cart.querySelector('b');
+  var add = root.querySelector('.u051-add'), cname = root.querySelector('.u051-cname');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var C = [['#FF8A65', '#E5484D', 'Coral'], ['#7DB4FF', '#3D5BFF', 'Blue'], ['#A5F2D3', '#119C72', 'Mint'], ['#4A4A55', '#16151B', 'Charcoal']];
+  var uid = 'u051' + Math.random().toString(36).slice(2, 7), n = 0, cur = 0, okT = 0;
+  function bottle(id) {
+    return '<svg viewBox="0 0 110 206"><defs><clipPath id="' + id + 'k"><path d="M38 4h34a4 4 0 0 1 4 4v18c14 6 24 18 24 34v130a12 12 0 0 1-12 12H22a12 12 0 0 1-12-12V60c0-16 10-28 24-34V8a4 4 0 0 1 4-4z"/></clipPath><linearGradient id="' + id + 'h" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".22" stop-color="#fff" stop-opacity=".55"/><stop offset=".34" stop-color="#fff" stop-opacity="0"/><stop offset=".85" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".22"/></linearGradient></defs>' +
+      '<g clip-path="url(#' + id + 'k)"><rect class="b0" width="110" height="206"/><rect class="b1" width="110" height="206" y="-206"/><rect x="34" y="0" width="42" height="26" fill="#1C1B22" opacity=".9"/><rect x="10" y="98" width="90" height="30" fill="#fff" opacity=".2"/><rect width="110" height="206" fill="url(#' + id + 'h)"/></g></svg>';
+  }
+  holder.innerHTML = bottle(uid);
+  var b0 = holder.querySelector('.b0'), b1 = holder.querySelector('.b1');
+  var defs = holder.querySelector('defs');
+  C.forEach(function (c, i) {
+    var g = document.createElementNS('http://www.w3.org/2000/svg', 'linearGradient');
+    g.id = uid + 'c' + i; g.setAttribute('x1', 0); g.setAttribute('y1', 0); g.setAttribute('x2', 0); g.setAttribute('y2', 1);
+    g.innerHTML = '<stop offset="0" stop-color="' + c[0] + '"/><stop offset="1" stop-color="' + c[1] + '"/>';
+    defs.appendChild(g);
+  });
+  b0.setAttribute('fill', 'url(#' + uid + 'c0)');
+  function pick(i) {
+    if (i === cur) return;
+    cur = i;
+    root.style.setProperty('--c1', C[i][0]); root.style.setProperty('--c2', C[i][1]);
+    cname.textContent = C[i][2];
+    b1.setAttribute('fill', 'url(#' + uid + 'c' + i + ')');
+    if (rm) { b0.setAttribute('fill', b1.getAttribute('fill')); return; }
+    b1.animate([{ transform: 'translateY(0)' }, { transform: 'translateY(206px)' }], { duration: 600, easing: 'cubic-bezier(.65,0,.35,1)' }).onfinish = function () {
+      b0.setAttribute('fill', b1.getAttribute('fill'));
+    };
+    holder.animate([{ transform: 'rotate(0)' }, { transform: 'rotate(-4deg)' }, { transform: 'rotate(2deg)' }, { transform: 'none' }], { duration: 700, easing: 'ease-out' });
+  }
+  root.querySelectorAll('.u051-sw input').forEach(function (inp) {
+    inp.name = uid + '-c';
+    inp.addEventListener('change', function () { pick(Number(inp.value)); });
+  });
+  add.addEventListener('click', function () {
+    n++;
+    add.classList.add('done');
+    clearTimeout(okT);
+    okT = setTimeout(function () { if (root.isConnected) add.classList.remove('done'); }, 1400);
+    var land = function () {
+      badge.textContent = n;
+      cart.classList.add('has');
+      cart.setAttribute('aria-label', 'Cart, ' + n + (n === 1 ? ' item' : ' items'));
+      if (!rm) {
+        cart.animate([{ transform: 'none' }, { transform: 'rotate(-12deg) scale(1.12)' }, { transform: 'rotate(8deg)' }, { transform: 'none' }], { duration: 500, easing: 'ease-out' });
+        badge.animate([{ transform: 'scale(1)' }, { transform: 'scale(1.45)' }, { transform: 'scale(1)' }], { duration: 400, easing: 'cubic-bezier(.34,1.5,.64,1)' });
+      }
+    };
+    if (rm) { land(); return; }
+    var fly = document.createElement('div');
+    fly.className = 'u051-fly';
+    fly.innerHTML = bottle(uid + 'f' + n);
+    var fr = fly.querySelector('.b0'); fr.setAttribute('fill', 'url(#' + uid + 'c' + cur + ')');
+    stage.appendChild(fly);
+    var sx = holder.offsetLeft - 17, sy = holder.offsetTop + 70;
+    var ex = cart.parentNode.offsetLeft + cart.offsetLeft + 22 - 17, ey = cart.parentNode.offsetTop + cart.offsetTop + 22 - 32;
+    var kf = [];
+    for (var k = 0; k <= 12; k++) {
+      var t = k / 12, x = sx + (ex - sx) * t, y = sy + (ey - sy) * t - Math.sin(t * Math.PI) * 36;
+      kf.push({ transform: 'translate(' + x.toFixed(1) + 'px,' + y.toFixed(1) + 'px) rotate(' + (t * 40) + 'deg) scale(' + (1.2 - t * 0.85).toFixed(2) + ')', opacity: t > 0.92 ? 0 : 1 });
+    }
+    fly.animate(kf, { duration: 720, easing: 'cubic-bezier(.5,0,.3,1)' }).onfinish = function () { fly.remove(); land(); };
+  });
+})();
+</script>
+--- Code end ---

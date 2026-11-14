@@ -1,0 +1,139 @@
+---
+source: "codefronts"
+url: "https://codefronts.com/layouts/css-hero-sections/animated-headline/"
+title: "Animated Headline"
+section: "layouts"
+category: "css-hero-sections"
+category_name: "CSS Hero Sections"
+description: "1950s-diner animated headline — words lift into view with staggered delay, retro coral and ivory on jet black, neon-script CTA."
+has_js: "false"
+---
+
+Here's a working CSS Hero Section from CodeFronts. Use it as-is or adapt to your framework. All classes are scoped under a unique prefix so the code won't collide with your existing styles. MIT licensed.
+Demo: Animated Headline
+Source: https://codefronts.com/layouts/css-hero-sections/animated-headline/
+
+1950s-diner animated headline — words lift into view with staggered delay, retro coral and ivory on jet black, neon-script CTA. Flips between two taglines on a loop.
+## HTML
+```html
+<section class="hs-08" aria-label="Hero">
+  <div class="hs-08__inner">
+    <span class="hs-08__eye">— OPEN 24 HRS —</span>
+    <h2>
+      <span class="hs-08__w" style="--d: 0">Late</span>
+      <span class="hs-08__w" style="--d: 1">night</span>
+      <span class="hs-08__w" style="--d: 2">tunes,</span>
+      <br />
+      <span class="hs-08__w" style="--d: 3">made</span>
+      <span class="hs-08__w" style="--d: 4">for</span>
+      <span class="hs-08__w hs-08__em" style="--d: 5">cruising.</span>
+    </h2>
+    <p class="hs-08__sub">A radio station that never sleeps and never sells you anything.</p>
+    <a class="hs-08__cta" href="#tune">Tune in</a>
+  </div>
+</section>
+```
+## CSS
+```css
+.hs-08 {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: clamp(32px, 5vw, 64px) clamp(20px, 5vw, 56px);
+  background: #0d0d0d;
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #fdf3e0;
+  box-sizing: border-box;
+}
+
+.hs-08__inner {
+  max-width: 720px;
+  text-align: center;
+}
+
+.hs-08__eye {
+  display: inline-block;
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  letter-spacing: 0.24em;
+  color: #ff7461;
+  margin-bottom: 26px;
+}
+
+.hs-08 h2 {
+  margin: 0 0 22px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(38px, 6vw, 68px);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.05;
+  color: #fdf3e0;
+}
+
+.hs-08__w {
+  display: inline-block;
+  opacity: 0;
+  animation: hs-08-rise 0.7s cubic-bezier(.22,1,.36,1) forwards;
+  animation-delay: calc(var(--d) * 0.12s);
+}
+
+.hs-08__em {
+  color: #ff7461;
+  font-style: italic;
+}
+
+@keyframes hs-08-rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hs-08__sub {
+  font-size: 15px;
+  line-height: 1.55;
+  color: #b8a890;
+  margin: 0 auto 28px;
+  max-width: 420px;
+  opacity: 0;
+  animation: hs-08-rise 0.7s cubic-bezier(.22,1,.36,1) 0.8s forwards;
+}
+
+.hs-08__cta {
+  display: inline-block;
+  padding: 14px 28px;
+  background: transparent;
+  color: #ff7461;
+  border: 2px solid #ff7461;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0;
+  animation: hs-08-rise 0.7s cubic-bezier(.22,1,.36,1) 1.1s forwards;
+  transition: background 0.18s, color 0.18s;
+}
+
+.hs-08__cta:hover {
+  background: #ff7461;
+  color: #0d0d0d;
+  box-shadow: 0 0 22px rgba(255,116,97,0.5);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hs-08__w,
+    .hs-08__sub,
+    .hs-08__cta {
+    animation: none;
+    opacity: 1;
+  }
+}
+```

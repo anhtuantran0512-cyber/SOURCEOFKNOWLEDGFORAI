@@ -1,0 +1,217 @@
+---
+source: "lucianlabs"
+id: "050"
+title: "Spotlight-tilt news card"
+category: "Cards & Content"
+collection: "interface"
+url: "https://lucianlabs.dev/en/uxui-prompt/#050"
+tags: ["news", "card", "tilt", "glare", "read-state"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Spotlight-tilt news card (050, Cards & Content)
+[What it does] The card tilts toward the cursor while the surface glare and the border light gather at the same spot. Press “Mark as read” and the unread dot drops away, the headline quiets down and the button turns into a check.
+[How to use it] Move the cursor over the card. Use the button below to mark it read, and press again to undo
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #050 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#050 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u050{--mx:50%;--my:30%;--rx:0deg;--ry:0deg;position:relative;width:340px;height:400px;perspective:1000px}
+.u050-card{position:relative;width:100%;height:100%;border-radius:28px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 50px -30px var(--ux-shadow-strong);transform:rotateX(var(--rx)) rotateY(var(--ry));transition:transform .6s var(--ux-ease),box-shadow .5s;overflow:hidden;isolation:isolate}
+.u050.is-live .u050-card{transition:transform .12s linear,box-shadow .5s}
+.u050-card::after{content:"";position:absolute;inset:0;border-radius:inherit;padding:1.5px;background:radial-gradient(200px circle at var(--mx) var(--my),var(--ux-accent),transparent 70%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);opacity:0;transition:opacity .4s;pointer-events:none;z-index:3}
+.u050-glare{position:absolute;inset:0;z-index:2;pointer-events:none;background:radial-gradient(260px circle at var(--mx) var(--my),rgba(255,255,255,.28),transparent 60%);mix-blend-mode:soft-light;opacity:0;transition:opacity .4s}
+.u050.is-live .u050-card::after,.u050.is-live .u050-glare{opacity:1}
+.u050-img{position:relative;height:178px;overflow:hidden;background:linear-gradient(160deg,#5B8CFF,#7B61FF 45%,#FF6B8B)}
+.u050-img i{position:absolute;border-radius:50%;transition:transform .6s var(--ux-ease)}
+.u050-img i:nth-child(1){width:150px;height:150px;left:-30px;top:40px;background:radial-gradient(circle at 40% 35%,#A5F2D3,#22C3A6 70%);transform:translate(calc(var(--tx,0) * -16px),calc(var(--ty,0) * -12px))}
+.u050-img i:nth-child(2){width:90px;height:90px;right:40px;top:24px;background:radial-gradient(circle at 40% 35%,#FFE2B8,#FFB547 70%);transform:translate(calc(var(--tx,0) * -30px),calc(var(--ty,0) * -20px))}
+.u050-img i:nth-child(3){width:220px;height:220px;right:-80px;bottom:-130px;background:radial-gradient(circle at 40% 30%,#B7A4FF,#5B3FD9 70%)}
+.u050-img b{position:absolute;left:16px;top:16px;height:26px;padding:0 10px;border-radius:999px;display:inline-flex;align-items:center;background:rgba(255,255,255,.22);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);color:#fff;font-size:11.5px;font-weight:800;letter-spacing:.06em}
+.u050-body{padding:16px 20px 0}
+.u050-src{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;color:var(--ux-ink-2)}
+.u050-src i{width:20px;height:20px;border-radius:6px;background:var(--ux-ink);position:relative}
+.u050-src i::after{content:"";position:absolute;inset:6px;border-radius:50%;background:var(--ux-page)}
+.u050-dot{width:8px;height:8px;margin-left:auto;border-radius:50%;background:var(--ux-accent);box-shadow:0 0 0 4px var(--ux-accent-soft);transition:transform .45s var(--ux-spring),opacity .3s}
+.u050-h{margin:10px 0 0;font-size:19px;line-height:1.32;font-weight:780;letter-spacing:-.035em;transition:color .5s}
+.u050-p{margin:6px 0 0;font-size:13px;line-height:1.55;color:var(--ux-ink-3);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.u050-foot{position:absolute;left:20px;right:16px;bottom:16px;display:flex;align-items:center;justify-content:space-between;font-size:12.5px;font-weight:600;color:var(--ux-ink-3)}
+.u050-btn{position:relative;height:38px;padding:0 14px 0 12px;border:0;border-radius:999px;display:inline-flex;align-items:center;gap:6px;background:var(--ux-ink);color:var(--ux-page);font-size:13px;font-weight:720;transition:background-color .4s,color .4s,transform .35s var(--ux-spring)}
+.u050-btn:active{transform:scale(.94)}
+.u050-btn:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+.u050-btn svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.u050-btn path{stroke-dasharray:16;stroke-dashoffset:16;transition:stroke-dashoffset .4s var(--ux-ease) .1s}
+.u050-btn circle{transition:opacity .2s}
+.u050-card.is-read .u050-btn{background:color-mix(in srgb,var(--ux-mint) 16%,transparent);color:var(--ux-mint)}
+.u050-card.is-read .u050-btn path{stroke-dashoffset:0}
+.u050-card.is-read .u050-btn circle{opacity:0}
+.u050-card.is-read .u050-dot{transform:scale(0);opacity:0}
+.u050-card.is-read .u050-h{color:var(--ux-ink-3)}
+</style>
+<article class="ux u050">
+  <div class="u050-card">
+    <span class="u050-glare" aria-hidden="true"></span>
+    <div class="u050-img" aria-hidden="true"><i></i><i></i><i></i><b>DESIGN</b></div>
+    <div class="u050-body">
+      <div class="u050-src"><i aria-hidden="true"></i>Design Weekly<span class="u050-dot" role="img" aria-label="Unread"></span></div>
+      <h3 class="u050-h">Why mobile tab bars are back</h3>
+      <p class="u050-p">Thumb-reach navigation is back. Here’s how five big apps changed.</p>
+    </div>
+    <div class="u050-foot"><span>Today 9:20 AM · 8 min</span><button class="u050-btn" type="button" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="2.4" fill="currentColor" stroke="none"/><path d="M3.5 8.3l3 3 6-6.3"/></svg><span>Mark as read</span></button></div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var card = root.querySelector('.u050-card'), btn = root.querySelector('.u050-btn'), dot = root.querySelector('.u050-dot');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  root.addEventListener('pointermove', function (e) {
+    if (e.pointerType === 'touch') return;
+    var r = root.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+    root.classList.add('is-live');
+    root.style.setProperty('--mx', (x * 100).toFixed(1) + '%');
+    root.style.setProperty('--my', (y * 100).toFixed(1) + '%');
+    if (rm) return;
+    root.style.setProperty('--tx', (x - 0.5).toFixed(3)); root.style.setProperty('--ty', (y - 0.5).toFixed(3));
+    root.style.setProperty('--ry', ((x - 0.5) * 14).toFixed(2) + 'deg');
+    root.style.setProperty('--rx', ((0.5 - y) * 10).toFixed(2) + 'deg');
+  });
+  root.addEventListener('pointerleave', function () {
+    root.classList.remove('is-live');
+    ['--rx', '--ry'].forEach(function (k) { root.style.setProperty(k, '0deg'); });
+    ['--tx', '--ty'].forEach(function (k) { root.style.setProperty(k, 0); });
+  });
+  btn.addEventListener('click', function () {
+    var on = !card.classList.contains('is-read');
+    card.classList.toggle('is-read', on);
+    btn.setAttribute('aria-pressed', String(on));
+    btn.lastChild.textContent = on ? 'Marked read' : 'Mark as read';
+    dot.setAttribute('aria-label', on ? 'Read' : 'Unread');
+  });
+})();
+</script>
+--- Code end ---

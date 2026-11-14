@@ -1,0 +1,223 @@
+---
+source: "lucianlabs"
+id: "242"
+title: "Category chip bar that follows scroll"
+category: "Navigation"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#242"
+tags: ["scrollspy", "tabs", "sticky", "menu", "food-delivery"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Category chip bar that follows scroll (242, Navigation)
+[What it does] Like a delivery app's menu, a row of category chips sticks to the top; scroll the menu below and the underline slides to the chip for the section you're in, while the chip row nudges itself sideways to keep that chip in view. Press a chip to glide down to that section's heading, and scroll back to the top to lose the chip bar's shadow and see the big store header again.
+[How to use it] Scroll down through the menu, then try the chips at the top
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #242 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#242 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u242{position:relative;width:300px;height:480px;border-radius:32px;overflow:hidden;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:var(--ux-ink)}
+.u242-sc{position:absolute;inset:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none}
+.u242-sc::-webkit-scrollbar{display:none}
+.u242-sc:focus-visible{outline:2px solid var(--ux-accent);outline-offset:-4px;border-radius:32px}
+.u242-hr{height:150px;background:linear-gradient(150deg,#86EFAC,#22C55E);position:relative}
+.u242-hr::after{content:"";position:absolute;left:50%;top:44%;width:96px;height:56px;margin-left:-48px;border-radius:0 0 48px 48px;background:#FEFCE8;box-shadow:inset 0 -10px 0 #FDE68A}
+.u242-if{padding:14px 18px 10px}
+.u242-if h3{margin:0;font-size:18px;font-weight:900;letter-spacing:-.03em}
+.u242-if p{margin:4px 0 0;font-size:10.5px;font-weight:700;color:var(--ux-ink-3)}
+.u242-cb{position:sticky;top:0;z-index:2;background:var(--ux-surface);transition:box-shadow .25s}
+.u242-cb.is-stuck{box-shadow:0 8px 16px -12px var(--ux-shadow-strong)}
+.u242-cr{position:relative;display:flex;gap:4px;padding:8px 14px 9px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--ux-line)}
+.u242-cr::-webkit-scrollbar{display:none}
+.u242-ch{flex:none;height:32px;padding:0 12px;border:0;border-radius:999px;background:none;color:var(--ux-ink-3);font:inherit;font-size:12px;font-weight:850;cursor:pointer;white-space:nowrap;transition:color .2s}
+.u242-ch[aria-current="true"]{color:var(--ux-ink)}
+.u242-ch:focus-visible{outline:2px solid var(--ux-accent);outline-offset:-2px}
+.u242-ul{position:absolute;left:0;bottom:6px;height:32px;border-radius:999px;background:var(--ux-surface-2);box-shadow:inset 0 0 0 1px var(--ux-line);transition:transform .35s cubic-bezier(.3,1.2,.5,1),width .35s cubic-bezier(.3,1.2,.5,1);z-index:-1}
+.u242-cr>.u242-ch{position:relative;z-index:1}
+.u242-sx{padding:14px 18px 4px}
+.u242-sx h4{margin:0 0 6px;font-size:14px;font-weight:900}
+.u242-it{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--ux-line)}
+.u242-it div{flex:1;min-width:0}
+.u242-it b{display:block;font-size:12.5px;font-weight:800}
+.u242-it span{display:block;margin-top:2px;font-size:11.5px;font-weight:850;color:var(--ux-ink-2);font-variant-numeric:tabular-nums}
+.u242-it i{flex:none;width:58px;height:58px;border-radius:14px}
+.u242-end{height:160px}
+@media (prefers-reduced-motion: reduce){.u242-ul,.u242-cb{transition:none}}
+</style>
+<div class="ux u242">
+  <div class="u242-sc" tabindex="0" aria-label="Menu">
+    <div class="u242-hr" aria-hidden="true"></div>
+    <div class="u242-if"><h3>Neighborhood Salad Bar</h3><p>★ 4.9 · Delivery 20–30 min · $12 minimum</p></div>
+    <div class="u242-cb"><nav class="u242-cr" aria-label="Menu categories"><span class="u242-ul" aria-hidden="true"></span></nav></div>
+    <div class="u242-bd"></div><div class="u242-end" aria-hidden="true"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var sc = root.querySelector('.u242-sc'), cb = root.querySelector('.u242-cb'), cr = root.querySelector('.u242-cr'), ul = root.querySelector('.u242-ul'), bd = root.querySelector('.u242-bd');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var SEC = [['Popular', [['Salmon poke', '$14.90'], ['Chicken salad', '$11.90']]], ['Salads', [['Caesar salad', '$10.90'], ['Cobb salad', '$12.50'], ['Greek salad', '$11.50']]], ['Poke', [['Tuna poke', '$15.90'], ['Tofu poke', '$12.90']]], ['Wraps', [['Chicken wrap', '$9.90'], ['Avocado sandwich', '$10.50']]], ['Drinks', [['Lemonade', '$4.50'], ['Kombucha', '$5.00']]], ['Desserts', [['Greek yogurt', '$4.90'], ['Oat cookie', '$2.50']]]];
+  var COL = ['#FDBA74', '#86EFAC', '#FCA5A5', '#FDE68A', '#93C5FD', '#F9A8D4'];
+  var uid = 'u242' + Math.random().toString(36).slice(2, 7);
+  var S = [], C = [];
+  SEC.forEach(function (s, i) {
+    var sx = document.createElement('section'); sx.className = 'u242-sx'; sx.id = uid + i; sx.innerHTML = '<h4></h4>'; sx.firstChild.textContent = s[0];
+    s[1].forEach(function (m, k) { var it = document.createElement('div'); it.className = 'u242-it'; it.innerHTML = '<div><b></b><span></span></div><i style="background:linear-gradient(135deg,' + COL[i] + ',color-mix(in srgb,' + COL[i] + ' 60%,#fff))"></i>'; it.querySelector('b').textContent = m[0]; it.querySelector('span').textContent = m[1]; sx.appendChild(it); });
+    bd.appendChild(sx); S.push(sx);
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'u242-ch'; b.textContent = s[0]; b.setAttribute('aria-controls', sx.id);
+    b.addEventListener('click', function () { go(i); });
+    cr.appendChild(b); C.push(b);
+  });
+  var cur = -1, lock = 0;
+  function mark(i) {
+    if (i === cur) return; cur = i;
+    C.forEach(function (b, k) { b.setAttribute('aria-current', k === i ? 'true' : 'false'); });
+    var b = C[i]; ul.style.width = b.offsetWidth + 'px'; ul.style.transform = 'translateX(' + b.offsetLeft + 'px)';
+    var x = b.offsetLeft - (cr.clientWidth - b.offsetWidth) / 2, x0 = cr.scrollLeft, t0 = performance.now();
+    x = Math.max(0, Math.min(cr.scrollWidth - cr.clientWidth, x));
+    (function f(now) { var k = rm ? 1 : Math.min(1, (now - t0) / 320), e = 1 - Math.pow(1 - k, 3); cr.scrollLeft = x0 + (x - x0) * e; if (k < 1) requestAnimationFrame(f); })(t0);
+  }
+  function barH() { return cb.offsetHeight; }
+  function spy() {
+    cb.classList.toggle('is-stuck', cb.offsetTop - sc.scrollTop <= 0.5);
+    if (Date.now() < lock) return;
+    var y = sc.scrollTop + barH() + (sc.clientHeight - barH()) * 0.3, i = 0;
+    S.forEach(function (s, k) { if (s.offsetTop <= y) i = k; });
+    if (sc.scrollTop >= sc.scrollHeight - sc.clientHeight - 2) i = S.length - 1;
+    mark(i);
+  }
+  function go(i) {
+    mark(i); lock = Date.now() + (rm ? 0 : 700);
+    var to = S[i].offsetTop - barH() + 2, y0 = sc.scrollTop, t0 = performance.now();
+    (function f(now) { var k = rm ? 1 : Math.min(1, (now - t0) / 600), e = k < .5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2; sc.scrollTop = y0 + (to - y0) * e; if (k < 1) requestAnimationFrame(f); })(t0);
+  }
+  sc.addEventListener('scroll', spy, { passive: true });
+  mark(0); requestAnimationFrame(function () { cur = -1; mark(0); spy(); });
+})();
+</script>
+--- Code end ---

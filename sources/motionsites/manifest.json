@@ -1,0 +1,3847 @@
+[
+ {
+  "id": "3d-character-studio",
+  "title": "3D Character Studio",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/3d-character-studio.md",
+  "prompt_chars": 5726,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "autumn-fox",
+  "title": "Autumn Fox",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/autumn-fox.md",
+  "prompt_chars": 13195,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "cast-and-render",
+  "title": "Cast and Render",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/cast-and-render.md",
+  "prompt_chars": 18074,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "design-world",
+  "title": "Design World",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/design-world.md",
+  "prompt_chars": 15351,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "facet-glass-hero",
+  "title": "Facet Glass",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/facet-glass-hero.md",
+  "prompt_chars": 6848,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "feathers-atlas",
+  "title": "Feathers Atlas",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/feathers-atlas.md",
+  "prompt_chars": 15160,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "fernhollow",
+  "title": "Flower Valley",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/fernhollow.md",
+  "prompt_chars": 13226,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "halo-prism",
+  "title": "Halo Prism",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/halo-prism.md",
+  "prompt_chars": 14957,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "mind-ai",
+  "title": "Mind AI",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/mind-ai.md",
+  "prompt_chars": 37004,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "phoenix-ignis",
+  "title": "Phoenix ignis",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/phoenix-ignis.md",
+  "prompt_chars": 28569,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "medusa-jellyfish-hero",
+  "title": "Robot Jellyfish",
+  "category": "3D",
+  "type": "hero",
+  "types": [
+   "hero",
+   "dashboard"
+  ],
+  "path": "sources/motionsites/prompts/3d/medusa-jellyfish-hero.md",
+  "prompt_chars": 59940,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "sakura-qr",
+  "title": "Sakura QR",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/sakura-qr.md",
+  "prompt_chars": 17725,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "space-planet",
+  "title": "Space planet",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/space-planet.md",
+  "prompt_chars": 29105,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "lifeline-sun-hero",
+  "title": "Sun Timeline",
+  "category": "3D",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d/lifeline-sun-hero.md",
+  "prompt_chars": 13038,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "lumora-skyranger",
+  "title": "Lumora Skyranger",
+  "category": "3D Character",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/3d-character/lumora-skyranger.md",
+  "prompt_chars": 5998,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "3d-collectible-hero",
+  "title": "3D Collectible Hero",
+  "category": "3D Website",
+  "type": "3D Website",
+  "types": [
+   "3d-website",
+   "hero"
+  ],
+  "path": "sources/motionsites/prompts/3d-website/3d-collectible-hero.md",
+  "prompt_chars": 5347,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "404-planet",
+  "title": "404 Planet",
+  "category": "404",
+  "type": "404",
+  "types": [],
+  "path": "sources/motionsites/prompts/404/404-planet.md",
+  "prompt_chars": 7598,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "404",
+  "title": "Nexto 404",
+  "category": "404",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/404/404.md",
+  "prompt_chars": 5689,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "skybridge-404",
+  "title": "Skybridge 404",
+  "category": "404",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/404/skybridge-404.md",
+  "prompt_chars": 7104,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "ai-image-generator-ui",
+  "title": "AI Image Generator UI",
+  "category": "AI",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai/ai-image-generator-ui.md",
+  "prompt_chars": 4480,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "ai-runtime",
+  "title": "AI Runtime",
+  "category": "AI",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai/ai-runtime.md",
+  "prompt_chars": 9593,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "nova-agent-hero",
+  "title": "Agent Hero",
+  "category": "AI",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai/nova-agent-hero.md",
+  "prompt_chars": 12260,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "agent-wave",
+  "title": "Agent Wave",
+  "category": "AI",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai/agent-wave.md",
+  "prompt_chars": 16675,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "fastshot",
+  "title": "Fastshot",
+  "category": "AI",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai/fastshot.md",
+  "prompt_chars": 15844,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "halden-port-hero",
+  "title": "Halden AI Teammate Hero",
+  "category": "AI",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai/halden-port-hero.md",
+  "prompt_chars": 17188,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "orbit-flora",
+  "title": "Orbit Flora",
+  "category": "AI",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai/orbit-flora.md",
+  "prompt_chars": 9402,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "palomar-labs",
+  "title": "Palomar Labs",
+  "category": "AI",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai/palomar-labs.md",
+  "prompt_chars": 7574,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "distill-comparison",
+  "title": "Scanner Comparison",
+  "category": "AI",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai/distill-comparison.md",
+  "prompt_chars": 22862,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "deepthink",
+  "title": "DeepThink",
+  "category": "AI Assistant",
+  "type": "landing-page",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai-assistant/deepthink.md",
+  "prompt_chars": 13695,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "iris-assistant",
+  "title": "Iris Assistant",
+  "category": "AI Assistant",
+  "type": "dashboard",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai-assistant/iris-assistant.md",
+  "prompt_chars": 3695,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "ridgeai",
+  "title": "RidgeAI",
+  "category": "AI Builder",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai-builder/ridgeai.md",
+  "prompt_chars": 4433,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "skyprompt",
+  "title": "Skyprompt",
+  "category": "AI Course",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai-course/skyprompt.md",
+  "prompt_chars": 5717,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "strata-ai",
+  "title": "Strata AI",
+  "category": "AI Data",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai-data/strata-ai.md",
+  "prompt_chars": 5250,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vocari-hero",
+  "title": "Vocari Hero",
+  "category": "AI Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai-hero/vocari-hero.md",
+  "prompt_chars": 4063,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "atlas-lab",
+  "title": "Atlas Lab Features",
+  "category": "AI Research",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai-research/atlas-lab.md",
+  "prompt_chars": 3933,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "synthora-hero",
+  "title": "Synthora Hero",
+  "category": "AI SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ai-saas/synthora-hero.md",
+  "prompt_chars": 3238,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "axion-about",
+  "title": "Axion About",
+  "category": "About",
+  "type": "about",
+  "types": [],
+  "path": "sources/motionsites/prompts/about/axion-about.md",
+  "prompt_chars": 4393,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "launchex-about",
+  "title": "LaunchEx About",
+  "category": "About",
+  "type": "about",
+  "types": [],
+  "path": "sources/motionsites/prompts/about/launchex-about.md",
+  "prompt_chars": 6908,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "orbis-hello",
+  "title": "Orbis Hello",
+  "category": "About",
+  "type": "about",
+  "types": [],
+  "path": "sources/motionsites/prompts/about/orbis-hello.md",
+  "prompt_chars": 5232,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "portfolio-about",
+  "title": "Portfolio About",
+  "category": "About",
+  "type": "about",
+  "types": [],
+  "path": "sources/motionsites/prompts/about/portfolio-about.md",
+  "prompt_chars": 5431,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "tech-noir-about",
+  "title": "Tech-Noir About",
+  "category": "About",
+  "type": "about",
+  "types": [],
+  "path": "sources/motionsites/prompts/about/tech-noir-about.md",
+  "prompt_chars": 3555,
+  "section_names": []
+ },
+ {
+  "id": "creative-studio",
+  "title": "Creative Studio",
+  "category": "Agency",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/agency/creative-studio.md",
+  "prompt_chars": 5481,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "curved-reel",
+  "title": "Curved Reel",
+  "category": "Agency",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/agency/curved-reel.md",
+  "prompt_chars": 44843,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "elo-one-results",
+  "title": "Elo One Results",
+  "category": "Agency",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/agency/elo-one-results.md",
+  "prompt_chars": 3558,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "intelligent-operations",
+  "title": "Intelligent Operations",
+  "category": "Agency",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/agency/intelligent-operations.md",
+  "prompt_chars": 10447,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "modern-agency",
+  "title": "Modern Agency",
+  "category": "Agency",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/agency/modern-agency.md",
+  "prompt_chars": 10347,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "neural-pathway",
+  "title": "Neural Pathway",
+  "category": "Agency",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/agency/neural-pathway.md",
+  "prompt_chars": 31164,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "northstar",
+  "title": "Northstar",
+  "category": "Agency",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/agency/northstar.md",
+  "prompt_chars": 11589,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "orvante-agency",
+  "title": "Orvante Agency",
+  "category": "Agency",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/agency/orvante-agency.md",
+  "prompt_chars": 8805,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "talent-collective",
+  "title": "Talent Collective",
+  "category": "Agency",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/agency/talent-collective.md",
+  "prompt_chars": 9583,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "trend-carousel",
+  "title": "Trend Carousel",
+  "category": "Agency",
+  "type": "social-media",
+  "types": [],
+  "path": "sources/motionsites/prompts/agency/trend-carousel.md",
+  "prompt_chars": 14322,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "velorah-hero",
+  "title": "Velorah",
+  "category": "Agency",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/agency/velorah-hero.md",
+  "prompt_chars": 3788,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "video-studio",
+  "title": "Video Studio",
+  "category": "Agency",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/agency/video-studio.md",
+  "prompt_chars": 34975,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "data-signal",
+  "title": "Data Signal",
+  "category": "Analytics",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/analytics/data-signal.md",
+  "prompt_chars": 12007,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "adhd-planner",
+  "title": "ADHD Planner",
+  "category": "App",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/app/adhd-planner.md",
+  "prompt_chars": 8810,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "building-atlas",
+  "title": "Building Atlas",
+  "category": "Architecture",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/architecture/building-atlas.md",
+  "prompt_chars": 30487,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "monolith-hero",
+  "title": "Monolith Hero",
+  "category": "Architecture",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/architecture/monolith-hero.md",
+  "prompt_chars": 68381,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "atrium-mtl",
+  "title": "Atrium MTL",
+  "category": "Art",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/art/atrium-mtl.md",
+  "prompt_chars": 9952,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "keylight",
+  "title": "Keylight",
+  "category": "Authentication",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/authentication/keylight.md",
+  "prompt_chars": 47030,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "veyra-electric",
+  "title": "Veyra Electric",
+  "category": "Automative",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/automative/veyra-electric.md",
+  "prompt_chars": 12080,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "guardnet-benefits",
+  "title": "Guardnet Benefits",
+  "category": "Benefits",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/benefits/guardnet-benefits.md",
+  "prompt_chars": 4108,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "blog-showcase",
+  "title": "Blog Showcase",
+  "category": "Blog",
+  "type": "Blog",
+  "types": [],
+  "path": "sources/motionsites/prompts/blog/blog-showcase.md",
+  "prompt_chars": 4151,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "faq-cta",
+  "title": "FAQ CTA",
+  "category": "CTA",
+  "type": "cta",
+  "types": [],
+  "path": "sources/motionsites/prompts/cta/faq-cta.md",
+  "prompt_chars": 9456,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "liquid-glass-cta",
+  "title": "Liquid Glass CTA",
+  "category": "CTA",
+  "type": "cta",
+  "types": [],
+  "path": "sources/motionsites/prompts/cta/liquid-glass-cta.md",
+  "prompt_chars": 10077,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "rocket-cta",
+  "title": "Rocket CTA",
+  "category": "CTA",
+  "type": "cta",
+  "types": [],
+  "path": "sources/motionsites/prompts/cta/rocket-cta.md",
+  "prompt_chars": 11622,
+  "section_names": []
+ },
+ {
+  "id": "pixel-grid-hover",
+  "title": "Pixel Grid Hover",
+  "category": "Case Studies",
+  "type": "blog",
+  "types": [],
+  "path": "sources/motionsites/prompts/case-studies/pixel-grid-hover.md",
+  "prompt_chars": 8672,
+  "section_names": []
+ },
+ {
+  "id": "beauty-categories",
+  "title": "Beauty Categories",
+  "category": "Categories",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/categories/beauty-categories.md",
+  "prompt_chars": 4038,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "church-community",
+  "title": "Church Community",
+  "category": "Church",
+  "type": "mobile",
+  "types": [],
+  "path": "sources/motionsites/prompts/church/church-community.md",
+  "prompt_chars": 5380,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "kindred-dots-hero",
+  "title": "Kindred Dot Hands Hero",
+  "category": "Community",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/community/kindred-dots-hero.md",
+  "prompt_chars": 11336,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "verra-events-hero",
+  "title": "Verra Events Hero",
+  "category": "Community",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/community/verra-events-hero.md",
+  "prompt_chars": 5715,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "animated-cards",
+  "title": "Animated Cards",
+  "category": "Component",
+  "type": "carousel",
+  "types": [],
+  "path": "sources/motionsites/prompts/component/animated-cards.md",
+  "prompt_chars": 36212,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "build-with-us",
+  "title": "Build With Us",
+  "category": "Contact us",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/contact-us/build-with-us.md",
+  "prompt_chars": 6252,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "honey-bee",
+  "title": "Honey Bee",
+  "category": "Creative",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/creative/honey-bee.md",
+  "prompt_chars": 20682,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "petalyx",
+  "title": "Petalyx",
+  "category": "Creative",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/creative/petalyx.md",
+  "prompt_chars": 21617,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "space-voyage",
+  "title": "Space Voyage",
+  "category": "Creative",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/creative/space-voyage.md",
+  "prompt_chars": 23849,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "sparkform",
+  "title": "Sparkform",
+  "category": "Creative",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/creative/sparkform.md",
+  "prompt_chars": 6724,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "playful-idea",
+  "title": "Playful Idea",
+  "category": "Creative Agency",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/creative-agency/playful-idea.md",
+  "prompt_chars": 30665,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "reelmark-v2",
+  "title": "Reelmark",
+  "category": "Creator Platform",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/creator-platform/reelmark-v2.md",
+  "prompt_chars": 5615,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vela-terms-hero",
+  "title": "Vela Terms Hero",
+  "category": "Crypto",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/crypto/vela-terms-hero.md",
+  "prompt_chars": 6657,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vaultra-hero",
+  "title": "Vaultra Hero",
+  "category": "Crypto Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/crypto-hero/vaultra-hero.md",
+  "prompt_chars": 2774,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "rare-gallery",
+  "title": "Rare Gallery",
+  "category": "Curated",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/curated/rare-gallery.md",
+  "prompt_chars": 4964,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "cyber-layer",
+  "title": "Cyber Layer",
+  "category": "Cybersecurity",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/cybersecurity/cyber-layer.md",
+  "prompt_chars": 14235,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "veilguard-cta",
+  "title": "VeilGuard CTA",
+  "category": "Cybersecurity",
+  "type": "cta",
+  "types": [],
+  "path": "sources/motionsites/prompts/cybersecurity/veilguard-cta.md",
+  "prompt_chars": 3346,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "spatial-closet",
+  "title": "Spatial Closet",
+  "category": "Dashboard",
+  "type": "dashboard",
+  "types": [
+   "dashboard"
+  ],
+  "path": "sources/motionsites/prompts/dashboard/spatial-closet.md",
+  "prompt_chars": 12227,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "quantum-core",
+  "title": "Quantum Core",
+  "category": "Data Intelligence",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/data-intelligence/quantum-core.md",
+  "prompt_chars": 27320,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "custom-spaces",
+  "title": "Custom Spaces",
+  "category": "Design",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/design/custom-spaces.md",
+  "prompt_chars": 10956,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "clothes-rail",
+  "title": "Clothes Rail",
+  "category": "E-commerce",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/e-commerce/clothes-rail.md",
+  "prompt_chars": 25465,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "kids-store",
+  "title": "Kids Store",
+  "category": "E-commerce",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/e-commerce/kids-store.md",
+  "prompt_chars": 20560,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "ltx-video",
+  "title": "LTX Video",
+  "category": "E-coommerce",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/e-coommerce/ltx-video.md",
+  "prompt_chars": 21298,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "balloon-drop",
+  "title": "Balloon Drop",
+  "category": "Ecommerce",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ecommerce/balloon-drop.md",
+  "prompt_chars": 38593,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "clothing-rail",
+  "title": "Clothing Rail",
+  "category": "Ecommerce",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ecommerce/clothing-rail.md",
+  "prompt_chars": 38402,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "look-circle",
+  "title": "Look Circle",
+  "category": "Ecommerce",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ecommerce/look-circle.md",
+  "prompt_chars": 60067,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "outfit-builder",
+  "title": "Outfit Builder",
+  "category": "Ecommerce",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ecommerce/outfit-builder.md",
+  "prompt_chars": 68291,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "outfit-carousel",
+  "title": "Outfit Carousel",
+  "category": "Ecommerce",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ecommerce/outfit-carousel.md",
+  "prompt_chars": 77721,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "outfit-drop",
+  "title": "Outfit Drop",
+  "category": "Ecommerce",
+  "type": "social-media",
+  "types": [],
+  "path": "sources/motionsites/prompts/ecommerce/outfit-drop.md",
+  "prompt_chars": 7190,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "poke-builder",
+  "title": "Poke Builder",
+  "category": "Ecommerce",
+  "type": "dashboard",
+  "types": [],
+  "path": "sources/motionsites/prompts/ecommerce/poke-builder.md",
+  "prompt_chars": 14238,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "runway-look",
+  "title": "Runway Look",
+  "category": "Ecommerce",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ecommerce/runway-look.md",
+  "prompt_chars": 19216,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "style-studio",
+  "title": "Style Studio",
+  "category": "Ecommerce",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ecommerce/style-studio.md",
+  "prompt_chars": 29451,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vertex",
+  "title": "Vertex",
+  "category": "Ecommerce",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ecommerce/vertex.md",
+  "prompt_chars": 51432,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "virtual-fitting",
+  "title": "Virtual Fitting",
+  "category": "Ecommerce",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ecommerce/virtual-fitting.md",
+  "prompt_chars": 14204,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vectrus-energy",
+  "title": "Vectrus Energy",
+  "category": "Editorial",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/editorial/vectrus-energy.md",
+  "prompt_chars": 8300,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "velia",
+  "title": "Velia",
+  "category": "Editorial",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/editorial/velia.md",
+  "prompt_chars": 36974,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "fun-404-page",
+  "title": "Fun 404 Page",
+  "category": "Education Website",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/education-website/fun-404-page.md",
+  "prompt_chars": 6085,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "design-rocket-email-hero",
+  "title": "Email Marketing",
+  "category": "Email Marketing",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/email-marketing/design-rocket-email-hero.md",
+  "prompt_chars": 7971,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "trueearth",
+  "title": "TrueEarth",
+  "category": "Environmental",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/environmental/trueearth.md",
+  "prompt_chars": 23498,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "zentrade-faq",
+  "title": "ZENTRADE FAQ",
+  "category": "FAQ Page",
+  "type": "faq",
+  "types": [],
+  "path": "sources/motionsites/prompts/faq-page/zentrade-faq.md",
+  "prompt_chars": 5956,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "bag-slots",
+  "title": "Bag Slots",
+  "category": "Fashion",
+  "type": "social-media",
+  "types": [],
+  "path": "sources/motionsites/prompts/fashion/bag-slots.md",
+  "prompt_chars": 10143,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "boutique-rail",
+  "title": "Boutique Rail",
+  "category": "Fashion",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/fashion/boutique-rail.md",
+  "prompt_chars": 22985,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "fashion-lookbook",
+  "title": "Fashion Lookbook",
+  "category": "Fashion",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/fashion/fashion-lookbook.md",
+  "prompt_chars": 29807,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "fox-couture",
+  "title": "Fox Couture",
+  "category": "Fashion",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/fashion/fox-couture.md",
+  "prompt_chars": 27623,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "future-fashion",
+  "title": "Future Fashion",
+  "category": "Fashion",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/fashion/future-fashion.md",
+  "prompt_chars": 34809,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "maren-hero",
+  "title": "MAREN Hero",
+  "category": "Fashion",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/fashion/maren-hero.md",
+  "prompt_chars": 3784,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "main-character",
+  "title": "Main Character",
+  "category": "Fashion",
+  "type": "social-media",
+  "types": [],
+  "path": "sources/motionsites/prompts/fashion/main-character.md",
+  "prompt_chars": 11680,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "spin-product",
+  "title": "Spin Product",
+  "category": "Fashion",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/fashion/spin-product.md",
+  "prompt_chars": 10841,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "synth-mode",
+  "title": "Synth Mode",
+  "category": "Fashion",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/fashion/synth-mode.md",
+  "prompt_chars": 10533,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "cognitra-feature",
+  "title": "Cognitra Feature",
+  "category": "Feature",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/feature/cognitra-feature.md",
+  "prompt_chars": 3241,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "capabilities",
+  "title": "Capabilities",
+  "category": "Features",
+  "type": "cta",
+  "types": [],
+  "path": "sources/motionsites/prompts/features/capabilities.md",
+  "prompt_chars": 3339,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "max-reed-portfolio",
+  "title": "Max Reed Portfolio",
+  "category": "Features",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/features/max-reed-portfolio.md",
+  "prompt_chars": 5397,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "nexacore-control",
+  "title": "NexaCore Control",
+  "category": "Features",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/features/nexacore-control.md",
+  "prompt_chars": 8665,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "nexacore-results",
+  "title": "NexaCore Results",
+  "category": "Features",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/features/nexacore-results.md",
+  "prompt_chars": 9261,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "nike-hover",
+  "title": "Nike Hover",
+  "category": "Features",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/features/nike-hover.md",
+  "prompt_chars": 13726,
+  "section_names": []
+ },
+ {
+  "id": "vela-ul",
+  "title": "Vela Ul",
+  "category": "Features",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/features/vela-ul.md",
+  "prompt_chars": 25889,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "glow-features",
+  "title": "Glow Features",
+  "category": "Features Section",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/features-section/glow-features.md",
+  "prompt_chars": 3072,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "trustflow",
+  "title": "TrustFlow",
+  "category": "Finance",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/finance/trustflow.md",
+  "prompt_chars": 6275,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "venture-fund",
+  "title": "Venture Fund",
+  "category": "Finance",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/finance/venture-fund.md",
+  "prompt_chars": 28620,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "aurex-finance",
+  "title": "Aurex Finance",
+  "category": "Fintech",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/fintech/aurex-finance.md",
+  "prompt_chars": 29337,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "cobalt-hour",
+  "title": "Cobalt Hour",
+  "category": "Fintech",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/fintech/cobalt-hour.md",
+  "prompt_chars": 15615,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "sellix",
+  "title": "Sellix",
+  "category": "Fintech",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/fintech/sellix.md",
+  "prompt_chars": 23468,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vexor-cta",
+  "title": "Vexor CTA",
+  "category": "Fintech",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/fintech/vexor-cta.md",
+  "prompt_chars": 3432,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "nuvo-landing",
+  "title": "nuvo",
+  "category": "Fintech Landing",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/fintech-landing/nuvo-landing.md",
+  "prompt_chars": 4620,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "heritage-grove",
+  "title": "Heritage Grove",
+  "category": "Footer",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/footer/heritage-grove.md",
+  "prompt_chars": 12893,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "koru-tech-footer",
+  "title": "Koru Tech Footer",
+  "category": "Footer",
+  "type": "footer",
+  "types": [],
+  "path": "sources/motionsites/prompts/footer/koru-tech-footer.md",
+  "prompt_chars": 5034,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "nimbusos-footer",
+  "title": "NimbusOS Footer",
+  "category": "Footer",
+  "type": "footer",
+  "types": [],
+  "path": "sources/motionsites/prompts/footer/nimbusos-footer.md",
+  "prompt_chars": 4956,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "offline-footer",
+  "title": "Offline",
+  "category": "Footer",
+  "type": "footer",
+  "types": [],
+  "path": "sources/motionsites/prompts/footer/offline-footer.md",
+  "prompt_chars": 6014,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "shipcraft-footer",
+  "title": "Shipcraft Footer",
+  "category": "Footer",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/footer/shipcraft-footer.md",
+  "prompt_chars": 3672,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "stark-minimal-footer",
+  "title": "Stark Minimal Footer",
+  "category": "Footer",
+  "type": "footer",
+  "types": [],
+  "path": "sources/motionsites/prompts/footer/stark-minimal-footer.md",
+  "prompt_chars": 5437,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vantix-footer",
+  "title": "Vantix Footer",
+  "category": "Footer",
+  "type": "footer",
+  "types": [],
+  "path": "sources/motionsites/prompts/footer/vantix-footer.md",
+  "prompt_chars": 4746,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "wayfinder",
+  "title": "Wayfinder",
+  "category": "Footer",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/footer/wayfinder.md",
+  "prompt_chars": 10490,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "haul-footer",
+  "title": "HAUL!",
+  "category": "Footer Section",
+  "type": "footer",
+  "types": [],
+  "path": "sources/motionsites/prompts/footer-section/haul-footer.md",
+  "prompt_chars": 4329,
+  "section_names": []
+ },
+ {
+  "id": "kresna-footer",
+  "title": "Kresna Footer",
+  "category": "Footer Section",
+  "type": "footer",
+  "types": [],
+  "path": "sources/motionsites/prompts/footer-section/kresna-footer.md",
+  "prompt_chars": 9163,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "lumina-footer",
+  "title": "Lumina",
+  "category": "Footer Section",
+  "type": "footer",
+  "types": [],
+  "path": "sources/motionsites/prompts/footer-section/lumina-footer.md",
+  "prompt_chars": 5113,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vize-footer",
+  "title": "Vize Footer",
+  "category": "Footer Section",
+  "type": "footer",
+  "types": [],
+  "path": "sources/motionsites/prompts/footer-section/vize-footer.md",
+  "prompt_chars": 7734,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "hollowmere-halloween",
+  "title": "Hollowmere Halloween Descent",
+  "category": "Halloween",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/halloween/hollowmere-halloween.md",
+  "prompt_chars": 27232,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "wellness-device",
+  "title": "Wellness Devicex",
+  "category": "Health",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/health/wellness-device.md",
+  "prompt_chars": 6903,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "pet-diagnostics",
+  "title": "Pet Diagnostics",
+  "category": "Healthcare",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/healthcare/pet-diagnostics.md",
+  "prompt_chars": 18710,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "corvana-ai",
+  "title": "Corvana AI",
+  "category": "Healthcare AI",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/healthcare-ai/corvana-ai.md",
+  "prompt_chars": 5692,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "ai-workflow",
+  "title": "AI Workflow Hero",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/ai-workflow.md",
+  "prompt_chars": 16580,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "audio-showcase",
+  "title": "Audio Showcase",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/audio-showcase.md",
+  "prompt_chars": 6927,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "bold-studio",
+  "title": "Bold Studio",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/bold-studio.md",
+  "prompt_chars": 6067,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "camper-overnight",
+  "title": "Camper Overnight",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/camper-overnight.md",
+  "prompt_chars": 9510,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "contact-cybernetic",
+  "title": "Contact Cybernetic",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/contact-cybernetic.md",
+  "prompt_chars": 6423,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "cozypaws",
+  "title": "CozyPaws",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/cozypaws.md",
+  "prompt_chars": 6443,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "creative-portfolio",
+  "title": "Creative Portfolio",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/creative-portfolio.md",
+  "prompt_chars": 5639,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "cyberpunk-reveal",
+  "title": "Cyberpunk Reveal",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/cyberpunk-reveal.md",
+  "prompt_chars": 7086,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "cybersecurity-hero",
+  "title": "Cybersecurity Hero",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/cybersecurity-hero.md",
+  "prompt_chars": 11920,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "equilibrium",
+  "title": "Equilibrium",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/equilibrium.md",
+  "prompt_chars": 4787,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "immersive-ocean",
+  "title": "Immersive Ocean",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/immersive-ocean.md",
+  "prompt_chars": 4030,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "impact-ventures",
+  "title": "Impact Ventures",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/impact-ventures.md",
+  "prompt_chars": 4400,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "intelligentx",
+  "title": "IntelligentX",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/intelligentx.md",
+  "prompt_chars": 4182,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "interactive-discovery",
+  "title": "Interactive Discovery",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/interactive-discovery.md",
+  "prompt_chars": 6894,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "network-hero",
+  "title": "Network Hero",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/network-hero.md",
+  "prompt_chars": 7543,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "organic-odyssey",
+  "title": "Organic Odyssey",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/organic-odyssey.md",
+  "prompt_chars": 4802,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "portal",
+  "title": "Portal",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/portal.md",
+  "prompt_chars": 5718,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "prosthetics-hero",
+  "title": "Prosthetics Hero",
+  "category": "Hero",
+  "type": "hero",
+  "types": [
+   "3d-website",
+   "hero"
+  ],
+  "path": "sources/motionsites/prompts/hero/prosthetics-hero.md",
+  "prompt_chars": 3421,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "retro-futurist",
+  "title": "Retro-Futurist",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/retro-futurist.md",
+  "prompt_chars": 5713,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "stillmind",
+  "title": "Stillmind",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/stillmind.md",
+  "prompt_chars": 6025,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "subscription-agency",
+  "title": "Subscription Agency",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/subscription-agency.md",
+  "prompt_chars": 6172,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "tech-forward",
+  "title": "Tech-Forward",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/tech-forward.md",
+  "prompt_chars": 3400,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "vaultshield",
+  "title": "VaultShield",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/vaultshield.md",
+  "prompt_chars": 4734,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vision-reveal",
+  "title": "Vision Reveal",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/vision-reveal.md",
+  "prompt_chars": 16723,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "visual-hero",
+  "title": "Visual Hero",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/visual-hero.md",
+  "prompt_chars": 8275,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "wellbeing-os",
+  "title": "Wellbeing OS",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/wellbeing-os.md",
+  "prompt_chars": 5051,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "wellness-balance",
+  "title": "Wellness Balance",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/wellness-balance.md",
+  "prompt_chars": 7840,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "wellness-hero",
+  "title": "Wellness Hero",
+  "category": "Hero",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero/wellness-hero.md",
+  "prompt_chars": 4719,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "aethera-hero",
+  "title": "Aethera Studio",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/aethera-hero.md",
+  "prompt_chars": 3169,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "aetheris-voyage-hero",
+  "title": "Aetheris Voyage",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/aetheris-voyage-hero.md",
+  "prompt_chars": 10190,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "asme-hero",
+  "title": "Asme",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/asme-hero.md",
+  "prompt_chars": 4360,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "bloom-ai-hero",
+  "title": "Bloom AI",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/bloom-ai-hero.md",
+  "prompt_chars": 3900,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "designpro-hero",
+  "title": "DesignPro Academy",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/designpro-hero.md",
+  "prompt_chars": 3038,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "digital-epoch-hero",
+  "title": "Digital Epoch",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/digital-epoch-hero.md",
+  "prompt_chars": 4594,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "dot-hero",
+  "title": "Dot",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/dot-hero.md",
+  "prompt_chars": 3870,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "duolingo-styleguide-hero",
+  "title": "Duolingo Styleguide",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/duolingo-styleguide-hero.md",
+  "prompt_chars": 10776,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "luminex-hero",
+  "title": "Luminex",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/luminex-hero.md",
+  "prompt_chars": 162,
+  "section_names": []
+ },
+ {
+  "id": "portal-hero",
+  "title": "Portal",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/portal-hero.md",
+  "prompt_chars": 6663,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "power-ai-hero",
+  "title": "Power AI",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/power-ai-hero.md",
+  "prompt_chars": 3838,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "rivr-hero",
+  "title": "RIVR",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/rivr-hero.md",
+  "prompt_chars": 8089,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "sentinel-ai-hero",
+  "title": "Sentinel AI",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/sentinel-ai-hero.md",
+  "prompt_chars": 5940,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "stellar-ai-hero",
+  "title": "Stellar AI",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/stellar-ai-hero.md",
+  "prompt_chars": 3973,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "taskly-hero",
+  "title": "Taskly",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/taskly-hero.md",
+  "prompt_chars": 2465,
+  "section_names": []
+ },
+ {
+  "id": "transform-data-hero",
+  "title": "Transform Data",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/transform-data-hero.md",
+  "prompt_chars": 3605,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vex-ventures-hero",
+  "title": "VEX Ventures",
+  "category": "Hero Section",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/hero-section/vex-ventures-hero.md",
+  "prompt_chars": 5051,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "lauberhorn-ridge",
+  "title": "Lauberhorn Ridge",
+  "category": "Hiking App",
+  "type": "hero",
+  "types": [
+   "hero",
+   "dashboard"
+  ],
+  "path": "sources/motionsites/prompts/hiking-app/lauberhorn-ridge.md",
+  "prompt_chars": 6262,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "oda-nobunaga-hero",
+  "title": "Oda Hero",
+  "category": "History",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/history/oda-nobunaga-hero.md",
+  "prompt_chars": 8088,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "design-collage",
+  "title": "Design Collage",
+  "category": "Interactive",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/interactive/design-collage.md",
+  "prompt_chars": 21605,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "driftlab-hero",
+  "title": "Jellyfish Scroll",
+  "category": "Interactive",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/interactive/driftlab-hero.md",
+  "prompt_chars": 25106,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "peculiar-atelier",
+  "title": "Peculiar Atelier",
+  "category": "Interactive",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/interactive/peculiar-atelier.md",
+  "prompt_chars": 14541,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "pixel-garden",
+  "title": "Pixel Garden",
+  "category": "Interactive",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/interactive/pixel-garden.md",
+  "prompt_chars": 35967,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vell-lookbook",
+  "title": "Runway Lookbook",
+  "category": "Interactive",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/interactive/vell-lookbook.md",
+  "prompt_chars": 24299,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "lumen-roof-hero",
+  "title": "Solar Fog",
+  "category": "Interactive",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/interactive/lumen-roof-hero.md",
+  "prompt_chars": 23785,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "found-spider",
+  "title": "Spider Web",
+  "category": "Interactive",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/interactive/found-spider.md",
+  "prompt_chars": 20456,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "halden-stories",
+  "title": "Halden Stories",
+  "category": "Interactive Map",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/interactive-map/halden-stories.md",
+  "prompt_chars": 8841,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "meadowbell",
+  "title": "Meadowbell",
+  "category": "Kids Show",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/kids-show/meadowbell.md",
+  "prompt_chars": 5282,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vortex-studio-hero",
+  "title": "AI Designer Portfolio",
+  "category": "Landing Page",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/landing-page/vortex-studio-hero.md",
+  "prompt_chars": 11458,
+  "section_names": []
+ },
+ {
+  "id": "codenest-hero",
+  "title": "CodeNest Coding Platform",
+  "category": "Landing Page",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/landing-page/codenest-hero.md",
+  "prompt_chars": 2581,
+  "section_names": []
+ },
+ {
+  "id": "digital-experiences",
+  "title": "Digital Experiences",
+  "category": "Landing Page",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/landing-page/digital-experiences.md",
+  "prompt_chars": 8994,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "health-portal",
+  "title": "Health Portal",
+  "category": "Landing Page",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/landing-page/health-portal.md",
+  "prompt_chars": 16908,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "innovation-landing",
+  "title": "Innovation",
+  "category": "Landing Page",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/landing-page/innovation-landing.md",
+  "prompt_chars": 8995,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "mindloop-landing",
+  "title": "Mindloop Landing",
+  "category": "Landing Page",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/landing-page/mindloop-landing.md",
+  "prompt_chars": 7242,
+  "section_names": []
+ },
+ {
+  "id": "neon-logic",
+  "title": "Neon Logic",
+  "category": "Landing Page",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/landing-page/neon-logic.md",
+  "prompt_chars": 13601,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "orbis-nft-landing",
+  "title": "Orbis NFT",
+  "category": "Landing Page",
+  "type": "hero",
+  "types": [
+   "3d-website",
+   "landing-page"
+  ],
+  "path": "sources/motionsites/prompts/landing-page/orbis-nft-landing.md",
+  "prompt_chars": 8276,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "prompt-hero",
+  "title": "PROMPT",
+  "category": "Landing Page",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/landing-page/prompt-hero.md",
+  "prompt_chars": 13186,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "prisma-landing",
+  "title": "Prisma Creative Studio",
+  "category": "Landing Page",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/landing-page/prisma-landing.md",
+  "prompt_chars": 8432,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "skyelite-hero",
+  "title": "SkyElite Private Jets",
+  "category": "Landing Page",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/landing-page/skyelite-hero.md",
+  "prompt_chars": 2285,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "halo-usd-landing",
+  "title": "USD Halo",
+  "category": "Landing Page",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/landing-page/halo-usd-landing.md",
+  "prompt_chars": 8531,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "email-landing-page",
+  "title": "Email Landing Page",
+  "category": "Landing page",
+  "type": "landing",
+  "types": [],
+  "path": "sources/motionsites/prompts/landing-page/email-landing-page.md",
+  "prompt_chars": 19431,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "mk-consulting-hero",
+  "title": "MK Consulting",
+  "category": "Legal Studio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/legal-studio/mk-consulting-hero.md",
+  "prompt_chars": 4140,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "cutora",
+  "title": "Cutora",
+  "category": "Login Page",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/login-page/cutora.md",
+  "prompt_chars": 5309,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vertex3d-login",
+  "title": "Vertex3D Login",
+  "category": "Login Page",
+  "type": "login-sign-up",
+  "types": [],
+  "path": "sources/motionsites/prompts/login-page/vertex3d-login.md",
+  "prompt_chars": 2992,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "freight-scroll-hero",
+  "title": "Freight Scroll Hero",
+  "category": "Logistics",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/logistics/freight-scroll-hero.md",
+  "prompt_chars": 8259,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "freight-services-hero",
+  "title": "Freight Services Hero",
+  "category": "Logistics",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/logistics/freight-services-hero.md",
+  "prompt_chars": 7659,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "coffee-rewards",
+  "title": "Coffee Rewards",
+  "category": "Loyalty App",
+  "type": "mobile",
+  "types": [],
+  "path": "sources/motionsites/prompts/loyalty-app/coffee-rewards.md",
+  "prompt_chars": 5054,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "cordex",
+  "title": "Cordex",
+  "category": "Manufacturing",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/manufacturing/cordex.md",
+  "prompt_chars": 29696,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "mind-body-healing",
+  "title": "Mind-Body Healing",
+  "category": "Medicine",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/medicine/mind-body-healing.md",
+  "prompt_chars": 5232,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "mindora-hero",
+  "title": "Mindora Hero",
+  "category": "Mental Health",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/mental-health/mindora-hero.md",
+  "prompt_chars": 3931,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "nival-cyberspace",
+  "title": "ConSentinel",
+  "category": "Motion",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/motion/nival-cyberspace.md",
+  "prompt_chars": 31116,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "album-flow",
+  "title": "Album Flow",
+  "category": "Music",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/music/album-flow.md",
+  "prompt_chars": 11057,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vinyl",
+  "title": "Vinyl",
+  "category": "Music",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/music/vinyl.md",
+  "prompt_chars": 18878,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "atlas-nav",
+  "title": "Atlas Nav",
+  "category": "Navbar",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/navbar/atlas-nav.md",
+  "prompt_chars": 16534,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "gridwork-co",
+  "title": "Gridwork Co",
+  "category": "Onboarding",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/onboarding/gridwork-co.md",
+  "prompt_chars": 5685,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "consentinel",
+  "title": "Nival Cyberspace",
+  "category": "Personal",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/personal/consentinel.md",
+  "prompt_chars": 30647,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "nature-portfolio",
+  "title": "Nature Portfolio",
+  "category": "Photography",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/photography/nature-portfolio.md",
+  "prompt_chars": 29795,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "murmur",
+  "title": "murmur",
+  "category": "Podcast",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/podcast/murmur.md",
+  "prompt_chars": 5357,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "3d-jack-portfolio-hero",
+  "title": "3D Jack Portfolio",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [
+   "3d-website",
+   "landing-page"
+  ],
+  "path": "sources/motionsites/prompts/portfolio/3d-jack-portfolio-hero.md",
+  "prompt_chars": 13877,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "axon",
+  "title": "AXON",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/axon.md",
+  "prompt_chars": 10081,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "atelier-unit",
+  "title": "Atelier Unit",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/atelier-unit.md",
+  "prompt_chars": 12035,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "folio-books-hero",
+  "title": "Bookshop",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/folio-books-hero.md",
+  "prompt_chars": 10273,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "card-stack",
+  "title": "Card Stack",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/card-stack.md",
+  "prompt_chars": 15176,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "designer-portfolio",
+  "title": "Designer Portfolio",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/designer-portfolio.md",
+  "prompt_chars": 16706,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "digital-director",
+  "title": "Digital Director",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/digital-director.md",
+  "prompt_chars": 8947,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "glass-portfolio",
+  "title": "Glass Portfolio",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/glass-portfolio.md",
+  "prompt_chars": 27894,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "gold-standard",
+  "title": "Gold Standard",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/gold-standard.md",
+  "prompt_chars": 32024,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "laptop-portfolio",
+  "title": "Laptop Portfolio",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/laptop-portfolio.md",
+  "prompt_chars": 24703,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "living-portrait-hero",
+  "title": "Living Portrait",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/living-portrait-hero.md",
+  "prompt_chars": 49103,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "maya-lind-profile",
+  "title": "Maya Lind Profile",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/maya-lind-profile.md",
+  "prompt_chars": 6857,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "paper-craft",
+  "title": "Paper Craft",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/paper-craft.md",
+  "prompt_chars": 36451,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "parallex",
+  "title": "Parallex",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/parallex.md",
+  "prompt_chars": 38008,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "personal-showcase",
+  "title": "Personal Showcase",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/personal-showcase.md",
+  "prompt_chars": 6948,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "photo-globe",
+  "title": "Photo Globe",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/photo-globe.md",
+  "prompt_chars": 23768,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "pink-rider",
+  "title": "Pink Rider",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/pink-rider.md",
+  "prompt_chars": 12212,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "portfolio-cosmic-hero",
+  "title": "Portfolio Cosmic",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/portfolio-cosmic-hero.md",
+  "prompt_chars": 8253,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "sea-ring",
+  "title": "Sea Ring",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/sea-ring.md",
+  "prompt_chars": 31503,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vasari-vhs-hero",
+  "title": "Shelf Hero",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/vasari-vhs-hero.md",
+  "prompt_chars": 28589,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "sphere-gallery",
+  "title": "Sphere Gallery",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/sphere-gallery.md",
+  "prompt_chars": 30127,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vhs-archive",
+  "title": "VHS Archive",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/vhs-archive.md",
+  "prompt_chars": 18594,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vante-ribbon-hero",
+  "title": "Video Ribbon",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/vante-ribbon-hero.md",
+  "prompt_chars": 21655,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "work-ribbon",
+  "title": "Work Ribbon",
+  "category": "Portfolio",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio/work-ribbon.md",
+  "prompt_chars": 21917,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "eclipsio",
+  "title": "Eclipsio",
+  "category": "Portfolio Builder",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/portfolio-builder/eclipsio.md",
+  "prompt_chars": 4389,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "rocket-pricing",
+  "title": "Rocket Pricing",
+  "category": "Pricing",
+  "type": "pricing",
+  "types": [],
+  "path": "sources/motionsites/prompts/pricing/rocket-pricing.md",
+  "prompt_chars": 8841,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "daisy-wild",
+  "title": "Daisy Wild",
+  "category": "Product",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/product/daisy-wild.md",
+  "prompt_chars": 10292,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "storybook",
+  "title": "Storybook",
+  "category": "Publishing",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/publishing/storybook.md",
+  "prompt_chars": 24354,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "future-machine",
+  "title": "Future Machine",
+  "category": "Robotics",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/robotics/future-machine.md",
+  "prompt_chars": 14420,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "ai-workflow-agents",
+  "title": "AI Workflow Agents",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/ai-workflow-agents.md",
+  "prompt_chars": 3215,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "agent-grove",
+  "title": "Agent Grove",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/agent-grove.md",
+  "prompt_chars": 7959,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "anveril",
+  "title": "Anveril",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/anveril.md",
+  "prompt_chars": 9742,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "autonomous-ops",
+  "title": "Autonomous Ops",
+  "category": "SaaS",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/autonomous-ops.md",
+  "prompt_chars": 18222,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "beauty-studio",
+  "title": "Beauty Studio",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/beauty-studio.md",
+  "prompt_chars": 65855,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "crystal-koi",
+  "title": "Crystal Koi",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/crystal-koi.md",
+  "prompt_chars": 39058,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "datacore-booking-hero",
+  "title": "Datacore Booking",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/datacore-booking-hero.md",
+  "prompt_chars": 2826,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "digitwist-hero",
+  "title": "Digitwist AI Builder",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/digitwist-hero.md",
+  "prompt_chars": 6001,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "growth-decisions",
+  "title": "Growth Decisions",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/growth-decisions.md",
+  "prompt_chars": 11164,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "solace-faq",
+  "title": "Halftone FAQ",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/solace-faq.md",
+  "prompt_chars": 15855,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "intelligent-performance",
+  "title": "Intelligent Performance",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/intelligent-performance.md",
+  "prompt_chars": 26839,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "junglemind",
+  "title": "JungleMind",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/junglemind.md",
+  "prompt_chars": 36531,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "moss-island",
+  "title": "Moss Island",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/moss-island.md",
+  "prompt_chars": 24274,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "neuralyn-hero",
+  "title": "Neuralyn",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/neuralyn-hero.md",
+  "prompt_chars": 5257,
+  "section_names": []
+ },
+ {
+  "id": "nexora-hero",
+  "title": "Nexora Automation",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/nexora-hero.md",
+  "prompt_chars": 5344,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "price-calculator",
+  "title": "Price Calculator",
+  "category": "SaaS",
+  "type": "pricing",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/price-calculator.md",
+  "prompt_chars": 3168,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "quantum-lucid",
+  "title": "Quantum Lucid",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/quantum-lucid.md",
+  "prompt_chars": 20249,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "convix-software-hero",
+  "title": "SAAS Software",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/convix-software-hero.md",
+  "prompt_chars": 5587,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "saas-value",
+  "title": "SaaS Value",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/saas-value.md",
+  "prompt_chars": 8755,
+  "section_names": []
+ },
+ {
+  "id": "scaling-platform",
+  "title": "Scaling Platform",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/scaling-platform.md",
+  "prompt_chars": 5231,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "securify-hero",
+  "title": "Securify Data Security",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/securify-hero.md",
+  "prompt_chars": 3822,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "task-engine",
+  "title": "Task Engine",
+  "category": "SaaS",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/task-engine.md",
+  "prompt_chars": 14503,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "vexela",
+  "title": "Vexel",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/vexela.md",
+  "prompt_chars": 7140,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "video-editor",
+  "title": "Video Editor",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/video-editor.md",
+  "prompt_chars": 29693,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "macos-widget",
+  "title": "macOS widget",
+  "category": "SaaS",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/saas/macos-widget.md",
+  "prompt_chars": 11138,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "planetary-pulse",
+  "title": "Planetary Pulse",
+  "category": "Science",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/science/planetary-pulse.md",
+  "prompt_chars": 26446,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "aurora-onboard",
+  "title": "Aurora Onboard",
+  "category": "Sign Up",
+  "type": "mobile",
+  "types": [],
+  "path": "sources/motionsites/prompts/sign-up/aurora-onboard.md",
+  "prompt_chars": 4770,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "real-time-alerts",
+  "title": "Real-Time Alerts",
+  "category": "Sign in",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/sign-in/real-time-alerts.md",
+  "prompt_chars": 21771,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "kairn",
+  "title": "KAIRN",
+  "category": "Ski Gear",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/ski-gear/kairn.md",
+  "prompt_chars": 4151,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "nebula-hero",
+  "title": "Nebula Hero",
+  "category": "Space",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/space/nebula-hero.md",
+  "prompt_chars": 14322,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "norva-staffing-hero",
+  "title": "Norva Staffing Hero",
+  "category": "Staffing",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/staffing/norva-staffing-hero.md",
+  "prompt_chars": 6557,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "f1-racing-hub",
+  "title": "F1 Racing Hub",
+  "category": "Statistics App",
+  "type": "mobile",
+  "types": [],
+  "path": "sources/motionsites/prompts/statistics-app/f1-racing-hub.md",
+  "prompt_chars": 10448,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "arceage-stats",
+  "title": "Arceage Stats",
+  "category": "Stats",
+  "type": "stats",
+  "types": [],
+  "path": "sources/motionsites/prompts/stats/arceage-stats.md",
+  "prompt_chars": 7826,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "logistics-freight",
+  "title": "Logistics Freight",
+  "category": "Supply",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/supply/logistics-freight.md",
+  "prompt_chars": 11788,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "riverine",
+  "title": "Riverine",
+  "category": "Tech",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/tech/riverine.md",
+  "prompt_chars": 7902,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "cyber-ronin",
+  "title": "Cyber Ronin",
+  "category": "Technology",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/technology/cyber-ronin.md",
+  "prompt_chars": 10993,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "innovation-lab",
+  "title": "Innovation Lab",
+  "category": "Technology",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/technology/innovation-lab.md",
+  "prompt_chars": 6911,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "intelligence-layer",
+  "title": "Intelligence Layer",
+  "category": "Technology",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/technology/intelligence-layer.md",
+  "prompt_chars": 11825,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "signal-id",
+  "title": "Signal ID",
+  "category": "Technology",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/technology/signal-id.md",
+  "prompt_chars": 11588,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "radial-diagram",
+  "title": "Radial Diagram",
+  "category": "Testimonials",
+  "type": "testimonials",
+  "types": [],
+  "path": "sources/motionsites/prompts/testimonials/radial-diagram.md",
+  "prompt_chars": 5364,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "zapline-cta",
+  "title": "Zapline",
+  "category": "Trading App",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/trading-app/zapline-cta.md",
+  "prompt_chars": 4334,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "cross-border",
+  "title": "Cross-Border",
+  "category": "Transportation",
+  "type": "mobile",
+  "types": [],
+  "path": "sources/motionsites/prompts/transportation/cross-border.md",
+  "prompt_chars": 6698,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "ai-trip-planner",
+  "title": "AI Trip Planner",
+  "category": "Travel",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/travel/ai-trip-planner.md",
+  "prompt_chars": 6398,
+  "section_names": [
+   "Source Code"
+  ]
+ },
+ {
+  "id": "redline-mars-hero",
+  "title": "Mars Trips",
+  "category": "Travel",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/travel/redline-mars-hero.md",
+  "prompt_chars": 20204,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "mostar-guide",
+  "title": "Mostar Guide",
+  "category": "Travel",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/travel/mostar-guide.md",
+  "prompt_chars": 27876,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "saltwake-pirate-hero",
+  "title": "Pirate Ship",
+  "category": "Travel",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/travel/saltwake-pirate-hero.md",
+  "prompt_chars": 15352,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "place-saver",
+  "title": "Place Saver",
+  "category": "Travel",
+  "type": "mobile",
+  "types": [],
+  "path": "sources/motionsites/prompts/travel/place-saver.md",
+  "prompt_chars": 8226,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "tana-elephant-sections",
+  "title": "Tana Elephant",
+  "category": "Travel",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/travel/tana-elephant-sections.md",
+  "prompt_chars": 6513,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "travel-journal",
+  "title": "Travel Journal",
+  "category": "Travel",
+  "type": "mobile",
+  "types": [],
+  "path": "sources/motionsites/prompts/travel/travel-journal.md",
+  "prompt_chars": 5151,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "wander-far",
+  "title": "Wander Far",
+  "category": "Travel",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/travel/wander-far.md",
+  "prompt_chars": 3705,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "wanderful-hero",
+  "title": "Wanderful Hero",
+  "category": "Travel",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/travel/wanderful-hero.md",
+  "prompt_chars": 4223,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "wild-pill-hero",
+  "title": "Wild Pil",
+  "category": "Travel",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/travel/wild-pill-hero.md",
+  "prompt_chars": 6188,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "rovin-footer",
+  "title": "Rovin Footer",
+  "category": "Travel Fintech",
+  "type": "footer",
+  "types": [],
+  "path": "sources/motionsites/prompts/travel-fintech/rovin-footer.md",
+  "prompt_chars": 2859,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "halo-use-case",
+  "title": "Halo Use Case",
+  "category": "Use Case",
+  "type": "features",
+  "types": [],
+  "path": "sources/motionsites/prompts/use-case/halo-use-case.md",
+  "prompt_chars": 7044,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "forecast-center",
+  "title": "Forecast Center",
+  "category": "Utility",
+  "type": "mobile",
+  "types": [
+   "mobile",
+   "dashboard"
+  ],
+  "path": "sources/motionsites/prompts/utility/forecast-center.md",
+  "prompt_chars": 11253,
+  "section_names": []
+ },
+ {
+  "id": "no-code-waitlist",
+  "title": "No-Code Waitlist",
+  "category": "Waitlist",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/waitlist/no-code-waitlist.md",
+  "prompt_chars": 6532,
+  "section_names": []
+ },
+ {
+  "id": "halora",
+  "title": "Halora",
+  "category": "Wearables",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/wearables/halora.md",
+  "prompt_chars": 4189,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "neo-museum",
+  "title": "Neo Museum",
+  "category": "Website",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/website/neo-museum.md",
+  "prompt_chars": 15036,
+  "section_names": []
+ },
+ {
+  "id": "celestial-renewal",
+  "title": "Celestial Renewal",
+  "category": "Wellness",
+  "type": "hero",
+  "types": [],
+  "path": "sources/motionsites/prompts/wellness/celestial-renewal.md",
+  "prompt_chars": 7343,
+  "section_names": [
+   "HTML Code"
+  ]
+ },
+ {
+  "id": "wellness-companion",
+  "title": "Wellness Companion",
+  "category": "Wellness",
+  "type": "mobile",
+  "types": [],
+  "path": "sources/motionsites/prompts/wellness/wellness-companion.md",
+  "prompt_chars": 4095,
+  "section_names": [
+   "HTML Code"
+  ]
+ }
+]

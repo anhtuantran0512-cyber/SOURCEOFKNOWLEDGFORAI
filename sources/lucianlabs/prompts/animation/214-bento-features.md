@@ -1,0 +1,224 @@
+---
+source: "lucianlabs"
+id: "214"
+title: "Living bento feature grid"
+category: "Sections & Content"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#214"
+tags: ["bento", "features", "grid", "hover", "landing"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Living bento feature grid (214, Sections & Content)
+[What it does] Features are introduced in a bento grid of interlocking tiles of different sizes. Hover a tile and it lifts slightly with a brighter border while its own little scene plays: the collaboration tile gathers avatars and types text, the search tile enters a query, the stats tile grows bars, the security tile pulses its shield, and the integrations tile scrolls a row of icons.
+[How to use it] Hover each tile to see its own motion
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #214 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#214 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u214{position:relative;width:340px;height:340px;border-radius:30px;overflow:hidden;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:var(--ux-ink)}
+.u214-hd{position:absolute;left:18px;top:16px}
+.u214-hd small{font-size:10px;font-weight:850;letter-spacing:.08em;color:var(--ux-accent)}
+.u214-hd h3{margin:2px 0 0;font-size:17px;font-weight:900;letter-spacing:-.03em}
+.u214-gd{position:absolute;left:14px;right:14px;top:64px;bottom:14px;display:grid;grid-template-columns:1fr 1fr .9fr;grid-template-rows:1fr 1fr .78fr;grid-template-areas:"a a b" "c d b" "e e e";gap:8px}
+.u214-t{position:relative;overflow:hidden;border-radius:16px;background:var(--ux-surface-2);box-shadow:inset 0 0 0 1px var(--ux-line);padding:10px 11px;transition:transform .35s cubic-bezier(.3,1.4,.5,1),box-shadow .3s}
+.u214-t:hover,.u214-t.g-hov,.u214-t:focus-visible{transform:translateY(-3px);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--ux-accent) 55%,transparent),0 14px 26px -16px var(--ux-accent);outline:none}
+.u214-t b{position:relative;z-index:1;display:block;font-size:11.5px;font-weight:850}
+.u214-t small{position:relative;z-index:1;display:block;font-size:9.5px;font-weight:650;color:var(--ux-ink-3);margin-top:1px}
+.u214-a{grid-area:a}.u214-b{grid-area:b}.u214-c{grid-area:c}.u214-d{grid-area:d}.u214-e{grid-area:e}
+
+.u214-av{position:absolute;right:10px;top:10px;display:flex}
+.u214-av i{width:20px;height:20px;border-radius:50%;border:2px solid var(--ux-surface-2);margin-left:-6px;transition:transform .45s cubic-bezier(.3,1.5,.5,1)}
+.u214-av i:nth-child(1){background:#F472B6;transform:translateX(16px)}.u214-av i:nth-child(2){background:#60A5FA;transform:translateX(8px)}.u214-av i:nth-child(3){background:#34D399}
+.u214-a.is-on .u214-av i{transform:none}
+.u214-ty{position:absolute;left:11px;right:11px;bottom:10px;height:22px;padding:0 8px;border-radius:8px;background:var(--ux-surface);font-size:10px;font-weight:650;line-height:22px;color:var(--ux-ink-2);white-space:nowrap;overflow:hidden}
+.u214-ty::after{content:"";display:inline-block;width:1.5px;height:11px;margin-left:1px;vertical-align:-2px;background:#F472B6}
+
+.u214-sb{margin-top:10px;height:24px;padding:0 7px;border-radius:8px;background:var(--ux-surface);display:flex;align-items:center;gap:5px;font-size:10px;font-weight:700;color:var(--ux-ink-2);white-space:nowrap;overflow:hidden}
+.u214-sb svg{flex:none;width:11px;height:11px;color:var(--ux-ink-3)}
+.u214-rs{margin-top:6px;display:flex;flex-direction:column;gap:5px}
+.u214-rs i{height:8px;border-radius:4px;background:var(--ux-line);transform-origin:0 50%;transform:scaleX(.3);opacity:.4;transition:transform .45s cubic-bezier(.3,1.3,.5,1),opacity .3s}
+.u214-rs i:nth-child(2){transition-delay:.06s}.u214-rs i:nth-child(3){transition-delay:.12s}.u214-rs i:nth-child(4){transition-delay:.18s}
+.u214-b.is-on .u214-rs i{transform:scaleX(var(--w,1));opacity:1}
+.u214-rs i:first-child{background:color-mix(in srgb,var(--ux-accent) 45%,transparent)}
+
+.u214-br{position:absolute;left:11px;right:11px;bottom:10px;height:34px;display:flex;align-items:flex-end;gap:4px}
+.u214-br i{flex:1;height:100%;border-radius:3px 3px 0 0;background:color-mix(in srgb,#10B981 55%,transparent);transform-origin:50% 100%;transform:scaleY(.25);transition:transform .5s cubic-bezier(.3,1.5,.5,1);transition-delay:calc(var(--i) * 45ms)}
+.u214-c.is-on .u214-br i{transform:scaleY(var(--h))}
+
+.u214-sh{position:absolute;right:12px;bottom:10px;width:30px;height:34px;color:#6366F1}
+.u214-sh::before,.u214-sh::after{content:"";position:absolute;left:50%;top:50%;width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:50%;border:1.5px solid currentColor;opacity:0}
+.u214-d.is-on .u214-sh::before{animation:u214-p 1.4s ease-out infinite}
+.u214-d.is-on .u214-sh::after{animation:u214-p 1.4s ease-out .7s infinite}
+@keyframes u214-p{0%{transform:scale(.6);opacity:.7}100%{transform:scale(1.7);opacity:0}}
+.u214-sh svg{position:relative;width:100%;height:100%}
+
+.u214-lg{position:absolute;right:0;top:0;bottom:0;width:58%;display:flex;align-items:center;-webkit-mask-image:linear-gradient(90deg,transparent,#000 20%,#000 80%,transparent);mask-image:linear-gradient(90deg,transparent,#000 20%,#000 80%,transparent);overflow:hidden}
+.u214-lt{display:flex;gap:8px;animation:u214-m 9s linear infinite;animation-play-state:paused}
+.u214-e.is-on .u214-lt{animation-play-state:running;animation-duration:3.6s}
+@keyframes u214-m{to{transform:translateX(-50%)}}
+.u214-lt i{flex:none;width:30px;height:30px;border-radius:9px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line);display:grid;place-items:center;font-style:normal;font-size:12px;font-weight:900}
+@media (prefers-reduced-motion: reduce){.u214-t,.u214-av i,.u214-rs i,.u214-br i{transition:none}.u214-lt{animation:none}}
+</style>
+<div class="ux u214">
+  <div class="u214-hd"><small>Features</small><h3>Everything you need, built in</h3></div>
+  <div class="u214-gd">
+    <div class="u214-t u214-a" tabindex="0"><b>Write together</b><small>Three people editing now</small><span class="u214-av" aria-hidden="true"><i></i><i></i><i></i></span><div class="u214-ty" aria-hidden="true"></div></div>
+    <div class="u214-t u214-b" tabindex="0"><b>Search</b><div class="u214-sb" aria-hidden="true"><svg viewBox="0 0 12 12"><circle cx="5" cy="5" r="3.4" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7.6 7.6 10.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span></span></div><div class="u214-rs" aria-hidden="true"><i style="--w:.92"></i><i style="--w:.7"></i><i style="--w:.82"></i><i style="--w:.55"></i></div></div>
+    <div class="u214-t u214-c" tabindex="0"><b>Stats</b><div class="u214-br" aria-hidden="true"></div></div>
+    <div class="u214-t u214-d" tabindex="0"><b>Security</b><small>End-to-end encrypted</small><span class="u214-sh" aria-hidden="true"><svg viewBox="0 0 30 34"><path d="M15 2l11 4.5v8.5c0 8-5 13.5-11 16.5C9 28.5 4 23 4 15V6.5z" fill="currentColor" opacity=".18"/><path d="M15 2l11 4.5v8.5c0 8-5 13.5-11 16.5C9 28.5 4 23 4 15V6.5z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.5 16.5l3 3 6-6.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+    <div class="u214-t u214-e" tabindex="0"><b>40 integrations</b><small>Connect the tools you already use</small><div class="u214-lg" aria-hidden="true"><div class="u214-lt"></div></div></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var T = Array.prototype.slice.call(root.querySelectorAll('.u214-t')), ty = root.querySelector('.u214-ty'), sb = root.querySelector('.u214-sb span'), br = root.querySelector('.u214-br'), lt = root.querySelector('.u214-lt');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  [0.45, 0.7, 0.55, 0.9, 0.75, 1].forEach(function (h, i) { var b = document.createElement('i'); b.style.setProperty('--h', h); b.style.setProperty('--i', i); br.appendChild(b); });
+  var LOGO = [['S', '#4A154B'], ['N', '#111'], ['F', '#A259FF'], ['G', '#EA4335'], ['Z', '#2D8CFF'], ['J', '#0052CC']];
+  LOGO.concat(LOGO).forEach(function (l) { var i = document.createElement('i'); i.textContent = l[0]; i.style.color = l[1]; lt.appendChild(i); });
+  var timers = {};
+  function type(el, text, key) {
+    clearTimeout(timers[key]); var s = Array.from(text), k = 0;
+    if (rm) { el.textContent = text; return; }
+    (function t() { el.textContent = s.slice(0, ++k).join(''); if (k < s.length) timers[key] = setTimeout(t, 45); })();
+  }
+  T.forEach(function (t, i) {
+    function on() {
+      t.classList.add('is-on');
+      if (i === 0) type(ty, 'Shall we sum up next week’s launch plan', 'a');
+      if (i === 1) type(sb, 'March notes', 'b');
+    }
+    function off() { t.classList.remove('is-on'); }
+    t.addEventListener('pointerenter', on); t.addEventListener('pointerleave', off);
+    t.addEventListener('focus', on); t.addEventListener('blur', off);
+  });
+  ty.textContent = 'Next week’s launch'; sb.textContent = 'Notes';
+})();
+</script>
+--- Code end ---

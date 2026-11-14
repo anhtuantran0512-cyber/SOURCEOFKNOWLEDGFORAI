@@ -1,0 +1,7008 @@
+[
+ {
+  "id": "dreamcore-landing",
+  "title": "Dreamcore Landing",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "bold-studio",
+  "title": "Bold Studio",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "prisma-landing",
+  "title": "Prisma Creative Studio",
+  "category": "Landing Page",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "interactive-discovery",
+  "title": "Interactive Discovery",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "3d-jack-portfolio-hero",
+  "title": "3D Jack Portfolio",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": [
+   "3d-website",
+   "landing-page"
+  ],
+  "page_type": "landing"
+ },
+ {
+  "id": "art-landing",
+  "title": "Art Landing",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "velorah-hero",
+  "title": "Velorah",
+  "category": "Agency",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "9",
+  "title": "Web3 EOS Hero",
+  "category": "Web3",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "aetheris-voyage-hero",
+  "title": "Aetheris Voyage",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "codercrest-hero",
+  "title": "CoderCrest",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vex-ventures-hero",
+  "title": "VEX Ventures",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "skyelite-hero",
+  "title": "SkyElite Private Jets",
+  "category": "Landing Page",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "urban-jungle-hero",
+  "title": "Urban Jungle",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "reveal-hero",
+  "title": "Reveal Hero",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "modern-agency",
+  "title": "Modern Agency",
+  "category": "Agency",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "liquid-glass-agency",
+  "title": "Liquid Glass Agency",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "luxury-editorial-ecommerce-design",
+  "title": "Luxury Ecommerce Design",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "landing",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "grow-ai-hero",
+  "title": "Grow AI Talent Platform",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "aethera-hero",
+  "title": "Aethera Studio",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "5",
+  "title": "Glassmorphism Agency Hero",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "asme-hero",
+  "title": "Asme",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "14",
+  "title": "Logoisum Video Agency",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "innovation-landing",
+  "title": "Innovation",
+  "category": "Landing Page",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "10",
+  "title": "AI Automation Hero",
+  "category": "AI / SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orbis-nft-landing",
+  "title": "Orbis NFT",
+  "category": "Landing Page",
+  "is_free": true,
+  "type": "hero",
+  "types": [
+   "3d-website",
+   "landing-page"
+  ],
+  "page_type": "landing"
+ },
+ {
+  "id": "7",
+  "title": "Synapse Dark Hero",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "portfolio-cosmic-hero",
+  "title": "Portfolio Cosmic",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "16",
+  "title": "HR SaaS Hero",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "securify-hero",
+  "title": "Securify Data Security",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "1",
+  "title": "New Era Bold Hero",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "portal-hero",
+  "title": "Portal",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "max-reed-portfolio",
+  "title": "Max Reed Portfolio",
+  "category": "Features",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "21",
+  "title": "Buzzentic Agency",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mindloop-landing",
+  "title": "Mindloop Landing",
+  "category": "Landing Page",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "18",
+  "title": "Loader Animation",
+  "category": "Component",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ember-dsgn-hero",
+  "title": "EMBER.dsgn",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "3",
+  "title": "ClearInvoice SaaS Hero",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "rivr-hero",
+  "title": "RIVR",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "wisa-space-hero",
+  "title": "WISA Space",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "vortex-studio-hero",
+  "title": "AI Designer Portfolio",
+  "category": "Landing Page",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "12",
+  "title": "Targo Logistics Hero",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "codenest-hero",
+  "title": "CodeNest Coding Platform",
+  "category": "Landing Page",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "acreage-farming-hero",
+  "title": "Acreage Farming",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "power-ai-hero",
+  "title": "Power AI",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "impressive-hero",
+  "title": "Impressive Hero",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "bloom-ai-hero",
+  "title": "Bloom AI",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "flowmate-landing",
+  "title": "FlowMate",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "luminex-hero",
+  "title": "Luminex",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nike-premium-landing",
+  "title": "Nike Premium Landing",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": [
+   "3d-website",
+   "landing-page"
+  ],
+  "page_type": "landing"
+ },
+ {
+  "id": "solar-energy-hero",
+  "title": "Solar Energy Hero",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "sentinel-ai-hero",
+  "title": "Sentinel AI",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "slam-dunk-hero",
+  "title": "Slam Dunk",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": [
+   "3d-website",
+   "landing-page"
+  ],
+  "page_type": "landing"
+ },
+ {
+  "id": "designpro-hero",
+  "title": "DesignPro Academy",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "crypto-wealth-hero",
+  "title": "Crypto Wealth",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "nexora-hero",
+  "title": "Nexora Automation",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "shamoni-hero",
+  "title": "Shamoni",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "transform-data-hero",
+  "title": "Transform Data",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "glow-features",
+  "title": "Glow Features",
+  "category": "Features Section",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "lumina-footer",
+  "title": "Lumina",
+  "category": "Footer Section",
+  "is_free": true,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nexacore-hero",
+  "title": "NexaCore",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "halo-usd-landing",
+  "title": "USD Halo",
+  "category": "Landing Page",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "stellar-ai-v2-hero",
+  "title": "Sync AI",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "taskly-hero",
+  "title": "Taskly",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "xportfolio-hero",
+  "title": "xPortfolio Hero",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "stellar-ai-hero",
+  "title": "Stellar AI",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-designer-agency",
+  "title": "AI Designer Agency",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "datacore-booking-hero",
+  "title": "Datacore Booking",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "neovision-landing",
+  "title": "NeoVision",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "convix-software-hero",
+  "title": "SAAS Software",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "guardnet-landing",
+  "title": "Guardnet",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "neuralyn-hero",
+  "title": "Neuralyn",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "automation-machines-hero",
+  "title": "Automation Machines",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "digitwist-hero",
+  "title": "Digitwist AI Builder",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "20",
+  "title": "Space Voyage",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "dot-hero",
+  "title": "Dot",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "focus-ai-landing",
+  "title": "Focus AI",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "design-rocket-email-hero",
+  "title": "Email Marketing",
+  "category": "Email Marketing",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "rivr-defi-landing",
+  "title": "RIVR DeFi",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "duolingo-styleguide-hero",
+  "title": "Duolingo Styleguide",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "velorah-focus-hero",
+  "title": "Velorah Focus",
+  "category": "Social Media",
+  "is_free": false,
+  "type": "social-media",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "price-calculator",
+  "title": "Price Calculator",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "pricing",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "yacht-club-hero",
+  "title": "Yacht Club",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "social-media-posts-hero",
+  "title": "Social Media Posts",
+  "category": "Social Media",
+  "is_free": false,
+  "type": "social-media",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ecommerce-website-landing",
+  "title": "E-commerce Website",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "digital-epoch-hero",
+  "title": "Digital Epoch",
+  "category": "Hero Section",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ecovolta-hero",
+  "title": "EcoVolta",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "kresna-footer",
+  "title": "Kresna Footer",
+  "category": "Footer Section",
+  "is_free": true,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orbit-engineers",
+  "title": "Orbit Engineers",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "vize-footer",
+  "title": "Vize Footer",
+  "category": "Footer Section",
+  "is_free": true,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "pro-ai-deck",
+  "title": "Pro AI Deck",
+  "category": "Presentation",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "haul-footer",
+  "title": "HAUL!",
+  "category": "Footer Section",
+  "is_free": true,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "terra-hero",
+  "title": "Terra Geo Map",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "veloce-finance-landing",
+  "title": "Veloce Finance",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "clubx-hero",
+  "title": "ClubX Investors",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "railroad-ai-hero",
+  "title": "Railroad.ai",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "6",
+  "title": "Bold Portfolio Hero",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "slate-hero",
+  "title": "Slate",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ecovolta-v2-hero",
+  "title": "EcoVolta V2",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "evr-ventures-hero",
+  "title": "EVR Ventures",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-interface",
+  "title": "AI Interface",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cross-border",
+  "title": "Cross-Border",
+  "category": "Transportation",
+  "is_free": true,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "luxury-hero",
+  "title": "Luxury Hero",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "subscription-agency",
+  "title": "Subscription Agency",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "supplement-shop",
+  "title": "Supplement Shop",
+  "category": "Health",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "wellbeing-os",
+  "title": "Wellbeing OS",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "pet-products",
+  "title": "Pet Products",
+  "category": "Ecommerce App",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "kova-features",
+  "title": "Kova Features",
+  "category": "Benefits",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "imperial-vpn",
+  "title": "Imperial VPN",
+  "category": "Cybersecurity",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "media-card-carousel",
+  "title": "Media Card Carousel",
+  "category": "Slider",
+  "is_free": false,
+  "type": "carousel",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "prosthetics-hero",
+  "title": "Prosthetics Hero",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": [
+   "3d-website",
+   "hero"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "retro-futurist",
+  "title": "Retro-Futurist",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "lending-ai-agents",
+  "title": "Lending AI Agents",
+  "category": "SaaS Website",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cargox-mobile",
+  "title": "CARGOX Mobile",
+  "category": "Transportation",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "contact-cybernetic",
+  "title": "Contact Cybernetic",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "halo-benefits",
+  "title": "Halo Benefits",
+  "category": "Why Us",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "health-portal",
+  "title": "Health Portal",
+  "category": "Landing Page",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "luxury-focus",
+  "title": "Luxury Focus",
+  "category": "E-commerce",
+  "is_free": false,
+  "type": "landing",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "impact-ventures",
+  "title": "Impact Ventures",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "halo-use-case",
+  "title": "Halo Use Case",
+  "category": "Use Case",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "innovation-summit",
+  "title": "Innovation Summit",
+  "category": "Mobile App",
+  "is_free": false,
+  "type": "Mobile",
+  "types": null,
+  "page_type": "Mobile"
+ },
+ {
+  "id": "integration-saas",
+  "title": "Integration SaaS",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "luxury-escapes",
+  "title": "Luxury Escapes",
+  "category": "Travel App",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "lodge-booking-app",
+  "title": "Lodge Booking App",
+  "category": "Booking",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "innovation-studio",
+  "title": "Innovation Studio",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "gear-shop",
+  "title": "Gear Shop",
+  "category": "Ecommerce App",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "wanderful-hero",
+  "title": "Wanderful Hero",
+  "category": "Travel",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "waitlist-hero",
+  "title": "Waitlist Hero",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "veloce-cards",
+  "title": "Veloce Cards",
+  "category": "Cards",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "wellness-companion",
+  "title": "Wellness Companion",
+  "category": "Wellness",
+  "is_free": true,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "travel-explorer",
+  "title": "Travel Explorer",
+  "category": "Travel",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nike-hover",
+  "title": "Nike Hover",
+  "category": "Features",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mouse-trail-cta",
+  "title": "Mouse Trail CTA",
+  "category": "CTA",
+  "is_free": false,
+  "type": "cta",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orbis-hello",
+  "title": "Orbis Hello",
+  "category": "About",
+  "is_free": true,
+  "type": "about",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nimbus-sticky-cards",
+  "title": "Nimbus Sticky Cards",
+  "category": "Cards",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "organic-odyssey",
+  "title": "Organic Odyssey",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nimbus-security",
+  "title": "Nimbus Security",
+  "category": "Cards",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "novadesk-signup",
+  "title": "NovaDesk Signup",
+  "category": "Signup",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nexacore-results",
+  "title": "NexaCore Results",
+  "category": "Features",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nexora-features",
+  "title": "Nexora Features",
+  "category": "Features Section",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nimbus-ops",
+  "title": "Nimbus Ops",
+  "category": "CTA",
+  "is_free": false,
+  "type": "cta",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "network-hero",
+  "title": "Network Hero",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mood-tracker",
+  "title": "Mood Tracker",
+  "category": "Wellness",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "movie-premiere",
+  "title": "Movie Premiere",
+  "category": "Entertainment",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "portal",
+  "title": "Portal",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "place-saver",
+  "title": "Place Saver",
+  "category": "Travel",
+  "is_free": true,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "places-organizer",
+  "title": "Places Organizer",
+  "category": "Travel",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "modern-dental-clinic",
+  "title": "Modern Dental Clinic",
+  "category": "Healthcare",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "travel-journal",
+  "title": "Travel Journal",
+  "category": "Travel",
+  "is_free": true,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "celestial-renewal",
+  "title": "Celestial Renewal",
+  "category": "Wellness",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-workflow-agents",
+  "title": "AI Workflow Agents",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-assistant-app",
+  "title": "AI Assistant App",
+  "category": "AI App",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "immersive-studio",
+  "title": "Immersive Studio",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "shipping-infrastructure",
+  "title": "Shipping Infrastructure",
+  "category": "Developer",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "f1-racing-hub",
+  "title": "F1 Racing Hub",
+  "category": "Statistics App",
+  "is_free": true,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-workflow",
+  "title": "AI Workflow Hero",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "adaptive-learning",
+  "title": "Adaptive Learning",
+  "category": "Education",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cyberpunk-reveal",
+  "title": "Cyberpunk Reveal",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vaultline",
+  "title": "Vaultline",
+  "category": "Crypto",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "strata-ai",
+  "title": "Strata AI",
+  "category": "AI Data",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "portfolio-about",
+  "title": "Portfolio About",
+  "category": "About",
+  "is_free": true,
+  "type": "about",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "tech-forward",
+  "title": "Tech-Forward",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "technical-specifications",
+  "title": "Technical Specifications",
+  "category": "Tabs",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "speakup-venture-hero",
+  "title": "SpeakUp Venture Hero",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "radial-diagram",
+  "title": "Radial Diagram",
+  "category": "Testimonials",
+  "is_free": true,
+  "type": "testimonials",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "rocket-cta",
+  "title": "Rocket CTA",
+  "category": "CTA",
+  "is_free": true,
+  "type": "cta",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "stellar-launch",
+  "title": "Stellar Launch",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "stark-minimal-footer",
+  "title": "Stark Minimal Footer",
+  "category": "Footer",
+  "is_free": true,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "skills-lea",
+  "title": "LearnHub",
+  "category": "Education",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "prompt-hero",
+  "title": "PROMPT",
+  "category": "Landing Page",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "scroll-landing",
+  "title": "Scroll Landing Page",
+  "category": "Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-meeting-notes",
+  "title": "AI Meeting Notes",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "live-language-classes",
+  "title": "Live Language Classes",
+  "category": "Learning SaaS",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "album-release",
+  "title": "Album App",
+  "category": "Music",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mind-body-healing",
+  "title": "Mind-Body Healing",
+  "category": "Medicine",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "dental-care-app",
+  "title": "Dental Care App",
+  "category": "Health App",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "innovation-lab",
+  "title": "Innovation Lab",
+  "category": "Technology",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "f1-driver-profile",
+  "title": "F1 Driver Profile",
+  "category": "Sports",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "creative-designer-portfolio",
+  "title": "Creative Designer Portfolio",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "gateway-portal",
+  "title": "Gateway Portal",
+  "category": "Landing page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "3d-story",
+  "title": "3D Story",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "bio-active",
+  "title": "Clarity Core",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "greentech-greentech",
+  "title": "Renewable greentech",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nimbusos-footer",
+  "title": "NimbusOS Footer",
+  "category": "Footer",
+  "is_free": true,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-driving-assistant",
+  "title": "AI Driving Assistant",
+  "category": "AI SaaS Website",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vaultshield",
+  "title": "VaultShield",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "jewelry-store",
+  "title": "Jewelry Store",
+  "category": "Ecommerce",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "visual-hero",
+  "title": "Visual Hero",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "dental-implant-clinic",
+  "title": "Dental Implant Clinic",
+  "category": "Healthcare",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "koru-tech-footer",
+  "title": "Koru Tech Footer",
+  "category": "Footer",
+  "is_free": true,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "clothes-rail",
+  "title": "Clothes Rail",
+  "category": "E-commerce",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "layered-depth",
+  "title": "Layered Depth",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "shadow-3d",
+  "title": "Shadow 3D",
+  "category": "Interactive 3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "no-code-waitlist",
+  "title": "No-Code Waitlist",
+  "category": "Waitlist",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "neon-logic",
+  "title": "Neon Logic",
+  "category": "Landing Page",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "scroll-marquee",
+  "title": "Scroll Marquee",
+  "category": "Marquee",
+  "is_free": false,
+  "type": "carousel",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "rocket-pricing",
+  "title": "Rocket Pricing",
+  "category": "Pricing",
+  "is_free": true,
+  "type": "pricing",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "velorix-iic",
+  "title": "Velorix IIC",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "yoga-coach",
+  "title": "Yoga Coach",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "luxury-real-estate",
+  "title": "Luxury Real Estate",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "sky-estate",
+  "title": "Sky Estate",
+  "category": "Real Estate",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "glitch-pulse",
+  "title": "Glitch Pulse",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "obsidian-hero",
+  "title": "Obsidian Hero",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mythic-naturecore",
+  "title": "Mythic Naturecore",
+  "category": "landing page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orbis-cta",
+  "title": "Orbis CTA",
+  "category": "CTA",
+  "is_free": false,
+  "type": "cta",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "bl",
+  "title": "Bloom",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "landing",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "guardnet-demo",
+  "title": "Guardnet Demo",
+  "category": "Info",
+  "is_free": false,
+  "type": "about",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "reading-library",
+  "title": "Reading Library",
+  "category": "Books",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "interior-features",
+  "title": "Interior Features",
+  "category": "Features",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "liquid-glass-features",
+  "title": "Liquid Glass Features",
+  "category": "Features",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "kova-testimonial",
+  "title": "Kova Testimonial",
+  "category": "Testimonial",
+  "is_free": false,
+  "type": "testimonials",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nexacore-control",
+  "title": "NexaCore Control",
+  "category": "Features",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nimbus-pricing",
+  "title": "NimBus Pricing",
+  "category": "Pricing",
+  "is_free": false,
+  "type": "pricing",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "luxury-botanical",
+  "title": "Luxury Botanical",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "shop",
+  "title": "Daisy Shop",
+  "category": "Ecommerce",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "wellness-balance",
+  "title": "Wellness Balance",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "agency-services",
+  "title": "Agency Services",
+  "category": "Services",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "404-planet",
+  "title": "404 Planet",
+  "category": "404",
+  "is_free": true,
+  "type": "404",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "axion-about",
+  "title": "Axion About",
+  "category": "About",
+  "is_free": true,
+  "type": "about",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "interactive-portfolio",
+  "title": "Interactive Portfolio",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "guardnet-benefits",
+  "title": "Guardnet Benefits",
+  "category": "Benefits",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "liquid-glass-cta",
+  "title": "Liquid Glass CTA",
+  "category": "CTA",
+  "is_free": true,
+  "type": "cta",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "learnly",
+  "title": "Learnly",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "book-hero",
+  "title": "Book Hero",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "global-cta-footer",
+  "title": "Global CTA Footer",
+  "category": "CTA",
+  "is_free": false,
+  "type": "cta",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "launchex-about",
+  "title": "LaunchEx About",
+  "category": "About",
+  "is_free": true,
+  "type": "about",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nimbus-grid",
+  "title": "Nimbus Grid",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "rocket-faq",
+  "title": "Rocket FAQ",
+  "category": "FAQ",
+  "is_free": false,
+  "type": "faq",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-image-generator-ui",
+  "title": "AI Image Generator UI",
+  "category": "AI",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cursor-follow",
+  "title": "Cursor Follow",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "futuristic-cinematic",
+  "title": "Futuristic Cinematic",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "intelligentx",
+  "title": "IntelligentX",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "outdoor-apparel",
+  "title": "Outdoor Apparel",
+  "category": "Fashion",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nexacore-process",
+  "title": "NexaCore Process",
+  "category": "Process",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "modern-hr-dashboard",
+  "title": "Modern HR Dashboard",
+  "category": "HR Management",
+  "is_free": false,
+  "type": "mobile",
+  "types": [
+   "mobile",
+   "dashboard"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "fun-404-page",
+  "title": "Fun 404 Page",
+  "category": "Education Website",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nimbus-demo",
+  "title": "Nimbus Demo",
+  "category": "Dashboard Demo",
+  "is_free": false,
+  "type": "dashboard",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "stillmind",
+  "title": "Stillmind",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "saas-value",
+  "title": "SaaS Value",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "projects-catalog",
+  "title": "Projects Catalog",
+  "category": "Projects",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "blog-showcase",
+  "title": "Blog Showcase",
+  "category": "Blog",
+  "is_free": true,
+  "type": "Blog",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "equilibrium",
+  "title": "Equilibrium",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "evergreen-finance",
+  "title": "Evergreen Finance",
+  "category": "Fintech",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "flowmate-carousal",
+  "title": "FlowMate Carousal",
+  "category": "Carousal",
+  "is_free": false,
+  "type": "carousel",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "minimal-workflow-saas",
+  "title": "Minimal Workflow SaaS",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mythic-vpn",
+  "title": "Mythic VPN",
+  "category": "VPN",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "aesthetic-dental-clinic",
+  "title": "Aesthetic Dental Clinic",
+  "category": "Healthcare",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "lead-funnel",
+  "title": "Lead Funnel",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "vision-reveal",
+  "title": "Vision Reveal",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "future-state",
+  "title": "Future-State",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "pixel-grid-hover",
+  "title": "Pixel Grid Hover",
+  "category": "Case Studies",
+  "is_free": true,
+  "type": "blog",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "financialfocus",
+  "title": "FinancialFocus",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "synthesis",
+  "title": "Synthesis",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "saas-pricing-flow",
+  "title": "SaaS Pricing Flow",
+  "category": "Pricing",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vertex-sci",
+  "title": "Vertex Sci",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "404",
+  "title": "Nexto 404",
+  "category": "404",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "beauty-categories",
+  "title": "Beauty Categories",
+  "category": "Categories",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cosmic",
+  "title": "Cosmic",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "inner-quest",
+  "title": "Inner Quest",
+  "category": "Mindfulness",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cybersecurity",
+  "title": "Cybersecurity",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "neural-interface",
+  "title": "Neural Interface",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "immersive-ocean",
+  "title": "Immersive Ocean",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "launchex-submissions",
+  "title": "LaunchEx Submissions",
+  "category": "Features",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "glassmorphic-feature-tabs",
+  "title": "Glassmorphic Feature Tabs",
+  "category": "Tabs",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nex-max-upgrade",
+  "title": "Nex Max Upgrade",
+  "category": "Pricing",
+  "is_free": false,
+  "type": "pricing",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "tech-noir-about",
+  "title": "Tech-Noir About",
+  "category": "About",
+  "is_free": true,
+  "type": "about",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "travel-hero",
+  "title": "Scenic Travel",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "3d-studio-pricing",
+  "title": "3D Studio Pricing",
+  "category": "Pricing",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "apex-program-accordion",
+  "title": "Apex Program Accordion",
+  "category": "Accordion",
+  "is_free": false,
+  "type": "faq",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cinematic-brand",
+  "title": "Cinematic Brand",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "audio-showcase",
+  "title": "Audio Showcase",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "digital-experiences",
+  "title": "Digital Experiences",
+  "category": "Landing Page",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "eco-intelligence",
+  "title": "Eco Intelligence",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "aurora-onboard",
+  "title": "Aurora Onboard",
+  "category": "Sign Up",
+  "is_free": true,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "investment-hero",
+  "title": "Investment Gate",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "naturecore-saas",
+  "title": "Naturecore SaaS",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orbis-cards",
+  "title": "Orbis Cards",
+  "category": "Cards",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "solace-sign-in",
+  "title": "Solace sign-in",
+  "category": "Sign In Form",
+  "is_free": false,
+  "type": "form",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "model-infrastructure",
+  "title": "Model Infrastructure",
+  "category": "Developer Platform",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "build-with-us",
+  "title": "Build With Us",
+  "category": "Contact us",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "conversion",
+  "title": "Conversion",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cybersecurity-hero-v2",
+  "title": "Cybersecurity Hero v2",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cybersecurity-hero",
+  "title": "Cybersecurity Hero",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "feedback-slider",
+  "title": "Feedback Slider",
+  "category": "Slider",
+  "is_free": false,
+  "type": "carousel",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "luminara",
+  "title": "Luminara",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "wellness-device",
+  "title": "Wellness Devicex",
+  "category": "Health",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "growth-marketing-saas",
+  "title": "Growth Marketing SaaS",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cosmos-interface",
+  "title": "Cosmos Interface",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "remit-race",
+  "title": "Remit Race",
+  "category": "Fintech",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "venture-fund",
+  "title": "Venture Fund",
+  "category": "Finance",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "fashion-lookbook",
+  "title": "Fashion Lookbook",
+  "category": "Fashion",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "balloon-drop",
+  "title": "Balloon Drop",
+  "category": "Ecommerce",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "crystal-scroll",
+  "title": "Crystal Scroll",
+  "category": "Fintech",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "film-discs",
+  "title": "Film Discs",
+  "category": "Entertainment",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "building-atlas",
+  "title": "Building Atlas",
+  "category": "Architecture",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "athlete-profile",
+  "title": "Athlete Profile",
+  "category": "Sports",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "video-editor",
+  "title": "Video Editor",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ink-portfolio",
+  "title": "Ink Portfolio",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "video-studio",
+  "title": "Video Studio",
+  "category": "Agency",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "sphere-gallery",
+  "title": "Sphere Gallery",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "laptop-portfolio",
+  "title": "Laptop Portfolio",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "look-circle",
+  "title": "Look Circle",
+  "category": "Ecommerce",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "beauty-studio",
+  "title": "Beauty Studio",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "koi-pond",
+  "title": "Koi Pond",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "dark-portfolio",
+  "title": "Dark Portfolio",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "sea-ring",
+  "title": "Sea Ring",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "paper-craft",
+  "title": "Paper Craft",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "style-studio",
+  "title": "Style Studio",
+  "category": "Ecommerce",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "photo-globe",
+  "title": "Photo Globe",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "book-shelf",
+  "title": "Book Shelf",
+  "category": "Publishing",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "chef-stack",
+  "title": "Chef Stack",
+  "category": "Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "runway-look",
+  "title": "Runway Look",
+  "category": "Ecommerce",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "crystal-scroll-v2",
+  "title": "Crystal Scroll",
+  "category": "Fintech",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "outfit-builder",
+  "title": "Outfit Builder",
+  "category": "Ecommerce",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "kids-store",
+  "title": "Kids Store",
+  "category": "E-commerce",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "virtual-store",
+  "title": "Virtual Store",
+  "category": "E-commerce",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "spatial-closet",
+  "title": "Spatial Closet",
+  "category": "Dashboard",
+  "is_free": true,
+  "type": "dashboard",
+  "types": [
+   "dashboard"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "poke-builder",
+  "title": "Poke Builder",
+  "category": "Ecommerce",
+  "is_free": true,
+  "type": "dashboard",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "boutique-rail",
+  "title": "Boutique Rail",
+  "category": "Fashion",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "church-community",
+  "title": "Church Community",
+  "category": "Church",
+  "is_free": true,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "fine-jewelry-shop",
+  "title": "Fine Jewelry Shop",
+  "category": "Ecommerce",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-automation",
+  "title": "AI Automation",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "aerocore",
+  "title": "AeroCore",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "3d-collectible-hero",
+  "title": "3D Collectible Hero",
+  "category": "3D Website",
+  "is_free": true,
+  "type": "3D Website",
+  "types": [
+   "3d-website",
+   "hero"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-calorie-tracker",
+  "title": "AI Calorie Tracker",
+  "category": "Health",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "arceage-contact-us",
+  "title": "Arceage Contact Us",
+  "category": "Form",
+  "is_free": false,
+  "type": "form",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "arceage-testimonial",
+  "title": "Arceage Testimonial",
+  "category": "Testimonials",
+  "is_free": false,
+  "type": "testimonials",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cognitra-offer",
+  "title": "Cognitra Offer",
+  "category": "Cards",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "botanical-shadow-about",
+  "title": "Botanical Shadow About",
+  "category": "About",
+  "is_free": false,
+  "type": "about",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "bookedup",
+  "title": "BookedUp",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "bio-digital",
+  "title": "Bio-Digital",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cinematic-landing-page",
+  "title": "Cinematic Landing Page",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "auramail",
+  "title": "AuraMail",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "bento-grid-stats",
+  "title": "Bento Grid Stats",
+  "category": "Bento",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "beauty-products",
+  "title": "Beauty Products",
+  "category": "Products",
+  "is_free": false,
+  "type": "carousel",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "wellness-hero",
+  "title": "Wellness Hero",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "animated-cards",
+  "title": "Animated Cards",
+  "category": "Component",
+  "is_free": true,
+  "type": "carousel",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "arceage-stats",
+  "title": "Arceage Stats",
+  "category": "Stats",
+  "is_free": true,
+  "type": "stats",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "apex-pulse",
+  "title": "Apex Pulse",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "arceage-services",
+  "title": "Arceage Services",
+  "category": "Services",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cognitra-feature",
+  "title": "Cognitra Feature",
+  "category": "Feature",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "coffee-rewards",
+  "title": "Coffee Rewards",
+  "category": "Loyalty App",
+  "is_free": true,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cargo-group",
+  "title": "Cargo Group",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "faq-cta",
+  "title": "FAQ CTA",
+  "category": "CTA",
+  "is_free": true,
+  "type": "cta",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "futuristic-tech",
+  "title": "Futuristic Tech",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "unwind-hero",
+  "title": "Unwind Hero",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "email-landing-page",
+  "title": "Email Landing Page",
+  "category": "Landing page",
+  "is_free": true,
+  "type": "landing",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "dashboard",
+  "title": "Dashboard UI",
+  "category": "Dashboard",
+  "is_free": false,
+  "type": "dashboard",
+  "types": [
+   "dashboard"
+  ],
+  "page_type": "landing"
+ },
+ {
+  "id": "editorial-collection-cta",
+  "title": "Editorial Collection CTA",
+  "category": "CTA",
+  "is_free": false,
+  "type": "cta",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "creative-studio",
+  "title": "Creative Studio",
+  "category": "Agency",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "creative-portfolio",
+  "title": "Creative Portfolio",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "creative-agency",
+  "title": "Creative Agency",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": [
+   "3d-website",
+   "landing-page"
+  ],
+  "page_type": "landing"
+ },
+ {
+  "id": "features",
+  "title": "Capabilities Overview",
+  "category": "Features",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cozypaws",
+  "title": "CozyPaws",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "finflow",
+  "title": "FinFlow",
+  "category": "Fintech",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "daisy-sweet",
+  "title": "Daisy Sweet",
+  "category": "Product",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "daisy-wild",
+  "title": "Daisy Wild",
+  "category": "Product",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "footballer-portfolio",
+  "title": "Footballer Portfolio",
+  "category": "Sports",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "bite-sized-courses",
+  "title": "Bite-Sized Courses",
+  "category": "Learning",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "financial-suite",
+  "title": "Financial Suite",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "data-storytelling",
+  "title": "Data Storytelling",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "adhd-planner",
+  "title": "ADHD Planner",
+  "category": "App",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "forecast-center",
+  "title": "Forecast Center",
+  "category": "Utility",
+  "is_free": true,
+  "type": "mobile",
+  "types": [
+   "mobile",
+   "dashboard"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-trip-planner",
+  "title": "AI Trip Planner",
+  "category": "Travel",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "arctic-lab",
+  "title": "Arctic Lab",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "routine-coach",
+  "title": "Routine Coach",
+  "category": "Wellness",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "personal-showcase",
+  "title": "Personal Showcase",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "automotive-ai",
+  "title": "Automotive AI",
+  "category": "Driving",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "avant-studio",
+  "title": "Avant Studio",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "cleantech",
+  "title": "CleanTech",
+  "category": "Sustainability",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "deep-neural-interface",
+  "title": "Deep Neural Interface",
+  "category": "Artificial Intelligence",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "editorial-eyewear",
+  "title": "Editorial Eyewear",
+  "category": "Fashion",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "sentinel",
+  "title": "Sentinel",
+  "category": "Cybersecurity",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "trustflow",
+  "title": "TrustFlow",
+  "category": "Finance",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cloud-kicks",
+  "title": "Cloud Kicks",
+  "category": "Fashion",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "augmented-sight",
+  "title": "Augmented Sight",
+  "category": "Technology",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "futuristic-eyewear",
+  "title": "Futuristic Eyewear",
+  "category": "Ecommerce",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "neo-museum",
+  "title": "Neo Museum",
+  "category": "Website",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "oyla",
+  "title": "OYLA",
+  "category": "Ecommerce",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "performance-eyewear",
+  "title": "Performance Eyewear",
+  "category": "Ecommerce",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "product-studio",
+  "title": "Product Studio",
+  "category": "Agency Website",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "pulse-3d",
+  "title": "Pulse 3D",
+  "category": "3D Website",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "spatial-mapping-platform",
+  "title": "Spatial Mapping Platform",
+  "category": "Data",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "cobalt-hour",
+  "title": "Cobalt Hour",
+  "category": "Fintech",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "3d-property",
+  "title": "3D Property",
+  "category": "Real Estate",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "digital-director",
+  "title": "Digital Director",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "form-study",
+  "title": "Form Study",
+  "category": "Art",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "website-builder",
+  "title": "Website Builder",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "robot-battle-arena",
+  "title": "Robot Battle Arena",
+  "category": "Game UI",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "remote-dev-collective",
+  "title": "Remote Dev Collective",
+  "category": "Agency Website",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "intelligent-operations",
+  "title": "Intelligent Operations",
+  "category": "Agency",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "creator-guild",
+  "title": "Creator Guild",
+  "category": "Community",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "sweet-question",
+  "title": "Sweet Question",
+  "category": "Events",
+  "is_free": false,
+  "type": "mobile",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "build-unit",
+  "title": "Build Unit",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "skybridge-404",
+  "title": "Skybridge 404",
+  "category": "404",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "synth-mode",
+  "title": "Synth Mode",
+  "category": "Fashion",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "silent-velocity",
+  "title": "Silent Velocity",
+  "category": "Technology",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "golden-portal",
+  "title": "Golden Portal",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "breathstone",
+  "title": "Breathstone",
+  "category": "Wellness",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "halo-sound",
+  "title": "Halo Sound",
+  "category": "Ecommerce",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "agent-grove",
+  "title": "Agent Grove",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "bitcoin-yield",
+  "title": "Bitcoin Yield",
+  "category": "Crypto",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "sparkform",
+  "title": "Sparkform",
+  "category": "Creative",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mostar-guide",
+  "title": "Mostar Guide",
+  "category": "Travel",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ink-dynasty",
+  "title": "Ink Dynasty",
+  "category": "Culture",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nomi-ai-agent",
+  "title": "Nomi AI Agent",
+  "category": "AI",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "macos-widget",
+  "title": "macOS widget",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "performance-run",
+  "title": "Performance Run",
+  "category": "Fitness",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "signal-id",
+  "title": "Signal ID",
+  "category": "Technology",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "coastal-estate",
+  "title": "Coastal Estate",
+  "category": "Real Estate",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-companions",
+  "title": "AI Companions",
+  "category": "AI",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "talent-collective",
+  "title": "Talent Collective",
+  "category": "Agency",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "data-relay",
+  "title": "Data Relay",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "intelligence-layer",
+  "title": "Intelligence Layer",
+  "category": "Technology",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "tokyo-nocturne",
+  "title": "Tokyo Nocturne",
+  "category": "Lifestyle",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "sea-serenade",
+  "title": "Sea Serenade",
+  "category": "Lifestyle",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "task-engine",
+  "title": "Task Engine",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-film-studio",
+  "title": "AI Film Studio",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "motion-frame",
+  "title": "Motion Frame",
+  "category": "Film",
+  "is_free": false,
+  "type": "landing-page",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mindful-companion",
+  "title": "Mindful Companion",
+  "category": "Wellness",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "autonomous-ops",
+  "title": "Autonomous Ops",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "open-agent",
+  "title": "Open Agent",
+  "category": "AI",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "intelligent-systems",
+  "title": "Intelligent Systems",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "landing-page",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "agent-crew",
+  "title": "Agent Crew",
+  "category": "AI",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orbit-flora",
+  "title": "Orbit Flora",
+  "category": "AI",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "data-signal",
+  "title": "Data Signal",
+  "category": "Analytics",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cyber-layer",
+  "title": "Cyber Layer",
+  "category": "Cybersecurity",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-runtime",
+  "title": "AI Runtime",
+  "category": "AI",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "worldwide-hubs",
+  "title": "Worldwide Hubs",
+  "category": "Business",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "deepthink",
+  "title": "DeepThink",
+  "category": "AI Assistant",
+  "is_free": true,
+  "type": "landing-page",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "relocation-card",
+  "title": "Relocation Card",
+  "category": "Finance",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "systema",
+  "title": "Systema",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "landing-page",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "frontier",
+  "title": "Frontier",
+  "category": "Finance",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cardia-3d",
+  "title": "Cardia 3D",
+  "category": "Medical",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "sky-cookie",
+  "title": "Sky Cookie",
+  "category": "Food",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "real-time-alerts",
+  "title": "Real-Time Alerts",
+  "category": "Sign in",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "growth-analytics",
+  "title": "Growth Analytics",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mountain-retreat",
+  "title": "Mountain Retreat",
+  "category": "Travel",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "pet-diagnostics",
+  "title": "Pet Diagnostics",
+  "category": "Healthcare",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "3d-bloom-layer",
+  "title": "3D Bloom Layer",
+  "category": "Analytics",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "spectrum-grid",
+  "title": "Spectrum Grid",
+  "category": "Technology",
+  "is_free": false,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "growth-decisions",
+  "title": "Growth Decisions",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-future-studio",
+  "title": "AI Future Studio",
+  "category": "Creative",
+  "is_free": false,
+  "type": "landing-page",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "planetary-pulse",
+  "title": "Planetary Pulse",
+  "category": "Science",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "glass-orb",
+  "title": "Glass Orb",
+  "category": "Threejs",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ascera-ai",
+  "title": "Ascera AI",
+  "category": "AI Technology",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nature-ritual",
+  "title": "Nature Ritual",
+  "category": "Wellness",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "aurex-finance",
+  "title": "Aurex Finance",
+  "category": "Fintech",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "global-hubs",
+  "title": "Global Hubs",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "agent-wave",
+  "title": "Agent Wave",
+  "category": "AI",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "3d-future-flora",
+  "title": "3D Future Flora",
+  "category": "threejs",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ai-cyber-defense",
+  "title": "AI Cyber Defense",
+  "category": "Security",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "quantum-core",
+  "title": "Quantum Core",
+  "category": "Data Intelligence",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "buildshield",
+  "title": "BuildShield",
+  "category": "Construction",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "terravision",
+  "title": "TerraVision",
+  "category": "Nature",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "angel-shield",
+  "title": "Angel Shield",
+  "category": "Security",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "palomar-labs",
+  "title": "Palomar Labs",
+  "category": "AI",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "pixel-muse",
+  "title": "Pixel Muse",
+  "category": "Creative Studio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "creative-matter",
+  "title": "Creative Matter",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "rare-gallery",
+  "title": "Rare Gallery",
+  "category": "Curated",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nexa-talent",
+  "title": "Nexa Talent",
+  "category": "Recruitment",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "scaling-platform",
+  "title": "Scaling Platform",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "arc-summit",
+  "title": "arc Summit",
+  "category": "Cyberpunk",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vectrus-energy",
+  "title": "Vectrus Energy",
+  "category": "Editorial",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "obsidian",
+  "title": "Obsidian",
+  "category": "Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "geno-trace",
+  "title": "Geno Trace",
+  "category": "Technology",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "crypto-vault",
+  "title": "Crypto Vault",
+  "category": "Fintech",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "3d-character-studio",
+  "title": "3D Character Studio",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mistveil",
+  "title": "Mistveil",
+  "category": "Footer",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "skyflora",
+  "title": "Skyflora",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "gridcore",
+  "title": "Gridcore",
+  "category": "Features",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "quantum-lucid",
+  "title": "Quantum Lucid",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "global-gateway",
+  "title": "Global gateway",
+  "category": "Communication",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "fastshot",
+  "title": "Fastshot",
+  "category": "AI",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nietzsche-sustainibilty",
+  "title": "Nietzsche sustainibilty",
+  "category": "Footer",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vela-ul",
+  "title": "Vela Ul",
+  "category": "Features",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "space-planet",
+  "title": "Space planet",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nex-robotics",
+  "title": "NEX Robotics",
+  "category": "Technology",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "northstar",
+  "title": "Northstar",
+  "category": "Agency",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "peakline-redshift",
+  "title": "Peakline Redshift",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "skytrace",
+  "title": "Skytrace",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cyber-ronin",
+  "title": "Cyber Ronin",
+  "category": "Technology",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "wealthcore",
+  "title": "Wealthcore",
+  "category": "Fintech",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mindora",
+  "title": "Mindora",
+  "category": "Wellness",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "junglemind",
+  "title": "JungleMind",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "global-talent",
+  "title": "Global Talent",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "codeveil",
+  "title": "Codeveil",
+  "category": "Developer",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "heritage-grove",
+  "title": "Heritage Grove",
+  "category": "Footer",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vintage-care",
+  "title": "Vintage Care",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "trueearth",
+  "title": "TrueEarth",
+  "category": "Environmental",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "frostbound",
+  "title": "Frostbound",
+  "category": "Travel",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cosmic-mapping",
+  "title": "Cosmic Mapping",
+  "category": "AI",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "human-machine",
+  "title": "Human Machine",
+  "category": "AI",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "intelligent-performance",
+  "title": "Intelligent Performance",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "digital-persona",
+  "title": "Digital Persona",
+  "category": "Social",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "playful-idea",
+  "title": "Playful Idea",
+  "category": "Creative Agency",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "celestix",
+  "title": "Celestix",
+  "category": "Space",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ltx-video",
+  "title": "LTX Video",
+  "category": "E-coommerce",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "havenorbi",
+  "title": "HAVENORBI",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vitalis",
+  "title": "Vitalis",
+  "category": "Med",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vinyl",
+  "title": "Vinyl",
+  "category": "Music",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "way-farer",
+  "title": "Way Farer",
+  "category": "Travel",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orange-horse",
+  "title": "Orange Horse",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cast-and-render",
+  "title": "Cast and Render",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "veyra-electric",
+  "title": "Veyra Electric",
+  "category": "Automative",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ascend",
+  "title": "Ascend",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "alethia",
+  "title": "Alethia",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cordex",
+  "title": "Cordex",
+  "category": "Manufacturing",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "keel",
+  "title": "Keel",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "sur-face",
+  "title": "Sur(face)",
+  "category": "Model",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orbit-stickers",
+  "title": "Orbit Stickers",
+  "category": "Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "monolithic",
+  "title": "Monolithic",
+  "category": "Luxury",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "undr-drift",
+  "title": "Undr Drift",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vertex",
+  "title": "Vertex",
+  "category": "Ecommerce",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orla-fashion",
+  "title": "Orla Fashion",
+  "category": "Fashion",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "sellix",
+  "title": "Sellix",
+  "category": "Fintech",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "axle-journey",
+  "title": "Axle Journey",
+  "category": "Dashboard",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mind-ai",
+  "title": "Mind AI",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nature-portfolio",
+  "title": "Nature Portfolio",
+  "category": "Photography",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "humanoid-flow",
+  "title": "Humanoid Flow",
+  "category": "Web3",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nebula-hero",
+  "title": "Nebula Hero",
+  "category": "Space",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "lunar-carousel",
+  "title": "Lunar Carousel",
+  "category": "Draggable",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "monolith-hero",
+  "title": "Monolith Hero",
+  "category": "Architecture",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nox-grid",
+  "title": "NOX Grid",
+  "category": "Footer",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "gold-standard",
+  "title": "Gold Standard",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "react-vision",
+  "title": "React Vision",
+  "category": "Technology",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nival-cyberspace",
+  "title": "ConSentinel",
+  "category": "Motion",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "anchor-ai",
+  "title": "Anchor AI",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "quantum-human",
+  "title": "Quantum Human",
+  "category": "AI",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "future-machine",
+  "title": "Future Machine",
+  "category": "Robotics",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "future-3d-portfolio",
+  "title": "Future 3D Portfolio",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "neural-pathway",
+  "title": "Neural Pathway",
+  "category": "Agency",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "particle-field",
+  "title": "Particle Field",
+  "category": "WebGL Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "menuchi",
+  "title": "Menuchi",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "consentinel",
+  "title": "Nival Cyberspace",
+  "category": "Personal",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ancient-oath",
+  "title": "Ancient Oath",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "dj-zakderdan",
+  "title": "DJ ZakDerdan",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "avelon-drive",
+  "title": "Avelon Drive",
+  "category": "Cars",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "golden-identity",
+  "title": "Golden Identity",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "space-voyage",
+  "title": "Space Voyage",
+  "category": "Creative",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "knowsugar",
+  "title": "KnowSugar",
+  "category": "Healthcare",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "verkos-robotics",
+  "title": "Verkos Robotics",
+  "category": "Robotics",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "kernel-code",
+  "title": "Kernel Code",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "frozen-cave",
+  "title": "Frozen Cave",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "grid-runner",
+  "title": "Grid Runner",
+  "category": "Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "wayfinder",
+  "title": "Wayfinder",
+  "category": "Footer",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "hover-ink",
+  "title": "Hover Ink",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "plume",
+  "title": "Plume",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "atlas-nav",
+  "title": "Atlas Nav",
+  "category": "Navbar",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nimbus-ai",
+  "title": "Nimbus AI",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "kairo-studio",
+  "title": "Kairo Studio",
+  "category": "Reveal",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "jelly-garden",
+  "title": "Jelly Garden",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "stridr",
+  "title": "Stridr",
+  "category": "Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "camper-overnight",
+  "title": "Camper Overnight",
+  "category": "Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "octopus-mentality",
+  "title": "Octopus Mentality",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "logistics-freight",
+  "title": "Logistics Freight",
+  "category": "Supply",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "pulse",
+  "title": "Pulse",
+  "category": "Fintech",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "draftwise",
+  "title": "Draftwise",
+  "category": "AI",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "atelier-unit",
+  "title": "Atelier Unit",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "fin-coin",
+  "title": "Fin Coin",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "atrium-mtl",
+  "title": "Atrium MTL",
+  "category": "Art",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nouver",
+  "title": "Nouver",
+  "category": "AI Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "riverine",
+  "title": "Riverine",
+  "category": "Tech",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "dream-garden",
+  "title": "Dream Garden",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "octaform",
+  "title": "OctaForm",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vexela",
+  "title": "Vexel",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ascii-studio",
+  "title": "ASCII Studio",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "frame-futures",
+  "title": "Frame Futures",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cosmo-forge",
+  "title": "Cosmo Forge",
+  "category": "AI",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "parallex",
+  "title": "Parallex",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "octo-studio",
+  "title": "Octo Studio",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "go-on-white",
+  "title": "Go On, White",
+  "category": "Design",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "inknomad",
+  "title": "Inknomad",
+  "category": "Game Menu",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "specimen",
+  "title": "Specimen",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "moss-valley",
+  "title": "Moss Valley",
+  "category": "3D Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "michelle-3d-portfolio",
+  "title": "Michelle 3D portfolio",
+  "category": "Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "anveril",
+  "title": "Anveril",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "agehana",
+  "title": "Agehana",
+  "category": "3D Character",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "synapticforge",
+  "title": "SynapticForge",
+  "category": "Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "halcyonn",
+  "title": "Halcyonn",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "lost-little-explorer",
+  "title": "Lost Little Explorer",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "roadster",
+  "title": "Roadster",
+  "category": "Game",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "peculiar-atelier",
+  "title": "Peculiar Atelier",
+  "category": "Interactive",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "design-world",
+  "title": "Design World",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "autumn-fox",
+  "title": "Autumn Fox",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "genovera",
+  "title": "Genovera",
+  "category": "Healthcare",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "arctis",
+  "title": "Arctis",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "honey-bee",
+  "title": "Honey Bee",
+  "category": "Creative",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "roadster-3d",
+  "title": "Roadster 3D",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "sakura-qr",
+  "title": "Sakura QR",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ridgeai",
+  "title": "RidgeAI",
+  "category": "AI Builder",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "keylight",
+  "title": "Keylight",
+  "category": "Authentication",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "skyra-ai",
+  "title": "Skyra AI",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "kairn",
+  "title": "KAIRN",
+  "category": "Ski Gear",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "wander-far",
+  "title": "Wander Far",
+  "category": "Travel",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "glint",
+  "title": "Glint",
+  "category": "Fintech",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "eclipsio",
+  "title": "Eclipsio",
+  "category": "Portfolio Builder",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "meadowbell",
+  "title": "Meadowbell",
+  "category": "Kids Show",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "abyss-atlas",
+  "title": "Abyss Atlas",
+  "category": "3D Viewer",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "murmur",
+  "title": "murmur",
+  "category": "Podcast",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "corvana-ai",
+  "title": "Corvana AI",
+  "category": "Healthcare AI",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "skyprompt",
+  "title": "Skyprompt",
+  "category": "AI Course",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "reelmark-v2",
+  "title": "Reelmark",
+  "category": "Creator Platform",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "gridwork-co",
+  "title": "Gridwork Co",
+  "category": "Onboarding",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "plush-sky-den",
+  "title": "Plush Sky Den",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "lumora-skyranger",
+  "title": "Lumora Skyranger",
+  "category": "3D Character",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "cutora",
+  "title": "Cutora",
+  "category": "Login Page",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "lauberhorn-ridge",
+  "title": "Lauberhorn Ridge",
+  "category": "Hiking App",
+  "is_free": true,
+  "type": "hero",
+  "types": [
+   "hero",
+   "dashboard"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "particle-self",
+  "title": "Particle Self",
+  "category": "Scroll-Driven 3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "halden-stories",
+  "title": "Halden Stories",
+  "category": "Interactive Map",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "zentrade-faq",
+  "title": "ZENTRADE FAQ",
+  "category": "FAQ Page",
+  "is_free": true,
+  "type": "faq",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ember-studio",
+  "title": "Ember Studio",
+  "category": "Footer",
+  "is_free": false,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vantix-footer",
+  "title": "Vantix Footer",
+  "category": "Footer",
+  "is_free": true,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "capabilities",
+  "title": "Capabilities",
+  "category": "Features",
+  "is_free": true,
+  "type": "cta",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "find-your-stay",
+  "title": "Find Your Stay",
+  "category": "Rental Landing",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orris-footer",
+  "title": "ORRIS Footer",
+  "category": "Footer",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "rovin-footer",
+  "title": "Rovin Footer",
+  "category": "Travel Fintech",
+  "is_free": true,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "synthora-hero",
+  "title": "Synthora Hero",
+  "category": "AI SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "shipcraft-footer",
+  "title": "Shipcraft Footer",
+  "category": "Footer",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mindora-hero",
+  "title": "Mindora Hero",
+  "category": "Mental Health",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "toka-hero",
+  "title": "TOKA",
+  "category": "Creative Studio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "onon-partners-hero",
+  "title": "ON&ON Partners Hero",
+  "category": "Affiliate",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nuvo-landing",
+  "title": "nuvo",
+  "category": "Fintech Landing",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "seed-ark-hero",
+  "title": "Seed Ark",
+  "category": "Investment",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mk-consulting-hero",
+  "title": "MK Consulting",
+  "category": "Legal Studio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vexa-studio",
+  "title": "Vexa Studio",
+  "category": "Agency Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "smart-pricing",
+  "title": "Smart Pricing",
+  "category": "Pricing",
+  "is_free": false,
+  "type": "pricing",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "veilguard-cta",
+  "title": "VeilGuard CTA",
+  "category": "Cybersecurity",
+  "is_free": true,
+  "type": "cta",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "iris-assistant",
+  "title": "Iris Assistant",
+  "category": "AI Assistant",
+  "is_free": true,
+  "type": "dashboard",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "yondering-hero",
+  "title": "yondering. Hero",
+  "category": "Travel",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "elo-one-results",
+  "title": "Elo One Results",
+  "category": "Agency",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "atlas-lab",
+  "title": "Atlas Lab Features",
+  "category": "AI Research",
+  "is_free": true,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vertex3d-login",
+  "title": "Vertex3D Login",
+  "category": "Login Page",
+  "is_free": true,
+  "type": "login-sign-up",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "zapline-cta",
+  "title": "Zapline",
+  "category": "Trading App",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vexor-cta",
+  "title": "Vexor CTA",
+  "category": "Fintech",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "zeno-bank",
+  "title": "zeno",
+  "category": "Fintech Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "maren-hero",
+  "title": "MAREN Hero",
+  "category": "Fashion",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "halora",
+  "title": "Halora",
+  "category": "Wearables",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vocari-hero",
+  "title": "Vocari Hero",
+  "category": "AI Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vaultra-hero",
+  "title": "Vaultra Hero",
+  "category": "Crypto Hero",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "moxly-hero",
+  "title": "Moxly",
+  "category": "Finance App",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "teeshift-login",
+  "title": "Teeshift Login",
+  "category": "Login Page",
+  "is_free": false,
+  "type": "login-sign-up",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "smarter-growth",
+  "title": "Smarter Growth",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ledgely",
+  "title": "Ledgely",
+  "category": "Finance App",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "fundora",
+  "title": "Fundora",
+  "category": "Fintech CTA",
+  "is_free": false,
+  "type": "cta",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "fintora-signup",
+  "title": "Fintora Signup",
+  "category": "Signup Page",
+  "is_free": false,
+  "type": "login-sign-up",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "good-fox-hover",
+  "title": "Good Fox Hover",
+  "category": "Hover",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "petalyx",
+  "title": "Petalyx",
+  "category": "Creative",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "freight-scroll-hero",
+  "title": "Freight Scroll Hero",
+  "category": "Logistics",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "lena-varga-hero",
+  "title": "Lena Varga Hero",
+  "category": "3D Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "stellarmind-hero",
+  "title": "StellarMind Hero",
+  "category": "AI Product",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "terrena",
+  "title": "Terrena",
+  "category": "Tech",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "freight-services-hero",
+  "title": "Freight Services Hero",
+  "category": "Logistics",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "norva-staffing-hero",
+  "title": "Norva Staffing Hero",
+  "category": "Staffing",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "maya-lind-profile",
+  "title": "Maya Lind Profile",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "lumora",
+  "title": "Lumora",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vela-terms-hero",
+  "title": "Vela Terms Hero",
+  "category": "Crypto",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "verra-events-hero",
+  "title": "Verra Events Hero",
+  "category": "Community",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "ink-reveal",
+  "title": "Ink Reveal",
+  "category": "Hover",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "axon",
+  "title": "AXON",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "velia",
+  "title": "Velia",
+  "category": "Editorial",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "facet-glass-hero",
+  "title": "Facet Glass",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "loops-virtual-store",
+  "title": "Loops Virtual Store",
+  "category": "3D Store",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "custom-spaces",
+  "title": "Custom Spaces",
+  "category": "Design",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orvante-agency",
+  "title": "Orvante Agency",
+  "category": "Agency",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "offline-footer",
+  "title": "Offline",
+  "category": "Footer",
+  "is_free": true,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "velaris",
+  "title": "Velaris",
+  "category": "Cybersecurity",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "feathers-atlas",
+  "title": "Feathers Atlas",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "finsmith",
+  "title": "FinSmith",
+  "category": "Motion Design",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "oda-nobunaga-hero",
+  "title": "Oda Hero",
+  "category": "History",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nova-agent-hero",
+  "title": "Agent Hero",
+  "category": "AI",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "tide-engraving-footer",
+  "title": "Tide Footer",
+  "category": "Footer",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "wild-pill-hero",
+  "title": "Wild Pil",
+  "category": "Travel",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "scree-backpack-hero",
+  "title": "Backpack Hero",
+  "category": "E-commerce",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "tana-elephant-sections",
+  "title": "Tana Elephant",
+  "category": "Travel",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "lifeline-sun-hero",
+  "title": "Sun Timeline",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "distill-comparison",
+  "title": "Scanner Comparison",
+  "category": "AI",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nightmast-studio",
+  "title": "Internet Alchemist",
+  "category": "Creative",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "hollowmere-halloween",
+  "title": "Hollowmere Halloween Descent",
+  "category": "Halloween",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "halden-port-hero",
+  "title": "Halden AI Teammate Hero",
+  "category": "AI",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vasari-vhs-hero",
+  "title": "Shelf Hero",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nightmast-3dstudio",
+  "title": "Nightmast Studio",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "halvoy-fjord-hero",
+  "title": "Halvøy Nordic Cabin Site",
+  "category": "Travel",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "kindred-dots-hero",
+  "title": "Kindred Dot Hands Hero",
+  "category": "Community",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "folio-books-hero",
+  "title": "Bookshop",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "kinova",
+  "title": "Kinova",
+  "category": "Motion Design",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "phoenix-ignis",
+  "title": "Phoenix ignis",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "saltwake-pirate-hero",
+  "title": "Pirate Ship",
+  "category": "Travel",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "redline-mars-hero",
+  "title": "Mars Trips",
+  "category": "Travel",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "saffron-field",
+  "title": "Saffron Field",
+  "category": "Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "living-portrait-hero",
+  "title": "Living Portrait",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "helion-dispatch",
+  "title": "Helion Dispatch",
+  "category": "AI",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vante-ribbon-hero",
+  "title": "Video Ribbon",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "lumen-roof-hero",
+  "title": "Solar Fog",
+  "category": "Interactive",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "aurelis-infinite-gallery",
+  "title": "Infinite Gallery",
+  "category": "Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vell-lookbook",
+  "title": "Runway Lookbook",
+  "category": "Interactive",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "car-atelier",
+  "title": "Car Atelier",
+  "category": "Automotive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "halo-prism",
+  "title": "Halo Prism",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "driftlab-hero",
+  "title": "Jellyfish Scroll",
+  "category": "Interactive",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nously-brain",
+  "title": "Particle Brain",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "solace-faq",
+  "title": "Halftone FAQ",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "fernhollow",
+  "title": "Flower Valley",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "found-spider",
+  "title": "Spider Web",
+  "category": "Interactive",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "seedwell-hero",
+  "title": "Glass Tree",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orbit-sphere",
+  "title": "Orbit Sphere",
+  "category": "Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "pink-rider",
+  "title": "Pink Rider",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "virtual-fitting",
+  "title": "Virtual Fitting",
+  "category": "Ecommerce",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "crystal-koi",
+  "title": "Crystal Koi",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vhs-archive",
+  "title": "VHS Archive",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "outfit-carousel",
+  "title": "Outfit Carousel",
+  "category": "Ecommerce",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "moss-island",
+  "title": "Moss Island",
+  "category": "SaaS",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "bio-age-dashboard",
+  "title": "Bio-Age Dashboard",
+  "category": "Hero",
+  "is_free": false,
+  "type": "hero",
+  "types": [
+   "hero",
+   "dashboard"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "heart-health-dashboard",
+  "title": "Heart Health Dashboard",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": [
+   "hero",
+   "dashboard"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "finance-assistant",
+  "title": "Finance Assistant",
+  "category": "Fintech",
+  "is_free": false,
+  "type": "mobile",
+  "types": [
+   "mobile",
+   "dashboard"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "fitness-dashboard",
+  "title": "Fitness Dashboard",
+  "category": "Wellness",
+  "is_free": false,
+  "type": "mobile",
+  "types": [
+   "mobile",
+   "dashboard"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "freight-command",
+  "title": "Freight Command",
+  "category": "Logistics",
+  "is_free": false,
+  "type": "mobile",
+  "types": [
+   "mobile",
+   "dashboard"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "medusa-jellyfish-hero",
+  "title": "Robot Jellyfish",
+  "category": "3D",
+  "is_free": true,
+  "type": "hero",
+  "types": [
+   "hero",
+   "dashboard"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "social-hangouts",
+  "title": "Social Hangouts",
+  "category": "Community App",
+  "is_free": false,
+  "type": "mobile",
+  "types": [
+   "mobile",
+   "social-media"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "main-character",
+  "title": "Main Character",
+  "category": "Fashion",
+  "is_free": true,
+  "type": "social-media",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "outfit-drop",
+  "title": "Outfit Drop",
+  "category": "Ecommerce",
+  "is_free": true,
+  "type": "social-media",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "dragon-knight",
+  "title": "Dragon Knight",
+  "category": "3D",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "outfit-receipt",
+  "title": "Outfit Receipt",
+  "category": "Fashion",
+  "is_free": false,
+  "type": "social-media",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "bag-slots",
+  "title": "Bag Slots",
+  "category": "Fashion",
+  "is_free": true,
+  "type": "social-media",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "future-fashion",
+  "title": "Future Fashion",
+  "category": "Fashion",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "card-stack",
+  "title": "Card Stack",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "work-ribbon",
+  "title": "Work Ribbon",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "year-recap",
+  "title": "Year Recap",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "sale-ring",
+  "title": "Sale Ring",
+  "category": "Fashion",
+  "is_free": false,
+  "type": "social-media",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "trend-carousel",
+  "title": "Trend Carousel",
+  "category": "Agency",
+  "is_free": true,
+  "type": "social-media",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "spin-product",
+  "title": "Spin Product",
+  "category": "Fashion",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "album-flow",
+  "title": "Album Flow",
+  "category": "Music",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "designer-portfolio",
+  "title": "Designer Portfolio",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "fox-couture",
+  "title": "Fox Couture",
+  "category": "Fashion",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "glass-portfolio",
+  "title": "Glass Portfolio",
+  "category": "Portfolio",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "card-ring",
+  "title": "Card Ring",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "design-collage",
+  "title": "Design Collage",
+  "category": "Interactive",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "floor-picker",
+  "title": "Floor Picker",
+  "category": "Real Estate",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "card-story",
+  "title": "Card Story",
+  "category": "Interactive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "work-stack",
+  "title": "Work Stack",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "storybook",
+  "title": "Storybook",
+  "category": "Publishing",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "clothing-rail",
+  "title": "Clothing Rail",
+  "category": "Ecommerce",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "curved-reel",
+  "title": "Curved Reel",
+  "category": "Agency",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "pixel-garden",
+  "title": "Pixel Garden",
+  "category": "Interactive",
+  "is_free": true,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "deck-investor",
+  "title": "Investor Deck",
+  "category": "Investor Presentations",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vitara-hero",
+  "title": "Vitara",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "11",
+  "title": "Weblex Dark Hero",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "8",
+  "title": "New Era Automotive Hero",
+  "category": "Automotive",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "bionova-hero",
+  "title": "Bionova Biotech",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "19",
+  "title": "Viktor Portfolio",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "finlytic-hero",
+  "title": "Finlytic AI Agent",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nova-space-landing",
+  "title": "NOVA Space Systems",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "zenith-realty-landing",
+  "title": "Zenith Realty",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "nexar-hero",
+  "title": "Nexar",
+  "category": "Productivity",
+  "is_free": false,
+  "type": "mobile",
+  "types": [
+   "mobile",
+   "dashboard"
+  ],
+  "page_type": "hero"
+ },
+ {
+  "id": "akor-security-landing",
+  "title": "AKOR Security",
+  "category": "Landing Page",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "landing"
+ },
+ {
+  "id": "prioritize-hero",
+  "title": "Prioritize",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "13",
+  "title": "Framelix 3D Studios",
+  "category": "Agency",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "planet-orbit-hero",
+  "title": "Planet Orbit",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "mindloop-hero",
+  "title": "Mindloop",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nexus-hero",
+  "title": "Nexus IT Solutions",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "nickel-hero",
+  "title": "Nickel Payments",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "orbit-web3-hero",
+  "title": "Orbit Web3",
+  "category": "Web3",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "4",
+  "title": "Datacore SaaS Hero",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "2",
+  "title": "Taskora SaaS Hero",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "0",
+  "title": "Wealth Video Hero",
+  "category": "Fintech",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "apex-saas-hero",
+  "title": "Apex SaaS",
+  "category": "SaaS",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "15",
+  "title": "Dark Portfolio Hero",
+  "category": "Portfolio",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "vertex-ai-hero",
+  "title": "VertexAI Hero",
+  "category": "Hero Section",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "keep-ahead-features",
+  "title": "Keep Ahead Features",
+  "category": "Features Section",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "benefits-features",
+  "title": "Benefits Features",
+  "category": "Features Section",
+  "is_free": false,
+  "type": "features",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "zenith-footer",
+  "title": "Zenith Footer",
+  "category": "Footer Section",
+  "is_free": false,
+  "type": "footer",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "digital-reality-hero",
+  "title": "Digital Reality",
+  "category": "Social Media",
+  "is_free": false,
+  "type": "social-media",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "community-cta",
+  "title": "Community CTA",
+  "category": "CTA Section",
+  "is_free": false,
+  "type": "cta",
+  "types": null,
+  "page_type": "hero"
+ },
+ {
+  "id": "package-fits-pricing",
+  "title": "What Package Fits You",
+  "category": "Pricing",
+  "is_free": false,
+  "type": "hero",
+  "types": null,
+  "page_type": "hero"
+ }
+]

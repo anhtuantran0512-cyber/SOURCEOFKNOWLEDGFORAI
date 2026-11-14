@@ -1,0 +1,332 @@
+---
+source: "codefronts"
+url: "https://codefronts.com/components/css-svg-stroke-buttons/svg-stroke-draw-button-border-on-hover/"
+title: "SVG Stroke Draw Button Border on Hover"
+section: "components"
+category: "css-svg-stroke-buttons"
+category_name: "CSS SVG Stroke Buttons"
+description: "Two pen passes, not a rectangle."
+has_js: "false"
+---
+
+Here's a working CSS SVG Stroke Button from CodeFronts. Use it as-is or adapt to your framework. All classes are scoped under a unique prefix so the code won't collide with your existing styles. MIT licensed.
+Demo: SVG Stroke Draw Button Border on Hover
+Source: https://codefronts.com/components/css-svg-stroke-buttons/svg-stroke-draw-button-border-on-hover/
+
+Two pen passes, not a rectangle. A pencil ghost sits on the button at rest; on hover a marker inks one loose lap, overshoots the point it started from, and a second lighter pass follows 150ms behind at a different wobble phase &mdash; so the finished border is two non-parallel lines, the way a hand actually circles a word twice. The mechanism underneath is the plainest one there is: a dash as long as the path, pushed off the end, transitioned back to zero.
+## HTML
+```html
+<section class="svgb-01">
+  <input class="svgb-01__ti" type="checkbox" id="svgb-01-theme">
+  <label class="svgb-01__toggle" for="svgb-01-theme">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 0 0 17Z" fill="currentColor" stroke="none"/></svg>
+    <span class="svgb-01__sr">Switch colour scheme</span>
+  </label>
+  <div class="svgb-01__stage">
+    <p class="svgb-01__eyebrow">Hover, or tab to it</p>
+    <div class="svgb-01__specimens">
+      <div class="svgb-01__row">
+        <button class="svgb-01__cta" type="button">
+          <svg class="svgb-01__frame" viewBox="0 0 560 128" aria-hidden="true">
+            <path class="svgb-01__ghost" d="M32 16Q41.4 15.9 46.1 15.8Q50.8 15.7 55.5 15.6Q60.2 15.5 64.9 15.5Q69.6 15.4 74.2 15.5Q78.9 15.5 83.6 15.6Q88.3 15.7 93 15.8Q97.7 15.9 102.4 16.1Q107.1 16.3 111.8 16.5Q116.5 16.6 121.2 16.8Q125.9 16.9 130.6 17.1Q135.3 17.2 140 17.2Q144.7 17.3 149.4 17.3Q154.1 17.3 158.7 17.2Q163.4 17.2 168.1 17.2Q172.8 17.1 177.5 17.1Q182.2 17 186.9 17Q191.6 16.9 196.3 16.9Q201 16.9 205.7 16.9Q210.4 16.8 215.1 16.8Q219.8 16.8 224.5 16.7Q229.2 16.7 233.9 16.6Q238.5 16.5 243.2 16.3Q247.9 16.2 252.6 16.1Q257.3 15.9 262 15.8Q266.7 15.6 271.4 15.5Q276.1 15.3 280.8 15.2Q285.5 15.1 290.2 15.1Q294.9 15.1 299.6 15.1Q304.3 15.1 309 15.2Q313.7 15.3 318.4 15.4Q323 15.5 327.7 15.6Q332.4 15.7 337.1 15.8Q341.8 15.9 346.5 15.9Q351.2 15.9 355.9 15.8Q360.6 15.8 365.3 15.7Q370 15.6 374.7 15.5Q379.4 15.3 384.1 15.2Q388.8 15.1 393.5 14.9Q398.2 14.8 402.8 14.8Q407.5 14.7 412.2 14.7Q416.9 14.7 421.6 14.8Q426.3 14.8 431 15Q435.7 15.1 440.4 15.2Q445.1 15.4 449.8 15.5Q454.5 15.7 459.2 15.8Q463.9 15.9 468.6 16Q473.3 16.1 478 16.2Q482.7 16.3 487.3 16.4Q492 16.4 496.7 16.5Q501.4 16.5 506.1 16.6Q510.8 16.6 515.5 16.7Q520.2 16.7 524.9 16.9Q529.5 17 533.5 18.7Q537.5 20.5 539.8 24.1Q542.1 27.7 542.4 32.2Q542.7 36.6 542.7 41.3Q542.7 46 542.8 50.7Q542.8 55.4 543 60.1Q543.1 64.8 543.2 69.5Q543.4 74.2 543.5 78.9Q543.7 83.6 543.8 88.3Q543.9 93 543.4 97.6Q542.8 102.2 539.9 105.8Q536.9 109.4 532.5 110.7Q528 112 523.3 111.9Q518.6 111.9 513.9 111.8Q509.2 111.7 504.5 111.6Q499.8 111.5 495.1 111.5Q490.4 111.4 485.8 111.5Q481.1 111.5 476.4 111.6Q471.7 111.7 467 111.8Q462.3 111.9 457.6 112.1Q452.9 112.3 448.2 112.5Q443.5 112.6 438.8 112.8Q434.1 112.9 429.4 113.1Q424.7 113.2 420 113.2Q415.3 113.3 410.6 113.3Q405.9 113.3 401.3 113.2Q396.6 113.2 391.9 113.2Q387.2 113.1 382.5 113.1Q377.8 113 373.1 113Q368.4 112.9 363.7 112.9Q359 112.9 354.3 112.9Q349.6 112.8 344.9 112.8Q340.2 112.8 335.5 112.7Q330.8 112.7 326.1 112.6Q321.5 112.5 316.8 112.3Q312.1 112.2 307.4 112.1Q302.7 111.9 298 111.8Q293.3 111.6 288.6 111.5Q283.9 111.3 279.2 111.2Q274.5 111.1 269.8 111.1Q265.1 111.1 260.4 111.1Q255.7 111.1 251 111.2Q246.3 111.3 241.6 111.4Q237 111.5 232.3 111.6Q227.6 111.7 222.9 111.8Q218.2 111.9 213.5 111.9Q208.8 111.9 204.1 111.8Q199.4 111.8 194.7 111.7Q190 111.6 185.3 111.5Q180.6 111.3 175.9 111.2Q171.2 111.1 166.5 110.9Q161.8 110.8 157.2 110.8Q152.5 110.7 147.8 110.7Q143.1 110.7 138.4 110.8Q133.7 110.8 129 111Q124.3 111.1 119.6 111.2Q114.9 111.4 110.2 111.5Q105.5 111.7 100.8 111.8Q96.1 111.9 91.4 112Q86.7 112.1 82 112.2Q77.3 112.3 72.7 112.4Q68 112.4 63.3 112.5Q58.6 112.5 53.9 112.6Q49.2 112.6 44.5 112.7Q39.8 112.7 35.1 112.8Q30.3 112.8 25.7 111Q21.2 109.2 18.4 105.1Q15.5 101 15.1 96.2Q14.7 91.4 14.7 86.7Q14.7 82 14.8 77.3Q14.8 72.6 15 67.9Q15.1 63.2 15.2 58.5Q15.4 53.8 15.5 49.1Q15.7 44.4 15.8 39.7Q15.9 35 16.6 30.4Q17.3 25.8 20.3 22.3Q23.2 18.8 27.6 17.4L32 16"/>
+            <path class="svgb-01__p1" d="M38.1 15.2Q46.5 15.2 50.7 15.2Q54.9 15.1 59.1 15.1Q63.2 15 67.4 15Q71.6 14.9 75.8 14.9Q80 14.9 84.2 14.9Q88.4 14.9 92.6 14.9Q96.8 14.9 101 15Q105.1 15.1 109.3 15.2Q113.5 15.2 117.7 15.3Q121.9 15.4 126.1 15.4Q130.3 15.5 134.5 15.5Q138.7 15.5 142.9 15.5Q147.1 15.5 151.2 15.4Q155.4 15.4 159.6 15.3Q163.8 15.2 168 15.2Q172.2 15.1 176.4 15.1Q180.6 15.1 184.8 15.1Q189 15.2 193.1 15.3Q197.3 15.4 201.5 15.5Q205.7 15.7 209.9 16Q214.1 16.2 218.3 16.5Q222.5 16.7 226.7 17Q230.9 17.2 235.1 17.5Q239.2 17.7 243.4 17.9Q247.6 18.1 251.8 18.2Q256 18.2 260.2 18.2Q264.4 18.3 268.6 18.2Q272.8 18.1 277 18Q281.1 17.8 285.3 17.6Q289.5 17.5 293.7 17.3Q297.9 17.1 302.1 17Q306.3 16.8 310.5 16.7Q314.7 16.6 318.9 16.5Q323.1 16.4 327.2 16.4Q331.4 16.3 335.6 16.3Q339.8 16.3 344 16.4Q348.2 16.4 352.4 16.4Q356.6 16.4 360.8 16.3Q365 16.3 369.1 16.3Q373.3 16.2 377.5 16.1Q381.7 16.1 385.9 16Q390.1 15.9 394.3 15.8Q398.5 15.7 402.7 15.6Q406.9 15.5 411.1 15.5Q415.2 15.4 419.4 15.4Q423.6 15.4 427.8 15.4Q432 15.4 436.2 15.4Q440.4 15.5 444.6 15.5Q448.8 15.5 453 15.5Q457.1 15.6 461.3 15.5Q465.5 15.5 469.7 15.4Q473.9 15.4 478.1 15.2Q482.3 15.1 486.5 15Q490.7 14.8 494.9 14.6Q499.1 14.5 503.2 14.3Q507.4 14.1 511.6 14Q515.8 13.9 520 13.9Q524.2 13.8 528.6 14.3Q533.1 14.7 537 17.2Q540.9 19.7 542.9 23.8Q544.9 27.9 544.9 32.3Q544.9 36.6 544.6 40.8Q544.3 45 544.1 49.2Q543.8 53.3 543.6 57.5Q543.4 61.7 543.2 65.9Q543.1 70.1 543 74.3Q542.9 78.5 542.9 82.7Q542.8 86.9 542.9 91.1Q542.9 95.3 542.1 99.1Q541.3 102.9 538.7 105.8Q536.2 108.7 532.4 110Q528.7 111.2 524.5 111.2Q520.4 111.2 516.2 111.2Q512 111.2 507.8 111.1Q503.6 111.1 499.4 111.1Q495.2 111 491 111Q486.8 110.9 482.6 110.9Q478.4 110.9 474.3 110.9Q470.1 110.9 465.9 110.9Q461.7 111 457.5 111Q453.3 111.1 449.1 111.2Q444.9 111.3 440.7 111.3Q436.5 111.4 432.4 111.4Q428.2 111.5 424 111.5Q419.8 111.5 415.6 111.5Q411.4 111.4 407.2 111.4Q403 111.3 398.8 111.3Q394.6 111.2 390.4 111.2Q386.3 111.1 382.1 111.1Q377.9 111.1 373.7 111.1Q369.5 111.2 365.3 111.3Q361.1 111.4 356.9 111.6Q352.7 111.8 348.5 112Q344.4 112.3 340.2 112.5Q336 112.8 331.8 113.1Q327.6 113.3 323.4 113.6Q319.2 113.8 315 113.9Q310.8 114.1 306.6 114.2Q302.4 114.3 298.3 114.2Q294.1 114.2 289.9 114.1Q285.7 114.1 281.5 113.9Q277.3 113.8 273.1 113.6Q268.9 113.4 264.7 113.2Q260.5 113 256.4 112.9Q252.2 112.7 248 112.6Q243.8 112.5 239.6 112.5Q235.4 112.4 231.2 112.4Q227 112.3 222.8 112.3Q218.6 112.3 214.4 112.4Q210.3 112.4 206.1 112.4Q201.9 112.4 197.7 112.3Q193.5 112.3 189.3 112.3Q185.1 112.2 180.9 112.1Q176.7 112 172.5 111.9Q168.4 111.8 164.2 111.7Q160 111.7 155.8 111.6Q151.6 111.5 147.4 111.4Q143.2 111.4 139 111.4Q134.8 111.4 130.6 111.4Q126.5 111.4 122.3 111.4Q118.1 111.5 113.9 111.5Q109.7 111.5 105.5 111.5Q101.3 111.6 97.1 111.5Q92.9 111.5 88.7 111.4Q84.5 111.3 80.4 111.2Q76.2 111.1 72 110.9Q67.8 110.7 63.6 110.6Q59.4 110.4 55.2 110.2Q51 110.1 46.8 110Q42.6 109.9 38.5 109.9Q34.3 109.8 30.5 109.4Q26.8 109 23.8 106.9Q20.8 104.8 19.1 101.4Q17.5 98.1 17.1 94Q16.8 89.9 16.5 85.7Q16.2 81.5 16 77.3Q15.7 73.1 15.5 68.9Q15.3 64.7 15.2 60.5Q15 56.3 14.9 52.2Q14.9 48 14.9 43.8Q14.9 39.6 14.9 35.4Q14.9 31.1 16.4 27Q17.8 22.8 21 19.9Q24.3 17 28.6 16.1Q32.8 15.2 37 15.2Q41.2 15.2 45.4 15.2Q49.6 15.2 53.8 15.1Q58 15.1 62.1 15Q66.3 15 70.5 14.9L74.7 14.9"/>
+            <path class="svgb-01__p2" d="M95.5 18.2Q103.8 18.2 108 18.1Q112.1 18 116.3 17.8Q120.4 17.7 124.6 17.4Q128.8 17.2 132.9 16.8Q137.1 16.5 141.2 16.2Q145.4 15.8 149.6 15.5Q153.7 15.1 157.9 14.9Q162.1 14.6 166.2 14.4Q170.4 14.2 174.5 14.1Q178.7 14 182.9 14Q187 14 191.2 14.1Q195.4 14.2 199.5 14.3Q203.7 14.4 207.8 14.6Q212 14.7 216.2 14.9Q220.3 15 224.5 15.1Q228.6 15.2 232.8 15.3Q237 15.3 241.1 15.3Q245.3 15.3 249.5 15.2Q253.6 15.2 257.8 15.1Q261.9 15 266.1 14.9Q270.3 14.8 274.4 14.7Q278.6 14.7 282.8 14.7Q286.9 14.6 291.1 14.7Q295.2 14.7 299.4 14.7Q303.6 14.8 307.7 14.9Q311.9 15 316.1 15.1Q320.2 15.2 324.4 15.3Q328.5 15.4 332.7 15.4Q336.9 15.5 341 15.6Q345.2 15.6 349.3 15.6Q353.5 15.6 357.7 15.6Q361.8 15.6 366 15.6Q370.2 15.7 374.3 15.7Q378.5 15.8 382.6 15.9Q386.8 16 391 16.2Q395.1 16.3 399.3 16.6Q403.5 16.8 407.6 17.1Q411.8 17.3 415.9 17.6Q420.1 17.9 424.3 18.1Q428.4 18.4 432.6 18.6Q436.7 18.7 440.9 18.8Q445.1 18.9 449.2 18.9Q453.4 18.9 457.6 18.7Q461.7 18.6 465.9 18.4Q470 18.2 474.2 17.9Q478.4 17.6 482.5 17.4Q486.7 17.1 490.9 16.8Q495 16.5 499.2 16.3Q503.3 16.1 507.5 16Q511.7 15.8 515.8 15.8Q520 15.7 524.2 15.7Q528.3 15.8 532.3 17Q536.3 18.2 539.1 21.2Q541.9 24.2 542.9 28.2Q543.9 32.2 543.8 36.3Q543.8 40.5 543.8 44.6Q543.9 48.8 543.9 53Q544 57.1 544.1 61.3Q544.2 65.4 544.4 69.6Q544.5 73.8 544.6 77.9Q544.8 82.1 544.9 86.3Q545 90.4 544.9 94.7Q544.9 98.9 543.1 102.9Q541.2 107 537.6 109.5Q534 112.1 529.7 112.6Q525.4 113.2 521.3 113.2Q517.1 113.2 512.9 113.2Q508.8 113.2 504.6 113.3Q500.4 113.3 496.3 113.4Q492.1 113.5 488 113.6Q483.8 113.7 479.6 113.9Q475.5 114 471.3 114.1Q467.1 114.1 463 114.2Q458.8 114.2 454.7 114.1Q450.5 114.1 446.3 113.9Q442.2 113.8 438 113.6Q433.8 113.3 429.7 113Q425.5 112.7 421.4 112.4Q417.2 112 413 111.7Q408.9 111.4 404.7 111Q400.6 110.7 396.4 110.5Q392.2 110.3 388.1 110.2Q383.9 110 379.7 110Q375.6 110 371.4 110Q367.3 110.1 363.1 110.2Q358.9 110.3 354.8 110.5Q350.6 110.6 346.4 110.8Q342.3 110.9 338.1 111.1Q334 111.2 329.8 111.2Q325.6 111.3 321.5 111.3Q317.3 111.3 313.2 111.3Q309 111.2 304.8 111.1Q300.7 111 296.5 110.9Q292.3 110.9 288.2 110.8Q284 110.7 279.9 110.7Q275.7 110.6 271.5 110.6Q267.4 110.7 263.2 110.7Q259 110.8 254.9 110.8Q250.7 110.9 246.6 111Q242.4 111.1 238.2 111.2Q234.1 111.3 229.9 111.4Q225.8 111.5 221.6 111.5Q217.4 111.6 213.3 111.6Q209.1 111.6 204.9 111.6Q200.8 111.6 196.6 111.6Q192.5 111.6 188.3 111.7Q184.1 111.7 180 111.8Q175.8 111.9 171.6 112.1Q167.5 112.2 163.3 112.4Q159.2 112.7 155 112.9Q150.8 113.2 146.7 113.4Q142.5 113.7 138.4 114Q134.2 114.2 130 114.4Q125.9 114.6 121.7 114.8Q117.5 114.9 113.4 114.9Q109.2 114.9 105.1 114.8Q100.9 114.7 96.7 114.5Q92.6 114.3 88.4 114.1Q84.2 113.8 80.1 113.5Q75.9 113.2 71.8 113Q67.6 112.7 63.4 112.5Q59.3 112.2 55.1 112.1Q50.9 111.9 46.8 111.8Q42.6 111.8 38.5 111.7Q34.3 111.7 30.2 111.2Q26.2 110.7 22.9 108.3Q19.5 106 17.8 102.2Q16.1 98.5 16 94.3Q15.8 90.1 15.8 86Q15.8 81.8 15.9 77.6Q16 73.5 16.1 69.3Q16.2 65.2 16.3 61Q16.4 56.8 16.6 52.7Q16.7 48.5 16.8 44.4Q16.9 40.2 17 36Q17.1 31.9 18.2 28.2Q19.2 24.5 21.9 21.9Q24.6 19.2 28.3 18.2Q32 17.2 36.1 17.2Q40.3 17.2 44.5 17.2Q48.6 17.2 52.8 17.2Q56.9 17.3 61.1 17.4Q65.3 17.4 69.4 17.6Q73.6 17.7 77.8 17.8Q81.9 17.9 86.1 18Q90.2 18.1 94.4 18.1Q98.6 18.2 102.7 18.2Q106.9 18.1 111.1 18Q115.2 17.9 119.4 17.7L123.5 17.5"/>
+          </svg>
+          <span class="svgb-01__ctatext">Begin the sequence</span>
+          <span class="svgb-01__ctanum">01</span>
+        </button>
+        <span class="svgb-01__cap">two passes<br>150ms apart</span>
+      </div>
+      <div class="svgb-01__row">
+        <button class="svgb-01__cta svgb-01__cta--sm" type="button">
+          <svg class="svgb-01__frame" viewBox="0 0 224 88" aria-hidden="true">
+            <path class="svgb-01__ghost" d="M26 14.7Q31.5 14.4 34.2 14.3Q36.9 14.1 39.6 14.1Q42.4 14 45.1 13.9Q47.8 13.8 50.6 13.8Q53.3 13.7 56 13.6Q58.8 13.5 61.5 13.4Q64.2 13.2 66.9 13.1Q69.7 13 72.4 13Q75.1 12.9 77.9 13Q80.6 13 83.3 13.2Q86.1 13.3 88.8 13.5Q91.5 13.6 94.2 13.8Q97 13.9 99.7 14Q102.4 14 105.2 14Q107.9 13.9 110.6 13.8Q113.4 13.7 116.1 13.6Q118.8 13.5 121.5 13.5Q124.3 13.5 127 13.6Q129.7 13.6 132.5 13.8Q135.2 14 137.9 14.2Q140.7 14.4 143.4 14.5Q146.1 14.7 148.8 14.8Q151.6 14.9 154.3 14.9Q157 14.9 159.8 14.9Q162.5 14.9 165.2 14.9Q168 14.8 170.7 14.8Q173.4 14.8 176.1 14.8Q178.9 14.8 181.6 14.8Q184.3 14.7 187.1 14.7Q189.8 14.6 192.5 14.4Q195.3 14.2 198 14.2Q200.7 14.2 203.3 15.2Q205.9 16.3 207.7 18.5Q209.5 20.7 210.1 23.5Q210.6 26.2 210.5 29Q210.4 31.7 210.3 34.4Q210.2 37.2 210.1 39.9Q210.1 42.6 210.1 45.4Q210.1 48.1 210.2 50.8Q210.4 53.5 210.5 56.3Q210.7 59 210.7 61.8Q210.7 64.6 209.5 67.3Q208.3 70 206 71.8Q203.7 73.6 200.8 74.2Q198 74.7 195.3 74.5Q192.5 74.4 189.8 74.3Q187.1 74.1 184.4 74.1Q181.6 74 178.9 73.9Q176.2 73.8 173.4 73.8Q170.7 73.7 168 73.6Q165.2 73.5 162.5 73.4Q159.8 73.2 157.1 73.1Q154.3 73 151.6 73Q148.9 72.9 146.1 73Q143.4 73 140.7 73.2Q137.9 73.3 135.2 73.5Q132.5 73.6 129.8 73.8Q127 73.9 124.3 74Q121.6 74 118.8 74Q116.1 73.9 113.4 73.8Q110.6 73.7 107.9 73.6Q105.2 73.5 102.5 73.5Q99.7 73.5 97 73.6Q94.3 73.6 91.5 73.8Q88.8 74 86.1 74.2Q83.3 74.4 80.6 74.5Q77.9 74.7 75.2 74.8Q72.4 74.9 69.7 74.9Q67 74.9 64.2 74.9Q61.5 74.9 58.8 74.9Q56 74.8 53.3 74.8Q50.6 74.8 47.9 74.8Q45.1 74.8 42.4 74.8Q39.7 74.7 36.9 74.7Q34.2 74.6 31.5 74.4Q28.7 74.2 26 73.9Q23.3 73.5 21.1 72.2Q18.8 70.9 17.2 68.9Q15.7 66.8 15.2 64.3Q14.6 61.8 14.5 59Q14.4 56.3 14.3 53.6Q14.2 50.8 14.1 48.1Q14.1 45.4 14.1 42.6Q14.1 39.9 14.2 37.2Q14.4 34.5 14.5 31.7Q14.7 29 14.9 26.4Q15.2 23.7 16.3 21.5Q17.4 19.3 19.2 17.7Q21.1 16.1 23.6 15.4L26 14.7"/>
+            <path class="svgb-01__p1" d="M29.9 13.8Q35.2 13.5 37.8 13.4Q40.4 13.3 43 13.2Q45.6 13.2 48.2 13.2Q50.9 13.3 53.5 13.5Q56.1 13.6 58.7 13.8Q61.3 14.1 63.9 14.2Q66.5 14.4 69.2 14.6Q71.8 14.7 74.4 14.8Q77 14.8 79.6 14.9Q82.2 14.9 84.9 15Q87.5 15 90.1 15.1Q92.7 15.2 95.3 15.3Q97.9 15.4 100.6 15.5Q103.2 15.5 105.8 15.5Q108.4 15.5 111 15.3Q113.6 15.1 116.2 14.8Q118.9 14.6 121.5 14.3Q124.1 14 126.7 13.7Q129.3 13.5 131.9 13.3Q134.6 13.2 137.2 13.2Q139.8 13.2 142.4 13.4Q145 13.5 147.6 13.6Q150.2 13.8 152.9 13.9Q155.5 14 158.1 13.9Q160.7 13.9 163.3 13.8Q165.9 13.6 168.6 13.4Q171.2 13.2 173.8 13.1Q176.4 12.9 179 12.8Q181.6 12.7 184.2 12.7Q186.9 12.7 189.5 12.8Q192.1 12.9 194.7 13Q197.3 13.1 200 13.6Q202.7 14.2 204.9 15.8Q207.2 17.4 208.5 19.7Q209.8 22.1 210 24.8Q210.3 27.4 210.1 30Q209.9 32.6 209.7 35.3Q209.4 37.9 209.2 40.5Q208.9 43.1 208.7 45.7Q208.5 48.3 208.4 50.9Q208.4 53.6 208.4 56.2Q208.5 58.8 208.6 61.3Q208.8 63.8 208.1 66.2Q207.4 68.5 205.7 70.3Q203.9 72.2 201.5 73Q199.1 73.9 196.5 73.8Q193.9 73.8 191.3 73.7Q188.7 73.5 186 73.4Q183.4 73.3 180.8 73.2Q178.2 73.2 175.6 73.2Q173 73.3 170.4 73.5Q167.7 73.6 165.1 73.9Q162.5 74.1 159.9 74.3Q157.3 74.4 154.7 74.6Q152 74.7 149.4 74.8Q146.8 74.8 144.2 74.9Q141.6 74.9 139 75Q136.4 75 133.7 75.1Q131.1 75.2 128.5 75.3Q125.9 75.4 123.3 75.5Q120.7 75.5 118 75.5Q115.4 75.4 112.8 75.3Q110.2 75.1 107.6 74.8Q105 74.6 102.4 74.3Q99.7 73.9 97.1 73.7Q94.5 73.4 91.9 73.3Q89.3 73.2 86.7 73.2Q84 73.2 81.4 73.4Q78.8 73.5 76.2 73.6Q73.6 73.8 71 73.9Q68.3 74 65.7 73.9Q63.1 73.9 60.5 73.8Q57.9 73.6 55.3 73.4Q52.7 73.2 50 73Q47.4 72.9 44.8 72.8Q42.2 72.7 39.6 72.7Q37 72.7 34.3 72.8Q31.7 72.9 29.1 73Q26.5 73.1 24.1 72.8Q21.7 72.4 19.6 71.1Q17.6 69.7 16.3 67.6Q15 65.5 14.6 62.9Q14.2 60.4 14.1 57.8Q13.9 55.2 13.7 52.6Q13.4 50 13.2 47.3Q12.9 44.7 12.7 42.1Q12.5 39.5 12.4 36.9Q12.4 34.3 12.4 31.6Q12.5 29 12.8 26.3Q13.2 23.6 14.5 21.2Q15.8 18.7 17.9 17Q20 15.4 22.5 14.7Q25 14 27.7 13.9Q30.3 13.8 32.9 13.7Q35.5 13.5 38.1 13.4L40.7 13.3"/>
+          </svg>
+          <span class="svgb-01__ctatext">Specimen</span>
+        </button>
+        <span class="svgb-01__cap">one pass</span>
+      </div>
+    </div>
+    <p class="svgb-01__foot"><span>dasharray 1263 &middot; 1255</span><span>measured length, not 2(w&thinsp;+&thinsp;h)</span><span>stroke-dashoffset &rarr; 0</span></p>
+  </div>
+</section>
+```
+## CSS
+```css
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,[email protected],400;75..125,500&family=JetBrains+Mono:wght@400;500&display=swap');
+
+.svgb-01 {
+  --svgb-01-bg: #f4f1ea;
+  --svgb-01-bg: oklch(0.958 0.010 88);
+  --svgb-01-fg: #16150f;
+  --svgb-01-fg: oklch(0.20 0.008 90);
+  --svgb-01-dot: rgba(22, 21, 15, 0.13);
+  --svgb-01-dot: oklch(0.20 0.008 90 / 0.13);
+  --svgb-01-ink: #d92211;
+  --svgb-01-ink: oklch(0.55 0.22 30);
+  --svgb-01-p1: 1263;
+  --svgb-01-p2: 1255;
+  --svgb-01-p1-sm: 509;
+  --svgb-01-dur: 760ms;
+  --svgb-01-ease: cubic-bezier(0.62, 0.02, 0.3, 1);
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: block;
+  background: radial-gradient(circle at center, var(--svgb-01-dot) 1px, transparent 1.4px) 0 0 / 26px 26px, var(--svgb-01-bg);
+  color: var(--svgb-01-fg);
+  font-family: 'Archivo', system-ui, sans-serif;
+}
+
+.svgb-01 *,
+.svgb-01 *::before,
+.svgb-01 *::after {
+  box-sizing: border-box;
+}
+
+.svgb-01__stage {
+  min-height: 100svh;
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: clamp(18px, 4vh, 40px);
+  padding: clamp(24px, 5vw, 64px);
+}
+
+.svgb-01__eyebrow,
+.svgb-01__foot,
+.svgb-01__cap {
+  margin: 0;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, var(--svgb-01-fg) 52%, transparent);
+}
+
+.svgb-01__eyebrow {
+  align-self: end;
+}
+
+.svgb-01__foot {
+  align-self: start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px clamp(18px, 4vw, 48px);
+}
+
+.svgb-01__specimens {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(20px, 4vh, 40px);
+}
+
+.svgb-01__row {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 2.5vw, 28px);
+}
+
+.svgb-01__cap {
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.svgb-01__cta {
+  position: relative;
+  inline-size: min(560px, 74vw);
+  block-size: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: clamp(28px, 4vw, 44px);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: clamp(18px, 2vw, 25px);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.svgb-01__cta--sm {
+  inline-size: 224px;
+  block-size: 88px;
+  font-size: 14px;
+  justify-content: center;
+}
+
+.svgb-01__ctatext,
+.svgb-01__ctanum {
+  position: relative;
+  z-index: 1;
+}
+
+.svgb-01__ctanum {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  color: color-mix(in oklab, var(--svgb-01-fg) 50%, transparent);
+  transition: color 320ms ease;
+}
+
+.svgb-01__cta:hover .svgb-01__ctanum,
+.svgb-01__cta:focus-visible .svgb-01__ctanum {
+  color: var(--svgb-01-ink);
+}
+
+.svgb-01__cta:focus-visible {
+  outline: none;
+}
+
+.svgb-01__frame {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  overflow: visible;
+}
+
+.svgb-01__frame path {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.svgb-01__ghost {
+  stroke: color-mix(in oklab, var(--svgb-01-fg) 26%, transparent);
+  stroke-width: 1.1px;
+  vector-effect: non-scaling-stroke;
+}
+
+.svgb-01__p1 {
+  stroke: var(--svgb-01-ink);
+  stroke-width: 2px;
+  vector-effect: non-scaling-stroke;
+  stroke-dasharray: var(--svgb-01-p1);
+  stroke-dashoffset: var(--svgb-01-p1);
+  transition: stroke-dashoffset var(--svgb-01-dur) var(--svgb-01-ease);
+}
+
+.svgb-01__p2 {
+  stroke: color-mix(in oklab, var(--svgb-01-fg) 42%, transparent);
+  stroke-width: 1.4px;
+  vector-effect: non-scaling-stroke;
+  stroke-dasharray: var(--svgb-01-p2);
+  stroke-dashoffset: var(--svgb-01-p2);
+  transition: stroke-dashoffset 840ms var(--svgb-01-ease) 150ms;
+}
+
+.svgb-01__cta--sm .svgb-01__p1 {
+  stroke-dasharray: var(--svgb-01-p1-sm);
+  stroke-dashoffset: var(--svgb-01-p1-sm);
+  transition-duration: 520ms;
+}
+
+.svgb-01__cta:hover .svgb-01__p1,
+.svgb-01__cta:focus-visible .svgb-01__p1,
+.svgb-01__cta:hover .svgb-01__p2,
+.svgb-01__cta:focus-visible .svgb-01__p2 {
+  stroke-dashoffset: 0;
+}
+
+.svgb-01__cta:focus-visible .svgb-01__ghost {
+  stroke: var(--svgb-01-ink);
+}
+
+.svgb-01__ti {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.svgb-01__toggle {
+  position: absolute;
+  z-index: 5;
+  inset-block-start: 16px;
+  inset-inline-end: 16px;
+  display: grid;
+  place-items: center;
+  inline-size: 44px;
+  block-size: 44px;
+  border: 1px solid color-mix(in oklab, currentColor 22%, transparent);
+  background: color-mix(in oklab, currentColor 6%, transparent);
+  color: inherit;
+  cursor: pointer;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.svgb-01__toggle:hover {
+  background: color-mix(in oklab, currentColor 13%, transparent);
+}
+
+.svgb-01__toggle:active {
+  transform: scale(0.94);
+}
+
+.svgb-01__toggle svg {
+  inline-size: 18px;
+  block-size: 18px;
+  transition: transform 400ms cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+.svgb-01__ti:checked + .svgb-01__toggle svg {
+  transform: rotate(180deg);
+}
+
+.svgb-01__ti:focus-visible + .svgb-01__toggle {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+.svgb-01__sr {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.svgb-01:has(#svgb-01-theme:checked) {
+  --svgb-01-bg: #100f0c;
+  --svgb-01-bg: oklch(0.18 0.006 90);
+  --svgb-01-fg: #f1efe8;
+  --svgb-01-fg: oklch(0.955 0.008 90);
+  --svgb-01-dot: rgba(241, 239, 232, 0.15);
+  --svgb-01-dot: oklch(0.955 0.008 90 / 0.15);
+  --svgb-01-ink: #ff5a3c;
+  --svgb-01-ink: oklch(0.72 0.19 35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .svgb-01__p1,
+    .svgb-01__p2 {
+    transition: none;
+    stroke-dasharray: none;
+    stroke-dashoffset: 0;
+    opacity: 0;
+  }
+
+  .svgb-01__cta:hover .svgb-01__p1,
+    .svgb-01__cta:focus-visible .svgb-01__p1,
+    .svgb-01__cta:hover .svgb-01__p2,
+    .svgb-01__cta:focus-visible .svgb-01__p2 {
+    opacity: 1;
+  }
+
+  .svgb-01__ctanum,
+    .svgb-01__toggle,
+    .svgb-01__toggle svg {
+    transition: none;
+  }
+}
+```

@@ -1,0 +1,200 @@
+---
+source: "lucianlabs"
+id: "298"
+title: "Tear-off discount coupon"
+category: "Commerce & Pricing"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#298"
+tags: ["coupon", "discount", "tear", "copy", "ecommerce"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Tear-off discount coupon (298, Commerce & Pricing)
+[What it does] Press the Get stub on the right of a ticket-shaped coupon and it tilts and tears away along the dotted line, revealing the coupon code and a copy button in its place. Press copy and the button turns into a check while a saved-to-wallet notice rises from below. Above, the time left until the coupon expires counts down by the second.
+[How to use it] Press Get on the right side of the coupon, then copy the code
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #298 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#298 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u298{position:relative;width:340px;height:340px;border-radius:30px;overflow:hidden;background:radial-gradient(90% 70% at 50% 0%,color-mix(in srgb,#F43F5E 12%,transparent),transparent 70%),var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:var(--ux-ink)}
+.u298-tm{position:absolute;left:0;right:0;top:44px;text-align:center;font-size:11px;font-weight:750;color:var(--ux-ink-3)}
+.u298-tm b{margin-left:5px;padding:3px 7px;border-radius:7px;background:var(--ux-ink);color:var(--ux-surface);font-weight:850;font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.u298-tk{position:absolute;left:22px;right:22px;top:88px;height:132px;display:flex;filter:drop-shadow(0 16px 22px rgba(225,29,72,.22))}
+.u298-mn{position:relative;flex:1;padding:18px 18px;border-radius:18px 0 0 18px;background:linear-gradient(135deg,#FB7185,#E11D48);color:#fff;-webkit-mask:radial-gradient(circle 10px at 100% 0,transparent 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 10px at 100% 100%,transparent 98%,#000) bottom/100% 51% no-repeat;mask:radial-gradient(circle 10px at 100% 0,transparent 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 10px at 100% 100%,transparent 98%,#000) bottom/100% 51% no-repeat}
+.u298-mn small{font-size:10px;font-weight:800;opacity:.85}
+.u298-mn b{display:flex;align-items:baseline;gap:4px;margin-top:4px;font-size:44px;line-height:1;font-weight:900;letter-spacing:-.04em}
+.u298-mn b em{font-style:normal;font-size:16px;letter-spacing:0}
+.u298-mn p{margin:10px 0 0;font-size:10px;font-weight:700;opacity:.85}
+.u298-cd{position:absolute;inset:0;padding:18px;display:flex;flex-direction:column;justify-content:center;background:inherit;opacity:0;transform:scale(.96);transition:opacity .3s .25s,transform .4s cubic-bezier(.3,1.5,.5,1) .25s;pointer-events:none}
+.u298.is-got .u298-cd{opacity:1;transform:none;pointer-events:auto}
+.u298-cd small{font-size:10px;font-weight:800;opacity:.85}
+.u298-cr{display:flex;align-items:center;gap:8px;margin-top:8px;padding:6px 6px 6px 12px;border-radius:12px;background:rgba(255,255,255,.18);box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.55);border:1.5px dashed transparent}
+.u298-cr code{flex:1;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:17px;font-weight:800;letter-spacing:.08em}
+.u298-cp{display:inline-flex;align-items:center;gap:5px;height:30px;padding:0 11px;border:0;border-radius:9px;background:#fff;color:#E11D48;font:inherit;font-size:11px;font-weight:850;cursor:pointer}
+.u298-cp svg{width:12px;height:12px}
+.u298-cp:focus-visible,.u298-gt:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.u298-st{position:relative;flex:none;width:84px;border-left:2px dashed rgba(255,255,255,.7);border-radius:0 18px 18px 0;background:linear-gradient(135deg,#F43F5E,#BE123C);transform-origin:0 100%;transition:transform .6s cubic-bezier(.5,0,.6,1),opacity .4s .3s;-webkit-mask:radial-gradient(circle 10px at 0 0,transparent 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 10px at 0 100%,transparent 98%,#000) bottom/100% 51% no-repeat;mask:radial-gradient(circle 10px at 0 0,transparent 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 10px at 0 100%,transparent 98%,#000) bottom/100% 51% no-repeat}
+.u298.is-got .u298-st{transform:translate(18px,120px) rotate(28deg);opacity:0;pointer-events:none}
+.u298-gt{position:absolute;inset:0;border:0;background:none;color:#fff;font:inherit;font-size:14px;font-weight:900;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;writing-mode:horizontal-tb}
+.u298-gt svg{width:20px;height:20px;transition:transform .3s cubic-bezier(.3,1.6,.5,1)}
+.u298-gt:hover svg,.u298-gt.g-hov svg{transform:translateY(3px)}
+.u298-nt{position:absolute;left:22px;right:22px;bottom:30px;display:flex;align-items:center;gap:8px;padding:11px 14px;border-radius:14px;background:var(--ux-ink);color:var(--ux-surface);font-size:11px;font-weight:750;transform:translateY(90px);transition:transform .5s cubic-bezier(.3,1.4,.5,1)}
+.u298-nt.is-on{transform:none}
+.u298-nt i{flex:none;width:18px;height:18px;border-radius:50%;background:#10B981;display:grid;place-items:center}
+.u298-nt i::after{content:"";width:4px;height:7px;margin-top:-2px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+@media (prefers-reduced-motion: reduce){.u298-st,.u298-cd,.u298-nt{transition:opacity .2s}.u298.is-got .u298-st{transform:none}}
+</style>
+<div class="ux u298">
+  <div class="u298-tm">Ends in<b class="u298-cl">05:12:40</b></div>
+  <div class="u298-tk">
+    <div class="u298-mn"><small>First order only</small><b>15%<em>OFF</em></b><p>On orders over $50 · up to $10</p>
+      <div class="u298-cd" aria-hidden="true"><small>Coupon code</small><div class="u298-cr"><code>HELLO15</code><button type="button" class="u298-cp" aria-label="Copy coupon code" tabindex="-1"><svg viewBox="0 0 12 12" aria-hidden="true"><rect x="3.5" y="3.5" width="6.5" height="6.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M2 8V2.8C2 2.4 2.4 2 2.8 2H8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg><span>Copy</span></button></div></div>
+    </div>
+    <div class="u298-st"><button type="button" class="u298-gt" aria-label="Get coupon"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v10M5.5 9l4.5 4.5L14.5 9M4 16.5h12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Get</button></div>
+  </div>
+  <div class="u298-nt" role="status"><i aria-hidden="true"></i><span>Saved to your wallet · applied at checkout</span></div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var gt = root.querySelector('.u298-gt'), cd = root.querySelector('.u298-cd'), cp = root.querySelector('.u298-cp'), nt = root.querySelector('.u298-nt'), cl = root.querySelector('.u298-cl'), cpl = cp.querySelector('span');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var left = 5 * 3600 + 12 * 60 + 40, nTimer = 0;
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  (function tick() { if (!root.isConnected) return; cl.textContent = pad(Math.floor(left / 3600)) + ':' + pad(Math.floor(left % 3600 / 60)) + ':' + pad(left % 60); left = Math.max(0, left - 1); setTimeout(tick, 1000); })();
+  gt.addEventListener('click', function () {
+    root.classList.add('is-got'); cd.setAttribute('aria-hidden', 'false'); cp.tabIndex = 0; gt.tabIndex = -1;
+    setTimeout(function () { cp.focus({ preventScroll: true }); }, rm ? 0 : 500);
+  });
+  cp.addEventListener('click', function () {
+    try { navigator.clipboard && navigator.clipboard.writeText('HELLO15').catch(function () {}); } catch (e) {}
+    cpl.textContent = 'Copied'; cp.querySelector('svg').innerHTML = '<path d="M2.5 6.5l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+    nt.classList.add('is-on'); clearTimeout(nTimer); nTimer = setTimeout(function () { nt.classList.remove('is-on'); }, 2600);
+  });
+})();
+</script>
+--- Code end ---

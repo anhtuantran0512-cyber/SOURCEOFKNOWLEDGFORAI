@@ -1,0 +1,254 @@
+---
+source: "lucianlabs"
+id: "324"
+title: "Push navigation stack"
+category: "App Screens"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#324"
+tags: ["navigation", "push", "stack", "swipe-back", "ios"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Push navigation stack (324, App Screens)
+[What it does] Tap an item in the list and the detail screen slides in from the right while the screen beneath recedes slightly to the left and dims. The large title shrinks and moves into the ‘Back’ label, and dragging from the left edge pulls it partway back under your finger, either returning or staying depending on where you let go.
+[How to use it] Tap a list item, then press ‘Back’ at the top left or drag right from the left edge of the screen
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #324 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#324 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u324{position:relative;width:300px;height:500px;border-radius:36px;background:var(--ux-surface-2);box-shadow:0 0 0 6px #22232E,0 30px 60px -36px var(--ux-shadow-strong);overflow:hidden}
+.u324-scr{position:absolute;inset:0;background:var(--ux-surface-2);transition:transform .5s cubic-bezier(.3,.9,.3,1),filter .5s;will-change:transform}
+.u324-scr.drag{transition:none}
+.u324-scr::after{content:"";position:absolute;inset:0;background:#000;opacity:var(--dim,0);pointer-events:none;transition:opacity .5s}
+.u324-scr.drag::after{transition:none}
+.u324-nav{height:52px;display:flex;align-items:center;padding:0 10px;font-size:15px;font-weight:800;justify-content:center;position:relative}
+.u324-back{position:absolute;left:6px;top:11px;height:30px;display:flex;align-items:center;gap:2px;border:0;background:none;padding:0 6px;font-size:15px;font-weight:600;color:var(--ux-accent)}
+.u324-back svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.u324-lt{margin:0;padding:2px 18px 12px;font-size:30px;font-weight:880;letter-spacing:-.04em;transform-origin:0 50%}
+.u324-gp{margin:0 14px;border-radius:14px;background:var(--ux-surface);overflow:hidden}
+.u324-row,.u324-row2{display:flex;align-items:center;gap:12px;width:100%;height:48px;padding:0 14px;border:0;background:none;text-align:left;font-size:14.5px;font-weight:600;color:var(--ux-ink);border-bottom:1px solid var(--ux-line)}
+.u324-row:last-child,.u324-row2:last-child{border-bottom:0}
+.u324-row i{width:28px;height:28px;border-radius:8px;background:var(--c)}
+.u324-row span,.u324-row2 span{flex:1}
+.u324-row em,.u324-row2 em{font-style:normal;font-size:13px;color:var(--ux-ink-3)}
+.u324-row svg,.u324-row2 svg{width:14px;height:14px;fill:none;stroke:var(--ux-ink-3);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.u324-row2 em.ck{color:var(--ux-accent);font-weight:800}
+.u324-edge{position:absolute;left:0;top:52px;bottom:0;width:18px;border:0;padding:0;background:none;z-index:9;touch-action:none;cursor:ew-resize}
+.u324-ttl{transition:opacity .35s}
+</style>
+<div class="ux u324"><button class="u324-edge" type="button" aria-label="Drag from the edge to go back"></button></div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var edge = root.querySelector('.u324-edge');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var L1 = ['General', 'Notifications', 'Privacy', 'Battery'];
+  var L2 = ['Show previews', 'Notification sound', 'Show badges'];
+  var OPTS = ['Always', 'When unlocked', 'Never'];
+  var C = ['#868E96', '#FA5252', '#4C6EF5', '#40C057'];
+  var CHEV = '<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M5 3l4 4-4 4"/></svg>';
+  var stack = [];
+  function screen(title, backLabel, rows, kind) {
+    var s = document.createElement('section');
+    s.className = 'u324-scr';
+    s.innerHTML = '<div class="u324-nav">' + (backLabel ? '<button class="u324-back" type="button"><svg viewBox="0 0 18 18" aria-hidden="true"><path d="M11 3L5 9l6 6"/></svg><span></span></button>' : '') + '<span class="u324-ttl"></span></div><h3 class="u324-lt"></h3><div class="u324-gp"></div>';
+    s.querySelector('.u324-lt').textContent = title;
+    s.querySelector('.u324-ttl').textContent = backLabel ? title : '';
+    if (backLabel) { s.querySelector('.u324-back span').textContent = backLabel; s.querySelector('.u324-back').addEventListener('click', pop); }
+    var gp = s.querySelector('.u324-gp');
+    rows.forEach(function (r, i) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = kind === 1 ? 'u324-row' : 'u324-row2';
+      b.innerHTML = (kind === 1 ? '<i style="--c:' + C[i] + '"></i>' : '') + '<span></span>' + (kind === 2 ? '<em>' + (i ? 'On' : 'Always') + '</em>' + CHEV : kind === 3 ? '<em class="ck">✓</em>' : CHEV);
+      b.querySelector('span').textContent = r;
+      if (kind === 1) b.addEventListener('click', function () { push(r, L2, 2); });
+      if (kind === 2) b.addEventListener('click', function () { push(r, OPTS, 3); });
+      if (kind === 3) { b.setAttribute('aria-pressed', String(i === 0)); b.querySelector('em').style.visibility = i === 0 ? 'visible' : 'hidden'; b.addEventListener('click', function () { Array.prototype.forEach.call(gp.children, function (x, k) { x.setAttribute('aria-pressed', String(x === b)); x.querySelector('em').style.visibility = x === b ? 'visible' : 'hidden'; }); }); }
+      gp.appendChild(b);
+    });
+    if (!rows.length) gp.style.height = '120px';
+    return s;
+  }
+  function pose(s, x, dim) { s.style.transform = 'translateX(' + x + '%)'; s.style.setProperty('--dim', dim); }
+  function push(title, rows, kind) {
+    var top = stack[stack.length - 1];
+    var s = screen(title, top ? top.title : '', rows, kind);
+    root.insertBefore(s, edge);
+    stack.push({ el: s, title: title });
+    pose(s, 100, 0);
+    void s.offsetWidth;
+    pose(s, 0, 0);
+    if (top) pose(top.el, -30, 0.12);
+  }
+  function pop() {
+    if (stack.length < 2) return;
+    var cur = stack.pop(), under = stack[stack.length - 1];
+    pose(cur.el, 100, 0);
+    pose(under.el, 0, 0);
+    setTimeout(function () { cur.el.remove(); }, rm ? 0 : 500);
+  }
+  var drag = null;
+  edge.addEventListener('pointerdown', function (e) {
+    if (stack.length < 2) return;
+    var r = root.getBoundingClientRect();
+    drag = { x: e.clientX, w: r.width, cur: stack[stack.length - 1].el, under: stack[stack.length - 2].el, p: 0 };
+    drag.cur.classList.add('drag'); drag.under.classList.add('drag');
+    try { edge.setPointerCapture(e.pointerId); } catch (er) {  }
+  });
+  edge.addEventListener('pointermove', function (e) {
+    if (!drag) return;
+    var p = Math.max(0, Math.min(1, (e.clientX - drag.x) / drag.w));
+    drag.p = p;
+    pose(drag.cur, p * 100, 0);
+    pose(drag.under, -30 + p * 30, 0.12 * (1 - p));
+  });
+  function up() {
+    if (!drag) return;
+    var d = drag; drag = null;
+    d.cur.classList.remove('drag'); d.under.classList.remove('drag');
+    if (d.p > 0.4) pop(); else { pose(d.cur, 0, 0); pose(d.under, -30, 0.12); }
+  }
+  edge.addEventListener('pointerup', up);
+  edge.addEventListener('pointercancel', up);
+  edge.addEventListener('click', function (e) { if (e.detail === 0) pop(); });
+  push('Settings', [], 0);
+  stack[0].el.querySelector('.u324-gp').remove();
+  var first = stack[0].el, gp = document.createElement('div');
+  gp.className = 'u324-gp';
+  L1.forEach(function (r, i) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'u324-row';
+    b.innerHTML = '<i style="--c:' + C[i] + '"></i><span></span>' + CHEV;
+    b.querySelector('span').textContent = r;
+    b.addEventListener('click', function () { push(r, L2, 2); });
+    gp.appendChild(b);
+  });
+  first.appendChild(gp);
+  first.style.transition = 'none'; pose(first, 0, 0); void first.offsetWidth; first.style.transition = '';
+})();
+</script>
+--- Code end ---

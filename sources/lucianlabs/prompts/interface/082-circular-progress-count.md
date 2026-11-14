@@ -1,0 +1,233 @@
+---
+source: "lucianlabs"
+id: "082"
+title: "Install progress on the icon"
+category: "Loading & Progress"
+collection: "interface"
+url: "https://lucianlabs.dev/en/uxui-prompt/#082"
+tags: ["circular", "progress", "install", "pause", "app"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Install progress on the icon (082, Loading & Progress)
+[What it does] A dark veil over the app icon sweeps away clockwise to show install progress while the percentage and speed below climb with it. Tapping the icon switches to a pause mark and stops it, and when it finishes the icon bounces and an “Open” button appears.
+[How to use it] Tap the installing icon to pause and resume. When it’s done, press “Open”, or watch again from the start with “Reinstall”
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #082 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#082 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u082{position:relative;width:340px;height:380px;display:flex;flex-direction:column;align-items:center;padding:30px 24px 22px;border-radius:30px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);text-align:center}
+.u082-ic{position:relative;width:132px;height:132px;flex:none;border:0;padding:0;border-radius:32px;background:linear-gradient(145deg,#FFB547,#FF6B8B 50%,#7B61FF);box-shadow:0 22px 36px -20px rgba(120,50,120,.7);overflow:hidden;transition:transform .35s var(--ux-spring)}
+.u082-ic:active{transform:scale(.94)}
+.u082-ic:focus-visible{outline:3px solid var(--ux-accent);outline-offset:4px}
+.u082-ic::before{content:"";position:absolute;left:26px;top:26px;width:80px;height:80px;border-radius:24px;background:rgba(255,255,255,.92);clip-path:polygon(50% 8%,92% 50%,50% 92%,8% 50%)}
+.u082-ic::after{content:"";position:absolute;width:120px;height:120px;right:-50px;top:-60px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.45),transparent 65%)}
+.u082-veil{position:absolute;inset:0;z-index:1;background:conic-gradient(transparent calc(var(--p,0) * 1turn),rgba(12,10,24,.55) 0);transition:opacity .5s}
+.u082-ring{position:absolute;left:50%;top:50%;z-index:2;width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;background:rgba(12,10,24,.5);box-shadow:0 0 0 3px rgba(255,255,255,.9);transition:opacity .4s,transform .45s var(--ux-spring)}
+.u082-ring svg{position:absolute;inset:14px;width:30px;height:30px;fill:#fff}
+.u082-ring .pz{opacity:1;transition:opacity .2s}
+.u082-ring .pl{opacity:0;transition:opacity .2s}
+.u082.is-paused .u082-ring .pz{opacity:0}
+.u082.is-paused .u082-ring .pl{opacity:1}
+.u082.is-done .u082-veil,.u082.is-done .u082-ring{opacity:0}
+.u082.is-done .u082-ring{transform:scale(.4)}
+.u082.is-done .u082-ic{animation:u082-hop .7s var(--ux-spring)}
+@keyframes u082-hop{30%{transform:scale(.9)}60%{transform:scale(1.08) translateY(-4px)}}
+.u082 h3{margin:18px 0 2px;font-size:20px;font-weight:850;letter-spacing:-.04em}
+.u082-meta{margin:0;font-size:13px;font-weight:650;color:var(--ux-ink-3);font-variant-numeric:tabular-nums}
+.u082-pct{display:flex;align-items:baseline;justify-content:center;gap:2px;margin-top:12px;font-variant-numeric:tabular-nums}
+.u082-pct b{font-size:30px;font-weight:850;letter-spacing:-.04em}
+.u082-pct span{font-size:15px;font-weight:800;color:var(--ux-ink-3)}
+.u082-act{display:flex;gap:8px;margin-top:auto}
+.u082-b{height:44px;padding:0 20px;border:0;border-radius:999px;font-size:14px;font-weight:780;background:var(--ux-surface-2);color:var(--ux-ink);transition:transform .3s var(--ux-spring),opacity .3s}
+.u082-b:active{transform:scale(.94)}
+.u082-b:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+.u082-open{background:var(--ux-accent);color:var(--ux-accent-ink);display:none}
+.u082.is-done .u082-open{display:inline-block;animation:u082-in .5s var(--ux-spring)}
+@keyframes u082-in{from{transform:scale(.6);opacity:0}}
+</style>
+<div class="ux u082">
+  <button class="u082-ic" type="button" aria-label="Pause install"><span class="u082-veil" aria-hidden="true"></span><span class="u082-ring" aria-hidden="true"><svg class="pz" viewBox="0 0 30 30"><rect x="8" y="7" width="5" height="16" rx="1.5"/><rect x="17" y="7" width="5" height="16" rx="1.5"/></svg><svg class="pl" viewBox="0 0 30 30"><path d="M10 7l14 8-14 8z"/></svg></span></button>
+  <h3>Lumen Studio</h3>
+  <p class="u082-meta" aria-live="polite">Installing · 0 MB / 186 MB</p>
+  <div class="u082-pct" role="progressbar" aria-label="Install progress" aria-valuemin="0" aria-valuemax="100"><b>0</b><span>%</span></div>
+  <div class="u082-act"><button class="u082-b u082-re" type="button">Reinstall</button><button class="u082-b u082-open" type="button">Open</button></div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var ic = root.querySelector('.u082-ic'), veil = root.querySelector('.u082-veil'), meta = root.querySelector('.u082-meta');
+  var pc = root.querySelector('.u082-pct'), pn = pc.querySelector('b'), re = root.querySelector('.u082-re'), open = root.querySelector('.u082-open');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var SIZE = 186, p = 0, paused = false, done = false, last = 0, raf = 0;
+  function frame(now) {
+    if (!root.isConnected) return;
+    var dt = Math.min(64, now - last) / 1000; last = now;
+    if (!paused && !done) {
+      var speed = 0.16 + Math.sin(now / 400) * 0.04;
+      p = Math.min(1, p + dt * speed * (rm ? 3 : 1));
+      paint(speed);
+      if (p >= 1) finish();
+    }
+    if (!done) raf = requestAnimationFrame(frame);
+  }
+  function paint(speed) {
+    veil.style.setProperty('--p', p.toFixed(4));
+    pn.textContent = Math.floor(p * 100);
+    pc.setAttribute('aria-valuenow', Math.floor(p * 100));
+    meta.textContent = paused ? 'Paused · ' + Math.round(p * SIZE) + ' MB / ' + SIZE + ' MB' : 'Installing · ' + Math.round(p * SIZE) + ' MB / ' + SIZE + ' MB · ' + (speed * SIZE / 10).toFixed(1) + ' MB/s';
+  }
+  function finish() {
+    done = true;
+    root.classList.add('is-done');
+    meta.textContent = 'Installed · ' + SIZE + ' MB';
+    re.textContent = 'Reinstall';
+    ic.setAttribute('aria-label', 'Lumen Studio, installed');
+    if (root.contains(document.activeElement)) open.focus({ preventScroll: true });
+  }
+  function start() {
+    cancelAnimationFrame(raf);
+    p = 0; paused = false; done = false;
+    root.classList.remove('is-done', 'is-paused');
+    ic.setAttribute('aria-label', 'Pause install');
+    re.textContent = 'Restart';
+    paint(0.16);
+    last = performance.now(); raf = requestAnimationFrame(frame);
+  }
+  ic.addEventListener('click', function () {
+    if (done) { ic.animate([{ transform: 'scale(1)' }, { transform: 'scale(.92)' }, { transform: 'scale(1)' }], { duration: 300 }); return; }
+    paused = !paused;
+    root.classList.toggle('is-paused', paused);
+    ic.setAttribute('aria-label', paused ? 'Resume install' : 'Pause install');
+    paint(0.16);
+  });
+  re.addEventListener('click', start);
+  open.addEventListener('click', function () { open.textContent = 'Opening…'; setTimeout(function () { if (root.isConnected) open.textContent = 'Open'; }, 1200); });
+  start();
+})();
+</script>
+--- Code end ---

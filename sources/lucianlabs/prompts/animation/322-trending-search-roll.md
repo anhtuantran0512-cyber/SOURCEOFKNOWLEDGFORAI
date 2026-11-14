@@ -1,0 +1,235 @@
+---
+source: "lucianlabs"
+id: "322"
+title: "Rolling trending searches"
+category: "Commerce & Pricing"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#322"
+tags: ["trending", "search", "ticker", "ranking", "ecommerce"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Rolling trending searches (322, Commerce & Pricing)
+[What it does] Below a store's search box, a single line rolls through the live trending searches from #1 every few seconds, each with an up, down or new marker beside its rank. Press the line and a top-10 list unfolds below; a moment later the ranking refreshes and the changed items slide past each other into their new places. Press a term and it's typed into the search box as the list folds away.
+[How to use it] Press the trending line to open the list, then pick a term
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #322 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#322 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u322{position:relative;width:340px;height:340px;border-radius:30px;overflow:hidden;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);color:var(--ux-ink)}
+.u322-bx{position:absolute;left:16px;right:16px;top:20px;display:flex;align-items:center;gap:8px;height:44px;padding:0 6px 0 14px;border-radius:14px;background:var(--ux-surface-2);box-shadow:inset 0 0 0 1.5px var(--ux-ink)}
+.u322-bx svg{flex:none;width:16px;height:16px;color:var(--ux-ink-2)}
+.u322-bx input{flex:1;min-width:0;height:100%;border:0;background:none;color:var(--ux-ink);font:inherit;font-size:13px;font-weight:700;outline:none}
+.u322-bx input::placeholder{color:var(--ux-ink-3);font-weight:600}
+.u322-tk{position:absolute;left:16px;right:16px;top:74px;display:flex;align-items:center;gap:8px;height:36px;padding:0 10px 0 12px;border:0;border-radius:12px;background:none;color:var(--ux-ink);font:inherit;cursor:pointer;text-align:left;transition:background .2s}
+.u322-tk:hover,.u322-tk.g-hov{background:var(--ux-surface-2)}
+.u322-tk:focus-visible{outline:2px solid var(--ux-accent);outline-offset:1px}
+.u322-tk>small{flex:none;font-size:10px;font-weight:850;color:#E11D48}
+.u322-rl{position:relative;flex:1;height:36px;overflow:hidden}
+.u322-ln{position:absolute;left:0;right:0;top:0;height:36px;display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:800;transition:transform .5s cubic-bezier(.3,1.2,.5,1),opacity .35s}
+.u322-ln.is-up{transform:translateY(-100%);opacity:0}
+.u322-ln.is-dn{transform:translateY(100%);opacity:0;transition:none}
+.u322-ln span{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.u322-ln b{flex:none;min-width:18px;white-space:nowrap;text-align:center;letter-spacing:-.02em;font-weight:900;color:var(--ux-accent);font-variant-numeric:tabular-nums}
+.u322-ch{flex:none;min-width:22px;font-size:9.5px;font-weight:850;font-variant-numeric:tabular-nums;text-align:right}
+.u322-ch.up{color:#E11D48}.u322-ch.dn{color:#2563EB}.u322-ch.nw{color:#F59E0B}.u322-ch.eq{color:var(--ux-ink-3)}
+.u322-tk>svg{flex:none;width:12px;height:12px;color:var(--ux-ink-3);transition:transform .3s}
+.u322.is-open .u322-tk>svg{transform:rotate(180deg)}
+.u322-pn{position:absolute;left:16px;right:16px;top:116px;height:0;overflow:hidden;border-radius:16px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 16px 34px -18px var(--ux-shadow-strong);opacity:0;transition:height .45s cubic-bezier(.3,1,.4,1),opacity .25s}
+.u322.is-open .u322-pn{height:206px;opacity:1}
+.u322-ph{display:flex;align-items:center;justify-content:space-between;padding:12px 14px 6px;font-size:10px;font-weight:750;color:var(--ux-ink-3)}
+.u322-ph b{font-size:12px;font-weight:900;color:var(--ux-ink)}
+.u322-ls{position:relative;height:160px;margin:0 8px}
+.u322-it{position:absolute;display:flex;align-items:center;gap:7px;width:calc(50% - 4px);height:30px;padding:0 6px;border:0;border-radius:8px;background:none;color:var(--ux-ink);font:inherit;font-size:11.5px;font-weight:750;cursor:pointer;text-align:left;transition:top .55s cubic-bezier(.3,1.2,.5,1),left .55s cubic-bezier(.3,1.2,.5,1),background .2s}
+.u322-it:hover,.u322-it.g-hov{background:var(--ux-surface-2)}
+.u322-it:focus-visible{outline:2px solid var(--ux-accent);outline-offset:-1px}
+.u322-it b{flex:none;width:18px;white-space:nowrap;letter-spacing:-.04em;font-weight:900;font-variant-numeric:tabular-nums;color:var(--ux-ink-3)}
+.u322-it[hidden]{display:none}
+.u322-it span{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.u322-it.is-fl{animation:u322-fl .9s ease}
+@keyframes u322-fl{30%{background:color-mix(in srgb,var(--ux-accent) 14%,transparent)}}
+@media (prefers-reduced-motion: reduce){.u322-ln,.u322-pn,.u322-it,.u322-tk>svg{transition:none}.u322-it.is-fl{animation:none}}
+</style>
+<div class="ux u322">
+  <label class="u322-bx"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.8" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10.6 10.6l3.4 3.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><input type="search" placeholder="What are you looking for?" aria-label="Search"></label>
+  <button type="button" class="u322-tk" aria-expanded="false"><small>Trending</small><span class="u322-rl" aria-live="off"></span><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <div class="u322-pn"><div class="u322-ph"><b>Trending</b><span class="u322-tm"></span></div><div class="u322-ls"></div></div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var tk = root.querySelector('.u322-tk'), rl = root.querySelector('.u322-rl'), pn = root.querySelector('.u322-pn'), ls = root.querySelector('.u322-ls'), tm = root.querySelector('.u322-tm'), inp = root.querySelector('input');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var T = ['linen shirt', 'summer dress', 'sandals', 'sunscreen', 'bucket hat', 'camping chair', 'cooling blanket', 'handheld fan', 'rattan bag', 'iced tumbler', 'rain boots', 'knit tee'];
+  var uid = 'u322' + Math.random().toString(36).slice(2, 7);
+  pn.id = uid; tk.setAttribute('aria-controls', uid);
+  var rank = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], prev = [2, 0, 1, 4, 3, 6, 5, 11, 7, 8], hour = 14;
+  var NEXT = [[1, 0, 2, 4, 3, 5, 10, 6, 7, 8], [1, 0, 4, 2, 3, 10, 5, 11, 6, 7]], step = 0;
+  function chg(id, i) { var p = prev.indexOf(id); if (p < 0) return ['nw', 'NEW']; if (p === i) return ['eq', '–']; return p > i ? ['up', '▲' + (p - i)] : ['dn', '▼' + (i - p)]; }
+  var items = {};
+  T.forEach(function (t, id) {
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'u322-it'; b.innerHTML = '<b></b><span></span><em class="u322-ch"></em>'; b.querySelector('span').textContent = t; b.hidden = true;
+    b.addEventListener('click', function () { choose(t); });
+    ls.appendChild(b); items[id] = b;
+  });
+  function layout(flash) {
+    T.forEach(function (t, id) { var i = rank.indexOf(id), b = items[id]; b.hidden = i < 0; if (i < 0) return; var c = chg(id, i); b.style.left = (i < 5 ? 0 : 50) + '%'; b.style.top = (i % 5) * 32 + 'px'; b.querySelector('b').textContent = i + 1; var e = b.querySelector('.u322-ch'); e.className = 'u322-ch ' + c[0]; e.textContent = c[1]; if (flash && c[0] !== 'eq') { b.classList.remove('is-fl'); void b.offsetWidth; b.classList.add('is-fl'); } });
+    T.forEach(function (t, id) { var i = rank.indexOf(id); items[id].querySelector('b').style.color = i >= 0 && i < 3 ? 'var(--ux-accent)' : ''; });
+    tm.textContent = hour + ':00 update';
+  }
+  var ti = 0, cur = null;
+  function line(i, first) {
+    var id = rank[i], c = chg(id, i), d = document.createElement('span'); d.className = 'u322-ln' + (first ? '' : ' is-dn');
+    d.innerHTML = '<b></b><span></span><em class="u322-ch ' + c[0] + '"></em>'; d.querySelector('b').textContent = i + 1; d.querySelector('span').textContent = T[id]; d.querySelector('em').textContent = c[1];
+    rl.appendChild(d);
+    if (cur) { var o = cur; o.classList.add('is-up'); setTimeout(function () { o.remove(); }, 520); }
+    if (!first) { void d.offsetWidth; d.classList.remove('is-dn'); }
+    cur = d;
+  }
+  var open = false, vis = true;
+  function setOpen(v) { open = v; root.classList.toggle('is-open', v); tk.setAttribute('aria-expanded', v); tk.setAttribute('aria-label', v ? 'Hide trending list' : 'Show trending list'); if (v) { layout(false); setTimeout(refresh, rm ? 0 : 1300); } }
+  function refresh() {
+    if (!open || !root.isConnected) return;
+    prev = rank.slice(); rank = NEXT[step % NEXT.length]; step++; hour = hour === 23 ? 0 : hour + 1; layout(true);
+  }
+  function choose(t) {
+    setOpen(false); inp.value = ''; inp.focus({ preventScroll: true });
+    if (rm) { inp.value = t; return; }
+    var n = 0; (function ty() { n++; inp.value = t.slice(0, n); if (n < t.length) setTimeout(ty, 55); })();
+  }
+  tk.addEventListener('click', function () { setOpen(!open); });
+  root.addEventListener('keydown', function (e) { if (e.key === 'Escape' && open) { setOpen(false); tk.focus(); } });
+  (function roll() {
+    if (!root.isConnected) return;
+    if (vis && !open && !rm) { ti = (ti + 1) % 10; line(ti); }
+    setTimeout(roll, 2000);
+  })();
+  if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { vis = es[0].isIntersecting; }).observe(root);
+  line(0, true); setOpen(false); layout(false);
+})();
+</script>
+--- Code end ---

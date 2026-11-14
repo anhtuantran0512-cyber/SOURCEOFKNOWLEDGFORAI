@@ -1,0 +1,268 @@
+---
+source: "lucianlabs"
+id: "245"
+title: "Scramble-decoding headline"
+category: "Text Motion"
+collection: "animation"
+url: "https://lucianlabs.dev/en/uxui-prompt/#245"
+tags: ["text", "scramble", "decode", "headline", "glitch"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Scramble-decoding headline (245, Text Motion)
+[What it does] Switch the line and every letter slot spins through random symbols before settling into place from left to right. Hover the headline to scramble and decode it once more, and pick from three decoding speeds.
+[How to use it] Switch lines with the numbers below or hover the headline. Change the speed on the right
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #245 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#245 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u245{position:relative;width:340px;height:296px;display:flex;flex-direction:column;padding:22px 20px 18px;border-radius:28px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong);overflow:hidden}
+.u245::before{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent 0 3px,color-mix(in srgb,var(--ux-ink) 3.5%,transparent) 3px 4px)}
+.u245-k{position:relative;display:flex;align-items:center;gap:8px;font:600 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em;color:var(--ux-ink-3)}
+.u245-k i{position:relative;flex:none;width:7px;height:7px;border-radius:50%;background:var(--ux-mint);box-shadow:0 0 0 3px color-mix(in srgb,var(--ux-mint) 22%,transparent);transition:background-color .3s,box-shadow .3s}
+.u245-k i::after{content:"";position:absolute;inset:-1px;border-radius:50%;border:1.5px solid var(--ux-accent);opacity:0}
+.u245.is-run .u245-k i{background:var(--ux-accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--ux-accent) 18%,transparent)}
+.u245.is-run .u245-k i::after{animation:u245-ping 1s cubic-bezier(.2,.6,.4,1) infinite}
+@keyframes u245-ping{0%{transform:scale(1);opacity:.75}100%{transform:scale(2.6);opacity:0}}
+@media (prefers-reduced-motion: reduce){.u245.is-run .u245-k i::after{animation:none}}
+.u245-k b{margin-left:auto;font-weight:600;color:var(--ux-ink-2)}
+.u245-h{position:relative;margin:18px 0 0;min-height:112px;font-size:30px;line-height:1.22;font-weight:820;letter-spacing:-.045em;color:var(--ux-ink);cursor:default}
+.u245-w{white-space:nowrap}
+.u245-c{position:relative;display:inline-block}
+.u245-c b{font-weight:inherit;transition:color .6s var(--ux-ease)}
+.u245-c i{position:absolute;left:50%;top:.08em;transform:translateX(-50%);font:600 .82em/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;font-style:normal;color:var(--ux-accent);opacity:0}
+.u245-c.s b,.u245-c.z b{visibility:hidden}
+.u245-c.s i{opacity:.9}
+.u245-c.f b{color:var(--ux-accent);transition:none}
+.u245-ft{position:relative;margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.u245-ps,.u245-sps{display:flex;gap:4px;padding:4px;border-radius:14px;background:var(--ux-surface-2)}
+.u245-p,.u245-sp{height:32px;border:0;border-radius:10px;background:transparent;font-size:12.5px;font-weight:700;color:var(--ux-ink-3);transition:background-color .25s,color .25s,transform .35s var(--ux-spring)}
+.u245-p{width:34px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.u245-sp{padding:0 9px}
+.u245-p:hover,.u245-sp:hover{color:var(--ux-ink)}
+.u245-p:active,.u245-sp:active{transform:scale(.92)}
+.u245-p[aria-pressed="true"],.u245-sp[aria-pressed="true"]{background:var(--ux-surface);color:var(--ux-ink);box-shadow:0 0 0 1px var(--ux-line),0 4px 10px -6px var(--ux-shadow-strong)}
+</style>
+<div class="ux u245">
+  <p class="u245-k"><i aria-hidden="true"></i>DECODE<b class="u245-st" role="status">Decoded</b></p>
+  <h3 class="u245-h"></h3>
+  <div class="u245-ft">
+    <div class="u245-ps" role="group" aria-label="Pick a line">
+      <button class="u245-p" type="button" aria-pressed="true" aria-label="First line">01</button>
+      <button class="u245-p" type="button" aria-pressed="false" aria-label="Second line">02</button>
+      <button class="u245-p" type="button" aria-pressed="false" aria-label="Third line">03</button>
+    </div>
+    <div class="u245-sps" role="group" aria-label="Decode speed">
+      <button class="u245-sp" type="button" aria-pressed="false">Slow</button>
+      <button class="u245-sp" type="button" aria-pressed="true">Normal</button>
+      <button class="u245-sp" type="button" aria-pressed="false">Fast</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var h = root.querySelector('.u245-h'), st = root.querySelector('.u245-st');
+  var ps = Array.prototype.slice.call(root.querySelectorAll('.u245-p'));
+  var sps = Array.prototype.slice.call(root.querySelectorAll('.u245-sp'));
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var LINES = ['We read the signal hidden in noise', 'Scattered data becomes a story', 'Complex work, folded into one line'];
+  var GLYPH = '!<>-_/[]{}=+~^?#%&@$01';
+  var SPEED = [1800, 1100, 640];
+  var cur = 0, dur = SPEED[1], raf = 0, cells = [], running = false;
+  function build(text) {
+    h.setAttribute('aria-label', text);
+    h.textContent = '';
+    cells = [];
+    text.split(' ').forEach(function (word, wi) {
+      if (wi) h.appendChild(document.createTextNode(' '));
+      var w = document.createElement('span');
+      w.className = 'u245-w';
+      w.setAttribute('aria-hidden', 'true');
+      Array.from(word).forEach(function (ch) {
+        var c = document.createElement('span'), b = document.createElement('b'), g = document.createElement('i');
+        c.className = 'u245-c z';
+        b.textContent = ch;
+        c.appendChild(b); c.appendChild(g); w.appendChild(c);
+        cells.push({ el: c, g: g });
+      });
+      h.appendChild(w);
+    });
+  }
+  function run() {
+    cancelAnimationFrame(raf);
+    var n = cells.length, t0 = performance.now();
+    if (rm) { cells.forEach(function (c) { c.el.className = 'u245-c'; }); st.textContent = 'Decoded'; return; }
+    cells.forEach(function (c, i) {
+      c.a = Math.random() * dur * 0.3;
+      c.r = dur * (0.32 + 0.68 * i / Math.max(1, n - 1)) + Math.random() * 90;
+      c.n = 0; c.done = false; c.el.className = 'u245-c z';
+    });
+    running = true;
+    root.classList.add('is-run');
+    st.textContent = 'Decoding';
+    (function f(now) {
+      if (!root.isConnected) return;
+      var t = now - t0, left = 0;
+      cells.forEach(function (c) {
+        if (c.done) return;
+        if (t >= c.r) {
+          c.done = true; c.el.className = 'u245-c f';
+          setTimeout(function () { c.el.classList.remove('f'); }, 40);
+          return;
+        }
+        left += 1;
+        if (t >= c.a) {
+          if (c.el.classList.contains('z')) c.el.className = 'u245-c s';
+          if (now - c.n > 55) { c.n = now; c.g.textContent = GLYPH.charAt(Math.random() * GLYPH.length | 0); }
+        }
+      });
+      if (left) { raf = requestAnimationFrame(f); return; }
+      running = false;
+      root.classList.remove('is-run');
+      st.textContent = 'Decoded';
+    })(t0);
+  }
+  function pick(i) {
+    cur = i;
+    ps.forEach(function (b, k) { b.setAttribute('aria-pressed', String(k === i)); });
+    build(LINES[i]);
+    run();
+  }
+  ps.forEach(function (b, i) { b.addEventListener('click', function () { pick(i); }); });
+  sps.forEach(function (b, i) {
+    b.addEventListener('click', function () {
+      dur = SPEED[i];
+      sps.forEach(function (x, k) { x.setAttribute('aria-pressed', String(k === i)); });
+    });
+  });
+  h.addEventListener('pointerenter', function () { if (!running) run(); });
+  build(LINES[0]);
+  run();
+})();
+</script>
+--- Code end ---

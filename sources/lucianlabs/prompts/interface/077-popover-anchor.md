@@ -1,0 +1,247 @@
+---
+source: "lucianlabs"
+id: "077"
+title: "Reaction popover"
+category: "Alerts & Feedback"
+collection: "interface"
+url: "https://lucianlabs.dev/en/uxui-prompt/#077"
+tags: ["popover", "anchor", "emoji", "reactions", "outside-click"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Reaction popover (077, Alerts & Feedback)
+[What it does] The popover grows out of the “Add reaction” button with its arrow pointing back at it. Pick an emoji and a reaction chip pops up with its count rising while the popover shrinks back into the button. Clicking outside or pressing Esc also closes it.
+[How to use it] Pick an emoji in the open popover. Reopen it with the smiley button, and click existing chips to add or remove your reaction. Arrow keys move inside the popover
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #077 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#077 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u077{position:relative;width:350px;height:310px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;padding:18px;border-radius:26px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 30px 60px -36px var(--ux-shadow-strong)}
+.u077-msg{display:flex;gap:10px}
+.u077-av{width:34px;height:34px;flex:none;border-radius:50%;background:var(--g)}
+.u077-bub{max-width:250px;padding:10px 14px;border-radius:6px 18px 18px 18px;background:var(--ux-surface-2);font-size:14px;line-height:1.5}
+.u077-bub b{display:block;margin-bottom:2px;font-size:12.5px;font-weight:800;color:var(--ux-ink-2)}
+.u077-rx{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0 44px}
+.u077-chip{height:32px;padding:0 10px;border:0;border-radius:999px;display:inline-flex;align-items:center;gap:5px;background:var(--ux-surface-2);box-shadow:inset 0 0 0 1.5px transparent;font-size:15px;transition:box-shadow .2s,background-color .2s,transform .3s var(--ux-spring)}
+.u077-chip b{font-size:12.5px;font-weight:800;color:var(--ux-ink-2);font-variant-numeric:tabular-nums}
+.u077-chip[aria-pressed="true"]{background:var(--ux-accent-soft);box-shadow:inset 0 0 0 1.5px var(--ux-accent)}
+.u077-chip[aria-pressed="true"] b{color:var(--ux-accent)}
+.u077-chip:active{transform:scale(.9)}
+.u077-chip.pop{animation:u077-pop .5s var(--ux-spring)}
+@keyframes u077-pop{0%{transform:scale(.4)}60%{transform:scale(1.15)}100%{transform:none}}
+.u077-add{width:32px;height:32px;border:0;padding:0;border-radius:50%;display:grid;place-items:center;background:var(--ux-surface-2);color:var(--ux-ink-2);transition:background-color .2s,transform .3s var(--ux-spring)}
+.u077-add:hover,.u077-add[aria-expanded="true"]{background:var(--ux-surface-3);color:var(--ux-ink)}
+.u077-add svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round}
+.u077-chip:focus-visible,.u077-add:focus-visible,.u077-e:focus-visible{outline:2px solid var(--ux-accent);outline-offset:2px}
+.u077-pop{position:absolute;z-index:4;left:0;top:0;width:260px;padding:10px;border-radius:20px;background:var(--ux-surface);box-shadow:0 0 0 1px var(--ux-line),0 24px 44px -18px var(--ux-shadow-strong);transform-origin:var(--ox,30px) calc(100% + 10px);transform:translate(var(--x,0px),var(--y,0px));transition:transform .45s var(--ux-spring),opacity .2s}
+.u077-pop.closed{transform:translate(var(--x,0px),var(--y,0px)) scale(.3);opacity:0;pointer-events:none;transition:transform .3s var(--ux-ease),opacity .2s}
+.u077-pop::after{content:"";position:absolute;left:var(--ox,30px);bottom:-6px;width:12px;height:12px;margin-left:-6px;border-radius:2px;background:var(--ux-surface);transform:rotate(45deg);box-shadow:1px 1px 0 0 var(--ux-line)}
+.u077-pop small{display:block;padding:2px 6px 8px;font-size:11.5px;font-weight:800;letter-spacing:.04em;color:var(--ux-ink-3)}
+.u077-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:2px}
+.u077-e{height:38px;border:0;padding:0;border-radius:11px;background:none;font-size:22px;line-height:1;transition:transform .25s var(--ux-spring),background-color .15s}
+.u077-e:hover,.u077-e:focus-visible{background:var(--ux-surface-2);transform:scale(1.18)}
+.u077-e:active{transform:scale(.9)}
+</style>
+<div class="ux u077">
+  <div class="u077-msg"><span class="u077-av" style="--g:linear-gradient(140deg,#22C3A6,#0EA5E9)" aria-hidden="true"></span><div class="u077-bub"><b>Harin Yoon</b>Draft v3 is up! I cut the button transition to 0.3s.</div></div>
+  <div><div class="u077-msg"><span class="u077-av" style="--g:linear-gradient(140deg,#8B6CFF,#5B8CFF)" aria-hidden="true"></span><div class="u077-bub"><b>Doyun Han</b>Oh, that feels much lighter. I think we can ship it as is 🙌</div></div>
+  <div class="u077-rx" role="group" aria-label="Reactions"><button class="u077-chip" type="button" aria-pressed="false" data-e="👍"><span aria-hidden="true">👍</span><b>3</b></button><button class="u077-chip" type="button" aria-pressed="false" data-e="🎉"><span aria-hidden="true">🎉</span><b>1</b></button><button class="u077-add" type="button" aria-haspopup="dialog" aria-expanded="true" aria-label="Add reaction"><svg viewBox="0 0 18 18"><circle cx="9" cy="9" r="6.5"/><path d="M6.5 10.5a3 3 0 0 0 5 0M7 7h.01M11 7h.01"/></svg></button></div></div>
+  <div class="u077-pop" role="dialog" aria-label="Pick a reaction"><small>Frequently used</small><div class="u077-grid"></div></div>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var add = root.querySelector('.u077-add'), pop = root.querySelector('.u077-pop'), grid = pop.querySelector('.u077-grid'), rx = root.querySelector('.u077-rx');
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var E = [['👍', 'Like'], ['❤️', 'Heart'], ['😂', 'Laugh'], ['🎉', 'Celebrate'], ['🔥', 'Fire'], ['👀', 'Watching'], ['🙏', 'Thanks'], ['✅', 'Done'], ['💡', 'Idea'], ['😮', 'Wow'], ['🚀', 'Launch'], ['👏', 'Clap']];
+  var es = E.map(function (e) {
+    var b = document.createElement('button');
+    b.className = 'u077-e'; b.type = 'button'; b.textContent = e[0]; b.setAttribute('aria-label', e[1]); b.tabIndex = -1;
+    b.addEventListener('click', function () { react(e[0], e[1]); close(true); });
+    grid.appendChild(b);
+    return b;
+  });
+  function place() {
+    var ax = add.offsetLeft + add.offsetWidth / 2, ay = add.offsetTop;
+    var w = pop.offsetWidth, h = pop.offsetHeight;
+    var x = Math.max(10, Math.min(root.clientWidth - w - 10, ax - 40));
+    pop.style.setProperty('--x', x + 'px');
+    pop.style.setProperty('--y', (ay - h - 12) + 'px');
+    pop.style.setProperty('--ox', (ax - x) + 'px');
+  }
+  function open(focus) {
+    place();
+    pop.classList.remove('closed'); pop.inert = false;
+    add.setAttribute('aria-expanded', 'true');
+    if (focus) { es[0].tabIndex = 0; es[0].focus({ preventScroll: true }); }
+  }
+  function close(back) {
+    pop.classList.add('closed'); pop.inert = true;
+    add.setAttribute('aria-expanded', 'false');
+    if (back) add.focus({ preventScroll: true });
+  }
+  function chipOf(e) { return rx.querySelector('[data-e="' + e + '"]'); }
+  function label(c) { c.setAttribute('aria-label', c.getAttribute('data-n') + ', ' + c.querySelector('b').textContent + ' people' + (c.getAttribute('aria-pressed') === 'true' ? ', including you' : '')); }
+  function bump(c) { if (rm) return; c.classList.remove('pop'); void c.offsetWidth; c.classList.add('pop'); }
+  function react(e, name) {
+    var c = chipOf(e);
+    if (!c) {
+      c = document.createElement('button');
+      c.className = 'u077-chip'; c.type = 'button'; c.setAttribute('data-e', e); c.setAttribute('data-n', name); c.setAttribute('aria-pressed', 'false');
+      c.innerHTML = '<span aria-hidden="true">' + e + '</span><b>0</b>';
+      rx.insertBefore(c, add);
+      c.addEventListener('click', function () { toggle(c); });
+    }
+    if (c.getAttribute('aria-pressed') !== 'true') toggle(c); else bump(c);
+  }
+  function toggle(c) {
+    var on = c.getAttribute('aria-pressed') !== 'true', n = Number(c.querySelector('b').textContent) + (on ? 1 : -1);
+    if (n <= 0) { c.remove(); place(); return; }
+    c.setAttribute('aria-pressed', String(on)); c.querySelector('b').textContent = n; label(c); bump(c);
+    place();
+  }
+  rx.querySelectorAll('.u077-chip').forEach(function (c) {
+    c.setAttribute('data-n', c.getAttribute('data-e') === '👍' ? 'Like' : 'Celebrate');
+    label(c);
+    c.addEventListener('click', function () { toggle(c); });
+  });
+  add.addEventListener('click', function () { if (pop.classList.contains('closed')) open(true); else close(false); });
+  grid.addEventListener('keydown', function (e) {
+    var i = es.indexOf(document.activeElement), d = { ArrowRight: 1, ArrowLeft: -1, ArrowDown: 6, ArrowUp: -6 }[e.key];
+    if (d && i >= 0) { e.preventDefault(); var n = (i + d + es.length) % es.length; es[i].tabIndex = -1; es[n].tabIndex = 0; es[n].focus(); }
+  });
+  root.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !pop.classList.contains('closed')) { e.preventDefault(); close(true); } });
+  function outside(e) {
+    if (!root.isConnected) { document.removeEventListener('pointerdown', outside, true); return; }
+    if (!pop.classList.contains('closed') && !pop.contains(e.target) && !add.contains(e.target)) close(false);
+  }
+  document.addEventListener('pointerdown', outside, true);
+  es[0].tabIndex = 0;
+  open(false);
+})();
+</script>
+--- Code end ---

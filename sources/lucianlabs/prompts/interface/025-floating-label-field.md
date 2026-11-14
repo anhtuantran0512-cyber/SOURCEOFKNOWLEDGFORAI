@@ -1,0 +1,249 @@
+---
+source: "lucianlabs"
+id: "025"
+title: "Notched floating label field"
+category: "Inputs & Search"
+collection: "interface"
+url: "https://lucianlabs.dev/en/uxui-prompt/#025"
+tags: ["input", "floating-label", "outlined", "validation", "form"]
+license: "MIT (c) 2026 Seokwoooo"
+---
+
+[Element] Notched floating label field (025, Inputs & Search)
+[What it does] Focus a field and its label shrinks and rises into a notch in the border, which parts around it. A valid email draws a check; an invalid one shakes the field and drops down a hint.
+[How to use it] Type into the email field. Leave it with an invalid address to see the error
+
+Please add the UI element below to my project.
+
+[Check first]
+1. Find out the project’s framework (React, Next, Vue, Svelte, plain HTML, etc.), styling approach (CSS modules, Tailwind, global CSS) and existing theming approach (data-theme, a dark class, CSS variables).
+2. Locate the file and any existing element at the insertion point first, and report where that element is used.
+
+[How to apply]
+3. Add it as a new component at the insertion point. If there is a replacement target, replace that element with the one below.
+4. Keep existing data, props, event handlers, form values and accessibility attributes (labels, aria, keyboard support) as they are.
+5. Port the structure, shapes and motion values (durations, curves, delays) of the code below as they are. Convert it into components and state for the framework, but do not guess a new design.
+6. Map the --ux-* color tokens below to the project’s existing theme variables. Keep both the light and dark values and check both themes.
+7. Keep styles inside this element’s class (.uNNN) and do not change global CSS or global scripts. Make sure the class names do not clash with existing ones.
+8. Replace the sample copy and sample data with the project’s real data. Do not bring over gallery-only screens or demo code. Keep the one-line license comment at the top of the new component file.
+9. Check that the feature and its final states still work with prefers-reduced-motion turned on.
+
+[Report when done]
+10. List the files you changed, behavior that differs from the old element, what you checked (both themes, mobile width, keyboard) and anything you could not check.
+
+[Insertion point] Write the page or component name here
+[Replacement target] Write the file path or component name of the existing element, or "none"
+
+--- Code start (this whole code is the working original) ---
+<!-- Lucian UX/UI Prompt #025 · MIT License (c) 2026 Seokwoooo · https://lucianlabs.dev/uxui-prompt/#025 -->
+<style>
+/* lucianLabs UI 요소 — 공통 테마 토큰 (라이트 / 다크)
+   라이트 기본값 → 시스템이 다크면 다크 → data-theme으로 명시하면 그 값을 우선합니다.
+   요소 CSS는 --ux-* 토큰만 참조하므로, 프로젝트 테마 변수에 이 값을 매핑하면 됩니다. */
+:root{
+  color-scheme:light;
+  --ux-page:#F4F2EE;
+  --ux-surface:#FFFFFF;
+  --ux-surface-2:#F5F3EF;
+  --ux-surface-3:#EAE7E1;
+  --ux-ink:#16151B;
+  --ux-ink-2:#57535F;
+  --ux-ink-3:#8E8A97;
+  --ux-line:rgba(22,21,27,.09);
+  --ux-line-2:rgba(22,21,27,.17);
+  --ux-accent:#6A57F2;
+  --ux-accent-2:#2F8FE0;
+  --ux-accent-soft:rgba(106,87,242,.12);
+  --ux-accent-ink:#FFFFFF;
+  --ux-mint:#119C72;
+  --ux-warn:#D6731E;
+  --ux-danger:#D93A55;
+  --ux-glass:rgba(255,255,255,.58);
+  --ux-glass-line:rgba(255,255,255,.85);
+  --ux-shadow:rgba(40,30,80,.14);
+  --ux-shadow-strong:rgba(40,30,80,.3);
+  --ux-grad:linear-gradient(120deg,#7B61FF,#3D8BFF 55%,#1FB89A);
+  --ux-ease:cubic-bezier(.2,.8,.2,1);
+  --ux-spring:cubic-bezier(.34,1.45,.64,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ux-page:#07080D;
+    --ux-surface:#13141C;
+    --ux-surface-2:#1A1B25;
+    --ux-surface-3:#252632;
+    --ux-ink:#F4F0E8;
+    --ux-ink-2:rgba(244,240,232,.68);
+    --ux-ink-3:rgba(244,240,232,.42);
+    --ux-line:rgba(255,255,255,.08);
+    --ux-line-2:rgba(255,255,255,.16);
+    --ux-accent:#B7A4FF;
+    --ux-accent-2:#7DB4FF;
+    --ux-accent-soft:rgba(183,164,255,.15);
+    --ux-accent-ink:#0B0C12;
+    --ux-mint:#7EE8C0;
+    --ux-warn:#FFB26B;
+    --ux-danger:#FF7D8C;
+    --ux-glass:rgba(255,255,255,.07);
+    --ux-glass-line:rgba(255,255,255,.18);
+    --ux-shadow:rgba(0,0,0,.45);
+    --ux-shadow-strong:rgba(0,0,0,.72);
+    --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ux-page:#07080D;
+  --ux-surface:#13141C;
+  --ux-surface-2:#1A1B25;
+  --ux-surface-3:#252632;
+  --ux-ink:#F4F0E8;
+  --ux-ink-2:rgba(244,240,232,.68);
+  --ux-ink-3:rgba(244,240,232,.42);
+  --ux-line:rgba(255,255,255,.08);
+  --ux-line-2:rgba(255,255,255,.16);
+  --ux-accent:#B7A4FF;
+  --ux-accent-2:#7DB4FF;
+  --ux-accent-soft:rgba(183,164,255,.15);
+  --ux-accent-ink:#0B0C12;
+  --ux-mint:#7EE8C0;
+  --ux-warn:#FFB26B;
+  --ux-danger:#FF7D8C;
+  --ux-glass:rgba(255,255,255,.07);
+  --ux-glass-line:rgba(255,255,255,.18);
+  --ux-shadow:rgba(0,0,0,.45);
+  --ux-shadow-strong:rgba(0,0,0,.72);
+  --ux-grad:linear-gradient(120deg,#B7A4FF,#7DB4FF 55%,#A5F2D3);
+}
+/* 요소 공통 베이스 — 루트에 .ux 클래스를 붙입니다 */
+.ux,.ux *,.ux *::before,.ux *::after{box-sizing:border-box}
+.ux{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+  color:var(--ux-ink);-webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  word-break:keep-all;overflow-wrap:break-word;
+}
+/* :where()로 명시도를 0으로 둬서, 요소 클래스가 버튼·입력의 색과 글꼴을 덮어쓸 수 있게 합니다 */
+:where(.ux) :is(button,input,textarea,select){font:inherit;color:inherit}
+:where(.ux) button{cursor:pointer}
+.ux :focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.ux [hidden]{display:none!important}
+/* 모션 줄이기: 전환은 즉시 끝나고, 무한 반복은 한 번으로 줄여 최종 상태가 보이게 합니다 */
+@media (prefers-reduced-motion:reduce){
+  .ux,.ux *,.ux *::before,.ux *::after{
+    animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important;
+  }
+}
+</style>
+
+<style>
+.u025{position:relative;width:340px;height:268px;display:flex;flex-direction:column;gap:14px}
+.u025-btn{margin-top:auto}
+.u025-f{position:relative}
+.u025-box{position:relative;height:62px}
+.u025-in{position:absolute;inset:0;width:100%;height:100%;padding:18px 48px 0 18px;border:0;outline:0;border-radius:16px;background:var(--ux-surface);font-size:16.5px;font-weight:560;color:var(--ux-ink);letter-spacing:-.01em}
+
+.u025-line{position:absolute;inset:0;display:flex;pointer-events:none;border-radius:16px}
+.u025-line i{display:block;border:1.5px solid var(--ux-line-2);transition:border-color .3s var(--ux-ease)}
+.u025-line .l{width:14px;border-right:0;border-radius:16px 0 0 16px}
+.u025-line .g{width:var(--gap,0px);border-left:0;border-right:0;transition:width .35s var(--ux-ease),border-color .3s var(--ux-ease)}
+.u025-line .r{flex:1;border-left:0;border-radius:0 16px 16px 0}
+.u025-f.is-up .u025-line .g{border-top-color:transparent!important}
+.u025-f.is-focus .u025-line i{border-color:var(--ux-accent);border-width:2px}
+.u025-f.is-bad .u025-line i{border-color:var(--ux-danger)}
+.u025-f.is-ok .u025-line i{border-color:var(--ux-mint)}
+.u025-lab{position:absolute;left:18px;top:21px;padding:0 4px;margin-left:-4px;font-size:16px;font-weight:560;color:var(--ux-ink-3);transform-origin:0 0;pointer-events:none;white-space:nowrap;
+  transition:transform .35s var(--ux-ease),color .3s var(--ux-ease)}
+.u025-f.is-up .u025-lab{transform:translate(0,-30px) scale(.8);color:var(--ux-ink-2);font-weight:650}
+.u025-f.is-focus .u025-lab{color:var(--ux-accent)}
+.u025-f.is-bad .u025-lab{color:var(--ux-danger)}
+.u025-f.is-up .u025-in{padding-top:0}
+.u025-ok{position:absolute;right:16px;top:50%;width:26px;height:26px;margin-top:-13px;border-radius:50%;display:grid;place-items:center;background:var(--ux-mint);color:var(--ux-accent-ink);transform:scale(0);transition:transform .45s var(--ux-spring)}
+.u025-ok svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.u025-ok path{stroke-dasharray:16;stroke-dashoffset:16;transition:stroke-dashoffset .35s var(--ux-ease) .15s}
+.u025-f.is-ok .u025-ok{transform:none}
+.u025-f.is-ok .u025-ok path{stroke-dashoffset:0}
+.u025-f.is-shake .u025-box{animation:u025-shake .42s var(--ux-ease)}
+@keyframes u025-shake{20%{transform:translateX(-7px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(2px)}}
+.u025-help{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s var(--ux-ease)}
+.u025-help>span{overflow:hidden;min-height:0;display:flex;align-items:center;gap:6px;padding-left:4px;font-size:13px;font-weight:600;color:var(--ux-danger)}
+.u025-help>span::before{content:"!";display:grid;place-items:center;width:16px;height:16px;flex:none;border-radius:50%;background:var(--ux-danger);color:var(--ux-accent-ink);font-size:11px;font-weight:800}
+.u025-f.is-bad .u025-help{grid-template-rows:1fr}
+.u025-f.is-bad .u025-help>span{padding-top:8px}
+.u025-btn{height:56px;border:0;border-radius:16px;background:var(--ux-ink);color:var(--ux-page);font-size:16px;font-weight:700;transition:transform .4s var(--ux-spring),opacity .3s var(--ux-ease)}
+.u025-btn:active{transform:scale(.97)}
+.u025-btn:focus-visible{outline:2px solid var(--ux-accent);outline-offset:3px}
+.u025-btn[aria-disabled="true"]{opacity:.35}
+.u025-in:focus-visible{outline:none}
+</style>
+<div class="ux u025">
+  <div class="u025-f">
+    <div class="u025-box">
+      <input class="u025-in" type="text" value="Seoyeon Kim" autocomplete="name">
+      <span class="u025-line" aria-hidden="true"><i class="l"></i><i class="g"></i><i class="r"></i></span>
+      <label class="u025-lab">Name</label>
+    </div>
+  </div>
+  <div class="u025-f" data-mail>
+    <div class="u025-box">
+      <input class="u025-in" type="email" autocomplete="email" inputmode="email">
+      <span class="u025-line" aria-hidden="true"><i class="l"></i><i class="g"></i><i class="r"></i></span>
+      <label class="u025-lab">Work email</label>
+      <span class="u025-ok" aria-hidden="true"><svg viewBox="0 0 14 14"><path d="M3 7.3l2.7 2.7L11 4.5"/></svg></span>
+    </div>
+    <div class="u025-help"><span class="u025-msg" aria-live="polite"></span></div>
+  </div>
+  <button class="u025-btn" type="button" aria-disabled="true">Send invite</button>
+</div>
+
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var fields = Array.prototype.slice.call(root.querySelectorAll('.u025-f'));
+  var btn = root.querySelector('.u025-btn');
+  var re = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+  var uid = Math.random().toString(36).slice(2, 7);
+  fields.forEach(function (f, i) {
+    var input = f.querySelector('.u025-in');
+    var lab = f.querySelector('.u025-lab');
+    var gap = f.querySelector('.g');
+    input.id = 'u025-' + uid + '-' + i;
+    lab.htmlFor = input.id;
+    var isMail = f.hasAttribute('data-mail');
+    var msg = f.querySelector('.u025-msg');
+    if (msg) { msg.id = input.id + '-m'; input.setAttribute('aria-describedby', msg.id); }
+    function lift() {
+      var up = document.activeElement === input || input.value.length > 0;
+      f.classList.toggle('is-up', up);
+      f.querySelector('.u025-line').style.setProperty('--gap', up ? (lab.offsetWidth * 0.8 + 2) + 'px' : '0px');
+    }
+    function check(strict) {
+      if (!isMail) return;
+      var v = input.value.trim();
+      var ok = re.test(v);
+      f.classList.toggle('is-ok', ok);
+      if (ok || !v) { f.classList.remove('is-bad'); input.removeAttribute('aria-invalid'); msg.textContent = ''; }
+      else if (strict) {
+        f.classList.add('is-bad');
+        input.setAttribute('aria-invalid', 'true');
+        msg.textContent = 'Check the email format, e.g. name@company.com';
+        f.classList.remove('is-shake'); void f.offsetWidth; f.classList.add('is-shake');
+      }
+      btn.setAttribute('aria-disabled', String(!ok));
+    }
+    input.addEventListener('focus', function () { f.classList.add('is-focus'); lift(); });
+    input.addEventListener('blur', function () { f.classList.remove('is-focus'); lift(); check(true); });
+    input.addEventListener('input', function () { lift(); check(f.classList.contains('is-bad')); });
+    lift();
+  });
+  btn.addEventListener('click', function () {
+    var mail = root.querySelector('[data-mail] .u025-in');
+    if (btn.getAttribute('aria-disabled') === 'true') { mail.focus(); return; }
+    btn.textContent = 'Invite sent';
+    setTimeout(function () { if (root.isConnected) btn.textContent = 'Send invite'; }, 1600);
+  });
+})();
+</script>
+--- Code end ---
