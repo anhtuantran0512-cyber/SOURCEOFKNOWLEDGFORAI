@@ -5,7 +5,7 @@
 | Path | Role |
 |---|---|
 | `README.md` | Human entry point, counts, quick start. |
-| `AGENT.md` | Rules + retrieval workflow. An agent reads this before writing code. |
+| `docs/RETRIEVAL_GUIDE.md` | Rules + retrieval workflow. An agent reads this before writing code. |
 | `INDEX.md` | Generated map: totals, categories, best picks, search snippets. |
 | `NOTICE.md` | Licenses, attribution, takedown policy. |
 | `catalog.json` | Machine summary of every source and count. |

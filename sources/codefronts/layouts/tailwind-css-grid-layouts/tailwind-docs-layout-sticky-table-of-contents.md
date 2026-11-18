@@ -41,7 +41,7 @@ A real API reference page: version pill, on-this-page rail that tracks the reade
         <h3 class="text-[1rem] font-semibold text-tgx02-lime">Authentication</h3>
         <p class="text-[0.86rem] leading-[1.65] text-tgx02-dim">Send your secret key as a bearer token. Keys are environment-scoped; a test key never touches a live manifest.</p>
         <pre class="font-tgx02-mono text-[0.76rem] leading-[1.6] text-tgx02-code bg-tgx02-codebg border border-tgx02-edge rounded-lg p-3 overflow-x-auto"><code>curl https://api.northwind.dev/v3/shipments \
-  -H "Authorization: Bearer nw_live_8fK2..." \
+  -H "Authorization: Bearer example_bearer_token..." \
   -H "Northwind-Version: 2026-07-01"</code></pre>
       </article>
       <article id="tgx02-list" class="scroll-mt-4 flex flex-col gap-2">

@@ -8,7 +8,7 @@ Copy a recipe, fill the bracketed parts, send it to the agent. Every recipe foll
 ## Recipe 1 — Premium landing hero
 
 ```
-Read AGENT.md.
+Read docs/RETRIEVAL_GUIDE.md.
 
 Build the hero section for [PRODUCT] in [src/app/page.tsx].
 References (max two):
@@ -107,7 +107,7 @@ and closes on Escape, skip-link present, sticky header does not cover anchors.
 ## Recipe 7 — Polish pass on an existing page
 
 ```
-Audit [PAGE] against AGENT.md §3 and fix only what is broken.
+Audit [PAGE] against docs/RETRIEVAL_GUIDE.md §3 and fix only what is broken.
 Do not redesign. Report a table: issue, evidence, fix, verified at which viewport.
 ```
 

@@ -1,0 +1,6 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Non-secret CSS class and demo UI snippet strings"
+regexes = ['''shadow-tcb12-out|tnb19-promo-dismissed|nw_live_[A-Za-z0-9_-]+''']
