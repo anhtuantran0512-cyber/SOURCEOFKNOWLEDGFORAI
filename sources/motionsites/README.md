@@ -5,6 +5,8 @@ Website-section prompts published as free on <https://motionsites.ai/sections>.
 - Free prompts archived: **321**
 - Catalogue entries seen: **772** (of which **451** are paid/locked and intentionally not archived)
 - Format: one Markdown file per prompt, folder = category
+- Upstream repository: none. MotionSites AI publishes no GitHub repo, so the free prompts are read from
+  `motionsites.ai/sections`.
 - Rights: prompts remain the property of MotionSites AI and their authors; not relicensed here.
   See [`NOTICE.md`](../../NOTICE.md).
 - Manifest: [`manifest.json`](manifest.json) · full public catalogue: [`catalog.json`](catalog.json)

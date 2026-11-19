@@ -10,6 +10,11 @@ license line.
 - Theme tokens: [`tokens.css`](tokens.css)
 - License: MIT (c) 2026 Seokwoooo — kept in every file
 - Manifest: [`manifest.json`](manifest.json)
+- Upstream source: <https://github.com/Seokwoooo/lucian-uxui-prompt> (MIT) — 400 `src/elements/*.html`,
+  plain-text prompts under `api/v1/en/e/*.txt`, `api/v1/en/catalog.tsv` and `src/tokens.css`.
+  This archive matches that repo 400/400 (catalog version `34c4b3e61d`); `git clone` is the cheapest way
+  to refresh.
+- Agent skill built on the same elements: <https://github.com/Seokwoooo/lucian-uxui> (MIT).
 
 ## Categories
 

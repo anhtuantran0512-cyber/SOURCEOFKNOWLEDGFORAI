@@ -3,6 +3,15 @@
 This repository is a **learning archive**. It indexes public front-end patterns and keeps the
 original attribution next to every file. Nothing here is sold, relicensed or presented as original work.
 
+| Source | Upstream repository | License on record |
+|---|---|---|
+| CodeFronts | <https://github.com/codefronts/toolkit> (tools only, not the catalogue) | MIT |
+| lucianLabs | <https://github.com/Seokwoooo/lucian-uxui-prompt> | MIT (c) 2026 Seokwoooo |
+| lucianLabs skill | <https://github.com/Seokwoooo/lucian-uxui> | MIT |
+| MotionSites AI | none | free prompts, property of MotionSites AI |
+| Pin UI | <https://github.com/shadcn-labs/Pin-UI> (no `LICENSE` file; terms in README) | MIT components |
+| ThreeUI | none | catalogue metadata; source sold via Pro MCP |
+
 ## 1. CodeFronts — `sources/codefronts/`
 
 - Source: <https://codefronts.com/>

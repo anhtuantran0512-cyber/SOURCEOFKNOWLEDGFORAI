@@ -5,6 +5,8 @@ This folder is an index of the **public catalogue**: what exists, which runtime 
 live demo is. It is not a source dump.
 
 - Site: <https://threeui.com/>
+- Upstream repository: none. ThreeUI publishes no GitHub repo; the component source is sold through
+  their authenticated Pro MCP.
 - Items: **961** · tag pages: **1,485**
 - Files: `items/<category>/<slug>.md` (one brief per item), `manifest.json`, `catalog.json`,
   `catalog.jsonl`, `tags.json`

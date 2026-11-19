@@ -8,6 +8,9 @@ working HTML/CSS/JS) plus source metadata.
 - Format: one Markdown file per component, folder = section/category
 - License: MIT, as stated inside every CodeFronts prompt
 - Manifest: [`manifest.json`](manifest.json)
+- Upstream: CodeFronts publishes <https://github.com/codefronts/toolkit> (MIT), but that repo holds three
+  standalone CSS tools — **not** this catalogue. The 5,047 components only exist on the site, so this
+  folder is collected by crawling `codefronts.com`.
 
 ## Coverage
 
