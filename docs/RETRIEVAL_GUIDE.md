@@ -1,4 +1,4 @@
-# AGENT.md — operating manual for AI agents using this repository
+# Operating manual — for AI agents using this repository
 
 You are working inside **SOURCEOFKNOWLEDGFORAI**, a curated front-end knowledge base.
 Use it as a reference library, not as a template dump. Every file is a self-contained pattern with a
@@ -26,10 +26,14 @@ scope but keep the licensing and verification rules.
 Source priority:
 
 1. `sources/pinui/` — real React source, correct behaviour, MIT. Start here for interactive components.
-2. `sources/lucianlabs/` — highest craft per element, MIT, code included.
-3. `sources/codefronts/` — widest coverage, component-sized, MIT-licensed snippets.
-4. `sources/threeui/` — best for 3D/WebGL direction and hero structure; reference only.
-5. `sources/motionsites/` — whole-section structure and art direction, prompt only.
+2. `sources/threeui/` — best for 3D/WebGL direction and hero structure; reference only.
+3. `sources/motionsites/` — whole-section structure and art direction, prompt only.
+4. `sources/lucianlabs/` — highest craft per element, MIT, code included.
+5. `sources/codefronts/` — widest coverage, component-sized, MIT-licensed snippets.
+
+Every folder has a generated `INDEX.md` listing all of its items (`sources/<name>/INDEX.md`) — read that
+first, it answers "what is in here" without loading the manifests. `sources/README.md` explains how to
+choose between the five, and `llms.txt` is the crawler-sized map of the whole repository.
 
 ---
 
@@ -126,7 +130,7 @@ Report exactly what was checked and what was not. "Looks good" is not evidence.
 
 Arena does not need a special skill file. Point it at this repository and say:
 
-> Read `AGENT.md` and `docs/usage-recipes.md`. Build the pricing section in `src/`. Use at most two
+> Read `START_HERE.md` and `docs/usage-recipes.md`. Build the pricing section in `src/`. Use at most two
 > references from `sources/`, keep license headers, and verify at 390/768/1440 with reduced motion.
 
 See `docs/arena-setup.md` for connection steps.

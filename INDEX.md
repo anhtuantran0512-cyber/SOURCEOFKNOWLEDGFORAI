@@ -15,14 +15,18 @@ Auto-generated entry point for the archive. Last build: 2026-11-19.
 ## Source priority
 
 1. **Pin UI** — real React source, correct behaviour, MIT. Start here for interactive components.
-2. **lucianLabs** — highest craft per element, runnable demo. Start here for micro-interactions.
-3. **CodeFronts** — widest coverage, component-sized CSS/Tailwind snippets.
-4. **ThreeUI** — best for 3D/WebGL direction, hero and section structure; reference only.
-5. **MotionSites** — whole-section briefs and art direction.
+2. **ThreeUI** — 3D/WebGL/motion direction with runtime and live demo; reference only, no source.
+3. **MotionSites** — whole-section briefs and art direction.
+4. **lucianLabs** — highest craft per element, working code, runnable demo.
+5. **CodeFronts** — widest coverage, component-sized CSS/Tailwind snippets.
+
+Each library has a generated `INDEX.md` listing every item: `sources/<name>/INDEX.md`.
 
 ## Start here
 
-- Read [`AGENT.md`](AGENT.md) — binding rules, 100% coverage, verification contract.
+- Read [`START_HERE.md`](START_HERE.md) — binding rules, 100% coverage gate, priority order, verification.
+- Machine map for crawlers: [`llms.txt`](llms.txt).
+- What is in each library, item by item: [`sources/README.md`](sources/README.md) → `sources/<name>/INDEX.md`.
 - Read [`docs/RETRIEVAL_GUIDE.md`](docs/RETRIEVAL_GUIDE.md) — lookup workflow in detail.
 - Read [`docs/usage-recipes.md`](docs/usage-recipes.md) — copy/paste build briefs.
 - Connect an agent with [`docs/arena-setup.md`](docs/arena-setup.md).

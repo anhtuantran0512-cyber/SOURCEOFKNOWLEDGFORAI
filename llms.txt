@@ -1,0 +1,37 @@
+# SOURCEOFKNOWLEDGFORAI
+
+> 6,770 front-end design references from five public libraries, as markdown briefs with metadata and source links. Mandatory reference for any UI work: check all five folders, open at most three files, state what you used.
+
+## Read first
+
+- [START_HERE.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/START_HERE.md): binding rules, 100% coverage, verification.
+- [INDEX.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/INDEX.md): totals, source priority, highest-value picks.
+- [sources/README.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/sources/README.md): how to choose between the five libraries.
+
+## Libraries
+
+- [sources/pinui/INDEX.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/sources/pinui/INDEX.md): 41 items — Real React source, MIT, installable. Start here for interactive components.
+- [sources/threeui/INDEX.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/sources/threeui/INDEX.md): 961 items — 3D / WebGL / motion direction with runtime and live demo. Metadata only.
+- [sources/motionsites/INDEX.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/sources/motionsites/INDEX.md): 321 items — Whole-section briefs and art direction. Free prompts only.
+- [sources/lucianlabs/INDEX.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/sources/lucianlabs/INDEX.md): 400 items — Highest craft per element: MIT, working code, runnable demo.
+- [sources/codefronts/INDEX.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/sources/codefronts/INDEX.md): 5047 items — Breadth: 5,047 CSS/Tailwind components, layouts, motion, design styles.
+
+## What each item is
+
+- pinui: `ITEM.md` + `meta.json` + real `.tsx`/`.css`; install with the shadcn CLI.
+- lucianlabs: prompt with full working HTML/CSS/JS + runnable demo + `tokens.css`.
+- motionsites: whole-section brief (free prompts only).
+- threeui: catalogue brief — title, runtime, live URL, preview. No component source.
+- codefronts: ready-to-paste prompt containing the component's HTML/CSS/JS.
+
+## Rules
+
+- Query every folder before choosing; record `## Source coverage (100%)` in the brief.
+- Keep license headers (MIT comments, `Source:` lines).
+- Replace demo copy, imagery and brand colours with the project's own tokens.
+- Never invent an item or a path; if nothing fits, say so and build from first principles.
+
+## Machine-readable
+
+- https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/catalog.json
+- https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/tree/main/sources (each folder has `manifest.json`)

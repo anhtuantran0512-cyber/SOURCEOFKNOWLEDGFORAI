@@ -1,11 +1,11 @@
 > **IMPORTANT SOURCE FOR WEB — 100% USE**
 >
 > Repo này là **nguồn bắt buộc** cho mọi thiết kế web của team. Trước khi code UI:
-> đọc [`AGENT.md`](AGENT.md), tra **cả năm** thư mục trong `sources/`, mở tham chiếu thật, rồi ghi
+> đọc [`START_HERE.md`](START_HERE.md), tra **cả năm** thư mục trong `sources/`, mở tham chiếu thật, rồi ghi
 > `## Source coverage (100%)` vào brief. Thiếu một nguồn = chưa được code.
 >
 > Phần lớn nội dung dưới đây là tiếng Anh vì file gốc của các thư viện là tiếng Anh; luật thi hành
-> và quy trình thì ở `AGENT.md`.
+> và quy trình thì ở `START_HERE.md`.
 
 # SOURCEOFKNOWLEDGFORAI
 
@@ -13,15 +13,22 @@ Front-end design reference archive: **6,770 reference items** from five public l
 into markdown briefs with metadata, categories and source links. Structure, docs and scripts are MIT;
 each source keeps its own license (see [`NOTICE.md`](NOTICE.md)).
 
+## For agents
+
+Start at [`START_HERE.md`](START_HERE.md) → [`llms.txt`](llms.txt) → [`sources/README.md`](sources/README.md).
+Priority 1→5: **pinui · threeui · motionsites · lucianlabs · codefronts**. Every folder carries a
+generated `INDEX.md` that lists all of its items, so a crawler can see an entire library without
+cloning anything.
+
 ## Contents
 
-| Source | Items | What you get | Code? | License |
-|---|---:|---|---|---|
-| [`sources/codefronts/`](sources/codefronts/) | 5,047 | CSS/Tailwind components, layouts, navigation, motion, snippets, design styles — one ready-to-paste prompt per item | prompt + code | MIT (stated by CodeFronts) |
-| [`sources/lucianlabs/`](sources/lucianlabs/) | 400 | 200 interface + 200 animation elements with runnable demos and theme tokens | full HTML/CSS/JS | MIT (c) 2026 Seokwoooo |
-| [`sources/motionsites/`](sources/motionsites/) | 321 | Free website-section prompts: hero, pricing, footer, ecommerce, SaaS, dashboards | prompt only | Free prompts, property of MotionSites AI |
-| [`sources/pinui/`](sources/pinui/) | 41 | 30 React components + 11 whole-page blocs, TSX + CSS, installable with shadcn CLI | full source | MIT (c) Rachit Thakur / Shadcn Labs |
-| [`sources/threeui/`](sources/threeui/) | 961 | 3D / WebGL / motion catalogue: buttons, hero, sections, 3D assets, backgrounds, landing pages (+1,485 tag pages) | metadata + live demo | catalogue metadata; source files behind ThreeUI Pro MCP |
+| # | Source | Items | Every item | What you get | Code? | License |
+|---:|---|---:|---|---|---|---|
+| 1 | [`sources/pinui/`](sources/pinui/) | 41 | [`INDEX.md`](sources/pinui/INDEX.md) | 30 React components + 11 whole-page blocs, TSX + CSS, installable with shadcn CLI | full source | MIT (c) Rachit Thakur / Shadcn Labs |
+| 2 | [`sources/threeui/`](sources/threeui/) | 961 | [`INDEX.md`](sources/threeui/INDEX.md) | 3D / WebGL / motion catalogue: buttons, hero, sections, 3D assets, backgrounds, landing pages (+1,485 tag pages) | metadata + live demo | catalogue metadata; source files behind ThreeUI Pro MCP |
+| 3 | [`sources/motionsites/`](sources/motionsites/) | 321 | [`INDEX.md`](sources/motionsites/INDEX.md) | Free website-section prompts: hero, pricing, footer, ecommerce, SaaS, dashboards | prompt only | Free prompts, property of MotionSites AI |
+| 4 | [`sources/lucianlabs/`](sources/lucianlabs/) | 400 | [`INDEX.md`](sources/lucianlabs/INDEX.md) | 200 interface + 200 animation elements with runnable demos and theme tokens | full HTML/CSS/JS | MIT (c) 2026 Seokwoooo |
+| 5 | [`sources/codefronts/`](sources/codefronts/) | 5,047 | [`INDEX.md`](sources/codefronts/INDEX.md) | CSS/Tailwind components, layouts, navigation, motion, snippets, design styles — one ready-to-paste prompt per item | prompt + code | MIT (stated by CodeFronts) |
 
 Paid MotionSites prompts and ThreeUI source files are **not** included. Nothing was paywalled or
 scraped from a private API. See [`NOTICE.md`](NOTICE.md).
@@ -53,7 +60,7 @@ git clone https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI.git
 cd SOURCEOFKNOWLEDGFORAI
 ```
 
-1. Read [`AGENT.md`](AGENT.md) — the binding rules, including the 100% coverage requirement.
+1. Read [`START_HERE.md`](START_HERE.md) — the binding rules, including the 100% coverage requirement.
 2. Browse [`INDEX.md`](INDEX.md) — totals, entry points, highest-value picks.
 3. Copy a recipe from [`docs/usage-recipes.md`](docs/usage-recipes.md).
 4. Connect an agent with [`docs/arena-setup.md`](docs/arena-setup.md).
@@ -61,7 +68,7 @@ cd SOURCEOFKNOWLEDGFORAI
 Minimal agent message:
 
 ```
-Read AGENT.md. Build <feature> in <folder>.
+Read START_HERE.md. Build <feature> in <folder>.
 Query every folder in sources/ (100% coverage), open at most three references,
 record Source coverage in the brief. Keep license headers, use design tokens,
 verify 390/768/1440 + keyboard + reduced motion.
@@ -71,7 +78,7 @@ verify 390/768/1440 + keyboard + reduced motion.
 
 ```text
 .
-├── AGENT.md                  # binding rules (100% coverage, licensing, verification)
+├── START_HERE.md                  # binding rules (100% coverage, licensing, verification)
 ├── INDEX.md                  # generated entry point
 ├── NOTICE.md                 # attribution, licenses, takedown
 ├── catalog.json              # machine summary of the archive
