@@ -1,0 +1,2245 @@
+/**
+ * HỆ THỐNG ĐA PHONG CÁCH F-FORUM (10-STYLE HARMONIZED EDITORIAL & HUMAN FORUM DESIGN SYSTEM)
+ *
+ * Tổng hợp 10 phong cách thiết kế thành một ngôn ngữ kiến trúc thống nhất, ấm áp, có hồn ("Humanized"):
+ *  1. Typography-Led Forum (.ff-typo-*)
+ *  2. Bento Grid + Community Cards (.ff-bento-*)
+ *  3. Neo-Brutalism + Forum (.ff-brutal-*)
+ *  4. Glassmorphism + Depth Layering (.ff-glass-depth-*)
+ *  5. Kinetic Typography + Scroll Story (.ff-kinetic-*)
+ *  6. Sci-Fi Gradient + Dark Mode Default (.ff-scifi-*)
+ *  7. Raw Aesthetic: Monospace + Grid Exposed (.ff-raw-*)
+ *  8. Tactile Maximalism: Squishy UI (.ff-tactile-*, .ff-squishy)
+ *  9. Holographic / Iridescent Accent (.ff-holo-*)
+ * 10. Organic + Hand-Drawn Accents (.ff-organic-*)
+ *
+ * Quy tắc Color Theory 60-30-10 chống mỏi mắt 24/7 (Zero AI-Slop):
+ *  - 60% Nền chính: Warm Obsidian Carbon (#0b0d12 -> #10141d) kèm lưới kỹ thuật mảnh (Exposed Grid).
+ *  - 30% Bề mặt đọc & Chữ: Warm Alabaster Cream (#f4f1de) & Soft Parchment (#d8d5ce) trên bề mặt #141923.
+ *  - 10% Điểm nhấn: Organic Terracotta (#e07a5f), Botanical Sage (#81b29a), Warm Sand (#f2cc8f) & Holographic Iris/Cyan.
+ */
+
+:root {
+  --ff-ds-bg-deep: var(--bg-paper);
+  --ff-ds-bg-elevated: var(--bg-parchment);
+  --ff-ds-bg-card: var(--bg-paper);
+  --ff-ds-ink-primary: var(--ink-primary);
+  --ff-ds-ink-secondary: var(--ink-secondary);
+  --ff-ds-ink-muted: var(--ink-muted);
+  --ff-ds-text-primary: var(--ink-primary);
+  --ff-ds-text-secondary: var(--ink-secondary);
+  --ff-ds-text-muted: var(--ink-muted);
+
+  /* 10. Academic Library Palette (Warm Ivory, Library Sage, Academic Gold, Muted Terracotta) */
+  --ff-ds-organic-terracotta: var(--accent-terracotta);
+  --ff-ds-organic-sage: var(--accent-forest);
+  --ff-ds-organic-cream: var(--bg-paper);
+  --ff-ds-organic-sand: var(--accent-mustard);
+
+  /* 6. Clean Digital Library Accents (Zero Rainbow Gradients) */
+  --ff-ds-scifi-cyan: var(--accent-forest);
+  --ff-ds-scifi-violet: var(--accent-mustard);
+  --ff-ds-scifi-emerald: var(--accent-forest);
+  --ff-ds-scifi-gradient: linear-gradient(135deg, rgba(39, 90, 65, 0.16) 0%, rgba(207, 146, 38, 0.14) 100%);
+
+  /* 3. Structured Academic Border & Composed Shadow */
+  --ff-ds-brutal-shadow: var(--shadow-brutal);
+  --ff-ds-brutal-shadow-sm: var(--shadow-brutal-sm);
+  --ff-ds-brutal-border: var(--border-color);
+
+  /* 8. Apple / Notion Calm Micro-Interaction Curves */
+  --ff-ds-spring: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ff-ds-smooth: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+html.light {
+  --ff-ds-bg-deep: var(--bg-paper);
+  --ff-ds-bg-elevated: var(--bg-parchment);
+  --ff-ds-bg-card: var(--bg-paper);
+  --ff-ds-ink-primary: var(--ink-primary);
+  --ff-ds-ink-secondary: var(--ink-secondary);
+  --ff-ds-ink-muted: var(--ink-muted);
+  --ff-ds-brutal-shadow: var(--shadow-brutal);
+  --ff-ds-brutal-shadow-sm: var(--shadow-brutal-sm);
+  --ff-ds-brutal-border: var(--border-color);
+}
+
+/* ========================================================================== */
+/* 1. TYPOGRAPHY-LED FORUM (Chữ là thiết kế chủ đạo, giàu cảm xúc)             */
+/* ========================================================================== */
+
+.ff-typo-hero {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.06;
+  color: var(--ff-ds-ink-primary);
+  text-wrap: balance;
+}
+
+.ff-typo-poster {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.65rem, 2.8vw, 2.35rem);
+  font-weight: 700;
+  letter-spacing: -0.024em;
+  line-height: 1.12;
+  color: var(--ff-ds-ink-primary);
+}
+
+.ff-typo-thread-title {
+  font-size: clamp(1.06rem, 1.4vw, 1.24rem);
+  font-weight: 800;
+  letter-spacing: -0.018em;
+  line-height: 1.38;
+  color: var(--ff-ds-ink-primary);
+}
+
+.ff-typo-measure {
+  max-width: 68ch;
+  line-height: 1.68;
+  color: var(--ff-ds-ink-secondary);
+}
+
+.ff-typo-author-display {
+  font-weight: 800;
+  letter-spacing: -0.012em;
+  color: var(--ff-ds-ink-primary);
+}
+
+/* ========================================================================== */
+/* 2. BENTO GRID + COMMUNITY CARDS (Hộp Bento kiến trúc, không chắp vá)        */
+/* ========================================================================== */
+
+.ff-bento-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.ff-bento-cell {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.875rem;
+  background: linear-gradient(165deg, rgba(22, 27, 39, 0.94), rgba(16, 20, 29, 0.98));
+  border: 1.5px solid rgba(244, 241, 222, 0.13);
+  padding: 0.95rem 1.1rem;
+  box-shadow:
+    var(--ff-ds-brutal-shadow),
+    inset 0 1px 0 rgba(244, 241, 222, 0.08);
+  transition:
+    transform 0.2s var(--ff-ds-smooth),
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+  transform: translateZ(0);
+}
+
+.ff-bento-cell:hover {
+  transform: translate3d(0, -1px, 0);
+  border-color: rgba(233, 196, 106, 0.38);
+  box-shadow:
+    0 10px 28px -8px rgba(0, 0, 0, 0.52),
+    2.5px 2.5px 0px rgba(4, 6, 11, 0.8),
+    inset 0 1px 0 rgba(248, 247, 244, 0.12);
+}
+
+html.light .ff-bento-cell {
+  background: #fffdf8;
+  border-color: rgba(28, 25, 23, 0.16);
+  box-shadow:
+    3px 3px 0px rgba(28, 25, 23, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+/* ========================================================================== */
+/* 3. NEO-BRUTALISM + FORUM (Góc sắc gọn, viền rõ, đổ bóng khối trung thực)    */
+/* ========================================================================== */
+
+.ff-brutal-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.24rem 0.62rem;
+  border-radius: 0.38rem;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  border: 1.5px solid var(--ff-ds-brutal-border);
+  box-shadow: var(--ff-ds-brutal-shadow-sm);
+  transition:
+    transform 0.14s var(--ff-ds-smooth),
+    background-color 0.14s ease,
+    color 0.14s ease,
+    border-color 0.14s ease;
+}
+
+.ff-brutal-tag:hover {
+  transform: translate3d(-1px, -1px, 0);
+}
+
+.ff-brutal-tag:active {
+  transform: translate3d(1px, 1px, 0);
+}
+
+.ff-brutal-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.18rem 0.52rem;
+  border-radius: 0.35rem;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.68rem;
+  font-weight: 800;
+  background: rgba(224, 122, 95, 0.14);
+  color: #f4f1de;
+  border: 1.5px solid rgba(224, 122, 95, 0.42);
+  box-shadow: 2px 2px 0px rgba(4, 6, 11, 0.88);
+}
+
+html.light .ff-brutal-index {
+  background: #f4f1de;
+  color: #1c1917;
+  border-color: rgba(28, 25, 23, 0.32);
+  box-shadow: 2px 2px 0px rgba(28, 25, 23, 0.18);
+}
+
+/* ========================================================================== */
+/* 4. GLASSMORPHISM + DEPTH LAYERING (2-3 lớp kính nổi cho Sidebar & Modal)   */
+/* ========================================================================== */
+
+.ff-glass-depth-1 {
+  background: rgba(16, 20, 29, 0.82);
+  backdrop-filter: blur(14px) saturate(135%);
+  -webkit-backdrop-filter: blur(14px) saturate(135%);
+  border: 1.5px solid rgba(244, 241, 222, 0.12);
+  box-shadow:
+    0 14px 34px -8px rgba(4, 6, 11, 0.72),
+    inset 0 1px 0 rgba(244, 241, 222, 0.09);
+}
+
+.ff-glass-depth-2 {
+  background: rgba(22, 27, 39, 0.88);
+  backdrop-filter: blur(18px) saturate(145%);
+  -webkit-backdrop-filter: blur(18px) saturate(145%);
+  border: 1.5px solid rgba(244, 241, 222, 0.16);
+  box-shadow:
+    0 20px 46px -10px rgba(4, 6, 11, 0.82),
+    inset 0 1px 0 rgba(244, 241, 222, 0.12);
+}
+
+.ff-glass-depth-3 {
+  background: rgba(27, 33, 47, 0.94);
+  backdrop-filter: blur(22px) saturate(155%);
+  -webkit-backdrop-filter: blur(22px) saturate(155%);
+  border: 1.5px solid rgba(242, 204, 143, 0.28);
+  box-shadow:
+    0 26px 56px -12px rgba(4, 6, 11, 0.9),
+    inset 0 1px 0 rgba(244, 241, 222, 0.18);
+}
+
+/* ========================================================================== */
+/* 5. KINETIC TYPOGRAPHY + SCROLL STORY (Phản hồi chữ tinh tế kiểu Apple/Notion)*/
+/* ========================================================================== */
+
+.ff-kinetic-title {
+  position: relative;
+  transition: color 0.18s ease;
+}
+
+.ff-kinetic-underline {
+  background-image: linear-gradient(90deg, rgba(233, 196, 106, 0.85), rgba(129, 178, 154, 0.85));
+  background-size: 0% 1.5px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 0.22s var(--ff-ds-smooth);
+}
+
+.group:hover .ff-kinetic-underline,
+.ff-kinetic-underline:hover {
+  background-size: 100% 1.5px;
+}
+
+/* ========================================================================== */
+/* 6. SCI-FI GRADIENT + DARK MODE DEFAULT (Dải năng lượng dịu mắt ban đêm)    */
+/* ========================================================================== */
+
+.ff-scifi-accent-bar {
+  position: relative;
+}
+
+.ff-scifi-accent-bar::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 3px;
+  border-radius: 3px 0 0 3px;
+  background: var(--ff-ds-organic-sage);
+  opacity: 0.9;
+}
+
+.ff-scifi-progress {
+  background: linear-gradient(90deg, #81b29a 0%, #e9c46a 100%);
+  box-shadow: none;
+}
+
+/* ========================================================================== */
+/* 7. RAW AESTHETIC: MONOSPACE + GRID EXPOSED (Lưới kiến trúc & dữ liệu thô)  */
+/* ========================================================================== */
+
+.ff-raw-grid-surface {
+  background-image:
+    linear-gradient(to right, rgba(248, 247, 244, 0.024) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(248, 247, 244, 0.024) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+html.light .ff-raw-grid-surface {
+  background-image:
+    linear-gradient(to right, rgba(28, 25, 23, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(28, 25, 23, 0.04) 1px, transparent 1px);
+}
+
+.ff-raw-meta {
+  font-family: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+  color: var(--ff-ds-ink-muted);
+}
+
+/* ========================================================================== */
+/* 8. TACTILE MICRO-INTERACTIONS (Nút bấm êm, chuẩn xác kiểu Apple/Notion)    */
+/* ========================================================================== */
+
+.ff-tactile-btn {
+  position: relative;
+  transform: translateZ(0);
+  transition:
+    transform 0.16s var(--ff-ds-smooth),
+    box-shadow 0.16s var(--ff-ds-smooth),
+    background-color 0.16s ease,
+    border-color 0.16s ease;
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.28),
+    1.5px 1.5px 0px rgba(4, 6, 11, 0.72),
+    inset 0 1px 0 rgba(255, 255, 255, 0.14);
+}
+
+.ff-tactile-btn:hover:not(:disabled) {
+  transform: translate3d(0, -1px, 0);
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.34),
+    2px 2px 0px rgba(4, 6, 11, 0.8),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.ff-tactile-btn:active:not(:disabled),
+.ff-squishy:active:not(:disabled) {
+  transform: translate3d(0, 0.5px, 0) scale(0.985);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.3),
+    inset 0 1px 2px rgba(0, 0, 0, 0.28);
+}
+
+/* ========================================================================== */
+/* 9. ACADEMIC VERIFIED SEAL (Thay thế gradient cầu vồng bằng dấu xác thực)   */
+/* ========================================================================== */
+
+.ff-holo-badge {
+  position: relative;
+  background: linear-gradient(135deg, rgba(129, 178, 154, 0.2) 0%, rgba(233, 196, 106, 0.14) 100%);
+  border: 1px solid rgba(129, 178, 154, 0.48);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16);
+}
+
+.ff-holo-card {
+  position: relative;
+  background: linear-gradient(165deg, rgba(20, 26, 36, 0.96), rgba(14, 19, 27, 0.99));
+  border: 1.5px solid rgba(129, 178, 154, 0.42);
+  box-shadow:
+    0 8px 24px -8px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(248, 247, 244, 0.1);
+}
+
+/* Thẻ holo luôn là bề mặt tối (banner "Đáp án chuẩn" ở Hỏi đáp, banner
+   "CLB xuất sắc" ở Câu lạc bộ). Trong chế độ sáng, khôi phục bộ token
+   chữ kem/vàng phiên bản tối bên trong để mực đậm không lật lên nền tối. */
+html.light .ff-holo-card {
+  --ff-ds-ink-primary: #f8f7f4;
+  --ff-ds-ink-secondary: #dad7d0;
+  --ff-ds-ink-muted: #a39f96;
+  --ff-ds-text-primary: #f8f7f4;
+  --ff-ds-text-secondary: #dad7d0;
+  --ff-ds-text-muted: #a39f96;
+  --ff-ds-brutal-border: rgba(248, 247, 244, 0.16);
+  --ff-ds-brutal-shadow-sm: 1.5px 1.5px 0px rgba(4, 6, 11, 0.72);
+  --accent-gold: #f2cc8f;
+}
+
+/* ========================================================================== */
+/* 10. ORGANIC + HAND-DRAWN ACCENTS (Nét vẽ tay thủ công, ấm áp, gần gũi)     */
+/* ========================================================================== */
+
+.ff-organic-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.22rem 0.65rem;
+  border-radius: 0.42rem;
+  background: rgba(224, 122, 95, 0.16);
+  border: 1.5px solid rgba(224, 122, 95, 0.42);
+  color: var(--ff-ds-organic-sand);
+  font-size: 0.72rem;
+  font-weight: 700;
+  box-shadow: 2px 2px 0px rgba(4, 6, 11, 0.85);
+}
+
+.ff-organic-sage-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.22rem 0.65rem;
+  border-radius: 0.42rem;
+  background: rgba(129, 178, 154, 0.16);
+  border: 1.5px solid rgba(129, 178, 154, 0.42);
+  color: #bbf7d0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  box-shadow: 2px 2px 0px rgba(4, 6, 11, 0.85);
+}
+
+.ff-organic-squiggle {
+  stroke: var(--ff-ds-organic-sand);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  opacity: 0.85;
+}
+
+/* ========================================================================== */
+/* KIẾN TRÚC THẺ HỎI ĐÁP (Style 3 Neo-Brutalism + Style 7 Exposed Grid)      */
+/* ========================================================================== */
+
+.ff-qa-dispatch-board {
+  position: relative;
+  border-radius: 6px !important;
+  background: linear-gradient(165deg, rgba(20, 25, 36, 0.98), rgba(12, 16, 24, 0.99)) !important;
+  border: 2px solid rgba(244, 241, 222, 0.24) !important;
+  box-shadow:
+    5px 5px 0px #04060a,
+    inset 0 1px 0 rgba(244, 241, 222, 0.1) !important;
+}
+
+.ff-qa-telemetry-strip {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-bottom: 1.5px dashed rgba(244, 241, 222, 0.16);
+  background: rgba(8, 10, 15, 0.72);
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  font-size: 10.5px;
+  color: #9a978e;
+}
+
+@media (min-width: 768px) {
+  .ff-qa-telemetry-strip {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.ff-qa-telemetry-cell {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 6px 12px;
+  border-right: 1px dashed rgba(244, 241, 222, 0.12);
+}
+
+.ff-qa-telemetry-cell:last-child {
+  border-right: none;
+}
+
+.ff-qa-telemetry-cell b {
+  color: #f2cc8f;
+  font-weight: 800;
+}
+
+.ff-qa-card {
+  position: relative;
+  content-visibility: visible;
+  contain-intrinsic-size: none;
+  border-radius: 6px !important;
+  background: linear-gradient(165deg, rgba(21, 26, 38, 0.97), rgba(13, 17, 26, 0.99)) !important;
+  border: 2px solid rgba(244, 241, 222, 0.22) !important;
+  box-shadow:
+    4px 4px 0px #04060a,
+    inset 0 1px 0 rgba(244, 241, 222, 0.08) !important;
+  transition:
+    transform 0.18s var(--ff-ds-smooth),
+    border-color 0.18s ease,
+    box-shadow 0.18s ease !important;
+}
+
+.ff-qa-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--ff-ds-organic-terracotta);
+  opacity: 0.92;
+}
+
+.ff-qa-card.is-solved::before {
+  background: var(--ff-ds-organic-sage);
+}
+
+.ff-qa-card:hover {
+  transform: translate3d(0, -1px, 0) !important;
+  border-color: rgba(233, 196, 106, 0.45) !important;
+  box-shadow:
+    0 8px 24px -8px rgba(0, 0, 0, 0.48),
+    3px 3px 0px #04060a,
+    inset 0 1px 0 rgba(248, 247, 244, 0.14) !important;
+}
+
+html.light .ff-qa-card,
+html.light .ff-qa-dispatch-board {
+  background: #fffdf8 !important;
+  border-color: rgba(28, 25, 23, 0.32) !important;
+  box-shadow:
+    4px 4px 0px rgba(28, 25, 23, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95) !important;
+}
+
+/* ========================================================================== */
+/* KIẾN TRÚC PHÒNG CHAT THƯ VIỆN SỐ (Unified Split-Pane Academic Workspace)   */
+/* ========================================================================== */
+
+.ff-chat-workspace {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  background: #0e131d;
+  border: 1px solid rgba(248, 247, 244, 0.12);
+  box-shadow:
+    0 24px 64px -12px rgba(0, 0, 0, 0.65),
+    inset 0 1px 0 rgba(248, 247, 244, 0.08);
+  overflow: hidden;
+}
+
+.ff-chat-sidebar-pane {
+  display: flex;
+  flex-direction: column;
+  background: #0b0f17;
+  border-right: 1px solid rgba(248, 247, 244, 0.09);
+}
+
+.ff-chat-main-pane {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  min-width: 0;
+  background: #101520;
+}
+
+.ff-chat-roster-pane {
+  display: flex;
+  flex-direction: column;
+  background: #0b0f17;
+  border-left: 1px solid rgba(248, 247, 244, 0.09);
+}
+
+.ff-chat-channel-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 9px 11px;
+  border-radius: 0.65rem;
+  border: 1px solid transparent;
+  background: transparent;
+  color: #a39f96;
+  text-align: left;
+  transition: background-color 0.16s ease, color 0.16s ease, border-color 0.16s ease;
+}
+
+.ff-chat-channel-btn:hover {
+  background: rgba(248, 247, 244, 0.045);
+  color: #f8f7f4;
+}
+
+.ff-chat-channel-btn.is-active {
+  background: rgba(129, 178, 154, 0.12);
+  border-color: rgba(129, 178, 154, 0.32);
+  color: #f8f7f4;
+}
+
+.ff-chat-channel-btn.is-active::before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  border-radius: 0 3px 3px 0;
+  background: #81b29a;
+}
+
+.ff-chat-composer-shell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px 6px 14px;
+  border-radius: 0.85rem;
+  background: #151b28;
+  border: 1px solid rgba(248, 247, 244, 0.14);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.35);
+  transition: border-color 0.16s ease, box-shadow 0.16s ease;
+}
+
+.ff-chat-composer-shell:focus-within {
+  border-color: rgba(129, 178, 154, 0.65);
+  box-shadow: 0 0 0 2px rgba(129, 178, 154, 0.15);
+}
+
+.ff-chat-composer-wrap {
+  position: relative;
+  display: grid;
+  gap: 7px;
+  width: 100%;
+  min-width: 0;
+}
+
+.ff-chat-composer-shell {
+  align-items: flex-end;
+}
+
+.ff-chat-message-input {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  min-height: 35px;
+  max-height: 120px;
+  padding: 6px 0;
+  resize: none;
+  overflow-y: auto;
+  line-height: 1.45;
+  scrollbar-width: thin;
+}
+
+.ff-chat-message-input:focus-visible {
+  outline: none;
+}
+
+.ff-chat-send-status {
+  align-self: center;
+  max-width: min(26vw, 180px);
+  overflow: hidden;
+  color: #a9caba;
+  font-size: 10px;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ff-chat-send-status:empty {
+  display: none;
+}
+
+.ff-chat-send-button.is-cooling:not(:disabled) {
+  box-shadow: 0 0 0 2px rgba(129, 178, 154, .2);
+}
+
+.ff-chat-composer-hint {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 3px;
+  color: #8f918e;
+  font: 10px/1.35 ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.ff-chat-composer-hint b {
+  color: #e9c46a;
+  font-weight: 800;
+}
+
+.ff-chat-mention-picker {
+  position: absolute;
+  z-index: 50;
+  right: 0;
+  bottom: calc(100% + 8px);
+  left: 0;
+  overflow: hidden;
+  border: 1px solid rgba(129, 178, 154, .36);
+  border-radius: 15px;
+  background: linear-gradient(155deg, rgba(23, 31, 43, .99), rgba(12, 17, 27, .99));
+  box-shadow: 0 18px 48px rgba(0, 0, 0, .4), inset 0 1px rgba(255, 255, 255, .06);
+  backdrop-filter: blur(16px);
+}
+
+.ff-chat-mention-picker__heading,
+.ff-chat-mention-picker__footnote {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0;
+  padding: 9px 12px;
+  color: #c9d8d0;
+  font-size: 10px;
+}
+
+.ff-chat-mention-picker__heading > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #f2cc8f;
+  font-weight: 750;
+  letter-spacing: .03em;
+}
+
+.ff-chat-mention-picker__heading kbd {
+  color: #8f9a9a;
+  font: 9px ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.ff-chat-mention-picker__list {
+  display: grid;
+  gap: 2px;
+  max-height: min(216px, 38vh);
+  overflow: auto;
+  padding: 0 6px;
+}
+
+.ff-chat-mention-option {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  min-height: 44px;
+  padding: 6px 8px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: transparent;
+  color: #f8f7f4;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color .15s ease, border-color .15s ease;
+}
+
+.ff-chat-mention-option:hover,
+.ff-chat-mention-option.is-active {
+  border-color: rgba(129, 178, 154, .28);
+  background: rgba(129, 178, 154, .12);
+}
+
+.ff-chat-mention-option:focus-visible {
+  outline: 2px solid #e9c46a;
+  outline-offset: -2px;
+}
+
+.ff-chat-mention-option__avatar {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+  flex: none;
+}
+
+.ff-chat-mention-option__avatar > img,
+.ff-chat-mention-option__avatar > span:first-child {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.ff-chat-mention-option__presence {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #111722;
+  border-radius: 50%;
+  background: #626b70;
+}
+
+.ff-chat-mention-option__presence.is-online {
+  background: #81b29a;
+  box-shadow: 0 0 7px rgba(129, 178, 154, .7);
+}
+
+.ff-chat-mention-option__copy {
+  display: grid;
+  min-width: 0;
+  flex: 1;
+  gap: 1px;
+}
+
+.ff-chat-mention-option__name {
+  overflow: hidden;
+  color: #f8f7f4;
+  font-size: 12px;
+  font-weight: 720;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ff-chat-mention-option__meta {
+  color: #9ba7a7;
+  font-size: 9px;
+  line-height: 1.2;
+}
+
+.ff-chat-mention-option__live {
+  flex: none;
+  color: #81b29a;
+  fill: currentColor;
+}
+
+.ff-chat-mention-picker__footnote {
+  justify-content: flex-start;
+  padding-top: 7px;
+  color: #929b9d;
+  border-top: 1px solid rgba(255, 255, 255, .06);
+}
+
+.ff-role-mark,
+.ff-chat-role-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: calc(var(--ff-role-icon-size, 13px) + 7px);
+  height: calc(var(--ff-role-icon-size, 13px) + 7px);
+  min-width: calc(var(--ff-role-icon-size, 13px) + 7px);
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  line-height: 0;
+  vertical-align: middle;
+}
+.ff-role-mark > svg,
+.ff-chat-role-mark > svg { display: block; flex: none; }
+.ff-role-mark--super-admin { color: #e9c46a; background: rgba(233, 196, 106, .12); }
+.ff-role-mark--teacher { color: #a8c6ed; background: rgba(120, 163, 218, .13); }
+.ff-role-mark--moderator { color: #e9a58d; background: rgba(224, 122, 95, .13); }
+.ff-role-mark--club-leader { color: #a4d2b9; background: rgba(129, 178, 154, .13); }
+.ff-role-mark--label { width: auto; gap: 6px; padding: 0 8px; border-radius: 999px; line-height: 1.1; font-size: 10px; font-weight: 700; white-space: nowrap; }
+.ff-chat-role-mark { cursor: help; transition: transform .15s ease, filter .15s ease; }
+.ff-chat-role-mark:hover,
+.ff-chat-role-mark:focus-visible { transform: translateY(-1px) scale(1.08); filter: brightness(1.12); }
+.ff-chat-role-mark:focus-visible { outline: 2px solid #e9c46a; outline-offset: 2px; }
+
+html.light .ff-chat-workspace {
+  background: #ffffff !important;
+  border-color: rgba(28, 25, 23, 0.14) !important;
+  box-shadow: 0 18px 44px -12px rgba(15, 23, 42, 0.14) !important;
+}
+
+html.light .ff-chat-sidebar-pane,
+html.light .ff-chat-roster-pane {
+  background: #f8f6f0 !important;
+  border-color: rgba(28, 25, 23, 0.1) !important;
+}
+
+html.light .ff-chat-main-pane {
+  background: #fffdf9 !important;
+}
+
+html.light .ff-chat-channel-btn {
+  color: #57534e !important;
+}
+
+html.light .ff-chat-channel-btn:hover {
+  background: rgba(28, 25, 23, 0.05) !important;
+  color: #1c1917 !important;
+}
+
+html.light .ff-chat-channel-btn.is-active {
+  background: rgba(129, 178, 154, 0.2) !important;
+  border-color: rgba(129, 178, 154, 0.45) !important;
+  color: #1c1917 !important;
+}
+
+html.light .ff-chat-composer-shell {
+  background: #f8f6f0 !important;
+  border-color: rgba(28, 25, 23, 0.18) !important;
+  box-shadow: none !important;
+}
+
+html.light .ff-chat-message-input { color: #1c1917 !important; }
+html.light .ff-chat-send-status { color: #426c56; }
+html.light .ff-chat-composer-hint { color: #68635b; }
+html.light .ff-chat-composer-hint b { color: #8b6427; }
+html.light .ff-chat-mention-picker {
+  background: linear-gradient(155deg, rgba(255, 253, 248, .99), rgba(244, 240, 230, .99));
+  border-color: rgba(66, 108, 86, .35);
+  box-shadow: 0 18px 42px rgba(28, 25, 23, .18), inset 0 1px #fff;
+}
+html.light .ff-chat-mention-picker__heading > span { color: #80571f; }
+html.light .ff-chat-mention-picker__heading kbd,
+html.light .ff-chat-mention-picker__footnote { color: #68635b; }
+html.light .ff-chat-mention-option { color: #1c1917; }
+html.light .ff-chat-mention-option:hover,
+html.light .ff-chat-mention-option.is-active { background: rgba(129, 178, 154, .18); }
+html.light .ff-chat-mention-option__name { color: #1c1917; }
+html.light .ff-chat-mention-option__meta { color: #68635b; }
+html.light .ff-chat-mention-option__presence { border-color: #fffdf8; }
+html.light .ff-chat-mention-picker__footnote { border-top-color: rgba(28, 25, 23, .09); }
+html.light .ff-role-mark--super-admin { color: #85601f; }
+html.light .ff-role-mark--teacher { color: #345f94; }
+html.light .ff-role-mark--moderator { color: #9b4f38; }
+html.light .ff-role-mark--club-leader { color: #426c56; }
+
+@media (max-width: 480px) {
+  .ff-chat-composer-hint { gap: 4px 9px; font-size: 9px; flex-wrap: wrap; }
+  .ff-chat-send-status { max-width: 25vw; }
+  .ff-chat-mention-picker__footnote { font-size: 9px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ff-chat-mention-option,
+  .ff-chat-role-mark { transition: none; }
+}
+
+.reduce-motion .ff-chat-mention-option,
+.reduce-motion .ff-chat-role-mark { transition: none; }
+
+/* ========================================================================== */
+/* KIẾN TRÚC QUẢNG TRƯỜNG CLB (Style 2 Bento + Style 10 Organic Hand-Drawn)   */
+/* ========================================================================== */
+
+.ff-club-realm-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .ff-club-realm-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.ff-club-realm-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 14px 6px 14px 6px;
+  background: linear-gradient(155deg, rgba(24, 29, 41, 0.94), rgba(15, 19, 28, 0.98));
+  border: 1.5px dashed rgba(244, 241, 222, 0.22);
+  box-shadow: 3px 3px 0px rgba(4, 6, 11, 0.88);
+  cursor: pointer;
+  text-align: left;
+  transition: transform 0.16s var(--ff-ds-spring), border-color 0.18s ease, background 0.18s ease;
+}
+
+.ff-club-realm-card:hover,
+.ff-club-realm-card.is-active {
+  transform: translate3d(-1.5px, -1.5px, 0);
+  border-style: solid;
+  border-color: rgba(242, 204, 143, 0.6);
+  background: linear-gradient(155deg, rgba(224, 122, 95, 0.18), rgba(20, 25, 36, 0.96));
+}
+
+/* Academic Digital Library override for Home Hero Title, Navbar & Global Calm Motion */
+.home-hero-title__focus {
+  color: #f4f1de !important;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.35)) !important;
+}
+
+.home-hero-title__word {
+  color: #f4f1de !important;
+  background: linear-gradient(105deg, #f8f7f4 0%, #f4f1de 58%, #e9c46a 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  animation: none !important;
+}
+
+.home-hero-title__wave {
+  stroke: #e9c46a !important;
+  filter: none !important;
+  opacity: 0.65 !important;
+}
+
+.home-hero-title__wave path {
+  animation: none !important;
+}
+
+.home-hero-title__bottom i {
+  background: linear-gradient(90deg, transparent, rgba(233, 196, 106, 0.7)) !important;
+}
+
+/* Navbar Brand: Clean Academic Seal (No rainbow conic-gradient, no infinite sweep) */
+.ff-nav-logo {
+  background: linear-gradient(135deg, #f4f1de 0%, #e9c46a 55%, #81b29a 100%) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35) !important;
+}
+
+.ff-nav-brand-title {
+  background: linear-gradient(96deg, #f8f7f4 0%, #e9c46a 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  animation: none !important;
+}
+
+.ff-nav-aura::before {
+  animation: none !important;
+  opacity: 0 !important;
+}
+
+.ff-chat-bubble-me {
+  border-radius: 6px !important;
+  background: var(--accent-terracotta) !important;
+  border: var(--border-grid) !important;
+  color: #ffffff !important;
+  box-shadow: var(--shadow-brutal-sm) !important;
+}
+
+.ff-chat-bubble-peer {
+  border-radius: 6px !important;
+  background: var(--bg-paper) !important;
+  border: var(--border-grid) !important;
+  color: var(--ink-primary) !important;
+  box-shadow: var(--shadow-brutal-sm) !important;
+}
+
+.ff-chat-bubble-admin {
+  background: var(--bg-parchment) !important;
+  border: var(--border-grid) !important;
+  border-left: 4px solid var(--accent-mustard) !important;
+  color: var(--ink-primary) !important;
+  box-shadow: var(--shadow-brutal-sm) !important;
+}
+
+html.light .ff-chat-bubble-me {
+  background: var(--accent-terracotta) !important;
+  border: var(--border-grid) !important;
+  color: #FAF8F5 !important;
+  box-shadow: var(--shadow-brutal-sm) !important;
+}
+
+html.light .ff-chat-bubble-peer {
+  background: var(--bg-paper) !important;
+  border: var(--border-grid) !important;
+  color: var(--ink-primary) !important;
+  box-shadow: var(--shadow-brutal-sm) !important;
+}
+
+html.light .ff-chat-bubble-admin {
+  background: var(--bg-parchment) !important;
+  border: var(--border-grid) !important;
+  border-left: 4px solid var(--accent-mustard) !important;
+  color: var(--ink-primary) !important;
+  box-shadow: var(--shadow-brutal-sm) !important;
+}
+
+/* ========================================================================== */
+/* UNIVERSAL GUI, BUTTON, MODAL, DETAIL CARD & LEADERBOARD ARCHITECTURE       */
+/* ========================================================================== */
+
+/* 1. Trang Chi Tiết Câu Hỏi & Lời Giải (.question-card & .answer-card — Style 3 Neo-Brutalism) */
+.question-card {
+  background: linear-gradient(165deg, rgba(22, 27, 39, 0.97), rgba(14, 18, 27, 0.99)) !important;
+  border-radius: 6px !important;
+  padding: 1.5rem 1.75rem !important;
+  border: 2px solid rgba(244, 241, 222, 0.24) !important;
+  box-shadow:
+    5px 5px 0px #04060a,
+    inset 0 1px 0 rgba(244, 241, 222, 0.1) !important;
+}
+
+.answer-section-label {
+  border-bottom: 1.5px dashed rgba(244, 241, 222, 0.16) !important;
+  color: var(--ff-ds-text-primary) !important;
+}
+
+.answer-card {
+  background: linear-gradient(165deg, rgba(21, 26, 38, 0.96), rgba(13, 17, 26, 0.99)) !important;
+  border-radius: 6px !important;
+  padding: 1.25rem 1.5rem !important;
+  border: 2px solid rgba(244, 241, 222, 0.18) !important;
+  border-left: 5px solid var(--ff-ds-organic-terracotta) !important;
+  box-shadow:
+    4px 4px 0px #04060a,
+    inset 0 1px 0 rgba(244, 241, 222, 0.08) !important;
+}
+
+.answer-card:hover {
+  border-color: rgba(242, 204, 143, 0.5) !important;
+  border-left-color: var(--ff-ds-organic-sand) !important;
+}
+
+.answer-card.verified {
+  border-left-color: var(--ff-ds-organic-sage) !important;
+  border-color: rgba(129, 178, 154, 0.55) !important;
+  background: linear-gradient(165deg, rgba(20, 33, 31, 0.96), rgba(13, 22, 23, 0.99)) !important;
+  box-shadow:
+    4px 4px 0px #04060a,
+    inset 0 1px 0 rgba(129, 178, 154, 0.18) !important;
+}
+
+/* 2. Modal Đặt Câu Hỏi & Toàn Bộ Hộp Thoại (.ask2027-* & .modal-container) */
+.ask2027-backdrop {
+  background:
+    radial-gradient(circle at 18% 18%, rgba(224, 122, 95, 0.14), transparent 46%),
+    radial-gradient(circle at 82% 82%, rgba(129, 178, 154, 0.14), transparent 48%),
+    rgba(6, 8, 13, 0.84) !important;
+}
+
+.ask2027-modal,
+.modal-container {
+  background: linear-gradient(165deg, #161b27 0%, #10141e 55%, #0c0f17 100%) !important;
+  border: 1.5px solid rgba(244, 241, 222, 0.2) !important;
+  border-radius: 1.15rem !important;
+  box-shadow:
+    6px 6px 0px rgba(4, 6, 11, 0.95),
+    0 24px 64px rgba(0, 0, 0, 0.78),
+    inset 0 1px 0 rgba(244, 241, 222, 0.12) !important;
+  color: var(--ff-ds-text-primary) !important;
+}
+
+.ask2027-mesh-blob-cyan {
+  background: radial-gradient(circle, rgba(233, 196, 106, 0.1) 0%, transparent 70%) !important;
+  animation: none !important;
+}
+
+.ask2027-mesh-blob-purple {
+  background: radial-gradient(circle, rgba(129, 178, 154, 0.1) 0%, transparent 70%) !important;
+  animation: none !important;
+}
+
+.ask2027-particles,
+.gb-card__sparks,
+.mythic-particle {
+  display: none !important;
+  animation: none !important;
+}
+
+.ask2027-orb-icon,
+.ask2027-progress-fill::after,
+.ask2027-bounty-pill,
+.ask2027-xp-badge,
+.tg-10__gold,
+.gb-card--epic .gb-card__shine,
+.gb-card--legendary .gb-card__shine,
+.gb-card--legendary::before {
+  animation: none !important;
+}
+
+.ask2027-title-gradient {
+  background: linear-gradient(92deg, #f8f7f4 0%, #e9c46a 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+  animation: none !important;
+}
+
+.ask2027-card-section {
+  background: rgba(11, 13, 18, 0.65) !important;
+  border-radius: 0.85rem !important;
+  border: 1.5px solid rgba(244, 241, 222, 0.13) !important;
+  box-shadow: 3px 3px 0px rgba(4, 6, 11, 0.88) !important;
+}
+
+.ask2027-field-shell {
+  border-radius: 0.75rem !important;
+  background: #0b0d12 !important;
+  border: 1.5px solid rgba(244, 241, 222, 0.16) !important;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+}
+
+.ask2027-field-shell:hover,
+.ask2027-field-shell:focus-within {
+  border-color: rgba(242, 204, 143, 0.65) !important;
+  background: #0e1118 !important;
+  box-shadow:
+    2px 2px 0px rgba(4, 6, 11, 0.9),
+    0 0 0 2px rgba(224, 122, 95, 0.18) !important;
+  animation: none !important;
+}
+
+.ask2027-submit-btn {
+  background: var(--ff-ds-organic-terracotta) !important;
+  color: #0b0d12 !important;
+  border: 1.5px solid #f4f1de !important;
+  border-radius: 0.75rem !important;
+  font-weight: 800 !important;
+  box-shadow: 3px 3px 0px rgba(4, 6, 11, 0.92) !important;
+  transition: transform 0.14s var(--ff-ds-spring), background-color 0.18s ease, box-shadow 0.14s ease !important;
+}
+
+.ask2027-submit-btn:hover:not(:disabled) {
+  background: var(--ff-ds-organic-sand) !important;
+  transform: translate3d(-1px, -1px, 0) !important;
+  box-shadow: 4px 4px 0px rgba(4, 6, 11, 0.95) !important;
+}
+
+.ask2027-submit-btn:active:not(:disabled) {
+  transform: translate3d(2px, 2px, 0) scale(0.96) !important;
+  box-shadow: 1px 1px 0px rgba(4, 6, 11, 0.95) !important;
+}
+
+.ask2027-ghost-btn {
+  background: rgba(244, 241, 222, 0.05) !important;
+  color: var(--ff-ds-text-secondary) !important;
+  border: 1.5px solid rgba(244, 241, 222, 0.16) !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 2px 2px 0px rgba(4, 6, 11, 0.85) !important;
+}
+
+.ask2027-ghost-btn:hover {
+  background: rgba(244, 241, 222, 0.1) !important;
+  color: var(--ff-ds-text-primary) !important;
+  border-color: rgba(242, 204, 143, 0.45) !important;
+}
+
+.ask2027-sym-btn {
+  background: #151a26 !important;
+  border: 1.5px solid rgba(244, 241, 222, 0.15) !important;
+  color: var(--ff-ds-text-primary) !important;
+  box-shadow: 2px 2px 0px rgba(4, 6, 11, 0.88) !important;
+}
+
+.ask2027-sym-btn:hover,
+.ask2027-sym-btn:focus-visible {
+  border-color: var(--ff-ds-organic-sand) !important;
+  background: rgba(224, 122, 95, 0.2) !important;
+  color: var(--ff-ds-organic-sand) !important;
+  transform: translate3d(-1px, -1px, 0) !important;
+  box-shadow: 3px 3px 0px rgba(4, 6, 11, 0.95) !important;
+}
+
+/* 3. Bảng Xếp Hạng & Nhịp Học Tập (.ff-board, .ff-pulse, .ff-hours) */
+.ff-board,
+.ff-pulse,
+.ff-hours {
+  background: linear-gradient(165deg, rgba(22, 27, 39, 0.95), rgba(14, 18, 26, 0.98)) !important;
+  border: 1.5px solid rgba(244, 241, 222, 0.15) !important;
+  border-radius: 1rem !important;
+  box-shadow:
+    4px 4px 0px rgba(4, 6, 11, 0.92),
+    inset 0 1px 0 rgba(244, 241, 222, 0.08) !important;
+}
+
+.ff-board__switch-btn.is-active,
+.ff-board__pill.is-active {
+  background: rgba(224, 122, 95, 0.22) !important;
+  border-color: rgba(224, 122, 95, 0.55) !important;
+  color: #f4f1de !important;
+  box-shadow: 2px 2px 0px rgba(4, 6, 11, 0.88) !important;
+}
+
+/* 4. Author Quick Card (.pc-12-shell & .pc-12-btn), Radial Quick Menu (.ccm-02), & Popovers (.ff-pop) */
+.pc-12-shell {
+  background: linear-gradient(165deg, #161b27, #0e121b) !important;
+  border: 1.5px solid rgba(244, 241, 222, 0.2) !important;
+  border-radius: 0.95rem !important;
+  box-shadow:
+    5px 5px 0px rgba(4, 6, 11, 0.95),
+    0 20px 48px rgba(0, 0, 0, 0.78) !important;
+}
+
+.pc-12-btn {
+  background: rgba(11, 13, 18, 0.8) !important;
+  border: 1.5px solid rgba(244, 241, 222, 0.14) !important;
+  border-radius: 0.65rem !important;
+  box-shadow: 2px 2px 0px rgba(4, 6, 11, 0.88) !important;
+}
+
+.pc-12-btn:hover {
+  border-color: rgba(242, 204, 143, 0.5) !important;
+  background: rgba(224, 122, 95, 0.16) !important;
+  transform: translate3d(-1px, -1px, 0);
+}
+
+.ccm-02__hub {
+  border: 1.5px solid rgba(244, 241, 222, 0.28) !important;
+  box-shadow:
+    4px 4px 0px rgba(4, 6, 11, 0.92),
+    0 12px 28px rgba(0, 0, 0, 0.6) !important;
+}
+
+.ccm-02__item {
+  border: 1.5px solid rgba(244, 241, 222, 0.22) !important;
+  box-shadow: 3px 3px 0px rgba(4, 6, 11, 0.9) !important;
+}
+
+.ff-pop {
+  background: linear-gradient(165deg, rgba(22, 27, 39, 0.97), rgba(13, 17, 25, 0.99)) !important;
+  border: 1.5px solid rgba(244, 241, 222, 0.18) !important;
+  box-shadow:
+    5px 5px 0px rgba(4, 6, 11, 0.95),
+    0 24px 60px rgba(0, 0, 0, 0.78) !important;
+}
+
+/* 5. Universal Calm Apple/Notion Micro-Interactions cho toàn bộ nút bấm trong diễn đàn */
+button:not(:disabled) {
+  transition:
+    transform 0.16s cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease,
+    box-shadow 0.16s ease;
+}
+
+button:not(:disabled):active {
+  transform: translate3d(0, 0.5px, 0) scale(0.985);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ff-bento-cell,
+  .ff-brutal-tag,
+  .ff-kinetic-title,
+  .ff-kinetic-underline,
+  .ff-tactile-btn,
+  .ff-qa-card,
+  button:not(:disabled) {
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+/* ========================================================================== */
+/* STYLE 11: CAMPUS ATELIER & CHỮ HOA UỐN LƯỢN (Calligraphic Swash & Zine)    */
+/* Pha trộn thứ 3 cùng Warm Editorial + Soft Neo-Brutalism: phóng khoáng,     */
+/* giàu chất sổ tay học trò, chữ hoa uốn lượn thanh thoát, 60fps nhẹ GPU.     */
+/* ========================================================================== */
+
+.ff-swash-cap {
+  display: inline;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: none;
+  padding-right: 0;
+  color: inherit;
+  background: none;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-text-fill-color: currentColor;
+  transform: none;
+  animation: none;
+}
+
+@supports ((background-clip: text) or (-webkit-background-clip: text)) {
+  .ff-swash-cap {
+    -webkit-text-fill-color: currentColor;
+  }
+}
+
+html.light .ff-swash-cap {
+  color: inherit;
+  background: none;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-text-fill-color: currentColor;
+}
+
+html.light :is(.ff-keep-dark, .signature-profile) .ff-swash-cap {
+  color: inherit;
+  background: none;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-text-fill-color: currentColor;
+}
+
+.ff-calligraphic-word {
+  position: relative;
+  display: inline-flex;
+  align-items: baseline;
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.ff-swash-flourish {
+  display: inline-block;
+  overflow: visible;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.65;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.82;
+  pointer-events: none;
+}
+
+@keyframes ffSwashFloat {
+  0%, 100% {
+    transform: translateY(0) rotate(-1.5deg);
+  }
+  50% {
+    transform: translateY(-0.045em) rotate(1.5deg);
+  }
+}
+
+/* Dải ruy-băng triết lý "Học · Hỏi · Chia sẻ" kiểu tem sổ tay học thuật */
+.ff-atelier-ribbon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.28rem 0.72rem;
+  border-radius: 10px 4px 10px 4px;
+  border: 1px dashed rgba(242, 204, 143, 0.44);
+  background: linear-gradient(125deg, rgba(242, 204, 143, 0.14), rgba(129, 178, 154, 0.1));
+  color: #f4f1de;
+  font-family: var(--ff-font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 0 rgba(4, 6, 11, 0.72), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+html.light .ff-atelier-ribbon {
+  border-color: rgba(146, 64, 14, 0.36);
+  background: linear-gradient(125deg, rgba(251, 191, 36, 0.16), rgba(129, 178, 154, 0.14));
+  color: #1c1917;
+  box-shadow: 2px 2px 0 rgba(28, 25, 23, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+/* Thẻ bàn học chung (Campus Atelier Study Card) */
+.ff-atelier-card {
+  position: relative;
+  text-align: left;
+  border-radius: 16px 5px 16px 5px;
+  border: 1px solid rgba(244, 241, 222, 0.18);
+  background:
+    linear-gradient(160deg, rgba(22, 27, 38, 0.84) 0%, rgba(13, 17, 25, 0.9) 100%);
+  box-shadow:
+    3px 3px 0 rgba(4, 6, 11, 0.78),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition:
+    transform 0.22s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.22s ease,
+    box-shadow 0.22s ease,
+    background-color 0.22s ease;
+}
+
+.ff-atelier-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 14px;
+  width: 24px;
+  height: 3px;
+  border-radius: 0 0 4px 4px;
+  background: linear-gradient(90deg, #e07a5f, #f2cc8f, #81b29a);
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+.ff-atelier-card:hover {
+  transform: translate3d(0, -2px, 0);
+  border-color: rgba(242, 204, 143, 0.48);
+  box-shadow:
+    0 12px 26px -10px rgba(0, 0, 0, 0.55),
+    4px 4px 0 rgba(4, 6, 11, 0.88),
+    inset 0 1px 0 rgba(255, 255, 255, 0.14);
+}
+
+html.light .ff-atelier-card {
+  background: linear-gradient(160deg, rgba(255, 253, 248, 0.94), rgba(248, 244, 234, 0.96));
+  border-color: rgba(28, 25, 23, 0.18);
+  box-shadow:
+    3px 3px 0 rgba(28, 25, 23, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+html.light .ff-atelier-card:hover {
+  border-color: rgba(180, 83, 9, 0.45);
+  box-shadow:
+    0 12px 24px -10px rgba(28, 25, 23, 0.14),
+    4px 4px 0 rgba(28, 25, 23, 0.2),
+    inset 0 1px 0 #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ff-swash-cap {
+    animation: none !important;
+    transform: none !important;
+  }
+  .ff-atelier-card:hover {
+    transform: none !important;
+  }
+}
+
+html.reduce-motion .ff-swash-cap,
+html.potator-mode .ff-swash-cap {
+  animation: none !important;
+  transform: none !important;
+}
+
+html.reduce-motion .ff-global-cursor,
+html.potator-mode .ff-global-cursor,
+html.fabulous-mode .ff-global-cursor {
+  display: none !important;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* Chat layout polish: stable message lanes, compact dock, and a no-overlap     */
+/* composer. This is intentionally shared by ChatView and ChatDock.             */
+/* -------------------------------------------------------------------------- */
+.ff-chat-view {
+  isolation: isolate;
+  min-width: 0;
+  background: #090c12;
+}
+.ff-chat-view .page-content-wrapper {
+  height: auto !important;
+  min-height: 0;
+}
+.ff-chat-workspace {
+  height: auto;
+  min-height: 0;
+  flex: 1 1 0%;
+  border-radius: 22px;
+  border-color: rgba(248, 247, 244, .15);
+  background: linear-gradient(145deg, #101620 0%, #0b1018 100%);
+  box-shadow: 0 24px 64px -20px rgba(0, 0, 0, .78), inset 0 1px rgba(255, 255, 255, .08);
+}
+.ff-chat-sidebar-pane,
+.ff-chat-roster-pane {
+  min-width: 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, #101620, #0c1119);
+}
+.ff-chat-main-pane {
+  min-height: 0;
+  overflow: hidden;
+  background: #111722;
+}
+.ff-chat-main-pane > header,
+.ff-chat-dock-header {
+  background: linear-gradient(120deg, rgba(21, 31, 44, .96), rgba(12, 17, 26, .96));
+  backdrop-filter: blur(14px);
+}
+.ff-chat-message-stream,
+.ff-chat-dock-stream {
+  min-width: 0;
+  min-height: 0;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(129, 178, 154, .28) transparent;
+  background:
+    radial-gradient(110% 80% at 10% 0%, rgba(129, 178, 154, .035), transparent 56%),
+    #101520;
+}
+.ff-chat-message-row {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr);
+  align-items: start;
+  column-gap: 9px;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 5px;
+  border-radius: 14px;
+}
+.ff-chat-message-row--mine {
+  grid-template-columns: minmax(0, 1fr) 36px;
+}
+.ff-chat-message-avatar {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: start;
+  width: max-content;
+  max-width: 100%;
+  min-width: 0;
+}
+.ff-chat-message-row--mine > .ff-chat-message-avatar {
+  grid-column: 2;
+  justify-self: end;
+}
+.ff-chat-message-body {
+  grid-column: 2;
+  grid-row: 1;
+  width: 100%;
+  min-width: 0;
+  max-width: 100% !important;
+}
+.ff-chat-message-row--mine > .ff-chat-message-body {
+  grid-column: 1;
+  justify-self: end;
+}
+.ff-chat-message-meta {
+  min-width: 0;
+  max-width: 100%;
+  row-gap: 4px;
+}
+.ff-chat-message-meta--mine { align-self: flex-end; }
+.ff-chat-message-author { min-width: 0; max-width: 100%; }
+.ff-chat-message-content {
+  min-width: 0;
+  max-width: 100%;
+  width: fit-content;
+  align-items: flex-end;
+}
+.ff-chat-message-bubble {
+  min-width: 0;
+  max-width: min(100%, 72ch);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.ff-chat-message-actions { align-self: flex-end; }
+.ff-chat-message-actions button { flex: none; }
+.ff-chat-reply-preview { min-width: 0; max-width: 100%; }
+.ff-chat-reply-preview__copy { flex: 1 1 auto; min-width: 0; }
+.ff-chat-reply-preview__author { max-width: 25%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ff-chat-reply-preview__excerpt { min-width: 0; flex: 1 1 auto; }
+
+.ff-chat-composer-wrap { min-width: 0; }
+.ff-chat-composer-input-row {
+  position: relative;
+  display: grid;
+  width: 100%;
+  min-width: 0;
+}
+.ff-chat-composer-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas: "input send" "meta send";
+  align-items: end;
+  gap: 2px 10px;
+  width: 100%;
+  min-width: 0;
+  padding: 7px 8px 7px 14px;
+  border: 1px solid rgba(248, 247, 244, .16);
+  border-radius: 16px;
+  background: linear-gradient(155deg, #171e2a, #111722);
+  box-shadow: 0 5px 18px rgba(0, 0, 0, .2), inset 0 1px rgba(255, 255, 255, .04);
+}
+.ff-chat-message-input {
+  grid-area: input;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+  min-height: 34px;
+  max-height: 112px;
+  overflow-wrap: anywhere;
+}
+.ff-chat-composer-meta {
+  grid-area: meta;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+  max-width: 100%;
+  padding: 0 1px 1px;
+}
+.ff-chat-character-count {
+  flex: none;
+  color: #7f8d91;
+  font: 9px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+}
+.ff-chat-send-status {
+  max-width: min(44vw, 260px);
+  min-width: 0;
+  margin-left: auto;
+  font-size: 9px;
+  text-align: right;
+}
+.ff-chat-send-button {
+  grid-area: send;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  min-width: 46px;
+  min-height: 42px;
+}
+.ff-chat-send-button--icon { min-width: 42px; min-height: 42px; }
+.ff-chat-composer-hint { min-width: 0; }
+.ff-chat-mention-picker {
+  bottom: calc(100% + 9px);
+  max-width: 100%;
+  z-index: 80;
+}
+
+.ff-icon-button {
+  display: inline-grid;
+  flex: none;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  min-width: 34px;
+  min-height: 34px;
+  padding: 0;
+  line-height: 0;
+  vertical-align: middle;
+}
+.ff-icon-button > svg { display: block; flex: none; margin: 0; }
+.ff-chat-close-button { width: 36px; height: 36px; min-width: 36px; min-height: 36px; }
+.ff-chat-action-button,
+.ff-chat-reply-preview__close { width: 30px; height: 30px; min-width: 30px; min-height: 30px; }
+.ff-chat-search-clear { top: 50%; width: 26px; height: 26px; min-width: 26px; min-height: 26px; transform: translateY(-50%); }
+.ff-chat-dock-shell { min-height: 0; border-color: rgba(248, 247, 244, .18); box-shadow: 0 24px 64px rgba(0, 0, 0, .66), inset 0 1px rgba(255, 255, 255, .06); }
+.ff-chat-dock-composer { flex: none; min-width: 0; }
+.ff-chat-dock-stream { flex: 1 1 0%; }
+
+html.light .ff-chat-message-stream,
+html.light .ff-chat-dock-stream { background: #fffdf9; }
+html.light .ff-chat-composer-shell { background: linear-gradient(155deg, #fffdf8, #f3efe5) !important; border-color: rgba(72, 88, 77, .22) !important; }
+html.light .ff-chat-character-count { color: #777064; }
+html.light .ff-chat-dock-shell { background: #fffdf8 !important; border-color: rgba(28, 25, 23, .18); }
+html.light .ff-chat-dock-header,
+html.light .ff-chat-dock-composer,
+html.light .ff-chat-main-pane > header { background: #f4f0e7 !important; }
+html.light .ff-chat-main-pane { background: #fffdf9 !important; }
+html.light .ff-chat-sidebar-pane,
+html.light .ff-chat-roster-pane { background: #f6f2e8 !important; }
+
+@media (hover: none) {
+  .ff-chat-message-actions { opacity: 1 !important; }
+}
+@media (max-width: 640px) {
+  .ff-chat-workspace { border-radius: 16px; }
+  .ff-chat-message-row { grid-template-columns: 32px minmax(0, 1fr); column-gap: 7px; padding-inline: 2px; }
+  .ff-chat-message-row--mine { grid-template-columns: minmax(0, 1fr) 32px; }
+  .ff-chat-message-content { gap: 5px; }
+  .ff-chat-message-actions { gap: 3px; }
+  .ff-chat-action-button { width: 28px; height: 28px; min-width: 28px; min-height: 28px; }
+  .ff-chat-composer-shell { gap: 2px 7px; padding: 6px 6px 6px 10px; border-radius: 14px; }
+  .ff-chat-send-button { min-width: 42px; min-height: 42px; }
+  .ff-chat-character-count { font-size: 8.5px; }
+  .ff-chat-send-status { max-width: 40vw; font-size: 8.5px; }
+  .ff-chat-reply-preview { gap: 4px; }
+  .ff-chat-reply-preview__label { display: none; }
+}
+@media (max-width: 380px) {
+  .ff-chat-message-row { grid-template-columns: 29px minmax(0, 1fr); column-gap: 5px; }
+  .ff-chat-message-row--mine { grid-template-columns: minmax(0, 1fr) 29px; }
+  .ff-chat-message-meta { gap: 4px; }
+  .ff-chat-composer-shell { grid-template-columns: minmax(0, 1fr) 40px; padding-left: 8px; }
+  .ff-chat-send-button { min-width: 38px; min-height: 38px; }
+  .ff-chat-character-count { display: none; }
+  .ff-chat-composer-hint span:last-child { text-align: right; }
+}
+
+.ff-chat-dock-title { min-width: 0; flex-wrap: wrap; }
+.ff-chat-dock-channel-btn { min-width: 0; min-height: 34px; }
+.ff-chat-dock-channel-btn:focus-visible,
+.ff-chat-channel-btn:focus-visible,
+.ff-icon-button:focus-visible {
+  outline: 2px solid #e9c46a;
+  outline-offset: 2px;
+}
+.ff-chat-message-row {
+  position: relative;
+  border: 1px solid transparent;
+  transition: border-color .16s ease, background-color .16s ease;
+}
+.ff-chat-message-row:hover {
+  border-color: rgba(129, 178, 154, .12);
+  background: linear-gradient(100deg, rgba(129, 178, 154, .045), rgba(129, 178, 154, .012));
+}
+@media (max-width: 480px) {
+  .ff-chat-dock-header .ff-atelier-ribbon { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ff-chat-message-row,
+  .ff-chat-dock-channel-btn { transition: none; }
+}
+.ff-chat-userbar-name-row { width: 100%; }
+
+/* Unlayered component declarations must not cancel Tailwind's breakpoint hide
+   utilities: explicitly collapse both side rails on phone/tablet widths. */
+@media (max-width: 767px) {
+  .ff-chat-view .ff-chat-sidebar-pane,
+  .ff-chat-view .ff-chat-roster-pane { display: none !important; }
+  .ff-chat-view .ff-chat-main-pane { width: 100%; min-width: 0; flex: 1 1 auto; }
+}
+@media (min-width: 768px) {
+  .ff-chat-view .ff-chat-sidebar-pane { display: flex; }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ff-chat-view .ff-chat-roster-pane { display: none !important; }
+}
+@media (min-width: 1024px) {
+  .ff-chat-view .ff-chat-roster-pane { display: flex; }
+}
+
+/* ========================================================================== */
+/* CHAT V2 — KHÔNG GIAN HỌC CHUNG: NHỊP ĐỌC GỌN, TƯƠNG PHẢN RÕ, MOBILE LIỀN MẠCH */
+/* ========================================================================== */
+
+.ff-chat-view,
+.ff-chat-dock-shell {
+  --chat-ink: #0b0f16;
+  --chat-panel: #101620;
+  --chat-raised: #151c27;
+  --chat-line: rgba(244, 241, 232, .10);
+  --chat-line-strong: rgba(244, 241, 232, .16);
+  --chat-text: #f4f1e8;
+  --chat-muted: #a8a294;
+  --chat-faint: #8b857a;
+  --chat-amber: #e9c46a;
+  --chat-sage: #8fbfa5;
+  --chat-terracotta: #d9785a;
+}
+
+.ff-chat-view { background: var(--chat-ink); }
+.ff-chat-view .page-content-wrapper {
+  max-width: 1380px;
+  padding: 14px 22px 18px;
+}
+.ff-chat-workspace {
+  border-radius: 20px;
+  border-color: var(--chat-line);
+  background: linear-gradient(160deg, #101620 0%, #0b1017 100%);
+  box-shadow: 0 30px 80px -34px rgba(0, 0, 0, .9), inset 0 1px rgba(255, 255, 255, .05);
+}
+.ff-chat-sidebar-pane,
+.ff-chat-roster-pane {
+  background: linear-gradient(180deg, #0e141d, #0b1017);
+  border-color: var(--chat-line);
+}
+.ff-chat-sidebar-pane { width: 264px; }
+.ff-chat-roster-pane { width: 248px; }
+.ff-chat-main-pane { background: var(--chat-panel); }
+
+.ff-chat-main-pane > header {
+  height: 56px;
+  min-height: 56px;
+  padding-inline: 16px;
+  background: rgba(13, 18, 26, .94);
+  border-bottom: 1px solid var(--chat-line);
+}
+.ff-chat-view .ff-chat-main-pane > header h1 {
+  font-size: 15px;
+  letter-spacing: -.01em;
+  color: var(--chat-text);
+}
+.ff-chat-view .ff-chat-main-pane > header input {
+  background: #121926;
+  border-color: var(--chat-line);
+  color: var(--chat-text);
+}
+.ff-chat-view .ff-chat-main-pane > header input::placeholder { color: var(--chat-faint); }
+.ff-chat-mobile-channel,
+.ff-chat-mobile-members { flex: none; }
+.ff-chat-mobile-channel {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.ff-chat-sidebar-pane > div:first-child,
+.ff-chat-roster-pane > div:first-child { height: 56px; }
+.ff-chat-sidebar-pane h2,
+.ff-chat-roster-pane span { letter-spacing: .01em; }
+.ff-chat-sidebar-pane .ff-chat-channel-btn {
+  padding: 8px 10px;
+  border-radius: 12px;
+  gap: 10px;
+}
+.ff-chat-sidebar-pane .ff-chat-channel-btn > div:first-of-type {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+}
+.ff-chat-channel-btn.is-active::before { display: none; }
+.ff-chat-channel-btn .text-\[13px\] { font-size: 12.8px; }
+.ff-chat-channel-btn .text-\[10\.5px\] { color: var(--chat-faint); font-size: 11px; }
+
+.ff-chat-message-stream {
+  padding: 14px 20px 10px;
+  background:
+    radial-gradient(120% 80% at 8% 0%, rgba(143, 191, 165, .05), transparent 58%),
+    var(--chat-panel);
+}
+.ff-chat-dock-stream {
+  padding: 12px 12px 8px;
+  background:
+    radial-gradient(120% 80% at 8% 0%, rgba(143, 191, 165, .045), transparent 58%),
+    var(--chat-panel);
+}
+
+.ff-chat-message-row {
+  grid-template-columns: 36px minmax(0, 1fr);
+  column-gap: 10px;
+  margin: 0;
+  padding: 2px 4px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+}
+.ff-chat-message-row--mine { grid-template-columns: minmax(0, 1fr) 36px; }
+.ff-chat-message-row--group-start { margin-top: 14px; }
+.ff-chat-message-row--continuation { margin-top: 1px; }
+.ff-chat-message-row--group-start:first-child { margin-top: 0; }
+.ff-chat-message-row--continuation .ff-chat-message-bubble {
+  border-top-left-radius: 7px !important;
+  border-top-right-radius: 7px !important;
+}
+.ff-chat-message-row:hover {
+  border-color: transparent;
+  background: transparent;
+}
+.ff-chat-dock-message-row { padding: 2px 2px; }
+.ff-chat-message-avatar,
+.ff-chat-message-avatar--spacer {
+  width: 36px;
+  height: 36px;
+  margin-top: 1px;
+}
+.ff-chat-message-avatar--spacer { visibility: hidden; }
+.ff-chat-message-body { width: 100%; max-width: 100% !important; }
+.ff-chat-message-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+.ff-chat-message-meta--mine { justify-content: flex-end; }
+.ff-chat-message-author { min-width: 0; max-width: 220px; }
+.ff-chat-message-author-name {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ff-chat-message-time {
+  flex: none;
+  color: var(--chat-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.ff-chat-message-bubble {
+  max-width: min(100%, 66ch);
+  padding: 8px 12px !important;
+  border-radius: 15px 15px 15px 5px !important;
+  font-size: 13.5px !important;
+  line-height: 1.55 !important;
+  box-shadow: none !important;
+}
+.ff-chat-message-row--mine .ff-chat-message-bubble {
+  border-radius: 15px 15px 5px 15px !important;
+}
+.ff-chat-bubble-peer {
+  background: #171e29 !important;
+  border: 1px solid rgba(244, 241, 232, .09) !important;
+  color: var(--chat-text) !important;
+  backdrop-filter: none;
+  box-shadow: none !important;
+}
+.ff-chat-bubble-me {
+  background: linear-gradient(135deg, #d4795c 0%, #bb5d43 100%) !important;
+  border: 1px solid rgba(255, 255, 255, .10) !important;
+  color: #fff8f1 !important;
+  text-shadow: none;
+  box-shadow: none !important;
+}
+.ff-chat-bubble-admin {
+  background: linear-gradient(135deg, rgba(233, 196, 106, .14), rgba(23, 30, 41, .96)) !important;
+  border: 1px solid rgba(233, 196, 106, .30) !important;
+  border-left: 2px solid var(--chat-amber) !important;
+  color: var(--chat-text) !important;
+  box-shadow: none !important;
+}
+.ff-chat-message-content { position: relative; width: fit-content; max-width: 100%; gap: 4px; }
+
+.ff-chat-message-actions {
+  position: relative;
+  display: inline-flex;
+  flex: none;
+  align-self: flex-end;
+  margin-bottom: 1px;
+  opacity: 0;
+  transition: opacity .15s ease;
+}
+.ff-chat-message-row:hover .ff-chat-message-actions,
+.ff-chat-message-actions:focus-within,
+.ff-chat-message-actions[data-open="true"] { opacity: 1; }
+.ff-chat-actions-trigger {
+  display: inline-grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--chat-faint);
+  cursor: pointer;
+}
+.ff-chat-actions-trigger:hover {
+  color: var(--chat-text);
+  background: rgba(244, 241, 232, .06);
+  border-color: var(--chat-line);
+}
+.ff-chat-actions-trigger:focus-visible {
+  outline: 2px solid var(--chat-amber);
+  outline-offset: 1px;
+}
+.ff-chat-actions-menu {
+  position: fixed;
+  z-index: 120;
+  width: max-content;
+  min-width: 176px;
+  max-width: min(240px, calc(100vw - 24px));
+  padding: 5px;
+  border: 1px solid rgba(244, 241, 232, .16);
+  border-radius: 10px;
+  background: #1a212d;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, .55);
+}
+.ff-chat-actions-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: #f4f1e8;
+  font-size: 12.5px;
+  white-space: nowrap;
+  text-align: left;
+  cursor: pointer;
+}
+.ff-chat-actions-item:hover { background: rgba(244, 241, 232, .07); }
+.ff-chat-actions-item--danger { color: #f2a08c; }
+.ff-chat-actions-item--danger:hover { background: rgba(224, 122, 95, .14); }
+
+.ff-chat-composer-area {
+  padding: 10px 20px 14px;
+  background: linear-gradient(to top, rgba(11, 15, 22, .98), rgba(11, 15, 22, .74) 62%, rgba(11, 15, 22, 0));
+  border-top: 1px solid var(--chat-line);
+}
+.ff-chat-dock-composer {
+  padding: 10px 12px;
+  background: #0c1119;
+  border-top: 1px solid var(--chat-line);
+}
+.ff-chat-composer-shell {
+  min-height: 50px;
+  padding: 8px 8px 8px 14px;
+  border: 1px solid var(--chat-line-strong);
+  border-radius: 16px;
+  background: #141b26;
+  box-shadow: inset 0 1px rgba(255, 255, 255, .04);
+}
+.ff-chat-composer-shell:focus-within {
+  border-color: rgba(143, 191, 165, .55) !important;
+  box-shadow: 0 0 0 3px rgba(143, 191, 165, .10) !important;
+}
+.ff-chat-message-input {
+  min-height: 32px;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  color: var(--chat-text);
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+.ff-chat-character-count { color: var(--chat-faint); font-size: 9.5px; }
+.ff-chat-send-button {
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid rgba(0, 0, 0, .18) !important;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f4f1de, #e9c46a) !important;
+  color: #17130c !important;
+  box-shadow: none !important;
+}
+.ff-chat-send-button:hover { filter: brightness(1.04); }
+.ff-chat-send-button:disabled { opacity: .38; }
+.ff-chat-send-button svg { color: #7a3f2c; }
+.ff-chat-composer-hint { color: var(--chat-faint); font-size: 10px; margin-top: 6px; }
+
+.ff-chat-dock-header {
+  padding: 12px;
+  gap: 10px;
+  background: #0b1018;
+  border-bottom: 1px solid var(--chat-line);
+}
+.ff-chat-dock-header .grid {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  scrollbar-width: none;
+}
+.ff-chat-dock-header .grid::-webkit-scrollbar { display: none; }
+.ff-chat-dock-channel-btn {
+  flex: 0 0 auto;
+  min-height: 32px;
+  white-space: nowrap;
+}
+.ff-chat-dock-shell { border-radius: 18px; border-color: var(--chat-line-strong); }
+
+@media (min-width: 1024px) {
+  .ff-chat-sidebar-pane { width: 272px; }
+}
+@media (min-width: 1280px) {
+  .ff-chat-roster-pane { width: 260px; }
+}
+
+@media (max-width: 767px) {
+  .ff-chat-view .page-content-wrapper {
+    max-width: none;
+    padding: 0;
+  }
+  .ff-chat-workspace {
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background: #0d1219;
+    box-shadow: none;
+  }
+  .ff-chat-main-pane > header {
+    height: 52px;
+    min-height: 52px;
+    padding-inline: 10px;
+    background: rgba(13, 18, 26, .98);
+  }
+  .ff-chat-view .ff-chat-main-pane > header h1 { font-size: 14px; }
+  .ff-chat-message-stream { padding: 10px 10px 6px; }
+  .ff-app-shell .ff-chat-message-row {
+    padding: 1px 2px !important;
+  }
+  .ff-chat-message-row {
+    grid-template-columns: 32px minmax(0, 1fr);
+    column-gap: 8px;
+    padding: 1px 2px;
+  }
+  .ff-chat-message-row--mine { grid-template-columns: minmax(0, 1fr) 32px; }
+  .ff-chat-message-row--group-start { margin-top: 11px; }
+  .ff-chat-message-row--continuation { margin-top: 1px; }
+  .ff-chat-message-avatar,
+  .ff-chat-message-avatar--spacer { width: 32px; height: 32px; margin-top: 1px; }
+  .ff-chat-message-avatar .awd { width: 32px !important; height: 32px !important; }
+  .ff-chat-message-meta {
+    gap: 5px;
+    margin-bottom: 4px;
+    overflow: hidden;
+  }
+  .ff-chat-message-author { max-width: 62%; }
+  .ff-chat-message-author-name { font-size: 12.5px; }
+  .ff-chat-role-text { display: none; }
+  .ff-chat-message-time { margin-left: auto; font-size: 10px; }
+  .ff-chat-message-row--mine .ff-chat-message-time { margin-left: 0; }
+  .ff-chat-message-bubble {
+    padding: 7px 11px !important;
+    border-radius: 14px 14px 14px 4px !important;
+    font-size: 13.5px !important;
+    line-height: 1.5 !important;
+  }
+  .ff-chat-message-row--mine .ff-chat-message-bubble {
+    border-radius: 14px 14px 4px 14px !important;
+  }
+  .ff-chat-message-content { gap: 2px; }
+  .ff-chat-actions-trigger { width: 24px; height: 24px; min-width: 24px; }
+  .ff-chat-composer-area {
+    padding: 8px 10px;
+    background: #0c1119;
+  }
+  .ff-chat-dock-composer { padding: 8px 10px; }
+  .ff-chat-composer-shell {
+    min-height: 48px;
+    padding: 6px 6px 6px 12px;
+    border-radius: 15px;
+  }
+  .ff-chat-message-input {
+    min-height: 30px;
+    font-size: 16px;
+  }
+  .ff-chat-composer-hint,
+  .ff-chat-character-count { display: none; }
+  .ff-chat-send-button {
+    min-width: 40px;
+    min-height: 40px;
+    padding: 0 !important;
+    border-radius: 999px;
+  }
+  .ff-chat-send-button span { display: none; }
+  body.ff-chat-open .xp-sandbox-dock { display: none !important; }
+}
+
+html.light .ff-chat-view,
+html.light .ff-chat-dock-shell {
+  --chat-ink: #f4efe5;
+  --chat-panel: #fffdf9;
+  --chat-raised: #f5efe4;
+  --chat-line: rgba(28, 25, 23, .12);
+  --chat-line-strong: rgba(28, 25, 23, .18);
+  --chat-text: #1f1b17;
+  --chat-muted: #5f5a50;
+  --chat-faint: #787166;
+  --chat-amber: #a86a12;
+  --chat-sage: #3f7359;
+  --chat-terracotta: #c65f43;
+}
+html.light .ff-chat-view { background: var(--chat-ink); }
+html.light .ff-chat-workspace { background: #fffdf9 !important; }
+html.light .ff-chat-sidebar-pane,
+html.light .ff-chat-roster-pane { background: #f7f2e8 !important; }
+html.light .ff-chat-main-pane { background: #fffdf9 !important; }
+html.light .ff-chat-main-pane > header { background: rgba(250, 246, 238, .96) !important; }
+html.light .ff-chat-main-pane > header h1 { color: #1f1b17; }
+html.light .ff-chat-main-pane > header input { background: #fffdf9; color: #1f1b17; }
+html.light .ff-chat-message-stream,
+html.light .ff-chat-dock-stream { background: #fffdf9 !important; }
+html.light .ff-chat-message-author-name { color: #1f1b17; }
+html.light .ff-chat-message-bubble { color: #1f1b17; }
+html.light .ff-chat-bubble-peer {
+  background: #f7f3ea !important;
+  border-color: rgba(28, 25, 23, .12) !important;
+  color: #1f1b17 !important;
+}
+html.light .ff-chat-bubble-admin {
+  background: linear-gradient(135deg, #fffbeb, #fdf3d5) !important;
+  border-color: rgba(180, 120, 20, .30) !important;
+  border-left-color: #a86a12 !important;
+  color: #4a3410 !important;
+}
+html.light .ff-chat-composer-area { background: #f7f2e8; }
+html.light .ff-chat-dock-composer { background: #f7f2e8; border-top-color: rgba(28, 25, 23, .12); }
+html.light .ff-chat-composer-shell {
+  background: #fffdf9 !important;
+  border-color: rgba(28, 25, 23, .16) !important;
+}
+html.light .ff-chat-message-input { color: #1f1b17 !important; }
+html.light .ff-chat-actions-trigger { color: #787166; }
+html.light .ff-chat-actions-trigger:hover { color: #1f1b17; background: rgba(28, 25, 23, .06); border-color: rgba(28, 25, 23, .12); }
+html.light .ff-chat-actions-menu {
+  background: #fffdf9;
+  border-color: rgba(28, 25, 23, .16);
+  box-shadow: 0 14px 36px rgba(28, 25, 23, .16);
+}
+html.light .ff-chat-actions-item { color: #1f1b17; }
+html.light .ff-chat-actions-item:hover { background: #f2ece0; }
+html.light .ff-chat-actions-item--danger { color: #b4432e; }
+html.light .ff-chat-actions-menu .ff-chat-actions-item--danger { color: #b4432e !important; }
+html.light .ff-chat-dock-header { background: #f7f2e8 !important; }
+html.light .ff-chat-dock-shell { background: #fffdf9 !important; border-color: rgba(28, 25, 23, .16); }

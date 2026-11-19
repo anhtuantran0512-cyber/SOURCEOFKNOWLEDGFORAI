@@ -1,0 +1,42 @@
+{
+  "framework": "vite",
+  "functions": { "api/studio.js": { "maxDuration": 60 } },
+  "rewrites": [
+    { "source": "/home", "destination": "/index.html" },
+    { "source": "/workspace", "destination": "/index.html" },
+    { "source": "/explore", "destination": "/index.html" },
+    { "source": "/community", "destination": "/index.html" },
+    { "source": "/settings", "destination": "/index.html" },
+    { "source": "/saved", "destination": "/index.html" },
+    { "source": "/admin", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "no-store" }]
+    },
+    {
+      "source": "/:demo(isometric-preview|glass-preview).html",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; sandbox allow-scripts; base-uri 'none'; form-action 'none'"
+        }
+      ]
+    }
+  ]
+}
