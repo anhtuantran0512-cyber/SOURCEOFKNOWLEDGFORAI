@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "orbit-hero",
+  "type": "registry:block",
+  "title": "Orbit Hero",
+  "description": "Hero Section block. Space hero with a live, turning WebGL Earth.",
+  "dependencies": [
+    "geist",
+    "motion"
+  ],
+  "docs": "Orbit Hero — Space hero with a live, turning WebGL Earth.\n\nThe stylesheet sits next to the component and is imported by it, so keep them together in components/blocx/.\nIt loads its fonts with next/font, so it expects a Next.js app (App Router).\nIts images are not part of this package. Copy public/blocx/orbit-hero/ from https://github.com/shadcn-labs/Pin-UI/tree/main/public/blocx/orbit-hero into your own public/ folder (4 files), or change the paths at the top of the component.",
+  "$registry_url": "https://www.pinui.xyz/r/blocx/orbit-hero.json"
+}

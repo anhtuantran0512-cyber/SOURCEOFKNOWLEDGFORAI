@@ -1,0 +1,15 @@
+# Dithered Hold Animated Button — Shader Buttons
+
+> Shader Buttons — Dithered Hold: Pixelated shader fill that advances while the button is held.
+
+- Category: `Buttons` (`buttons` / `star-portal`)
+- Kind: item
+- Runtime: Raw WebGL + WebGL2 + Three.js + Canvas 2D + CSS
+- Live page: https://threeui.com/buttons/star-portal/dither-hold
+- Preview image: https://threeui.com/social/pages/buttons/star-portal/dither-hold.jpg
+- Source files: Pro MCP only (threeui.com/mcp) — do not attempt to bypass
+
+## Use
+
+Open the live page for the reference, then rebuild the effect in the project's stack.
+Never copy the demo text or assets: adapt structure and motion only.

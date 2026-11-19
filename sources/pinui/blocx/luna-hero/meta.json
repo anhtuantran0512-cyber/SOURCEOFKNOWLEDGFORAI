@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "luna-hero",
+  "type": "registry:block",
+  "title": "Luna Hero",
+  "description": "Hero Section block. Pixel storefront hero with a floating mega menu.",
+  "dependencies": [
+    "@base-ui/react",
+    "@phosphor-icons/react",
+    "motion"
+  ],
+  "docs": "Luna Hero — Pixel storefront hero with a floating mega menu.\n\nThe stylesheet sits next to the component and is imported by it, so keep them together in components/blocx/.\nIt loads its fonts with next/font, so it expects a Next.js app (App Router).",
+  "$registry_url": "https://www.pinui.xyz/r/blocx/luna-hero.json"
+}

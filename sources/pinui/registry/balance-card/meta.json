@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "balance-card",
+  "type": "registry:component",
+  "title": "Balance Card",
+  "description": "A counting balance, a liquid currency selector and a drawer that settles.",
+  "dependencies": [
+    "motion"
+  ],
+  "docs": "Balance Card — A counting balance, a liquid currency selector and a drawer that settles.\n\nThe stylesheet sits next to the component and is imported by it, so keep the two together in components/pinui/.\n\nIt is drawn in Inter Tight. If your project does not already load that face it will fall back to your system sans and look noticeably different.",
+  "$registry_url": "https://www.pinui.xyz/r/balance-card.json"
+}

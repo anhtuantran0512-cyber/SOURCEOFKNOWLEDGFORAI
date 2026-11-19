@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "session-list",
+  "type": "registry:component",
+  "title": "Count down",
+  "description": "A session broken into blocks, counting down in real time.",
+  "dependencies": [
+    "motion"
+  ],
+  "docs": "Count down — A session broken into blocks, counting down in real time.\n\nThe stylesheet sits next to the component and is imported by it, so keep the two together in components/pinui/.\n\nIt is drawn in Inter. If your project does not already load that face it will fall back to your system sans and look noticeably different.",
+  "$registry_url": "https://www.pinui.xyz/r/session-list.json"
+}

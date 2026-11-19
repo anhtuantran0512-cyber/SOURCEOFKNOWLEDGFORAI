@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "liquid-voice",
+  "type": "registry:component",
+  "title": "Liquid Voice",
+  "description": "A voice-input pill of real liquid glass that stretches into a recorder.",
+  "dependencies": [
+    "motion"
+  ],
+  "docs": "Liquid Voice — A voice-input pill of real liquid glass that stretches into a recorder.\n\nThe stylesheet sits next to the component and is imported by it, so keep the two together in components/pinui/.\n\nIt is set in the system's own UI face, so there is no font to load.\n\nIt comes in two themes: pass theme=\"dark\" for the dark one, or wire the prop to your own theme switch.\n\nThe glass is drawn in WebGL 2; without it the component falls back to a CSS gradient and backdrop-filter glass on its own. There is no microphone: the waveform is generated. Wire onSend and onCancel to your own recorder if you need real audio. Pass fill to have the sky take its container's whole box.",
+  "$registry_url": "https://www.pinui.xyz/r/liquid-voice.json"
+}

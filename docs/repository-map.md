@@ -62,6 +62,41 @@ sources/motionsites/
 Only free prompts have files. `catalog.json` is an index of public listings and is useful for discovering
 what kind of sections exist; `is_free: false` entries have no content here and must stay that way.
 
+## `sources/pinui/`
+
+```
+sources/pinui/
+├── README.md
+├── manifest.json                 # 41 rows
+├── catalog.json                  # 50 public pages with URL + preview
+├── registry/
+│   ├── registry.json             # the site's own shadcn registry
+│   ├── summary.json
+│   └── <name>/ITEM.md + meta.json + *.tsx + *.css
+├── blocx/
+│   ├── summary.json
+│   └── <name>/ITEM.md + meta.json + *.tsx + *.css
+└── pages/<slug>.md               # 50 page briefs
+```
+
+Unlike the prompt folders, this one holds **real source code**. Keep the MIT header comment when you
+adapt a component, and keep the per-component CSS prefix intact.
+
+## `sources/threeui/`
+
+```
+sources/threeui/
+├── README.md
+├── manifest.json                 # 961 rows
+├── catalog.json                  # items + labels + tag list
+├── catalog.jsonl                 # one JSON object per line, for streaming
+├── tags.json                     # 1,485 tags
+└── items/<category>/<slug>.md    # one brief per catalogue item
+```
+
+Metadata only: title, category, runtime, description, live URL, preview image. Component source is sold
+through ThreeUI's Pro MCP and is deliberately absent — briefs link to the live page instead.
+
 ## Adding a new source
 
 1. Create `sources/<name>/`.

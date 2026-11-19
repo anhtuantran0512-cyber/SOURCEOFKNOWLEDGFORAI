@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "synais-footer",
+  "type": "registry:block",
+  "title": "Synais Footer",
+  "description": "Footer block. Dark link columns over a giant cream wordmark.",
+  "dependencies": [
+    "motion"
+  ],
+  "docs": "Synais Footer — Dark link columns over a giant cream wordmark.\n\nThe stylesheet sits next to the component and is imported by it, so keep them together in components/blocx/.\nIt loads its fonts with next/font, so it expects a Next.js app (App Router).",
+  "$registry_url": "https://www.pinui.xyz/r/blocx/synais-footer.json"
+}

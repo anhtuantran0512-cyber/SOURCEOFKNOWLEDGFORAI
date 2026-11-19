@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "recorder",
+  "type": "registry:component",
+  "title": "Recorder",
+  "description": "A voice recorder with a waveform that scrolls under the playhead.",
+  "dependencies": [
+    "motion"
+  ],
+  "docs": "Recorder — A voice recorder with a waveform that scrolls under the playhead.\n\nThe stylesheet sits next to the component and is imported by it, so keep the two together in components/pinui/.\n\nIt is drawn in Roboto Mono (500). If your project does not already load that face it will fall back to your system sans and look noticeably different.\n\nIt comes in two themes: pass theme=\"dark\" for the dark one, or wire the prop to your own theme switch.\n\nThere is no microphone: the waveform is a generated, speech-shaped signal and playback is a silent replay of the take. Wire your own MediaRecorder to it if you need real audio. The keyboard shortcuts (Space, S, arrows) listen on the card, so they work once it has focus.",
+  "$registry_url": "https://www.pinui.xyz/r/recorder.json"
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "joystick",
+  "type": "registry:component",
+  "title": "Joystick",
+  "description": "A pixel-art arcade stick you can grab, push to the gate and let snap back.",
+  "dependencies": [
+    "motion"
+  ],
+  "docs": "Joystick — A pixel-art arcade stick you can grab, push to the gate and let snap back.\n\nThe stylesheet sits next to the component and is imported by it, so keep the two together in components/pinui/.\n\nIt is set in the system's own UI face, so there is no font to load.\n\nIt comes in two themes: pass theme=\"dark\" for the dark one, or wire the prop to your own theme switch.",
+  "$registry_url": "https://www.pinui.xyz/r/joystick.json"
+}

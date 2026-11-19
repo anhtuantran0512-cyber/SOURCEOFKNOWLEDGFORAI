@@ -1,0 +1,464 @@
+{
+  "source": "Pin UI",
+  "homepage": "https://www.pinui.xyz",
+  "repo": "https://github.com/shadcn-labs/Pin-UI",
+  "license": "MIT (c) Rachit Thakur / Shadcn Labs",
+  "collected": "2026-11-19",
+  "totals": {
+    "registry_items": 30,
+    "blocx_items": 11,
+    "pages": 50
+  },
+  "pages": [
+    {
+      "id": "home",
+      "title": "Pin UI — Components that are unique",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "home",
+      "url": "https://www.pinui.xyz",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/home.md"
+    },
+    {
+      "id": "components",
+      "title": "All components",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "page",
+      "url": "https://www.pinui.xyz/components",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components.md"
+    },
+    {
+      "id": "components-presence-cards",
+      "title": "Presence Cards",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/presence-cards",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-presence-cards.md"
+    },
+    {
+      "id": "components-theme-switch",
+      "title": "Theme Switch",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/theme-switch",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-theme-switch.md"
+    },
+    {
+      "id": "components-reader-card",
+      "title": "Reader Card",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/reader-card",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-reader-card.md"
+    },
+    {
+      "id": "components-search-card",
+      "title": "Search Card",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/search-card",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-search-card.md"
+    },
+    {
+      "id": "components-selection-list",
+      "title": "Selection List",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/selection-list",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-selection-list.md"
+    },
+    {
+      "id": "components-desk-computer",
+      "title": "Desk Computer",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/desk-computer",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-desk-computer.md"
+    },
+    {
+      "id": "components-liquid-voice",
+      "title": "Liquid Voice",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/liquid-voice",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-liquid-voice.md"
+    },
+    {
+      "id": "components-file-box",
+      "title": "File Box",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/file-box",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-file-box.md"
+    },
+    {
+      "id": "components-copy-paste-pad",
+      "title": "Copy Paste Pad",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/copy-paste-pad",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-copy-paste-pad.md"
+    },
+    {
+      "id": "components-task-card",
+      "title": "Task Card",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/task-card",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-task-card.md"
+    },
+    {
+      "id": "components-magnify",
+      "title": "Magnify",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/magnify",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-magnify.md"
+    },
+    {
+      "id": "components-progress-image",
+      "title": "Progress Image",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/progress-image",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-progress-image.md"
+    },
+    {
+      "id": "components-prompt-composer",
+      "title": "Prompt Composer",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/prompt-composer",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-prompt-composer.md"
+    },
+    {
+      "id": "components-calendar-card",
+      "title": "Calendar",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/calendar-card",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-calendar-card.md"
+    },
+    {
+      "id": "components-chat-room",
+      "title": "Chat Room",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/chat-room",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-chat-room.md"
+    },
+    {
+      "id": "components-dynamic-drop-zone",
+      "title": "Dynamic Drop Zone",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/dynamic-drop-zone",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-dynamic-drop-zone.md"
+    },
+    {
+      "id": "components-swap-card",
+      "title": "Swap Card",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/swap-card",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-swap-card.md"
+    },
+    {
+      "id": "components-liquid-tabs",
+      "title": "Liquid Tabs",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/liquid-tabs",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-liquid-tabs.md"
+    },
+    {
+      "id": "components-thermal-dial",
+      "title": "Thermal Dial",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/thermal-dial",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-thermal-dial.md"
+    },
+    {
+      "id": "components-lamp-switch",
+      "title": "Lamp Switch",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/lamp-switch",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-lamp-switch.md"
+    },
+    {
+      "id": "components-joystick",
+      "title": "Joystick",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/joystick",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-joystick.md"
+    },
+    {
+      "id": "components-weather",
+      "title": "Weather",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/weather",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-weather.md"
+    },
+    {
+      "id": "components-recorder",
+      "title": "Recorder",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/recorder",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-recorder.md"
+    },
+    {
+      "id": "components-taxi",
+      "title": "Taxi",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/taxi",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-taxi.md"
+    },
+    {
+      "id": "components-chips",
+      "title": "Chips",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/chips",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-chips.md"
+    },
+    {
+      "id": "components-otp-input",
+      "title": "Egg OTP",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/otp-input",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-otp-input.md"
+    },
+    {
+      "id": "components-add-member",
+      "title": "Add Member",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/add-member",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-add-member.md"
+    },
+    {
+      "id": "components-session-list",
+      "title": "Count down",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/session-list",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-session-list.md"
+    },
+    {
+      "id": "components-balance-card",
+      "title": "Balance Card",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/balance-card",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-balance-card.md"
+    },
+    {
+      "id": "components-cart-card",
+      "title": "Add To Cart",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "component",
+      "url": "https://www.pinui.xyz/components/cart-card",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/components-cart-card.md"
+    },
+    {
+      "id": "blocx",
+      "title": "Blocx",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "blocx",
+      "url": "https://www.pinui.xyz/blocx",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/blocx.md"
+    },
+    {
+      "id": "blocx-storybook-hero",
+      "title": "Storybook Hero — Blocx",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "blocx",
+      "url": "https://www.pinui.xyz/blocx/storybook-hero",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/blocx-storybook-hero.md"
+    },
+    {
+      "id": "blocx-partylabs-hero",
+      "title": "iPartyLabs Hero — Blocx",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "blocx",
+      "url": "https://www.pinui.xyz/blocx/partylabs-hero",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/blocx-partylabs-hero.md"
+    },
+    {
+      "id": "blocx-luna-hero",
+      "title": "Luna Hero — Blocx",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "blocx",
+      "url": "https://www.pinui.xyz/blocx/luna-hero",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/blocx-luna-hero.md"
+    },
+    {
+      "id": "blocx-orbit-hero",
+      "title": "Orbit Hero — Blocx",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "blocx",
+      "url": "https://www.pinui.xyz/blocx/orbit-hero",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/blocx-orbit-hero.md"
+    },
+    {
+      "id": "blocx-odometer-pricing",
+      "title": "Odometer Pricing — Blocx",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "blocx",
+      "url": "https://www.pinui.xyz/blocx/odometer-pricing",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/blocx-odometer-pricing.md"
+    },
+    {
+      "id": "blocx-caremetric-footer",
+      "title": "CareMetric Footer — Blocx",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "blocx",
+      "url": "https://www.pinui.xyz/blocx/caremetric-footer",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/blocx-caremetric-footer.md"
+    },
+    {
+      "id": "blocx-smart-pricing",
+      "title": "Smart Pricing — Blocx",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "blocx",
+      "url": "https://www.pinui.xyz/blocx/smart-pricing",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/blocx-smart-pricing.md"
+    },
+    {
+      "id": "blocx-contact-form",
+      "title": "Contact Form — Blocx",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "blocx",
+      "url": "https://www.pinui.xyz/blocx/contact-form",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/blocx-contact-form.md"
+    },
+    {
+      "id": "blocx-synais-footer",
+      "title": "Synais Footer — Blocx",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "blocx",
+      "url": "https://www.pinui.xyz/blocx/synais-footer",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/blocx-synais-footer.md"
+    },
+    {
+      "id": "blocx-halo-sign-in",
+      "title": "Halo Sign In — Blocx",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "blocx",
+      "url": "https://www.pinui.xyz/blocx/halo-sign-in",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/blocx-halo-sign-in.md"
+    },
+    {
+      "id": "blocx-pixelkit-sign-in",
+      "title": "Pixelkit Sign In — Blocx",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "blocx",
+      "url": "https://www.pinui.xyz/blocx/pixelkit-sign-in",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/blocx-pixelkit-sign-in.md"
+    },
+    {
+      "id": "testimonials",
+      "title": "Testimonials",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "page",
+      "url": "https://www.pinui.xyz/testimonials",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/testimonials.md"
+    },
+    {
+      "id": "sponsor",
+      "title": "Sponsor",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "page",
+      "url": "https://www.pinui.xyz/sponsor",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/sponsor.md"
+    },
+    {
+      "id": "waitlist",
+      "title": "Join Waitlist Pin UI",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "page",
+      "url": "https://www.pinui.xyz/waitlist",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/waitlist.md"
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "page",
+      "url": "https://www.pinui.xyz/faq",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/faq.md"
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy Policy",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "page",
+      "url": "https://www.pinui.xyz/privacy",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/privacy.md"
+    },
+    {
+      "id": "terms",
+      "title": "Terms of Service",
+      "description": "Free, open-source React components built from Pinterest designs: animated, in light and dark, ready to copy into your project. Designed and built by Rachit Thakur.",
+      "kind": "page",
+      "url": "https://www.pinui.xyz/terms",
+      "preview_image": "https://www.pinui.xyz/opengraph-image.jpg?opengraph-image.3wbvcrken3tvj.jpg",
+      "path": "pages/terms.md"
+    }
+  ]
+}

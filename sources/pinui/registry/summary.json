@@ -1,0 +1,483 @@
+[
+  {
+    "id": "presence-cards",
+    "title": "Presence Cards",
+    "description": "Two cards on a shared canvas, worked on live by four people at once.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "PresenceCards.tsx",
+      "presence-cards.css"
+    ],
+    "path": "registry/presence-cards",
+    "source_url": "https://www.pinui.xyz/components/presence-cards",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/presence-cards.json\""
+  },
+  {
+    "id": "theme-switch",
+    "title": "Theme Switch",
+    "description": "A theme toggle that rains, drips or sets off fireworks to change the theme.",
+    "type": "registry:component",
+    "dependencies": [],
+    "files": [
+      "ThemeSwitch.tsx",
+      "theme-switch-engine.ts",
+      "theme-switch.css"
+    ],
+    "path": "registry/theme-switch",
+    "source_url": "https://www.pinui.xyz/components/theme-switch",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/theme-switch.json\""
+  },
+  {
+    "id": "reader-card",
+    "title": "Reader Card",
+    "description": "A story card that scrolls in place and morphs into a liquid-glass reader.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "ReaderCard.tsx",
+      "reader-card-glass.ts",
+      "reader-card.css"
+    ],
+    "path": "registry/reader-card",
+    "source_url": "https://www.pinui.xyz/components/reader-card",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/reader-card.json\""
+  },
+  {
+    "id": "search-card",
+    "title": "Search Card",
+    "description": "A centred search bar that rises and morphs open into a card of recent searches.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "SearchCard.tsx",
+      "search-card.css"
+    ],
+    "path": "registry/search-card",
+    "source_url": "https://www.pinui.xyz/components/search-card",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/search-card.json\""
+  },
+  {
+    "id": "selection-list",
+    "title": "Selection List",
+    "description": "A single-choice list whose halves snap together like magnets.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "SelectionList.tsx",
+      "selection-list.css"
+    ],
+    "path": "registry/selection-list",
+    "source_url": "https://www.pinui.xyz/components/selection-list",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/selection-list.json\""
+  },
+  {
+    "id": "desk-computer",
+    "title": "Desk Computer",
+    "description": "A late-90s desk computer in true isometric that you can actually use.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "DeskComputer.tsx",
+      "desk-computer-engine.ts",
+      "desk-computer.css"
+    ],
+    "path": "registry/desk-computer",
+    "source_url": "https://www.pinui.xyz/components/desk-computer",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/desk-computer.json\""
+  },
+  {
+    "id": "liquid-voice",
+    "title": "Liquid Voice",
+    "description": "A voice-input pill of real liquid glass that stretches into a recorder.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "LiquidVoice.tsx",
+      "liquid-voice.css"
+    ],
+    "path": "registry/liquid-voice",
+    "source_url": "https://www.pinui.xyz/components/liquid-voice",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/liquid-voice.json\""
+  },
+  {
+    "id": "file-box",
+    "title": "File Box",
+    "description": "A cardboard file box whose folders lift out by their tabs.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "FileBox.tsx",
+      "file-box.css"
+    ],
+    "path": "registry/file-box",
+    "source_url": "https://www.pinui.xyz/components/file-box",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/file-box.json\""
+  },
+  {
+    "id": "copy-paste-pad",
+    "title": "Copy Paste Pad",
+    "description": "A 3-D aluminium macro pad whose ⌘C and ⌘V copy and paste the theme.",
+    "type": "registry:component",
+    "dependencies": [
+      "three@^0.186.1"
+    ],
+    "files": [
+      "CopyPastePad.tsx",
+      "copy-paste-pad.css"
+    ],
+    "path": "registry/copy-paste-pad",
+    "source_url": "https://www.pinui.xyz/components/copy-paste-pad",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/copy-paste-pad.json\""
+  },
+  {
+    "id": "task-card",
+    "title": "Task Card",
+    "description": "A task with subtasks on a connector tree, progress, priority and status.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "TaskCard.tsx",
+      "task-card.css"
+    ],
+    "path": "registry/task-card",
+    "source_url": "https://www.pinui.xyz/components/task-card",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/task-card.json\""
+  },
+  {
+    "id": "magnify",
+    "title": "Magnify",
+    "description": "A type specimen you inspect with a real magnifying glass.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "Magnify.tsx",
+      "magnify.css"
+    ],
+    "path": "registry/magnify",
+    "source_url": "https://www.pinui.xyz/components/magnify",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/magnify.json\""
+  },
+  {
+    "id": "progress-image",
+    "title": "Progress Image",
+    "description": "A rollout card whose photograph is the progress bar.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "ProgressImage.tsx",
+      "progress-image.css"
+    ],
+    "path": "registry/progress-image",
+    "source_url": "https://www.pinui.xyz/components/progress-image",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/progress-image.json\""
+  },
+  {
+    "id": "prompt-composer",
+    "title": "Prompt Composer",
+    "description": "An assistant's field with its quick actions fanned out behind it.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "PromptComposer.tsx",
+      "prompt-composer.css"
+    ],
+    "path": "registry/prompt-composer",
+    "source_url": "https://www.pinui.xyz/components/prompt-composer",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/prompt-composer.json\""
+  },
+  {
+    "id": "calendar-card",
+    "title": "Calendar",
+    "description": "A month card where the selected day glides from date to date.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "CalendarCard.tsx",
+      "calendar-card.css"
+    ],
+    "path": "registry/calendar-card",
+    "source_url": "https://www.pinui.xyz/components/calendar-card",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/calendar-card.json\""
+  },
+  {
+    "id": "chat-room",
+    "title": "Chat Room",
+    "description": "A stack of faces that morphs into a voice chat card, and back.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "ChatRoom.tsx",
+      "chat-room.css"
+    ],
+    "path": "registry/chat-room",
+    "source_url": "https://www.pinui.xyz/components/chat-room",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/chat-room.json\""
+  },
+  {
+    "id": "dynamic-drop-zone",
+    "title": "Dynamic Drop Zone",
+    "description": "A file drop zone that turns into a magnetic black hole.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "DynamicDropZone.tsx",
+      "dynamic-drop-zone.css"
+    ],
+    "path": "registry/dynamic-drop-zone",
+    "source_url": "https://www.pinui.xyz/components/dynamic-drop-zone",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/dynamic-drop-zone.json\""
+  },
+  {
+    "id": "swap-card",
+    "title": "Swap Card",
+    "description": "A token swap card where every number rolls and the button is liquid.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "SwapCard.tsx",
+      "swap-card.css"
+    ],
+    "path": "registry/swap-card",
+    "source_url": "https://www.pinui.xyz/components/swap-card",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/swap-card.json\""
+  },
+  {
+    "id": "liquid-tabs",
+    "title": "Liquid Tabs",
+    "description": "A notifications card whose active tab is liquid, flowing from tab to tab.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "LiquidTabs.tsx",
+      "liquid-tabs.css"
+    ],
+    "path": "registry/liquid-tabs",
+    "source_url": "https://www.pinui.xyz/components/liquid-tabs",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/liquid-tabs.json\""
+  },
+  {
+    "id": "thermal-dial",
+    "title": "Thermal Dial",
+    "description": "A thermal dial that undulates with heat and rolls through the seasons.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "ThermalDial.tsx",
+      "thermal-dial.css"
+    ],
+    "path": "registry/thermal-dial",
+    "source_url": "https://www.pinui.xyz/components/thermal-dial",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/thermal-dial.json\""
+  },
+  {
+    "id": "lamp-switch",
+    "title": "Lamp Switch",
+    "description": "A hanging ceramic lamp that swings on a cord and toggles with a liquid switch.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "LampSwitch.tsx",
+      "lamp-switch.css"
+    ],
+    "path": "registry/lamp-switch",
+    "source_url": "https://www.pinui.xyz/components/lamp-switch",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/lamp-switch.json\""
+  },
+  {
+    "id": "joystick",
+    "title": "Joystick",
+    "description": "A pixel-art arcade stick you can grab, push to the gate and let snap back.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "Joystick.tsx",
+      "joystick.css"
+    ],
+    "path": "registry/joystick",
+    "source_url": "https://www.pinui.xyz/components/joystick",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/joystick.json\""
+  },
+  {
+    "id": "weather",
+    "title": "Weather",
+    "description": "A weather square that opens out into a five-day forecast.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "Weather.tsx",
+      "weather.css"
+    ],
+    "path": "registry/weather",
+    "source_url": "https://www.pinui.xyz/components/weather",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/weather.json\""
+  },
+  {
+    "id": "recorder",
+    "title": "Recorder",
+    "description": "A voice recorder with a waveform that scrolls under the playhead.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "Recorder.tsx",
+      "recorder.css"
+    ],
+    "path": "registry/recorder",
+    "source_url": "https://www.pinui.xyz/components/recorder",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/recorder.json\""
+  },
+  {
+    "id": "taxi",
+    "title": "Taxi",
+    "description": "Hail a cab in one tap, and ride the whole trip on one card.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "Taxi.tsx",
+      "taxi.css"
+    ],
+    "path": "registry/taxi",
+    "source_url": "https://www.pinui.xyz/components/taxi",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/taxi.json\""
+  },
+  {
+    "id": "chips",
+    "title": "Chips",
+    "description": "A selection list of 3D chips that press into the surface.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "Chips.tsx",
+      "chips.css"
+    ],
+    "path": "registry/chips",
+    "source_url": "https://www.pinui.xyz/components/chips",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/chips.json\""
+  },
+  {
+    "id": "otp-input",
+    "title": "Egg OTP",
+    "description": "A one-time-code field made of eggs that crack on a wrong code.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "OtpInput.tsx",
+      "otp-input.css"
+    ],
+    "path": "registry/otp-input",
+    "source_url": "https://www.pinui.xyz/components/otp-input",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/otp-input.json\""
+  },
+  {
+    "id": "add-member",
+    "title": "Add Member",
+    "description": "Pick people for a project, and watch their faces fly into the stack.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "AddMember.tsx",
+      "add-member.css"
+    ],
+    "path": "registry/add-member",
+    "source_url": "https://www.pinui.xyz/components/add-member",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/add-member.json\""
+  },
+  {
+    "id": "session-list",
+    "title": "Count down",
+    "description": "A session broken into blocks, counting down in real time.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "SessionList.tsx",
+      "session-list.css"
+    ],
+    "path": "registry/session-list",
+    "source_url": "https://www.pinui.xyz/components/session-list",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/session-list.json\""
+  },
+  {
+    "id": "balance-card",
+    "title": "Balance Card",
+    "description": "A counting balance, a liquid currency selector and a drawer that settles.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "BalanceCard.tsx",
+      "balance-card.css"
+    ],
+    "path": "registry/balance-card",
+    "source_url": "https://www.pinui.xyz/components/balance-card",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/balance-card.json\""
+  },
+  {
+    "id": "cart-card",
+    "title": "Add To Cart",
+    "description": "A product card that is only a photo until you open it.",
+    "type": "registry:component",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "CartCard.tsx",
+      "cart-card.css"
+    ],
+    "path": "registry/cart-card",
+    "source_url": "https://www.pinui.xyz/components/cart-card",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/cart-card.json\""
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "caremetric-footer",
+  "type": "registry:block",
+  "title": "CareMetric Footer",
+  "description": "Footer block. Green link columns over a giant, bleeding mark.",
+  "dependencies": [
+    "geist",
+    "motion"
+  ],
+  "docs": "CareMetric Footer — Green link columns over a giant, bleeding mark.\n\nThe stylesheet sits next to the component and is imported by it, so keep them together in components/blocx/.\n\nIts images are not part of this package. Copy public/blocx/caremetric-footer/ from https://github.com/shadcn-labs/Pin-UI/tree/main/public/blocx/caremetric-footer into your own public/ folder (1 file), or change the paths at the top of the component.",
+  "$registry_url": "https://www.pinui.xyz/r/blocx/caremetric-footer.json"
+}

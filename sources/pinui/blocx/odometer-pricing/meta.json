@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "odometer-pricing",
+  "type": "registry:block",
+  "title": "Odometer Pricing",
+  "description": "Pricing block. Prices roll like an odometer on billing.",
+  "dependencies": [
+    "motion"
+  ],
+  "docs": "Odometer Pricing — Prices roll like an odometer on billing.\n\nThe stylesheet sits next to the component and is imported by it, so keep them together in components/blocx/.",
+  "$registry_url": "https://www.pinui.xyz/r/blocx/odometer-pricing.json"
+}

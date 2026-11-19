@@ -16,6 +16,8 @@ scope but keep the licensing and verification rules.
 | `sources/codefronts/` | ~5,000 public CSS/Tailwind components, layouts, navigation, motion, snippets and design styles. One Markdown file per item, containing the original AI prompt and full code. | Finding a concrete implementation of a component or interaction. |
 | `sources/lucianlabs/` | 400 MIT-licensed UI elements (200 interface, 200 animation). Each file is a complete prompt with working HTML/CSS/JS. `demos/` holds runnable standalone HTML. | Premium-feeling micro-interactions, charts, dashboards, hero and scroll motion. |
 | `sources/motionsites/` | 321 **free** website-section prompts (hero, pricing, footer, ecommerce, SaaS, etc.). | Writing a detailed build brief for a whole section or landing page. |
+| `sources/pinui/` | 30 React components + 11 page blocs as real `*.tsx`/`*.css` source, MIT, installable with the shadcn CLI. `pages/` holds 50 public page briefs. | Any interactive component where behaviour matters: theme switch, dialogs, menus, pricing section. |
+| `sources/threeui/` | 961 catalogue items + 1,485 tag entries: 3D, WebGL, Three.js, motion, hero and section direction with runtime and live URL. Metadata only, no source. | Choosing the effect and the runtime for 3D / scroll-driven work; never copy preview assets. |
 | `sources/*/manifest.json` | Machine-readable index: id, title, category, tags, path, prompt size. | Fast filtering before opening files. |
 | `sources/*/catalog.json` | Original catalogue metadata (including locked MotionSites entries). | Discovering what exists; never treat locked entries as available content. |
 | `docs/` | Arena setup, usage recipes, repository map. | Onboarding and repeatable workflows. |
@@ -23,9 +25,11 @@ scope but keep the licensing and verification rules.
 
 Source priority:
 
-1. `sources/lucianlabs/` — highest craft per element, MIT, code included.
-2. `sources/codefronts/` — widest coverage, component-sized, MIT-licensed snippets.
-3. `sources/motionsites/` — best for whole-section structure and art direction, prompt only.
+1. `sources/pinui/` — real React source, correct behaviour, MIT. Start here for interactive components.
+2. `sources/lucianlabs/` — highest craft per element, MIT, code included.
+3. `sources/codefronts/` — widest coverage, component-sized, MIT-licensed snippets.
+4. `sources/threeui/` — best for 3D/WebGL direction and hero structure; reference only.
+5. `sources/motionsites/` — whole-section structure and art direction, prompt only.
 
 ---
 

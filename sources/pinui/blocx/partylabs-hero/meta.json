@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "partylabs-hero",
+  "type": "registry:block",
+  "title": "iPartyLabs Hero",
+  "description": "Hero Section block. A headline floating in a field of party photos.",
+  "dependencies": [
+    "geist",
+    "motion"
+  ],
+  "docs": "iPartyLabs Hero — A headline floating in a field of party photos.\n\nThe stylesheet sits next to the component and is imported by it, so keep them together in components/blocx/.\n\nIts images are not part of this package. Copy public/blocx/partylabs-hero/ from https://github.com/shadcn-labs/Pin-UI/tree/main/public/blocx/partylabs-hero into your own public/ folder (30 files), or change the paths at the top of the component.",
+  "$registry_url": "https://www.pinui.xyz/r/blocx/partylabs-hero.json"
+}

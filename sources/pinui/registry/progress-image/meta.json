@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "progress-image",
+  "type": "registry:component",
+  "title": "Progress Image",
+  "description": "A rollout card whose photograph is the progress bar.",
+  "dependencies": [
+    "motion"
+  ],
+  "docs": "Progress Image — A rollout card whose photograph is the progress bar.\n\nThe stylesheet sits next to the component and is imported by it, so keep the two together in components/pinui/.\n\nIt is drawn in Inter (500 and 600). If your project does not already load that face it will fall back to your system sans and look noticeably different.\n\nIt comes in two themes: pass theme=\"dark\" for the dark one, or wire the prop to your own theme switch.\n\nThe default photograph is loaded from picsum.photos. Pass your own `src` before shipping it — and serve it with CORS headers: every look but Pixel reads the image's pixels, and a picture without them falls back to Pixel only.",
+  "$registry_url": "https://www.pinui.xyz/r/progress-image.json"
+}

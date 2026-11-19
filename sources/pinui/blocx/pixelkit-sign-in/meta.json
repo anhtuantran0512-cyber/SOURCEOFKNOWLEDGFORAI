@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pixelkit-sign-in",
+  "type": "registry:block",
+  "title": "Pixelkit Sign In",
+  "description": "Auth block. A lime tile, three providers and a magic link.",
+  "dependencies": [
+    "motion"
+  ],
+  "docs": "Pixelkit Sign In — A lime tile, three providers and a magic link.\n\nThe stylesheet sits next to the component and is imported by it, so keep them together in components/blocx/.\nIt loads its fonts with next/font, so it expects a Next.js app (App Router).",
+  "$registry_url": "https://www.pinui.xyz/r/blocx/pixelkit-sign-in.json"
+}

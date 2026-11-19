@@ -20,7 +20,7 @@ Work in the repo broamstuck-cybr/SOURCEOFKNOWLEDGFORAI.
 Read docs/RETRIEVAL_GUIDE.md, then docs/usage-recipes.md.
 
 Task: build <what you want> in <target folder>.
-Use at most two references from sources/, prefer sources/lucianlabs first.
+Use at most two references from sources/, prefer sources/pinui or sources/lucianlabs first.
 Keep license headers, use design tokens, and verify at 390/768/1440 px with
 prefers-reduced-motion. Open a PR with a short summary of what you checked.
 ```

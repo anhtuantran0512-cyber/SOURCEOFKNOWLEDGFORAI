@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "otp-input",
+  "type": "registry:component",
+  "title": "Egg OTP",
+  "description": "A one-time-code field made of eggs that crack on a wrong code.",
+  "dependencies": [
+    "motion"
+  ],
+  "docs": "Egg OTP — A one-time-code field made of eggs that crack on a wrong code.\n\nThe stylesheet sits next to the component and is imported by it, so keep the two together in components/pinui/.\n\nIt is set in the system's own UI face, so there is no font to load.\n\nIt comes in two themes: pass theme=\"dark\" for the dark one, or wire the prop to your own theme switch.\n\nOn a wrong code the eggs break and fall: the pieces travel about 130px to either side of the row and 110px below it. Give it that room, or it will spill into whatever sits around it — and inside a scrolling box, it will briefly make that box scroll.",
+  "$registry_url": "https://www.pinui.xyz/r/otp-input.json"
+}

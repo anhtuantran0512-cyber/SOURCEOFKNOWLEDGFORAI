@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "taxi",
+  "type": "registry:component",
+  "title": "Taxi",
+  "description": "Hail a cab in one tap, and ride the whole trip on one card.",
+  "dependencies": [
+    "motion"
+  ],
+  "docs": "Taxi — Hail a cab in one tap, and ride the whole trip on one card.\n\nThe stylesheet sits next to the component and is imported by it, so keep the two together in components/pinui/.\n\nIt is drawn in Inter (500 and 600) — after SF Pro, where the system has it. If your project does not already load that face it will fall back to your system sans and look noticeably different.\n\nIt comes in two themes: pass theme=\"dark\" for the dark one, or wire the prop to your own theme switch.\n\nThe ride's twelve sound cues are not part of this package: `soundBase` defaults to /sounds/taxi. Copy them from https://github.com/shadcn-labs/Pin-UI/tree/main/public/sounds/taxi into your own public folder (their licences and credits are in the same folder), or pass sound={false}. A missing cue just stays silent.",
+  "$registry_url": "https://www.pinui.xyz/r/taxi.json"
+}

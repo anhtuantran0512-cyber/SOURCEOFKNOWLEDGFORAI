@@ -1,0 +1,10 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "storybook-hero",
+  "type": "registry:block",
+  "title": "Storybook Hero",
+  "description": "Hero Section block. A parchment hero with a glowing cottage in an arch.",
+  "dependencies": [],
+  "docs": "Storybook Hero — A parchment hero with a glowing cottage in an arch.\n\nThe stylesheet sits next to the component and is imported by it, so keep them together in components/blocx/.\nIt loads its fonts with next/font, so it expects a Next.js app (App Router).\nIts images are not part of this package. Copy public/blocx/storybook-hero/ from https://github.com/shadcn-labs/Pin-UI/tree/main/public/blocx/storybook-hero into your own public/ folder (1 file), or change the paths at the top of the component.",
+  "$registry_url": "https://www.pinui.xyz/r/blocx/storybook-hero.json"
+}

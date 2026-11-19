@@ -1,0 +1,192 @@
+[
+  {
+    "id": "storybook-hero",
+    "title": "Storybook Hero",
+    "description": "Hero Section block. A parchment hero with a glowing cottage in an arch.",
+    "type": "registry:block",
+    "dependencies": [],
+    "files": [
+      "StorybookHero.tsx",
+      "storybook-hero.css",
+      "logo.svg"
+    ],
+    "path": "blocx/storybook-hero",
+    "source_url": "https://www.pinui.xyz/blocx/storybook-hero",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/blocx/storybook-hero.json\""
+  },
+  {
+    "id": "partylabs-hero",
+    "title": "iPartyLabs Hero",
+    "description": "Hero Section block. A headline floating in a field of party photos.",
+    "type": "registry:block",
+    "dependencies": [
+      "geist",
+      "motion"
+    ],
+    "files": [
+      "PartylabsHero.tsx",
+      "partylabs-hero.css"
+    ],
+    "path": "blocx/partylabs-hero",
+    "source_url": "https://www.pinui.xyz/blocx/partylabs-hero",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/blocx/partylabs-hero.json\""
+  },
+  {
+    "id": "luna-hero",
+    "title": "Luna Hero",
+    "description": "Hero Section block. Pixel storefront hero with a floating mega menu.",
+    "type": "registry:block",
+    "dependencies": [
+      "@base-ui/react",
+      "@phosphor-icons/react",
+      "motion"
+    ],
+    "files": [
+      "LunaHero.tsx",
+      "LunaNavbar.tsx",
+      "luna-catalog.ts",
+      "luna-hero.css"
+    ],
+    "path": "blocx/luna-hero",
+    "source_url": "https://www.pinui.xyz/blocx/luna-hero",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/blocx/luna-hero.json\""
+  },
+  {
+    "id": "orbit-hero",
+    "title": "Orbit Hero",
+    "description": "Hero Section block. Space hero with a live, turning WebGL Earth.",
+    "type": "registry:block",
+    "dependencies": [
+      "geist",
+      "motion"
+    ],
+    "files": [
+      "OrbitHero.tsx",
+      "orbit-hero.css",
+      "orbit-globe.ts"
+    ],
+    "path": "blocx/orbit-hero",
+    "source_url": "https://www.pinui.xyz/blocx/orbit-hero",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/blocx/orbit-hero.json\""
+  },
+  {
+    "id": "odometer-pricing",
+    "title": "Odometer Pricing",
+    "description": "Pricing block. Prices roll like an odometer on billing.",
+    "type": "registry:block",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "OdometerPricing.tsx",
+      "odometer-pricing.css"
+    ],
+    "path": "blocx/odometer-pricing",
+    "source_url": "https://www.pinui.xyz/blocx/odometer-pricing",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/blocx/odometer-pricing.json\""
+  },
+  {
+    "id": "caremetric-footer",
+    "title": "CareMetric Footer",
+    "description": "Footer block. Green link columns over a giant, bleeding mark.",
+    "type": "registry:block",
+    "dependencies": [
+      "geist",
+      "motion"
+    ],
+    "files": [
+      "CaremetricFooter.tsx",
+      "caremetric-footer.css",
+      "caremetric-mark.ts",
+      "logo.svg"
+    ],
+    "path": "blocx/caremetric-footer",
+    "source_url": "https://www.pinui.xyz/blocx/caremetric-footer",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/blocx/caremetric-footer.json\""
+  },
+  {
+    "id": "smart-pricing",
+    "title": "Smart Pricing",
+    "description": "Pricing block. Lime plans with a yearly switch and rolling prices.",
+    "type": "registry:block",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "SmartPricing.tsx",
+      "smart-pricing.css",
+      "dot-popular.svg",
+      "knob.svg",
+      "union-basic.svg",
+      "union-growth.svg",
+      "union-scale.svg"
+    ],
+    "path": "blocx/smart-pricing",
+    "source_url": "https://www.pinui.xyz/blocx/smart-pricing",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/blocx/smart-pricing.json\""
+  },
+  {
+    "id": "contact-form",
+    "title": "Contact Form",
+    "description": "Contact block. Black tiles, a reaching hand and a real form.",
+    "type": "registry:block",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "ContactForm.tsx",
+      "contact-form.css"
+    ],
+    "path": "blocx/contact-form",
+    "source_url": "https://www.pinui.xyz/blocx/contact-form",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/blocx/contact-form.json\""
+  },
+  {
+    "id": "synais-footer",
+    "title": "Synais Footer",
+    "description": "Footer block. Dark link columns over a giant cream wordmark.",
+    "type": "registry:block",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "SynaisFooter.tsx",
+      "synais-footer.css"
+    ],
+    "path": "blocx/synais-footer",
+    "source_url": "https://www.pinui.xyz/blocx/synais-footer",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/blocx/synais-footer.json\""
+  },
+  {
+    "id": "halo-sign-in",
+    "title": "Halo Sign In",
+    "description": "Auth block. A soft card in a tray, its mark in turning dots.",
+    "type": "registry:block",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "HaloSignIn.tsx",
+      "halo-sign-in.css"
+    ],
+    "path": "blocx/halo-sign-in",
+    "source_url": "https://www.pinui.xyz/blocx/halo-sign-in",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/blocx/halo-sign-in.json\""
+  },
+  {
+    "id": "pixelkit-sign-in",
+    "title": "Pixelkit Sign In",
+    "description": "Auth block. A lime tile, three providers and a magic link.",
+    "type": "registry:block",
+    "dependencies": [
+      "motion"
+    ],
+    "files": [
+      "PixelkitSignIn.tsx",
+      "pixelkit-sign-in.css"
+    ],
+    "path": "blocx/pixelkit-sign-in",
+    "source_url": "https://www.pinui.xyz/blocx/pixelkit-sign-in",
+    "install": "npx shadcn@latest add \"https://www.pinui.xyz/r/blocx/pixelkit-sign-in.json\""
+  }
+]

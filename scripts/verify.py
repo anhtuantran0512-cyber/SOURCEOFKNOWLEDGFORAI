@@ -34,6 +34,23 @@ def check(rows: list[dict], key: str, min_chars: int, errors: list[str], require
     return {"rows": len(rows), "missing": missing, "short": short, "no_code_fence": no_fence}
 
 
+def check_dirs(rows: list[dict], key: str, expected: int, errors: list[str], label: str) -> dict:
+    """Manifests whose `path` points at a folder (Pin UI, ThreeUI)."""
+    if len(rows) != expected:
+        errors.append(f"{label} expected {expected} rows, found {len(rows)}")
+    missing = sum(1 for row in rows if not (ROOT / row[key]).exists())
+    empty = sum(
+        1
+        for row in rows
+        if (ROOT / row[key]).is_dir() and not any(p.is_file() for p in (ROOT / row[key]).iterdir())
+    )
+    if missing:
+        errors.append(f"{label}: {missing} missing paths")
+    if empty:
+        errors.append(f"{label}: {empty} empty folders")
+    return {"rows": len(rows), "missing": missing, "empty": empty}
+
+
 def main() -> int:
     errors: list[str] = []
     report: dict[str, object] = {}
@@ -64,6 +81,18 @@ def main() -> int:
     report["motionsites"]["locked_leaks"] = len(locked_leaks)
     if locked_leaks:
         errors.append(f"paid prompts present in archive: {locked_leaks[:5]}")
+
+    pinui = load(SOURCES / "pinui" / "manifest.json")
+    threeui = load(SOURCES / "threeui" / "manifest.json")
+    report["pinui"] = check_dirs(pinui, "path", 41, errors, "pinui")
+    report["threeui"] = check_dirs(threeui, "path", 961, errors, "threeui")
+    for name in ("pinui", "threeui"):
+        if not (SOURCES / name / "catalog.json").exists():
+            errors.append(f"sources/{name}/catalog.json missing")
+        if not (SOURCES / name / "README.md").exists():
+            errors.append(f"sources/{name}/README.md missing")
+    if not (SOURCES / "threeui" / "tags.json").exists():
+        errors.append("sources/threeui/tags.json missing")
 
     report["errors"] = errors
     (ROOT / "verify-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

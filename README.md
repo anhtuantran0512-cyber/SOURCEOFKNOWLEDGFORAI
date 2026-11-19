@@ -1,69 +1,101 @@
+> **IMPORTANT SOURCE FOR WEB — 100% USE**
+>
+> Repo này là **nguồn bắt buộc** cho mọi thiết kế web của team. Trước khi code UI:
+> đọc [`AGENT.md`](AGENT.md), tra **cả năm** thư mục trong `sources/`, mở tham chiếu thật, rồi ghi
+> `## Source coverage (100%)` vào brief. Thiếu một nguồn = chưa được code.
+>
+> Phần lớn nội dung dưới đây là tiếng Anh vì file gốc của các thư viện là tiếng Anh; luật thi hành
+> và quy trình thì ở `AGENT.md`.
+
 # SOURCEOFKNOWLEDGFORAI
 
-Front-end design reference archive with 5,768 structured markdown prompts, metadata indexes, and standalone demos.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Contents](#contents)
-- [Quick Start](#quick-start)
-- [Repository Structure](#repository-structure)
-- [Search](#search)
-- [Refresh Archive](#refresh-archive)
-- [Scope](#scope)
-- [License](#license)
-
-## Overview
-
-This repository organizes public UI component prompts, design tokens, and standalone HTML/CSS/JS demos into category folders with machine-readable `manifest.json` indexes.
+Front-end design reference archive: **6,770 reference items** from five public libraries, normalised
+into markdown briefs with metadata, categories and source links. Structure, docs and scripts are MIT;
+each source keeps its own license (see [`NOTICE.md`](NOTICE.md)).
 
 ## Contents
 
-| Source | Items | Contents | License |
-| --- | ---: | --- | --- |
-| [`sources/codefronts/`](sources/codefronts/) | 5,047 | CSS/Tailwind components, layouts, navigation, and motion prompts | MIT (CodeFronts) |
-| [`sources/lucianlabs/`](sources/lucianlabs/) | 400 | 200 interface and 200 animation prompts with demos and tokens | MIT |
-| [`sources/motionsites/`](sources/motionsites/) | 321 | Free section briefs (hero, pricing, footer, dashboards) | MotionSites free tier |
+| Source | Items | What you get | Code? | License |
+|---|---:|---|---|---|
+| [`sources/codefronts/`](sources/codefronts/) | 5,047 | CSS/Tailwind components, layouts, navigation, motion, snippets, design styles — one ready-to-paste prompt per item | prompt + code | MIT (stated by CodeFronts) |
+| [`sources/lucianlabs/`](sources/lucianlabs/) | 400 | 200 interface + 200 animation elements with runnable demos and theme tokens | full HTML/CSS/JS | MIT (c) 2026 Seokwoooo |
+| [`sources/motionsites/`](sources/motionsites/) | 321 | Free website-section prompts: hero, pricing, footer, ecommerce, SaaS, dashboards | prompt only | Free prompts, property of MotionSites AI |
+| [`sources/pinui/`](sources/pinui/) | 41 | 30 React components + 11 whole-page blocs, TSX + CSS, installable with shadcn CLI | full source | MIT (c) Rachit Thakur / Shadcn Labs |
+| [`sources/threeui/`](sources/threeui/) | 961 | 3D / WebGL / motion catalogue: buttons, hero, sections, 3D assets, backgrounds, landing pages (+1,485 tag pages) | metadata + live demo | catalogue metadata; source files behind ThreeUI Pro MCP |
 
-Paid MotionSites prompts are excluded. See [`NOTICE.md`](NOTICE.md).
+Paid MotionSites prompts and ThreeUI source files are **not** included. Nothing was paywalled or
+scraped from a private API. See [`NOTICE.md`](NOTICE.md).
 
-## Quick Start
+## Quick start
 
 ```bash
 git clone https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI.git
 cd SOURCEOFKNOWLEDGFORAI
 ```
 
-1. Read [`docs/RETRIEVAL_GUIDE.md`](docs/RETRIEVAL_GUIDE.md) for lookup rules.
-2. Browse [`INDEX.md`](INDEX.md) for category totals and entry points.
-3. See [`docs/usage-recipes.md`](docs/usage-recipes.md) for query patterns.
+1. Read [`AGENT.md`](AGENT.md) — the binding rules, including the 100% coverage requirement.
+2. Browse [`INDEX.md`](INDEX.md) — totals, entry points, highest-value picks.
+3. Copy a recipe from [`docs/usage-recipes.md`](docs/usage-recipes.md).
+4. Connect an agent with [`docs/arena-setup.md`](docs/arena-setup.md).
 
-## Repository Structure
+Minimal agent message:
+
+```
+Read AGENT.md. Build <feature> in <folder>.
+Query every folder in sources/ (100% coverage), open at most three references,
+record Source coverage in the brief. Keep license headers, use design tokens,
+verify 390/768/1440 + keyboard + reduced motion.
+```
+
+## Repository structure
 
 ```text
 .
-├── INDEX.md
-├── NOTICE.md
-├── catalog.json
+├── AGENT.md                  # binding rules (100% coverage, licensing, verification)
+├── INDEX.md                  # generated entry point
+├── NOTICE.md                 # attribution, licenses, takedown
+├── catalog.json              # machine summary of the archive
+├── sources/
+│   ├── codefronts/           # 5,047 prompts, folder = section/category
+│   ├── lucianlabs/           # 400 prompts + demos + tokens.css
+│   ├── motionsites/          # 321 free prompts + full public catalogue
+│   ├── pinui/                # registry/ + blocx/ + pages/ (real TSX/CSS)
+│   └── threeui/              # items/, catalog.json[l], tags.json (metadata)
 ├── docs/
 │   ├── RETRIEVAL_GUIDE.md
-│   ├── repository-map.md
-│   └── usage-recipes.md
-├── sources/
-│   ├── codefronts/
-│   ├── lucianlabs/
-│   └── motionsites/
-├── scripts/
-└── assets/previews/
+│   ├── usage-recipes.md
+│   ├── arena-setup.md
+│   └── repository-map.md
+├── scripts/                  # collectors for the three original sources, index builder, verifier
+└── assets/previews/          # screenshots of selected elements
 ```
 
-## Search
+## Search without loading everything
+
+Every source has a `manifest.json` with id, title, category, tags and path.
 
 ```bash
-jq -r '.[] | select((.title + " " + .category + " " + ((.tags // []) | join(" "))) | test("scroll|parallax"; "i")) | [.title, .path] | @tsv'   sources/lucianlabs/manifest.json
+# any source, by title/category/tag
+for f in sources/*/manifest.json; do
+  jq -r --arg q "pricing" '.[] |
+    select((.title + " " + (.category // "") + " " + ((.tags // []) | join(" "))) | test($q; "i")) |
+    [.title, .path] | @tsv' "$f"
+done
+
+# Pin UI components with an install command
+jq -r '.[] | select(.kind=="component") | [.title, .install] | @tsv' sources/pinui/manifest.json
+
+# ThreeUI by runtime
+jq -r '.[] | select(.runtime | test("three"; "i")) | [.title, .url] | @tsv' sources/threeui/manifest.json
 ```
 
-## Refresh Archive
+## How files are shaped
+
+CodeFronts and lucianLabs files are **prompts**: brief, code, constraints. MotionSites files are
+section briefs. Pin UI files are **source code** (`*.tsx`, `*.css`) plus an `ITEM.md` with the install
+command. ThreeUI files are catalogue briefs: title, category, runtime, live URL, preview image.
+
+## Refresh the archive
 
 ```bash
 python3 scripts/crawl_codefronts.py --resume --concurrency 12
@@ -73,11 +105,21 @@ python3 scripts/build_index.py
 python3 scripts/verify.py
 ```
 
-## Scope
+The Pin UI and ThreeUI collections are collected from their public surfaces:
+`https://www.pinui.xyz/r/registry.json`, `https://www.pinui.xyz/r/blocx/<slug>.json` and the
+`sitemap.xml` of `https://threeui.com`. `verify.py` checks file counts, frontmatter, demos, that no
+paid MotionSites prompt leaked in, and that the two newer sources are present and complete.
 
-- Reference archive only; adapt patterns using your own project tokens and assets.
-- External media URLs inside third-party prompts remain subject to their original owners.
+## Scope and honesty
+
+- This is a **learning reference**. Adapt the patterns; do not ship demo copy or third-party assets.
+- External image, font and video URLs inside prompts belong to their owners and may expire.
+- ThreeUI source files are sold through their Pro MCP. This archive never contains, guesses or
+  reconstructs them.
+- The archive is a snapshot. Re-run the collectors if a link is stale.
+- If you own content here and want it removed, open an issue.
 
 ## License
 
-Archive structure, docs, and scripts: MIT. Third-party prompts keep their original licenses; see [`NOTICE.md`](NOTICE.md).
+Archive structure, docs and scripts: MIT. Third-party content keeps its original license and
+attribution — see [`NOTICE.md`](NOTICE.md).

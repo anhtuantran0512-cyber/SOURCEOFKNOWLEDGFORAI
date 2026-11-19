@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "add-member",
+  "type": "registry:component",
+  "title": "Add Member",
+  "description": "Pick people for a project, and watch their faces fly into the stack.",
+  "dependencies": [
+    "motion"
+  ],
+  "docs": "Add Member — Pick people for a project, and watch their faces fly into the stack.\n\nThe stylesheet sits next to the component and is imported by it, so keep the two together in components/pinui/.\n\nIt is drawn in Plus Jakarta Sans. If your project does not already load that face it will fall back to your system sans and look noticeably different.\n\nIt comes in two themes: pass theme=\"dark\" for the dark one, or wire the prop to your own theme switch.\n\nThe default people use portraits from randomuser.me. Pass your own `members` — name, role, portrait URL and status — before shipping it.",
+  "$registry_url": "https://www.pinui.xyz/r/add-member.json"
+}
