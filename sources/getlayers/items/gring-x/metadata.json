@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:26:06Z",
+ "fetchedAt": "2026-11-20T15:43:19Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "gring-x",
@@ -347,7 +347,7 @@
   "status": "premium"
  },
  "files": {
-  "gring-x.webp": "112984 bytes",
-  "gring-x-figma.webp": "72268 bytes"
+  "gring-x.webp": "cached",
+  "gring-x-figma.webp": "cached"
  }
 }

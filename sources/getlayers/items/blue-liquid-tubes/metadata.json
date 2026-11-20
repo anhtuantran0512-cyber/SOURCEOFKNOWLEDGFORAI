@@ -1,0 +1,47 @@
+{
+ "fetchedAt": "2026-11-20T15:46:04Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-liquid-tubes",
+  "title": "Blue Liquid Tubes",
+  "category": "background",
+  "tags": [
+   "background",
+   "static"
+  ],
+  "stack": [
+   "background",
+   "static"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-liquid-tubes-8b1bb5e3a5.webp",
+  "likes": 1,
+  "createdAt": "2026-07-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "organic"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "abstract",
+   "background",
+   "blue",
+   "cobalt",
+   "glass",
+   "liquid",
+   "tubes",
+   "winding"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-liquid-tubes.webp": "98708 bytes"
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "fetchedAt": "2026-11-20T15:44:59Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "crimson-silence",
+  "title": "Crimson Silence",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A near-black bust in an empty room, its silhouette traced by one burning line of crimson.",
+  "image": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "brutal"
+  ],
+  "keywords": [
+   "black",
+   "burning",
+   "bust",
+   "crimson",
+   "dark",
+   "edge",
+   "element",
+   "empty",
+   "expensive",
+   "fire",
+   "head",
+   "line",
+   "moody",
+   "museum",
+   "near",
+   "noir",
+   "one",
+   "portrait",
+   "red",
+   "restraint",
+   "rim-light",
+   "rimlight",
+   "room",
+   "sculpture",
+   "silence",
+   "silhouette",
+   "statue",
+   "stone",
+   "the",
+   "traced"
+  ],
+  "variants": [
+   {
+    "id": "crimson-silence",
+    "groupId": "crimson-silence",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgEdge": "#000000",
+     "bgGlow": "#4a0a08",
+     "rimWarm": "#ff7a3a",
+     "rimColor": "#ff2012",
+     "baseColor": "#000000",
+     "coolColor": "#0a0000",
+     "dustColor": "#ff6a4d"
+    },
+    "ramp": [
+     "#000000",
+     "#0a0000",
+     "#ff2012",
+     "#ff7a3a",
+     "#4a0a08",
+     "#000000",
+     "#ff6a4d"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a.webp"
+   },
+   {
+    "id": "crimson-silence-001",
+    "groupId": "crimson-silence",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgEdge": "#bba5ea",
+     "bgGlow": "#8363e0",
+     "rimWarm": "#4523d5",
+     "rimColor": "#2b1d90",
+     "baseColor": "#050512",
+     "coolColor": "#16134f",
+     "dustColor": "#ebe2f7"
+    },
+    "ramp": [
+     "#050512",
+     "#16134f",
+     "#2b1d90",
+     "#4523d5",
+     "#8363e0",
+     "#bba5ea",
+     "#ebe2f7"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a/e015774a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a/e015774a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a/e015774a.webp"
+   },
+   {
+    "id": "crimson-silence-002",
+    "groupId": "crimson-silence",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgEdge": "#7a77d9",
+     "bgGlow": "#5643d1",
+     "rimWarm": "#4726b2",
+     "rimColor": "#3f1f7d",
+     "baseColor": "#13091c",
+     "coolColor": "#2d154b",
+     "dustColor": "#a8ace3"
+    },
+    "ramp": [
+     "#13091c",
+     "#2d154b",
+     "#3f1f7d",
+     "#4726b2",
+     "#5643d1",
+     "#7a77d9",
+     "#a8ace3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a/0cedbafa-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a/0cedbafa.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a/0cedbafa.webp"
+   },
+   {
+    "id": "crimson-silence-003",
+    "groupId": "crimson-silence",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgEdge": "#add1ce",
+     "bgGlow": "#7ebab7",
+     "rimWarm": "#52a09f",
+     "rimColor": "#3d7070",
+     "baseColor": "#0d1515",
+     "coolColor": "#254142",
+     "dustColor": "#dae9e8"
+    },
+    "ramp": [
+     "#0d1515",
+     "#254142",
+     "#3d7070",
+     "#52a09f",
+     "#7ebab7",
+     "#add1ce",
+     "#dae9e8"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a/59ab24df-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a/59ab24df.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a/59ab24df.webp"
+   },
+   {
+    "id": "crimson-silence-004",
+    "groupId": "crimson-silence",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgEdge": "#d98487",
+     "bgGlow": "#cf554e",
+     "rimWarm": "#b13e2b",
+     "rimColor": "#7a3621",
+     "baseColor": "#130c07",
+     "coolColor": "#452515",
+     "dustColor": "#e6b7bd"
+    },
+    "ramp": [
+     "#130c07",
+     "#452515",
+     "#7a3621",
+     "#b13e2b",
+     "#cf554e",
+     "#d98487",
+     "#e6b7bd"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a/c7090b88-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a/c7090b88.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/crimson-silence-6f299c473a/c7090b88.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "crimson-silence.webp": "34708 bytes"
+ }
+}

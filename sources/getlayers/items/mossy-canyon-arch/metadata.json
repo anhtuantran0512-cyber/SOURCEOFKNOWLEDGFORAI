@@ -1,0 +1,57 @@
+{
+ "fetchedAt": "2026-11-20T15:46:34Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "mossy-canyon-arch",
+  "title": "Mossy Canyon Arch",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark. Legal for purchase only on getlayers.ai — getlayers.ai/layer/mossy-canyon-arch",
+  "image": "https://storage.getlayers.ai/backgrounds/mossy-canyon-arch-622d169312.webp",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "arch",
+   "canyon",
+   "cathedral",
+   "cliffs",
+   "deep",
+   "draped",
+   "frames",
+   "green",
+   "hidden",
+   "icelandic",
+   "landscape",
+   "moss",
+   "mossy",
+   "natural",
+   "nature",
+   "river",
+   "rock",
+   "stone",
+   "valley",
+   "winding"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "mossy-canyon-arch.webp": "425674 bytes"
+ }
+}

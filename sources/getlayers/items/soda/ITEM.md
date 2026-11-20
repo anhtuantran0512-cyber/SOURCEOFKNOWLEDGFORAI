@@ -25,7 +25,7 @@ url: "https://www.getlayers.ai/layer/soda"
 - Published: 2026-06-07 · likes: 444
 - Live page: https://www.getlayers.ai/layer/soda
 - Preview still: [`assets/soda.webp`](../../assets/soda.webp)
-- Figma preview: _not published for this template_
+- Figma preview: _not published for this item_
 
 ## Measured performance
 
@@ -50,8 +50,8 @@ Full reports:
 
 Free prompt, verbatim: [`prompts/soda.md`](../../prompts/soda.md)
 
-It rebuilds the page as one self-contained `index.html` and states every constant,
-asset URL and interaction the reference uses.
+It rebuilds the reference as one self-contained `index.html` and states every constant,
+asset URL and interaction the original uses.
 
 ## Public assets
 

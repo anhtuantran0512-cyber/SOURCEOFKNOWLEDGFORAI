@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:47:02Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "mint-soft-rays",
+  "title": "Mint Soft Rays",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/mint-soft-rays-abcd15ecad.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/mint-soft-rays-abcd15ecad.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/mint-soft-rays-abcd15ecad-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "blown",
+   "closed",
+   "corner",
+   "dreamy",
+   "entirely",
+   "eyes",
+   "focus",
+   "glass",
+   "glow",
+   "highlight",
+   "light",
+   "memory",
+   "mint",
+   "out",
+   "pastel",
+   "peach",
+   "radiate",
+   "rays",
+   "soft",
+   "soft-focus",
+   "sun",
+   "through",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "mint-soft-rays.webp": "54752 bytes"
+ }
+}

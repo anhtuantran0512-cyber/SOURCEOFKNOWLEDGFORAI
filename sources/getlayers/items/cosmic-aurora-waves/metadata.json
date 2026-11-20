@@ -1,0 +1,46 @@
+{
+ "fetchedAt": "2026-11-20T15:45:37Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "cosmic-aurora-waves",
+  "title": "Cosmic Aurora Waves",
+  "category": "background",
+  "tags": [
+   "background",
+   "static"
+  ],
+  "stack": [
+   "background",
+   "static"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/cosmic-aurora-waves-41c18c593d.webp",
+  "likes": 3,
+  "createdAt": "2026-07-15",
+  "typeTags": [
+   "cosmic-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "aurora",
+   "background",
+   "cosmic",
+   "nebula",
+   "space",
+   "stars",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cosmic-aurora-waves.webp": "88158 bytes"
+ }
+}

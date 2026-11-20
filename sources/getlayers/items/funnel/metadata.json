@@ -1,0 +1,90 @@
+{
+ "fetchedAt": "2026-11-20T15:44:49Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "funnel",
+  "title": "Funnel",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Premium",
+  "description": "A swirling vortex of particles glowing from deep indigo to electric cyan in a dark violet haze.",
+  "image": "https://storage.getlayers.ai/3d_scenes/funnel.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/funnel.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/funnel-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/funnel-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 7,
+  "createdAt": "2026-06-02",
+  "typeTags": [
+   "vortex-tunnel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "funnel",
+   "vortex",
+   "twisting",
+   "cone",
+   "you",
+   "descend",
+   "before",
+   "detonates",
+   "void",
+   "tunnel"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "funnel",
+    "groupId": "funnel",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#0a0524",
+     "colorLow": "#1a0840",
+     "atmoColor": "#8fe6ff",
+     "colorHigh": "#23e0ff",
+     "flameColor": "#23e0ff",
+     "flameColor2": "#6a3cff"
+    },
+    "ramp": [
+     "#0a0524",
+     "#23e0ff",
+     "#6a3cff",
+     "#8fe6ff",
+     "#1a0840",
+     "#23e0ff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/funnel-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/funnel.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/funnel.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "funnel.webp": "40652 bytes"
+ }
+}

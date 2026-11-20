@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:46:38Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "forest-vinyl-turntable",
+  "title": "Forest Vinyl Turntable",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/forest-vinyl-turntable-39a6bc1d33.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/forest-vinyl-turntable-39a6bc1d33.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/forest-vinyl-turntable-39a6bc1d33-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "deep",
+   "floor",
+   "fluffy",
+   "forest",
+   "fur",
+   "green",
+   "grew",
+   "jungle",
+   "misty",
+   "moss",
+   "mossy",
+   "music",
+   "object",
+   "product",
+   "record",
+   "sits",
+   "spinning",
+   "stump",
+   "turntable",
+   "vinyl",
+   "yellow"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "forest-vinyl-turntable.webp": "322228 bytes"
+ }
+}

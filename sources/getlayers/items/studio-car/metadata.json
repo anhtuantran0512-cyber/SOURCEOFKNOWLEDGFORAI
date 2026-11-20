@@ -1,0 +1,120 @@
+{
+ "fetchedAt": "2026-11-20T15:44:51Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "studio-car",
+  "title": "Studio Car",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A sports car on a dark cyclorama, waiting to be configured — pick a paint, a wheel, a finish, and the camera flies to show you.",
+  "image": "https://storage.getlayers.ai/3d_scenes/studio-car-04caef6a4e.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/studio-car-04caef6a4e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/studio-car-04caef6a4e-preview.mp4",
+  "likes": 3,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "and",
+   "automotive",
+   "camera",
+   "can",
+   "car",
+   "chrome",
+   "configurator",
+   "configured",
+   "cyclorama",
+   "dark",
+   "ecommerce",
+   "element",
+   "finish",
+   "flies",
+   "hard",
+   "lacquer",
+   "light",
+   "night",
+   "paint",
+   "pick",
+   "product",
+   "show",
+   "showroom",
+   "spec",
+   "sports",
+   "sportscar",
+   "studio",
+   "vehicle",
+   "waiting",
+   "wet",
+   "wheel",
+   "wheels",
+   "you"
+  ],
+  "variants": [
+   {
+    "id": "studio-car",
+    "groupId": "studio-car",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgMid": "#404040",
+     "bgTop": "#000000",
+     "envWarm": "#fff2e0",
+     "bgBottom": "#000000",
+     "keyColor": "#fff2df",
+     "rimColor": "#ffe4bd",
+     "fillColor": "#bcd2ff",
+     "headColor": "#3d3d3d",
+     "tailColor": "#660000",
+     "tintColor": "#101114",
+     "glassColor": "#050607",
+     "wheelColor": "#c6a24c",
+     "chromeColor": "#d8dce1"
+    },
+    "ramp": [
+     "#000000",
+     "#404040",
+     "#000000",
+     "#101114",
+     "#050607",
+     "#3d3d3d",
+     "#660000",
+     "#c6a24c",
+     "#d8dce1",
+     "#fff2e0",
+     "#fff2df",
+     "#bcd2ff",
+     "#ffe4bd"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/studio-car-04caef6a4e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/studio-car-04caef6a4e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/studio-car-04caef6a4e.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "studio-car.webp": "73088 bytes"
+ }
+}

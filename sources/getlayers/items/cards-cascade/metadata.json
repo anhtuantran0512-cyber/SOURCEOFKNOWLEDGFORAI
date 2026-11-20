@@ -1,0 +1,66 @@
+{
+ "fetchedAt": "2026-11-20T15:45:01Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "cards-cascade",
+  "title": "Cards Cascade",
+  "category": "section",
+  "tags": [
+   "section",
+   "scroll-driven",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "scroll-driven",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A scroll-driven 3D card deck that fans flat at the back, rises to an upright crest, then folds forward and cascades straight down into a pit — pure-CSS depth beside a pinned editorial hero.",
+  "image": "https://storage.getlayers.ai/sections/cards-cascade.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/cards-cascade.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/cards-cascade-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/cards-cascade-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 99,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "cards"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "keywords": [
+   "cards",
+   "css-3d",
+   "scroll",
+   "deck",
+   "cascade",
+   "art",
+   "that",
+   "fans",
+   "flat",
+   "back",
+   "rises",
+   "single",
+   "upright",
+   "crest",
+   "then",
+   "folds",
+   "forward",
+   "cascades",
+   "pit"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cards-cascade.webp": "80350 bytes"
+ }
+}

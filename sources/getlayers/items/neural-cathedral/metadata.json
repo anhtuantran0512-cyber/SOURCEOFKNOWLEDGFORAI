@@ -1,0 +1,99 @@
+{
+ "fetchedAt": "2026-11-20T15:44:20Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "neural-cathedral",
+  "title": "Neural Cathedral",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A glowing cyan neuron floats in a dark void, its tendrils swaying as nerve impulses of gold, orange and violet ripple through the network. Legal for purchase only on getlayers.ai — getlayers.ai/layer/neural-cathedral",
+  "image": "https://storage.getlayers.ai/3d_scenes/neural-cathedral-8e381928e0.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/neural-cathedral-8e381928e0.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/neural-cathedral-8e381928e0-preview.mp4",
+  "likes": 145,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "action potential",
+   "additive-glow",
+   "ai",
+   "axon",
+   "axons",
+   "bioelectric",
+   "biology",
+   "bioluminescent",
+   "brain",
+   "branching",
+   "cathedral",
+   "cinematic",
+   "click interaction",
+   "click-pulse",
+   "clicking",
+   "cyan",
+   "dark",
+   "darkness",
+   "dendrites",
+   "dust",
+   "element",
+   "fires",
+   "futuristic",
+   "glow",
+   "gold",
+   "impulse",
+   "machine learning",
+   "medical",
+   "nerve",
+   "nerve cell",
+   "network",
+   "neural",
+   "neural network",
+   "neuron",
+   "orange",
+   "orbit",
+   "orbit-controls",
+   "orbiting",
+   "organic",
+   "postprocessing-bloom",
+   "procedural-growth",
+   "sci-fi",
+   "science",
+   "signal",
+   "simplex-noise",
+   "slowly",
+   "synapse",
+   "synapses",
+   "tech",
+   "tendrils",
+   "threejs",
+   "timer",
+   "tube-geometry",
+   "twinkle",
+   "violet",
+   "whole"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "neural-cathedral.webp": "50988 bytes"
+ }
+}

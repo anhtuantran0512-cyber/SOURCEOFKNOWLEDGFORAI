@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:38Z",
+ "fetchedAt": "2026-11-20T15:42:42Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "longplay",
@@ -950,6 +950,6 @@
   "status": "premium"
  },
  "files": {
-  "longplay.webp": "168500 bytes"
+  "longplay.webp": "cached"
  }
 }

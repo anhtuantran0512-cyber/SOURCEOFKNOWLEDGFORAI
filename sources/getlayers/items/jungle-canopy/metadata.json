@@ -1,0 +1,270 @@
+{
+ "fetchedAt": "2026-11-20T15:44:25Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "jungle-canopy",
+  "title": "Jungle Canopy",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A wall of tropical foliage gusting in the dark, parting wherever the cursor pushes through it.",
+  "image": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835-preview.mp4",
+  "likes": 110,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic"
+  ],
+  "keywords": [
+   "canopy",
+   "cinematic",
+   "cursor",
+   "dark",
+   "dense",
+   "depth",
+   "depth-of-field",
+   "element",
+   "foliage",
+   "forest",
+   "green",
+   "gusting",
+   "humid",
+   "jungle",
+   "leaves",
+   "monstera",
+   "nature",
+   "part",
+   "parting",
+   "plants",
+   "pushes",
+   "pushing",
+   "rainforest",
+   "through",
+   "tropical",
+   "undergrowth",
+   "wall",
+   "wherever"
+  ],
+  "variants": [
+   {
+    "id": "jungle-canopy",
+    "groupId": "jungle-canopy",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "sunColor": "#ece5ff",
+     "fillColor": "#00bd03",
+     "moteColor": "#daf9b4"
+    },
+    "ramp": [
+     "#daf9b4",
+     "#ece5ff",
+     "#00bd03"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835.webp"
+   },
+   {
+    "id": "jungle-canopy-001",
+    "groupId": "jungle-canopy",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#ceb738",
+     "fillColor": "#f5f4e3",
+     "moteColor": "#26210d"
+    },
+    "ramp": [
+     "#26210d",
+     "#ceb738",
+     "#f5f4e3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/63cd2c0e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/63cd2c0e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/63cd2c0e.webp"
+   },
+   {
+    "id": "jungle-canopy-002",
+    "groupId": "jungle-canopy",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#5ec6c4",
+     "fillColor": "#2c5762",
+     "moteColor": "#d1eae4"
+    },
+    "ramp": [
+     "#d1eae4",
+     "#5ec6c4",
+     "#2c5762"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/86d5b136-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/86d5b136.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/86d5b136.webp"
+   },
+   {
+    "id": "jungle-canopy-003",
+    "groupId": "jungle-canopy",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#3a58ad",
+     "fillColor": "#b4badf",
+     "moteColor": "#111a28"
+    },
+    "ramp": [
+     "#111a28",
+     "#3a58ad",
+     "#b4badf"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/b6956d25-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/b6956d25.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/b6956d25.webp"
+   },
+   {
+    "id": "jungle-canopy-004",
+    "groupId": "jungle-canopy",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#87bba0",
+     "fillColor": "#42684f",
+     "moteColor": "#eaf1ef"
+    },
+    "ramp": [
+     "#eaf1ef",
+     "#87bba0",
+     "#42684f"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/dafdcc30-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/dafdcc30.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/dafdcc30.webp"
+   },
+   {
+    "id": "jungle-canopy-005",
+    "groupId": "jungle-canopy",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#87bba0",
+     "fillColor": "#42684f",
+     "moteColor": "#eaf1ef"
+    },
+    "ramp": [
+     "#eaf1ef",
+     "#87bba0",
+     "#42684f"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/37009da8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/37009da8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/37009da8.webp"
+   },
+   {
+    "id": "jungle-canopy-006",
+    "groupId": "jungle-canopy",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#a192b9",
+     "fillColor": "#525071",
+     "moteColor": "#ece7ee"
+    },
+    "ramp": [
+     "#ece7ee",
+     "#a192b9",
+     "#525071"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/d6b89405-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/d6b89405.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/d6b89405.webp"
+   },
+   {
+    "id": "jungle-canopy-007",
+    "groupId": "jungle-canopy",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#d95fc9",
+     "fillColor": "#76286f",
+     "moteColor": "#f4def0"
+    },
+    "ramp": [
+     "#f4def0",
+     "#d95fc9",
+     "#76286f"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/d992c3eb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/d992c3eb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/d992c3eb.webp"
+   },
+   {
+    "id": "jungle-canopy-008",
+    "groupId": "jungle-canopy",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#36cd54",
+     "fillColor": "#e4f6eb",
+     "moteColor": "#0c220c"
+    },
+    "ramp": [
+     "#0c220c",
+     "#36cd54",
+     "#e4f6eb"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/8797c394-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/8797c394.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jungle-canopy-482eafc835/8797c394.webp"
+   }
+  ],
+  "variantCount": 9
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "jungle-canopy.webp": "131380 bytes"
+ }
+}

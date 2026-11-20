@@ -1,0 +1,277 @@
+{
+ "fetchedAt": "2026-11-20T15:44:59Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "thorned-halo",
+  "title": "Thorned Halo",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A silver crown of thorns turning slowly at the edge of a royal-blue void.",
+  "image": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "brutal"
+  ],
+  "keywords": [
+   "blue",
+   "cold",
+   "crown",
+   "easter",
+   "edge",
+   "element",
+   "gothic",
+   "halo",
+   "jewellery",
+   "light",
+   "metal",
+   "museum",
+   "quiet",
+   "relic",
+   "religious",
+   "ring",
+   "royal",
+   "royal-blue",
+   "silver",
+   "slowly",
+   "thorned",
+   "thorns",
+   "turning",
+   "turntable",
+   "under",
+   "void",
+   "weight"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "thorned-halo",
+    "groupId": "thorned-halo",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#00184d",
+     "ambColor": "#17263f",
+     "bgBottom": "#04081c",
+     "keyColor": "#eaf1ff",
+     "rimColor": "#ffffff",
+     "ambGround": "#05070f",
+     "dustColor": "#ffffff",
+     "fillColor": "#263a66",
+     "figureTint": "#88a0bf"
+    },
+    "ramp": [
+     "#00184d",
+     "#04081c",
+     "#88a0bf",
+     "#eaf1ff",
+     "#ffffff",
+     "#263a66",
+     "#17263f",
+     "#05070f",
+     "#ffffff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94.webp"
+   },
+   {
+    "id": "thorned-halo-001",
+    "groupId": "thorned-halo",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#1c0e0f",
+     "ambColor": "#d19db9",
+     "bgBottom": "#412024",
+     "keyColor": "#8d3f57",
+     "rimColor": "#b44e75",
+     "ambGround": "#e1c2d6",
+     "dustColor": "#f3e7ef",
+     "fillColor": "#c27699",
+     "figureTint": "#66303c"
+    },
+    "ramp": [
+     "#1c0e0f",
+     "#412024",
+     "#66303c",
+     "#8d3f57",
+     "#b44e75",
+     "#c27699",
+     "#d19db9",
+     "#e1c2d6",
+     "#f3e7ef"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/91e7adc5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/91e7adc5.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/91e7adc5.webp"
+   },
+   {
+    "id": "thorned-halo-002",
+    "groupId": "thorned-halo",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#0f2423",
+     "ambColor": "#88d3b5",
+     "bgBottom": "#1d4843",
+     "keyColor": "#34947e",
+     "rimColor": "#3dbc97",
+     "ambGround": "#aedfc8",
+     "dustColor": "#d2ecdf",
+     "fillColor": "#62c8a5",
+     "figureTint": "#296d61"
+    },
+    "ramp": [
+     "#0f2423",
+     "#1d4843",
+     "#296d61",
+     "#34947e",
+     "#3dbc97",
+     "#62c8a5",
+     "#88d3b5",
+     "#aedfc8",
+     "#d2ecdf"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/bd026ccb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/bd026ccb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/bd026ccb.webp"
+   },
+   {
+    "id": "thorned-halo-003",
+    "groupId": "thorned-halo",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#181012",
+     "ambColor": "#af7f91",
+     "bgBottom": "#332126",
+     "keyColor": "#6a414e",
+     "rimColor": "#875062",
+     "ambGround": "#bf9ba9",
+     "dustColor": "#cfb6c0",
+     "fillColor": "#a06378",
+     "figureTint": "#4e313a"
+    },
+    "ramp": [
+     "#181012",
+     "#332126",
+     "#4e313a",
+     "#6a414e",
+     "#875062",
+     "#a06378",
+     "#af7f91",
+     "#bf9ba9",
+     "#cfb6c0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/79b6bda3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/79b6bda3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/79b6bda3.webp"
+   },
+   {
+    "id": "thorned-halo-004",
+    "groupId": "thorned-halo",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#00184d",
+     "ambColor": "#17263f",
+     "bgBottom": "#04081c",
+     "keyColor": "#eaf1ff",
+     "rimColor": "#ffffff",
+     "ambGround": "#05070f",
+     "dustColor": "#ffffff",
+     "fillColor": "#263a66",
+     "figureTint": "#88a0bf"
+    },
+    "ramp": [
+     "#00184d",
+     "#04081c",
+     "#88a0bf",
+     "#eaf1ff",
+     "#ffffff",
+     "#263a66",
+     "#17263f",
+     "#05070f",
+     "#ffffff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/e74ac1c2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/e74ac1c2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/e74ac1c2.webp"
+   },
+   {
+    "id": "thorned-halo-005",
+    "groupId": "thorned-halo",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#101317",
+     "ambColor": "#9bb2bc",
+     "bgBottom": "#252b35",
+     "keyColor": "#4c6073",
+     "rimColor": "#5f7d93",
+     "ambGround": "#bacacf",
+     "dustColor": "#d8e2e4",
+     "fillColor": "#7c98a8",
+     "figureTint": "#394554"
+    },
+    "ramp": [
+     "#101317",
+     "#252b35",
+     "#394554",
+     "#4c6073",
+     "#5f7d93",
+     "#7c98a8",
+     "#9bb2bc",
+     "#bacacf",
+     "#d8e2e4"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/7e59157c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/7e59157c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/thorned-halo-9185129f94/7e59157c.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "thorned-halo.webp": "81634 bytes"
+ }
+}

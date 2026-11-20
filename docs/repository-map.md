@@ -102,18 +102,22 @@ through ThreeUI's Pro MCP and is deliberately absent — briefs link to the live
 ```
 sources/getlayers/
 ├── README.md
-├── manifest.json                 # 62 rows
-├── catalog.json                  # the public catalogue, as the site ships it
-├── INDEX.md
-├── items/<id>/ITEM.md            # brief: direction, stack, frame timings, Lighthouse
-├── items/<id>/metadata.json      # full public record + page JSON-LD
+├── manifest.json                 # 892 rows; `category` = template | 3d_scene | section | background | gradient
+├── catalog/<category>.json       # each public catalogue, as the site ships it
+├── INDEX.md                      # every item, grouped by library
+├── MEDIA.md                      # 5,854 media files: field, size, URL (not committed)
+├── media-sizes.json              # HEAD Content-Length per media URL
+├── items/<id>/ITEM.md            # brief: direction, stack, variants, frame timings, Lighthouse
+├── items/<id>/metadata.json      # full public record (+ page JSON-LD for templates)
 ├── prompts/<id>.md               # free-tier prompts, verbatim
 └── assets/<id>.webp              # poster still (+ -figma.webp where published)
 ```
 
-Whole-page and hero templates. The metadata is complete; the prompts are not. 11 templates are free and
-51 are premium — premium copy answers `forbidden` and is never included. Free prompts are copied through
-the public copy action, which allows one prompt per anonymous visitor per day.
+Five libraries of immersive web work: templates, 3D scenes, sections, backgrounds, gradients. The metadata
+is complete; the prompts are not. 18 items are free to prompt (11 templates, 7 3D scenes) and 874 are
+premium — premium copy answers `forbidden` and is never included. Free prompts are copied through the
+public copy action, which allows one prompt per anonymous visitor per day. Backgrounds are free to
+download but their prompts need Unlimited Plus.
 
 ## Adding a new source
 
@@ -137,7 +141,10 @@ The repository is text-only. No videos, no font binaries, no image dumps. Screen
 `assets/previews/` are small and only used by the README. If a reference needs media, link to the original
 URL instead of committing it.
 
-One named exception: `sources/getlayers/assets/` holds one poster still per template (62 × ~130 KB) and
-the Figma preview where the site publishes one (40 × ~150 KB) — about 16 MB, because the still is the
-only way to see what a template looks like when the source is premium. Its four mp4 mockups and two
-Lighthouse HTML reports per template are **not** committed; those URLs live in each `ITEM.md`.
+One named exception: `sources/getlayers/assets/` holds one poster still per item (892 × ~150 KB) and the
+Figma preview where the site publishes one (53 × ~150 KB) — about 147 MB, because the still is the only
+way to see what an item looks like when its source is premium. The rest of the published media — **10.0
+GB in 5,854 files** of 4K video, preview clips, mockups and Lighthouse HTML — is **not** committed: that
+is past GitHub's 100 MB per-file and 5 GB per-repository limits. Every file is listed with its size and
+URL in `sources/getlayers/MEDIA.md`, and `scripts/fetch_getlayers.py --media video|all` downloads it
+locally.

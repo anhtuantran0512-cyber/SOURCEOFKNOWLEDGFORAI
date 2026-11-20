@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:02Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "roadmap-ascent",
+  "title": "Roadmap Ascent",
+  "category": "section",
+  "tags": [
+   "section",
+   "scroll-driven",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "scroll-driven",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A scroll-pinned growth timeline where a glowing node glides down a month spine, lighting each milestone and rolling a split-flap counter upward against a lime-lit pixel bloom.",
+  "image": "https://storage.getlayers.ai/sections/roadmap-ascent.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/roadmap-ascent.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/roadmap-ascent-preview.mp4",
+  "likes": 42,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "roadmap"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "keywords": [
+   "roadmap",
+   "scroll",
+   "timeline",
+   "dataviz",
+   "ascent",
+   "dark",
+   "pinned",
+   "growth",
+   "story",
+   "where",
+   "fixed",
+   "node",
+   "holds",
+   "centre",
+   "climbs",
+   "through",
+   "toward",
+   "rising",
+   "count"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "roadmap-ascent.webp": "43856 bytes"
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "fetchedAt": "2026-11-20T15:44:59Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "lumen-grid",
+  "title": "Lumen Grid",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A faint blueprint grid over an emerald void, lifting out of the dark wherever slow pools of light drift beneath it.",
+  "image": "https://storage.getlayers.ai/3d_scenes/lumen-grid-17de6e96f5.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/lumen-grid-17de6e96f5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/lumen-grid-17de6e96f5-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "keywords": [
+   "beneath",
+   "blueprint",
+   "blueprint-grid",
+   "cursor-lens",
+   "dark",
+   "drift",
+   "emerald",
+   "faint",
+   "glow",
+   "gradient",
+   "grid",
+   "interactive",
+   "lifting",
+   "light",
+   "lines",
+   "lumen",
+   "mesh",
+   "out",
+   "particles",
+   "perspective",
+   "pools",
+   "shader",
+   "slow",
+   "teal",
+   "threejs",
+   "void",
+   "wherever"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "lumen-grid",
+    "groupId": "lumen-grid",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colDeep": "#123430",
+     "colGlow": "#166b58",
+     "colGrid": "#9ec9c0",
+     "colVoid": "#05110e",
+     "colAccent": "#1f9c82"
+    },
+    "ramp": [
+     "#05110e",
+     "#123430",
+     "#166b58",
+     "#1f9c82",
+     "#9ec9c0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/lumen-grid-17de6e96f5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/lumen-grid-17de6e96f5.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/lumen-grid-17de6e96f5.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lumen-grid.webp": "31532 bytes"
+ }
+}

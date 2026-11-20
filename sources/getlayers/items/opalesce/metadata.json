@@ -1,0 +1,264 @@
+{
+ "fetchedAt": "2026-11-20T15:47:18Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "opalesce",
+  "title": "Opalesce",
+  "description": "A film a few wavelengths thick over a slow flowing ground — the interference tint multiplies the palette instead of replacing it, and the cursor thickens the film so colour travels out behind the hand.",
+  "nature": "spectrum",
+  "family": "optical",
+  "tier": "Premium",
+  "likes": 18,
+  "createdAt": "2026-08-24",
+  "shaderHash": "838dd9c30e388a95943d2180becf4214",
+  "hues": [
+   "blue",
+   "indigo",
+   "orange",
+   "green",
+   "red",
+   "teal"
+  ],
+  "variantCount": 8,
+  "variants": [
+   {
+    "id": "opalesce",
+    "groupId": "opalesce",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#171a26",
+     "colorB": "#363c58",
+     "colorC": "#8e93b4",
+     "colorD": "#f0f1f8",
+     "bgColor": "#08090e"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "dark",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 18,
+    "previewVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f.webp"
+   },
+   {
+    "id": "opalesce-001",
+    "groupId": "opalesce",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c9c8d0",
+     "colorB": "#a2a0b0",
+     "colorC": "#7a7a8e",
+     "colorD": "#595b67",
+     "bgColor": "#f0eff1"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/9a3c9e6f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/9a3c9e6f.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/9a3c9e6f.webp"
+   },
+   {
+    "id": "opalesce-002",
+    "groupId": "opalesce",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#705f30",
+     "colorB": "#bb8c48",
+     "colorC": "#d2b095",
+     "colorD": "#eee2dd",
+     "bgColor": "#282614"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/2950cb91-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/2950cb91.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/2950cb91.webp"
+   },
+   {
+    "id": "opalesce-003",
+    "groupId": "opalesce",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c0d0bb",
+     "colorB": "#95b68f",
+     "colorC": "#6d9668",
+     "colorD": "#4f6b4e",
+     "bgColor": "#e7ece5"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/33c07719-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/33c07719.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/33c07719.webp"
+   },
+   {
+    "id": "opalesce-004",
+    "groupId": "opalesce",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#275061",
+     "colorB": "#3e8fb7",
+     "colorC": "#90bbd3",
+     "colorD": "#dfeaf0",
+     "bgColor": "#080f12"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/1f7b53f6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/1f7b53f6.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/1f7b53f6.webp"
+   },
+   {
+    "id": "opalesce-005",
+    "groupId": "opalesce",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#d9a5b3",
+     "colorB": "#c86978",
+     "colorC": "#9f4349",
+     "colorD": "#643230",
+     "bgColor": "#efdee4"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/ca32119c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/ca32119c.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/ca32119c.webp"
+   },
+   {
+    "id": "opalesce-006",
+    "groupId": "opalesce",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#246f49",
+     "colorB": "#3acb76",
+     "colorC": "#97ddb0",
+     "colorD": "#edf8f0",
+     "bgColor": "#0a1912"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/88f73fa0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/88f73fa0.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/88f73fa0.webp"
+   },
+   {
+    "id": "opalesce-007",
+    "groupId": "opalesce",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#b7b0cd",
+     "colorB": "#8881b5",
+     "colorC": "#5f5c93",
+     "colorD": "#444565",
+     "bgColor": "#e0dde8"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/8dfe2130-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/8dfe2130.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/opalesce-ca69ff929f/8dfe2130.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "opalesce.webp": "28132 bytes"
+ }
+}

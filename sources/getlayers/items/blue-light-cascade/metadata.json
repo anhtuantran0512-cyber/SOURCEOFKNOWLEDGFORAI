@@ -1,0 +1,48 @@
+{
+ "fetchedAt": "2026-11-20T15:45:43Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-light-cascade",
+  "title": "Blue Light Cascade",
+  "category": "background",
+  "tags": [
+   "background",
+   "static"
+  ],
+  "stack": [
+   "background",
+   "static"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-light-cascade-5301e2b833.webp",
+  "likes": 2,
+  "createdAt": "2026-07-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "abstract",
+   "background",
+   "blue",
+   "cascade",
+   "energy",
+   "glass",
+   "light",
+   "ripple",
+   "waterfall"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-light-cascade.webp": "155000 bytes"
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "fetchedAt": "2026-11-20T15:44:54Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "glass-halo",
+  "title": "Glass Halo",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Two frosted green rings tumbling like a gyroscope, spinning up whenever the cursor moves.",
+  "image": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "fluid-iridescent"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "calm",
+   "cool",
+   "cursor",
+   "fluid",
+   "frost",
+   "frosted",
+   "gallery",
+   "glass",
+   "green",
+   "gyroscope",
+   "halo",
+   "hover",
+   "iridescent",
+   "like",
+   "loops",
+   "moves",
+   "orbit",
+   "prism",
+   "rings",
+   "sea",
+   "spinning",
+   "torus",
+   "tumbling",
+   "whenever"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "glass-halo",
+    "groupId": "glass-halo",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bg": "#f4f6f6",
+     "bgGrey": "#bcc9ca",
+     "glassColor": "#144200",
+     "shadowColor": "#9aa0b4",
+     "attenuationColor": "#99fff3"
+    },
+    "ramp": [
+     "#f4f6f6",
+     "#bcc9ca",
+     "#144200",
+     "#99fff3",
+     "#9aa0b4"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1.webp"
+   },
+   {
+    "id": "glass-halo-001",
+    "groupId": "glass-halo",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bg": "#f2ebeb",
+     "bgGrey": "#d4bdbf",
+     "glassColor": "#b88d94",
+     "shadowColor": "#674651",
+     "attenuationColor": "#97626f"
+    },
+    "ramp": [
+     "#f2ebeb",
+     "#d4bdbf",
+     "#b88d94",
+     "#97626f",
+     "#674651"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1/3af8f4b6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1/3af8f4b6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1/3af8f4b6.webp"
+   },
+   {
+    "id": "glass-halo-002",
+    "groupId": "glass-halo",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bg": "#efd8c9",
+     "bgGrey": "#e7b49f",
+     "glassColor": "#e38871",
+     "shadowColor": "#b83937",
+     "attenuationColor": "#d45c4e"
+    },
+    "ramp": [
+     "#efd8c9",
+     "#e7b49f",
+     "#e38871",
+     "#d45c4e",
+     "#b83937"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1/a7cff864-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1/a7cff864.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1/a7cff864.webp"
+   },
+   {
+    "id": "glass-halo-003",
+    "groupId": "glass-halo",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bg": "#d3e5ce",
+     "bgGrey": "#acce97",
+     "glassColor": "#8eba5e",
+     "shadowColor": "#4b512a",
+     "attenuationColor": "#728941"
+    },
+    "ramp": [
+     "#d3e5ce",
+     "#acce97",
+     "#8eba5e",
+     "#728941",
+     "#4b512a"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1/deb798ea-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1/deb798ea.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1/deb798ea.webp"
+   },
+   {
+    "id": "glass-halo-004",
+    "groupId": "glass-halo",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bg": "#e4d1e0",
+     "bgGrey": "#cca0c2",
+     "glassColor": "#b56da4",
+     "shadowColor": "#5b3551",
+     "attenuationColor": "#8d4c7d"
+    },
+    "ramp": [
+     "#e4d1e0",
+     "#cca0c2",
+     "#b56da4",
+     "#8d4c7d",
+     "#5b3551"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1/159d193c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1/159d193c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glass-halo-507c10acd1/159d193c.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-halo.webp": "49944 bytes"
+ }
+}

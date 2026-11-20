@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:26:28Z",
+ "fetchedAt": "2026-11-20T15:44:14Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "fathom",
@@ -621,7 +621,7 @@
   "status": "premium"
  },
  "files": {
-  "fathom.webp": "164656 bytes",
-  "fathom-figma.webp": "496954 bytes"
+  "fathom.webp": "cached",
+  "fathom-figma.webp": "cached"
  }
 }

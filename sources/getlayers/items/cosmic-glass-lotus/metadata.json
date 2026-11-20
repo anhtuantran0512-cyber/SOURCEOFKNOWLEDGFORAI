@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:57Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "cosmic-glass-lotus",
+  "title": "Cosmic Glass Lotus",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/cosmic-glass-lotus-139c837cbc.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/cosmic-glass-lotus-139c837cbc.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/cosmic-glass-lotus-139c837cbc-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "cosmic-space"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "alien",
+   "another",
+   "banded",
+   "beneath",
+   "cosmic",
+   "dark",
+   "field",
+   "garden",
+   "glass",
+   "growing",
+   "iridescent",
+   "lotus",
+   "lotuses",
+   "planet",
+   "reeds",
+   "space",
+   "stand",
+   "stars",
+   "still",
+   "the",
+   "water",
+   "world"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cosmic-glass-lotus.webp": "294306 bytes"
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "fetchedAt": "2026-11-20T15:44:30Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "gilded-gyre",
+  "title": "Gilded Gyre",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A radiant gold gyroscope sphere turns and drifts above a glowing pool in a luminous blue grotto, its mirrored reflection rippling beneath it.",
+  "image": "https://storage.getlayers.ai/3d_scenes/gilded-gyre.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/gilded-gyre.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/gilded-gyre-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/gilded-gyre-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 51,
+  "createdAt": "2026-06-30",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "shader",
+   "raymarch",
+   "gold",
+   "sdf",
+   "water",
+   "gilded",
+   "gyre",
+   "radiant",
+   "gyroscope",
+   "globe",
+   "precessing",
+   "above",
+   "mirrored",
+   "pool",
+   "grotto"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "gilded-gyre",
+    "groupId": "gilded-gyre",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "cMist": "#000919",
+     "cMoss": "#000000",
+     "cRock": "#000000",
+     "cSpec": "#fffad6",
+     "cWater": "#00030a",
+     "cFoliage": "#05243d",
+     "cGoldLow": "#ffca80",
+     "cGoldMid": "#382600",
+     "cGoldHigh": "#ffffff",
+     "cWaterShallow": "#000a14"
+    },
+    "ramp": [
+     "#ffca80",
+     "#382600",
+     "#ffffff",
+     "#fffad6",
+     "#000000",
+     "#000000",
+     "#05243d",
+     "#000919",
+     "#00030a",
+     "#000a14"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/gilded-gyre-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/gilded-gyre.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/gilded-gyre.webp"
+   },
+   {
+    "id": "gilded-gyre-001",
+    "groupId": "gilded-gyre",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "cMist": "#95454c",
+     "cMoss": "#bb5f61",
+     "cRock": "#c57676",
+     "cSpec": "#cd908e",
+     "cWater": "#7d3c44",
+     "cFoliage": "#ad4d52",
+     "cGoldLow": "#e9d5d2",
+     "cGoldMid": "#dfc0bc",
+     "cGoldHigh": "#d6a9a5",
+     "cWaterShallow": "#66333b"
+    },
+    "ramp": [
+     "#e9d5d2",
+     "#dfc0bc",
+     "#d6a9a5",
+     "#cd908e",
+     "#c57676",
+     "#bb5f61",
+     "#ad4d52",
+     "#95454c",
+     "#7d3c44",
+     "#66333b"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/gilded-gyre/31c86afa-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/gilded-gyre/31c86afa.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/gilded-gyre/31c86afa.webp"
+   }
+  ],
+  "variantCount": 2
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "gilded-gyre.webp": "101452 bytes"
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "fetchedAt": "2026-11-20T15:44:29Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "wave-galaxy",
+  "title": "Wave Galaxy",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Premium",
+  "description": "A vast disc of glowing blue-and-cyan points rolls in an animated radial wave over deep black.",
+  "image": "https://storage.getlayers.ai/3d_scenes/wave-galaxy.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/wave-galaxy.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/wave-galaxy-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/wave-galaxy-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 57,
+  "createdAt": "2026-05-31",
+  "typeTags": [
+   "galaxy-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "galaxy",
+   "wave",
+   "hero",
+   "vast",
+   "galactic",
+   "disc",
+   "blue",
+   "starlight",
+   "rippling",
+   "outward",
+   "slow",
+   "radial",
+   "space"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "wave-galaxy",
+    "groupId": "wave-galaxy",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "waveCool": "#02132e",
+     "waveWarm": "#1f6bff",
+     "atmoColor": "#9fd0ff",
+     "rockColor": "#bfe6ff",
+     "waveLight": "#8ef0ff",
+     "cornerBlue": "#10204a",
+     "cornerOrange": "#0a2e6b"
+    },
+    "ramp": [
+     "#9fd0ff",
+     "#02132e",
+     "#1f6bff",
+     "#8ef0ff",
+     "#bfe6ff",
+     "#10204a",
+     "#0a2e6b"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/wave-galaxy-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/wave-galaxy.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/wave-galaxy.webp"
+   },
+   {
+    "id": "wave-galaxy-001",
+    "groupId": "wave-galaxy",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "waveCool": "#205549",
+     "waveWarm": "#2d856c",
+     "atmoColor": "#102723",
+     "rockColor": "#64caa0",
+     "waveLight": "#39b78c",
+     "cornerBlue": "#94d7b8",
+     "cornerOrange": "#c3e6d3"
+    },
+    "ramp": [
+     "#102723",
+     "#205549",
+     "#2d856c",
+     "#39b78c",
+     "#64caa0",
+     "#94d7b8",
+     "#c3e6d3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/wave-galaxy/7df6eabc-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/wave-galaxy/7df6eabc.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/wave-galaxy/7df6eabc.webp"
+   },
+   {
+    "id": "wave-galaxy-002",
+    "groupId": "wave-galaxy",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "waveCool": "#514018",
+     "waveWarm": "#867324",
+     "atmoColor": "#1e160a",
+     "rockColor": "#d1d359",
+     "waveLight": "#bfb12c",
+     "cornerBlue": "#d4de8f",
+     "cornerOrange": "#e2ebc3"
+    },
+    "ramp": [
+     "#1e160a",
+     "#514018",
+     "#867324",
+     "#bfb12c",
+     "#d1d359",
+     "#d4de8f",
+     "#e2ebc3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/wave-galaxy/7ff89e66-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/wave-galaxy/7ff89e66.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/wave-galaxy/7ff89e66.webp"
+   },
+   {
+    "id": "wave-galaxy-003",
+    "groupId": "wave-galaxy",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "waveCool": "#1b471b",
+     "waveWarm": "#31792a",
+     "atmoColor": "#09170b",
+     "rockColor": "#7bc75f",
+     "waveLight": "#4cae37",
+     "cornerBlue": "#abd692",
+     "cornerOrange": "#d3e6c3"
+    },
+    "ramp": [
+     "#09170b",
+     "#1b471b",
+     "#31792a",
+     "#4cae37",
+     "#7bc75f",
+     "#abd692",
+     "#d3e6c3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/wave-galaxy/e56cb129-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/wave-galaxy/e56cb129.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/wave-galaxy/e56cb129.webp"
+   }
+  ],
+  "variantCount": 4
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "wave-galaxy.webp": "168918 bytes"
+ }
+}

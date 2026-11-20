@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:47:05Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pink-moss-portal",
+  "title": "Pink Moss Portal",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pink-moss-portal-cd99321ba8.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pink-moss-portal-cd99321ba8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pink-moss-portal-cd99321ba8-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "among",
+   "and",
+   "balloon",
+   "charms",
+   "chrome",
+   "field",
+   "frames",
+   "fuzzy",
+   "grown",
+   "heart",
+   "landscape",
+   "lettering",
+   "moss",
+   "nature",
+   "once",
+   "opening",
+   "page",
+   "pink",
+   "portal",
+   "scrapbook",
+   "shaped",
+   "shiny",
+   "stars",
+   "typography",
+   "y2k"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pink-moss-portal.webp": "348982 bytes"
+ }
+}

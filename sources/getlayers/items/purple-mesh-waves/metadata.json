@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:49Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "purple-mesh-waves",
+  "title": "Purple Mesh Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/purple-mesh-waves-a1f4b11baf.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/purple-mesh-waves-a1f4b11baf.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/purple-mesh-waves-a1f4b11baf-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "data",
+   "deep",
+   "digital",
+   "dots",
+   "dotted",
+   "fabric",
+   "faint",
+   "folding",
+   "folds",
+   "grid",
+   "like",
+   "magenta",
+   "mesh",
+   "particles",
+   "purple",
+   "rolls",
+   "swirling",
+   "synthwave",
+   "terrain",
+   "wave",
+   "waves",
+   "wireframe"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "purple-mesh-waves.webp": "461230 bytes"
+ }
+}

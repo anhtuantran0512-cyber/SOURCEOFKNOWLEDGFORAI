@@ -1,6 +1,6 @@
 # SOURCEOFKNOWLEDGFORAI
 
-> 6,832 front-end design references from six public libraries, as markdown briefs with metadata and source links. Mandatory reference for any UI work: check all six folders, open at most three files, state what you used.
+> 7,662 front-end design references from six public libraries, as markdown briefs with metadata and source links. Mandatory reference for any UI work: check all six folders, open at most three files, state what you used.
 
 ## Read first
 
@@ -15,7 +15,7 @@
 - [sources/motionsites/INDEX.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/sources/motionsites/INDEX.md): 321 items — Whole-section briefs and art direction. Free prompts only.
 - [sources/lucianlabs/INDEX.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/sources/lucianlabs/INDEX.md): 400 items — Highest craft per element: MIT, working code, runnable demo.
 - [sources/codefronts/INDEX.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/sources/codefronts/INDEX.md): 5047 items — Breadth: 5,047 CSS/Tailwind components, layouts, motion, design styles.
-- [sources/getlayers/INDEX.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/sources/getlayers/INDEX.md): 62 items — Whole-page and hero templates with stack, tone and measured performance. Free prompts + metadata.
+- [sources/getlayers/INDEX.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/sources/getlayers/INDEX.md): 892 items — Five libraries — templates, 3D scenes, sections, backgrounds, gradients — with stack, tone and measured performance. Free prompts + metadata.
 
 ## What each item is
 
@@ -24,7 +24,7 @@
 - motionsites: whole-section brief (free prompts only).
 - threeui: catalogue brief — title, runtime, live URL, preview. No component source.
 - codefronts: ready-to-paste prompt containing the component's HTML/CSS/JS.
-- getlayers: template brief — art direction, stack, frame timings, Lighthouse; free prompts verbatim.
+- getlayers: five libraries — template, 3D scene, section, background, gradient — art direction, variants, frame timings, Lighthouse; free prompts verbatim.
 
 ## Rules
 

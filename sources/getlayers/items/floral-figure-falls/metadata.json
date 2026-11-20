@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:36Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "floral-figure-falls",
+  "title": "Floral Figure Falls",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark. Legal for purchase only on getlayers.ai — getlayers.ai/layer/floral-figure-falls",
+  "image": "https://storage.getlayers.ai/backgrounds/floral-figure-falls-cd0f226e28.webp",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "blossoms",
+   "character",
+   "dark",
+   "fairytale",
+   "falls",
+   "ferns",
+   "figure",
+   "floral",
+   "form",
+   "human",
+   "leaves",
+   "made",
+   "misty",
+   "moss",
+   "nature",
+   "pastel",
+   "pine",
+   "pink",
+   "sky",
+   "stands",
+   "taking",
+   "valley",
+   "waterfall",
+   "waterfalls"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "floral-figure-falls.webp": "313952 bytes"
+ }
+}

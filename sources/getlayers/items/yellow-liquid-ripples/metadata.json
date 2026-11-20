@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:45:56Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "yellow-liquid-ripples",
+  "title": "Yellow Liquid Ripples",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/yellow-liquid-ripples-f6533fdaef.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/yellow-liquid-ripples-f6533fdaef.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/yellow-liquid-ripples-f6533fdaef-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "bright",
+   "butter",
+   "cream",
+   "downward",
+   "drip",
+   "flames",
+   "glass",
+   "ground",
+   "halftone",
+   "like",
+   "liquid",
+   "melting",
+   "print",
+   "retro",
+   "ripple",
+   "ripples",
+   "streaks",
+   "sun",
+   "sunny",
+   "yellow"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "yellow-liquid-ripples.webp": "543762 bytes"
+ }
+}

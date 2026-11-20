@@ -1,0 +1,284 @@
+{
+ "fetchedAt": "2026-11-20T15:44:55Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "soap-bubble",
+  "title": "Soap Bubble",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Clear soap bubbles drift through a dark studio with faint marbled rainbow films and bright rims; blow on them with the cursor, click to pop one into mist. Legal for purchase only on getlayers.ai — getlayers.ai/layer/soap-bubble",
+  "image": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "fluid-iridescent"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "luxe",
+   "playful"
+  ],
+  "keywords": [
+   "blow",
+   "bright",
+   "bubble",
+   "bubbles",
+   "calm",
+   "clean",
+   "clear",
+   "click",
+   "click-pop",
+   "cursor",
+   "dark",
+   "depth-of-field",
+   "drift",
+   "droplets",
+   "faint",
+   "films",
+   "float",
+   "fluid",
+   "foam",
+   "fragment-shader",
+   "fresnel",
+   "glass",
+   "interactive",
+   "interference",
+   "iridescence",
+   "iridescent",
+   "kids",
+   "macro",
+   "marbled",
+   "mist",
+   "navy",
+   "particles",
+   "physics",
+   "playful",
+   "pointer-blow",
+   "pop",
+   "rainbow",
+   "rims",
+   "soap",
+   "soap bubble",
+   "studio",
+   "thin film",
+   "thin-film-interference",
+   "threejs",
+   "transparent"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "soap-bubble",
+    "groupId": "soap-bubble",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "backdrop": "#060b15",
+     "keyColor": "#fff1e0",
+     "fillColor": "#cfd8ea",
+     "floorColor": "#3a2a1e",
+     "ambientColor": "#140f1c",
+     "backdropPool": "#1d3552",
+     "dropletColor": "#fff6ea",
+     "surroundColor": "#c9d8ff"
+    },
+    "ramp": [
+     "#060b15",
+     "#1d3552",
+     "#fff1e0",
+     "#c9d8ff",
+     "#3a2a1e",
+     "#cfd8ea",
+     "#140f1c",
+     "#fff6ea"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4.webp"
+   },
+   {
+    "id": "soap-bubble-001",
+    "groupId": "soap-bubble",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "backdrop": "#020203",
+     "keyColor": "#ffffff",
+     "fillColor": "#e4e6ee",
+     "floorColor": "#1a1a1c",
+     "ambientColor": "#0a0a0e",
+     "backdropPool": "#16161c",
+     "dropletColor": "#fff6ea",
+     "surroundColor": "#f4f6ff"
+    },
+    "ramp": [
+     "#020203",
+     "#16161c",
+     "#ffffff",
+     "#f4f6ff",
+     "#1a1a1c",
+     "#e4e6ee",
+     "#0a0a0e",
+     "#fff6ea"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/9e90656c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/9e90656c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/9e90656c.webp"
+   },
+   {
+    "id": "soap-bubble-002",
+    "groupId": "soap-bubble",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "backdrop": "#1a0e06",
+     "keyColor": "#ffd8a0",
+     "fillColor": "#ffe0c0",
+     "floorColor": "#4a2a14",
+     "ambientColor": "#1a1008",
+     "backdropPool": "#6a3a14",
+     "dropletColor": "#ffe8c8",
+     "surroundColor": "#ffc890"
+    },
+    "ramp": [
+     "#1a0e06",
+     "#6a3a14",
+     "#ffd8a0",
+     "#ffc890",
+     "#4a2a14",
+     "#ffe0c0",
+     "#1a1008",
+     "#ffe8c8"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/68b7ba86-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/68b7ba86.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/68b7ba86.webp"
+   },
+   {
+    "id": "soap-bubble-003",
+    "groupId": "soap-bubble",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "backdrop": "#021414",
+     "keyColor": "#e8fff8",
+     "fillColor": "#c8f0ec",
+     "floorColor": "#0a2a26",
+     "ambientColor": "#061414",
+     "backdropPool": "#0e4a4a",
+     "dropletColor": "#e8fffa",
+     "surroundColor": "#a0fff0"
+    },
+    "ramp": [
+     "#021414",
+     "#0e4a4a",
+     "#e8fff8",
+     "#a0fff0",
+     "#0a2a26",
+     "#c8f0ec",
+     "#061414",
+     "#e8fffa"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/7c534358-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/7c534358.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/7c534358.webp"
+   },
+   {
+    "id": "soap-bubble-004",
+    "groupId": "soap-bubble",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "backdrop": "#1a0a14",
+     "keyColor": "#ffd8e0",
+     "fillColor": "#f0d0e8",
+     "floorColor": "#3a1a28",
+     "ambientColor": "#1a0a14",
+     "backdropPool": "#5a2a44",
+     "dropletColor": "#ffe8f0",
+     "surroundColor": "#ffb0d0"
+    },
+    "ramp": [
+     "#1a0a14",
+     "#5a2a44",
+     "#ffd8e0",
+     "#ffb0d0",
+     "#3a1a28",
+     "#f0d0e8",
+     "#1a0a14",
+     "#ffe8f0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/3069fdbf-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/3069fdbf.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/3069fdbf.webp"
+   },
+   {
+    "id": "soap-bubble-005",
+    "groupId": "soap-bubble",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "backdrop": "#2e4c6a",
+     "keyColor": "#ffffff",
+     "fillColor": "#dce8f6",
+     "floorColor": "#4a5a6a",
+     "ambientColor": "#1a2a3a",
+     "backdropPool": "#86aacc",
+     "dropletColor": "#fff6ea",
+     "surroundColor": "#e8f2ff"
+    },
+    "ramp": [
+     "#2e4c6a",
+     "#86aacc",
+     "#ffffff",
+     "#e8f2ff",
+     "#4a5a6a",
+     "#dce8f6",
+     "#1a2a3a",
+     "#fff6ea"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/292f99d2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/292f99d2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/soap-bubble-d996581fc4/292f99d2.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "soap-bubble.webp": "60002 bytes"
+ }
+}

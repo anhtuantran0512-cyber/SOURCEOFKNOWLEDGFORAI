@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:36Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "frost-silk-drift",
+  "title": "Frost Silk Drift",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/frost-silk-drift",
+  "image": "https://storage.getlayers.ai/backgrounds/frost-silk-drift-cab4edc8d4.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/frost-silk-drift-cab4edc8d4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/frost-silk-drift-cab4edc8d4-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "blue",
+   "coloured",
+   "dawn",
+   "drift",
+   "folds",
+   "frame",
+   "frost",
+   "frozen",
+   "glass",
+   "glides",
+   "ice",
+   "icy",
+   "long",
+   "pale",
+   "sand",
+   "satin",
+   "sea",
+   "silk",
+   "slow",
+   "soft",
+   "translucent",
+   "wind"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "frost-silk-drift.webp": "79808 bytes"
+ }
+}

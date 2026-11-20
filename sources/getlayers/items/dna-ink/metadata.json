@@ -1,0 +1,208 @@
+{
+ "fetchedAt": "2026-11-20T15:44:29Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "dna-ink",
+  "title": "DNA Ink",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A violet double helix bleeding ink into still water, plumes drifting and thinning across white paper.",
+  "image": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6-preview.mp4",
+  "likes": 71,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic",
+   "technical"
+  ],
+  "keywords": [
+   "across",
+   "biotech",
+   "bleeding",
+   "diffusion",
+   "dna",
+   "double",
+   "drifting",
+   "dye",
+   "genetics",
+   "genome",
+   "helix",
+   "ink",
+   "laboratory",
+   "molecular",
+   "paper",
+   "particles",
+   "plume",
+   "plumes",
+   "poster",
+   "science",
+   "still",
+   "strand",
+   "thinning",
+   "violet",
+   "water",
+   "white"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "dna-ink",
+    "groupId": "dna-ink",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "inkMid": "#8f5fe0",
+     "bgColor": "#ffffff",
+     "inkCore": "#6a24be",
+     "inkEdge": "#c9b4f2",
+     "atmoColor": "#c3aef0",
+     "flameColor": "#7b3ff2",
+     "flameColor2": "#c79bff",
+     "helixColorA": "#7a34c8",
+     "helixColorB": "#5400f0"
+    },
+    "ramp": [
+     "#ffffff",
+     "#7b3ff2",
+     "#c79bff",
+     "#c3aef0",
+     "#7a34c8",
+     "#5400f0",
+     "#6a24be",
+     "#8f5fe0",
+     "#c9b4f2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6.webp"
+   },
+   {
+    "id": "dna-ink-001",
+    "groupId": "dna-ink",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "inkMid": "#8b8ee5",
+     "bgColor": "#0b152c",
+     "inkCore": "#636ce0",
+     "inkEdge": "#b1b1eb",
+     "atmoColor": "#1c34a1",
+     "flameColor": "#132352",
+     "flameColor2": "#182d79",
+     "helixColorA": "#1e38cb",
+     "helixColorB": "#3a4cdd"
+    },
+    "ramp": [
+     "#0b152c",
+     "#132352",
+     "#182d79",
+     "#1c34a1",
+     "#1e38cb",
+     "#3a4cdd",
+     "#636ce0",
+     "#8b8ee5",
+     "#b1b1eb"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6/482f29db-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6/482f29db.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6/482f29db.webp"
+   },
+   {
+    "id": "dna-ink-002",
+    "groupId": "dna-ink",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "inkMid": "#99696c",
+     "bgColor": "#e6e0db",
+     "inkCore": "#a57878",
+     "inkEdge": "#885e65",
+     "atmoColor": "#c7afa8",
+     "flameColor": "#dbd1ca",
+     "flameColor2": "#d1c1b9",
+     "helixColorA": "#bd9d96",
+     "helixColorB": "#b18a87"
+    },
+    "ramp": [
+     "#e6e0db",
+     "#dbd1ca",
+     "#d1c1b9",
+     "#c7afa8",
+     "#bd9d96",
+     "#b18a87",
+     "#a57878",
+     "#99696c",
+     "#885e65"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6/cfb65792-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6/cfb65792.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6/cfb65792.webp"
+   },
+   {
+    "id": "dna-ink-003",
+    "groupId": "dna-ink",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "inkMid": "#cdc494",
+     "bgColor": "#211b10",
+     "inkCore": "#c1b374",
+     "inkEdge": "#dad4b3",
+     "atmoColor": "#7e6b35",
+     "flameColor": "#3f351d",
+     "flameColor2": "#5e4f2a",
+     "helixColorA": "#9f8940",
+     "helixColorB": "#b7a254"
+    },
+    "ramp": [
+     "#211b10",
+     "#3f351d",
+     "#5e4f2a",
+     "#7e6b35",
+     "#9f8940",
+     "#b7a254",
+     "#c1b374",
+     "#cdc494",
+     "#dad4b3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6/6a7efdde-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6/6a7efdde.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/dna-ink-3aed3b59a6/6a7efdde.webp"
+   }
+  ],
+  "variantCount": 4
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "dna-ink.webp": "136084 bytes"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "fetchedAt": "2026-11-20T15:45:02Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "headline-gallery",
+  "title": "Headline Gallery",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A towering cobalt headline with tilted polaroids tucked between its words and a slow-turning interior banner below. Legal for purchase only on getlayers.ai — getlayers.ai/layer/headline-gallery",
+  "image": "https://storage.getlayers.ai/sections/headline-gallery-e78b915c1f.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/headline-gallery-e78b915c1f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/headline-gallery-e78b915c1f-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/headline-gallery-e78b915c1f-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/headline-gallery-e78b915c1f-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/headline-gallery-e78b915c1f-figma.webp",
+  "hasFigma": true,
+  "likes": 40,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "showcase"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "keywords": [
+   "about",
+   "about us",
+   "banner",
+   "below",
+   "big headline",
+   "brand studio",
+   "cobalt",
+   "company story",
+   "condensed type",
+   "editorial",
+   "gallery",
+   "headline",
+   "hospitality",
+   "hotel",
+   "image slider",
+   "inline images",
+   "interior",
+   "photo collage",
+   "polaroid",
+   "polaroids",
+   "restaurant",
+   "showcase",
+   "slider",
+   "slow",
+   "tilted",
+   "towering",
+   "tucked",
+   "turning",
+   "words"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "headline-gallery.webp": "145242 bytes",
+  "headline-gallery-figma.webp": "186236 bytes"
+ }
+}

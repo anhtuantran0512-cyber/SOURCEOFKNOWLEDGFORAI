@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:45:55Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "planet-glass-body",
+  "title": "Planet Glass Body",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/planet-glass-body-ec8ba52b1f.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/planet-glass-body-ec8ba52b1f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/planet-glass-body-ec8ba52b1f-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "body",
+   "character",
+   "circled",
+   "clear",
+   "cosmic",
+   "crystal",
+   "figure",
+   "gems",
+   "glass",
+   "glow",
+   "glowing",
+   "halo",
+   "heart",
+   "human",
+   "made",
+   "planet",
+   "planets",
+   "ringed",
+   "saturn",
+   "solar",
+   "sun",
+   "system",
+   "tiny",
+   "universe",
+   "wears",
+   "within"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "planet-glass-body.webp": "137448 bytes"
+ }
+}

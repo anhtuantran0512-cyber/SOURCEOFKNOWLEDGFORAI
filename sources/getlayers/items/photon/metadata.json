@@ -1,0 +1,71 @@
+{
+ "fetchedAt": "2026-11-20T15:45:06Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "photon",
+  "title": "Photon",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Clean-energy pricing on deep forest green, with a lime plan card and faint streamlines weaving softly overhead. Legal for purchase only on getlayers.ai — getlayers.ai/layer/photon",
+  "image": "https://storage.getlayers.ai/sections/photon-7c7e0172b8.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/photon-7c7e0172b8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/photon-7c7e0172b8-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/photon-7c7e0172b8-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/photon-7c7e0172b8-mobile.mp4",
+  "likes": 14,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "billing switch",
+   "billing-toggle",
+   "card",
+   "clean",
+   "dark green",
+   "deep",
+   "energy",
+   "faint",
+   "forest",
+   "green",
+   "green energy",
+   "lime",
+   "monthly annual toggle",
+   "overhead",
+   "photon",
+   "plan",
+   "plans",
+   "pricing",
+   "pricing table",
+   "renewable",
+   "saas pricing",
+   "softly",
+   "streamlines",
+   "subscription",
+   "sustainability",
+   "tiers",
+   "weaving"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "photon.webp": "82344 bytes"
+ }
+}

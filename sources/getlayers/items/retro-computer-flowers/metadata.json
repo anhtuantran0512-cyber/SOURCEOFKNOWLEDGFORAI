@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:36Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "retro-computer-flowers",
+  "title": "Retro Computer Flowers",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/retro-computer-flowers-94a0a6e11b.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/retro-computer-flowers-94a0a6e11b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/retro-computer-flowers-94a0a6e11b-preview.mp4",
+  "likes": 3,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "1998",
+   "back",
+   "beige",
+   "buried",
+   "clouds",
+   "computer",
+   "cosmos",
+   "crt",
+   "daisies",
+   "field",
+   "flowers",
+   "gone",
+   "meadow",
+   "nature",
+   "nostalgia",
+   "object",
+   "office",
+   "pink",
+   "product",
+   "puffy",
+   "retro",
+   "sits",
+   "the",
+   "under"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "retro-computer-flowers.webp": "175924 bytes"
+ }
+}

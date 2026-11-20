@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:46:01Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "black-leather-glow",
+  "title": "Black Leather Glow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/black-leather-glow-cde2af5aed.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/black-leather-glow-cde2af5aed.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/black-leather-glow-cde2af5aed-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "across",
+   "black",
+   "broad",
+   "catches",
+   "expensive",
+   "field",
+   "fine",
+   "glass",
+   "glow",
+   "grain",
+   "hide",
+   "leather",
+   "light",
+   "lit",
+   "macro",
+   "material",
+   "middle",
+   "pebbling",
+   "restraint",
+   "sheen",
+   "soft",
+   "studio",
+   "texture",
+   "under"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "black-leather-glow.webp": "370090 bytes"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:54Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "chrome-spire-lagoon",
+  "title": "Chrome Spire Lagoon",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/chrome-spire-lagoon-f3347d9a0c.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/chrome-spire-lagoon-f3347d9a0c.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/chrome-spire-lagoon-f3347d9a0c-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "alien",
+   "bulbs",
+   "candy",
+   "chrome",
+   "city",
+   "coloured",
+   "lagoon",
+   "landscape",
+   "nature",
+   "noon",
+   "ornate",
+   "otherworld",
+   "pale",
+   "pink",
+   "reflect",
+   "reflection",
+   "rippling",
+   "silver",
+   "sky",
+   "spire",
+   "spires",
+   "topped",
+   "violet"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "chrome-spire-lagoon.webp": "233118 bytes"
+ }
+}

@@ -1,0 +1,266 @@
+{
+ "fetchedAt": "2026-11-20T15:44:28Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "contour-anatomy",
+  "title": "Contour Anatomy",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A human figure drawn entirely in topographic contour lines that slide across the body as it turns.",
+  "image": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6-preview.mp4",
+  "likes": 92,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "keywords": [
+   "across",
+   "anatomy",
+   "beautiful",
+   "biotech",
+   "body",
+   "contour",
+   "cyan",
+   "diagnostic",
+   "drawn",
+   "element",
+   "entirely",
+   "figure",
+   "glow",
+   "human",
+   "isoline",
+   "lines",
+   "made",
+   "map",
+   "mapping",
+   "medical",
+   "mesh",
+   "scan",
+   "silhouette",
+   "slide",
+   "that",
+   "topographic",
+   "topography",
+   "turns",
+   "wireframe"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "contour-anatomy",
+    "groupId": "contour-anatomy",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#01040a",
+     "bgGlow": "#0b3948",
+     "bgColor": "#000407",
+     "bgBottom": "#031019",
+     "farColor": "#17b4da",
+     "rimColor": "#2ad6f2",
+     "fillColor": "#082031",
+     "nearColor": "#f6ea3c"
+    },
+    "ramp": [
+     "#f6ea3c",
+     "#17b4da",
+     "#2ad6f2",
+     "#082031",
+     "#000407",
+     "#01040a",
+     "#031019",
+     "#0b3948"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6.webp"
+   },
+   {
+    "id": "contour-anatomy-001",
+    "groupId": "contour-anatomy",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#6357d9",
+     "bgGlow": "#beb5e9",
+     "bgColor": "#3229cf",
+     "bgBottom": "#9387e0",
+     "farColor": "#111542",
+     "rimColor": "#1a1d70",
+     "fillColor": "#2120a1",
+     "nearColor": "#060815"
+    },
+    "ramp": [
+     "#060815",
+     "#111542",
+     "#1a1d70",
+     "#2120a1",
+     "#3229cf",
+     "#6357d9",
+     "#9387e0",
+     "#beb5e9"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/5d0ce73c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/5d0ce73c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/5d0ce73c.webp"
+   },
+   {
+    "id": "contour-anatomy-002",
+    "groupId": "contour-anatomy",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#77c0ba",
+     "bgGlow": "#c5e1db",
+     "bgColor": "#4fb2b0",
+     "bgBottom": "#9fd0c8",
+     "farColor": "#1e383e",
+     "rimColor": "#2f5e65",
+     "fillColor": "#3e898d",
+     "nearColor": "#0d1619"
+    },
+    "ramp": [
+     "#0d1619",
+     "#1e383e",
+     "#2f5e65",
+     "#3e898d",
+     "#4fb2b0",
+     "#77c0ba",
+     "#9fd0c8",
+     "#c5e1db"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/7340deae-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/7340deae.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/7340deae.webp"
+   },
+   {
+    "id": "contour-anatomy-003",
+    "groupId": "contour-anatomy",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#9860de",
+     "bgGlow": "#d6beed",
+     "bgColor": "#752dda",
+     "bgBottom": "#b990e4",
+     "farColor": "#271350",
+     "rimColor": "#3e1a7f",
+     "fillColor": "#5820b1",
+     "nearColor": "#110923"
+    },
+    "ramp": [
+     "#110923",
+     "#271350",
+     "#3e1a7f",
+     "#5820b1",
+     "#752dda",
+     "#9860de",
+     "#b990e4",
+     "#d6beed"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/73fe8a65-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/73fe8a65.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/73fe8a65.webp"
+   },
+   {
+    "id": "contour-anatomy-004",
+    "groupId": "contour-anatomy",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#9b4034",
+     "bgGlow": "#522021",
+     "bgColor": "#c1553c",
+     "bgBottom": "#762f2b",
+     "farColor": "#dfbea8",
+     "rimColor": "#d59e84",
+     "fillColor": "#cd7a5e",
+     "nearColor": "#ead9cb"
+    },
+    "ramp": [
+     "#ead9cb",
+     "#dfbea8",
+     "#d59e84",
+     "#cd7a5e",
+     "#c1553c",
+     "#9b4034",
+     "#762f2b",
+     "#522021"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/09ed5341-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/09ed5341.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/09ed5341.webp"
+   },
+   {
+    "id": "contour-anatomy-005",
+    "groupId": "contour-anatomy",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#7d79e3",
+     "bgGlow": "#e5e3f7",
+     "bgColor": "#4141dc",
+     "bgBottom": "#b3afec",
+     "farColor": "#13184e",
+     "rimColor": "#1c2284",
+     "fillColor": "#2227bc",
+     "nearColor": "#070a1b"
+    },
+    "ramp": [
+     "#070a1b",
+     "#13184e",
+     "#1c2284",
+     "#2227bc",
+     "#4141dc",
+     "#7d79e3",
+     "#b3afec",
+     "#e5e3f7"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/9b2a76ef-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/9b2a76ef.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/contour-anatomy-abaf77cef6/9b2a76ef.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "contour-anatomy.webp": "53304 bytes"
+ }
+}

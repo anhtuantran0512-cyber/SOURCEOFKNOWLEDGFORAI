@@ -21,7 +21,7 @@ PRIORITY = [
     ("motionsites", 3, "Whole-section briefs and art direction. Free prompts only."),
     ("lucianlabs", 4, "Highest craft per element: MIT, working code, runnable demo."),
     ("codefronts", 5, "Breadth: 5,047 CSS/Tailwind components, layouts, motion, design styles."),
-    ("getlayers", 6, "Whole-page and hero templates with stack, tone and measured performance. Free prompts + metadata."),
+    ("getlayers", 6, "Five libraries — templates, 3D scenes, sections, backgrounds, gradients — with stack, tone and measured performance. Free prompts + metadata."),
 ]
 
 
@@ -170,34 +170,104 @@ def index_codefronts() -> None:
     write(SOURCES / "codefronts/INDEX.md", out)
 
 
+GETLAYERS_GROUPS = [
+    ("template", "Templates — full pages and heroes"),
+    ("3d_scene", "3D scenes — WebGL, particles, terrain"),
+    ("section", "Sections — one block, ready to place"),
+    ("background", "Backgrounds — animated and still backdrops"),
+    ("gradient", "Gradients — pure-WebGL looks"),
+]
+
+
 def index_getlayers() -> None:
     rows = load("getlayers")
     groups = defaultdict(list)
     for row in rows:
-        groups[row.get("layout") or "—"].append(row)
+        groups[row.get("category") or "—"].append(row)
     out = head(
         "GetLayers — index", len(rows), 6,
-        "Whole-page and hero templates with stack, tone and measured performance. Free prompts; premium stays locked.",
-        "\n`ITEM.md` carries the art direction, stack, frame timings and Lighthouse scores; "
+        "Five libraries of immersive web work: templates, 3D scenes, sections, backgrounds, gradients.",
+        "\n`ITEM.md` carries the art direction, stack, variants, frame timings and Lighthouse scores; "
         "`prompts/` holds the free prompts verbatim. Premium prompts are not in this archive.\n",
     )
-    out += "\n| Layout | Templates | Free |\n|---|---:|---:|\n"
-    for layout, items in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+    out += "\n| Library | Items | Free |\n|---|---:|---:|\n"
+    for key, label in GETLAYERS_GROUPS:
+        items = groups.get(key, [])
         free = sum(1 for row in items if row.get("tier") == "Free")
-        out += f"| {layout} | {len(items)} | {free} |\n"
-    for layout, items in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+        out += f"| {label.split(' — ')[0]} | {len(items)} | {free} |\n"
+    for key, label in GETLAYERS_GROUPS:
+        items = groups.get(key, [])
+        if not items:
+            continue
         out += (
-            f"\n## {layout} ({len(items)})\n\n"
-            "| Title | Industry | Tone | Tier | Likes | Brief |\n|---|---|---|---|---:|---|\n"
+            f"\n## {label} ({len(items)})\n\n"
+            "| Title | Tone | Tier | Likes | Brief |\n|---|---|---|---:|---|\n"
         )
         for row in sorted(items, key=lambda r: -(r.get("likes") or 0)):
             link = rel(row["path"], "getlayers")
-            industries = ", ".join(row.get("industries") or []) or "—"
             out += (
-                f"| {row['title']} | {industries} | {row.get('tone', '—')} | {row.get('tier', '—')} | "
+                f"| {row['title']} | {row.get('tone', '—')} | {row.get('tier', '—')} | "
                 f"{row.get('likes', 0)} | [`{link.split('/')[-2]}`]({link}) |\n"
             )
     write(SOURCES / "getlayers/INDEX.md", out)
+
+
+MEDIA_FIELDS = ("image", "posterVideo", "posterVideoPreview", "mockupDesktop", "mockupMobile", "figmaPreview")
+
+
+def index_getlayers_media() -> None:
+    """Complete media inventory — every published file, its size and its URL.
+
+    The bytes stay on the CDN: 10 GB does not belong in a git repository. This file
+    is the map, so nothing is missing and nothing has to be guessed.
+    """
+    sizes = json.loads((SOURCES / "getlayers" / "media-sizes.json").read_text(encoding="utf-8"))
+    seen: dict[str, tuple[str, str, str, int]] = {}
+    for key, _label in GETLAYERS_GROUPS:
+        items = json.loads((SOURCES / "getlayers" / "catalog" / f"{key}.json").read_text(encoding="utf-8"))
+        for item in items:
+            pairs = [(field, item.get(field)) for field in MEDIA_FIELDS]
+            for variant in item.get("variants") or []:
+                pairs += [(f"variant.{field}", variant.get(field)) for field in ("heroVideo", "previewVideo", "poster")]
+            for field, url in pairs:
+                if url and url not in seen:
+                    seen[url] = (key, item["id"], field, sizes.get(url, -1))
+    inventory = [(key, ident, field, url, size) for url, (key, ident, field, size) in seen.items()]
+    total = sum(max(size, 0) for *_, size in inventory)
+    unknown = sum(1 for *_, size in inventory if size < 0)
+    out = (
+        "# GetLayers — media inventory\n\n"
+        "> Auto-generated from `catalog/*.json` and `media-sizes.json` — do not edit by hand, run "
+        "`scripts/build_source_indexes.py`.\n"
+        f"> **{len(inventory):,} files · {total / 1e9:.1f} GB** — measured with a `HEAD` request on "
+        "2026-11-20.\n\n"
+        f"The media is **not committed**: at {total / 1e9:.1f} GB it is far past GitHub's 100 MB per-file "
+        "and 5 GB per-repository limits, and a clone would take hours. Every file stays on GetLayers' CDN; this "
+        "inventory lists each unique file once, with its size, so a reader can fetch exactly what a "
+        "project needs:\n\n"
+        "```bash\n"
+        "curl -O <url>                                     # one file\n"
+        "python3 scripts/fetch_getlayers.py --media video  # mockups + preview clips\n"
+        "python3 scripts/fetch_getlayers.py --media all    # + hero video and Lighthouse HTML\n"
+        "```\n\n"
+        "The poster stills for all 892 items *are* committed, in `assets/`.\n"
+    )
+    out += "\n| Library | Files | Size |\n|---|---:|---:|\n"
+    for key, label in GETLAYERS_GROUPS:
+        rows = [row for row in inventory if row[0] == key]
+        out += f"| {label.split(' — ')[0]} | {len(rows)} | {sum(max(row[4], 0) for row in rows) / 1e9:.2f} GB |\n"
+    if unknown:
+        out += f"\n_{unknown} files reported no `Content-Length`; counted as 0._\n"
+    for key, label in GETLAYERS_GROUPS:
+        rows = [row for row in inventory if row[0] == key]
+        if not rows:
+            continue
+        out += f"\n## {label} — {len(rows)} files, {sum(max(row[4], 0) for row in rows) / 1e9:.2f} GB\n\n"
+        out += "| Item | Field | Size | URL |\n|---|---|---:|---|\n"
+        for _key, ident, field, url, size in rows:
+            shown = f"{size / 1e6:.1f} MB" if size >= 0 else "—"
+            out += f"| `{ident}` | `{field}` | {shown} | {url} |\n"
+    write(SOURCES / "getlayers/MEDIA.md", out)
 
 
 def write_hub(counts: dict[str, int]) -> None:
@@ -257,7 +327,8 @@ def write_llms_txt(counts: dict[str, int]) -> None:
         "- motionsites: whole-section brief (free prompts only).\n"
         "- threeui: catalogue brief — title, runtime, live URL, preview. No component source.\n"
         "- codefronts: ready-to-paste prompt containing the component's HTML/CSS/JS.\n"
-        "- getlayers: template brief — art direction, stack, frame timings, Lighthouse; free prompts verbatim.\n\n"
+        "- getlayers: five libraries — template, 3D scene, section, background, gradient — art direction, "
+        "variants, frame timings, Lighthouse; free prompts verbatim.\n\n"
         "## Rules\n\n"
         "- Query every folder before choosing; record `## Source coverage (100%)` in the brief.\n"
         "- Keep license headers (MIT comments, `Source:` lines).\n"
@@ -279,6 +350,7 @@ def main() -> int:
         index_lucianlabs,
         index_codefronts,
         index_getlayers,
+        index_getlayers_media,
     ]
     print("Generating source indexes…")
     for job in jobs:

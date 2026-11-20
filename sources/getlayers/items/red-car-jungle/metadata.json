@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:46:34Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "red-car-jungle",
+  "title": "Red Car Jungle",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/red-car-jungle",
+  "image": "https://storage.getlayers.ai/backgrounds/red-car-jungle-c1ab9ead96.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/red-car-jungle-c1ab9ead96.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/red-car-jungle-c1ab9ead96-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "among",
+   "beams",
+   "broad",
+   "car",
+   "classic",
+   "ferns",
+   "garage",
+   "green",
+   "hangs",
+   "jungle",
+   "leaves",
+   "light",
+   "moss",
+   "mossy",
+   "nature",
+   "object",
+   "overgrown",
+   "product",
+   "reclaimed",
+   "red",
+   "ruin",
+   "sunbeams",
+   "suspended",
+   "vintage",
+   "wrecked"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "red-car-jungle.webp": "277824 bytes"
+ }
+}

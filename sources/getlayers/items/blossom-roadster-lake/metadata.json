@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:46:37Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blossom-roadster-lake",
+  "title": "Blossom Roadster Lake",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/blossom-roadster-lake",
+  "image": "https://storage.getlayers.ai/backgrounds/blossom-roadster-lake-c42a7e7940.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blossom-roadster-lake-c42a7e7940.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blossom-roadster-lake-c42a7e7940-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "around",
+   "beside",
+   "blossom",
+   "blossoms",
+   "car",
+   "cream",
+   "dreamy",
+   "drive",
+   "dusk",
+   "frost",
+   "frosty",
+   "glows",
+   "grass",
+   "lake",
+   "lavender",
+   "object",
+   "pastel",
+   "piled",
+   "product",
+   "reflection",
+   "roadster",
+   "romance",
+   "still",
+   "twilight",
+   "winter"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blossom-roadster-lake.webp": "138618 bytes"
+ }
+}

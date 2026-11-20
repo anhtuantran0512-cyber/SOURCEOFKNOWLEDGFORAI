@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:42Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "orange-blur-ribbon",
+  "title": "Orange Blur Ribbon",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/orange-blur-ribbon-80ea021aa5.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/orange-blur-ribbon-80ea021aa5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/orange-blur-ribbon-80ea021aa5-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "almost",
+   "blur",
+   "curve",
+   "curves",
+   "edges",
+   "else",
+   "enough",
+   "field",
+   "gesture",
+   "glass",
+   "have",
+   "ink",
+   "milk",
+   "minimal",
+   "nothing",
+   "one",
+   "orange",
+   "ribbon",
+   "single",
+   "soft",
+   "through",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "orange-blur-ribbon.webp": "19024 bytes"
+ }
+}

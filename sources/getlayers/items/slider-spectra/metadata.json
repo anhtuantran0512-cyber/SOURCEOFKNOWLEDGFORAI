@@ -1,0 +1,69 @@
+{
+ "fetchedAt": "2026-11-20T15:45:04Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "slider-spectra",
+  "title": "Slider Spectra",
+  "category": "section",
+  "tags": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An immersive coverflow eyewear slider on a dark stage where the centre card lifts and casts a colored halo keyed to its own hue — it autoplays, and drag, swipe or arrow-keys spin the fan onward.",
+  "image": "https://storage.getlayers.ai/sections/slider-spectra.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/slider-spectra.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/slider-spectra-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/slider-spectra-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 32,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "carousel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "playful"
+  ],
+  "keywords": [
+   "carousel",
+   "coverflow",
+   "slider",
+   "eyewear",
+   "spectra",
+   "fan",
+   "cards",
+   "near",
+   "black",
+   "stage",
+   "centre",
+   "card",
+   "standing",
+   "bright",
+   "casting",
+   "halo",
+   "keyed",
+   "own",
+   "hue"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "slider-spectra.webp": "37370 bytes"
+ }
+}

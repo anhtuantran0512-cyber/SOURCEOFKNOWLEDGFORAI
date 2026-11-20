@@ -1,0 +1,81 @@
+{
+ "fetchedAt": "2026-11-20T15:45:01Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "curve-reel",
+  "title": "Curve Reel",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A looping reel of product cards bending around you on soft sage, slowing to bring the one you hover forward. Legal for purchase only on getlayers.ai — getlayers.ai/layer/curve-reel",
+  "image": "https://storage.getlayers.ai/sections/curve-reel-3dce10a7d9.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/curve-reel-3dce10a7d9.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/curve-reel-3dce10a7d9-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/curve-reel-3dce10a7d9-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/curve-reel-3dce10a7d9-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/curve-reel-3dce10a7d9-figma.webp",
+  "hasFigma": true,
+  "likes": 52,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "showcase"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "playful"
+  ],
+  "keywords": [
+   "3d card band",
+   "around",
+   "bending",
+   "bring",
+   "cards",
+   "carousel",
+   "concave",
+   "concave reel",
+   "curve",
+   "curved carousel",
+   "custom cursor",
+   "drag to spin",
+   "forward",
+   "hover",
+   "infinite loop",
+   "key features",
+   "looping",
+   "packaging",
+   "packaging studio",
+   "portfolio",
+   "portfolio showcase",
+   "product",
+   "product cards",
+   "project reel",
+   "reel",
+   "sage",
+   "showcase",
+   "slowing",
+   "soft",
+   "webgl",
+   "webgl carousel",
+   "work gallery"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "curve-reel.webp": "52188 bytes",
+  "curve-reel-figma.webp": "87716 bytes"
+ }
+}

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:24:53Z",
+ "fetchedAt": "2026-11-20T15:42:49Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "ridgeline",
@@ -803,7 +803,7 @@
   "status": "premium"
  },
  "files": {
-  "ridgeline.webp": "96540 bytes",
-  "ridgeline-figma.webp": "239940 bytes"
+  "ridgeline.webp": "cached",
+  "ridgeline-figma.webp": "cached"
  }
 }

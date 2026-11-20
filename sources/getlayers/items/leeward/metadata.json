@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:26:30Z",
+ "fetchedAt": "2026-11-20T15:44:16Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "leeward",
@@ -597,7 +597,7 @@
   "status": "premium"
  },
  "files": {
-  "leeward.webp": "180502 bytes",
-  "leeward-figma.webp": "254230 bytes"
+  "leeward.webp": "cached",
+  "leeward-figma.webp": "cached"
  }
 }

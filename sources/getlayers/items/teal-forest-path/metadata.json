@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:55Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "teal-forest-path",
+  "title": "Teal Forest Path",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/teal-forest-path-0b91e44821.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/teal-forest-path-0b91e44821.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/teal-forest-path-0b91e44821-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "enchanted",
+   "fantasy",
+   "forest",
+   "glowing",
+   "landscape",
+   "magic",
+   "mist",
+   "moss",
+   "mossy",
+   "nature",
+   "path",
+   "somewhere",
+   "steps",
+   "stone",
+   "storybook",
+   "teal",
+   "trees",
+   "twisted",
+   "way",
+   "wildflowers",
+   "wind",
+   "woodland"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "teal-forest-path.webp": "186364 bytes"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:47Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lilac-silk-lake",
+  "title": "Lilac Silk Lake",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/lilac-silk-lake",
+  "image": "https://storage.getlayers.ai/backgrounds/lilac-silk-lake-8984e13f21.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lilac-silk-lake-8984e13f21.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lilac-silk-lake-8984e13f21-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "billows",
+   "dark",
+   "dotted",
+   "dreamy",
+   "floating",
+   "frost",
+   "frosted",
+   "frozen",
+   "glass",
+   "iridescent",
+   "lagoon",
+   "lake",
+   "lilac",
+   "morning",
+   "pastel",
+   "reflection",
+   "silk",
+   "stones",
+   "translucent",
+   "veil",
+   "winter"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lilac-silk-lake.webp": "206000 bytes"
+ }
+}

@@ -1,0 +1,227 @@
+{
+ "fetchedAt": "2026-11-20T15:44:54Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "vega-funnel",
+  "title": "Vega Funnel",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An op-art checkerboard sheet folded into an hourglass and drawn down into a glowing throat.",
+  "image": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "vortex-tunnel"
+  ],
+  "tone": "light",
+  "mood": [
+   "brutal",
+   "playful"
+  ],
+  "keywords": [
+   "art",
+   "canvas-texture",
+   "checker",
+   "checkerboard",
+   "down",
+   "drawn",
+   "folded",
+   "funnel",
+   "glowing",
+   "hourglass",
+   "illusion",
+   "interactive",
+   "monochrome",
+   "op-art",
+   "opart",
+   "optical",
+   "particles",
+   "shader",
+   "sheet",
+   "threejs",
+   "throat",
+   "tunnel",
+   "vega",
+   "vortex",
+   "warp"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "vega-funnel",
+    "groupId": "vega-funnel",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colDark": "#0a0a0a",
+     "colDeep": "#0a0a0a",
+     "colGlow": "#efeae0",
+     "colLight": "#efeae0",
+     "colPaper": "#e6e0d3"
+    },
+    "ramp": [
+     "#efeae0",
+     "#e6e0d3",
+     "#0a0a0a",
+     "#0a0a0a",
+     "#efeae0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba.webp"
+   },
+   {
+    "id": "vega-funnel-001",
+    "groupId": "vega-funnel",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colDark": "#dbb544",
+     "colDeep": "#a97829",
+     "colGlow": "#67421f",
+     "colLight": "#eeefc9",
+     "colPaper": "#e2d889"
+    },
+    "ramp": [
+     "#eeefc9",
+     "#e2d889",
+     "#dbb544",
+     "#a97829",
+     "#67421f"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/8b226159-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/8b226159.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/8b226159.webp"
+   },
+   {
+    "id": "vega-funnel-002",
+    "groupId": "vega-funnel",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colDark": "#b456e2",
+     "colDeep": "#822ecd",
+     "colGlow": "#522995",
+     "colLight": "#edc3ee",
+     "colPaper": "#d68fe6"
+    },
+    "ramp": [
+     "#edc3ee",
+     "#d68fe6",
+     "#b456e2",
+     "#822ecd",
+     "#522995"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/5910be3f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/5910be3f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/5910be3f.webp"
+   },
+   {
+    "id": "vega-funnel-003",
+    "groupId": "vega-funnel",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colDark": "#b837ac",
+     "colDeep": "#d27dc0",
+     "colGlow": "#e9c7dd",
+     "colLight": "#1d0d21",
+     "colPaper": "#67256a"
+    },
+    "ramp": [
+     "#1d0d21",
+     "#67256a",
+     "#b837ac",
+     "#d27dc0",
+     "#e9c7dd"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/73f5350f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/73f5350f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/73f5350f.webp"
+   },
+   {
+    "id": "vega-funnel-004",
+    "groupId": "vega-funnel",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colDark": "#2db7c6",
+     "colDeep": "#82c9dc",
+     "colGlow": "#d8e9f2",
+     "colLight": "#071513",
+     "colPaper": "#1d6a69"
+    },
+    "ramp": [
+     "#071513",
+     "#1d6a69",
+     "#2db7c6",
+     "#82c9dc",
+     "#d8e9f2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/624f39f6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/624f39f6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/624f39f6.webp"
+   },
+   {
+    "id": "vega-funnel-005",
+    "groupId": "vega-funnel",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colDark": "#44a747",
+     "colDeep": "#8dc988",
+     "colGlow": "#d5e8d0",
+     "colLight": "#0a140d",
+     "colPaper": "#295b31"
+    },
+    "ramp": [
+     "#0a140d",
+     "#295b31",
+     "#44a747",
+     "#8dc988",
+     "#d5e8d0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/b01fedba-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/b01fedba.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vega-funnel-06eb1f56ba/b01fedba.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "vega-funnel.webp": "114192 bytes"
+ }
+}

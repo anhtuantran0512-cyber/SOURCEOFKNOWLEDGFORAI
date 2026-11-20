@@ -50,7 +50,7 @@ Full reports:
 
 **Premium — not collected.** The copy-prompt action answers
 `{"_apiError":{"code":"forbidden","message":"Upgrade to access this prompt."}}`
-for this template. This archive does not bypass, guess or reconstruct it:
+for this item. This archive does not bypass, guess or reconstruct it:
 buy or preview the prompt at https://www.getlayers.ai/layer/prisma.
 
 ## Public assets

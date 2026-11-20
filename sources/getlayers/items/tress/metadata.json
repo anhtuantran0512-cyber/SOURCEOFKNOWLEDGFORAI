@@ -1,0 +1,790 @@
+{
+ "fetchedAt": "2026-11-20T15:47:14Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "tress",
+  "title": "Tress",
+  "description": "Noise combed along a flow field — the walk re-reads its direction at every step, so the strands curve.",
+  "nature": "flow",
+  "family": "liquid",
+  "tier": "Premium",
+  "likes": 40,
+  "createdAt": "2026-08-24",
+  "shaderHash": "97313b532dc9527f4d8203be5bae48bf",
+  "hues": [
+   "green",
+   "red",
+   "magenta",
+   "teal",
+   "amber",
+   "orange",
+   "pink",
+   "violet",
+   "blue",
+   "indigo"
+  ],
+  "variantCount": 26,
+  "variants": [
+   {
+    "id": "tress",
+    "groupId": "tress",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#456826",
+     "colorB": "#68bc3a",
+     "colorC": "#9cd489",
+     "colorD": "#daedd6",
+     "bgColor": "#151b0c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-22",
+    "likes": 40,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb.webp"
+   },
+   {
+    "id": "tress-001",
+    "groupId": "tress",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#23150f",
+     "colorB": "#f06129",
+     "colorC": "#266eb0",
+     "colorD": "#f8e8ea",
+     "bgColor": "#0c0705"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/80e75d5b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/80e75d5b.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/80e75d5b.webp"
+   },
+   {
+    "id": "tress-002",
+    "groupId": "tress",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0a0b28",
+     "colorB": "#f74b2f",
+     "colorC": "#272fc7",
+     "colorD": "#fcf2f0",
+     "bgColor": "#06060c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "magenta",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/61a10664-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/61a10664.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/61a10664.webp"
+   },
+   {
+    "id": "tress-003",
+    "groupId": "tress",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#a1dfdd",
+     "colorB": "#68d6d0",
+     "colorC": "#3fbdb3",
+     "colorD": "#35847d",
+     "bgColor": "#d5eeee"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/f9105d06-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/f9105d06.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/f9105d06.webp"
+   },
+   {
+    "id": "tress-004",
+    "groupId": "tress",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0d1931",
+     "colorB": "#fa9436",
+     "colorC": "#235ac5",
+     "colorD": "#fcf4e0",
+     "bgColor": "#050a13"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "magenta",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/1e36d6a0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/1e36d6a0.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/1e36d6a0.webp"
+   },
+   {
+    "id": "tress-005",
+    "groupId": "tress",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#1f0e13",
+     "colorB": "#e71c56",
+     "colorC": "#2778ab",
+     "colorD": "#faf0ee",
+     "bgColor": "#0c0608"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "magenta",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/8c096aa3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/8c096aa3.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/8c096aa3.webp"
+   },
+   {
+    "id": "tress-006",
+    "groupId": "tress",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0a2321",
+     "colorB": "#e2571f",
+     "colorC": "#2c8f8a",
+     "colorD": "#f0fffb",
+     "bgColor": "#04100f"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "amber",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/3ea47142-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/3ea47142.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/3ea47142.webp"
+   },
+   {
+    "id": "tress-007",
+    "groupId": "tress",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#220d05",
+     "colorB": "#ff7a1e",
+     "colorC": "#2d63c0",
+     "colorD": "#fff0d2",
+     "bgColor": "#0a0402"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/7429a9b6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/7429a9b6.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/7429a9b6.webp"
+   },
+   {
+    "id": "tress-008",
+    "groupId": "tress",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#34713e",
+     "colorB": "#56ba5c",
+     "colorC": "#a8d6a6",
+     "colorD": "#f2f8f1",
+     "bgColor": "#142618"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/7a4457b5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/7a4457b5.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/7a4457b5.webp"
+   },
+   {
+    "id": "tress-009",
+    "groupId": "tress",
+    "name": "009",
+    "sortOrder": 9,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0c1a23",
+     "colorB": "#e9a817",
+     "colorC": "#1a85d2",
+     "colorD": "#fbf8f2",
+     "bgColor": "#050a0d"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/ae80312c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/ae80312c.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/ae80312c.webp"
+   },
+   {
+    "id": "tress-010",
+    "groupId": "tress",
+    "name": "010",
+    "sortOrder": 10,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#d8b9ca",
+     "colorB": "#c895b1",
+     "colorC": "#b27796",
+     "colorD": "#985e7b",
+     "bgColor": "#e9dce4"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "magenta",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/c2ebd389-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/c2ebd389.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/c2ebd389.webp"
+   },
+   {
+    "id": "tress-011",
+    "groupId": "tress",
+    "name": "011",
+    "sortOrder": 11,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#221d19",
+     "colorB": "#c07a4a",
+     "colorC": "#4f7c8a",
+     "colorD": "#f4efe6",
+     "bgColor": "#0b0a09"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/b59f9550-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/b59f9550.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/b59f9550.webp"
+   },
+   {
+    "id": "tress-012",
+    "groupId": "tress",
+    "name": "012",
+    "sortOrder": 12,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#26090e",
+     "colorB": "#e8452a",
+     "colorC": "#1f6fa8",
+     "colorD": "#ffe6de",
+     "bgColor": "#0a0405"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/6d32c1ce-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/6d32c1ce.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/6d32c1ce.webp"
+   },
+   {
+    "id": "tress-013",
+    "groupId": "tress",
+    "name": "013",
+    "sortOrder": 13,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#151828",
+     "colorB": "#ee9139",
+     "colorC": "#223ad8",
+     "colorD": "#fdeae5",
+     "bgColor": "#06070f"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "magenta",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/343cb783-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/343cb783.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/343cb783.webp"
+   },
+   {
+    "id": "tress-014",
+    "groupId": "tress",
+    "name": "014",
+    "sortOrder": 14,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b1d11",
+     "colorB": "#ef7a12",
+     "colorC": "#1a26ed",
+     "colorD": "#faf0eb",
+     "bgColor": "#0f0a04"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "pink",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/951df905-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/951df905.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/951df905.webp"
+   },
+   {
+    "id": "tress-015",
+    "groupId": "tress",
+    "name": "015",
+    "sortOrder": 15,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0a161b",
+     "colorB": "#ee349d",
+     "colorC": "#39a1d0",
+     "colorD": "#fbe6f2",
+     "bgColor": "#050c10"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/a00f9aaf-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/a00f9aaf.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/a00f9aaf.webp"
+   },
+   {
+    "id": "tress-016",
+    "groupId": "tress",
+    "name": "016",
+    "sortOrder": 16,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e8e0d2",
+     "colorB": "#e8763a",
+     "colorC": "#3f74b8",
+     "colorD": "#fffdf8",
+     "bgColor": "#f6f2ea"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/c166f2a4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/c166f2a4.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/c166f2a4.webp"
+   },
+   {
+    "id": "tress-017",
+    "groupId": "tress",
+    "name": "017",
+    "sortOrder": 17,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#140f26",
+     "colorB": "#8f5ce0",
+     "colorC": "#3ad0c0",
+     "colorD": "#f0ecff",
+     "bgColor": "#06050d"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/81ad7037-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/81ad7037.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/81ad7037.webp"
+   },
+   {
+    "id": "tress-018",
+    "groupId": "tress",
+    "name": "018",
+    "sortOrder": 18,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0b1020",
+     "colorB": "#e0651b",
+     "colorC": "#1d5fb8",
+     "colorD": "#fff3e0",
+     "bgColor": "#05060a"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/56de9fd2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/56de9fd2.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/56de9fd2.webp"
+   },
+   {
+    "id": "tress-019",
+    "groupId": "tress",
+    "name": "019",
+    "sortOrder": 19,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#b6d2bd",
+     "colorB": "#7fb392",
+     "colorC": "#4d8a6c",
+     "colorD": "#2f5b48",
+     "bgColor": "#dfeae1"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/30c2b159-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/30c2b159.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/30c2b159.webp"
+   },
+   {
+    "id": "tress-020",
+    "groupId": "tress",
+    "name": "020",
+    "sortOrder": 20,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#5f623f",
+     "colorB": "#98a568",
+     "colorC": "#c2cbae",
+     "colorD": "#f3f5f1",
+     "bgColor": "#1f1e15"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "dark",
+    "saturation": "muted",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/dbafba47-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/dbafba47.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/dbafba47.webp"
+   },
+   {
+    "id": "tress-021",
+    "groupId": "tress",
+    "name": "021",
+    "sortOrder": 21,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#ded1b8",
+     "colorB": "#c0a271",
+     "colorC": "#8b7a52",
+     "colorD": "#514832",
+     "bgColor": "#f0e9dc"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/bd6e2e30-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/bd6e2e30.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/bd6e2e30.webp"
+   },
+   {
+    "id": "tress-022",
+    "groupId": "tress",
+    "name": "022",
+    "sortOrder": 22,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e7dde2",
+     "colorB": "#ee3165",
+     "colorC": "#3c6ee1",
+     "colorD": "#fdf8fa",
+     "bgColor": "#f7f3f4"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/cfcab5b6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/cfcab5b6.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/cfcab5b6.webp"
+   },
+   {
+    "id": "tress-023",
+    "groupId": "tress",
+    "name": "023",
+    "sortOrder": 23,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#101a30",
+     "colorB": "#ed3d61",
+     "colorC": "#325bbc",
+     "colorD": "#fbe9e8",
+     "bgColor": "#050608"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/9f1221c6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/9f1221c6.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/9f1221c6.webp"
+   },
+   {
+    "id": "tress-024",
+    "groupId": "tress",
+    "name": "024",
+    "sortOrder": 24,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#d4dbe4",
+     "colorB": "#9fb2c6",
+     "colorC": "#6b8299",
+     "colorD": "#3c4c5e",
+     "bgColor": "#eef1f5"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/58939b30-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/58939b30.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/58939b30.webp"
+   },
+   {
+    "id": "tress-025",
+    "groupId": "tress",
+    "name": "025",
+    "sortOrder": 25,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0a1a2a",
+     "colorB": "#e07a2a",
+     "colorC": "#2fa2c8",
+     "colorD": "#f2fbff",
+     "bgColor": "#050b12"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/8beca9c1-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/8beca9c1.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tress-8ea63944fb/8beca9c1.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "tress.webp": "142460 bytes"
+ }
+}

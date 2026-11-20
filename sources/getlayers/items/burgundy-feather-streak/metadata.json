@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:45:56Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "burgundy-feather-streak",
+  "title": "Burgundy Feather Streak",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/burgundy-feather-streak-7931a42877.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/burgundy-feather-streak-7931a42877.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/burgundy-feather-streak-7931a42877-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "beat",
+   "blur",
+   "burgundy",
+   "caught",
+   "cream",
+   "diagonal",
+   "feather",
+   "glass",
+   "gold",
+   "ground",
+   "like",
+   "mid",
+   "moving",
+   "rush",
+   "strands",
+   "streak",
+   "warm",
+   "warmth",
+   "wing"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "burgundy-feather-streak.webp": "62014 bytes"
+ }
+}

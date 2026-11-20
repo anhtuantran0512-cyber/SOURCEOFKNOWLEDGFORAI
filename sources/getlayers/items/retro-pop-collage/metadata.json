@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:47:06Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "retro-pop-collage",
+  "title": "Retro Pop Collage",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/retro-pop-collage-14b8454faf.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/retro-pop-collage-14b8454faf.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/retro-pop-collage-14b8454faf-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "across",
+   "bedroom",
+   "bright",
+   "chrome",
+   "collage",
+   "emptied",
+   "glossy",
+   "grass",
+   "green",
+   "headphones",
+   "hearts",
+   "lawn",
+   "lettering",
+   "maximalist",
+   "object",
+   "onto",
+   "pop",
+   "product",
+   "records",
+   "retro",
+   "scatter",
+   "teenage",
+   "typography",
+   "y2k"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "retro-pop-collage.webp": "463196 bytes"
+ }
+}

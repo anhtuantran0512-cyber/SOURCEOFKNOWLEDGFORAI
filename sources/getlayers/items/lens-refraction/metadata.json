@@ -1,0 +1,92 @@
+{
+ "fetchedAt": "2026-11-20T15:44:48Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "lens-refraction",
+  "title": "Lens Refraction",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A heavy glass lens gliding across two quiet interiors, bending and splitting them as it passes.",
+  "image": "https://storage.getlayers.ai/3d_scenes/lens-refraction-10d7b32859.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/lens-refraction-10d7b32859.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/lens-refraction-10d7b32859-preview.mp4",
+  "likes": 10,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "across",
+   "bending",
+   "dispersion",
+   "element",
+   "glass",
+   "glb",
+   "gliding",
+   "heavy",
+   "interior",
+   "interiors",
+   "lens",
+   "magnify",
+   "model",
+   "parallax",
+   "passes",
+   "photographic",
+   "photos",
+   "pmndrs-port",
+   "quiet",
+   "refraction",
+   "shaders",
+   "splitting",
+   "them",
+   "threejs",
+   "transmission",
+   "transmission-glass"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "lens-refraction",
+    "groupId": "lens-refraction",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "lensColor": "#ffffff",
+     "attenuationColor": "#ffffff"
+    },
+    "ramp": [
+     "#ffffff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/lens-refraction-10d7b32859-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/lens-refraction-10d7b32859.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/lens-refraction-10d7b32859.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lens-refraction.webp": "126068 bytes"
+ }
+}

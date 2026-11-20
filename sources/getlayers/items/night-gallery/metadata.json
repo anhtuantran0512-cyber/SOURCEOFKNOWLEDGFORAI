@@ -1,0 +1,269 @@
+{
+ "fetchedAt": "2026-11-20T15:44:52Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "night-gallery",
+  "title": "Night Gallery",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A dark gallery corridor glides round a curve, warm cove light grazing the walls and glowing artworks mirrored in black wet floor as teal haze swallows the bend. Legal for purchase only on getlayers.ai — getlayers.ai/layer/night-gallery",
+  "image": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "vortex-tunnel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "art gallery",
+   "artworks",
+   "backlit",
+   "bend",
+   "black",
+   "canvas-textures",
+   "catmull-rom-track",
+   "cinematic",
+   "click-focus",
+   "concrete",
+   "corridor",
+   "cove",
+   "cove lighting",
+   "curve",
+   "custom-shaders",
+   "dark",
+   "endless",
+   "exhibition",
+   "far",
+   "fly through",
+   "flythrough",
+   "forever",
+   "frames",
+   "gallery",
+   "glides",
+   "gsap",
+   "hallway",
+   "haze",
+   "image-panels",
+   "infinite",
+   "light",
+   "light boxes",
+   "look",
+   "loop",
+   "mirror",
+   "mirroring",
+   "moody",
+   "museum",
+   "night",
+   "night gallery",
+   "paintings",
+   "pointer-look",
+   "reflection",
+   "round",
+   "swallowing",
+   "teal",
+   "terrazzo",
+   "threejs",
+   "tunnel",
+   "vortex",
+   "warm",
+   "warm light",
+   "wet",
+   "wet floor",
+   "wet-floor-reflection",
+   "works"
+  ],
+  "variants": [
+   {
+    "id": "night-gallery",
+    "groupId": "night-gallery",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "chipColor": "#c9b7a0",
+     "hazeColor": "#0b2131",
+     "wallColor": "#52473f",
+     "floorColor": "#16181d",
+     "frameColor": "#2a2724",
+     "lightColor": "#ffc58c"
+    },
+    "ramp": [
+     "#ffc58c",
+     "#0b2131",
+     "#52473f",
+     "#16181d",
+     "#c9b7a0",
+     "#2a2724"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3.webp"
+   },
+   {
+    "id": "night-gallery-001",
+    "groupId": "night-gallery",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "chipColor": "#e0e0e0",
+     "hazeColor": "#1a2026",
+     "wallColor": "#9a9c9e",
+     "floorColor": "#2a2c30",
+     "frameColor": "#2a2724",
+     "lightColor": "#e8f0ff"
+    },
+    "ramp": [
+     "#e8f0ff",
+     "#1a2026",
+     "#9a9c9e",
+     "#2a2c30",
+     "#e0e0e0",
+     "#2a2724"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/867b04fb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/867b04fb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/867b04fb.webp"
+   },
+   {
+    "id": "night-gallery-002",
+    "groupId": "night-gallery",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "chipColor": "#c9b7a0",
+     "hazeColor": "#1e0806",
+     "wallColor": "#5a1e1a",
+     "floorColor": "#1a0e0c",
+     "frameColor": "#a07a3a",
+     "lightColor": "#ffb070"
+    },
+    "ramp": [
+     "#ffb070",
+     "#1e0806",
+     "#5a1e1a",
+     "#1a0e0c",
+     "#c9b7a0",
+     "#a07a3a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/b4ea90b2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/b4ea90b2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/b4ea90b2.webp"
+   },
+   {
+    "id": "night-gallery-003",
+    "groupId": "night-gallery",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "chipColor": "#c9b7a0",
+     "hazeColor": "#06161a",
+     "wallColor": "#1e4a4a",
+     "floorColor": "#0c1416",
+     "frameColor": "#b08a50",
+     "lightColor": "#ffd8a0"
+    },
+    "ramp": [
+     "#ffd8a0",
+     "#06161a",
+     "#1e4a4a",
+     "#0c1416",
+     "#c9b7a0",
+     "#b08a50"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/0844341f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/0844341f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/0844341f.webp"
+   },
+   {
+    "id": "night-gallery-004",
+    "groupId": "night-gallery",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "chipColor": "#c9b7a0",
+     "hazeColor": "#2a0e3a",
+     "wallColor": "#1a1c3a",
+     "floorColor": "#06070e",
+     "frameColor": "#2a2724",
+     "lightColor": "#ff6ab8"
+    },
+    "ramp": [
+     "#ff6ab8",
+     "#2a0e3a",
+     "#1a1c3a",
+     "#06070e",
+     "#c9b7a0",
+     "#2a2724"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/f6f4d775-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/f6f4d775.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/f6f4d775.webp"
+   },
+   {
+    "id": "night-gallery-005",
+    "groupId": "night-gallery",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "chipColor": "#efe2cc",
+     "hazeColor": "#2a2420",
+     "wallColor": "#b09a80",
+     "floorColor": "#5a4a3a",
+     "frameColor": "#6a5a48",
+     "lightColor": "#ffe2c0"
+    },
+    "ramp": [
+     "#ffe2c0",
+     "#2a2420",
+     "#b09a80",
+     "#5a4a3a",
+     "#efe2cc",
+     "#6a5a48"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/cb45967b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/cb45967b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/night-gallery-522ca94bc3/cb45967b.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "night-gallery.webp": "63190 bytes"
+ }
+}

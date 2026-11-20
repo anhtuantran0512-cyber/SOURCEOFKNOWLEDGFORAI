@@ -1,0 +1,57 @@
+{
+ "fetchedAt": "2026-11-20T15:46:41Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "magenta-green-laser-star",
+  "title": "Magenta Green Laser Star",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/magenta-green-laser-star-e3232a06a7.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/magenta-green-laser-star-e3232a06a7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/magenta-green-laser-star-e3232a06a7-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "black",
+   "blades",
+   "bright",
+   "centre",
+   "club",
+   "fan",
+   "glass",
+   "green",
+   "laser",
+   "light",
+   "magenta",
+   "neon",
+   "pinwheel",
+   "show",
+   "spin",
+   "spinning",
+   "star",
+   "translucent"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "magenta-green-laser-star.webp": "338758 bytes"
+ }
+}

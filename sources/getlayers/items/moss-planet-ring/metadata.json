@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:46:34Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "moss-planet-ring",
+  "title": "Moss Planet Ring",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/moss-planet-ring",
+  "image": "https://storage.getlayers.ai/backgrounds/moss-planet-ring-8b6829b31b.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/moss-planet-ring-8b6829b31b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/moss-planet-ring-8b6829b31b-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "circled",
+   "floats",
+   "fronds",
+   "fuzzy",
+   "gold",
+   "golden",
+   "grass",
+   "grassy",
+   "green",
+   "hour",
+   "miniature",
+   "moss",
+   "object",
+   "palm",
+   "palms",
+   "pedestal",
+   "planet",
+   "product",
+   "ring",
+   "soft",
+   "stone",
+   "sunset",
+   "sway",
+   "tiny",
+   "world"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "moss-planet-ring.webp": "171412 bytes"
+ }
+}

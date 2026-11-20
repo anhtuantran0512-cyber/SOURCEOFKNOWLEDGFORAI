@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:22:51Z",
+ "fetchedAt": "2026-11-20T15:43:58Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "marcus-vane",
@@ -344,6 +344,6 @@
   "status": "rate_limited"
  },
  "files": {
-  "marcus-vane.webp": "59342 bytes"
+  "marcus-vane.webp": "cached"
  }
 }

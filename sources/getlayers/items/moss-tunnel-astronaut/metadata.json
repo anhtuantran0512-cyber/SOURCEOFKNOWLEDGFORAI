@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:46:42Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "moss-tunnel-astronaut",
+  "title": "Moss Tunnel Astronaut",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/moss-tunnel-astronaut-f8a8ed253d.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/moss-tunnel-astronaut-f8a8ed253d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/moss-tunnel-astronaut-f8a8ed253d-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "astronaut",
+   "blue",
+   "cave",
+   "character",
+   "drifting",
+   "escape",
+   "floating",
+   "floats",
+   "foliage",
+   "green",
+   "moss",
+   "mossy",
+   "mouth",
+   "onto",
+   "opens",
+   "pink",
+   "sea",
+   "sky",
+   "soft",
+   "suit",
+   "tunnel"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "moss-tunnel-astronaut.webp": "320658 bytes"
+ }
+}

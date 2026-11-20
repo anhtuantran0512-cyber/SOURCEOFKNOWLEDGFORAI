@@ -25,7 +25,7 @@ url: "https://www.getlayers.ai/layer/gravity-webgl"
 - Published: 2026-06-07 · likes: 131
 - Live page: https://www.getlayers.ai/layer/gravity-webgl
 - Preview still: [`assets/gravity-webgl.webp`](../../assets/gravity-webgl.webp)
-- Figma preview: _not published for this template_
+- Figma preview: _not published for this item_
 
 ## Measured performance
 

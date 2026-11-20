@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:45:49Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "magenta-flow-lines",
+  "title": "Magenta Flow Lines",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/magenta-flow-lines-e74b49dec4.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/magenta-flow-lines-e74b49dec4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/magenta-flow-lines-e74b49dec4-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "aubergine",
+   "crests",
+   "dark",
+   "embers",
+   "flow",
+   "folds",
+   "frame",
+   "glass",
+   "glow",
+   "glowing",
+   "light",
+   "lines",
+   "magenta",
+   "orange",
+   "ripple",
+   "satin",
+   "silk",
+   "traced",
+   "warm",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "magenta-flow-lines.webp": "85024 bytes"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:00Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "ivy-palace-portal",
+  "title": "Ivy Palace Portal",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/ivy-palace-portal-c3846fa6cf.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/ivy-palace-portal-c3846fa6cf.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/ivy-palace-portal-c3846fa6cf-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "architecture",
+   "bright",
+   "carved",
+   "cloud",
+   "daylight",
+   "doorway",
+   "filigree",
+   "frames",
+   "garden",
+   "grander",
+   "hung",
+   "ivy",
+   "landscape",
+   "nature",
+   "onto",
+   "opening",
+   "ornate",
+   "palace",
+   "portal",
+   "somewhere",
+   "standing",
+   "vast",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "ivy-palace-portal.webp": "285902 bytes"
+ }
+}

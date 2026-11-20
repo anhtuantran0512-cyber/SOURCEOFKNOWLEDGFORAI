@@ -1,0 +1,75 @@
+{
+ "fetchedAt": "2026-11-20T15:45:06Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "reverie",
+  "title": "Reverie",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A moody bento of filmic photo cards under soft grain — a quote, a crowd, a glowing orb and a bold community stat. Legal for purchase only on getlayers.ai — getlayers.ai/layer/reverie",
+  "image": "https://storage.getlayers.ai/sections/reverie-d0fbac24c4.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/reverie-d0fbac24c4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/reverie-d0fbac24c4-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/reverie-d0fbac24c4-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/reverie-d0fbac24c4-mobile.mp4",
+  "likes": 12,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "gallery"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "bento",
+   "bento gallery",
+   "bento grid",
+   "bold",
+   "cards",
+   "community",
+   "creative",
+   "creative platform",
+   "crowd",
+   "dark editorial",
+   "editorial",
+   "film grain",
+   "filmic",
+   "gallery",
+   "glowing",
+   "grain",
+   "image cards",
+   "landing section",
+   "masonry",
+   "moody",
+   "orb",
+   "photo",
+   "photo grid",
+   "photo-cards",
+   "portfolio",
+   "quote",
+   "quote card",
+   "reverie",
+   "soft",
+   "stat",
+   "stats card"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "reverie.webp": "95736 bytes"
+ }
+}

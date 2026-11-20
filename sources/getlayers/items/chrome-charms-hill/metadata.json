@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:52Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "chrome-charms-hill",
+  "title": "Chrome Charms Hill",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/chrome-charms-hill-227524a2da.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/chrome-charms-hill-227524a2da.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/chrome-charms-hill-227524a2da-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "barbed",
+   "barbed-wire",
+   "bows",
+   "bracelet",
+   "bright",
+   "charm",
+   "charms",
+   "chrome",
+   "clouded",
+   "edge",
+   "float",
+   "green",
+   "hill",
+   "landscape",
+   "nature",
+   "pink",
+   "sky",
+   "stars",
+   "sweet",
+   "under",
+   "wire",
+   "with",
+   "y2k"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "chrome-charms-hill.webp": "46734 bytes"
+ }
+}

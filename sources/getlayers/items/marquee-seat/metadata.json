@@ -1,0 +1,74 @@
+{
+ "fetchedAt": "2026-11-20T15:45:04Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "marquee-seat",
+  "title": "Marquee Seat",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A plush lounge chair floats on a lemon-to-lavender haze as a giant line of type glides behind it. Legal for purchase only on getlayers.ai — getlayers.ai/layer/marquee-seat",
+  "image": "https://storage.getlayers.ai/sections/marquee-seat-f086fe9987.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/marquee-seat-f086fe9987.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/marquee-seat-f086fe9987-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/marquee-seat-f086fe9987-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/marquee-seat-f086fe9987-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/marquee-seat-f086fe9987-figma.webp",
+  "hasFigma": true,
+  "likes": 29,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "cta"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "playful"
+  ],
+  "keywords": [
+   "3d",
+   "banner",
+   "call to action",
+   "chair",
+   "cta",
+   "ecommerce",
+   "floats",
+   "furniture",
+   "giant",
+   "glides",
+   "gradient",
+   "haze",
+   "lavender",
+   "lemon",
+   "line",
+   "lounge",
+   "marquee",
+   "pastel",
+   "plush",
+   "product",
+   "scrolling text",
+   "seat",
+   "shop",
+   "three.js",
+   "type"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "marquee-seat.webp": "78646 bytes",
+  "marquee-seat-figma.webp": "118394 bytes"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:47Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "crystal-desert-pools",
+  "title": "Crystal Desert Pools",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/crystal-desert-pools-0eefbfacff.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/crystal-desert-pools-0eefbfacff.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/crystal-desert-pools-0eefbfacff-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "another",
+   "beside",
+   "crystal",
+   "desert",
+   "fantasy",
+   "flowers",
+   "giant",
+   "iridescent",
+   "landscape",
+   "luminous",
+   "nature",
+   "oasis",
+   "pale",
+   "pillars",
+   "pools",
+   "rise",
+   "sandstone",
+   "serene",
+   "spires",
+   "stream",
+   "turquoise",
+   "winding",
+   "world"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "crystal-desert-pools.webp": "289844 bytes"
+ }
+}

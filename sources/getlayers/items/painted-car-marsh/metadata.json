@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:45:46Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "painted-car-marsh",
+  "title": "Painted Car Marsh",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/painted-car-marsh",
+  "image": "https://storage.getlayers.ai/backgrounds/painted-car-marsh-be325b13e8.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/painted-car-marsh-be325b13e8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/painted-car-marsh-be325b13e8-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "around",
+   "art",
+   "blush",
+   "car",
+   "getaway",
+   "grass",
+   "half",
+   "hand",
+   "marsh",
+   "object",
+   "painted",
+   "pastel",
+   "pink",
+   "product",
+   "retro",
+   "ripples",
+   "rocks",
+   "shimmer",
+   "sits",
+   "soft",
+   "sports",
+   "submerged",
+   "surreal",
+   "water",
+   "wetland",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "painted-car-marsh.webp": "346318 bytes"
+ }
+}

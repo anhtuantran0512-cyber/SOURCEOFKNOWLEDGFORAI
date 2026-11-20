@@ -1,0 +1,70 @@
+{
+ "fetchedAt": "2026-11-20T15:45:06Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "candor",
+  "title": "Candor",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A warm, reassuring FAQ in royal blue on lavender, led by a big italic headline and soft sparkle marks. Legal for purchase only on getlayers.ai — getlayers.ai/layer/candor",
+  "image": "https://storage.getlayers.ai/sections/candor-3fa846ed85.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/candor-3fa846ed85.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/candor-3fa846ed85-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/candor-3fa846ed85-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/candor-3fa846ed85-mobile.mp4",
+  "likes": 10,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "faq"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "playful"
+  ],
+  "keywords": [
+   "accordion",
+   "big",
+   "blue",
+   "blue and lavender",
+   "candor",
+   "community",
+   "expandable",
+   "faq",
+   "friendly",
+   "friendly faq",
+   "headline",
+   "help center",
+   "italic",
+   "italic heading",
+   "lavender",
+   "led",
+   "light faq",
+   "marks",
+   "nonprofit",
+   "questions",
+   "reassuring",
+   "royal",
+   "soft",
+   "sparkle",
+   "support",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "candor.webp": "36592 bytes"
+ }
+}

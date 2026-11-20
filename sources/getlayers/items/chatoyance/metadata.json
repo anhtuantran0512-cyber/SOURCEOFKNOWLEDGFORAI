@@ -1,0 +1,356 @@
+{
+ "fetchedAt": "2026-11-20T15:47:15Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "chatoyance",
+  "title": "Chatoyance",
+  "description": "A bundle of fibres lying almost parallel, lit from one side — the sheen is drawn by where each fibre points, and the cursor combs them.",
+  "nature": "cloth",
+  "family": "material",
+  "tier": "Premium",
+  "likes": 27,
+  "createdAt": "2026-08-24",
+  "shaderHash": "e40e3794d1588aa61915b40f3e9a565b",
+  "hues": [
+   "violet",
+   "blue",
+   "magenta",
+   "red",
+   "orange",
+   "teal",
+   "indigo",
+   "amber",
+   "pink",
+   "green",
+   "neutral"
+  ],
+  "variantCount": 11,
+  "variants": [
+   {
+    "id": "chatoyance",
+    "groupId": "chatoyance",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#1a0f33",
+     "colorB": "#6b2bc8",
+     "colorC": "#e02bc8",
+     "colorD": "#f9d9ff",
+     "bgColor": "#070313"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 27,
+    "previewVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/chatoyance-733996919c.webp"
+   },
+   {
+    "id": "chatoyance-001",
+    "groupId": "chatoyance",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0a2f2b",
+     "colorB": "#3fc8c0",
+     "colorC": "#c8e0d0",
+     "colorD": "#f04b8b",
+     "bgColor": "#03110f"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/3c708ea7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/3c708ea7.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/3c708ea7.webp"
+   },
+   {
+    "id": "chatoyance-002",
+    "groupId": "chatoyance",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#3d0a10",
+     "colorB": "#c41e2a",
+     "colorC": "#ffe8e0",
+     "colorD": "#2b4be8",
+     "bgColor": "#12030a"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "magenta",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/10251500-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/10251500.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/10251500.webp"
+   },
+   {
+    "id": "chatoyance-003",
+    "groupId": "chatoyance",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#380b0c",
+     "colorB": "#e8342b",
+     "colorC": "#ff6b5a",
+     "colorD": "#fff2ee",
+     "bgColor": "#100407"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/0317370f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/0317370f.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/0317370f.webp"
+   },
+   {
+    "id": "chatoyance-004",
+    "groupId": "chatoyance",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#24093a",
+     "colorB": "#7b3fd9",
+     "colorC": "#f02be0",
+     "colorD": "#fff0fc",
+     "bgColor": "#0c0416"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/7bb64a33-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/7bb64a33.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/7bb64a33.webp"
+   },
+   {
+    "id": "chatoyance-005",
+    "groupId": "chatoyance",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#4a0d12",
+     "colorB": "#e8342b",
+     "colorC": "#ffd8d0",
+     "colorD": "#fffcfb",
+     "bgColor": "#170509"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/d284298c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/d284298c.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/d284298c.webp"
+   },
+   {
+    "id": "chatoyance-006",
+    "groupId": "chatoyance",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#340c05",
+     "colorB": "#e8342b",
+     "colorC": "#f5a52b",
+     "colorD": "#fff0c2",
+     "bgColor": "#0d0402"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/25d21b25-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/25d21b25.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/25d21b25.webp"
+   },
+   {
+    "id": "chatoyance-007",
+    "groupId": "chatoyance",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#d4cbe6",
+     "colorB": "#f5d28c",
+     "colorC": "#f2e8d4",
+     "colorD": "#fffdf7",
+     "bgColor": "#b9a37a"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/47b9ffe4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/47b9ffe4.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/47b9ffe4.webp"
+   },
+   {
+    "id": "chatoyance-008",
+    "groupId": "chatoyance",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#063440",
+     "colorB": "#2b7be8",
+     "colorC": "#4fe0d8",
+     "colorD": "#d6ffe8",
+     "bgColor": "#021216"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/5497a01c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/5497a01c.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/5497a01c.webp"
+   },
+   {
+    "id": "chatoyance-009",
+    "groupId": "chatoyance",
+    "name": "009",
+    "sortOrder": 9,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#bfe8d8",
+     "colorB": "#c8d0f0",
+     "colorC": "#e8e4f5",
+     "colorD": "#fdfcff",
+     "bgColor": "#a49ccd"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/e7b2c60a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/e7b2c60a.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/e7b2c60a.webp"
+   },
+   {
+    "id": "chatoyance-010",
+    "groupId": "chatoyance",
+    "name": "010",
+    "sortOrder": 10,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0d2358",
+     "colorB": "#2b5bff",
+     "colorC": "#e6eeff",
+     "colorD": "#ff7a63",
+     "bgColor": "#020818"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/4c261696-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/4c261696.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/chatoyance-733996919c/4c261696.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "chatoyance.webp": "61512 bytes"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-splash-figure",
+  "title": "Glass Splash Figure",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-splash-figure-55f19ea549.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-splash-figure-55f19ea549.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-splash-figure-55f19ea549-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "blue",
+   "born",
+   "character",
+   "churning",
+   "crystal",
+   "figure",
+   "glass",
+   "glittering",
+   "holding",
+   "liquid",
+   "motion",
+   "rises",
+   "sea",
+   "silver",
+   "sky",
+   "soft",
+   "sparkle",
+   "splash",
+   "staff",
+   "water",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-splash-figure.webp": "125112 bytes"
+ }
+}

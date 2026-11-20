@@ -1,0 +1,66 @@
+{
+ "fetchedAt": "2026-11-20T15:46:52Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "wire-crown-statue",
+  "title": "Wire Crown Statue",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/wire-crown-statue-66d9d1cd39.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/wire-crown-statue-66d9d1cd39.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/wire-crown-statue-66d9d1cd39-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "balance",
+   "biotech",
+   "cables",
+   "calm",
+   "character",
+   "crown",
+   "cyborg",
+   "dark",
+   "deity",
+   "digital",
+   "face",
+   "glowing",
+   "grasses",
+   "green",
+   "grey",
+   "head",
+   "hex",
+   "hexagon",
+   "machine",
+   "meshed",
+   "moss",
+   "pale",
+   "patterns",
+   "statue",
+   "tangled",
+   "wears",
+   "wire"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "wire-crown-statue.webp": "349718 bytes"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:45:53Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "chained-lilac-mask",
+  "title": "Chained Lilac Mask",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/chained-lilac-mask-921e7d0edc.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/chained-lilac-mask-921e7d0edc.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/chained-lilac-mask-921e7d0edc-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "beauty",
+   "blossoms",
+   "bound",
+   "captive",
+   "chained",
+   "chains",
+   "character",
+   "closed",
+   "cracked",
+   "eyes",
+   "face",
+   "fragile",
+   "framed",
+   "held",
+   "lilac",
+   "mask",
+   "orchids",
+   "pink",
+   "porcelain",
+   "purple"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "chained-lilac-mask.webp": "276646 bytes"
+ }
+}

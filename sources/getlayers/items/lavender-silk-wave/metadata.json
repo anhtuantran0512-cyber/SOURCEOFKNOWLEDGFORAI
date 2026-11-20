@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:45:49Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lavender-silk-wave",
+  "title": "Lavender Silk Wave",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/lavender-silk-wave-a70d754510.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lavender-silk-wave-a70d754510.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lavender-silk-wave-a70d754510-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "arch",
+   "backdrop",
+   "blurred",
+   "curls",
+   "curve",
+   "expensive",
+   "glass",
+   "lavender",
+   "mauve",
+   "quiet",
+   "ribbon",
+   "satin",
+   "silk",
+   "single",
+   "slow",
+   "soft",
+   "sweep",
+   "wave",
+   "wide"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lavender-silk-wave.webp": "130802 bytes"
+ }
+}

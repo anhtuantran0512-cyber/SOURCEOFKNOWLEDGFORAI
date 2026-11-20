@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:46:45Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "cobalt-chrome-bubbles",
+  "title": "Cobalt Chrome Bubbles",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/cobalt-chrome-bubbles-1c85961122.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/cobalt-chrome-bubbles-1c85961122.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/cobalt-chrome-bubbles-1c85961122-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "blue",
+   "bubbles",
+   "bulbous",
+   "chrome",
+   "cobalt",
+   "deep",
+   "droplets",
+   "eddies",
+   "flecked",
+   "glass",
+   "glossy",
+   "liquid",
+   "metal",
+   "polished",
+   "sapphire",
+   "swells",
+   "swirl",
+   "swirling",
+   "tiny",
+   "wells"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cobalt-chrome-bubbles.webp": "211506 bytes"
+ }
+}

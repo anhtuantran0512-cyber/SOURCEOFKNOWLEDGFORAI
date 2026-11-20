@@ -1,0 +1,48 @@
+{
+ "fetchedAt": "2026-11-20T15:45:30Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "dark-chrome-waves",
+  "title": "Dark Chrome Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/dark-chrome-waves-c9d2d36cb7.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/dark-chrome-waves-c9d2d36cb7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/dark-chrome-waves-c9d2d36cb7-preview.mp4",
+  "likes": 9,
+  "createdAt": "2026-07-25",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "background",
+   "chrome",
+   "dark",
+   "glass",
+   "iridescent",
+   "metal",
+   "silver",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "dark-chrome-waves.webp": "100692 bytes"
+ }
+}

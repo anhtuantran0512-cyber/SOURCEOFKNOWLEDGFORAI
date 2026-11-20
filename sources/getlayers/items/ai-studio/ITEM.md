@@ -25,7 +25,7 @@ url: "https://www.getlayers.ai/layer/ai-studio"
 - Published: 2026-06-28 · likes: 313
 - Live page: https://www.getlayers.ai/layer/ai-studio
 - Preview still: [`assets/ai-studio.webp`](../../assets/ai-studio.webp)
-- Figma preview: _not published for this template_
+- Figma preview: _not published for this item_
 
 ## Measured performance
 
@@ -50,7 +50,7 @@ Full reports:
 
 **Premium — not collected.** The copy-prompt action answers
 `{"_apiError":{"code":"forbidden","message":"Upgrade to access this prompt."}}`
-for this template. This archive does not bypass, guess or reconstruct it:
+for this item. This archive does not bypass, guess or reconstruct it:
 buy or preview the prompt at https://www.getlayers.ai/layer/ai-studio.
 
 ## Public assets

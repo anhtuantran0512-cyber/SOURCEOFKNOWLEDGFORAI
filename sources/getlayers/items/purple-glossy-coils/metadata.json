@@ -1,0 +1,47 @@
+{
+ "fetchedAt": "2026-11-20T15:45:43Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "purple-glossy-coils",
+  "title": "Purple Glossy Coils",
+  "category": "background",
+  "tags": [
+   "background",
+   "static"
+  ],
+  "stack": [
+   "background",
+   "static"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/purple-glossy-coils-83bed93814.webp",
+  "likes": 2,
+  "createdAt": "2026-07-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "abstract",
+   "background",
+   "coils",
+   "glass",
+   "glossy",
+   "purple",
+   "twisted",
+   "violet"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "purple-glossy-coils.webp": "219374 bytes"
+ }
+}

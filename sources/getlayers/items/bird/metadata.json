@@ -1,0 +1,51 @@
+{
+ "fetchedAt": "2026-11-20T15:45:33Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "bird",
+  "title": "Bird",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/bird-d22cad6bd1.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/bird-d22cad6bd1.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/bird-d22cad6bd1-preview.mp4",
+  "likes": 6,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bird",
+   "branch",
+   "minimal",
+   "nature",
+   "dark",
+   "lone",
+   "songbird",
+   "perched",
+   "delicate",
+   "emerging",
+   "near",
+   "total",
+   "darkness",
+   "character"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "bird.webp": "64862 bytes"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:47:02Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "misty-lotus-swamp",
+  "title": "Misty Lotus Swamp",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/misty-lotus-swamp-95245e063f.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/misty-lotus-swamp-95245e063f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/misty-lotus-swamp-95245e063f-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "anything",
+   "black",
+   "boulders",
+   "covered",
+   "float",
+   "hanging",
+   "here",
+   "landscape",
+   "lotus",
+   "lotuses",
+   "mist",
+   "misty",
+   "moss",
+   "nature",
+   "old",
+   "older",
+   "pink",
+   "primeval",
+   "roots",
+   "still",
+   "swamp",
+   "than",
+   "trees",
+   "water"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "misty-lotus-swamp.webp": "172496 bytes"
+ }
+}

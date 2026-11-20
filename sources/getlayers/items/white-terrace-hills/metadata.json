@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:47:12Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "white-terrace-hills",
+  "title": "White Terrace Hills",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/white-terrace-hills-a10f00a555.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/white-terrace-hills-a10f00a555.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/white-terrace-hills-a10f00a555-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "and",
+   "between",
+   "clean",
+   "green",
+   "hills",
+   "landscape",
+   "mint",
+   "nature",
+   "paddies",
+   "pale",
+   "porcelain",
+   "rendered",
+   "ribbed",
+   "rice",
+   "rolling",
+   "sky",
+   "soft",
+   "terrace",
+   "terraces",
+   "under",
+   "white",
+   "wind"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "white-terrace-hills.webp": "147484 bytes"
+ }
+}

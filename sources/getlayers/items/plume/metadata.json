@@ -1,0 +1,157 @@
+{
+ "fetchedAt": "2026-11-20T15:44:44Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "plume",
+  "title": "Plume",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A tall, wavering column of luminous smoke rises from a glowing pool of dust and tapers into a white-hot flicker beneath a quiet field of stars.",
+  "image": "https://storage.getlayers.ai/3d_scenes/plume.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/plume.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/plume-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/plume-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 12,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "fire-plasma"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "threejs",
+   "points",
+   "smoke",
+   "particles",
+   "plume",
+   "starfield",
+   "tall",
+   "wavering",
+   "column",
+   "glittering",
+   "particle",
+   "churning",
+   "dust",
+   "pool",
+   "white",
+   "hot",
+   "flickering",
+   "tip",
+   "void",
+   "fire",
+   "plasma"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "plume",
+    "groupId": "plume",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#0a0e1a",
+     "bgColor2": "#020205",
+     "coreColor": "#fff6e8",
+     "starColor": "#aebed8",
+     "smokeColor": "#cfd9ea",
+     "groundColor": "#3a4658"
+    },
+    "ramp": [
+     "#cfd9ea",
+     "#fff6e8",
+     "#3a4658",
+     "#aebed8",
+     "#0a0e1a",
+     "#020205"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/plume-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/plume.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/plume.webp"
+   },
+   {
+    "id": "plume-001",
+    "groupId": "plume",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#0a0e1a",
+     "bgColor2": "#020205",
+     "coreColor": "#fff6e8",
+     "starColor": "#aebed8",
+     "smokeColor": "#cfd9ea",
+     "groundColor": "#3a4658"
+    },
+    "ramp": [
+     "#cfd9ea",
+     "#fff6e8",
+     "#3a4658",
+     "#aebed8",
+     "#0a0e1a",
+     "#020205"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/plume/42d85a04-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/plume/42d85a04.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/plume/42d85a04.webp"
+   },
+   {
+    "id": "plume-002",
+    "groupId": "plume",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#0a0e1a",
+     "bgColor2": "#020205",
+     "coreColor": "#fff6e8",
+     "starColor": "#aebed8",
+     "smokeColor": "#cfd9ea",
+     "groundColor": "#3a4658"
+    },
+    "ramp": [
+     "#cfd9ea",
+     "#fff6e8",
+     "#3a4658",
+     "#aebed8",
+     "#0a0e1a",
+     "#020205"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/plume/88a7f8d0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/plume/88a7f8d0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/plume/88a7f8d0.webp"
+   }
+  ],
+  "variantCount": 3
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "plume.webp": "60896 bytes"
+ }
+}

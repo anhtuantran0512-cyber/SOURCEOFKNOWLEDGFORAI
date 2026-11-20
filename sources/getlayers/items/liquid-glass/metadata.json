@@ -1,0 +1,49 @@
+{
+ "fetchedAt": "2026-11-20T15:45:12Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "liquid-glass",
+  "title": "Liquid Glass",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/liquid-glass-4bc15d970c.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/liquid-glass-4bc15d970c.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/liquid-glass-4bc15d970c-preview.mp4",
+  "likes": 38,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "glass",
+   "liquid",
+   "blobs",
+   "abstract",
+   "spheres",
+   "molten",
+   "amber",
+   "steel",
+   "blue",
+   "drifting",
+   "floating",
+   "black"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "liquid-glass.webp": "125660 bytes"
+ }
+}

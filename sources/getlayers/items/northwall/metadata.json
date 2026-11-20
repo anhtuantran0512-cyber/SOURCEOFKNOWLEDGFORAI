@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:24:57Z",
+ "fetchedAt": "2026-11-20T15:42:52Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "northwall",
@@ -825,7 +825,7 @@
   "status": "premium"
  },
  "files": {
-  "northwall.webp": "28106 bytes",
-  "northwall-figma.webp": "215424 bytes"
+  "northwall.webp": "cached",
+  "northwall-figma.webp": "cached"
  }
 }

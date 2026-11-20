@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:45:57Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "chrome-heart-meadow",
+  "title": "Chrome Heart Meadow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/chrome-heart-meadow-11ee0834d8.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/chrome-heart-meadow-11ee0834d8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/chrome-heart-meadow-11ee0834d8-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "beside",
+   "box",
+   "chrome",
+   "clear",
+   "coils",
+   "crates",
+   "explained",
+   "field",
+   "grass",
+   "grassy",
+   "heart",
+   "hill",
+   "landscape",
+   "left",
+   "liquid",
+   "looping",
+   "meadow",
+   "metal",
+   "nature",
+   "nobody",
+   "ribbon",
+   "sculpture",
+   "sky",
+   "stacked",
+   "surreal",
+   "under",
+   "utility"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "chrome-heart-meadow.webp": "171360 bytes"
+ }
+}

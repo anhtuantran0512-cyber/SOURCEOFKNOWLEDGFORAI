@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:53Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-iridescent-curve",
+  "title": "Blue Iridescent Curve",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-iridescent-curve-3b1d178018.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blue-iridescent-curve-3b1d178018.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blue-iridescent-curve-3b1d178018-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "blue",
+   "breath",
+   "curve",
+   "daylight",
+   "enough",
+   "glass",
+   "gradient",
+   "iridescent",
+   "light",
+   "oil",
+   "pale",
+   "pastel",
+   "peach",
+   "rather",
+   "read",
+   "sheen",
+   "slow",
+   "soft",
+   "surface",
+   "sweeps",
+   "than",
+   "through",
+   "wide"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-iridescent-curve.webp": "82892 bytes"
+ }
+}

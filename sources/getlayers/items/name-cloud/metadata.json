@@ -1,0 +1,78 @@
+{
+ "fetchedAt": "2026-11-20T15:45:04Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "name-cloud",
+  "title": "Name Cloud",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A wall of towering client names on vermilion; hover one and it inks navy while a little card drifts after the cursor. Legal for purchase only on getlayers.ai — getlayers.ai/layer/name-cloud",
+  "image": "https://storage.getlayers.ai/sections/name-cloud-e3979661ee.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/name-cloud-e3979661ee.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/name-cloud-e3979661ee-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/name-cloud-e3979661ee-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/name-cloud-e3979661ee-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/name-cloud-e3979661ee-figma.webp",
+  "hasFigma": true,
+  "likes": 31,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "showcase"
+  ],
+  "tone": "light",
+  "mood": [
+   "brutal",
+   "playful"
+  ],
+  "keywords": [
+   "agency",
+   "big type",
+   "brands",
+   "card",
+   "client",
+   "clients",
+   "cloud",
+   "cursor",
+   "drifts",
+   "hover",
+   "hover card",
+   "hover-card",
+   "inks",
+   "little",
+   "logo wall",
+   "logos",
+   "name",
+   "name cloud",
+   "names",
+   "navy",
+   "orange",
+   "partners",
+   "red",
+   "showcase",
+   "studio",
+   "towering",
+   "trusted by",
+   "trusted-by",
+   "typographic",
+   "vermilion",
+   "wall"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "name-cloud.webp": "63526 bytes",
+  "name-cloud-figma.webp": "124152 bytes"
+ }
+}

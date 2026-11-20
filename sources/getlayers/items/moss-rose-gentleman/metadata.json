@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:46:42Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "moss-rose-gentleman",
+  "title": "Moss Rose Gentleman",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/moss-rose-gentleman-f6792cb7f3.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/moss-rose-gentleman-f6792cb7f3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/moss-rose-gentleman-f6792cb7f3-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "character",
+   "cigarette",
+   "dandy",
+   "dark",
+   "edge",
+   "figure",
+   "gentleman",
+   "gone",
+   "green",
+   "hand",
+   "head",
+   "holds",
+   "ivy",
+   "made",
+   "moss",
+   "red",
+   "romance",
+   "rose",
+   "roses",
+   "seed",
+   "smoke",
+   "smoking",
+   "suit",
+   "taupe",
+   "wall"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "moss-rose-gentleman.webp": "101764 bytes"
+ }
+}

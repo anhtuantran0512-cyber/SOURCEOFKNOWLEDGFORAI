@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:40Z",
+ "fetchedAt": "2026-11-20T15:42:44Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "new-era",
@@ -378,6 +378,6 @@
   "status": "premium"
  },
  "files": {
-  "new-era.webp": "198080 bytes"
+  "new-era.webp": "cached"
  }
 }

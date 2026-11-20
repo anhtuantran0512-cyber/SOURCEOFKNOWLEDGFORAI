@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:48Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glitch-globe",
+  "title": "Glitch Globe",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glitch-globe-093e0b1000.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glitch-globe-093e0b1000.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glitch-globe-093e0b1000-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "cosmic-space"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bands",
+   "cosmic",
+   "earth",
+   "edged",
+   "era",
+   "glitch",
+   "globe",
+   "green",
+   "line",
+   "mint",
+   "navy",
+   "print",
+   "red",
+   "retro",
+   "scanlines",
+   "shaded",
+   "sideways",
+   "slices",
+   "slipping",
+   "space",
+   "spins",
+   "sync",
+   "tech",
+   "world"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glitch-globe.webp": "366078 bytes"
+ }
+}

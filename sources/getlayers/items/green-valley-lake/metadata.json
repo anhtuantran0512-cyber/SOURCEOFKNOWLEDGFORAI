@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:00Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "green-valley-lake",
+  "title": "Green Valley Lake",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/green-valley-lake-eb84b87724.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/green-valley-lake-eb84b87724.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/green-valley-lake-eb84b87724-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "cabin",
+   "deep",
+   "down",
+   "fold",
+   "forest",
+   "green",
+   "hills",
+   "lake",
+   "landscape",
+   "nature",
+   "phone",
+   "signal",
+   "single",
+   "sitting",
+   "slope",
+   "somewhere",
+   "still",
+   "summer",
+   "valley",
+   "water",
+   "with"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "green-valley-lake.webp": "98356 bytes"
+ }
+}

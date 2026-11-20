@@ -1,0 +1,198 @@
+{
+ "fetchedAt": "2026-11-20T15:44:31Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "aether-flux",
+  "title": "Aether Flux",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A slowly turning cube of brushed-platinum rods swirling through a silent black void, catching pinpoint glints as the field churns into vortices.",
+  "image": "https://storage.getlayers.ai/3d_scenes/aether-flux.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/aether-flux.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/aether-flux-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/aether-flux-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 33,
+  "createdAt": "2026-06-30",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical",
+   "calm"
+  ],
+  "keywords": [
+   "threejs",
+   "instanced-mesh",
+   "curl-noise",
+   "monochrome",
+   "pointer-parallax",
+   "aether",
+   "flux",
+   "slowly",
+   "turning",
+   "cube",
+   "brushed",
+   "platinum",
+   "rods",
+   "swirling",
+   "through",
+   "silent",
+   "black",
+   "void",
+   "catching",
+   "pinpoint",
+   "glints",
+   "field",
+   "churns",
+   "vortices",
+   "element"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "aether-flux",
+    "groupId": "aether-flux",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "dustColor": "#7d93b0",
+     "specColor": "#ffffff",
+     "silverCool": "#9fb0c4",
+     "silverWarm": "#f4eee2"
+    },
+    "ramp": [
+     "#9fb0c4",
+     "#f4eee2",
+     "#ffffff",
+     "#7d93b0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/aether-flux-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/aether-flux.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/aether-flux.webp"
+   },
+   {
+    "id": "aether-flux-001",
+    "groupId": "aether-flux",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "dustColor": "#e8d3bd",
+     "specColor": "#d1ac58",
+     "silverCool": "#25260d",
+     "silverWarm": "#897c25"
+    },
+    "ramp": [
+     "#25260d",
+     "#897c25",
+     "#d1ac58",
+     "#e8d3bd"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/aether-flux/26d1e95a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/aether-flux/26d1e95a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/aether-flux/26d1e95a.webp"
+   },
+   {
+    "id": "aether-flux-002",
+    "groupId": "aether-flux",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "dustColor": "#e6ebd3",
+     "specColor": "#a4c56f",
+     "silverCool": "#0d160a",
+     "silverWarm": "#517a31"
+    },
+    "ramp": [
+     "#0d160a",
+     "#517a31",
+     "#a4c56f",
+     "#e6ebd3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/aether-flux/79bfaa79-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/aether-flux/79bfaa79.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/aether-flux/79bfaa79.webp"
+   },
+   {
+    "id": "aether-flux-003",
+    "groupId": "aether-flux",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "dustColor": "#3f6484",
+     "specColor": "#5c9fbb",
+     "silverCool": "#d3eae9",
+     "silverWarm": "#97ccd3"
+    },
+    "ramp": [
+     "#d3eae9",
+     "#97ccd3",
+     "#5c9fbb",
+     "#3f6484"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/aether-flux/eb859692-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/aether-flux/eb859692.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/aether-flux/eb859692.webp"
+   },
+   {
+    "id": "aether-flux-004",
+    "groupId": "aether-flux",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "dustColor": "#dfcbc7",
+     "specColor": "#b4876c",
+     "silverCool": "#0e0c08",
+     "silverWarm": "#675134"
+    },
+    "ramp": [
+     "#0e0c08",
+     "#675134",
+     "#b4876c",
+     "#dfcbc7"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/aether-flux/5d0355a0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/aether-flux/5d0355a0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/aether-flux/5d0355a0.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "aether-flux.webp": "213356 bytes"
+ }
+}

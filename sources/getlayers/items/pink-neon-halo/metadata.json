@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:47:05Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pink-neon-halo",
+  "title": "Pink Neon Halo",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pink-neon-halo-953f05aeb2.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pink-neon-halo-953f05aeb2.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pink-neon-halo-953f05aeb2-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "and",
+   "black",
+   "blooming",
+   "door",
+   "edge",
+   "electric",
+   "ellipse",
+   "glass",
+   "glow",
+   "halo",
+   "hangs",
+   "light",
+   "lined",
+   "neon",
+   "pink",
+   "portal",
+   "scan",
+   "scanlines",
+   "weightless",
+   "white",
+   "wide",
+   "with"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pink-neon-halo.webp": "179634 bytes"
+ }
+}

@@ -1,0 +1,230 @@
+{
+ "fetchedAt": "2026-11-20T15:44:31Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "tree-of-life",
+  "title": "Tree of Life",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A luminous tree sketched from tangled white-hot filaments, breathing in a soft wind as it turns through a cool, near-black void.",
+  "image": "https://storage.getlayers.ai/3d_scenes/tree-of-life.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/tree-of-life.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/tree-of-life-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/tree-of-life-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 28,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "tree",
+   "scribble",
+   "organic",
+   "life",
+   "glowing",
+   "tangled",
+   "white",
+   "filaments",
+   "that",
+   "breathes",
+   "soft",
+   "wind",
+   "against",
+   "near",
+   "black",
+   "void"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "tree-of-life",
+    "groupId": "tree-of-life",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#070b14",
+     "bgColor2": "#020308",
+     "atmoColor": "#cdd9f0",
+     "coreColor": "#ffffff",
+     "mainColor": "#eaf2ff",
+     "tintColor": "#9fc0e8",
+     "flameColor": "#2c4a72",
+     "flameColor2": "#a9c4e6"
+    },
+    "ramp": [
+     "#eaf2ff",
+     "#9fc0e8",
+     "#ffffff",
+     "#070b14",
+     "#020308",
+     "#2c4a72",
+     "#a9c4e6",
+     "#cdd9f0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/tree-of-life-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/tree-of-life.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/tree-of-life.webp"
+   },
+   {
+    "id": "tree-of-life-001",
+    "groupId": "tree-of-life",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#9099e9",
+     "bgColor2": "#7481e3",
+     "atmoColor": "#374bbd",
+     "coreColor": "#adb3ec",
+     "mainColor": "#e5e6f7",
+     "tintColor": "#cacdf1",
+     "flameColor": "#5c6cda",
+     "flameColor2": "#4659cf"
+    },
+    "ramp": [
+     "#e5e6f7",
+     "#cacdf1",
+     "#adb3ec",
+     "#9099e9",
+     "#7481e3",
+     "#5c6cda",
+     "#4659cf",
+     "#374bbd"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/tree-of-life/4ab3dd6c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/tree-of-life/4ab3dd6c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/tree-of-life/4ab3dd6c.webp"
+   },
+   {
+    "id": "tree-of-life-002",
+    "groupId": "tree-of-life",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#864c82",
+     "bgColor2": "#a765a6",
+     "atmoColor": "#e2d5e5",
+     "coreColor": "#60385a",
+     "mainColor": "#160e14",
+     "tintColor": "#3b2436",
+     "flameColor": "#b88bbb",
+     "flameColor2": "#ccb1cf"
+    },
+    "ramp": [
+     "#160e14",
+     "#3b2436",
+     "#60385a",
+     "#864c82",
+     "#a765a6",
+     "#b88bbb",
+     "#ccb1cf",
+     "#e2d5e5"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/tree-of-life/5deec0d0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/tree-of-life/5deec0d0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/tree-of-life/5deec0d0.webp"
+   },
+   {
+    "id": "tree-of-life-003",
+    "groupId": "tree-of-life",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#070b14",
+     "bgColor2": "#020308",
+     "atmoColor": "#cdd9f0",
+     "coreColor": "#ffffff",
+     "mainColor": "#eaf2ff",
+     "tintColor": "#9fc0e8",
+     "flameColor": "#2c4a72",
+     "flameColor2": "#a9c4e6"
+    },
+    "ramp": [
+     "#eaf2ff",
+     "#9fc0e8",
+     "#ffffff",
+     "#070b14",
+     "#020308",
+     "#2c4a72",
+     "#a9c4e6",
+     "#cdd9f0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/tree-of-life/2d381f7a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/tree-of-life/2d381f7a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/tree-of-life/2d381f7a.webp"
+   },
+   {
+    "id": "tree-of-life-004",
+    "groupId": "tree-of-life",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#070b14",
+     "bgColor2": "#020308",
+     "atmoColor": "#cdd9f0",
+     "coreColor": "#ffffff",
+     "mainColor": "#eaf2ff",
+     "tintColor": "#9fc0e8",
+     "flameColor": "#2c4a72",
+     "flameColor2": "#a9c4e6"
+    },
+    "ramp": [
+     "#eaf2ff",
+     "#9fc0e8",
+     "#ffffff",
+     "#070b14",
+     "#020308",
+     "#2c4a72",
+     "#a9c4e6",
+     "#cdd9f0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/tree-of-life/22666aa3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/tree-of-life/22666aa3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/tree-of-life/22666aa3.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "tree-of-life.webp": "71474 bytes"
+ }
+}

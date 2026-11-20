@@ -1,0 +1,73 @@
+{
+ "fetchedAt": "2026-11-20T15:45:04Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "jar-drop",
+  "title": "Jar Drop",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A chili-red signup where a glossy jar floats beside the form, then thuds down and wears your name when you join. Legal for purchase only on getlayers.ai — getlayers.ai/layer/jar-drop",
+  "image": "https://storage.getlayers.ai/sections/jar-drop-dc3a4c54eb.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/jar-drop-dc3a4c54eb.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/jar-drop-dc3a4c54eb-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/jar-drop-dc3a4c54eb-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/jar-drop-dc3a4c54eb-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/jar-drop-dc3a4c54eb-figma.webp",
+  "hasFigma": true,
+  "likes": 31,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "cta"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful"
+  ],
+  "keywords": [
+   "3d",
+   "beside",
+   "chili",
+   "countdown",
+   "cta",
+   "down",
+   "drop",
+   "email capture",
+   "floats",
+   "food",
+   "form",
+   "glossy",
+   "jar",
+   "join",
+   "name",
+   "newsletter",
+   "product",
+   "product launch",
+   "red",
+   "signup",
+   "subscribe",
+   "three.js",
+   "thuds",
+   "wears",
+   "when"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "jar-drop.webp": "162504 bytes",
+  "jar-drop-figma.webp": "281558 bytes"
+ }
+}

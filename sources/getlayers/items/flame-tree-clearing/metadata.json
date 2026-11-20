@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:36Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "flame-tree-clearing",
+  "title": "Flame Tree Clearing",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark. Legal for purchase only on getlayers.ai — getlayers.ai/layer/flame-tree-clearing",
+  "image": "https://storage.getlayers.ai/backgrounds/flame-tree-clearing-15652c34ec.webp",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "below",
+   "bench",
+   "blazing",
+   "blooms",
+   "blossoms",
+   "clearing",
+   "fiery",
+   "flame",
+   "flowers",
+   "forest",
+   "green",
+   "jungle",
+   "landscape",
+   "lone",
+   "nature",
+   "path",
+   "quiet",
+   "rainforest",
+   "red",
+   "secret",
+   "stillness",
+   "tree",
+   "waiting",
+   "wooden"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "flame-tree-clearing.webp": "526930 bytes"
+ }
+}

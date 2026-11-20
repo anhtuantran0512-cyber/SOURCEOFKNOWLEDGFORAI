@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:45:56Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "flower-throne-clouds",
+  "title": "Flower Throne Clouds",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/flower-throne-clouds-4dce759efc.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/flower-throne-clouds-4dce759efc.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/flower-throne-clouds-4dce759efc-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "adrift",
+   "car",
+   "character",
+   "chrome",
+   "clouds",
+   "cool",
+   "dream",
+   "fashion",
+   "floating",
+   "flower",
+   "front",
+   "glamour",
+   "heaped",
+   "lilac",
+   "lounges",
+   "magenta",
+   "mannequin",
+   "pale",
+   "peonies",
+   "petals",
+   "pinstripe",
+   "sea",
+   "suit",
+   "throne",
+   "water"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "flower-throne-clouds.webp": "123670 bytes"
+ }
+}

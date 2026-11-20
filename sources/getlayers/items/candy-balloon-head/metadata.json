@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:45Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "candy-balloon-head",
+  "title": "Candy Balloon Head",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/candy-balloon-head-f0e2d6338f.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/candy-balloon-head-f0e2d6338f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/candy-balloon-head-f0e2d6338f-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "balloon",
+   "beads",
+   "black",
+   "blobs",
+   "blooms",
+   "bronze",
+   "bust",
+   "candy",
+   "character",
+   "crowded",
+   "floating",
+   "flowers",
+   "glossy",
+   "head",
+   "maximalist",
+   "mind",
+   "overload",
+   "pink",
+   "pop",
+   "red",
+   "sparkles",
+   "spilling",
+   "split",
+   "surreal"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "candy-balloon-head.webp": "173900 bytes"
+ }
+}

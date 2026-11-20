@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:46Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "coral-vinyl-swirl",
+  "title": "Coral Vinyl Swirl",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/coral-vinyl-swirl-88c9928b27.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/coral-vinyl-swirl-88c9928b27.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/coral-vinyl-swirl-88c9928b27-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "brushstrokes",
+   "coral",
+   "cyan",
+   "dark",
+   "glass",
+   "grooves",
+   "ground",
+   "grunge",
+   "loud",
+   "music",
+   "poster",
+   "record",
+   "rough",
+   "scratched",
+   "shop",
+   "spin",
+   "swirl",
+   "texture",
+   "vinyl",
+   "well",
+   "worn"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "coral-vinyl-swirl.webp": "549394 bytes"
+ }
+}

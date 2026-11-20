@@ -1,0 +1,276 @@
+{
+ "fetchedAt": "2026-11-20T15:44:22Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "hearth-embers",
+  "title": "Hearth Embers",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Glowing sparks rise through the dark from a fire just out of frame, past soft bokeh and warm smoke; the cursor draws them toward your hand. Legal for purchase only on getlayers.ai — getlayers.ai/layer/hearth-embers",
+  "image": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152-preview.mp4",
+  "likes": 133,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "fire-plasma"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "organic",
+   "luxe"
+  ],
+  "keywords": [
+   "amber",
+   "bokeh",
+   "bokeh-depth-of-field",
+   "bonfire",
+   "campfire",
+   "cinematic",
+   "click",
+   "click-burst",
+   "coals",
+   "cozy",
+   "cursor",
+   "dark",
+   "depth of field",
+   "draught",
+   "draws",
+   "ember",
+   "embers",
+   "film still",
+   "fire",
+   "fireplace",
+   "flames",
+   "frame",
+   "glow",
+   "glowing",
+   "gold",
+   "hand",
+   "hdr-bloom",
+   "hearth",
+   "heat",
+   "instanced-quads",
+   "interactive",
+   "just",
+   "log",
+   "motion trails",
+   "motion-trails",
+   "night",
+   "orange",
+   "particles",
+   "past",
+   "plasma",
+   "pointer-draft",
+   "red",
+   "rise",
+   "rising",
+   "smoke",
+   "soft",
+   "sparks",
+   "threejs",
+   "warm"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "hearth-embers",
+    "groupId": "hearth-embers",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "emberHot": "#ffbf5c",
+     "emberMid": "#ff6c1c",
+     "highTint": "#ffcf8f",
+     "emberDeep": "#b8260c",
+     "emberWhite": "#fff1d6",
+     "shadowTint": "#ff5a3c",
+     "hearthColor": "#ff9c4a"
+    },
+    "ramp": [
+     "#ff5a3c",
+     "#ffcf8f",
+     "#ff9c4a",
+     "#b8260c",
+     "#ff6c1c",
+     "#ffbf5c",
+     "#fff1d6"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152.webp"
+   },
+   {
+    "id": "hearth-embers-001",
+    "groupId": "hearth-embers",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "emberHot": "#a8ffd0",
+     "emberMid": "#2ad08a",
+     "highTint": "#c8ffe0",
+     "emberDeep": "#0a5a3a",
+     "emberWhite": "#f0fff8",
+     "shadowTint": "#0a6a5a",
+     "hearthColor": "#3ae0a0"
+    },
+    "ramp": [
+     "#0a6a5a",
+     "#c8ffe0",
+     "#3ae0a0",
+     "#0a5a3a",
+     "#2ad08a",
+     "#a8ffd0",
+     "#f0fff8"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/5db445da-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/5db445da.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/5db445da.webp"
+   },
+   {
+    "id": "hearth-embers-002",
+    "groupId": "hearth-embers",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "emberHot": "#ff6a2a",
+     "emberMid": "#c8200a",
+     "highTint": "#ff8a5a",
+     "emberDeep": "#6a0804",
+     "emberWhite": "#ffc8a0",
+     "shadowTint": "#7a0a0a",
+     "hearthColor": "#d8301a"
+    },
+    "ramp": [
+     "#7a0a0a",
+     "#ff8a5a",
+     "#d8301a",
+     "#6a0804",
+     "#c8200a",
+     "#ff6a2a",
+     "#ffc8a0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/33a7150e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/33a7150e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/33a7150e.webp"
+   },
+   {
+    "id": "hearth-embers-003",
+    "groupId": "hearth-embers",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "emberHot": "#fff0b0",
+     "emberMid": "#ffaa3a",
+     "highTint": "#fff4d8",
+     "emberDeep": "#e05a10",
+     "emberWhite": "#ffffff",
+     "shadowTint": "#ff9a3c",
+     "hearthColor": "#ffd27a"
+    },
+    "ramp": [
+     "#ff9a3c",
+     "#fff4d8",
+     "#ffd27a",
+     "#e05a10",
+     "#ffaa3a",
+     "#fff0b0",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/cad4412d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/cad4412d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/cad4412d.webp"
+   },
+   {
+    "id": "hearth-embers-004",
+    "groupId": "hearth-embers",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "emberHot": "#e0a8ff",
+     "emberMid": "#a040ff",
+     "highTint": "#f0c8ff",
+     "emberDeep": "#4a0a8a",
+     "emberWhite": "#fff0ff",
+     "shadowTint": "#5a1aa8",
+     "hearthColor": "#b060ff"
+    },
+    "ramp": [
+     "#5a1aa8",
+     "#f0c8ff",
+     "#b060ff",
+     "#4a0a8a",
+     "#a040ff",
+     "#e0a8ff",
+     "#fff0ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/60618854-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/60618854.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/60618854.webp"
+   },
+   {
+    "id": "hearth-embers-005",
+    "groupId": "hearth-embers",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "emberHot": "#ffe0a0",
+     "emberMid": "#ff9a3a",
+     "highTint": "#ffe6c0",
+     "emberDeep": "#a8340c",
+     "emberWhite": "#fffaf0",
+     "shadowTint": "#203a6a",
+     "hearthColor": "#7a9ad8"
+    },
+    "ramp": [
+     "#203a6a",
+     "#ffe6c0",
+     "#7a9ad8",
+     "#a8340c",
+     "#ff9a3a",
+     "#ffe0a0",
+     "#fffaf0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/48d7b9c8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/48d7b9c8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/hearth-embers-b861470152/48d7b9c8.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "hearth-embers.webp": "78374 bytes"
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "fetchedAt": "2026-11-20T15:44:29Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "orange-monolith-grove",
+  "title": "Orange Monolith Grove",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "Low-poly stone monoliths and olive trees standing in a seamless orange sweep.",
+  "image": "https://storage.getlayers.ai/3d_scenes/orange-monolith-grove-b456103725.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/orange-monolith-grove-b456103725.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/orange-monolith-grove-b456103725-preview.mp4",
+  "likes": 60,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "keywords": [
+   "calm",
+   "cyclorama",
+   "diorama",
+   "element",
+   "flat",
+   "grove",
+   "landscape",
+   "low",
+   "low-poly",
+   "lowpoly",
+   "miniature",
+   "minimal",
+   "monolith",
+   "monoliths",
+   "olive",
+   "orange",
+   "poly",
+   "product",
+   "rocks",
+   "seamless",
+   "shaded",
+   "standing",
+   "still",
+   "stone",
+   "stones",
+   "sweep",
+   "terracotta",
+   "toy",
+   "trees",
+   "warm"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "orange-monolith-grove",
+    "groupId": "orange-monolith-grove",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#b7611a",
+     "fogColor": "#dd7a1c",
+     "keyColor": "#fff1dc",
+     "rimColor": "#ffe9c8",
+     "bgHorizon": "#e07d1e",
+     "dustColor": "#ffd79a",
+     "fillColor": "#ffd9a6",
+     "groveTint": "#ffffff",
+     "floorColor": "#df7a1b",
+     "skyFillColor": "#ffcf95",
+     "groundFillColor": "#8a4a10"
+    },
+    "ramp": [
+     "#e07d1e",
+     "#b7611a",
+     "#df7a1b",
+     "#dd7a1c",
+     "#fff1dc",
+     "#ffd9a6",
+     "#ffe9c8",
+     "#ffcf95",
+     "#8a4a10",
+     "#ffffff",
+     "#ffd79a"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orange-monolith-grove-b456103725-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orange-monolith-grove-b456103725.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orange-monolith-grove-b456103725.webp"
+   },
+   {
+    "id": "orange-monolith-grove-001",
+    "groupId": "orange-monolith-grove",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#1a1e28",
+     "fogColor": "#363a56",
+     "keyColor": "#43466e",
+     "rimColor": "#625f9c",
+     "bgHorizon": "#0c0e12",
+     "dustColor": "#c2bcd3",
+     "fillColor": "#505186",
+     "groveTint": "#aca5c5",
+     "floorColor": "#282d3f",
+     "skyFillColor": "#7b76aa",
+     "groundFillColor": "#948eb7"
+    },
+    "ramp": [
+     "#0c0e12",
+     "#1a1e28",
+     "#282d3f",
+     "#363a56",
+     "#43466e",
+     "#505186",
+     "#625f9c",
+     "#7b76aa",
+     "#948eb7",
+     "#aca5c5",
+     "#c2bcd3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orange-monolith-grove-b456103725/11a35d71-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orange-monolith-grove-b456103725/11a35d71.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orange-monolith-grove-b456103725/11a35d71.webp"
+   }
+  ],
+  "variantCount": 2
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "orange-monolith-grove.webp": "64352 bytes"
+ }
+}

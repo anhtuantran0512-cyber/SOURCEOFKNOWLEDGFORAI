@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:45:47Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "jungle-column-light",
+  "title": "Jungle Column Light",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark. Legal for purchase only on getlayers.ai — getlayers.ai/layer/jungle-column-light",
+  "image": "https://storage.getlayers.ai/backgrounds/jungle-column-light-86ee177ffd.webp",
+  "likes": 1,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "among",
+   "ancient",
+   "carved",
+   "column",
+   "columns",
+   "dense",
+   "fronds",
+   "glowing",
+   "golden",
+   "green",
+   "hour",
+   "jungle",
+   "landscape",
+   "light",
+   "lighting",
+   "lost",
+   "mist",
+   "nature",
+   "overgrown",
+   "palm",
+   "palms",
+   "pierce",
+   "ruin",
+   "ruins",
+   "stone",
+   "sunbeams",
+   "sunlit",
+   "temple"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "jungle-column-light.webp": "358596 bytes"
+ }
+}

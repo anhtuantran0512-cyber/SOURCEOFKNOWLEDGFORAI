@@ -1,0 +1,89 @@
+{
+ "fetchedAt": "2026-11-20T15:44:44Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "corner-flames",
+  "title": "Corner Flames",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shader"
+  ],
+  "stack": [
+   "threejs",
+   "shader"
+  ],
+  "tier": "Premium",
+  "description": "Turbulent green-teal flames lick out of opposite corners of a black frame, folding endlessly in soft bloom.",
+  "image": "https://storage.getlayers.ai/3d_scenes/corner-flames.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/corner-flames.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/corner-flames-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/corner-flames-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 12,
+  "createdAt": "2026-04-22",
+  "typeTags": [
+   "fire-plasma",
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "shader",
+   "flames",
+   "corner",
+   "atmosphere",
+   "turbulent",
+   "emerald",
+   "licking",
+   "out",
+   "opposite",
+   "corners",
+   "across",
+   "dark",
+   "quiet",
+   "frame",
+   "fire",
+   "plasma"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "corner-flames",
+    "groupId": "corner-flames",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#0dbf80",
+     "colorB": "#001f33",
+     "bgColor": "#04140f"
+    },
+    "ramp": [
+     "#0dbf80",
+     "#001f33",
+     "#04140f"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/corner-flames-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/corner-flames.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/corner-flames.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "corner-flames.webp": "8364 bytes"
+ }
+}

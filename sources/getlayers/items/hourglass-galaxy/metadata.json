@@ -1,0 +1,98 @@
+{
+ "fetchedAt": "2026-11-20T15:44:38Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "hourglass-galaxy",
+  "title": "Hourglass Galaxy",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Premium",
+  "description": "Two counter-rotating particle funnels pour through a glowing waist like cosmic sand in an hourglass.",
+  "image": "https://storage.getlayers.ai/3d_scenes/hourglass-galaxy.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/hourglass-galaxy.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/hourglass-galaxy-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/hourglass-galaxy-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 20,
+  "createdAt": "2026-04-24",
+  "typeTags": [
+   "galaxy-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "organic"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "galaxy",
+   "vortex",
+   "scroll",
+   "hourglass",
+   "counter",
+   "spinning",
+   "galactic",
+   "funnels",
+   "pouring",
+   "their",
+   "light",
+   "through",
+   "luminous",
+   "waist",
+   "like",
+   "cosmic",
+   "sand",
+   "space"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "hourglass-galaxy",
+    "groupId": "hourglass-galaxy",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#140a2a",
+     "atmoColor": "#ffd9a0",
+     "flameColor": "#ffe7a0",
+     "flameColor2": "#7a4bff",
+     "insideColor": "#ffe7a0",
+     "outsideColor": "#3a1d6e"
+    },
+    "ramp": [
+     "#140a2a",
+     "#ffe7a0",
+     "#7a4bff",
+     "#ffd9a0",
+     "#ffe7a0",
+     "#3a1d6e"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/hourglass-galaxy-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/hourglass-galaxy.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/hourglass-galaxy.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "hourglass-galaxy.webp": "91202 bytes"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:45:54Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "crystal-heart-lake",
+  "title": "Crystal Heart Lake",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/crystal-heart-lake-00f76153e6.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/crystal-heart-lake-00f76153e6.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/crystal-heart-lake-00f76153e6-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "bubbles",
+   "candy",
+   "cotton",
+   "crystal",
+   "daydream",
+   "dreamy",
+   "encircle",
+   "face",
+   "glass",
+   "heart",
+   "jelly",
+   "lake",
+   "landscape",
+   "lilac",
+   "loops",
+   "nature",
+   "orb",
+   "pastel",
+   "peaks",
+   "pink",
+   "ringed",
+   "rippled",
+   "soft",
+   "weightless"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "crystal-heart-lake.webp": "146968 bytes"
+ }
+}

@@ -25,7 +25,7 @@ url: "https://www.getlayers.ai/layer/laocoon"
 - Published: 2026-06-07 · likes: 268
 - Live page: https://www.getlayers.ai/layer/laocoon
 - Preview still: [`assets/laocoon.webp`](../../assets/laocoon.webp)
-- Figma preview: _not published for this template_
+- Figma preview: _not published for this item_
 
 ## Measured performance
 

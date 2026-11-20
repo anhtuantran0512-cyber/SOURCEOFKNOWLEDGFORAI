@@ -1,0 +1,256 @@
+{
+ "fetchedAt": "2026-11-20T15:44:56Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "runic-ribbon",
+  "title": "Runic Ribbon",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A looping ribbon of cobalt metal etched with flowing runic script tumbles over a warm ivory studio sweep, its glyphs flaring azure under the cursor and rippling with each click. Legal for purchase only on getlayers.ai — getlayers.ai/layer/runic-ribbon",
+  "image": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "technical",
+   "calm"
+  ],
+  "keywords": [
+   "along",
+   "anodised",
+   "attractor",
+   "azure",
+   "backdrop",
+   "blue",
+   "bokeh-depth-of-field",
+   "bump-etching",
+   "chaos",
+   "cipher",
+   "clean",
+   "click",
+   "click wave",
+   "click-wave",
+   "cobalt",
+   "code",
+   "cream",
+   "cursor",
+   "cursor glow",
+   "depth of field",
+   "element",
+   "emissive-pulse",
+   "energy",
+   "energy pulse",
+   "etched",
+   "flare",
+   "floats",
+   "glyphs",
+   "ivory",
+   "light mode",
+   "metal",
+   "minimal",
+   "outward",
+   "paper",
+   "physical-material",
+   "pointer-lean",
+   "premium",
+   "product shot",
+   "pulses",
+   "ribbon",
+   "ribbon-geometry",
+   "ripple",
+   "run",
+   "runes",
+   "runic",
+   "script",
+   "strange attractor",
+   "strange-attractor",
+   "studio",
+   "symbols",
+   "text",
+   "threejs",
+   "warm"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "runic-ribbon",
+    "groupId": "runic-ribbon",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "backdrop": "#ebc99c",
+     "bodyColor": "#0a32b4",
+     "etchColor": "#e8ecf4",
+     "glowColor": "#2f7bff",
+     "shadowTint": "#b08a62"
+    },
+    "ramp": [
+     "#0a32b4",
+     "#e8ecf4",
+     "#2f7bff",
+     "#ebc99c",
+     "#b08a62"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204.webp"
+   },
+   {
+    "id": "runic-ribbon-001",
+    "groupId": "runic-ribbon",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "backdrop": "#1a1412",
+     "bodyColor": "#7a1410",
+     "etchColor": "#f6e2b0",
+     "glowColor": "#ff8a3a",
+     "shadowTint": "#0a0604"
+    },
+    "ramp": [
+     "#7a1410",
+     "#f6e2b0",
+     "#ff8a3a",
+     "#1a1412",
+     "#0a0604"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/cac7a4cf-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/cac7a4cf.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/cac7a4cf.webp"
+   },
+   {
+    "id": "runic-ribbon-002",
+    "groupId": "runic-ribbon",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "backdrop": "#e6eef0",
+     "bodyColor": "#c8a050",
+     "etchColor": "#2a1a08",
+     "glowColor": "#ffe0a0",
+     "shadowTint": "#9aaab0"
+    },
+    "ramp": [
+     "#c8a050",
+     "#2a1a08",
+     "#ffe0a0",
+     "#e6eef0",
+     "#9aaab0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/d36138b0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/d36138b0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/d36138b0.webp"
+   },
+   {
+    "id": "runic-ribbon-003",
+    "groupId": "runic-ribbon",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "backdrop": "#0a1a18",
+     "bodyColor": "#0e5a4a",
+     "etchColor": "#e0fff2",
+     "glowColor": "#3affc0",
+     "shadowTint": "#020806"
+    },
+    "ramp": [
+     "#0e5a4a",
+     "#e0fff2",
+     "#3affc0",
+     "#0a1a18",
+     "#020806"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/e5f74b8f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/e5f74b8f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/e5f74b8f.webp"
+   },
+   {
+    "id": "runic-ribbon-004",
+    "groupId": "runic-ribbon",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "backdrop": "#2a2236",
+     "bodyColor": "#1a1a20",
+     "etchColor": "#ffd27a",
+     "glowColor": "#ffb030",
+     "shadowTint": "#0a0810"
+    },
+    "ramp": [
+     "#1a1a20",
+     "#ffd27a",
+     "#ffb030",
+     "#2a2236",
+     "#0a0810"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/b7515c5c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/b7515c5c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/b7515c5c.webp"
+   },
+   {
+    "id": "runic-ribbon-005",
+    "groupId": "runic-ribbon",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "backdrop": "#c4705c",
+     "bodyColor": "#efe8dc",
+     "etchColor": "#9a2e1a",
+     "glowColor": "#ff7a4a",
+     "shadowTint": "#5a2218"
+    },
+    "ramp": [
+     "#efe8dc",
+     "#9a2e1a",
+     "#ff7a4a",
+     "#c4705c",
+     "#5a2218"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/405d60a2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/405d60a2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/runic-ribbon-a18b9ef204/405d60a2.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "runic-ribbon.webp": "112960 bytes"
+ }
+}

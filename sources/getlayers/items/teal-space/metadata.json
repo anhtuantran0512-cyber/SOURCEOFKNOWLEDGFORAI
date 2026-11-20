@@ -1,0 +1,51 @@
+{
+ "fetchedAt": "2026-11-20T15:45:24Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "teal-space",
+  "title": "Teal Space",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/teal-space-1ed951e34e.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/teal-space-1ed951e34e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/teal-space-1ed951e34e-preview.mp4",
+  "likes": 14,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "cosmic-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "space",
+   "teal",
+   "energy",
+   "abstract",
+   "streams",
+   "light",
+   "ripple",
+   "across",
+   "deep",
+   "past",
+   "distant",
+   "glowing",
+   "worlds",
+   "cosmic"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "teal-space.webp": "122086 bytes"
+ }
+}

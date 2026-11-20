@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:42Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "moss-hill-capsule",
+  "title": "Moss Hill Capsule",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/moss-hill-capsule-4eac704a34.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/moss-hill-capsule-4eac704a34.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/moss-hill-capsule-4eac704a34-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "among",
+   "capsule",
+   "covered",
+   "drifts",
+   "egg",
+   "figure",
+   "glass",
+   "green",
+   "hill",
+   "hills",
+   "holding",
+   "landscape",
+   "lavender",
+   "mirrored",
+   "moss",
+   "nature",
+   "pastoral",
+   "peers",
+   "rolling",
+   "sanctuary",
+   "sci",
+   "soft",
+   "surreal"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "moss-hill-capsule.webp": "498894 bytes"
+ }
+}

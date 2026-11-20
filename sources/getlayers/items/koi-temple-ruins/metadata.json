@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:46:35Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "koi-temple-ruins",
+  "title": "Koi Temple Ruins",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/koi-temple-ruins",
+  "image": "https://storage.getlayers.ai/backgrounds/koi-temple-ruins-36a108e09d.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/koi-temple-ruins-36a108e09d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/koi-temple-ruins-36a108e09d-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "ancient",
+   "aquarium",
+   "beneath",
+   "fish",
+   "goldfish",
+   "green",
+   "halls",
+   "koi",
+   "landscape",
+   "moss",
+   "mossy",
+   "murky",
+   "nature",
+   "orange",
+   "past",
+   "ruins",
+   "schools",
+   "stone",
+   "sunken",
+   "swarm",
+   "temple",
+   "underwater",
+   "walls",
+   "water"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "koi-temple-ruins.webp": "325026 bytes"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:46:31Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "sunny-grass-mound",
+  "title": "Sunny Grass Mound",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Free",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/sunny-grass-mound-430c7233d3.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/sunny-grass-mound-430c7233d3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/sunny-grass-mound-430c7233d3-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "away",
+   "behind",
+   "blur",
+   "cloud",
+   "clouds",
+   "dew",
+   "dewy",
+   "down",
+   "eye",
+   "field",
+   "fills",
+   "foreground",
+   "grass",
+   "green",
+   "hills",
+   "landscape",
+   "level",
+   "lying",
+   "macro",
+   "mound",
+   "nature",
+   "sharp",
+   "summer",
+   "sunny",
+   "while"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "sunny-grass-mound.webp": "162828 bytes"
+ }
+}

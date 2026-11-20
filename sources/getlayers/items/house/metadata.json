@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:15Z",
+ "fetchedAt": "2026-11-20T15:42:28Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "house",
@@ -850,6 +850,6 @@
   "status": "premium"
  },
  "files": {
-  "house.webp": "117248 bytes"
+  "house.webp": "cached"
  }
 }

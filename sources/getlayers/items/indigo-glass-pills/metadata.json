@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:46:02Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "indigo-glass-pills",
+  "title": "Indigo Glass Pills",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/indigo-glass-pills-7fc5084e43.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/indigo-glass-pills-7fc5084e43.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/indigo-glass-pills-7fc5084e43-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "black",
+   "calm",
+   "capsules",
+   "catching",
+   "diagonal",
+   "diagonally",
+   "edges",
+   "frosted",
+   "geometric",
+   "geometry",
+   "glass",
+   "indigo",
+   "light",
+   "lines",
+   "near",
+   "night",
+   "overlap",
+   "pills",
+   "thin"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "indigo-glass-pills.webp": "41102 bytes"
+ }
+}

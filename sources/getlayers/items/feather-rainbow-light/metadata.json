@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:40Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "feather-rainbow-light",
+  "title": "Feather Rainbow Light",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/feather-rainbow-light-cd673dd5be.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/feather-rainbow-light-cd673dd5be.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/feather-rainbow-light-cd673dd5be-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "across",
+   "band",
+   "doing",
+   "feather",
+   "folds",
+   "glass",
+   "light",
+   "linen",
+   "morning",
+   "one",
+   "prism",
+   "rainbow",
+   "rests",
+   "single",
+   "slow",
+   "small",
+   "soft",
+   "thing",
+   "throws",
+   "warm",
+   "while"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "feather-rainbow-light.webp": "103300 bytes"
+ }
+}

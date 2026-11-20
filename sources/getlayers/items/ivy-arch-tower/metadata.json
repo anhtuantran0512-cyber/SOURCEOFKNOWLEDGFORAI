@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:45:51Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "ivy-arch-tower",
+  "title": "Ivy Arch Tower",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/ivy-arch-tower-423e9263de.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/ivy-arch-tower-423e9263de.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/ivy-arch-tower-423e9263de-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "arch",
+   "arches",
+   "city",
+   "classical",
+   "distant",
+   "draped",
+   "entrance",
+   "gate",
+   "golden",
+   "ivy",
+   "landscape",
+   "lawn",
+   "light",
+   "lost",
+   "moss",
+   "mossy",
+   "nature",
+   "old",
+   "onto",
+   "open",
+   "ruins",
+   "running",
+   "spire",
+   "stairs",
+   "stone",
+   "sunlit",
+   "tower"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "ivy-arch-tower.webp": "334516 bytes"
+ }
+}

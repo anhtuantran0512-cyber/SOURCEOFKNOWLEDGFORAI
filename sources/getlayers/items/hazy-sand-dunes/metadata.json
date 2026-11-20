@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:40Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "hazy-sand-dunes",
+  "title": "Hazy Sand Dunes",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/hazy-sand-dunes-943c47fcae.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/hazy-sand-dunes-943c47fcae.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/hazy-sand-dunes-943c47fcae-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "beige",
+   "brown",
+   "clouds",
+   "crest",
+   "crossing",
+   "desert",
+   "distant",
+   "dune",
+   "dunes",
+   "dust",
+   "hazy",
+   "heavy",
+   "landscape",
+   "muffled",
+   "nature",
+   "off",
+   "peaks",
+   "sand",
+   "storm",
+   "tears",
+   "towering",
+   "vast",
+   "wind"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "hazy-sand-dunes.webp": "52792 bytes"
+ }
+}

@@ -1,0 +1,191 @@
+{
+ "fetchedAt": "2026-11-20T15:44:41Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "prism-bubbles",
+  "title": "Prism Bubbles",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A cluster of iridescent soap bubbles drifts across a soft blush-pink haze, fusing and morphing as they graze past each other, rainbow shells catching the light in a bright, dreamy shimmer.",
+  "image": "https://storage.getlayers.ai/3d_scenes/prism-bubbles.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/prism-bubbles.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/prism-bubbles-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/prism-bubbles-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 18,
+  "createdAt": "2026-07-01",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "keywords": [
+   "fragment-shader",
+   "metaball",
+   "bubbles",
+   "iridescent",
+   "thin-film",
+   "light",
+   "prism",
+   "field",
+   "soap",
+   "drifting",
+   "bright",
+   "sunlit",
+   "ground",
+   "fusing",
+   "morphing",
+   "when",
+   "they",
+   "touch",
+   "shader"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "prism-bubbles",
+    "groupId": "prism-bubbles",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colBg": "#f78fbf",
+     "colBg2": "#ffd6e6",
+     "colDeep": "#8a2e5a",
+     "colSpec": "#fff0f6"
+    },
+    "ramp": [
+     "#f78fbf",
+     "#ffd6e6",
+     "#fff0f6",
+     "#8a2e5a"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/prism-bubbles-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/prism-bubbles.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/prism-bubbles.webp"
+   },
+   {
+    "id": "prism-bubbles-001",
+    "groupId": "prism-bubbles",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colBg": "#0b0e29",
+     "colBg2": "#201f9a",
+     "colDeep": "#d8d0f2",
+     "colSpec": "#6d5fdf"
+    },
+    "ramp": [
+     "#0b0e29",
+     "#201f9a",
+     "#6d5fdf",
+     "#d8d0f2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/prism-bubbles/2008b1fe-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/prism-bubbles/2008b1fe.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/prism-bubbles/2008b1fe.webp"
+   },
+   {
+    "id": "prism-bubbles-002",
+    "groupId": "prism-bubbles",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colBg": "#0b0f17",
+     "colBg2": "#30446b",
+     "colDeep": "#b3c4d9",
+     "colSpec": "#5d81b7"
+    },
+    "ramp": [
+     "#0b0f17",
+     "#30446b",
+     "#5d81b7",
+     "#b3c4d9"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/prism-bubbles/d5cb270d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/prism-bubbles/d5cb270d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/prism-bubbles/d5cb270d.webp"
+   },
+   {
+    "id": "prism-bubbles-003",
+    "groupId": "prism-bubbles",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colBg": "#150e25",
+     "colBg2": "#532989",
+     "colDeep": "#dec6ea",
+     "colSpec": "#9f61d0"
+    },
+    "ramp": [
+     "#150e25",
+     "#532989",
+     "#9f61d0",
+     "#dec6ea"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/prism-bubbles/889ac8a8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/prism-bubbles/889ac8a8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/prism-bubbles/889ac8a8.webp"
+   },
+   {
+    "id": "prism-bubbles-004",
+    "groupId": "prism-bubbles",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colBg": "#111c1f",
+     "colBg2": "#3f647f",
+     "colDeep": "#e8ebf2",
+     "colSpec": "#89a0c4"
+    },
+    "ramp": [
+     "#111c1f",
+     "#3f647f",
+     "#89a0c4",
+     "#e8ebf2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/prism-bubbles/e69c967d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/prism-bubbles/e69c967d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/prism-bubbles/e69c967d.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "prism-bubbles.webp": "66686 bytes"
+ }
+}

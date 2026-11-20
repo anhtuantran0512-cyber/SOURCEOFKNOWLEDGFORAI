@@ -22,7 +22,7 @@
 `INDEX.md` per folder is the answer to "what is in here" — it is generated from `manifest.json`, so it is
 complete and current. Read it instead of listing folders or loading 66 MB of JSON.
 
-## 1. What exists — 6,832 items across six libraries
+## 1. What exists — 7,662 items across six libraries
 
 | Priority | Library | Items | What it gives | Code? |
 |---:|---|---:|---|---|
@@ -31,7 +31,7 @@ complete and current. Read it instead of listing folders or loading 66 MB of JSO
 | 3 | [`sources/motionsites/`](sources/motionsites/INDEX.md) | 321 | Whole-section briefs: hero, pricing, footer, ecommerce, SaaS | prompt only |
 | 4 | [`sources/lucianlabs/`](sources/lucianlabs/INDEX.md) | 400 | MIT elements with working code, runnable demo, theme tokens | ✅ full source |
 | 5 | [`sources/codefronts/`](sources/codefronts/INDEX.md) | 5,047 | Breadth: components, layouts, navigation, motion, design styles | prompt + code |
-| 6 | [`sources/getlayers/`](sources/getlayers/INDEX.md) | 62 | Whole-page and hero templates: stack, tone, frame timings, Lighthouse, previews | 11 free prompts, 51 locked |
+| 6 | [`sources/getlayers/`](sources/getlayers/INDEX.md) | 892 | Five libraries — templates, 3D scenes, sections, backgrounds, gradients: stack, tone, variants, frame timings, Lighthouse, previews | 18 free prompts (1 captured) · 845 premium |
 
 ## 2. The 100% rule (hard gate)
 

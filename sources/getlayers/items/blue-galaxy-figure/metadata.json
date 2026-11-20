@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:57Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-galaxy-figure",
+  "title": "Blue Galaxy Figure",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-galaxy-figure-f6cfa75123.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blue-galaxy-figure-f6cfa75123.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blue-galaxy-figure-f6cfa75123-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "and",
+   "blue",
+   "carries",
+   "character",
+   "chest",
+   "cosmic",
+   "figure",
+   "galaxy",
+   "holding",
+   "mythic",
+   "nebula",
+   "offers",
+   "one",
+   "open",
+   "palm",
+   "portrait",
+   "quiet",
+   "smaller",
+   "spiral",
+   "stars",
+   "surreal",
+   "universe"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-galaxy-figure.webp": "172322 bytes"
+ }
+}

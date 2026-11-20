@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:38Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "flower-astronaut",
+  "title": "Flower Astronaut",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/flower-astronaut-468de72cdc.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/flower-astronaut-468de72cdc.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/flower-astronaut-468de72cdc-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "astronaut",
+   "backpack",
+   "blooming",
+   "bouquet",
+   "bursting",
+   "camo",
+   "cap",
+   "character",
+   "daisies",
+   "face",
+   "faceless",
+   "figure",
+   "flower",
+   "gear",
+   "grey",
+   "made",
+   "pale",
+   "profile",
+   "should",
+   "spring",
+   "stands",
+   "streetwear",
+   "surreal",
+   "wanderer"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "flower-astronaut.webp": "120842 bytes"
+ }
+}

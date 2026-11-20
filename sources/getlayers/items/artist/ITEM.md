@@ -25,7 +25,7 @@ url: "https://www.getlayers.ai/layer/artist"
 - Published: 2026-06-16 · likes: 70
 - Live page: https://www.getlayers.ai/layer/artist
 - Preview still: [`assets/artist.webp`](../../assets/artist.webp)
-- Figma preview: _not published for this template_
+- Figma preview: _not published for this item_
 
 ## Measured performance
 

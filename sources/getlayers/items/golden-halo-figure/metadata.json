@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:45:37Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "golden-halo-figure",
+  "title": "Golden Halo Figure",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/golden-halo-figure-1f7f31f5b3.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/golden-halo-figure-1f7f31f5b3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/golden-halo-figure-1f7f31f5b3-preview.mp4",
+  "likes": 3,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "ascension",
+   "behind",
+   "character",
+   "cosmic",
+   "drawn",
+   "figure",
+   "filament",
+   "from",
+   "gold",
+   "golden",
+   "halo",
+   "head",
+   "light",
+   "lit",
+   "looks",
+   "radiating",
+   "sainthood",
+   "secular",
+   "spreads",
+   "stars"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "golden-halo-figure.webp": "378394 bytes"
+ }
+}

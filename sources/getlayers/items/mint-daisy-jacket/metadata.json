@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:46:41Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "mint-daisy-jacket",
+  "title": "Mint Daisy Jacket",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/mint-daisy-jacket-e06602d030.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/mint-daisy-jacket-e06602d030.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/mint-daisy-jacket-e06602d030-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bloom",
+   "blooming",
+   "cap",
+   "character",
+   "daisies",
+   "daisy",
+   "face",
+   "faceless",
+   "fashion",
+   "figure",
+   "flowers",
+   "full",
+   "jacket",
+   "lookbook",
+   "mint",
+   "puffer",
+   "should",
+   "spray",
+   "spring",
+   "streetwear"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "mint-daisy-jacket.webp": "108506 bytes"
+ }
+}

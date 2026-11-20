@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:52Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "flower-field-anatomy",
+  "title": "Flower Field Anatomy",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/flower-field-anatomy-5afc1e4d36.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/flower-field-anatomy-5afc1e4d36.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/flower-field-anatomy-5afc1e4d36-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "anatomical",
+   "anatomy",
+   "and",
+   "blooming",
+   "body",
+   "bright",
+   "character",
+   "clinical",
+   "field",
+   "figure",
+   "flower",
+   "flowers",
+   "from",
+   "growing",
+   "inside",
+   "once",
+   "roses",
+   "stands",
+   "surreal",
+   "tender",
+   "the",
+   "through",
+   "translucent",
+   "wildflowers"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "flower-field-anatomy.webp": "173252 bytes"
+ }
+}

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:23Z",
+ "fetchedAt": "2026-11-20T15:42:32Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "flora",
@@ -799,7 +799,7 @@
   "status": "premium"
  },
  "files": {
-  "flora.webp": "135600 bytes",
-  "flora-figma.webp": "306440 bytes"
+  "flora.webp": "cached",
+  "flora-figma.webp": "cached"
  }
 }

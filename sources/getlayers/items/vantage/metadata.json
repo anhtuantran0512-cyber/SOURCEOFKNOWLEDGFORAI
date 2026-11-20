@@ -1,0 +1,73 @@
+{
+ "fetchedAt": "2026-11-20T15:45:07Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "vantage",
+  "title": "Vantage",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A quiet monochrome FAQ: soft white question cards in a pale grey frame, with a dark pill inviting you to get in touch. Legal for purchase only on getlayers.ai — getlayers.ai/layer/vantage",
+  "image": "https://storage.getlayers.ai/sections/vantage-6c4584b85d.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/vantage-6c4584b85d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/vantage-6c4584b85d-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/vantage-6c4584b85d-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/vantage-6c4584b85d-mobile.mp4",
+  "likes": 7,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "faq"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "keywords": [
+   "accordion",
+   "cards",
+   "contact",
+   "contact card",
+   "dark",
+   "expandable",
+   "faq",
+   "frame",
+   "frequently asked questions",
+   "get",
+   "get in touch",
+   "grey",
+   "help section",
+   "inviting",
+   "light faq",
+   "minimal",
+   "minimal faq",
+   "monochrome",
+   "pale",
+   "pill",
+   "property",
+   "question",
+   "quiet",
+   "real estate",
+   "real-estate",
+   "soft",
+   "touch",
+   "vantage",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "vantage.webp": "22848 bytes"
+ }
+}

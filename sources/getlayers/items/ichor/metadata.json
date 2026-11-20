@@ -1,0 +1,384 @@
+{
+ "fetchedAt": "2026-11-20T15:47:15Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "ichor",
+  "title": "Ichor",
+  "description": "A pool with a lip — the liquid stands proud at its own edge and bulges where it is touched.",
+  "nature": "viscous",
+  "family": "liquid",
+  "tier": "Premium",
+  "likes": 25,
+  "createdAt": "2026-08-24",
+  "shaderHash": "605685e7b489a7fae4ac1c7db3792f24",
+  "hues": [
+   "violet",
+   "pink",
+   "red",
+   "teal",
+   "indigo",
+   "amber",
+   "orange",
+   "blue",
+   "magenta",
+   "green"
+  ],
+  "variantCount": 12,
+  "variants": [
+   {
+    "id": "ichor",
+    "groupId": "ichor",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#7b3fd9",
+     "colorB": "#f02be0",
+     "colorC": "#c43ff0",
+     "colorD": "#6a3fd0",
+     "bgColor": "#fdf0fd"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 24,
+    "previewVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0.webp"
+   },
+   {
+    "id": "ichor-001",
+    "groupId": "ichor",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#b9c6e2",
+     "colorB": "#f04a1e",
+     "colorC": "#1f63c8",
+     "colorD": "#ffd9b8",
+     "bgColor": "#fbf6ee"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "pink",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/06d87d13-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/06d87d13.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/06d87d13.webp"
+   },
+   {
+    "id": "ichor-002",
+    "groupId": "ichor",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c4cfe8",
+     "colorB": "#2b4be8",
+     "colorC": "#ff9a2b",
+     "colorD": "#dfe8ff",
+     "bgColor": "#f2f4fb"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/d214e3e7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/d214e3e7.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/d214e3e7.webp"
+   },
+   {
+    "id": "ichor-003",
+    "groupId": "ichor",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#ffd8d0",
+     "colorB": "#e8342b",
+     "colorC": "#ff5a4b",
+     "colorD": "#ff9f80",
+     "bgColor": "#fffaf8"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/bfb1a727-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/bfb1a727.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/bfb1a727.webp"
+   },
+   {
+    "id": "ichor-004",
+    "groupId": "ichor",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#3fc8c0",
+     "colorB": "#f04b8b",
+     "colorC": "#2f9e98",
+     "colorD": "#8fd8b0",
+     "bgColor": "#c8e0d0"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/ea8dd0fc-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/ea8dd0fc.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/ea8dd0fc.webp"
+   },
+   {
+    "id": "ichor-005",
+    "groupId": "ichor",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#b9c6e2",
+     "colorB": "#f04a1e",
+     "colorC": "#1f63c8",
+     "colorD": "#ffd9b8",
+     "bgColor": "#fbf6ee"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "pink",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/fdffb4ab-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/fdffb4ab.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/fdffb4ab.webp"
+   },
+   {
+    "id": "ichor-006",
+    "groupId": "ichor",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#a6a2e2",
+     "colorB": "#8273dc",
+     "colorC": "#6c51c9",
+     "colorD": "#5f3fa6",
+     "bgColor": "#cdceec"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/a331384f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/a331384f.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/a331384f.webp"
+   },
+   {
+    "id": "ichor-007",
+    "groupId": "ichor",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#9fd4d0",
+     "colorB": "#ff7a1e",
+     "colorC": "#1a8f9c",
+     "colorD": "#ffe0bc",
+     "bgColor": "#eef8f8"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "amber",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/84b6a1e4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/84b6a1e4.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/84b6a1e4.webp"
+   },
+   {
+    "id": "ichor-008",
+    "groupId": "ichor",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e8342b",
+     "colorB": "#ffa02b",
+     "colorC": "#f5c842",
+     "colorD": "#ff4d2e",
+     "bgColor": "#fff6e8"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/ed672e92-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/ed672e92.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/ed672e92.webp"
+   },
+   {
+    "id": "ichor-009",
+    "groupId": "ichor",
+    "name": "009",
+    "sortOrder": 9,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#cec0ec",
+     "colorB": "#7b3fe0",
+     "colorC": "#5fcc70",
+     "colorD": "#ecdcff",
+     "bgColor": "#f5f1fc"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/ceda1289-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/ceda1289.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/ceda1289.webp"
+   },
+   {
+    "id": "ichor-010",
+    "groupId": "ichor",
+    "name": "010",
+    "sortOrder": 10,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b5bff",
+     "colorB": "#ff6b5a",
+     "colorC": "#2b5bff",
+     "colorD": "#ffb0a0",
+     "bgColor": "#dce8ff"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/f90b6aa7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/f90b6aa7.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/f90b6aa7.webp"
+   },
+   {
+    "id": "ichor-011",
+    "groupId": "ichor",
+    "name": "011",
+    "sortOrder": 11,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#d8cdb8",
+     "colorB": "#d81e3c",
+     "colorC": "#14a37a",
+     "colorD": "#ffcfc4",
+     "bgColor": "#f7f3ec"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/ed127e3f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/ed127e3f.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/ichor-8fce71b2c0/ed127e3f.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "ichor.webp": "18808 bytes"
+ }
+}

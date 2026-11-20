@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:45:50Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pearl-iridescent-liquid",
+  "title": "Pearl Iridescent Liquid",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pearl-iridescent-liquid-8d84a21de5.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pearl-iridescent-liquid-8d84a21de5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pearl-iridescent-liquid-8d84a21de5-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "aqua",
+   "flecked",
+   "folds",
+   "glass",
+   "glinting",
+   "glitter",
+   "inside",
+   "iridescent",
+   "lilac",
+   "liquid",
+   "opal",
+   "pearl",
+   "pink",
+   "rippled",
+   "satin",
+   "seashell",
+   "sheen",
+   "stars",
+   "tiny",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pearl-iridescent-liquid.webp": "130120 bytes"
+ }
+}

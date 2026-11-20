@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:33Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "stone-head-beam",
+  "title": "Stone Head Beam",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/stone-head-beam-09c9f00b53.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/stone-head-beam-09c9f00b53.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/stone-head-beam-09c9f00b53-preview.mp4",
+  "likes": 5,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "and",
+   "beam",
+   "character",
+   "classical",
+   "cracked",
+   "dark",
+   "darkness",
+   "debris",
+   "down",
+   "from",
+   "hard",
+   "head",
+   "heavy",
+   "judgement",
+   "monochrome",
+   "sits",
+   "stone",
+   "strikes",
+   "theatrical",
+   "through",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "stone-head-beam.webp": "57850 bytes"
+ }
+}

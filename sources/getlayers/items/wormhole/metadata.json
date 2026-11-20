@@ -1,0 +1,96 @@
+{
+ "fetchedAt": "2026-11-20T15:44:48Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "wormhole",
+  "title": "Wormhole",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A hyperspace jump pulled into light: streaks spiral out of a glowing vortex eye and rush past the lens through a haze of drifting colourful bokeh.",
+  "image": "https://storage.getlayers.ai/3d_scenes/wormhole.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/wormhole.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/wormhole-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/wormhole-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 9,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "vortex-tunnel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "threejs",
+   "streaks",
+   "wormhole",
+   "hyperspace",
+   "bokeh",
+   "plunge",
+   "blue",
+   "white",
+   "spiralling",
+   "past",
+   "glowing",
+   "vortex",
+   "eye",
+   "tunnel"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "wormhole",
+    "groupId": "wormhole",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#03040b",
+     "colCool": "#bcd8ff",
+     "colCore": "#ffffff",
+     "colPink": "#ff8fcf",
+     "colWarm": "#ff5a32",
+     "colWhite": "#ffffff",
+     "colVortex": "#9fc4ff"
+    },
+    "ramp": [
+     "#bcd8ff",
+     "#ff5a32",
+     "#ff8fcf",
+     "#ffffff",
+     "#9fc4ff",
+     "#ffffff",
+     "#03040b"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/wormhole-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/wormhole.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/wormhole.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "wormhole.webp": "285134 bytes"
+ }
+}

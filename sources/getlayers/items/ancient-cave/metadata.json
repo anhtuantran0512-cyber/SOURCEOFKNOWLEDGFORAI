@@ -1,0 +1,53 @@
+{
+ "fetchedAt": "2026-11-20T15:45:23Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "ancient-cave",
+  "title": "Ancient Cave",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/ancient-cave.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/ancient-cave.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/ancient-cave-preview.mp4",
+  "likes": 16,
+  "createdAt": "2026-03-23",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "cave",
+   "tree",
+   "moss",
+   "mystical",
+   "nature",
+   "ancient",
+   "luminous",
+   "golden",
+   "glowing",
+   "atop",
+   "mossy",
+   "ruins",
+   "deep",
+   "shadowed",
+   "cavern",
+   "landscape"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "ancient-cave.webp": "319310 bytes"
+ }
+}

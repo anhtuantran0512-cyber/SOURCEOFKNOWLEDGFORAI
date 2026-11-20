@@ -1,0 +1,100 @@
+{
+ "fetchedAt": "2026-11-20T15:44:51Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "halftone-genesis",
+  "title": "Halftone Genesis",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An open cupped hand cradling a slowly turning orb of light, the whole image resolved in soft monochrome halftone.",
+  "image": "https://storage.getlayers.ai/3d_scenes/halftone-genesis-1138b77092.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/halftone-genesis-1138b77092.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/halftone-genesis-1138b77092-preview.mp4",
+  "likes": 4,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "technical"
+  ],
+  "keywords": [
+   "adam",
+   "cradling",
+   "creation",
+   "cupped",
+   "dots",
+   "genesis",
+   "glow",
+   "halftone",
+   "hand",
+   "image",
+   "interactive",
+   "light",
+   "monochrome",
+   "open",
+   "orb",
+   "palm",
+   "particles",
+   "raymarch",
+   "resolved",
+   "sdf",
+   "sdf-raymarch",
+   "shader",
+   "slowly",
+   "soft",
+   "sphere",
+   "threejs",
+   "turning",
+   "whole"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "halftone-genesis",
+    "groupId": "halftone-genesis",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "midColor": "#c8c8c8",
+     "coreColor": "#ffffff",
+     "haloColor": "#ffffff",
+     "plumeColor": "#b4b4b4",
+     "shadowColor": "#2a2a2a"
+    },
+    "ramp": [
+     "#ffffff",
+     "#c8c8c8",
+     "#2a2a2a",
+     "#b4b4b4",
+     "#ffffff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halftone-genesis-1138b77092-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halftone-genesis-1138b77092.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halftone-genesis-1138b77092.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "halftone-genesis.webp": "92350 bytes"
+ }
+}

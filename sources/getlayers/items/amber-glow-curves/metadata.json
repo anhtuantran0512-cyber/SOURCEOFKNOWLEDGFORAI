@@ -1,0 +1,48 @@
+{
+ "fetchedAt": "2026-11-20T15:46:04Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "amber-glow-curves",
+  "title": "Amber Glow Curves",
+  "category": "background",
+  "tags": [
+   "background",
+   "static"
+  ],
+  "stack": [
+   "background",
+   "static"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/amber-glow-curves-7baf8cf6f4.webp",
+  "likes": 1,
+  "createdAt": "2026-07-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "abstract",
+   "amber",
+   "background",
+   "curves",
+   "dark",
+   "glass",
+   "glow",
+   "gold",
+   "minimal"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "amber-glow-curves.webp": "53092 bytes"
+ }
+}

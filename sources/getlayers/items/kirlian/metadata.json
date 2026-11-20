@@ -1,0 +1,325 @@
+{
+ "fetchedAt": "2026-11-20T15:47:15Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "kirlian",
+  "title": "Kirlian",
+  "description": "A body ringed by its own corona, spikes crawling around the edge where the field is tightest.",
+  "nature": "electric",
+  "family": "light",
+  "tier": "Premium",
+  "likes": 22,
+  "createdAt": "2026-08-24",
+  "shaderHash": "b941a74b51aefb80ddfef588f83e40c8",
+  "hues": [
+   "pink",
+   "teal",
+   "red",
+   "magenta",
+   "green",
+   "indigo",
+   "violet",
+   "blue",
+   "orange"
+  ],
+  "variantCount": 10,
+  "variants": [
+   {
+    "id": "kirlian",
+    "groupId": "kirlian",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#f5b8ae",
+     "colorB": "#e8a6b4",
+     "colorC": "#b9b4e8",
+     "colorD": "#efeafb",
+     "bgColor": "#f2c9c0"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "pink",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-23",
+    "likes": 22,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18.webp"
+   },
+   {
+    "id": "kirlian-001",
+    "groupId": "kirlian",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2fd5c0",
+     "colorB": "#7fe8d8",
+     "colorC": "#ff9bc8",
+     "colorD": "#ffd0e0",
+     "bgColor": "#0e3a34"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/d1922089-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/d1922089.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/d1922089.webp"
+   },
+   {
+    "id": "kirlian-002",
+    "groupId": "kirlian",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c41e3a",
+     "colorB": "#e8324d",
+     "colorC": "#ff8fa8",
+     "colorD": "#ffd0d8",
+     "bgColor": "#3a0a12"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/2f6a379c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/2f6a379c.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/2f6a379c.webp"
+   },
+   {
+    "id": "kirlian-003",
+    "groupId": "kirlian",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#ff2d9b",
+     "colorB": "#ff7bc8",
+     "colorC": "#ffd6ec",
+     "colorD": "#ffffff",
+     "bgColor": "#f0e8f5"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "magenta",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/a42ae7a8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/a42ae7a8.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/a42ae7a8.webp"
+   },
+   {
+    "id": "kirlian-004",
+    "groupId": "kirlian",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#3fe07f",
+     "colorB": "#2b6eff",
+     "colorC": "#e0399a",
+     "colorD": "#ffd93f",
+     "bgColor": "#000000"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/ca24403d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/ca24403d.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/ca24403d.webp"
+   },
+   {
+    "id": "kirlian-005",
+    "groupId": "kirlian",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#1f7a6b",
+     "colorB": "#3fbfa0",
+     "colorC": "#c8e85c",
+     "colorD": "#e8f5a0",
+     "bgColor": "#0d2e28"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/fd29f0de-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/fd29f0de.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/fd29f0de.webp"
+   },
+   {
+    "id": "kirlian-006",
+    "groupId": "kirlian",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#f5c9a0",
+     "colorB": "#f0d8c0",
+     "colorC": "#c8d8f5",
+     "colorD": "#a8c8f0",
+     "bgColor": "#f4ded0"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/b9508517-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/b9508517.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/b9508517.webp"
+   },
+   {
+    "id": "kirlian-007",
+    "groupId": "kirlian",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e6ebcf",
+     "colorB": "#c9d6a8",
+     "colorC": "#8fa96b",
+     "colorD": "#5e7a45",
+     "bgColor": "#f5f3e4"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/a82aa77a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/a82aa77a.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/a82aa77a.webp"
+   },
+   {
+    "id": "kirlian-008",
+    "groupId": "kirlian",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2a1f5c",
+     "colorB": "#7b3fd9",
+     "colorC": "#4b6bff",
+     "colorD": "#b78fff",
+     "bgColor": "#120c2e"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/6ce60c38-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/6ce60c38.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/6ce60c38.webp"
+   },
+   {
+    "id": "kirlian-009",
+    "groupId": "kirlian",
+    "name": "009",
+    "sortOrder": 9,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#3a3fa8",
+     "colorB": "#8b3fd9",
+     "colorC": "#e0409a",
+     "colorD": "#ffd7ec",
+     "bgColor": "#0a0a0c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/0256a0fc-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/0256a0fc.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kirlian-2c14484c18/0256a0fc.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "kirlian.webp": "440220 bytes"
+ }
+}

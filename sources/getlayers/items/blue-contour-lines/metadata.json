@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:46:53Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-contour-lines",
+  "title": "Blue Contour Lines",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-contour-lines-3aa1e30a17.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blue-contour-lines-3aa1e30a17.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blue-contour-lines-3aa1e30a17-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "across",
+   "and",
+   "black",
+   "blue",
+   "contour",
+   "dense",
+   "elegant",
+   "flow",
+   "glass",
+   "instrumented",
+   "like",
+   "lines",
+   "map",
+   "moving",
+   "pattern",
+   "redrawn",
+   "silk",
+   "something",
+   "topographic",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-contour-lines.webp": "406558 bytes"
+ }
+}

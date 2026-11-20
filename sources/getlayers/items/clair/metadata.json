@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:26:24Z",
+ "fetchedAt": "2026-11-20T15:43:39Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "clair",
@@ -368,7 +368,7 @@
   "status": "premium"
  },
  "files": {
-  "clair.webp": "134260 bytes",
-  "clair-figma.webp": "92144 bytes"
+  "clair.webp": "cached",
+  "clair-figma.webp": "cached"
  }
 }

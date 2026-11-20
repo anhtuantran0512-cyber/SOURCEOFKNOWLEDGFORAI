@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:52Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "purple-satin-crumple",
+  "title": "Purple Satin Crumple",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/purple-satin-crumple-8b681e8907.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/purple-satin-crumple-8b681e8907.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/purple-satin-crumple-8b681e8907-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "balloon",
+   "blush",
+   "chrome",
+   "close",
+   "crumple",
+   "crumpled",
+   "foil",
+   "glass",
+   "gloss",
+   "holographic",
+   "like",
+   "lilac",
+   "liquid",
+   "metal",
+   "party",
+   "purple",
+   "ripples",
+   "satin",
+   "shimmer",
+   "shimmers",
+   "violet",
+   "y2k"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "purple-satin-crumple.webp": "287606 bytes"
+ }
+}

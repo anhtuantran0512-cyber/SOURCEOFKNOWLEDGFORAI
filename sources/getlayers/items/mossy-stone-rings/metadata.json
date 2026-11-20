@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:47:03Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "mossy-stone-rings",
+  "title": "Mossy Stone Rings",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/mossy-stone-rings-5e09289c2a.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/mossy-stone-rings-5e09289c2a.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/mossy-stone-rings-5e09289c2a-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "ancient",
+   "blossom",
+   "device",
+   "frame",
+   "framing",
+   "hung",
+   "jungle",
+   "landscape",
+   "looking",
+   "misty",
+   "moss",
+   "mossy",
+   "nature",
+   "nested",
+   "portal",
+   "rings",
+   "stone",
+   "the",
+   "through",
+   "valley",
+   "waterfall",
+   "waterfalls",
+   "world"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "mossy-stone-rings.webp": "397858 bytes"
+ }
+}

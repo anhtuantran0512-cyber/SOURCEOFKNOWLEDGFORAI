@@ -1,0 +1,75 @@
+{
+ "fetchedAt": "2026-11-20T15:45:03Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "era-dial",
+  "title": "Era Dial",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A saffron history told on a giant dial: turn the ring and the decades roll past in photos and big light numerals. Legal for purchase only on getlayers.ai — getlayers.ai/layer/era-dial",
+  "image": "https://storage.getlayers.ai/sections/era-dial-e9baadeeed.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/era-dial-e9baadeeed.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/era-dial-e9baadeeed-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/era-dial-e9baadeeed-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/era-dial-e9baadeeed-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/era-dial-e9baadeeed-figma.webp",
+  "hasFigma": true,
+  "likes": 35,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "roadmap"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "about us",
+   "anniversary",
+   "big",
+   "chronology",
+   "decades",
+   "dial",
+   "drag",
+   "drag to rotate",
+   "era",
+   "giant",
+   "heritage",
+   "history",
+   "light",
+   "milestones",
+   "numerals",
+   "odometer",
+   "our story",
+   "past",
+   "photos",
+   "ring",
+   "roadmap",
+   "roll",
+   "rotary",
+   "saffron",
+   "timeline",
+   "told",
+   "turn",
+   "years"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "era-dial.webp": "76622 bytes",
+  "era-dial-figma.webp": "161290 bytes"
+ }
+}

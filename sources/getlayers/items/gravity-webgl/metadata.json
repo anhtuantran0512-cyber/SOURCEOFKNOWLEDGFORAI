@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:22:58Z",
+ "fetchedAt": "2026-11-20T15:44:05Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "gravity-webgl",
@@ -360,6 +360,6 @@
   "status": "rate_limited"
  },
  "files": {
-  "gravity-webgl.webp": "104448 bytes"
+  "gravity-webgl.webp": "cached"
  }
 }

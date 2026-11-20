@@ -1,0 +1,196 @@
+{
+ "fetchedAt": "2026-11-20T15:44:48Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "argent-massif",
+  "title": "Argent Massif",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A silver wireframe massif breathing under an X-ray light, its ridges folding and drifting toward you out of an endless black.",
+  "image": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814-preview.mp4",
+  "likes": 10,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "keywords": [
+   "argent",
+   "black",
+   "breathing",
+   "contour",
+   "drifting",
+   "endless",
+   "folding",
+   "grid",
+   "height-field",
+   "interactive",
+   "light",
+   "massif",
+   "mesh",
+   "monochrome",
+   "mountain",
+   "out",
+   "particles",
+   "ray",
+   "ridge",
+   "ridges",
+   "silver",
+   "terrain",
+   "threejs",
+   "topographic",
+   "toward",
+   "under",
+   "waves",
+   "wireframe",
+   "xray",
+   "you"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "argent-massif",
+    "groupId": "argent-massif",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#000000",
+     "lineColor": "#c9d2dc",
+     "crestColor": "#ffffff",
+     "valleyColor": "#3d444d"
+    },
+    "ramp": [
+     "#000000",
+     "#c9d2dc",
+     "#ffffff",
+     "#3d444d"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814.webp"
+   },
+   {
+    "id": "argent-massif-001",
+    "groupId": "argent-massif",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#000000",
+     "lineColor": "#c9d2dc",
+     "crestColor": "#ffffff",
+     "valleyColor": "#3d444d"
+    },
+    "ramp": [
+     "#000000",
+     "#c9d2dc",
+     "#ffffff",
+     "#3d444d"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814/d22dae20-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814/d22dae20.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814/d22dae20.webp"
+   },
+   {
+    "id": "argent-massif-002",
+    "groupId": "argent-massif",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#000000",
+     "lineColor": "#c9d2dc",
+     "crestColor": "#ffffff",
+     "valleyColor": "#3d444d"
+    },
+    "ramp": [
+     "#000000",
+     "#c9d2dc",
+     "#ffffff",
+     "#3d444d"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814/d984fba1-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814/d984fba1.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814/d984fba1.webp"
+   },
+   {
+    "id": "argent-massif-003",
+    "groupId": "argent-massif",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#000000",
+     "lineColor": "#c9d2dc",
+     "crestColor": "#ffffff",
+     "valleyColor": "#3d444d"
+    },
+    "ramp": [
+     "#000000",
+     "#c9d2dc",
+     "#ffffff",
+     "#3d444d"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814/8ea116ec-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814/8ea116ec.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814/8ea116ec.webp"
+   },
+   {
+    "id": "argent-massif-004",
+    "groupId": "argent-massif",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#000000",
+     "lineColor": "#c9d2dc",
+     "crestColor": "#ffffff",
+     "valleyColor": "#3d444d"
+    },
+    "ramp": [
+     "#000000",
+     "#c9d2dc",
+     "#ffffff",
+     "#3d444d"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814/b020a878-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814/b020a878.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/argent-massif-7c33e26814/b020a878.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "argent-massif.webp": "90904 bytes"
+ }
+}

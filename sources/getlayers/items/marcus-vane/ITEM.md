@@ -25,7 +25,7 @@ url: "https://www.getlayers.ai/layer/marcus-vane"
 - Published: 2026-06-16 · likes: 186
 - Live page: https://www.getlayers.ai/layer/marcus-vane
 - Preview still: [`assets/marcus-vane.webp`](../../assets/marcus-vane.webp)
-- Figma preview: _not published for this template_
+- Figma preview: _not published for this item_
 
 ## Measured performance
 

@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:45:46Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "tilted-car-blooms",
+  "title": "Tilted Car Blooms",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/tilted-car-blooms",
+  "image": "https://storage.getlayers.ai/backgrounds/tilted-car-blooms-c201b7aef7.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/tilted-car-blooms-c201b7aef7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/tilted-car-blooms-c201b7aef7-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "amid",
+   "blooming",
+   "blooms",
+   "blossom",
+   "blue",
+   "branches",
+   "car",
+   "coral",
+   "flooded",
+   "flowers",
+   "garden",
+   "object",
+   "pink",
+   "powder",
+   "product",
+   "reflection",
+   "rocks",
+   "sea",
+   "sedan",
+   "still",
+   "surreal",
+   "tilted",
+   "tilts",
+   "upright",
+   "water",
+   "wildflowers"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "tilted-car-blooms.webp": "255384 bytes"
+ }
+}

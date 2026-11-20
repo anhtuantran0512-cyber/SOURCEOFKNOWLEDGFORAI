@@ -1,0 +1,97 @@
+{
+ "fetchedAt": "2026-11-20T15:44:30Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "epoxy-drift",
+  "title": "Epoxy Drift",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A slow drift of pink and colourless glass turning in soft studio light, scattering apart wherever you push through it.",
+  "image": "https://storage.getlayers.ai/3d_scenes/epoxy-drift-cc596ce8fc.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/epoxy-drift-cc596ce8fc.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/epoxy-drift-cc596ce8fc-preview.mp4",
+  "likes": 46,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "keywords": [
+   "apart",
+   "colourless",
+   "diamond",
+   "drift",
+   "element",
+   "epoxy",
+   "glass",
+   "interactive",
+   "light",
+   "particles",
+   "physics",
+   "pink",
+   "pmndrs-port",
+   "primitives",
+   "push",
+   "refraction",
+   "resin",
+   "scattering",
+   "shapes",
+   "slow",
+   "soft",
+   "studio",
+   "threejs",
+   "through",
+   "transmission",
+   "transmission-glass",
+   "turning",
+   "wherever",
+   "you"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "epoxy-drift",
+    "groupId": "epoxy-drift",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bg": "#f2f2f5",
+     "color": "#ff9cf5",
+     "shadow": "#750d57"
+    },
+    "ramp": [
+     "#f2f2f5",
+     "#ff9cf5",
+     "#750d57"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/epoxy-drift-cc596ce8fc-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/epoxy-drift-cc596ce8fc.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/epoxy-drift-cc596ce8fc.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "epoxy-drift.webp": "94596 bytes"
+ }
+}

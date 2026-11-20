@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:41Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "iridescent-ribbon-coil",
+  "title": "Iridescent Ribbon Coil",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/iridescent-ribbon-coil-6adee35d39.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/iridescent-ribbon-coil-6adee35d39.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/iridescent-ribbon-coil-6adee35d39-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "black",
+   "calm",
+   "coil",
+   "curve",
+   "cyan",
+   "down",
+   "glass",
+   "iridescent",
+   "neon",
+   "peach",
+   "pink",
+   "ribbon",
+   "ridged",
+   "shimmering",
+   "sleek",
+   "slow",
+   "snakes",
+   "sound",
+   "touch",
+   "void",
+   "wave"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "iridescent-ribbon-coil.webp": "174040 bytes"
+ }
+}

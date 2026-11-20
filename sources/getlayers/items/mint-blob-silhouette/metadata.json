@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:41Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "mint-blob-silhouette",
+  "title": "Mint Blob Silhouette",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/mint-blob-silhouette-8d986232f4.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/mint-blob-silhouette-8d986232f4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/mint-blob-silhouette-8d986232f4-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "aqua",
+   "aura",
+   "beside",
+   "blob",
+   "blur",
+   "blurred",
+   "body",
+   "breathing",
+   "character",
+   "dark",
+   "dot",
+   "figure",
+   "meditating",
+   "meditation",
+   "mint",
+   "navy",
+   "outlined",
+   "pale",
+   "pulses",
+   "seated",
+   "silhouette",
+   "small"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "mint-blob-silhouette.webp": "181872 bytes"
+ }
+}

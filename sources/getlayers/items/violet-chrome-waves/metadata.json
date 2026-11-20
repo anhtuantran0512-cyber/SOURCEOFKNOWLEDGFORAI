@@ -1,0 +1,48 @@
+{
+ "fetchedAt": "2026-11-20T15:45:44Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "violet-chrome-waves",
+  "title": "Violet Chrome Waves",
+  "category": "background",
+  "tags": [
+   "background",
+   "static"
+  ],
+  "stack": [
+   "background",
+   "static"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/violet-chrome-waves-56463fcc22.webp",
+  "likes": 2,
+  "createdAt": "2026-07-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "abstract",
+   "background",
+   "blue",
+   "chrome",
+   "glass",
+   "liquid",
+   "purple",
+   "violet",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "violet-chrome-waves.webp": "153988 bytes"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "fetchedAt": "2026-11-20T15:45:01Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "slider-slipstream",
+  "title": "Slider Slipstream",
+  "category": "section",
+  "tags": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An immersive infinite 3D carousel where portrait cards ride one tilted belt receding diagonally into the dark — near cards looming, far cards dissolving to black — as you drag, swipe or arrow-key through the stream.",
+  "image": "https://storage.getlayers.ai/sections/slider-slipstream.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/slider-slipstream.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/slider-slipstream-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/slider-slipstream-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 83,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "carousel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "carousel",
+   "css-3d",
+   "belt",
+   "editorial",
+   "slider",
+   "slipstream",
+   "river",
+   "portrait",
+   "cards",
+   "riding",
+   "one",
+   "tilted",
+   "that",
+   "recedes",
+   "black",
+   "looming",
+   "near",
+   "right",
+   "dissolving",
+   "far",
+   "left"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "slider-slipstream.webp": "112224 bytes"
+ }
+}

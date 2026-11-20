@@ -1,0 +1,92 @@
+{
+ "fetchedAt": "2026-11-20T15:44:34Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "tunnel",
+  "title": "Tunnel",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Free",
+  "description": "A glowing wormhole of particles ripples and swirls deeper into deep indigo and electric cyan.",
+  "image": "https://storage.getlayers.ai/3d_scenes/tunnel.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/tunnel.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/tunnel-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/tunnel-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 111,
+  "createdAt": "2026-03-21",
+  "typeTags": [
+   "vortex-tunnel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "tunnel",
+   "wormhole",
+   "scroll",
+   "luminous",
+   "tube",
+   "cyan",
+   "violet",
+   "light",
+   "rushing",
+   "endlessly",
+   "past",
+   "lens",
+   "vortex"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "tunnel",
+    "groupId": "tunnel",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#0a0524",
+     "colorLow": "#180a3a",
+     "atmoColor": "#8fe6ff",
+     "colorHigh": "#2bf0ff",
+     "flameColor": "#2bf0ff",
+     "flameColor2": "#7a3cff"
+    },
+    "ramp": [
+     "#0a0524",
+     "#2bf0ff",
+     "#7a3cff",
+     "#8fe6ff",
+     "#180a3a",
+     "#2bf0ff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/tunnel-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/tunnel.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/tunnel.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "rate_limited"
+ },
+ "files": {
+  "tunnel.webp": "367164 bytes"
+ }
+}

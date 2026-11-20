@@ -1,0 +1,51 @@
+{
+ "fetchedAt": "2026-11-20T15:45:11Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "white-blossoms",
+  "title": "White Blossoms",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/white-blossoms-0e55c0d9e5.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/white-blossoms-0e55c0d9e5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/white-blossoms-0e55c0d9e5-preview.mp4",
+  "likes": 48,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm",
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "blossoms",
+   "flowers",
+   "white",
+   "moody",
+   "glow",
+   "edges",
+   "dark",
+   "frame",
+   "around",
+   "warm",
+   "golden",
+   "light",
+   "floral"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "white-blossoms.webp": "109964 bytes"
+ }
+}

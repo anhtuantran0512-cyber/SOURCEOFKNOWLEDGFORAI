@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:50Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "violet-bloom-cap",
+  "title": "Violet Bloom Cap",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/violet-bloom-cap-657e222e77.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/violet-bloom-cap-657e222e77.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/violet-bloom-cap-657e222e77-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "anonymous",
+   "black",
+   "bloom",
+   "cap",
+   "character",
+   "face",
+   "faceless",
+   "figure",
+   "flowers",
+   "gone",
+   "has",
+   "jacket",
+   "leather",
+   "overgrown",
+   "puffer",
+   "purple",
+   "seed",
+   "streetwear",
+   "surreal",
+   "trailing",
+   "vines",
+   "violet",
+   "violets"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "violet-bloom-cap.webp": "134336 bytes"
+ }
+}

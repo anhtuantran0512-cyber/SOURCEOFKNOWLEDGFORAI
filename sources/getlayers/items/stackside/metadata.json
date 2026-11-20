@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:26:13Z",
+ "fetchedAt": "2026-11-20T15:43:23Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "stackside",
@@ -367,7 +367,7 @@
   "status": "premium"
  },
  "files": {
-  "stackside.webp": "198012 bytes",
-  "stackside-figma.webp": "110940 bytes"
+  "stackside.webp": "cached",
+  "stackside-figma.webp": "cached"
  }
 }

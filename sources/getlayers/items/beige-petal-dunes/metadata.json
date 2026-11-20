@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:53Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "beige-petal-dunes",
+  "title": "Beige Petal Dunes",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/beige-petal-dunes-8f62751c53.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/beige-petal-dunes-8f62751c53.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/beige-petal-dunes-8f62751c53-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "arches",
+   "beige",
+   "bokeh",
+   "buds",
+   "cream",
+   "dunes",
+   "floral",
+   "glow",
+   "golden",
+   "light",
+   "like",
+   "linen",
+   "macro",
+   "morning",
+   "neutrals",
+   "petal",
+   "rippled",
+   "sand",
+   "sheer",
+   "silk",
+   "skin",
+   "soft",
+   "tiny"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "beige-petal-dunes.webp": "80854 bytes"
+ }
+}

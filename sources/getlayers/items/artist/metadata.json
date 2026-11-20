@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:02Z",
+ "fetchedAt": "2026-11-20T15:44:09Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "artist",
@@ -344,6 +344,6 @@
   "status": "rate_limited"
  },
  "files": {
-  "artist.webp": "71972 bytes"
+  "artist.webp": "cached"
  }
 }

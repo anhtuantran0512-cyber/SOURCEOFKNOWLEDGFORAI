@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:47:06Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "potato-lightning-lab",
+  "title": "Potato Lightning Lab",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/potato-lightning-lab-e391b9b1a7.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/potato-lightning-lab-e391b9b1a7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/potato-lightning-lab-e391b9b1a7-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "advert",
+   "antennae",
+   "cartoon",
+   "cheerfully",
+   "chips",
+   "coil",
+   "exists",
+   "for",
+   "lab",
+   "lightning",
+   "machine",
+   "nothing",
+   "object",
+   "potato",
+   "potatoes",
+   "product",
+   "sky",
+   "surreal",
+   "surround",
+   "that",
+   "under",
+   "unhinged",
+   "vending",
+   "wired"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "potato-lightning-lab.webp": "281628 bytes"
+ }
+}

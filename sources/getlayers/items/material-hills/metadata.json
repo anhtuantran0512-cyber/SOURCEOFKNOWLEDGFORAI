@@ -1,0 +1,53 @@
+{
+ "fetchedAt": "2026-11-20T15:45:21Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "material-hills",
+  "title": "Material Hills",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Free",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/material-hills.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/material-hills.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/material-hills-preview.mp4",
+  "likes": 83,
+  "createdAt": "2026-04-29",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "hills",
+   "soft",
+   "abstract",
+   "green",
+   "clean",
+   "material",
+   "sculpted",
+   "white",
+   "rolling",
+   "like",
+   "felt",
+   "beneath",
+   "pale",
+   "sky",
+   "landscape",
+   "nature"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "material-hills.webp": "165926 bytes"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-pod-lake",
+  "title": "Glass Pod Lake",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-pod-lake-dfb458499d.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-pod-lake-dfb458499d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-pod-lake-dfb458499d-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bubbles",
+   "cat",
+   "character",
+   "dreamy",
+   "drifting",
+   "floating",
+   "glass",
+   "grey",
+   "imaginable",
+   "iridescent",
+   "lake",
+   "mist",
+   "misty",
+   "mountains",
+   "nap",
+   "past",
+   "pastel",
+   "peaks",
+   "pod",
+   "rose",
+   "sleeps",
+   "softest",
+   "tinted",
+   "weightless"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-pod-lake.webp": "203342 bytes"
+ }
+}

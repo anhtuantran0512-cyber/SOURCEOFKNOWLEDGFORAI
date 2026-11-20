@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:45:57Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "navy-fur-waves",
+  "title": "Navy Fur Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/navy-fur-waves-17d7860537.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/navy-fur-waves-17d7860537.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/navy-fur-waves-17d7860537-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "along",
+   "and",
+   "catching",
+   "combed",
+   "cool",
+   "deep",
+   "dense",
+   "each",
+   "fur",
+   "glass",
+   "lies",
+   "light",
+   "long",
+   "macro",
+   "material",
+   "midnight",
+   "navy",
+   "pelt",
+   "ridge",
+   "soft",
+   "texture",
+   "tips",
+   "touchable",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "navy-fur-waves.webp": "279254 bytes"
+ }
+}

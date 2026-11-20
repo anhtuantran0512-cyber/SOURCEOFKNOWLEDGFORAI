@@ -8,7 +8,7 @@ endpoints the websites use in a browser.
 | `crawl_codefronts.py` | Reads `sitemap-0.xml`, extracts the AI prompt and metadata from each component page, writes one markdown file per item and rebuilds `manifest.json`. |
 | `fetch_lucian.py` | Reads the catalog + preview JSON bundles, localises Korean copy to English, writes 400 prompts, 400 standalone demos and `tokens.css`. |
 | `fetch_motionsites.py` | Reads the public catalogue, fetches **only** `is_free = true` prompts, writes markdown files. Paid prompts are never requested. |
-| `fetch_getlayers.py` | Reads the `/templates` RSC payload for all 62 templates, each `/layer/<id>` page for its JSON-LD, downloads poster and Figma stills, and calls the public copy-prompt action for **free-tier prompts only**. Premium answers `forbidden` and is never requested twice. |
+| `fetch_getlayers.py` | Reads the five catalogue pages (templates, 3D scenes, sections, backgrounds, gradients) for all 892 items, each template's `/layer/<id>` page for its JSON-LD, downloads poster and Figma stills, and calls the public copy-prompt actions for **free-tier items only**. Premium answers `forbidden` and is never retried. `--media video|all` also fetches mp4s and Lighthouse HTML. |
 | `build_index.py` | Regenerates `INDEX.md`, per-source `README.md` files and `catalog.json`. |
 | `verify.py` | Validates counts, files, frontmatter, demos and the free/paid boundary. |
 
@@ -27,8 +27,9 @@ python3 scripts/fetch_motionsites.py 4 5   # only 5 free prompts
 
 # GetLayers — stills + free prompts; --media all adds the mp4 mockups and Lighthouse HTML
 python3 scripts/fetch_getlayers.py
+python3 scripts/fetch_getlayers.py --category gradient      # one library only
 python3 scripts/fetch_getlayers.py --media all
-python3 scripts/fetch_getlayers.py --cookie-file ~/gl-cookies.txt   # signed-in run, all 11 free prompts
+python3 scripts/fetch_getlayers.py --cookie-file ~/gl-cookies.txt   # signed-in run, all 18 free prompts
 
 # Rebuild + verify
 python3 scripts/build_index.py

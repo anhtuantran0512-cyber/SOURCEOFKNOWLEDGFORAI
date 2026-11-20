@@ -1,0 +1,175 @@
+{
+ "fetchedAt": "2026-11-20T15:44:59Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "court-bounce",
+  "title": "Court Bounce",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "Basketballs raining onto an oak court and left to bounce, roll and knock each other around in the dark.",
+  "image": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful"
+  ],
+  "keywords": [
+   "and",
+   "around",
+   "ball",
+   "balls",
+   "basketball",
+   "basketballs",
+   "bounce",
+   "can",
+   "collision",
+   "court",
+   "dark",
+   "drop",
+   "each",
+   "element",
+   "gravity",
+   "gym",
+   "hardwood",
+   "knock",
+   "left",
+   "night",
+   "oak",
+   "onto",
+   "other",
+   "physical",
+   "physics",
+   "raining",
+   "roll",
+   "rolling",
+   "rubber",
+   "shove",
+   "sport",
+   "sports",
+   "toy",
+   "you"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "court-bounce",
+    "groupId": "court-bounce",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#404040",
+     "bgBottom": "#000000",
+     "lineColor": "#f6ead2",
+     "floorColor": "#b58b56"
+    },
+    "ramp": [
+     "#404040",
+     "#000000",
+     "#b58b56",
+     "#f6ead2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d.webp"
+   },
+   {
+    "id": "court-bounce-001",
+    "groupId": "court-bounce",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#e5c9e2",
+     "bgBottom": "#cd83b6",
+     "lineColor": "#652f3e",
+     "floorColor": "#ac4677"
+    },
+    "ramp": [
+     "#e5c9e2",
+     "#cd83b6",
+     "#ac4677",
+     "#652f3e"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d/01330684-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d/01330684.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d/01330684.webp"
+   },
+   {
+    "id": "court-bounce-002",
+    "groupId": "court-bounce",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#231f11",
+     "bgBottom": "#7e6235",
+     "lineColor": "#e6d3cb",
+     "floorColor": "#c2966f"
+    },
+    "ramp": [
+     "#231f11",
+     "#7e6235",
+     "#c2966f",
+     "#e6d3cb"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d/d80e6b11-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d/d80e6b11.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d/d80e6b11.webp"
+   },
+   {
+    "id": "court-bounce-003",
+    "groupId": "court-bounce",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#e4dcd1",
+     "bgBottom": "#c3aa8b",
+     "lineColor": "#51402e",
+     "floorColor": "#98764f"
+    },
+    "ramp": [
+     "#e4dcd1",
+     "#c3aa8b",
+     "#98764f",
+     "#51402e"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d/ee820ba8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d/ee820ba8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/court-bounce-d698cd054d/ee820ba8.webp"
+   }
+  ],
+  "variantCount": 4
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "court-bounce.webp": "61406 bytes"
+ }
+}

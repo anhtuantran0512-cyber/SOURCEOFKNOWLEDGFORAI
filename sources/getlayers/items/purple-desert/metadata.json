@@ -1,0 +1,54 @@
+{
+ "fetchedAt": "2026-11-20T15:45:15Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "purple-desert",
+  "title": "Purple Desert",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Free",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/purple-desert.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/purple-desert.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/purple-desert-preview.mp4",
+  "likes": 121,
+  "createdAt": "2026-05-20",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "desert",
+   "dunes",
+   "night",
+   "purple",
+   "moonless",
+   "roll",
+   "toward",
+   "distant",
+   "peaks",
+   "beneath",
+   "deep",
+   "violet",
+   "star",
+   "flecked",
+   "sky",
+   "landscape",
+   "nature"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "purple-desert.webp": "36026 bytes"
+ }
+}

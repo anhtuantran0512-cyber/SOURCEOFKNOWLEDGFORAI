@@ -1,0 +1,51 @@
+{
+ "fetchedAt": "2026-11-20T15:46:04Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "moonlit-pond",
+  "title": "Moonlit Pond",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/moonlit-pond-09826cc07c.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/moonlit-pond-09826cc07c.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/moonlit-pond-09826cc07c-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "pond",
+   "dandelion",
+   "night",
+   "moon",
+   "moonlit",
+   "dandelions",
+   "wildflowers",
+   "hush",
+   "around",
+   "still",
+   "under",
+   "clouded",
+   "landscape",
+   "nature"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "moonlit-pond.webp": "146450 bytes"
+ }
+}

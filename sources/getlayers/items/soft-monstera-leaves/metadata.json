@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:47:06Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "soft-monstera-leaves",
+  "title": "Soft Monstera Leaves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/soft-monstera-leaves-c538f3d698.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/soft-monstera-leaves-c538f3d698.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/soft-monstera-leaves-c538f3d698-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "airy",
+   "and",
+   "behind",
+   "botanical",
+   "dissolve",
+   "floral",
+   "green",
+   "haze",
+   "leaf",
+   "leaves",
+   "light",
+   "minimal",
+   "monstera",
+   "neighbours",
+   "plant",
+   "sharp",
+   "shop",
+   "sits",
+   "soft",
+   "soft-focus",
+   "while",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "soft-monstera-leaves.webp": "78660 bytes"
+ }
+}

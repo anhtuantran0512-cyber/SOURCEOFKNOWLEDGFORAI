@@ -1,0 +1,71 @@
+{
+ "fetchedAt": "2026-11-20T15:45:06Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "cohort",
+  "title": "Cohort",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A warm, welcoming sign-up card ringed by a floating crowd of friendly faces that pop in and drift as you move. Legal for purchase only on getlayers.ai — getlayers.ai/layer/cohort",
+  "image": "https://storage.getlayers.ai/sections/cohort-36b918b2b1.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/cohort-36b918b2b1.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/cohort-36b918b2b1-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/cohort-36b918b2b1-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/cohort-36b918b2b1-mobile.mp4",
+  "likes": 14,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "cta"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "keywords": [
+   "avatars",
+   "call to action",
+   "card",
+   "cohort",
+   "community",
+   "crowd",
+   "cta",
+   "customer faces",
+   "drift",
+   "faces",
+   "floating",
+   "floating avatars",
+   "friendly",
+   "get started",
+   "join us",
+   "light cta",
+   "membership",
+   "move",
+   "pop",
+   "ringed",
+   "sign",
+   "sign up",
+   "signup",
+   "social proof",
+   "team faces",
+   "warm",
+   "welcoming"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cohort.webp": "32152 bytes"
+ }
+}

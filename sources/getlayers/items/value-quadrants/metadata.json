@@ -1,0 +1,74 @@
+{
+ "fetchedAt": "2026-11-20T15:45:04Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "value-quadrants",
+  "title": "Value Quadrants",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Four quiet value words on violet; touch one and its quadrant floods butter yellow over a fresh interior photograph. Legal for purchase only on getlayers.ai — getlayers.ai/layer/value-quadrants",
+  "image": "https://storage.getlayers.ai/sections/value-quadrants-9bb6229c6b.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/value-quadrants-9bb6229c6b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/value-quadrants-9bb6229c6b-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/value-quadrants-9bb6229c6b-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/value-quadrants-9bb6229c6b-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/value-quadrants-9bb6229c6b-figma.webp",
+  "hasFigma": true,
+  "likes": 33,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "features"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "keywords": [
+   "about",
+   "accordion",
+   "butter",
+   "features",
+   "floods",
+   "fresh",
+   "grid",
+   "hover reveal",
+   "hover-reveal",
+   "interior",
+   "interior design",
+   "mission",
+   "photo",
+   "photo background",
+   "photograph",
+   "principles",
+   "purple",
+   "quadrant",
+   "quadrants",
+   "quiet",
+   "studio",
+   "touch",
+   "value",
+   "values",
+   "violet",
+   "words",
+   "yellow"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "value-quadrants.webp": "116100 bytes",
+  "value-quadrants-figma.webp": "195680 bytes"
+ }
+}

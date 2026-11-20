@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:47:07Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "stone-retro-computer",
+  "title": "Stone Retro Computer",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/stone-retro-computer-57a19e7ab5.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/stone-retro-computer-57a19e7ab5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/stone-retro-computer-57a19e7ab5-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "chunky",
+   "computer",
+   "daisies",
+   "desktop",
+   "garden",
+   "grew",
+   "ground",
+   "internet",
+   "meadow",
+   "moss",
+   "mossy",
+   "nostalgia",
+   "object",
+   "old",
+   "product",
+   "retro",
+   "screen",
+   "showing",
+   "sits",
+   "stone",
+   "surreal",
+   "that",
+   "the",
+   "tiny",
+   "toadstools"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "stone-retro-computer.webp": "123862 bytes"
+ }
+}

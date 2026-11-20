@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:45:50Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "holographic-kaleidoscope",
+  "title": "Holographic Kaleidoscope",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/holographic-kaleidoscope-2f300d3fcf.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/holographic-kaleidoscope-2f300d3fcf.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/holographic-kaleidoscope-2f300d3fcf-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "arc",
+   "bright",
+   "cyan",
+   "facets",
+   "fan",
+   "glass",
+   "hazy",
+   "holographic",
+   "kaleidoscope",
+   "lemon",
+   "light",
+   "looking",
+   "magenta",
+   "pastel",
+   "play",
+   "prism",
+   "rainbow",
+   "sugary",
+   "yellow"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "holographic-kaleidoscope.webp": "82394 bytes"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "fetchedAt": "2026-11-20T15:45:05Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "tender",
+  "title": "Tender",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Two crisp pricing cards on soft grey — one plain, one glowing with a juicy coral-to-violet aurora. Legal for purchase only on getlayers.ai — getlayers.ai/layer/tender",
+  "image": "https://storage.getlayers.ai/sections/tender-2315a535ae.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/tender-2315a535ae.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/tender-2315a535ae-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/tender-2315a535ae-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/tender-2315a535ae-mobile.mp4",
+  "likes": 25,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "playful"
+  ],
+  "keywords": [
+   "aurora",
+   "aurora gradient",
+   "billing-toggle",
+   "cards",
+   "coral",
+   "crisp",
+   "featured plan",
+   "fintech",
+   "glowing",
+   "grey",
+   "juicy",
+   "light",
+   "light pricing",
+   "monthly annual toggle",
+   "plain",
+   "plan comparison",
+   "plans",
+   "pricing",
+   "pricing cards",
+   "saas pricing",
+   "soft",
+   "subscription",
+   "tariffs",
+   "tender",
+   "two plans",
+   "violet"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "tender.webp": "40102 bytes"
+ }
+}

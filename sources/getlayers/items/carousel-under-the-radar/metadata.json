@@ -1,0 +1,70 @@
+{
+ "fetchedAt": "2026-11-20T15:45:01Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "carousel-under-the-radar",
+  "title": "Carousel Under The Radar",
+  "category": "section",
+  "tags": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A wheel/fan carousel whose image cards fan across the top like a spread hand around a hidden circle, framed by bold editorial type — drag to spin it endlessly or let it drift.",
+  "image": "https://storage.getlayers.ai/sections/carousel-under-the-radar.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/carousel-under-the-radar.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/carousel-under-the-radar-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/carousel-under-the-radar-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 69,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "carousel"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "carousel",
+   "wheel",
+   "fan",
+   "editorial",
+   "under",
+   "radar",
+   "wide",
+   "crown",
+   "ink",
+   "water",
+   "cards",
+   "fanning",
+   "across",
+   "top",
+   "frame",
+   "spun",
+   "hand",
+   "between",
+   "oversized",
+   "type"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "carousel-under-the-radar.webp": "87816 bytes"
+ }
+}

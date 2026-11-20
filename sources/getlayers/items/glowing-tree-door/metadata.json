@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:45:59Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glowing-tree-door",
+  "title": "Glowing Tree Door",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glowing-tree-door-310d36223d.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glowing-tree-door-310d36223d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glowing-tree-door-310d36223d-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "base",
+   "beside",
+   "black",
+   "burns",
+   "cold",
+   "door",
+   "doorway",
+   "forest",
+   "glow",
+   "glowing",
+   "golden",
+   "huge",
+   "invitation",
+   "landscape",
+   "light",
+   "moss",
+   "mossy",
+   "mystical",
+   "nature",
+   "shouldn",
+   "still",
+   "take",
+   "tree",
+   "warm",
+   "water",
+   "wood",
+   "you"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glowing-tree-door.webp": "164772 bytes"
+ }
+}

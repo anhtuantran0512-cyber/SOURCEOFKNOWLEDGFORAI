@@ -1,0 +1,171 @@
+{
+ "fetchedAt": "2026-11-20T15:44:54Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "luminous-saucer",
+  "title": "Luminous Saucer",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A saucer hanging over a dark field with its rings aglow, a soft green shaft drawing motes and a drifting figure up into the night.",
+  "image": "https://storage.getlayers.ai/3d_scenes/luminous-saucer-99c74c8ce4.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/luminous-saucer-99c74c8ce4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/luminous-saucer-99c74c8ce4-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "technical"
+  ],
+  "keywords": [
+   "abduction",
+   "aglow",
+   "alien",
+   "beam",
+   "dark",
+   "drawing",
+   "drifting",
+   "dust",
+   "element",
+   "field",
+   "figure",
+   "glb",
+   "grass",
+   "green",
+   "hanging",
+   "instanced-grass",
+   "luminous",
+   "model",
+   "motes",
+   "night",
+   "rings",
+   "saucer",
+   "shaders",
+   "shaft",
+   "soft",
+   "threejs",
+   "tractor",
+   "ufo",
+   "volumetric-beam"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "luminous-saucer",
+    "groupId": "luminous-saucer",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#010301",
+     "bgGlow": "#093a1e",
+     "bgBottom": "#020f09",
+     "grassLit": "#2fc76a",
+     "grassTip": "#0a3d18",
+     "beamColor": "#4dffab",
+     "bgHorizon": "#0b3a24",
+     "dustColor": "#c9ffe0",
+     "glowColor": "#c8ffe0",
+     "grassRoot": "#010703",
+     "haloColor": "#8affc6",
+     "lampColor": "#bfffd8",
+     "mistColor": "#0c3a22",
+     "poolColor": "#5bffb0",
+     "starColor": "#c6efdc",
+     "underColor": "#9dffc4"
+    },
+    "ramp": [
+     "#010301",
+     "#020f09",
+     "#093a1e",
+     "#0b3a24",
+     "#c6efdc",
+     "#bfffd8",
+     "#c8ffe0",
+     "#8affc6",
+     "#9dffc4",
+     "#4dffab",
+     "#5bffb0",
+     "#010703",
+     "#0a3d18",
+     "#2fc76a",
+     "#0c3a22",
+     "#c9ffe0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/luminous-saucer-99c74c8ce4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/luminous-saucer-99c74c8ce4.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/luminous-saucer-99c74c8ce4.webp"
+   },
+   {
+    "id": "luminous-saucer-001",
+    "groupId": "luminous-saucer",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#1b1326",
+     "bgGlow": "#332348",
+     "bgBottom": "#271c36",
+     "grassLit": "#bfa9d5",
+     "grassTip": "#b298cd",
+     "beamColor": "#8b62b9",
+     "bgHorizon": "#3f2b59",
+     "dustColor": "#d9cce4",
+     "glowColor": "#64408f",
+     "grassRoot": "#a586c6",
+     "haloColor": "#7046a2",
+     "lampColor": "#57397d",
+     "mistColor": "#ccbbdd",
+     "poolColor": "#9874bf",
+     "starColor": "#4b326b",
+     "underColor": "#7d4fb2"
+    },
+    "ramp": [
+     "#1b1326",
+     "#271c36",
+     "#332348",
+     "#3f2b59",
+     "#4b326b",
+     "#57397d",
+     "#64408f",
+     "#7046a2",
+     "#7d4fb2",
+     "#8b62b9",
+     "#9874bf",
+     "#a586c6",
+     "#b298cd",
+     "#bfa9d5",
+     "#ccbbdd",
+     "#d9cce4"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/luminous-saucer-99c74c8ce4/028fae92-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/luminous-saucer-99c74c8ce4/028fae92.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/luminous-saucer-99c74c8ce4/028fae92.webp"
+   }
+  ],
+  "variantCount": 2
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "luminous-saucer.webp": "51368 bytes"
+ }
+}

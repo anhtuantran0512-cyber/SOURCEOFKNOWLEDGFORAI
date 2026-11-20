@@ -1,0 +1,162 @@
+{
+ "fetchedAt": "2026-11-20T15:44:52Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "vertigo-corridor",
+  "title": "Vertigo Corridor",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An endless striped corridor rushing forward toward a vanishing point that never arrives.",
+  "image": "https://storage.getlayers.ai/3d_scenes/vertigo-corridor-a21836a98d.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/vertigo-corridor-a21836a98d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/vertigo-corridor-a21836a98d-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "vortex-tunnel"
+  ],
+  "tone": "light",
+  "mood": [
+   "brutal",
+   "technical"
+  ],
+  "keywords": [
+   "arrives",
+   "corridor",
+   "endless",
+   "forward",
+   "hallway",
+   "illusion",
+   "interactive",
+   "monochrome",
+   "never",
+   "opart",
+   "particles",
+   "perspective",
+   "point",
+   "raytrace",
+   "rushing",
+   "shader",
+   "striped",
+   "stripes",
+   "that",
+   "threejs",
+   "toward",
+   "tunnel",
+   "vanishing",
+   "vanishing-point",
+   "vertigo",
+   "vortex"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "vertigo-corridor",
+    "groupId": "vertigo-corridor",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorBack": "#060606",
+     "colorDark": "#000000",
+     "colorDeep": "#000000",
+     "colorHaze": "#6a6a6a",
+     "colorLight": "#d2d2d2",
+     "colorTintA": "#8f8f96",
+     "colorTintB": "#96908f"
+    },
+    "ramp": [
+     "#d2d2d2",
+     "#000000",
+     "#6a6a6a",
+     "#000000",
+     "#060606",
+     "#8f8f96",
+     "#96908f"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vertigo-corridor-a21836a98d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vertigo-corridor-a21836a98d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vertigo-corridor-a21836a98d.webp"
+   },
+   {
+    "id": "vertigo-corridor-001",
+    "groupId": "vertigo-corridor",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorBack": "#8e63d2",
+     "colorDark": "#cfbeea",
+     "colorDeep": "#a37ddd",
+     "colorHaze": "#b99ee3",
+     "colorLight": "#e4dbf2",
+     "colorTintA": "#7a4ac4",
+     "colorTintB": "#683daa"
+    },
+    "ramp": [
+     "#e4dbf2",
+     "#cfbeea",
+     "#b99ee3",
+     "#a37ddd",
+     "#8e63d2",
+     "#7a4ac4",
+     "#683daa"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vertigo-corridor-a21836a98d/9c0f8faf-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vertigo-corridor-a21836a98d/9c0f8faf.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vertigo-corridor-a21836a98d/9c0f8faf.webp"
+   },
+   {
+    "id": "vertigo-corridor-002",
+    "groupId": "vertigo-corridor",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorBack": "#cbce55",
+     "colorDark": "#e8e5b7",
+     "colorDeep": "#dbdb72",
+     "colorHaze": "#e0de95",
+     "colorLight": "#f1eed7",
+     "colorTintA": "#b6be3d",
+     "colorTintB": "#929b37"
+    },
+    "ramp": [
+     "#f1eed7",
+     "#e8e5b7",
+     "#e0de95",
+     "#dbdb72",
+     "#cbce55",
+     "#b6be3d",
+     "#929b37"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vertigo-corridor-a21836a98d/e410139b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vertigo-corridor-a21836a98d/e410139b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vertigo-corridor-a21836a98d/e410139b.webp"
+   }
+  ],
+  "variantCount": 3
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "vertigo-corridor.webp": "101898 bytes"
+ }
+}

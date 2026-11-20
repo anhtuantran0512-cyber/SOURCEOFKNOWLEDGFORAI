@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:48Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "dusk-cloud-swirl",
+  "title": "Dusk Cloud Swirl",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/dusk-cloud-swirl-37051991c8.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/dusk-cloud-swirl-37051991c8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/dusk-cloud-swirl-37051991c8-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "against",
+   "blue",
+   "cloud",
+   "clouds",
+   "curls",
+   "dark",
+   "dusk",
+   "dusky",
+   "glowing",
+   "landscape",
+   "last",
+   "light",
+   "nature",
+   "peach",
+   "sky",
+   "spiral",
+   "stirring",
+   "storm",
+   "sunlit",
+   "sunset",
+   "swirl",
+   "thunderhead",
+   "treetops"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "dusk-cloud-swirl.webp": "65414 bytes"
+ }
+}

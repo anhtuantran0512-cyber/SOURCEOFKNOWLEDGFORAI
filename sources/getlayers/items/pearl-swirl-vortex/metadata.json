@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:55Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pearl-swirl-vortex",
+  "title": "Pearl Swirl Vortex",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pearl-swirl-vortex-eb95272224.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pearl-swirl-vortex-eb95272224.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pearl-swirl-vortex-eb95272224-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "around",
+   "bubble",
+   "caught",
+   "core",
+   "cream",
+   "falling",
+   "glass",
+   "glowing",
+   "hazy",
+   "hypnotic",
+   "lens",
+   "like",
+   "lilac",
+   "pearl",
+   "rings",
+   "sage",
+   "soap",
+   "soft",
+   "spin",
+   "swirl",
+   "vortex",
+   "whirlpool"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pearl-swirl-vortex.webp": "140286 bytes"
+ }
+}

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:25:53Z",
+ "fetchedAt": "2026-11-20T15:43:12Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "helion",
@@ -362,7 +362,7 @@
   "status": "premium"
  },
  "files": {
-  "helion.webp": "184390 bytes",
-  "helion-figma.webp": "136178 bytes"
+  "helion.webp": "cached",
+  "helion-figma.webp": "cached"
  }
 }

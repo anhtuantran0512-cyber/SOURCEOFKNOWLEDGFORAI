@@ -1,0 +1,95 @@
+{
+ "fetchedAt": "2026-11-20T15:44:28Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "silver-veil",
+  "title": "Silver Veil",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Broad crescents of silver light raking over folded darkness, grainy as film pushed past its limit.",
+  "image": "https://storage.getlayers.ai/3d_scenes/silver-veil-b8322ad1ae.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/silver-veil-b8322ad1ae.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/silver-veil-b8322ad1ae-preview.mp4",
+  "likes": 79,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "keywords": [
+   "broad",
+   "charcoal",
+   "crescent",
+   "crescents",
+   "darkness",
+   "fbm",
+   "film",
+   "folded",
+   "folds",
+   "gelatin",
+   "grain",
+   "grainy",
+   "interactive",
+   "light",
+   "limit",
+   "monochrome",
+   "noir",
+   "particles",
+   "past",
+   "pushed",
+   "raking",
+   "shader",
+   "silver",
+   "silver-gelatin",
+   "threejs",
+   "veil",
+   "velvet"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "silver-veil",
+    "groupId": "silver-veil",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colMid": "#4d4d4e",
+     "colDark": "#090909",
+     "colLight": "#f3efe6"
+    },
+    "ramp": [
+     "#090909",
+     "#4d4d4e",
+     "#f3efe6"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/silver-veil-b8322ad1ae-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/silver-veil-b8322ad1ae.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/silver-veil-b8322ad1ae.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "silver-veil.webp": "89940 bytes"
+ }
+}

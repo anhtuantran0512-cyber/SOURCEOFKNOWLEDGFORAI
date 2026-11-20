@@ -1,0 +1,240 @@
+{
+ "fetchedAt": "2026-11-20T15:44:55Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "smoke-rings",
+  "title": "Smoke Rings",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Soft smoke rings drift into a dark, gently lit space from every side, rolling, wobbling and unravelling into curling wisps before fading away. Legal for purchase only on getlayers.ai — getlayers.ai/layer/smoke-rings",
+  "image": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "fluid-iridescent"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "keywords": [
+   "abstract",
+   "black background",
+   "blue",
+   "calm",
+   "cinematic",
+   "click",
+   "click-spawn",
+   "dark",
+   "dark-abstract",
+   "drifting",
+   "edges",
+   "elegant",
+   "ember",
+   "fluid",
+   "fluid-physics",
+   "fog",
+   "glide",
+   "haze",
+   "hero background",
+   "interactive",
+   "iridescent",
+   "leapfrog",
+   "lit",
+   "meditative",
+   "minimal",
+   "mist",
+   "moody",
+   "other",
+   "past",
+   "peach",
+   "photography",
+   "pointer-parallax",
+   "raymarching",
+   "realistic",
+   "rings",
+   "roll",
+   "smoke",
+   "smoke ring",
+   "soft light",
+   "soft-lighting",
+   "softly",
+   "studio",
+   "tear",
+   "threejs",
+   "vapor",
+   "void",
+   "volumetric",
+   "volumetric-smoke",
+   "vortex ring",
+   "vortex-rings",
+   "wellness",
+   "wisp",
+   "wisps",
+   "wobble"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "smoke-rings",
+    "groupId": "smoke-rings",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#0d1322",
+     "bgBottom": "#030406",
+     "keyColor": "#ffb784",
+     "fillColor": "#6aa6ff",
+     "glowColor": "#141c2e",
+     "smokeColor": "#eef0f4"
+    },
+    "ramp": [
+     "#0d1322",
+     "#030406",
+     "#141c2e",
+     "#ffb784",
+     "#6aa6ff",
+     "#eef0f4"
+    ],
+    "createdAt": "2026-10-29",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f.webp"
+   },
+   {
+    "id": "smoke-rings-001",
+    "groupId": "smoke-rings",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#0c0c0d",
+     "bgBottom": "#010101",
+     "keyColor": "#fff6ec",
+     "fillColor": "#9fb4d6",
+     "glowColor": "#18181a",
+     "smokeColor": "#f4f2ee"
+    },
+    "ramp": [
+     "#0c0c0d",
+     "#010101",
+     "#18181a",
+     "#fff6ec",
+     "#9fb4d6",
+     "#f4f2ee"
+    ],
+    "createdAt": "2026-10-29",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f/a2f7036a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f/a2f7036a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f/a2f7036a.webp"
+   },
+   {
+    "id": "smoke-rings-002",
+    "groupId": "smoke-rings",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#120a1d",
+     "bgBottom": "#030206",
+     "keyColor": "#ff6fb8",
+     "fillColor": "#4d7bff",
+     "glowColor": "#1e0f30",
+     "smokeColor": "#f2eaf6"
+    },
+    "ramp": [
+     "#120a1d",
+     "#030206",
+     "#1e0f30",
+     "#ff6fb8",
+     "#4d7bff",
+     "#f2eaf6"
+    ],
+    "createdAt": "2026-10-29",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f/01bd1d5f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f/01bd1d5f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f/01bd1d5f.webp"
+   },
+   {
+    "id": "smoke-rings-003",
+    "groupId": "smoke-rings",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#140604",
+     "bgBottom": "#020101",
+     "keyColor": "#ff8a3c",
+     "fillColor": "#ffd9a0",
+     "glowColor": "#2a0e06",
+     "smokeColor": "#f4e6dc"
+    },
+    "ramp": [
+     "#140604",
+     "#020101",
+     "#2a0e06",
+     "#ff8a3c",
+     "#ffd9a0",
+     "#f4e6dc"
+    ],
+    "createdAt": "2026-10-29",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f/990dfe1c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f/990dfe1c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f/990dfe1c.webp"
+   },
+   {
+    "id": "smoke-rings-004",
+    "groupId": "smoke-rings",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#04191c",
+     "bgBottom": "#010405",
+     "keyColor": "#7ff2e6",
+     "fillColor": "#ffb36a",
+     "glowColor": "#0a3134",
+     "smokeColor": "#eef0f4"
+    },
+    "ramp": [
+     "#04191c",
+     "#010405",
+     "#0a3134",
+     "#7ff2e6",
+     "#ffb36a",
+     "#eef0f4"
+    ],
+    "createdAt": "2026-10-29",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f/bc50d127-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f/bc50d127.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/smoke-rings-17ba27988f/bc50d127.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "smoke-rings.webp": "20422 bytes"
+ }
+}

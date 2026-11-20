@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:47:05Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pastel-mirror-peaks",
+  "title": "Pastel Mirror Peaks",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pastel-mirror-peaks-9ce055c18f.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pastel-mirror-peaks-9ce055c18f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pastel-mirror-peaks-9ce055c18f-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "everything",
+   "flat",
+   "landscape",
+   "lilac",
+   "minimal",
+   "mirror",
+   "nature",
+   "pastel",
+   "peach",
+   "peaks",
+   "plain",
+   "reflection",
+   "removed",
+   "rendered",
+   "silence",
+   "sky",
+   "smooth",
+   "stand",
+   "under",
+   "with"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pastel-mirror-peaks.webp": "33274 bytes"
+ }
+}

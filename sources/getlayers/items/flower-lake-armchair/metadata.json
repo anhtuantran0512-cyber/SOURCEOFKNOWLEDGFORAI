@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:46:38Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "flower-lake-armchair",
+  "title": "Flower Lake Armchair",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/flower-lake-armchair-1283311c58.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/flower-lake-armchair-1283311c58.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/flower-lake-armchair-1283311c58-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "armchair",
+   "beside",
+   "birch",
+   "birches",
+   "daisies",
+   "daisy",
+   "flower",
+   "framed",
+   "hanging",
+   "lake",
+   "landscape",
+   "living",
+   "meadow",
+   "nature",
+   "outside",
+   "painting",
+   "pink",
+   "pool",
+   "quiet",
+   "room",
+   "seat",
+   "sits",
+   "still",
+   "surreal",
+   "wall",
+   "went"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "flower-lake-armchair.webp": "502080 bytes"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:47:12Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "windy-white-grass",
+  "title": "Windy White Grass",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/windy-white-grass-2b8b4bb86c.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/windy-white-grass-2b8b4bb86c.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/windy-white-grass-2b8b4bb86c-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "almost",
+   "blur",
+   "caught",
+   "cream",
+   "dissolving",
+   "frame",
+   "grass",
+   "green",
+   "gust",
+   "heads",
+   "hurry",
+   "landscape",
+   "macro",
+   "mid",
+   "motion",
+   "nature",
+   "pale",
+   "sideways",
+   "softness",
+   "white",
+   "wind",
+   "windy"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "windy-white-grass.webp": "39524 bytes"
+ }
+}

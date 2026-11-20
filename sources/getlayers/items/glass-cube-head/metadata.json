@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:46:38Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-cube-head",
+  "title": "Glass Cube Head",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-cube-head-1fe05ff8c1.webp",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "blue",
+   "breaking",
+   "bust",
+   "character",
+   "chrome",
+   "cool",
+   "cube",
+   "face",
+   "fractured",
+   "free",
+   "futuristic",
+   "glass",
+   "ground",
+   "head",
+   "identity",
+   "inside",
+   "mind",
+   "pale",
+   "pearl",
+   "pearly",
+   "shards",
+   "shatters",
+   "translucent"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-cube-head.webp": "101836 bytes"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:59Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-floral-puffer",
+  "title": "Glass Floral Puffer",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-floral-puffer-e9e0caba8f.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-floral-puffer-e9e0caba8f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-floral-puffer-e9e0caba8f-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "blossom",
+   "cap",
+   "character",
+   "clear",
+   "editorial",
+   "fashion",
+   "floral",
+   "full",
+   "glass",
+   "greenhouse",
+   "grey",
+   "grown",
+   "jacket",
+   "packed",
+   "pale",
+   "plastic",
+   "puffer",
+   "spring",
+   "stand",
+   "streetwear",
+   "translucent",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-floral-puffer.webp": "86036 bytes"
+ }
+}

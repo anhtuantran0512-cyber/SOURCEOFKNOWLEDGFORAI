@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:52Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-arrow-ribbon",
+  "title": "Blue Arrow Ribbon",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-arrow-ribbon-bed37d52d9.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blue-arrow-ribbon-bed37d52d9.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blue-arrow-ribbon-bed37d52d9-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "arrow",
+   "arrows",
+   "blue",
+   "clean",
+   "corporate",
+   "crosses",
+   "direction",
+   "field",
+   "flock",
+   "glass",
+   "momentum",
+   "motion",
+   "one",
+   "past",
+   "ribbon",
+   "streaks",
+   "translucent",
+   "velocity",
+   "wave",
+   "while",
+   "white",
+   "wireframe"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-arrow-ribbon.webp": "185842 bytes"
+ }
+}

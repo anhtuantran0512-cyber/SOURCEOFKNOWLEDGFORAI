@@ -1,0 +1,238 @@
+{
+ "fetchedAt": "2026-11-20T15:47:15Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "hyaline",
+  "title": "Hyaline",
+  "description": "Refraction through a height field with one index per channel — the split is in the glass, not painted on.",
+  "nature": "glass",
+  "family": "optical",
+  "tier": "Premium",
+  "likes": 26,
+  "createdAt": "2026-08-24",
+  "shaderHash": "b0e7ebb6d9c3a75ef0cec01a3fbbf82e",
+  "hues": [
+   "teal",
+   "green",
+   "blue",
+   "red",
+   "indigo",
+   "orange",
+   "neutral",
+   "amber",
+   "violet"
+  ],
+  "variantCount": 7,
+  "variants": [
+   {
+    "id": "hyaline",
+    "groupId": "hyaline",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#e8eeee",
+     "colorB": "#d2e2e2",
+     "colorC": "#a8c3c6",
+     "colorD": "#55707a",
+     "bgColor": "#f1f4f3"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 25,
+    "previewVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9.webp"
+   },
+   {
+    "id": "hyaline-001",
+    "groupId": "hyaline",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#b7dabf",
+     "colorB": "#7bc297",
+     "colorC": "#4f9b79",
+     "colorD": "#376154",
+     "bgColor": "#eff6ef"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/1e8b89de-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/1e8b89de.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/1e8b89de.webp"
+   },
+   {
+    "id": "hyaline-002",
+    "groupId": "hyaline",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#3f485b",
+     "colorB": "#68739c",
+     "colorC": "#abadc4",
+     "colorD": "#eaeaf0",
+     "bgColor": "#14171b"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "dark",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/c21ebe04-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/c21ebe04.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/c21ebe04.webp"
+   },
+   {
+    "id": "hyaline-003",
+    "groupId": "hyaline",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#b9b8c8",
+     "colorB": "#9697b2",
+     "colorC": "#797d98",
+     "colorD": "#606779",
+     "bgColor": "#d9d8e0"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "dark",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/ec04c94f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/ec04c94f.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/ec04c94f.webp"
+   },
+   {
+    "id": "hyaline-004",
+    "groupId": "hyaline",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#ceb1b6",
+     "colorB": "#b48084",
+     "colorC": "#8f5b5a",
+     "colorD": "#5e4340",
+     "bgColor": "#eae0e2"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/4b0d6a74-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/4b0d6a74.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/4b0d6a74.webp"
+   },
+   {
+    "id": "hyaline-005",
+    "groupId": "hyaline",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#a7a4dd",
+     "colorB": "#7e76d4",
+     "colorC": "#6054bf",
+     "colorD": "#50439a",
+     "bgColor": "#ceceea"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/e8ca2fb0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/e8ca2fb0.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/e8ca2fb0.webp"
+   },
+   {
+    "id": "hyaline-006",
+    "groupId": "hyaline",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#bab8d1",
+     "colorB": "#9995bf",
+     "colorC": "#7d77a8",
+     "colorD": "#655f8b",
+     "bgColor": "#dad9e5"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/9312be2d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/9312be2d.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/hyaline-9971eaaef9/9312be2d.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "hyaline.webp": "33658 bytes"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "fetchedAt": "2026-11-20T15:46:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-wire-cube",
+  "title": "Glass Wire Cube",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-wire-cube-37d90c6ec4.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-wire-cube-37d90c6ec4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-wire-cube-37d90c6ec4-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "air",
+   "around",
+   "blue",
+   "chrome",
+   "cool",
+   "cube",
+   "dandelion",
+   "dandelions",
+   "form",
+   "glass",
+   "grass",
+   "holding",
+   "lungs",
+   "meadow",
+   "meets",
+   "object",
+   "open",
+   "organ",
+   "product",
+   "set",
+   "silver",
+   "sky",
+   "specimen",
+   "tech",
+   "whip",
+   "wild",
+   "wire",
+   "wires"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-wire-cube.webp": "221308 bytes"
+ }
+}

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:26:18Z",
+ "fetchedAt": "2026-11-20T15:43:28Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "neural-monitor",
@@ -382,6 +382,6 @@
   "status": "premium"
  },
  "files": {
-  "neural-monitor.webp": "140962 bytes"
+  "neural-monitor.webp": "cached"
  }
 }

@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:40Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "golden-light-loops",
+  "title": "Golden Light Loops",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/golden-light-loops-c5c1c09588.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/golden-light-loops-c5c1c09588.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/golden-light-loops-c5c1c09588-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "against",
+   "amber",
+   "another",
+   "black",
+   "coil",
+   "dark",
+   "energy",
+   "exposure",
+   "glass",
+   "glow",
+   "glowing",
+   "gold",
+   "golden",
+   "light",
+   "light-trails",
+   "long",
+   "loop",
+   "loops",
+   "orange",
+   "pure",
+   "sparklers",
+   "trails",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "golden-light-loops.webp": "142094 bytes"
+ }
+}

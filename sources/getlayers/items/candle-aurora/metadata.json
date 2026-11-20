@@ -1,0 +1,108 @@
+{
+ "fetchedAt": "2026-11-20T15:44:50Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "candle-aurora",
+  "title": "Candle Aurora",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A live candlestick chart racing leftward under slow green aurora curtains, the newest candle still forming.",
+  "image": "https://storage.getlayers.ai/3d_scenes/candle-aurora-468bb7217a.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/candle-aurora-468bb7217a.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/candle-aurora-468bb7217a-preview.mp4",
+  "likes": 5,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "keywords": [
+   "aurora",
+   "candle",
+   "candlestick",
+   "chart",
+   "crypto",
+   "curtains",
+   "dashboard",
+   "data",
+   "desk",
+   "element",
+   "finance",
+   "fintech",
+   "forming",
+   "green",
+   "leftward",
+   "lights",
+   "live",
+   "market",
+   "motion",
+   "newest",
+   "night",
+   "northern",
+   "ohlc",
+   "quiet",
+   "racing",
+   "scrolling",
+   "slow",
+   "still",
+   "stocks",
+   "ticker",
+   "trading",
+   "under",
+   "weather"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "candle-aurora",
+    "groupId": "candle-aurora",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#02120c",
+     "upColor": "#3dffa0",
+     "downColor": "#ff4b5c",
+     "glowColor": "#2c3531",
+     "spotColor": "#00703e",
+     "sparkColor": "#9dffcf",
+     "auroraColor": "#14e181"
+    },
+    "ramp": [
+     "#02120c",
+     "#14e181",
+     "#00703e",
+     "#2c3531",
+     "#3dffa0",
+     "#ff4b5c",
+     "#9dffcf"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/candle-aurora-468bb7217a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/candle-aurora-468bb7217a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/candle-aurora-468bb7217a.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "candle-aurora.webp": "23024 bytes"
+ }
+}

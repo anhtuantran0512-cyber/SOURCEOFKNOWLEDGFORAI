@@ -1,0 +1,267 @@
+{
+ "fetchedAt": "2026-11-20T15:44:57Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "observatory",
+  "title": "Observatory",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A white-domed mountain observatory before dawn, its slit open to a glittering Milky Way above a sea of cloud, the telescope slewing as the dome follows. Legal for purchase only on getlayers.ai — getlayers.ai/layer/observatory",
+  "image": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "galaxy-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "above",
+   "astronomy",
+   "astrophotography",
+   "blue hour",
+   "cinematic",
+   "click",
+   "click to slew",
+   "click-slew",
+   "cloud",
+   "cloud sea",
+   "cosmos",
+   "dark",
+   "dawn",
+   "dome",
+   "dome-mechanism",
+   "domed",
+   "galaxy",
+   "glittering",
+   "glowing",
+   "landing page hero",
+   "long exposure",
+   "milky",
+   "milky way",
+   "milky-way",
+   "mountain",
+   "night sky",
+   "observatory",
+   "pointer-parallax",
+   "procedural-sky",
+   "ray-marched-clouds",
+   "red lamp",
+   "refractor",
+   "science",
+   "sea",
+   "sea of clouds",
+   "sky",
+   "slews",
+   "snow",
+   "sound",
+   "space",
+   "standing",
+   "star trails",
+   "stars",
+   "summit",
+   "telescope",
+   "threejs",
+   "time-lapse",
+   "town lights",
+   "tracks",
+   "turning",
+   "way",
+   "white"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "observatory",
+    "groupId": "observatory",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "domeColor": "#e9e8e2",
+     "drumColor": "#d8d4ca",
+     "lampColor": "#ff3a1a",
+     "rockColor": "#857c72",
+     "snowColor": "#b2c0da",
+     "tubeColor": "#33493e"
+    },
+    "ramp": [
+     "#857c72",
+     "#b2c0da",
+     "#e9e8e2",
+     "#33493e",
+     "#d8d4ca",
+     "#ff3a1a"
+    ],
+    "createdAt": "2026-10-29",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81.webp"
+   },
+   {
+    "id": "observatory-001",
+    "groupId": "observatory",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "domeColor": "#e9e8e2",
+     "drumColor": "#d8d4ca",
+     "lampColor": "#ff3a1a",
+     "rockColor": "#857c72",
+     "snowColor": "#b2c0da",
+     "tubeColor": "#33493e"
+    },
+    "ramp": [
+     "#857c72",
+     "#b2c0da",
+     "#e9e8e2",
+     "#33493e",
+     "#d8d4ca",
+     "#ff3a1a"
+    ],
+    "createdAt": "2026-10-29",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/e446718c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/e446718c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/e446718c.webp"
+   },
+   {
+    "id": "observatory-002",
+    "groupId": "observatory",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "domeColor": "#e9e8e2",
+     "drumColor": "#d8d4ca",
+     "lampColor": "#ff3a1a",
+     "rockColor": "#857c72",
+     "snowColor": "#b2c0da",
+     "tubeColor": "#33493e"
+    },
+    "ramp": [
+     "#857c72",
+     "#b2c0da",
+     "#e9e8e2",
+     "#33493e",
+     "#d8d4ca",
+     "#ff3a1a"
+    ],
+    "createdAt": "2026-10-29",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/741cc116-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/741cc116.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/741cc116.webp"
+   },
+   {
+    "id": "observatory-003",
+    "groupId": "observatory",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "domeColor": "#e9e8e2",
+     "drumColor": "#d8d4ca",
+     "lampColor": "#ff3a1a",
+     "rockColor": "#857c72",
+     "snowColor": "#b2c0da",
+     "tubeColor": "#33493e"
+    },
+    "ramp": [
+     "#857c72",
+     "#b2c0da",
+     "#e9e8e2",
+     "#33493e",
+     "#d8d4ca",
+     "#ff3a1a"
+    ],
+    "createdAt": "2026-10-29",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/5e0325a4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/5e0325a4.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/5e0325a4.webp"
+   },
+   {
+    "id": "observatory-004",
+    "groupId": "observatory",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "domeColor": "#e9e8e2",
+     "drumColor": "#d8d4ca",
+     "lampColor": "#ff3a1a",
+     "rockColor": "#77746f",
+     "snowColor": "#b2c0da",
+     "tubeColor": "#33493e"
+    },
+    "ramp": [
+     "#77746f",
+     "#b2c0da",
+     "#e9e8e2",
+     "#33493e",
+     "#d8d4ca",
+     "#ff3a1a"
+    ],
+    "createdAt": "2026-10-29",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/e4b20af7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/e4b20af7.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/e4b20af7.webp"
+   },
+   {
+    "id": "observatory-005",
+    "groupId": "observatory",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "domeColor": "#e9e8e2",
+     "drumColor": "#d8d4ca",
+     "lampColor": "#ff3a1a",
+     "rockColor": "#857c72",
+     "snowColor": "#b2c0da",
+     "tubeColor": "#33493e"
+    },
+    "ramp": [
+     "#857c72",
+     "#b2c0da",
+     "#e9e8e2",
+     "#33493e",
+     "#d8d4ca",
+     "#ff3a1a"
+    ],
+    "createdAt": "2026-11-02",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/1793c285-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/1793c285.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/observatory-52d25d5d81/1793c285.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "observatory.webp": "134672 bytes"
+ }
+}

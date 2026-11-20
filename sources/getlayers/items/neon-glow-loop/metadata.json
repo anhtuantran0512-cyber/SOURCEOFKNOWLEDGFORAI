@@ -1,0 +1,48 @@
+{
+ "fetchedAt": "2026-11-20T15:45:44Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "neon-glow-loop",
+  "title": "Neon Glow Loop",
+  "category": "background",
+  "tags": [
+   "background",
+   "static"
+  ],
+  "stack": [
+   "background",
+   "static"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/neon-glow-loop-cfa7914ec7.webp",
+  "likes": 2,
+  "createdAt": "2026-07-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "playful"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "abstract",
+   "background",
+   "blue",
+   "glass",
+   "glow",
+   "green",
+   "loop",
+   "neon",
+   "ring"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "neon-glow-loop.webp": "59560 bytes"
+ }
+}

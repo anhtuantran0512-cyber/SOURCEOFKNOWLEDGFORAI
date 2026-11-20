@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:25:13Z",
+ "fetchedAt": "2026-11-20T15:43:03Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "lumea",
@@ -565,7 +565,7 @@
   "status": "premium"
  },
  "files": {
-  "lumea.webp": "82288 bytes",
-  "lumea-figma.webp": "60798 bytes"
+  "lumea.webp": "cached",
+  "lumea-figma.webp": "cached"
  }
 }

@@ -1,0 +1,158 @@
+{
+ "fetchedAt": "2026-11-20T15:44:27Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "holo-hand",
+  "title": "Holo Hand",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A hand materialising as a green hologram over a dot field that dents and trails behind the cursor.",
+  "image": "https://storage.getlayers.ai/3d_scenes/holo-hand-964c6b7933.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/holo-hand-964c6b7933.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/holo-hand-964c6b7933-preview.mp4",
+  "likes": 94,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "keywords": [
+   "behind",
+   "clean",
+   "cursor",
+   "dents",
+   "dot",
+   "dot-field",
+   "dots",
+   "element",
+   "field",
+   "film",
+   "from",
+   "futuristic",
+   "gesture",
+   "ghost",
+   "green",
+   "hand",
+   "holo",
+   "hologram",
+   "hud",
+   "interface",
+   "materialising",
+   "mesh",
+   "scan",
+   "scanline",
+   "sci",
+   "sci-fi",
+   "that",
+   "touch",
+   "trails",
+   "wireframe"
+  ],
+  "variants": [
+   {
+    "id": "holo-hand",
+    "groupId": "holo-hand",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgMid": "#070d0b",
+     "bgInner": "#101b17",
+     "bgOuter": "#040806",
+     "dotColor": "#a8cfc0",
+     "handColor": "#7ef0d0",
+     "handAccent": "#f2d24b"
+    },
+    "ramp": [
+     "#7ef0d0",
+     "#f2d24b",
+     "#a8cfc0",
+     "#101b17",
+     "#070d0b",
+     "#040806"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/holo-hand-964c6b7933-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/holo-hand-964c6b7933.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/holo-hand-964c6b7933.webp"
+   },
+   {
+    "id": "holo-hand-001",
+    "groupId": "holo-hand",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgMid": "#070d0b",
+     "bgInner": "#070d0b",
+     "bgOuter": "#040806",
+     "dotColor": "#193d5d",
+     "handColor": "#ccd5f1",
+     "handAccent": "#f2d24b"
+    },
+    "ramp": [
+     "#ccd5f1",
+     "#f2d24b",
+     "#193d5d",
+     "#070d0b",
+     "#070d0b",
+     "#040806"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/holo-hand-964c6b7933/68487373-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/holo-hand-964c6b7933/68487373.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/holo-hand-964c6b7933/68487373.webp"
+   },
+   {
+    "id": "holo-hand-002",
+    "groupId": "holo-hand",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgMid": "#070d0b",
+     "bgInner": "#070d0b",
+     "bgOuter": "#040806",
+     "dotColor": "#3d6a5c",
+     "handColor": "#e1eee2",
+     "handAccent": "#f2d24b"
+    },
+    "ramp": [
+     "#e1eee2",
+     "#f2d24b",
+     "#3d6a5c",
+     "#070d0b",
+     "#070d0b",
+     "#040806"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/holo-hand-964c6b7933/14f0ef3e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/holo-hand-964c6b7933/14f0ef3e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/holo-hand-964c6b7933/14f0ef3e.webp"
+   }
+  ],
+  "variantCount": 3
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "holo-hand.webp": "353828 bytes"
+ }
+}

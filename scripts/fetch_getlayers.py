@@ -1,32 +1,33 @@
 #!/usr/bin/env python3
-"""Archive the public GetLayers template library.
+"""Archive the public GetLayers library: templates, 3D scenes, sections, backgrounds, gradients.
 
-Source: https://www.getlayers.ai/templates
+Source: https://www.getlayers.ai/templates · /3d-scenes · /sections · /backgrounds · /gradients
 
-Every template in the public catalogue is collected:
+Every item in every public catalogue is collected with the record the site ships
+to the browser — tier, stack, tags, tone, mood, keywords, type tags, publish
+date, likes, variants (colours, ramps, video and poster URLs), measured frame
+timings and Lighthouse results where published — plus one poster still per item
+and the Figma preview where one exists.
 
-* the full public record the site ships to the browser — tier, stack, tags,
-  tone, mood, keywords, type tags, publish date, likes, measured frame
-  timings, Lighthouse scores and audits, and every public asset URL;
-* the poster still and the Figma preview image;
-* the prompt, verbatim, **for free templates only**, through the same public
-  server action the "Copy prompt" button calls.
+Prompts are collected **only where the site hands them out for free**, through
+the same server actions the copy buttons call:
 
-Premium prompts answer `{"_apiError":{"code":"forbidden"}}` and are never
-requested twice, guessed, reconstructed or bypassed. Their brief links to the
-live page instead, exactly like the MotionSites and ThreeUI collectors.
+* `composeLayerPromptAction` — templates and 3D scenes
+* `getBackgroundPromptAction` — backgrounds (Unlimited Plus only)
+* `getGradientPromptAction` — gradients (Unlimited Plus only)
 
 The anonymous copy grant is **one prompt per visitor per day**; a signed-in
-account lifts it (the site answers "sign in for unlimited free prompts"). Pass
-`--cookie` / `--cookie-file` with your own session cookie to finish the free
-prompts in one run, or re-run the collector once a day. Nothing here creates an
-account or works around the limit.
+account lifts it ("sign in for unlimited free prompts"). Pass `--cookie` /
+`--cookie-file` with your own session cookie to finish the free prompts in one
+run, or re-run the collector once a day. Nothing here creates an account or
+works around the limit, and a `forbidden` answer is recorded, never retried.
 
 Usage:
-    python3 scripts/fetch_getlayers.py                 # metadata + stills + free prompts
-    python3 scripts/fetch_getlayers.py --media video   # also the four mockup videos
-    python3 scripts/fetch_getlayers.py --media all     # videos + Lighthouse report HTML
-    python3 scripts/fetch_getlayers.py --force         # re-download existing files
+    python3 scripts/fetch_getlayers.py                     # metadata + stills + free prompts
+    python3 scripts/fetch_getlayers.py --category template # one library only
+    python3 scripts/fetch_getlayers.py --media video       # + mockup/preview mp4 per item
+    python3 scripts/fetch_getlayers.py --media all         # + hero video and Lighthouse HTML
+    python3 scripts/fetch_getlayers.py --force             # re-download existing files
     python3 scripts/fetch_getlayers.py --cookie-file ~/gl-cookies.txt   # signed-in run
 """
 
@@ -51,9 +52,14 @@ UA = (
 )
 LICENSE = "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
 
-# Server action behind the "Copy prompt" button, read from the site's own
-# client bundle (chunk exporting `composeLayerPromptAction`).
-PROMPT_ACTION = "403fa889b319ba840b88a1254758da70b2fc5fb1e1"
+# category key -> (public page, prompt action)
+CATEGORIES: dict[str, tuple[str, str | None]] = {
+    "template": ("templates", "403fa889b319ba840b88a1254758da70b2fc5fb1e1"),
+    "3d_scene": ("3d-scenes", "403fa889b319ba840b88a1254758da70b2fc5fb1e1"),
+    "section": ("sections", "403fa889b319ba840b88a1254758da70b2fc5fb1e1"),
+    "background": ("backgrounds", "70357e7e43036ce57cf7177e1ce596e17e5b8b6b3d"),
+    "gradient": ("gradients", "60e33c86d3a03cf21b20449d1ae614346c1f12d8b8"),
+}
 
 VIDEO_FIELDS = ("posterVideo", "posterVideoPreview", "mockupDesktop", "mockupMobile")
 IMAGE_FIELDS = ("image", "figmaPreview")
@@ -93,31 +99,36 @@ def text_chunks(payload: str) -> dict[str, str]:
     return out
 
 
-def json_array(payload: str, key: str) -> list[dict[str, Any]]:
-    """Extract the first `"<key>":[...]` array from a flight payload."""
-    marker = f'"{key}":['
-    start = payload.find(marker)
-    if start < 0:
-        raise ValueError(f"{key} not found in payload")
-    start = payload.index("[", start)
-    depth = 0
-    for index in range(start, len(payload)):
-        char = payload[index]
-        if char == "[":
-            depth += 1
-        elif char == "]":
-            depth -= 1
-            if depth == 0:
-                return json.loads(payload[start : index + 1])
-    raise ValueError(f"unterminated {key} array")
+def item_array(payload: str) -> list[dict[str, Any]]:
+    """The catalogue is the largest `"items":[...]` array of objects carrying an id."""
+    best: list[dict[str, Any]] = []
+    for match in re.finditer(r'"items":\[', payload):
+        start = payload.index("[", match.start())
+        depth = 0
+        for index in range(start, len(payload)):
+            char = payload[index]
+            if char == "[":
+                depth += 1
+            elif char == "]":
+                depth -= 1
+                if depth == 0:
+                    try:
+                        rows = json.loads(payload[start : index + 1])
+                    except json.JSONDecodeError:
+                        break
+                    if (
+                        isinstance(rows, list)
+                        and len(rows) > len(best)
+                        and all(isinstance(row, dict) and "id" in row for row in rows)
+                    ):
+                        best = rows
+                    break
+    return best
 
 
 def json_ld(html: str) -> list[dict[str, Any]]:
-    blocks = re.findall(
-        r'<script type="application/ld\+json">(.*?)</script>', html, re.S
-    )
     out = []
-    for block in blocks:
+    for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S):
         try:
             out.append(json.loads(block))
         except json.JSONDecodeError:
@@ -128,17 +139,11 @@ def json_ld(html: str) -> list[dict[str, Any]]:
 # --------------------------------------------------------------------------
 # Collection
 # --------------------------------------------------------------------------
-def slug(value: str) -> str:
-    return re.sub(r"[^a-zA-Z0-9]+", "-", value).strip("-").lower() or "template"
-
-
 async def get(client: httpx.AsyncClient, url: str, *, retries: int = 3) -> httpx.Response:
     for attempt in range(retries):
         try:
             response = await client.get(url)
-            if response.status_code == 200:
-                return response
-            if response.status_code in (403, 404):
+            if response.status_code in (200, 403, 404):
                 return response
         except (httpx.TimeoutException, httpx.TransportError):
             pass
@@ -146,24 +151,35 @@ async def get(client: httpx.AsyncClient, url: str, *, retries: int = 3) -> httpx
     raise RuntimeError(f"GET failed: {url}")
 
 
-async def fetch_catalog(client: httpx.AsyncClient) -> list[dict[str, Any]]:
-    response = await get(client, f"{SITE}/templates")
-    items = json_array(rsc_payload(response.text), "items")
-    return [item for item in items if item.get("category") == "template"]
+def still_url(item: dict[str, Any]) -> str | None:
+    """One visual per item: the poster, else the default variant's poster."""
+    if item.get("image"):
+        return item["image"]
+    for variant in item.get("variants") or []:
+        if variant.get("poster"):
+            return variant["poster"]
+    return None
 
 
-async def fetch_prompt(client: httpx.AsyncClient, item: dict[str, Any]) -> tuple[str | None, str]:
+def prompt_args(item: dict[str, Any]) -> list[Any]:
+    if item.get("category") in ("background", "gradient"):
+        return [item["id"], {"uiTemplateKey": None, "uiTheme": item.get("tone") or "dark"}, None]
+    return [{"layerId": item["id"], "uiTemplateKey": None}]
+
+
+async def fetch_prompt(
+    client: httpx.AsyncClient, item: dict[str, Any], page: str, action: str
+) -> tuple[str | None, str]:
     """Call the public copy-prompt action. Returns (prompt, status)."""
-    body = json.dumps([{"layerId": item["id"], "uiTemplateKey": None}])
     response = await client.post(
-        f"{SITE}/layer/{item['id']}",
-        content=body,
+        f"{SITE}/{page}",
+        content=json.dumps(prompt_args(item)),
         headers={
             "Content-Type": "text/plain;charset=UTF-8",
             "Accept": "text/x-component",
             "Origin": SITE,
-            "Referer": f"{SITE}/layer/{item['id']}",
-            "Next-Action": PROMPT_ACTION,
+            "Referer": f"{SITE}/{page}",
+            "Next-Action": action,
         },
     )
     if response.status_code != 200:
@@ -172,9 +188,7 @@ async def fetch_prompt(client: httpx.AsyncClient, item: dict[str, Any]) -> tuple
     match = re.search(r'\{"prompt":"\$([0-9a-f]+)"\}', payload)
     if match:
         prompt = text_chunks(payload).get(match.group(1))
-        if prompt:
-            return prompt, "ok"
-        return None, "empty_prompt_chunk"
+        return (prompt, "ok") if prompt else (None, "empty_prompt_chunk")
     error = re.search(r'"_apiError":\{"code":"([a-z_]+)"', payload)
     if error:
         return None, error.group(1)
@@ -193,7 +207,7 @@ def performance_table(item: dict[str, Any]) -> str:
             f"{perf.get('p50', '—')} ms | {perf.get('p95', '—')} ms | {perf.get('p99', '—')} ms | "
             f"{perf.get('max', '—')} ms | {perf.get('droppedPct', '—')}% | {perf.get('verdict', '—')} |"
         )
-    return "\n".join(rows) if len(rows) > 2 else "_No frame-timing run published._"
+    return "\n".join(rows) if len(rows) > 2 else ""
 
 
 def seo_table(item: dict[str, Any]) -> str:
@@ -210,7 +224,24 @@ def seo_table(item: dict[str, Any]) -> str:
             f"{scores.get('bestPractices', '—')} | {scores.get('seo', '—')} | "
             f"{metrics.get('LCP', '—')} ms | {metrics.get('CLS', '—')} |"
         )
-    return "\n".join(rows) if len(rows) > 2 else "_No Lighthouse run published._"
+    return "\n".join(rows) if len(rows) > 2 else ""
+
+
+def variant_table(item: dict[str, Any]) -> str:
+    variants = item.get("variants") or []
+    if not variants:
+        return ""
+    rows = ["| Variant | Default | Colours |", "|---|---|---|"]
+    for variant in variants[:60]:
+        colors = variant.get("colors") or {}
+        swatches = ", ".join(f"`{value}`" for value in list(colors.values())[:6])
+        rows.append(
+            f"| {variant.get('name', variant.get('id'))} | "
+            f"{'yes' if variant.get('isDefault') else '—'} | {swatches or '—'} |"
+        )
+    if len(variants) > 60:
+        rows.append(f"| _… {len(variants) - 60} more in `metadata.json`_ | | |")
+    return "\n".join(rows)
 
 
 def item_markdown(item: dict[str, Any], prompt_status: str) -> str:
@@ -220,12 +251,13 @@ def item_markdown(item: dict[str, Any], prompt_status: str) -> str:
     stack = ", ".join(item.get("stack") or []) or "—"
     mood = ", ".join(item.get("mood") or []) or "—"
     types = ", ".join(item.get("typeTags") or []) or "—"
+    category = item.get("category") or "gradient"
     front = [
         "---",
         'source: "getlayers"',
         f'id: "{ident}"',
         f'title: {json.dumps(item["title"], ensure_ascii=False)}',
-        f'category: {json.dumps(item.get("category", ""))}',
+        f'category: "{category}"',
         f'tier: "{item.get("tier", "")}"',
         f'tone: "{item.get("tone", "")}"',
         f'created: "{item.get("createdAt", "")}"',
@@ -242,7 +274,7 @@ def item_markdown(item: dict[str, Any], prompt_status: str) -> str:
         "",
         f"> {item.get('description', '').strip()}",
         "",
-        f"- Category: `{item.get('category')}` · tier: **{item.get('tier')}** · tone: `{item.get('tone')}`",
+        f"- Category: `{category}` · tier: **{item.get('tier')}** · tone: `{item.get('tone', '—')}`",
         f"- Stack: {stack}",
         f"- Tags: {tags}",
         f"- Type tags: {types}",
@@ -254,34 +286,44 @@ def item_markdown(item: dict[str, Any], prompt_status: str) -> str:
         + (
             f"[`assets/{ident}-figma.webp`](../../assets/{ident}-figma.webp)"
             if item.get("figmaPreview")
-            else "_not published for this template_"
+            else "_not published for this item_"
         ),
         "",
-        "## Measured performance",
-        "",
-        performance_table(item),
-        "",
-        "## Lighthouse",
-        "",
-        seo_table(item),
-        "",
     ]
-    report = item.get("optimizationReport") or {}
-    links = []
-    for view in ("mobile", "desktop"):
-        url = ((report.get("seo") or {}).get(view) or {}).get("reportUrl")
-        if url:
-            links.append(f"- {view}: {url}")
-    if links:
-        body += ["Full reports:", "", *links, ""]
+    if item.get("mediaType"):
+        body.insert(-1, f"- Media type: `{item['mediaType']}`")
+    if item.get("sceneLive"):
+        body.insert(-1, "- Live scene: runs in the browser on the layer page")
+    if item.get("variantCount"):
+        body.insert(-1, f"- Variants: {item['variantCount']}")
+    if item.get("family") or item.get("nature"):
+        body.insert(-1, f"- Family: `{item.get('family', '—')}` · nature: `{item.get('nature', '—')}`")
+
+    perf, seo = performance_table(item), seo_table(item)
+    if perf:
+        body += ["## Measured performance", "", perf, ""]
+    if seo:
+        body += ["## Lighthouse", "", seo, ""]
+        links = []
+        report = item.get("optimizationReport") or {}
+        for view in ("mobile", "desktop"):
+            url = ((report.get("seo") or {}).get(view) or {}).get("reportUrl")
+            if url:
+                links.append(f"- {view}: {url}")
+        if links:
+            body += ["Full reports:", "", *links, ""]
+
+    variants = variant_table(item)
+    if variants:
+        body += ["## Variants", "", variants, ""]
 
     body += ["## Prompt", ""]
     if free and prompt_status in ("ok", "cached"):
         body += [
             f"Free prompt, verbatim: [`prompts/{ident}.md`](../../prompts/{ident}.md)",
             "",
-            "It rebuilds the page as one self-contained `index.html` and states every constant,",
-            "asset URL and interaction the reference uses.",
+            "It rebuilds the reference as one self-contained `index.html` and states every constant,",
+            "asset URL and interaction the original uses.",
         ]
     elif free and prompt_status == "rate_limited":
         body += [
@@ -290,6 +332,11 @@ def item_markdown(item: dict[str, Any], prompt_status: str) -> str:
             "Nothing is guessed here. Re-run `scripts/fetch_getlayers.py` on a later day, or pass a",
             "signed-in session cookie (`--cookie-file`) to capture every free prompt in one pass:",
             f"{SITE}/layer/{ident}",
+        ]
+    elif free and prompt_status == "forbidden":
+        body += [
+            "Free to use on the site, but its prompt is sold with Unlimited Plus — the copy endpoint",
+            f"answers `forbidden`. Not collected. See {SITE}/layer/{ident}.",
         ]
     elif free:
         body += [
@@ -300,20 +347,18 @@ def item_markdown(item: dict[str, Any], prompt_status: str) -> str:
         body += [
             "**Premium — not collected.** The copy-prompt action answers",
             '`{"_apiError":{"code":"forbidden","message":"Upgrade to access this prompt."}}`',
-            "for this template. This archive does not bypass, guess or reconstruct it:",
+            "for this item. This archive does not bypass, guess or reconstruct it:",
             f"buy or preview the prompt at {SITE}/layer/{ident}.",
         ]
 
-    body += [
-        "",
-        "## Public assets",
-        "",
-        "| Asset | URL |",
-        "|---|---|",
-    ]
+    body += ["", "## Public assets", "", "| Asset | URL |", "|---|---|"]
     for field in ("image", "posterVideo", "posterVideoPreview", "mockupDesktop", "mockupMobile", "figmaPreview"):
         if item.get(field):
             body.append(f"| `{field}` | {item[field]} |")
+    for variant in (item.get("variants") or [])[:1]:
+        for field in ("previewVideo", "heroVideo", "poster"):
+            if variant.get(field):
+                body.append(f"| `variant.{field}` | {variant[field]} |")
     body += [
         "",
         "## Use",
@@ -331,7 +376,7 @@ def prompt_markdown(item: dict[str, Any], prompt: str) -> str:
         'source: "getlayers"',
         f'id: "{item["id"]}"',
         f'title: {json.dumps(item["title"], ensure_ascii=False)}',
-        f'category: {json.dumps(item.get("category", ""))}',
+        f'category: "{item.get("category") or "gradient"}"',
         f'tier: "{item.get("tier", "")}"',
         f'license: "{LICENSE}"',
         f'url: "{SITE}/layer/{item["id"]}"',
@@ -341,9 +386,7 @@ def prompt_markdown(item: dict[str, Any], prompt: str) -> str:
     return "\n".join(front) + prompt.rstrip() + "\n"
 
 
-async def download(
-    client: httpx.AsyncClient, url: str, path: Path, force: bool
-) -> str:
+async def download(client: httpx.AsyncClient, url: str, path: Path, force: bool) -> str:
     if path.exists() and not force and path.stat().st_size > 0:
         return "cached"
     response = await get(client, url)
@@ -354,164 +397,181 @@ async def download(
     return f"{len(response.content)} bytes"
 
 
+async def collect_category(
+    client: httpx.AsyncClient, category: str, args: argparse.Namespace, manifest: list[dict[str, Any]]
+) -> int:
+    page, action = CATEGORIES[category]
+    response = await get(client, f"{SITE}/{page}")
+    items = item_array(rsc_payload(response.text))
+    (OUT / "catalog").mkdir(exist_ok=True)
+    (OUT / "catalog" / f"{category}.json").write_text(
+        json.dumps(items, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
+    )
+    print(f"{category}: {len(items)} items", flush=True)
+
+    for index, item in enumerate(items, 1):
+        ident = item["id"]
+        record: dict[str, Any] = {
+            "fetchedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            "source": f"{SITE}/{page}",
+            "item": item,
+        }
+
+        # Templates get their own page fetched for the JSON-LD; the other four
+        # libraries carry everything in the catalogue payload already.
+        if category == "template":
+            layer = await get(client, f"{SITE}/layer/{ident}")
+            if layer.status_code == 200:
+                record["page"] = {"url": f"{SITE}/layer/{ident}", "jsonLd": json_ld(layer.text)}
+            await asyncio.sleep(0.2)
+
+        free = item.get("tier") == "Free"
+        prompt_file = OUT / "prompts" / f"{ident}.md"
+        if not free:
+            status = "premium"
+            record["prompt"] = {"status": "premium"}
+        elif prompt_file.exists() and not args.force:
+            status = "cached"
+            record["prompt"] = {
+                "status": "cached",
+                "path": f"sources/getlayers/prompts/{ident}.md",
+                "chars": len(prompt_file.read_text(encoding="utf-8")),
+            }
+        else:
+            prompt, status = await fetch_prompt(client, item, page, action)
+            if prompt:
+                prompt_file.write_text(prompt_markdown(item, prompt), encoding="utf-8")
+                record["prompt"] = {
+                    "status": status,
+                    "path": f"sources/getlayers/prompts/{ident}.md",
+                    "chars": len(prompt),
+                }
+            else:
+                record["prompt"] = {"status": status}
+            await asyncio.sleep(1.5)
+
+        still = still_url(item)
+        if still:
+            result = await download(client, still, OUT / "assets" / f"{ident}.webp", args.force)
+            record.setdefault("files", {})[f"{ident}.webp"] = result
+        if item.get("figmaPreview"):
+            result = await download(
+                client, item["figmaPreview"], OUT / "assets" / f"{ident}-figma.webp", args.force
+            )
+            record.setdefault("files", {})[f"{ident}-figma.webp"] = result
+        if args.media in ("video", "all"):
+            for field in VIDEO_FIELDS:
+                url = item.get(field)
+                if not url:
+                    continue
+                suffix = {
+                    "posterVideo": "",
+                    "posterVideoPreview": "-preview",
+                    "mockupDesktop": "-desktop",
+                    "mockupMobile": "-mobile",
+                }[field]
+                result = await download(client, url, OUT / "assets" / f"{ident}{suffix}.mp4", args.force)
+                record.setdefault("files", {})[f"{ident}{suffix}.mp4"] = result
+        if args.media == "all":
+            for variant in (item.get("variants") or [])[:1]:
+                for field in ("previewVideo", "heroVideo"):
+                    url = variant.get(field)
+                    if not url:
+                        continue
+                    result = await download(
+                        client, url, OUT / "assets" / f"{ident}-{field}.mp4", args.force
+                    )
+                    record.setdefault("files", {})[f"{ident}-{field}.mp4"] = result
+            for view in ("mobile", "desktop"):
+                url = ((item.get("optimizationReport") or {}).get("seo") or {}).get(view, {}).get("reportUrl")
+                if not url:
+                    continue
+                result = await download(client, url, OUT / "reports" / f"{ident}-{view}.html", args.force)
+                record.setdefault("files", {})[f"reports/{ident}-{view}.html"] = result
+
+        item_dir = OUT / "items" / ident
+        item_dir.mkdir(parents=True, exist_ok=True)
+        (item_dir / "metadata.json").write_text(
+            json.dumps(record, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
+        )
+        (item_dir / "ITEM.md").write_text(item_markdown(item, status), encoding="utf-8")
+
+        type_tags = item.get("typeTags") or []
+        manifest.append(
+            {
+                "id": ident,
+                "title": item["title"],
+                "kind": category,
+                "category": category,
+                "layout": type_tags[0] if type_tags else "—",
+                "industries": [tag for tag in type_tags if tag not in ("hero", "full-page")],
+                "typeTags": type_tags,
+                "tier": item.get("tier"),
+                "tone": item.get("tone"),
+                "tags": item.get("tags") or [],
+                "stack": item.get("stack") or [],
+                "mood": item.get("mood") or [],
+                "createdAt": item.get("createdAt"),
+                "likes": item.get("likes", 0),
+                "description": item.get("description", ""),
+                "path": f"sources/getlayers/items/{ident}/ITEM.md",
+                "prompt_path": (
+                    f"sources/getlayers/prompts/{ident}.md" if prompt_file.exists() else None
+                ),
+                "preview": (
+                    f"sources/getlayers/assets/{ident}.webp"
+                    if (OUT / "assets" / f"{ident}.webp").exists()
+                    else None
+                ),
+                "url": f"{SITE}/layer/{ident}",
+                "license": LICENSE,
+            }
+        )
+        print(f"  [{index:>3}/{len(items)}] {ident:<26} {item.get('tier', ''):<8} {status}", flush=True)
+    return len(items)
+
+
 async def run(args: argparse.Namespace) -> int:
     started = time.time()
-    OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / "items").mkdir(exist_ok=True)
-    (OUT / "prompts").mkdir(exist_ok=True)
-    (OUT / "assets").mkdir(exist_ok=True)
+    for sub in ("items", "prompts", "assets", "catalog"):
+        (OUT / sub).mkdir(parents=True, exist_ok=True)
 
     headers = {"User-Agent": UA}
     if args.cookie:
         headers["Cookie"] = args.cookie
-    async with httpx.AsyncClient(
-        timeout=90, follow_redirects=True, headers=headers
-    ) as client:
-        catalog = await fetch_catalog(client)
-        catalog.sort(key=lambda item: (item.get("tier") != "Free", -(item.get("likes") or 0)))
-        (OUT / "catalog.json").write_text(
-            json.dumps(catalog, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
-        )
-        free = [item for item in catalog if item.get("tier") == "Free"]
-        print(f"templates={len(catalog)} free={len(free)} premium={len(catalog) - len(free)}", flush=True)
+    categories = [args.category] if args.category else list(CATEGORIES)
 
-        manifest: list[dict[str, Any]] = []
-        prompt_status: dict[str, str] = {}
+    manifest: list[dict[str, Any]] = []
+    expected = 0
+    async with httpx.AsyncClient(timeout=90, follow_redirects=True, headers=headers) as client:
+        for category in categories:
+            expected += await collect_category(client, category, args, manifest)
 
-        for index, item in enumerate(catalog, 1):
-            ident = item["id"]
-            record: dict[str, Any] = {
-                "fetchedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-                "source": f"{SITE}/templates",
-                "item": item,
-            }
-
-            page = await get(client, f"{SITE}/layer/{ident}")
-            if page.status_code == 200:
-                record["page"] = {
-                    "url": f"{SITE}/layer/{ident}",
-                    "jsonLd": json_ld(page.text),
-                }
-            await asyncio.sleep(0.25)
-
-            status = "premium" if item.get("tier") != "Free" else "pending"
-            prompt_file = OUT / "prompts" / f"{ident}.md"
-            if item.get("tier") != "Free":
-                record["prompt"] = {"status": "premium"}
-            elif prompt_file.exists() and not args.force:
-                status = "cached"
-                record["prompt"] = {
-                    "status": "cached",
-                    "path": f"sources/getlayers/prompts/{ident}.md",
-                    "chars": len(prompt_file.read_text(encoding="utf-8")),
-                }
-            else:
-                prompt, status = await fetch_prompt(client, item)
-                prompt_status[ident] = status
-                if prompt:
-                    prompt_file.write_text(prompt_markdown(item, prompt), encoding="utf-8")
-                    record["prompt"] = {
-                        "status": status,
-                        "path": f"sources/getlayers/prompts/{ident}.md",
-                        "chars": len(prompt),
-                    }
-                else:
-                    record["prompt"] = {"status": status}
-                await asyncio.sleep(1.5)
-
-            # Stills are always bundled; videos and reports are opt-in.
-            for field in IMAGE_FIELDS:
-                url = item.get(field)
-                if not url:
-                    continue
-                suffix = "-figma" if field == "figmaPreview" else ""
-                result = await download(client, url, OUT / "assets" / f"{ident}{suffix}.webp", args.force)
-                record.setdefault("files", {})[f"{ident}{suffix}.webp"] = result
-            if args.media in ("video", "all"):
-                for field in VIDEO_FIELDS:
-                    url = item.get(field)
-                    if not url:
-                        continue
-                    suffix = {
-                        "posterVideo": "",
-                        "posterVideoPreview": "-preview",
-                        "mockupDesktop": "-desktop",
-                        "mockupMobile": "-mobile",
-                    }[field]
-                    result = await download(client, url, OUT / "assets" / f"{ident}{suffix}.mp4", args.force)
-                    record.setdefault("files", {})[f"{ident}{suffix}.mp4"] = result
-            if args.media == "all":
-                for view in ("mobile", "desktop"):
-                    url = ((item.get("optimizationReport") or {}).get("seo") or {}).get(view, {}).get("reportUrl")
-                    if not url:
-                        continue
-                    result = await download(
-                        client, url, OUT / "reports" / f"{ident}-{view}.html", args.force
-                    )
-                    record.setdefault("files", {})[f"reports/{ident}-{view}.html"] = result
-
-            item_dir = OUT / "items" / ident
-            item_dir.mkdir(parents=True, exist_ok=True)
-            (item_dir / "metadata.json").write_text(
-                json.dumps(record, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
-            )
-            (item_dir / "ITEM.md").write_text(item_markdown(item, status), encoding="utf-8")
-
-            type_tags = item.get("typeTags") or []
-            manifest.append(
-                {
-                    "id": ident,
-                    "title": item["title"],
-                    "kind": "template",
-                    "layout": type_tags[0] if type_tags else "—",
-                    "industries": [tag for tag in type_tags if tag not in ("hero", "full-page")],
-                    "typeTags": type_tags,
-                    "category": item.get("category", "template"),
-                    "tier": item.get("tier"),
-                    "tone": item.get("tone"),
-                    "tags": item.get("tags") or [],
-                    "stack": item.get("stack") or [],
-                    "mood": item.get("mood") or [],
-                    "createdAt": item.get("createdAt"),
-                    "likes": item.get("likes", 0),
-                    "description": item.get("description", ""),
-                    "path": f"sources/getlayers/items/{ident}/ITEM.md",
-                    "prompt_path": (
-                        f"sources/getlayers/prompts/{ident}.md"
-                        if (OUT / "prompts" / f"{ident}.md").exists()
-                        else None
-                    ),
-                    "preview": (
-                        f"sources/getlayers/assets/{ident}.webp"
-                        if (OUT / "assets" / f"{ident}.webp").exists()
-                        else None
-                    ),
-                    "url": f"{SITE}/layer/{ident}",
-                    "license": LICENSE,
-                }
-            )
-            print(f"  [{index:>2}/{len(catalog)}] {ident:<24} {item.get('tier'):<8} {status}", flush=True)
-
-        (OUT / "manifest.json").write_text(
-            json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
-        )
-
+    manifest.sort(key=lambda row: (row["category"], row["tier"] != "Free", -(row["likes"] or 0)))
+    (OUT / "manifest.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
+    )
     captured = sum(1 for row in manifest if row["prompt_path"])
     print(
-        f"done in {time.time() - started:.1f}s · items={len(manifest)} "
+        f"done in {time.time() - started:.1f}s · items={len(manifest)}/{expected} "
         f"prompts={captured} stills={sum(1 for row in manifest if row['preview'])}",
         flush=True,
     )
-    return 0 if len(manifest) == len(catalog) else 1
+    return 0 if len(manifest) == expected else 1
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
+        "--category",
+        choices=tuple(CATEGORIES),
+        help="collect one library only (default: all five)",
+    )
+    parser.add_argument(
         "--media",
         choices=("none", "video", "all"),
         default="none",
-        help="none: stills only (default) · video: + four mockup mp4 per template · all: + Lighthouse HTML",
+        help="none: stills only (default) · video: + mockup/preview mp4 · all: + hero video and Lighthouse HTML",
     )
     parser.add_argument("--force", action="store_true", help="re-download files that already exist")
     parser.add_argument(

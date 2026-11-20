@@ -1,0 +1,52 @@
+{
+ "fetchedAt": "2026-11-20T15:45:26Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pool",
+  "title": "Pool",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/pool.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pool.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pool-preview.mp4",
+  "likes": 13,
+  "createdAt": "2026-05-18",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "luxe",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "pool",
+   "brutalist",
+   "butterfly",
+   "flowers",
+   "butterflies",
+   "drift",
+   "still",
+   "reflecting",
+   "wildflower",
+   "filled",
+   "concrete",
+   "rotunda",
+   "landscape",
+   "nature"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pool.webp": "328732 bytes"
+ }
+}

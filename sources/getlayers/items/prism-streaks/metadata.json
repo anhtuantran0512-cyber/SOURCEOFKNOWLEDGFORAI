@@ -1,0 +1,214 @@
+{
+ "fetchedAt": "2026-11-20T15:44:30Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "prism-streaks",
+  "title": "Prism Streaks",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shader",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shader",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A hyperspace bundle of white-hot light filaments bends and pinches through an unseen waist, splintering into warm and cool rainbow edges over drifting sparkle dust in the dark.",
+  "image": "https://storage.getlayers.ai/3d_scenes/prism-streaks.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/prism-streaks.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/prism-streaks-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/prism-streaks-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 49,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "fragment-shader",
+   "prism",
+   "hyperspace",
+   "chromatic-dispersion",
+   "filaments",
+   "streaks",
+   "bundle",
+   "white",
+   "hot",
+   "light",
+   "bending",
+   "through",
+   "hourglass",
+   "waist",
+   "split",
+   "warm",
+   "cool",
+   "chromatic",
+   "fringes",
+   "drifting",
+   "dust",
+   "shader"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "prism-streaks",
+    "groupId": "prism-streaks",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTint": "#150e28",
+     "bgColor": "#04050a",
+     "coreColor": "#fff2e2",
+     "dustColor": "#ffdcb0",
+     "coolFringe": "#43c4ff",
+     "warmFringe": "#ff6a2c"
+    },
+    "ramp": [
+     "#fff2e2",
+     "#ff6a2c",
+     "#43c4ff",
+     "#ffdcb0",
+     "#04050a",
+     "#150e28"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/prism-streaks-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/prism-streaks.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/prism-streaks.webp"
+   },
+   {
+    "id": "prism-streaks-001",
+    "groupId": "prism-streaks",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTint": "#e4debf",
+     "bgColor": "#d1c084",
+     "coreColor": "#130f08",
+     "dustColor": "#c1a146",
+     "coolFringe": "#896f2e",
+     "warmFringe": "#4d3c1d"
+    },
+    "ramp": [
+     "#130f08",
+     "#4d3c1d",
+     "#896f2e",
+     "#c1a146",
+     "#d1c084",
+     "#e4debf"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/prism-streaks/52ef51ec-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/prism-streaks/52ef51ec.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/prism-streaks/52ef51ec.webp"
+   },
+   {
+    "id": "prism-streaks-002",
+    "groupId": "prism-streaks",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTint": "#6e519f",
+     "bgColor": "#7d62b4",
+     "coreColor": "#cfcbe4",
+     "dustColor": "#8e79c4",
+     "coolFringe": "#a293cf",
+     "warmFringe": "#b8b0d9"
+    },
+    "ramp": [
+     "#cfcbe4",
+     "#b8b0d9",
+     "#a293cf",
+     "#8e79c4",
+     "#7d62b4",
+     "#6e519f"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/prism-streaks/e8a5b21b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/prism-streaks/e8a5b21b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/prism-streaks/e8a5b21b.webp"
+   },
+   {
+    "id": "prism-streaks-003",
+    "groupId": "prism-streaks",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTint": "#583996",
+     "bgColor": "#5c40be",
+     "coreColor": "#d0d8ed",
+     "dustColor": "#6a5fcf",
+     "coolFringe": "#8486da",
+     "warmFringe": "#abb4e3"
+    },
+    "ramp": [
+     "#d0d8ed",
+     "#abb4e3",
+     "#8486da",
+     "#6a5fcf",
+     "#5c40be",
+     "#583996"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/prism-streaks/31d66b63-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/prism-streaks/31d66b63.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/prism-streaks/31d66b63.webp"
+   },
+   {
+    "id": "prism-streaks-004",
+    "groupId": "prism-streaks",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgTint": "#e7f7e6",
+     "bgColor": "#a5e59e",
+     "coreColor": "#091306",
+     "dustColor": "#62d751",
+     "coolFringe": "#3aa826",
+     "warmFringe": "#245b18"
+    },
+    "ramp": [
+     "#091306",
+     "#245b18",
+     "#3aa826",
+     "#62d751",
+     "#a5e59e",
+     "#e7f7e6"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/prism-streaks/c8aee682-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/prism-streaks/c8aee682.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/prism-streaks/c8aee682.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "prism-streaks.webp": "44146 bytes"
+ }
+}

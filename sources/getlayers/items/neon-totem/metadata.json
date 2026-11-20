@@ -1,0 +1,96 @@
+{
+ "fetchedAt": "2026-11-20T15:44:52Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "neon-totem",
+  "title": "Neon Totem",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A psychedelic neon totem snakes down a starlit void, its glowing rainbow body raked into shimmering vertical streaks that rain with light.",
+  "image": "https://storage.getlayers.ai/3d_scenes/neon-totem.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/neon-totem.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/neon-totem-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/neon-totem-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 3,
+  "createdAt": "2026-06-30",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "keywords": [
+   "shader",
+   "neon",
+   "psychedelic",
+   "filaments",
+   "starfield",
+   "totem",
+   "serpentine",
+   "column",
+   "raked",
+   "fine",
+   "luminous",
+   "drifting"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "neon-totem",
+    "groupId": "neon-totem",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colBg": "#0a0314",
+     "colBlue": "#2b5bff",
+     "colCyan": "#1fe9ff",
+     "colStar": "#c06bff",
+     "colGreen": "#2bff86",
+     "colPurple": "#a32bff",
+     "colYellow": "#f4ff2b",
+     "colMagenta": "#ff2bcf"
+    },
+    "ramp": [
+     "#ff2bcf",
+     "#a32bff",
+     "#2b5bff",
+     "#1fe9ff",
+     "#2bff86",
+     "#f4ff2b",
+     "#c06bff",
+     "#0a0314"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/neon-totem-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/neon-totem.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/neon-totem.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "neon-totem.webp": "145544 bytes"
+ }
+}

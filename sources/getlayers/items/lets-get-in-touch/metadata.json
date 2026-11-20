@@ -1,0 +1,70 @@
+{
+ "fetchedAt": "2026-11-20T15:45:07Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "lets-get-in-touch",
+  "title": "Let's Get In Touch",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A dark editorial contact form beneath a towering serif headline, all hairlines, restraint and quiet confidence. Legal for purchase only on getlayers.ai — getlayers.ai/layer/lets-get-in-touch",
+  "image": "https://storage.getlayers.ai/sections/lets-get-in-touch-b3ced2c965.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/lets-get-in-touch-b3ced2c965.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/lets-get-in-touch-b3ced2c965-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/lets-get-in-touch-b3ced2c965-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/lets-get-in-touch-b3ced2c965-mobile.mp4",
+  "likes": 8,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "cta"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "addresses",
+   "agency",
+   "all",
+   "beneath",
+   "confidence",
+   "contact",
+   "contact form",
+   "contact us",
+   "cta",
+   "dark",
+   "editorial",
+   "enquiry",
+   "form",
+   "get",
+   "get in touch",
+   "hairlines",
+   "headline",
+   "let",
+   "minimal",
+   "quiet",
+   "restraint",
+   "serif",
+   "studio",
+   "thank-you",
+   "touch",
+   "towering"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lets-get-in-touch.webp": "24116 bytes"
+ }
+}

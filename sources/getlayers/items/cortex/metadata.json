@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:26:20Z",
+ "fetchedAt": "2026-11-20T15:43:30Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "cortex",
@@ -346,7 +346,7 @@
   "status": "premium"
  },
  "files": {
-  "cortex.webp": "89554 bytes",
-  "cortex-figma.webp": "69154 bytes"
+  "cortex.webp": "cached",
+  "cortex-figma.webp": "cached"
  }
 }

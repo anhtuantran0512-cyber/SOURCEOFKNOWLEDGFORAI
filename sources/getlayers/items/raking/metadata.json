@@ -1,0 +1,296 @@
+{
+ "fetchedAt": "2026-11-20T15:47:14Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "raking",
+  "title": "Raking",
+  "description": "One broad shaft laid across the frame — the distance to an oriented axis through a tight core and a wide spill, with the far end giving out — and the hand turns the axis.",
+  "nature": "beam",
+  "family": "light",
+  "tier": "Premium",
+  "likes": 36,
+  "createdAt": "2026-08-24",
+  "shaderHash": "521afd3d8ee1dec26d4131f64ed2fefc",
+  "hues": [
+   "violet",
+   "indigo",
+   "pink",
+   "teal",
+   "blue",
+   "orange",
+   "red",
+   "amber",
+   "green"
+  ],
+  "variantCount": 9,
+  "variants": [
+   {
+    "id": "raking",
+    "groupId": "raking",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#2a0850",
+     "colorB": "#7b3fd9",
+     "colorC": "#f02be0",
+     "colorD": "#ffeafd",
+     "bgColor": "#12031e"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 36,
+    "previewVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/raking-83dff4a536.webp"
+   },
+   {
+    "id": "raking-001",
+    "groupId": "raking",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c43fe0",
+     "colorB": "#ff2bc0",
+     "colorC": "#e8d0f0",
+     "colorD": "#ffffff",
+     "bgColor": "#6b1f8c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/58657d60-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/58657d60.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/raking-83dff4a536/58657d60.webp"
+   },
+   {
+    "id": "raking-002",
+    "groupId": "raking",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#6d90ff",
+     "colorB": "#dce8ff",
+     "colorC": "#ff7d6b",
+     "colorD": "#ffffff",
+     "bgColor": "#2b5bff"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/acfe48e8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/acfe48e8.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/raking-83dff4a536/acfe48e8.webp"
+   },
+   {
+    "id": "raking-003",
+    "groupId": "raking",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c41e2a",
+     "colorB": "#e8342b",
+     "colorC": "#ff9078",
+     "colorD": "#ffe8e0",
+     "bgColor": "#2b4be8"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "pink",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/4b0344b4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/4b0344b4.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/raking-83dff4a536/4b0344b4.webp"
+   },
+   {
+    "id": "raking-004",
+    "groupId": "raking",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#3fc8c0",
+     "colorB": "#8fd8b0",
+     "colorC": "#e8f6ee",
+     "colorD": "#f04b8b",
+     "bgColor": "#0d5257"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/90dfcce8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/90dfcce8.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/raking-83dff4a536/90dfcce8.webp"
+   },
+   {
+    "id": "raking-005",
+    "groupId": "raking",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b7be8",
+     "colorB": "#2bc8e8",
+     "colorC": "#6fe6b8",
+     "colorD": "#eafff2",
+     "bgColor": "#1550b0"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/f7472e32-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/f7472e32.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/raking-83dff4a536/f7472e32.webp"
+   },
+   {
+    "id": "raking-006",
+    "groupId": "raking",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#b7c7dd",
+     "colorB": "#8fabd1",
+     "colorC": "#6f8fbc",
+     "colorD": "#5574a1",
+     "bgColor": "#dce3ed"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/cc272bab-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/cc272bab.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/raking-83dff4a536/cc272bab.webp"
+   },
+   {
+    "id": "raking-007",
+    "groupId": "raking",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e8342b",
+     "colorB": "#ff6b2e",
+     "colorC": "#f5c842",
+     "colorD": "#fffaf0",
+     "bgColor": "#b8231a"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/0e6d44c4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/0e6d44c4.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/raking-83dff4a536/0e6d44c4.webp"
+   },
+   {
+    "id": "raking-008",
+    "groupId": "raking",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e8342b",
+     "colorB": "#ff5a4b",
+     "colorC": "#ffd8d0",
+     "colorD": "#ffffff",
+     "bgColor": "#c9241f"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/b6be84b4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/raking-83dff4a536/b6be84b4.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/raking-83dff4a536/b6be84b4.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "raking.webp": "119948 bytes"
+ }
+}

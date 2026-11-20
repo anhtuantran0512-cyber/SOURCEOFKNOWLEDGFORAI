@@ -1,0 +1,52 @@
+{
+ "fetchedAt": "2026-11-20T15:45:19Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "molecules-universe",
+  "title": "Molecules Universe",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/molecules-universe.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/molecules-universe.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/molecules-universe-preview.mp4",
+  "likes": 21,
+  "createdAt": "2026-05-12",
+  "typeTags": [
+   "science-molecular"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic",
+   "technical",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "cells",
+   "bubbles",
+   "pastel",
+   "science",
+   "molecules",
+   "universe",
+   "iridescent",
+   "drift",
+   "like",
+   "soap",
+   "through",
+   "soft",
+   "haze",
+   "molecular"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "molecules-universe.webp": "110716 bytes"
+ }
+}

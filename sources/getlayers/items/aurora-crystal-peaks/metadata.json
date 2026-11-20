@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:52Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "aurora-crystal-peaks",
+  "title": "Aurora Crystal Peaks",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/aurora-crystal-peaks-e11fab2182.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/aurora-crystal-peaks-e11fab2182.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/aurora-crystal-peaks-e11fab2182-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "aurora",
+   "auroras",
+   "clusters",
+   "crystal",
+   "dream",
+   "frozen",
+   "glass",
+   "green",
+   "iridescent",
+   "landscape",
+   "lights",
+   "mist",
+   "misty",
+   "mountains",
+   "nature",
+   "north",
+   "northern",
+   "pastel",
+   "peaks",
+   "quartz",
+   "rise",
+   "shimmering",
+   "water"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "aurora-crystal-peaks.webp": "119280 bytes"
+ }
+}

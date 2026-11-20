@@ -1,0 +1,194 @@
+{
+ "fetchedAt": "2026-11-20T15:44:38Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "nebula",
+  "title": "Nebula",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shader",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shader",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A drifting amethyst nebula aglow in the deep violet dark, where slow billowing clouds and a scatter of distant starlight wander across an endless cosmic night.",
+  "image": "https://storage.getlayers.ai/3d_scenes/nebula.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/nebula.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/nebula-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/nebula-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 21,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "luxe"
+  ],
+  "keywords": [
+   "shader",
+   "nebula",
+   "space",
+   "stars",
+   "clouds",
+   "churning",
+   "amethyst",
+   "glittering",
+   "distant",
+   "single",
+   "bright",
+   "flare"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "nebula",
+    "groupId": "nebula",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colHot": "#ff66cc",
+     "colDeep": "#140726",
+     "colStar": "#ffffff",
+     "colBright": "#b884f2",
+     "colNebula": "#5a2a9e"
+    },
+    "ramp": [
+     "#140726",
+     "#5a2a9e",
+     "#b884f2",
+     "#ff66cc",
+     "#ffffff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/nebula-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/nebula.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/nebula.webp"
+   },
+   {
+    "id": "nebula-001",
+    "groupId": "nebula",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colHot": "#6cac5a",
+     "colDeep": "#eaf3ec",
+     "colStar": "#577a43",
+     "colBright": "#8bc786",
+     "colNebula": "#b9dcbc"
+    },
+    "ramp": [
+     "#eaf3ec",
+     "#b9dcbc",
+     "#8bc786",
+     "#6cac5a",
+     "#577a43"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/nebula/2a8ae719-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/nebula/2a8ae719.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/nebula/2a8ae719.webp"
+   },
+   {
+    "id": "nebula-002",
+    "groupId": "nebula",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colHot": "#88e486",
+     "colDeep": "#0f2f0d",
+     "colStar": "#daf4da",
+     "colBright": "#32da2b",
+     "colNebula": "#22831e"
+    },
+    "ramp": [
+     "#0f2f0d",
+     "#22831e",
+     "#32da2b",
+     "#88e486",
+     "#daf4da"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/nebula/5e0d86bb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/nebula/5e0d86bb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/nebula/5e0d86bb.webp"
+   },
+   {
+    "id": "nebula-003",
+    "groupId": "nebula",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colHot": "#bf63bb",
+     "colDeep": "#e6c9e1",
+     "colStar": "#a64da6",
+     "colBright": "#d080ca",
+     "colNebula": "#daa6d4"
+    },
+    "ramp": [
+     "#e6c9e1",
+     "#daa6d4",
+     "#d080ca",
+     "#bf63bb",
+     "#a64da6"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/nebula/0673b32e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/nebula/0673b32e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/nebula/0673b32e.webp"
+   },
+   {
+    "id": "nebula-004",
+    "groupId": "nebula",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colHot": "#93bcca",
+     "colDeep": "#0c0f16",
+     "colStar": "#dbeaec",
+     "colBright": "#4c83a8",
+     "colNebula": "#2e425d"
+    },
+    "ramp": [
+     "#0c0f16",
+     "#2e425d",
+     "#4c83a8",
+     "#93bcca",
+     "#dbeaec"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/nebula/048235e0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/nebula/048235e0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/nebula/048235e0.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "nebula.webp": "161830 bytes"
+ }
+}

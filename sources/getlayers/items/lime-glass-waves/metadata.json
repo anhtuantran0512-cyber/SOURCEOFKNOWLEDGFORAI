@@ -1,0 +1,47 @@
+{
+ "fetchedAt": "2026-11-20T15:45:34Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lime-glass-waves",
+  "title": "Lime Glass Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/lime-glass-waves-8617feb789.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lime-glass-waves-8617feb789.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lime-glass-waves-8617feb789-preview.mp4",
+  "likes": 4,
+  "createdAt": "2026-07-25",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "background",
+   "glass",
+   "green",
+   "lime",
+   "swirl",
+   "waves",
+   "yellow"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lime-glass-waves.webp": "207026 bytes"
+ }
+}

@@ -1,0 +1,315 @@
+{
+ "fetchedAt": "2026-11-20T15:44:27Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "onyx-cubes",
+  "title": "Onyx Cubes",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Black chrome cubes floating weightless in a bright studio — shove them aside, or grab one and fling it.",
+  "image": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9-preview.mp4",
+  "likes": 99,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "aside",
+   "black",
+   "blocks",
+   "boxes",
+   "bright",
+   "can",
+   "chrome",
+   "cubes",
+   "drag",
+   "element",
+   "expensive",
+   "fling",
+   "float",
+   "floating",
+   "grab",
+   "hardware",
+   "metal",
+   "objects",
+   "one",
+   "onyx",
+   "physics",
+   "room",
+   "shove",
+   "studio",
+   "them",
+   "throw",
+   "weightless",
+   "white",
+   "you"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "onyx-cubes",
+    "groupId": "onyx-cubes",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#fbfcfd",
+     "envTint": "#191b21",
+     "bgBottom": "#cfd4db",
+     "cubeColor": "#0b0c10"
+    },
+    "ramp": [
+     "#fbfcfd",
+     "#cfd4db",
+     "#0b0c10",
+     "#191b21"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9.webp"
+   },
+   {
+    "id": "onyx-cubes-001",
+    "groupId": "onyx-cubes",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#e4f6f5",
+     "envTint": "#236769",
+     "bgBottom": "#8ae0de",
+     "cubeColor": "#34c7c7"
+    },
+    "ramp": [
+     "#e4f6f5",
+     "#8ae0de",
+     "#34c7c7",
+     "#236769"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/f8b51cd0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/f8b51cd0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/f8b51cd0.webp"
+   },
+   {
+    "id": "onyx-cubes-002",
+    "groupId": "onyx-cubes",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#281019",
+     "envTint": "#eed6eb",
+     "bgBottom": "#8d3061",
+     "cubeColor": "#cf72b3"
+    },
+    "ramp": [
+     "#281019",
+     "#8d3061",
+     "#cf72b3",
+     "#eed6eb"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/bb1b2e54-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/bb1b2e54.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/bb1b2e54.webp"
+   },
+   {
+    "id": "onyx-cubes-003",
+    "groupId": "onyx-cubes",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#120d1f",
+     "envTint": "#d4c3e6",
+     "bgBottom": "#492d7e",
+     "cubeColor": "#8d62c7"
+    },
+    "ramp": [
+     "#120d1f",
+     "#492d7e",
+     "#8d62c7",
+     "#d4c3e6"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/fbdaea00-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/fbdaea00.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/fbdaea00.webp"
+   },
+   {
+    "id": "onyx-cubes-004",
+    "groupId": "onyx-cubes",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#e1cad0",
+     "envTint": "#855d4a",
+     "bgBottom": "#cb979b",
+     "cubeColor": "#b27066"
+    },
+    "ramp": [
+     "#e1cad0",
+     "#cb979b",
+     "#b27066",
+     "#855d4a"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/19d22750-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/19d22750.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/19d22750.webp"
+   },
+   {
+    "id": "onyx-cubes-005",
+    "groupId": "onyx-cubes",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#161f0b",
+     "envTint": "#afe3b2",
+     "bgBottom": "#437f23",
+     "cubeColor": "#60cd4d"
+    },
+    "ramp": [
+     "#161f0b",
+     "#437f23",
+     "#60cd4d",
+     "#afe3b2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/773b61fa-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/773b61fa.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/773b61fa.webp"
+   },
+   {
+    "id": "onyx-cubes-006",
+    "groupId": "onyx-cubes",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#eedbe8",
+     "envTint": "#7c3b76",
+     "bgBottom": "#d499c5",
+     "cubeColor": "#b959a9"
+    },
+    "ramp": [
+     "#eedbe8",
+     "#d499c5",
+     "#b959a9",
+     "#7c3b76"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/0f1f80d2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/0f1f80d2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/0f1f80d2.webp"
+   },
+   {
+    "id": "onyx-cubes-007",
+    "groupId": "onyx-cubes",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#21090b",
+     "envTint": "#f3dad2",
+     "bgBottom": "#94231f",
+     "cubeColor": "#de715e"
+    },
+    "ramp": [
+     "#21090b",
+     "#94231f",
+     "#de715e",
+     "#f3dad2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/6f9de1ff-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/6f9de1ff.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/6f9de1ff.webp"
+   },
+   {
+    "id": "onyx-cubes-008",
+    "groupId": "onyx-cubes",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#120a26",
+     "envTint": "#ccd9f2",
+     "bgBottom": "#261d98",
+     "cubeColor": "#596ce0"
+    },
+    "ramp": [
+     "#120a26",
+     "#261d98",
+     "#596ce0",
+     "#ccd9f2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/0342bea5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/0342bea5.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/0342bea5.webp"
+   },
+   {
+    "id": "onyx-cubes-009",
+    "groupId": "onyx-cubes",
+    "name": "009",
+    "sortOrder": 9,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#122421",
+     "envTint": "#e4edf1",
+     "bgBottom": "#3b8584",
+     "cubeColor": "#83bec8"
+    },
+    "ramp": [
+     "#122421",
+     "#3b8584",
+     "#83bec8",
+     "#e4edf1"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/2446c51c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/2446c51c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/onyx-cubes-9b26cc5ac9/2446c51c.webp"
+   }
+  ],
+  "variantCount": 10
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "onyx-cubes.webp": "24258 bytes"
+ }
+}

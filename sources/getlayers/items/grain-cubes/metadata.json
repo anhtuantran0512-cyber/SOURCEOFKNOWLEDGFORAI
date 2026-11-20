@@ -1,0 +1,271 @@
+{
+ "fetchedAt": "2026-11-20T15:44:28Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "grain-cubes",
+  "title": "Grain Cubes",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Three film-grained cubes breathing on a black field, every face its own bloom of acid colour.",
+  "image": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0-preview.mp4",
+  "likes": 93,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "brutal"
+  ],
+  "keywords": [
+   "acid",
+   "and",
+   "black",
+   "blocks",
+   "bloom",
+   "boxes",
+   "breathing",
+   "bright",
+   "colour",
+   "cubes",
+   "element",
+   "every",
+   "face",
+   "field",
+   "film",
+   "flat",
+   "grain",
+   "grained",
+   "isometric",
+   "life",
+   "noise",
+   "orthographic",
+   "own",
+   "poster",
+   "print",
+   "riso",
+   "risograph",
+   "still",
+   "three"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "grain-cubes",
+    "groupId": "grain-cubes",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorCore": "#fffffa",
+     "colorCyan": "#61d4de",
+     "colorLime": "#8cf05c",
+     "colorBlack": "#000000",
+     "colorGreen": "#053812",
+     "colorYellow": "#edf26b"
+    },
+    "ramp": [
+     "#fffffa",
+     "#8cf05c",
+     "#edf26b",
+     "#61d4de",
+     "#053812",
+     "#000000"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0.webp"
+   },
+   {
+    "id": "grain-cubes-001",
+    "groupId": "grain-cubes",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorCore": "#110a16",
+     "colorCyan": "#c35cc4",
+     "colorLime": "#472154",
+     "colorBlack": "#f0dceb",
+     "colorGreen": "#d89dd2",
+     "colorYellow": "#883695"
+    },
+    "ramp": [
+     "#110a16",
+     "#472154",
+     "#883695",
+     "#c35cc4",
+     "#d89dd2",
+     "#f0dceb"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/105eca46-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/105eca46.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/105eca46.webp"
+   },
+   {
+    "id": "grain-cubes-002",
+    "groupId": "grain-cubes",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorCore": "#e2ecf0",
+     "colorCyan": "#6e8fc0",
+     "colorLime": "#bcd2df",
+     "colorBlack": "#414c7f",
+     "colorGreen": "#4f69a8",
+     "colorYellow": "#94b3d0"
+    },
+    "ramp": [
+     "#e2ecf0",
+     "#bcd2df",
+     "#94b3d0",
+     "#6e8fc0",
+     "#4f69a8",
+     "#414c7f"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/29e7007c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/29e7007c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/29e7007c.webp"
+   },
+   {
+    "id": "grain-cubes-003",
+    "groupId": "grain-cubes",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorCore": "#1e0f08",
+     "colorCyan": "#dc4d51",
+     "colorLime": "#642718",
+     "colorBlack": "#f6e0e5",
+     "colorGreen": "#e799a4",
+     "colorYellow": "#b02f23"
+    },
+    "ramp": [
+     "#1e0f08",
+     "#642718",
+     "#b02f23",
+     "#dc4d51",
+     "#e799a4",
+     "#f6e0e5"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/6f518797-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/6f518797.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/6f518797.webp"
+   },
+   {
+    "id": "grain-cubes-004",
+    "groupId": "grain-cubes",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorCore": "#0a1422",
+     "colorCyan": "#5267dd",
+     "colorLime": "#193369",
+     "colorBlack": "#e4e4f7",
+     "colorGreen": "#9da2e8",
+     "colorYellow": "#2346b5"
+    },
+    "ramp": [
+     "#0a1422",
+     "#193369",
+     "#2346b5",
+     "#5267dd",
+     "#9da2e8",
+     "#e4e4f7"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/e4765977-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/e4765977.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/e4765977.webp"
+   },
+   {
+    "id": "grain-cubes-005",
+    "groupId": "grain-cubes",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorCore": "#efedd5",
+     "colorCyan": "#cfd26f",
+     "colorLime": "#e5e3b4",
+     "colorBlack": "#9ea942",
+     "colorGreen": "#bcc353",
+     "colorYellow": "#dddc90"
+    },
+    "ramp": [
+     "#efedd5",
+     "#e5e3b4",
+     "#dddc90",
+     "#cfd26f",
+     "#bcc353",
+     "#9ea942"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/b1be81b6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/b1be81b6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/b1be81b6.webp"
+   },
+   {
+    "id": "grain-cubes-006",
+    "groupId": "grain-cubes",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorCore": "#f7efe2",
+     "colorCyan": "#dab82d",
+     "colorLime": "#ecd4a7",
+     "colorBlack": "#615e19",
+     "colorGreen": "#9e8f22",
+     "colorYellow": "#e5c368"
+    },
+    "ramp": [
+     "#f7efe2",
+     "#ecd4a7",
+     "#e5c368",
+     "#dab82d",
+     "#9e8f22",
+     "#615e19"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/b2a3fdd8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/b2a3fdd8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grain-cubes-ec7af1e3e0/b2a3fdd8.webp"
+   }
+  ],
+  "variantCount": 7
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "grain-cubes.webp": "64534 bytes"
+ }
+}

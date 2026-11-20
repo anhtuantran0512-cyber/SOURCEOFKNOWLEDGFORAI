@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:46:15Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "charcoal-silk-folds",
+  "title": "Charcoal Silk Folds",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Free",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/charcoal-silk-folds-6dfa5e56de.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/charcoal-silk-folds-6dfa5e56de.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/charcoal-silk-folds-6dfa5e56de-preview.mp4",
+  "likes": 3,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "black",
+   "catching",
+   "charcoal",
+   "drape",
+   "enough",
+   "expensive",
+   "fabric",
+   "falls",
+   "folds",
+   "glass",
+   "grain",
+   "just",
+   "light",
+   "long",
+   "monochrome",
+   "read",
+   "restraint",
+   "ridges",
+   "silk",
+   "soft"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "charcoal-silk-folds.webp": "269362 bytes"
+ }
+}

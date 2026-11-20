@@ -1,0 +1,262 @@
+{
+ "fetchedAt": "2026-11-20T15:44:30Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "halcyon-gate",
+  "title": "Halcyon Gate",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A slender brass ring stands half-sunk in a calm golden-hour sea, framing a glowing sunset sky that ripples and glitters in the mirror water below.",
+  "image": "https://storage.getlayers.ai/3d_scenes/halcyon-gate.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/halcyon-gate-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/halcyon-gate-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 44,
+  "createdAt": "2026-06-30",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "shader",
+   "ocean",
+   "golden-hour",
+   "ring",
+   "landscape",
+   "halcyon",
+   "gate",
+   "slender",
+   "brass",
+   "half",
+   "sunk",
+   "calm",
+   "golden",
+   "hour",
+   "sea",
+   "mirrored",
+   "own",
+   "reflection"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "halcyon-gate",
+    "groupId": "halcyon-gate",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colSun": "#fff7e6",
+     "colSkyTop": "#5fb4ec",
+     "colCloudLit": "#fff1da",
+     "colGoldDark": "#9a7330",
+     "colCloudDark": "#a9a3b4",
+     "colGoldLight": "#ffe49a",
+     "colWaterDeep": "#1a5790",
+     "colSkyHorizon": "#ffdca6"
+    },
+    "ramp": [
+     "#5fb4ec",
+     "#ffdca6",
+     "#fff7e6",
+     "#fff1da",
+     "#a9a3b4",
+     "#1a5790",
+     "#ffe49a",
+     "#9a7330"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halcyon-gate.webp"
+   },
+   {
+    "id": "halcyon-gate-001",
+    "groupId": "halcyon-gate",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colSun": "#5a513d",
+     "colSkyTop": "#11100c",
+     "colCloudLit": "#7f7054",
+     "colGoldDark": "#e8e4df",
+     "colCloudDark": "#a08e70",
+     "colGoldLight": "#d0c7bb",
+     "colWaterDeep": "#b8aa96",
+     "colSkyHorizon": "#353025"
+    },
+    "ramp": [
+     "#11100c",
+     "#353025",
+     "#5a513d",
+     "#7f7054",
+     "#a08e70",
+     "#b8aa96",
+     "#d0c7bb",
+     "#e8e4df"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/2c2816f8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/2c2816f8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/2c2816f8.webp"
+   },
+   {
+    "id": "halcyon-gate-002",
+    "groupId": "halcyon-gate",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colSun": "#288540",
+     "colSkyTop": "#0f2a13",
+     "colCloudLit": "#32b55d",
+     "colGoldDark": "#dbf2e9",
+     "colCloudDark": "#51cf84",
+     "colGoldLight": "#afe5cc",
+     "colWaterDeep": "#81d9aa",
+     "colSkyHorizon": "#1d5728"
+    },
+    "ramp": [
+     "#0f2a13",
+     "#1d5728",
+     "#288540",
+     "#32b55d",
+     "#51cf84",
+     "#81d9aa",
+     "#afe5cc",
+     "#dbf2e9"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/c975a3e8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/c975a3e8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/c975a3e8.webp"
+   },
+   {
+    "id": "halcyon-gate-003",
+    "groupId": "halcyon-gate",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colSun": "#d6b0a0",
+     "colSkyTop": "#f1e9e3",
+     "colCloudLit": "#c98f7d",
+     "colGoldDark": "#5c2d2f",
+     "colCloudDark": "#bc6c5c",
+     "colGoldLight": "#7e3d3b",
+     "colWaterDeep": "#a15047",
+     "colSkyHorizon": "#e3cec2"
+    },
+    "ramp": [
+     "#f1e9e3",
+     "#e3cec2",
+     "#d6b0a0",
+     "#c98f7d",
+     "#bc6c5c",
+     "#a15047",
+     "#7e3d3b",
+     "#5c2d2f"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/744b543b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/744b543b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/744b543b.webp"
+   },
+   {
+    "id": "halcyon-gate-004",
+    "groupId": "halcyon-gate",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colSun": "#7e7f20",
+     "colSkyTop": "#2f2a0f",
+     "colCloudLit": "#9eaa26",
+     "colGoldDark": "#cee5ad",
+     "colCloudDark": "#b5d12f",
+     "colGoldLight": "#c0dd85",
+     "colWaterDeep": "#b7d65b",
+     "colSkyHorizon": "#565118"
+    },
+    "ramp": [
+     "#2f2a0f",
+     "#565118",
+     "#7e7f20",
+     "#9eaa26",
+     "#b5d12f",
+     "#b7d65b",
+     "#c0dd85",
+     "#cee5ad"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/c988b7f5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/c988b7f5.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/c988b7f5.webp"
+   },
+   {
+    "id": "halcyon-gate-005",
+    "groupId": "halcyon-gate",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colSun": "#e2c588",
+     "colSkyTop": "#ece2c2",
+     "colCloudLit": "#deb369",
+     "colGoldDark": "#925b2d",
+     "colCloudDark": "#d89f4d",
+     "colGoldLight": "#b07031",
+     "colWaterDeep": "#cd8835",
+     "colSkyHorizon": "#e6d4a5"
+    },
+    "ramp": [
+     "#ece2c2",
+     "#e6d4a5",
+     "#e2c588",
+     "#deb369",
+     "#d89f4d",
+     "#cd8835",
+     "#b07031",
+     "#925b2d"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/6a03840a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/6a03840a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halcyon-gate/6a03840a.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "halcyon-gate.webp": "63786 bytes"
+ }
+}

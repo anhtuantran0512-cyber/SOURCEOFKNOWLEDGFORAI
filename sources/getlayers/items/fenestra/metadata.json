@@ -1,0 +1,354 @@
+{
+ "fetchedAt": "2026-11-20T15:47:15Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "fenestra",
+  "title": "Fenestra",
+  "description": "Shafts through a slatted window, made visible by dust smeared along the light rather than speckled across it.",
+  "nature": "beam",
+  "family": "light",
+  "tier": "Premium",
+  "likes": 28,
+  "createdAt": "2026-08-24",
+  "shaderHash": "c768041eb1e9126c2eceb7431ec710f8",
+  "hues": [
+   "violet",
+   "teal",
+   "pink",
+   "blue",
+   "red",
+   "orange",
+   "amber",
+   "indigo",
+   "green"
+  ],
+  "variantCount": 11,
+  "variants": [
+   {
+    "id": "fenestra",
+    "groupId": "fenestra",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#7b3fd9",
+     "colorB": "#c43ff0",
+     "colorC": "#f02be0",
+     "colorD": "#ffffff",
+     "bgColor": "#1b0630"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 28,
+    "previewVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2.webp"
+   },
+   {
+    "id": "fenestra-001",
+    "groupId": "fenestra",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#d8d0e8",
+     "colorB": "#e0e8c8",
+     "colorC": "#eff0e0",
+     "colorD": "#fbfbf4",
+     "bgColor": "#c8cff0"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/b513c74b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/b513c74b.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/b513c74b.webp"
+   },
+   {
+    "id": "fenestra-002",
+    "groupId": "fenestra",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c41e2a",
+     "colorB": "#e8342b",
+     "colorC": "#ff8c72",
+     "colorD": "#ffe8e0",
+     "bgColor": "#2b4be8"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "pink",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/2e7c50b8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/2e7c50b8.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/2e7c50b8.webp"
+   },
+   {
+    "id": "fenestra-003",
+    "groupId": "fenestra",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#d4cff5",
+     "colorB": "#bfe8d8",
+     "colorC": "#e8e4f5",
+     "colorD": "#fbfaff",
+     "bgColor": "#c8d0f0"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/ad66c47a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/ad66c47a.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/ad66c47a.webp"
+   },
+   {
+    "id": "fenestra-004",
+    "groupId": "fenestra",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2e1252",
+     "colorB": "#6b2bc8",
+     "colorC": "#8b3fe0",
+     "colorD": "#e02bc8",
+     "bgColor": "#1a0f33"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/cadf2401-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/cadf2401.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/cadf2401.webp"
+   },
+   {
+    "id": "fenestra-005",
+    "groupId": "fenestra",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c41e2a",
+     "colorB": "#e8342b",
+     "colorC": "#ffffff",
+     "colorD": "#8fa8ff",
+     "bgColor": "#3a0a0c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/4ec7db94-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/4ec7db94.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/4ec7db94.webp"
+   },
+   {
+    "id": "fenestra-006",
+    "groupId": "fenestra",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b7be8",
+     "colorB": "#2bc8e8",
+     "colorC": "#4fe0d8",
+     "colorD": "#7fe8a0",
+     "bgColor": "#0a2438"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/1561e27b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/1561e27b.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/1561e27b.webp"
+   },
+   {
+    "id": "fenestra-007",
+    "groupId": "fenestra",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2e6e6c",
+     "colorB": "#3fc8c0",
+     "colorC": "#8fd8b0",
+     "colorD": "#e6f2ec",
+     "bgColor": "#5c1638"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/b148e83d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/b148e83d.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/b148e83d.webp"
+   },
+   {
+    "id": "fenestra-008",
+    "groupId": "fenestra",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#d8cfe8",
+     "colorB": "#f5d28c",
+     "colorC": "#fae3b0",
+     "colorD": "#fff6e2",
+     "bgColor": "#efe6d2"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/b1fc8369-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/b1fc8369.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/b1fc8369.webp"
+   },
+   {
+    "id": "fenestra-009",
+    "groupId": "fenestra",
+    "name": "009",
+    "sortOrder": 9,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#8faeff",
+     "colorB": "#dce8ff",
+     "colorC": "#ff9e8c",
+     "colorD": "#ffffff",
+     "bgColor": "#2b5bff"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/5d1234f9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/5d1234f9.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/5d1234f9.webp"
+   },
+   {
+    "id": "fenestra-010",
+    "groupId": "fenestra",
+    "name": "010",
+    "sortOrder": 10,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c41e1a",
+     "colorB": "#ff4d2e",
+     "colorC": "#ffa02b",
+     "colorD": "#ffffff",
+     "bgColor": "#2a0906"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/27582c1a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/27582c1a.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/fenestra-6aec75e9a2/27582c1a.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "fenestra.webp": "52058 bytes"
+ }
+}

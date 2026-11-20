@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:46:59Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "holographic-chrome-swirl",
+  "title": "Holographic Chrome Swirl",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/holographic-chrome-swirl-3bbaddae25.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/holographic-chrome-swirl-3bbaddae25.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/holographic-chrome-swirl-3bbaddae25-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "along",
+   "black",
+   "breaking",
+   "chrome",
+   "colour",
+   "edge",
+   "every",
+   "glass",
+   "holographic",
+   "iridescent",
+   "liquid",
+   "marble",
+   "mercury",
+   "metal",
+   "oil",
+   "swirl",
+   "swirls",
+   "tight",
+   "y2k"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "holographic-chrome-swirl.webp": "348180 bytes"
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "fetchedAt": "2026-11-20T15:47:14Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "tombac",
+  "title": "Tombac",
+  "description": "Crumpled brass with a warm room on one side and a cold window on the other — facets return whichever they face.",
+  "nature": "metal",
+  "family": "material",
+  "tier": "Premium",
+  "likes": 39,
+  "createdAt": "2026-08-24",
+  "shaderHash": "99de42adc440e223a871d690a7cd5f26",
+  "hues": [
+   "blue",
+   "violet",
+   "red",
+   "orange",
+   "magenta",
+   "teal",
+   "indigo",
+   "amber"
+  ],
+  "variantCount": 5,
+  "variants": [
+   {
+    "id": "tombac",
+    "groupId": "tombac",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#cfd0ee",
+     "colorB": "#bfe8d8",
+     "colorC": "#d4cff5",
+     "colorD": "#ffffff",
+     "bgColor": "#e2e0f4"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-23",
+    "likes": 39,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tombac-19c887be26-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tombac-19c887be26.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tombac-19c887be26.webp"
+   },
+   {
+    "id": "tombac-001",
+    "groupId": "tombac",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#171b26",
+     "colorB": "#a8703f",
+     "colorC": "#4a6a9a",
+     "colorD": "#eef1f6",
+     "bgColor": "#08090c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tombac-19c887be26/b2f3e389-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tombac-19c887be26/b2f3e389.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tombac-19c887be26/b2f3e389.webp"
+   },
+   {
+    "id": "tombac-002",
+    "groupId": "tombac",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c41e2a",
+     "colorB": "#ff5a4b",
+     "colorC": "#ffd8d0",
+     "colorD": "#ffffff",
+     "bgColor": "#1c0605"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tombac-19c887be26/d93327d4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tombac-19c887be26/d93327d4.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tombac-19c887be26/d93327d4.webp"
+   },
+   {
+    "id": "tombac-003",
+    "groupId": "tombac",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e8dcc0",
+     "colorB": "#f5d28c",
+     "colorC": "#d8cfe8",
+     "colorD": "#fff7e4",
+     "bgColor": "#efe6d2"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tombac-19c887be26/0ca79f3b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tombac-19c887be26/0ca79f3b.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tombac-19c887be26/0ca79f3b.webp"
+   },
+   {
+    "id": "tombac-004",
+    "groupId": "tombac",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#45156a",
+     "colorB": "#f02be0",
+     "colorC": "#7b3fd9",
+     "colorD": "#ffffff",
+     "bgColor": "#17061f"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/tombac-19c887be26/62b59446-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/tombac-19c887be26/62b59446.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/tombac-19c887be26/62b59446.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "tombac.webp": "13616 bytes"
+ }
+}

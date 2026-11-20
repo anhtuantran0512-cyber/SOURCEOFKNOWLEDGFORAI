@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:26:26Z",
+ "fetchedAt": "2026-11-20T15:44:12Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "kelder",
@@ -568,7 +568,7 @@
   "status": "premium"
  },
  "files": {
-  "kelder.webp": "171958 bytes",
-  "kelder-figma.webp": "220920 bytes"
+  "kelder.webp": "cached",
+  "kelder-figma.webp": "cached"
  }
 }

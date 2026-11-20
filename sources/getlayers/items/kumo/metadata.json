@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:25Z",
+ "fetchedAt": "2026-11-20T15:42:34Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "kumo",
@@ -608,7 +608,7 @@
   "status": "premium"
  },
  "files": {
-  "kumo.webp": "314186 bytes",
-  "kumo-figma.webp": "418590 bytes"
+  "kumo.webp": "cached",
+  "kumo-figma.webp": "cached"
  }
 }

@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:54Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "copper-contour-spiral",
+  "title": "Copper Contour Spiral",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/copper-contour-spiral-2332fec639.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/copper-contour-spiral-2332fec639.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/copper-contour-spiral-2332fec639-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "caught",
+   "central",
+   "contour",
+   "copper",
+   "deep",
+   "glass",
+   "hypnotic",
+   "indigo",
+   "like",
+   "lines",
+   "map",
+   "metallic",
+   "pull",
+   "ridges",
+   "spiral",
+   "spun",
+   "terrain",
+   "topographic",
+   "vortex",
+   "whirl",
+   "whirlpool"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "copper-contour-spiral.webp": "375348 bytes"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "fetchedAt": "2026-11-20T15:45:43Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "dark-glass-waves",
+  "title": "Dark Glass Waves",
+  "category": "background",
+  "tags": [
+   "background",
+   "static"
+  ],
+  "stack": [
+   "background",
+   "static"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/dark-glass-waves-97e04becfe.webp",
+  "likes": 2,
+  "createdAt": "2026-07-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "abstract",
+   "background",
+   "black",
+   "dark",
+   "folds",
+   "glass",
+   "prismatic",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "dark-glass-waves.webp": "147944 bytes"
+ }
+}

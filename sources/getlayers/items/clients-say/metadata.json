@@ -1,0 +1,70 @@
+{
+ "fetchedAt": "2026-11-20T15:45:05Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "clients-say",
+  "title": "Clients Say",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Two bold quote cards on an acid-lime field, each quietly cycling through glowing client stories. Legal for purchase only on getlayers.ai — getlayers.ai/layer/clients-say",
+  "image": "https://storage.getlayers.ai/sections/clients-say-c92d268052.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/clients-say-c92d268052.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/clients-say-c92d268052-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/clients-say-c92d268052-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/clients-say-c92d268052-mobile.mp4",
+  "likes": 22,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "testimonials"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "brutal"
+  ],
+  "keywords": [
+   "acid",
+   "acid green",
+   "autoplay",
+   "b2b",
+   "bold",
+   "cards",
+   "carousel",
+   "case study",
+   "client",
+   "client quotes",
+   "clients",
+   "cycling",
+   "field",
+   "glowing",
+   "lime",
+   "quietly",
+   "quote",
+   "quotes",
+   "reviews",
+   "saas",
+   "say",
+   "social proof",
+   "social-proof",
+   "stories",
+   "testimonials",
+   "what our clients say"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "clients-say.webp": "54486 bytes"
+ }
+}

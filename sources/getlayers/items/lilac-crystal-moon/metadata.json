@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:47:00Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lilac-crystal-moon",
+  "title": "Lilac Crystal Moon",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/lilac-crystal-moon-8d51719295.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lilac-crystal-moon-8d51719295.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lilac-crystal-moon-8d51719295-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "cosmic-space"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bedroom",
+   "beneath",
+   "cosmic",
+   "crescent",
+   "crescents",
+   "crystal",
+   "dreamy",
+   "dunes",
+   "float",
+   "full",
+   "glass",
+   "lilac",
+   "made",
+   "mobile",
+   "moon",
+   "night",
+   "pastel",
+   "real",
+   "shards",
+   "soft",
+   "space"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lilac-crystal-moon.webp": "81386 bytes"
+ }
+}

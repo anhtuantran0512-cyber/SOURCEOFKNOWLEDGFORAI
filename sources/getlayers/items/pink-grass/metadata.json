@@ -1,0 +1,52 @@
+{
+ "fetchedAt": "2026-11-20T15:45:09Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pink-grass",
+  "title": "Pink Grass",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/pink-grass-b541f2cb61.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pink-grass-b541f2cb61.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pink-grass-b541f2cb61-preview.mp4",
+  "likes": 65,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic",
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "grass",
+   "pink",
+   "landscape",
+   "rocks",
+   "windswept",
+   "fields",
+   "magenta",
+   "ripple",
+   "across",
+   "rocky",
+   "ridge",
+   "under",
+   "pale",
+   "sky",
+   "nature"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pink-grass.webp": "169804 bytes"
+ }
+}

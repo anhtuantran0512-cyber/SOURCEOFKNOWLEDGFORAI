@@ -1,0 +1,69 @@
+{
+ "fetchedAt": "2026-11-20T15:45:06Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "process-bento",
+  "title": "Process Bento",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A how-we-work bento of soft step cards on dark, punctuated by a cobalt intro tile and orange accents. Legal for purchase only on getlayers.ai — getlayers.ai/layer/process-bento",
+  "image": "https://storage.getlayers.ai/sections/process-bento-bbeda077c3.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/process-bento-bbeda077c3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/process-bento-bbeda077c3-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/process-bento-bbeda077c3-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/process-bento-bbeda077c3-mobile.mp4",
+  "likes": 12,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "roadmap"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "keywords": [
+   "accents",
+   "bento",
+   "bento grid",
+   "blue",
+   "cards",
+   "cobalt",
+   "dark",
+   "how",
+   "how it works",
+   "how-it-works",
+   "intro",
+   "onboarding",
+   "orange",
+   "process",
+   "punctuated",
+   "rental",
+   "roadmap",
+   "service steps",
+   "soft",
+   "step",
+   "steps",
+   "tile",
+   "timeline",
+   "work",
+   "workflow"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "process-bento.webp": "38142 bytes"
+ }
+}

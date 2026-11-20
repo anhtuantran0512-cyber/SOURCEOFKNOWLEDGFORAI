@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:46:34Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "rolling-moss-hills",
+  "title": "Rolling Moss Hills",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark. Legal for purchase only on getlayers.ai — getlayers.ai/layer/rolling-moss-hills",
+  "image": "https://storage.getlayers.ai/backgrounds/rolling-moss-hills-90b2fe4bda.webp",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "along",
+   "catching",
+   "dark",
+   "grass",
+   "grassy",
+   "green",
+   "highland",
+   "hills",
+   "landscape",
+   "light",
+   "lush",
+   "moss",
+   "nature",
+   "quiet",
+   "raking",
+   "ridges",
+   "roll",
+   "rolling",
+   "shadows",
+   "soft",
+   "velvet",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "rolling-moss-hills.webp": "452828 bytes"
+ }
+}

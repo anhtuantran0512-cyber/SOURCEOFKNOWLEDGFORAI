@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:25:50Z",
+ "fetchedAt": "2026-11-20T15:43:09Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "fromzero",
@@ -533,7 +533,7 @@
   "status": "premium"
  },
  "files": {
-  "fromzero.webp": "96988 bytes",
-  "fromzero-figma.webp": "77018 bytes"
+  "fromzero.webp": "cached",
+  "fromzero-figma.webp": "cached"
  }
 }

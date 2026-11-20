@@ -25,7 +25,7 @@ url: "https://www.getlayers.ai/layer/loopstack"
 - Published: 2026-06-07 · likes: 187
 - Live page: https://www.getlayers.ai/layer/loopstack
 - Preview still: [`assets/loopstack.webp`](../../assets/loopstack.webp)
-- Figma preview: _not published for this template_
+- Figma preview: _not published for this item_
 
 ## Measured performance
 

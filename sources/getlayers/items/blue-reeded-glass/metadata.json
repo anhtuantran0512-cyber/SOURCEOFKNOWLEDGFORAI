@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:45:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-reeded-glass",
+  "title": "Blue Reeded Glass",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-reeded-glass-fb491391d6.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blue-reeded-glass-fb491391d6.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blue-reeded-glass-fb491391d6-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "architectural",
+   "behind",
+   "blue",
+   "bright",
+   "daylight",
+   "each",
+   "fluted",
+   "frosted",
+   "glass",
+   "interior",
+   "lobby",
+   "one",
+   "overlapping",
+   "pale",
+   "panels",
+   "quiet",
+   "reeded",
+   "softening",
+   "stand",
+   "what"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-reeded-glass.webp": "100258 bytes"
+ }
+}

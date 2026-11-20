@@ -1,0 +1,50 @@
+{
+ "fetchedAt": "2026-11-20T15:45:24Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-flower",
+  "title": "Glass Flower",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Free",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-flower.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-flower.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-flower-preview.mp4",
+  "likes": 69,
+  "createdAt": "2026-04-12",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "flower",
+   "glass",
+   "chrome",
+   "daisy",
+   "minimal",
+   "single",
+   "catching",
+   "cold",
+   "light",
+   "against",
+   "pure",
+   "black",
+   "abstract"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "glass-flower.webp": "55832 bytes"
+ }
+}

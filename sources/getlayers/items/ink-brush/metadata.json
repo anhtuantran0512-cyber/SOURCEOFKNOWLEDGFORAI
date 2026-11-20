@@ -1,0 +1,195 @@
+{
+ "fetchedAt": "2026-11-20T15:44:28Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "ink-brush",
+  "title": "Ink Brush",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Black ink blooming across warm orange paper wherever you move, smearing into a stroke that dries and vanishes on its own.",
+  "image": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f-preview.mp4",
+  "likes": 83,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "organic"
+  ],
+  "keywords": [
+   "across",
+   "black",
+   "blooming",
+   "blot",
+   "brush",
+   "drawing",
+   "dries",
+   "feedback",
+   "feedback-buffer",
+   "ink",
+   "interactive",
+   "move",
+   "orange",
+   "own",
+   "paint",
+   "paper",
+   "particles",
+   "ping-pong",
+   "shader",
+   "smear",
+   "smearing",
+   "stroke",
+   "that",
+   "threejs",
+   "trail",
+   "vanishes",
+   "warm",
+   "wherever",
+   "you"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "ink-brush",
+    "groupId": "ink-brush",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#f26a1b",
+     "inkColor": "#0a0705"
+    },
+    "ramp": [
+     "#f26a1b",
+     "#0a0705"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f.webp"
+   },
+   {
+    "id": "ink-brush-001",
+    "groupId": "ink-brush",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#24131f",
+     "inkColor": "#f2e6f0"
+    },
+    "ramp": [
+     "#24131f",
+     "#f2e6f0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/ee38fde3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/ee38fde3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/ee38fde3.webp"
+   },
+   {
+    "id": "ink-brush-002",
+    "groupId": "ink-brush",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#10101b",
+     "inkColor": "#d7d5e6"
+    },
+    "ramp": [
+     "#10101b",
+     "#d7d5e6"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/454134ca-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/454134ca.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/454134ca.webp"
+   },
+   {
+    "id": "ink-brush-003",
+    "groupId": "ink-brush",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#1f0e21",
+     "inkColor": "#e5c2e6"
+    },
+    "ramp": [
+     "#1f0e21",
+     "#e5c2e6"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/64f6bce6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/64f6bce6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/64f6bce6.webp"
+   },
+   {
+    "id": "ink-brush-004",
+    "groupId": "ink-brush",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#ede0e3",
+     "inkColor": "#492c3e"
+    },
+    "ramp": [
+     "#ede0e3",
+     "#492c3e"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/aa18da80-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/aa18da80.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/aa18da80.webp"
+   },
+   {
+    "id": "ink-brush-005",
+    "groupId": "ink-brush",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#0f1913",
+     "inkColor": "#dceadf"
+    },
+    "ramp": [
+     "#0f1913",
+     "#dceadf"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/aad74ea9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/aad74ea9.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-brush-b1da20153f/aad74ea9.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "ink-brush.webp": "59994 bytes"
+ }
+}

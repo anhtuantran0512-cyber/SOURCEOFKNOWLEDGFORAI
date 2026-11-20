@@ -1,0 +1,80 @@
+{
+ "fetchedAt": "2026-11-20T15:45:02Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "fold-split",
+  "title": "Fold Split",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A lilac split screen where one tap folds a real 3D bag into a tidy bundle that rolls across the seam. Legal for purchase only on getlayers.ai — getlayers.ai/layer/fold-split",
+  "image": "https://storage.getlayers.ai/sections/fold-split-9f04850884.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/fold-split-9f04850884.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/fold-split-9f04850884-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/fold-split-9f04850884-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/fold-split-9f04850884-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/fold-split-9f04850884-figma.webp",
+  "hasFigma": true,
+  "likes": 36,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "showcase"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "keywords": [
+   "3d",
+   "3d product",
+   "bag",
+   "before after",
+   "before-after",
+   "bundle",
+   "compare",
+   "ecommerce",
+   "fold",
+   "fold animation",
+   "folds",
+   "lilac",
+   "outdoor gear",
+   "packable",
+   "packable bag",
+   "product",
+   "product showcase",
+   "real",
+   "rolls",
+   "screen",
+   "seam",
+   "showcase",
+   "split",
+   "split screen",
+   "tap",
+   "three",
+   "three.js",
+   "tidy",
+   "toggle",
+   "travel",
+   "webgl"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "fold-split.webp": "35058 bytes",
+  "fold-split-figma.webp": "89430 bytes"
+ }
+}

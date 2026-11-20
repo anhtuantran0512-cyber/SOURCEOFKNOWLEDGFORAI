@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "stone-daisy-figure",
+  "title": "Stone Daisy Figure",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/stone-daisy-figure-29d2c86f88.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/stone-daisy-figure-29d2c86f88.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/stone-daisy-figure-29d2c86f88-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "among",
+   "beam",
+   "cap",
+   "character",
+   "cream",
+   "daisies",
+   "daisy",
+   "face",
+   "faceless",
+   "fashion",
+   "ferns",
+   "figure",
+   "grown",
+   "has",
+   "light",
+   "meadow",
+   "moss",
+   "person",
+   "quiet",
+   "soft",
+   "standing",
+   "stone",
+   "suit",
+   "surreal"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "stone-daisy-figure.webp": "98848 bytes"
+ }
+}

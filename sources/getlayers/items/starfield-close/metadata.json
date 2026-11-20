@@ -1,0 +1,95 @@
+{
+ "fetchedAt": "2026-11-20T15:44:36Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "starfield-close",
+  "title": "Starfield Close",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Free",
+  "description": "A dense field of mint and bone-white stars wraps the camera and streams past like an endless tunnel of starlight.",
+  "image": "https://storage.getlayers.ai/3d_scenes/starfield-close.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/starfield-close.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/starfield-close-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/starfield-close-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 109,
+  "createdAt": "2026-03-25",
+  "typeTags": [
+   "galaxy-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "technical"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "starfield",
+   "tunnel",
+   "scroll",
+   "close",
+   "endless",
+   "twinkling",
+   "stars",
+   "streaming",
+   "past",
+   "wrapping",
+   "viewer",
+   "quiet",
+   "motion",
+   "galaxy",
+   "space"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "starfield-close",
+    "groupId": "starfield-close",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#aef6cf",
+     "colorB": "#5fe6a0",
+     "colorC": "#eafff2",
+     "bgColor": "#0a0a24",
+     "flameColor": "#aee9ff",
+     "flameColor2": "#c79bff"
+    },
+    "ramp": [
+     "#0a0a24",
+     "#aee9ff",
+     "#c79bff",
+     "#aef6cf",
+     "#5fe6a0",
+     "#eafff2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/starfield-close-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/starfield-close.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/starfield-close.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "rate_limited"
+ },
+ "files": {
+  "starfield-close.webp": "12162 bytes"
+ }
+}

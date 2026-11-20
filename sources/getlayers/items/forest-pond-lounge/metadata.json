@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:45:48Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "forest-pond-lounge",
+  "title": "Forest Pond Lounge",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/forest-pond-lounge-b7d166cd44.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/forest-pond-lounge-b7d166cd44.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/forest-pond-lounge-b7d166cd44-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "armchairs",
+   "dusk",
+   "end",
+   "forest",
+   "grassy",
+   "green",
+   "hidden",
+   "island",
+   "landscape",
+   "lounge",
+   "nature",
+   "pines",
+   "pond",
+   "pool",
+   "retreat",
+   "sit",
+   "tall",
+   "tea",
+   "teapot",
+   "turquoise",
+   "world"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "forest-pond-lounge.webp": "479890 bytes"
+ }
+}

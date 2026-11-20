@@ -1,0 +1,53 @@
+{
+ "fetchedAt": "2026-11-20T15:45:09Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glowing-dunes",
+  "title": "Glowing Dunes",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/glowing-dunes-d77d97d180.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glowing-dunes-d77d97d180.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glowing-dunes-d77d97d180-preview.mp4",
+  "likes": 52,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "dunes",
+   "desert",
+   "glow",
+   "surreal",
+   "twilight",
+   "glowing",
+   "smooth",
+   "violet",
+   "cradling",
+   "molten",
+   "orange",
+   "river",
+   "winding",
+   "dusk",
+   "landscape",
+   "nature"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glowing-dunes.webp": "75508 bytes"
+ }
+}

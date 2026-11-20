@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:26:15Z",
+ "fetchedAt": "2026-11-20T15:43:25Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "dringle",
@@ -354,7 +354,7 @@
   "status": "premium"
  },
  "files": {
-  "dringle.webp": "100722 bytes",
-  "dringle-figma.webp": "73864 bytes"
+  "dringle.webp": "cached",
+  "dringle-figma.webp": "cached"
  }
 }

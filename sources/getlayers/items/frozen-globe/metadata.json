@@ -1,0 +1,113 @@
+{
+ "fetchedAt": "2026-11-20T15:44:51Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "frozen-globe",
+  "title": "Frozen Globe",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A frosted ice planet turning in a lilac haze, its continents raised into real relief.",
+  "image": "https://storage.getlayers.ai/3d_scenes/frozen-globe-da17792c55.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/frozen-globe-da17792c55.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/frozen-globe-da17792c55-preview.mp4",
+  "likes": 3,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "keywords": [
+   "arctic",
+   "continents",
+   "could",
+   "earth",
+   "element",
+   "explore",
+   "fiction",
+   "frost",
+   "frosted",
+   "frozen",
+   "globe",
+   "haze",
+   "hold",
+   "ice",
+   "lilac",
+   "map",
+   "periwinkle",
+   "planet",
+   "raised",
+   "real",
+   "relief",
+   "science",
+   "soft",
+   "travel",
+   "turning",
+   "winter",
+   "world",
+   "you"
+  ],
+  "variants": [
+   {
+    "id": "frozen-globe",
+    "groupId": "frozen-globe",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#9ea1ff",
+     "bgBottom": "#c9c2ff",
+     "keyColor": "#fff4e8",
+     "rimColor": "#b8d2ff",
+     "atmoColor": "#7fa8f2",
+     "fillColor": "#f2d49a",
+     "hazeColor": "#c7cde8",
+     "labelBack": "#030019",
+     "warmColor": "#f6e7d4",
+     "globeColor": "#94abff",
+     "labelFront": "#030019",
+     "shadeColor": "#808080"
+    },
+    "ramp": [
+     "#9ea1ff",
+     "#c9c2ff",
+     "#94abff",
+     "#fff4e8",
+     "#f2d49a",
+     "#b8d2ff",
+     "#7fa8f2",
+     "#808080",
+     "#f6e7d4",
+     "#c7cde8",
+     "#030019",
+     "#030019"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/frozen-globe-da17792c55-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/frozen-globe-da17792c55.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/frozen-globe-da17792c55.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "frozen-globe.webp": "51312 bytes"
+ }
+}

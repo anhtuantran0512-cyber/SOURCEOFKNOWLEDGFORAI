@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:25:59Z",
+ "fetchedAt": "2026-11-20T15:43:15Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "negantropy",
@@ -324,6 +324,6 @@
   "status": "premium"
  },
  "files": {
-  "negantropy.webp": "207016 bytes"
+  "negantropy.webp": "cached"
  }
 }

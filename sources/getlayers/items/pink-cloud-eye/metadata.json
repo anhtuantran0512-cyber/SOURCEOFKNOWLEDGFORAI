@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:47:05Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pink-cloud-eye",
+  "title": "Pink Cloud Eye",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pink-cloud-eye-4342ddad70.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pink-cloud-eye-4342ddad70.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pink-cloud-eye-4342ddad70-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "and",
+   "being",
+   "character",
+   "cloud",
+   "clouds",
+   "coral",
+   "dripping",
+   "drips",
+   "eye",
+   "flowers",
+   "garden",
+   "huge",
+   "illustrated",
+   "illustration",
+   "pink",
+   "pretty",
+   "set",
+   "stylised",
+   "surreal",
+   "the",
+   "trees",
+   "unsettling",
+   "watched",
+   "weather"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pink-cloud-eye.webp": "266046 bytes"
+ }
+}

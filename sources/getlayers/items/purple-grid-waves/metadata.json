@@ -1,0 +1,57 @@
+{
+ "fetchedAt": "2026-11-20T15:47:06Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "purple-grid-waves",
+  "title": "Purple Grid Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/purple-grid-waves-5ac0eca3b3.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/purple-grid-waves-5ac0eca3b3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/purple-grid-waves-5ac0eca3b3-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "data",
+   "drifting",
+   "glass",
+   "glowing",
+   "grid",
+   "haze",
+   "landscape",
+   "made",
+   "magenta",
+   "particles",
+   "purple",
+   "synthwave",
+   "terrain",
+   "through",
+   "undulates",
+   "violet",
+   "waves",
+   "wireframe"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "purple-grid-waves.webp": "105482 bytes"
+ }
+}

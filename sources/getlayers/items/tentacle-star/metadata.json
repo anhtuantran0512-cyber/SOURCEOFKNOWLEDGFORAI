@@ -1,0 +1,150 @@
+{
+ "fetchedAt": "2026-11-20T15:44:44Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "tentacle-star",
+  "title": "Tentacle Star",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Premium",
+  "description": "A bioluminescent star core fans out into drifting tentacle filaments, shading from icy cyan to violet tips.",
+  "image": "https://storage.getlayers.ai/3d_scenes/tentacle-star.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/tentacle-star.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/tentacle-star-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/tentacle-star-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 12,
+  "createdAt": "2026-05-25",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "luxe"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "filaments",
+   "star",
+   "bioluminescent",
+   "tentacle",
+   "luminous",
+   "trailing",
+   "countless",
+   "that",
+   "drift",
+   "wave",
+   "like",
+   "deep",
+   "sea",
+   "creature"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "tentacle-star",
+    "groupId": "tentacle-star",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#05061c",
+     "tipColor": "#a06bff",
+     "atmoColor": "#aad0ff",
+     "coreColor": "#bff0ff",
+     "flameColor": "#5cd6ff",
+     "flameColor2": "#b07cff"
+    },
+    "ramp": [
+     "#bff0ff",
+     "#a06bff",
+     "#05061c",
+     "#5cd6ff",
+     "#b07cff",
+     "#aad0ff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/tentacle-star-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/tentacle-star.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/tentacle-star.webp"
+   },
+   {
+    "id": "tentacle-star-001",
+    "groupId": "tentacle-star",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#224fa7",
+     "tipColor": "#192e66",
+     "atmoColor": "#bdd5ec",
+     "coreColor": "#0c1228",
+     "flameColor": "#3d7ad8",
+     "flameColor2": "#7fabe0"
+    },
+    "ramp": [
+     "#0c1228",
+     "#192e66",
+     "#224fa7",
+     "#3d7ad8",
+     "#7fabe0",
+     "#bdd5ec"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/tentacle-star/973bf5ca-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/tentacle-star/973bf5ca.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/tentacle-star/973bf5ca.webp"
+   },
+   {
+    "id": "tentacle-star-002",
+    "groupId": "tentacle-star",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#05061c",
+     "tipColor": "#a06bff",
+     "atmoColor": "#aad0ff",
+     "coreColor": "#bff0ff",
+     "flameColor": "#5cd6ff",
+     "flameColor2": "#b07cff"
+    },
+    "ramp": [
+     "#bff0ff",
+     "#a06bff",
+     "#05061c",
+     "#5cd6ff",
+     "#b07cff",
+     "#aad0ff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/tentacle-star/313807c6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/tentacle-star/313807c6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/tentacle-star/313807c6.webp"
+   }
+  ],
+  "variantCount": 3
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "tentacle-star.webp": "50042 bytes"
+ }
+}

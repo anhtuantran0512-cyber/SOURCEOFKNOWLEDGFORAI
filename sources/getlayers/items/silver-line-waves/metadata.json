@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:09Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "silver-line-waves",
+  "title": "Silver Line Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Free",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/silver-line-waves-8bd84503db.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/silver-line-waves-8bd84503db.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/silver-line-waves-8bd84503db-preview.mp4",
+  "likes": 4,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "and",
+   "bend",
+   "brushed",
+   "dense",
+   "enough",
+   "fabric",
+   "field",
+   "fine",
+   "glass",
+   "line",
+   "lines",
+   "long",
+   "metal",
+   "monochrome",
+   "motion",
+   "pale",
+   "pattern",
+   "precise",
+   "quiet",
+   "read",
+   "silver",
+   "through",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "silver-line-waves.webp": "196000 bytes"
+ }
+}

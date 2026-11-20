@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:45:48Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blossom-arch-meadow",
+  "title": "Blossom Arch Meadow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/blossom-arch-meadow",
+  "image": "https://storage.getlayers.ai/backgrounds/blossom-arch-meadow-90d156fb13.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blossom-arch-meadow-90d156fb13.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blossom-arch-meadow-90d156fb13-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "afternoon",
+   "arch",
+   "architectural",
+   "blossom",
+   "blossoms",
+   "drifting",
+   "fountain",
+   "framing",
+   "golden",
+   "grass",
+   "hanging",
+   "landscape",
+   "lazy",
+   "light",
+   "meadow",
+   "nature",
+   "pale",
+   "petals",
+   "pink",
+   "quiet",
+   "rays",
+   "sky",
+   "spring",
+   "stone",
+   "sweep"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blossom-arch-meadow.webp": "483182 bytes"
+ }
+}

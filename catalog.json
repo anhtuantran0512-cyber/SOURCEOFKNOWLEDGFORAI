@@ -1,9 +1,9 @@
 {
   "generated": "2026-11-20",
   "totals": {
-    "all": 6832,
+    "all": 7662,
     "codefronts": 5047,
-    "getlayers": 62,
+    "getlayers": 892,
     "lucianlabs": 400,
     "motionsites_free": 321,
     "pinui": 41,
@@ -17,13 +17,30 @@
     },
     "getlayers": {
       "manifest": "sources/getlayers/manifest.json",
-      "catalog": "sources/getlayers/catalog.json",
+      "catalog": "sources/getlayers/catalog/",
+      "media": "sources/getlayers/MEDIA.md",
       "readme": "sources/getlayers/README.md",
-      "site": "https://www.getlayers.ai/templates",
-      "free_templates": 11,
-      "premium_templates": 51,
+      "sites": [
+        "https://www.getlayers.ai/templates",
+        "https://www.getlayers.ai/3d-scenes",
+        "https://www.getlayers.ai/sections",
+        "https://www.getlayers.ai/backgrounds",
+        "https://www.getlayers.ai/gradients"
+      ],
+      "libraries": {
+        "template": 62,
+        "3d_scene": 222,
+        "section": 54,
+        "background": 530,
+        "gradient": 24
+      },
+      "free_items": 47,
+      "premium_items": 845,
+      "free_prompts": 18,
       "free_prompts_captured": 1,
-      "locked_prompts": 51
+      "locked_prompts": 891,
+      "media_files": 5854,
+      "media_bytes": 10039242693
     },
     "lucianlabs": {
       "manifest": "sources/lucianlabs/manifest.json",

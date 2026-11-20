@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:36Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lavender-canyon-river",
+  "title": "Lavender Canyon River",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/lavender-canyon-river-165b3a0f77.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lavender-canyon-river-165b3a0f77.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lavender-canyon-river-165b3a0f77-preview.mp4",
+  "likes": 3,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "between",
+   "canyon",
+   "cliffs",
+   "cold",
+   "desert",
+   "distant",
+   "fade",
+   "geology",
+   "gorge",
+   "haze",
+   "landscape",
+   "lavender",
+   "morning",
+   "nature",
+   "pale",
+   "pastel",
+   "reflection",
+   "river",
+   "runs",
+   "still",
+   "that",
+   "walls"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lavender-canyon-river.webp": "239302 bytes"
+ }
+}

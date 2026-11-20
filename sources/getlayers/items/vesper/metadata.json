@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:17Z",
+ "fetchedAt": "2026-11-20T15:42:30Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "vesper",
@@ -348,7 +348,7 @@
   "status": "premium"
  },
  "files": {
-  "vesper.webp": "204328 bytes",
-  "vesper-figma.webp": "123234 bytes"
+  "vesper.webp": "cached",
+  "vesper-figma.webp": "cached"
  }
 }

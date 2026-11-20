@@ -1,0 +1,52 @@
+{
+ "fetchedAt": "2026-11-20T15:45:09Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "star-man",
+  "title": "Star Man",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/star-man-58a4caa5a3.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/star-man-58a4caa5a3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/star-man-58a4caa5a3-preview.mp4",
+  "likes": 73,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "figure",
+   "stars",
+   "cosmic",
+   "glow",
+   "star",
+   "man",
+   "human",
+   "form",
+   "woven",
+   "starlight",
+   "strides",
+   "across",
+   "dark",
+   "field",
+   "character"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "star-man.webp": "71538 bytes"
+ }
+}

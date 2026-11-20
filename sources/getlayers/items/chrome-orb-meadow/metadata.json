@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:23Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "chrome-orb-meadow",
+  "title": "Chrome Orb Meadow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Free",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/chrome-orb-meadow-82f70fd9d1.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/chrome-orb-meadow-82f70fd9d1.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/chrome-orb-meadow-82f70fd9d1-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "amber",
+   "among",
+   "beads",
+   "bright",
+   "chrome",
+   "cradling",
+   "daisies",
+   "field",
+   "flowers",
+   "for",
+   "glass",
+   "jewellery",
+   "landscape",
+   "loops",
+   "meadow",
+   "nature",
+   "object",
+   "orb",
+   "reflective",
+   "scatter",
+   "through",
+   "tubing",
+   "wildflower"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "chrome-orb-meadow.webp": "424134 bytes"
+ }
+}

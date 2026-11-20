@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:45:51Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pastel-line-waves",
+  "title": "Pastel Line Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pastel-line-waves-fcad748b63.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pastel-line-waves-fcad748b63.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pastel-line-waves-fcad748b63-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "brushed",
+   "butter",
+   "combed",
+   "coral",
+   "curves",
+   "endlessly",
+   "fibres",
+   "fine",
+   "flowing",
+   "glass",
+   "gradient",
+   "hair",
+   "like",
+   "line",
+   "long",
+   "mint",
+   "pastel",
+   "peach",
+   "rainbow",
+   "sage",
+   "silk",
+   "soft",
+   "strands",
+   "sweep",
+   "waves",
+   "yellow"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pastel-line-waves.webp": "483632 bytes"
+ }
+}

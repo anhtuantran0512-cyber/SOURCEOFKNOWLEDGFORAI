@@ -1,0 +1,176 @@
+{
+ "fetchedAt": "2026-11-20T15:44:59Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "stone-drift",
+  "title": "Stone Drift",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "Black basalt rocks drifting and colliding over a white studio field — sweep the cursor to scatter them.",
+  "image": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "keywords": [
+   "basalt",
+   "black",
+   "boulders",
+   "calm",
+   "collide",
+   "colliding",
+   "collision",
+   "cursor",
+   "drift",
+   "drifting",
+   "element",
+   "field",
+   "float",
+   "floating",
+   "gallery",
+   "granite",
+   "gravity",
+   "grey",
+   "minimal",
+   "pebbles",
+   "quiet",
+   "rocks",
+   "scatter",
+   "soft",
+   "stone",
+   "stones",
+   "studio",
+   "sweep",
+   "them",
+   "weight",
+   "white",
+   "white-studio",
+   "without",
+   "zen"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "stone-drift",
+    "groupId": "stone-drift",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bg": "#ffffff",
+     "bgGrey": "#bdbdbd",
+     "rockTint": "#0a0a0a",
+     "shadowColor": "#707070"
+    },
+    "ramp": [
+     "#ffffff",
+     "#bdbdbd",
+     "#0a0a0a",
+     "#707070"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2.webp"
+   },
+   {
+    "id": "stone-drift-001",
+    "groupId": "stone-drift",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bg": "#131c23",
+     "bgGrey": "#5877b2",
+     "rockTint": "#eaebf3",
+     "shadowColor": "#707070"
+    },
+    "ramp": [
+     "#131c23",
+     "#5877b2",
+     "#eaebf3",
+     "#707070"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2/2ce5f2b4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2/2ce5f2b4.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2/2ce5f2b4.webp"
+   },
+   {
+    "id": "stone-drift-002",
+    "groupId": "stone-drift",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bg": "#120707",
+     "bgGrey": "#b75d32",
+     "rockTint": "#ece1cd",
+     "shadowColor": "#707070"
+    },
+    "ramp": [
+     "#120707",
+     "#b75d32",
+     "#ece1cd",
+     "#707070"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2/9a3d4af0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2/9a3d4af0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2/9a3d4af0.webp"
+   },
+   {
+    "id": "stone-drift-003",
+    "groupId": "stone-drift",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bg": "#ead1be",
+     "bgGrey": "#deb266",
+     "rockTint": "#ab9736",
+     "shadowColor": "#707070"
+    },
+    "ramp": [
+     "#ead1be",
+     "#deb266",
+     "#ab9736",
+     "#707070"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2/77abb017-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2/77abb017.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/stone-drift-75ad8c35a2/77abb017.webp"
+   }
+  ],
+  "variantCount": 4
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "stone-drift.webp": "61972 bytes"
+ }
+}

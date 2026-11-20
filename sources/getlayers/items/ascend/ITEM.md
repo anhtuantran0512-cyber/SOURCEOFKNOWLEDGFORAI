@@ -25,7 +25,7 @@ url: "https://www.getlayers.ai/layer/ascend"
 - Published: 2026-05-20 · likes: 216
 - Live page: https://www.getlayers.ai/layer/ascend
 - Preview still: [`assets/ascend.webp`](../../assets/ascend.webp)
-- Figma preview: _not published for this template_
+- Figma preview: _not published for this item_
 
 ## Measured performance
 

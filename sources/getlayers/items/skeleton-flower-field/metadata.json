@@ -1,0 +1,56 @@
+{
+ "fetchedAt": "2026-11-20T15:47:06Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "skeleton-flower-field",
+  "title": "Skeleton Flower Field",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/skeleton-flower-field-11fa05d931.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/skeleton-flower-field-11fa05d931.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/skeleton-flower-field-11fa05d931-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "air",
+   "bloom",
+   "blossom",
+   "bones",
+   "bright",
+   "butterflies",
+   "character",
+   "day",
+   "death",
+   "field",
+   "flower",
+   "flowers",
+   "good",
+   "memento-mori",
+   "skeleton",
+   "stands",
+   "wildflower",
+   "wreathed"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "skeleton-flower-field.webp": "194862 bytes"
+ }
+}

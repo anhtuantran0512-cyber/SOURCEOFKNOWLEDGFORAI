@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:49Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lone-tree-reflection",
+  "title": "Lone Tree Reflection",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/lone-tree-reflection-4d82f1cfec.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lone-tree-reflection-4d82f1cfec.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lone-tree-reflection-4d82f1cfec-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "alone",
+   "bare",
+   "black",
+   "edge",
+   "fine",
+   "horizon",
+   "lake",
+   "landscape",
+   "lone",
+   "minimal",
+   "mirrored",
+   "nature",
+   "perfectly",
+   "razor",
+   "reflection",
+   "rose",
+   "silence",
+   "sky",
+   "slate",
+   "stands",
+   "still",
+   "thin",
+   "tree",
+   "water"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lone-tree-reflection.webp": "31164 bytes"
+ }
+}

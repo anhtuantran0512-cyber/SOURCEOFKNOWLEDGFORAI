@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:45:34Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "purple-coral-ribbons",
+  "title": "Purple Coral Ribbons",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/purple-coral-ribbons-f85e04d53b.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/purple-coral-ribbons-f85e04d53b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/purple-coral-ribbons-f85e04d53b-preview.mp4",
+  "likes": 4,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "across",
+   "among",
+   "black",
+   "bokeh",
+   "coral",
+   "drawn",
+   "fast",
+   "fine",
+   "flow",
+   "glass",
+   "heat",
+   "hot",
+   "light",
+   "line",
+   "lines",
+   "neon",
+   "purple",
+   "ribbons",
+   "signal",
+   "snake",
+   "soft",
+   "travelling",
+   "violet",
+   "work"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "purple-coral-ribbons.webp": "164384 bytes"
+ }
+}

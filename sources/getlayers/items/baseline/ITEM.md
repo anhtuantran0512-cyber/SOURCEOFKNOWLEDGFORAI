@@ -25,7 +25,7 @@ url: "https://www.getlayers.ai/layer/baseline"
 - Published: 2026-05-09 · likes: 252
 - Live page: https://www.getlayers.ai/layer/baseline
 - Preview still: [`assets/baseline.webp`](../../assets/baseline.webp)
-- Figma preview: _not published for this template_
+- Figma preview: _not published for this item_
 
 ## Measured performance
 

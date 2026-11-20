@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:46:02Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "sage-room-sunbeam",
+  "title": "Sage Room Sunbeam",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/sage-room-sunbeam-55c69c1c46.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/sage-room-sunbeam-55c69c1c46.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/sage-room-sunbeam-55c69c1c46-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "across",
+   "corner",
+   "diagonal",
+   "empty",
+   "falling",
+   "for",
+   "furniture",
+   "glass",
+   "green",
+   "interior",
+   "light",
+   "minimal",
+   "only",
+   "room",
+   "sage",
+   "shadow",
+   "single",
+   "soft",
+   "something",
+   "sunbeam",
+   "sunlight",
+   "the",
+   "waiting",
+   "wall"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "sage-room-sunbeam.webp": "21266 bytes"
+ }
+}

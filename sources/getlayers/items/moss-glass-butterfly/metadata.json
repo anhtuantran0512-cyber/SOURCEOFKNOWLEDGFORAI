@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:42Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "moss-glass-butterfly",
+  "title": "Moss Glass Butterfly",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/moss-glass-butterfly-6834baa105.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/moss-glass-butterfly-6834baa105.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/moss-glass-butterfly-6834baa105-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "butterfly",
+   "clear",
+   "gallery",
+   "garden",
+   "giant",
+   "glass",
+   "grassy",
+   "green",
+   "growth",
+   "light",
+   "morning",
+   "moss",
+   "new",
+   "object",
+   "patch",
+   "product",
+   "room",
+   "sculpture",
+   "sits",
+   "sprouting",
+   "sunlit",
+   "white",
+   "wildflowers",
+   "wings"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "moss-glass-butterfly.webp": "128690 bytes"
+ }
+}

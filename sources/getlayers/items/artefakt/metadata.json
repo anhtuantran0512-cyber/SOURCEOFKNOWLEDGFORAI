@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:14Z",
+ "fetchedAt": "2026-11-20T15:42:26Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "artefakt",
@@ -659,7 +659,7 @@
   "status": "premium"
  },
  "files": {
-  "artefakt.webp": "167274 bytes",
-  "artefakt-figma.webp": "148510 bytes"
+  "artefakt.webp": "cached",
+  "artefakt-figma.webp": "cached"
  }
 }

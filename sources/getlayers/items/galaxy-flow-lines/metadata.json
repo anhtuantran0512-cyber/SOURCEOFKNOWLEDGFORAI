@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:59Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "galaxy-flow-lines",
+  "title": "Galaxy Flow Lines",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/galaxy-flow-lines-a801a2614e.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/galaxy-flow-lines-a801a2614e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/galaxy-flow-lines-a801a2614e-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "cosmic-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "around",
+   "black",
+   "centres",
+   "contour",
+   "cosmic",
+   "diagram",
+   "drawn",
+   "fine",
+   "flow",
+   "galaxy",
+   "gravity",
+   "invisible",
+   "lines",
+   "mathematics",
+   "minimal",
+   "one",
+   "quiet",
+   "small",
+   "space",
+   "spiral",
+   "wheel",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "galaxy-flow-lines.webp": "262588 bytes"
+ }
+}

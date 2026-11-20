@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:46:37Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "cloud-atrium-garden",
+  "title": "Cloud Atrium Garden",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/cloud-atrium-garden",
+  "image": "https://storage.getlayers.ai/backgrounds/cloud-atrium-garden-0b4dc8aeb0.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/cloud-atrium-garden-0b4dc8aeb0.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/cloud-atrium-garden-0b4dc8aeb0-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "atrium",
+   "brutalist",
+   "cloud",
+   "concrete",
+   "ferns",
+   "floats",
+   "fluffy",
+   "garden",
+   "green",
+   "greenhouse",
+   "indoors",
+   "jungle",
+   "landscape",
+   "lush",
+   "nature",
+   "palms",
+   "pool",
+   "rain",
+   "still",
+   "tropical"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cloud-atrium-garden.webp": "321738 bytes"
+ }
+}

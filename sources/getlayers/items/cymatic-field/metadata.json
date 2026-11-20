@@ -1,0 +1,268 @@
+{
+ "fetchedAt": "2026-11-20T15:44:26Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "cymatic-field",
+  "title": "Cymatic Field",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An endless field of slender pillars rises and falls in a living interference pattern of orchid and gold, dissolving into indigo haze at the horizon. Legal for purchase only on getlayers.ai — getlayers.ai/layer/cymatic-field",
+  "image": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 103,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "abstract",
+   "calm",
+   "chladni",
+   "columns",
+   "cursor",
+   "cymatic",
+   "cymatics",
+   "endless",
+   "endless-field",
+   "field",
+   "follows",
+   "gold",
+   "grid",
+   "haze",
+   "haze-fog",
+   "hypnotic",
+   "indigo",
+   "instanced",
+   "instanced-mesh",
+   "interference",
+   "magenta",
+   "midnight",
+   "night",
+   "orbit",
+   "orbit-controls",
+   "orchid",
+   "pattern",
+   "pillars",
+   "pointer-swell",
+   "purple",
+   "resonance",
+   "ripples",
+   "shifting",
+   "sky",
+   "slender",
+   "slowly",
+   "soft",
+   "sound visualization",
+   "standing",
+   "standing waves",
+   "standing-waves",
+   "swell",
+   "terrain",
+   "threejs",
+   "tracing",
+   "wave",
+   "waves"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "cymatic-field",
+    "groupId": "cymatic-field",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#0a0e1c",
+     "midColor": "#a83f86",
+     "hazeColor": "#151a4e",
+     "crestColor": "#f7d585",
+     "groundColor": "#0c0f2e",
+     "valleyColor": "#0e1140"
+    },
+    "ramp": [
+     "#0a0e1c",
+     "#151a4e",
+     "#0c0f2e",
+     "#0e1140",
+     "#a83f86",
+     "#f7d585"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3.webp"
+   },
+   {
+    "id": "cymatic-field-001",
+    "groupId": "cymatic-field",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#06120f",
+     "midColor": "#2f9e8a",
+     "hazeColor": "#0c2a26",
+     "crestColor": "#f2e6c8",
+     "groundColor": "#08201c",
+     "valleyColor": "#0b3a33"
+    },
+    "ramp": [
+     "#06120f",
+     "#0c2a26",
+     "#08201c",
+     "#0b3a33",
+     "#2f9e8a",
+     "#f2e6c8"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/5ec45e71-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/5ec45e71.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/5ec45e71.webp"
+   },
+   {
+    "id": "cymatic-field-002",
+    "groupId": "cymatic-field",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#1a0a0c",
+     "midColor": "#d8503a",
+     "hazeColor": "#4a1a22",
+     "crestColor": "#ffd8a0",
+     "groundColor": "#2a0c10",
+     "valleyColor": "#3a1018"
+    },
+    "ramp": [
+     "#1a0a0c",
+     "#4a1a22",
+     "#2a0c10",
+     "#3a1018",
+     "#d8503a",
+     "#ffd8a0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/8d487e4c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/8d487e4c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/8d487e4c.webp"
+   },
+   {
+    "id": "cymatic-field-003",
+    "groupId": "cymatic-field",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#03050e",
+     "midColor": "#1a4a9a",
+     "hazeColor": "#0a1430",
+     "crestColor": "#7af0ff",
+     "groundColor": "#040818",
+     "valleyColor": "#06102a"
+    },
+    "ramp": [
+     "#03050e",
+     "#0a1430",
+     "#040818",
+     "#06102a",
+     "#1a4a9a",
+     "#7af0ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/fe714c05-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/fe714c05.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/fe714c05.webp"
+   },
+   {
+    "id": "cymatic-field-004",
+    "groupId": "cymatic-field",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#0a0804",
+     "midColor": "#6a4a1a",
+     "hazeColor": "#241a0c",
+     "crestColor": "#e8c070",
+     "groundColor": "#120c04",
+     "valleyColor": "#1a1206"
+    },
+    "ramp": [
+     "#0a0804",
+     "#241a0c",
+     "#120c04",
+     "#1a1206",
+     "#6a4a1a",
+     "#e8c070"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/340d24d1-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/340d24d1.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/340d24d1.webp"
+   },
+   {
+    "id": "cymatic-field-005",
+    "groupId": "cymatic-field",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#050403",
+     "midColor": "#8a5a1a",
+     "hazeColor": "#1a1206",
+     "crestColor": "#ffe6a0",
+     "groundColor": "#0a0804",
+     "valleyColor": "#140e04"
+    },
+    "ramp": [
+     "#050403",
+     "#1a1206",
+     "#0a0804",
+     "#140e04",
+     "#8a5a1a",
+     "#ffe6a0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/6c844c58-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/6c844c58.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/cymatic-field-cda51eafc3/6c844c58.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cymatic-field.webp": "37582 bytes"
+ }
+}

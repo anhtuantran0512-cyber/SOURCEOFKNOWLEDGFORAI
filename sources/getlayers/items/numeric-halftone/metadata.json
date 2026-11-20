@@ -1,0 +1,238 @@
+{
+ "fetchedAt": "2026-11-20T15:44:57Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "numeric-halftone",
+  "title": "Numeric Halftone",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A risograph-blue halftone made entirely of tiny flickering digits that glow white in drifting blobs and fade to black, brightening around your cursor. Legal for purchase only on getlayers.ai — getlayers.ai/layer/numeric-halftone",
+  "image": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "keywords": [
+   "ai",
+   "binary",
+   "bitmap-font",
+   "black",
+   "blobs",
+   "bloom",
+   "blue",
+   "bright",
+   "built",
+   "code",
+   "cores",
+   "cursor",
+   "cursor light",
+   "cyber",
+   "dark",
+   "data",
+   "data visualization",
+   "digits",
+   "dots",
+   "drifting",
+   "fbm-noise",
+   "flicker",
+   "follows",
+   "fragment-shader",
+   "futuristic",
+   "glow",
+   "hacker",
+   "halftone",
+   "light",
+   "matrix",
+   "monochrome",
+   "noise",
+   "numbers",
+   "numeric",
+   "pointer-light",
+   "postprocessing-bloom",
+   "print",
+   "random",
+   "readout",
+   "riso",
+   "risograph",
+   "shader",
+   "soft",
+   "tech",
+   "terminal",
+   "threejs",
+   "ticking",
+   "voids",
+   "white"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "numeric-halftone",
+    "groupId": "numeric-halftone",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "inkHot": "#eaf2ff",
+     "bgColor": "#000208",
+     "inkBlue": "#2f5bff",
+     "inkDeep": "#0a1f7a"
+    },
+    "ramp": [
+     "#000208",
+     "#0a1f7a",
+     "#2f5bff",
+     "#eaf2ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125.webp"
+   },
+   {
+    "id": "numeric-halftone-001",
+    "groupId": "numeric-halftone",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "inkHot": "#fff0c8",
+     "bgColor": "#0a0400",
+     "inkBlue": "#ff7a10",
+     "inkDeep": "#5a1e00"
+    },
+    "ramp": [
+     "#0a0400",
+     "#5a1e00",
+     "#ff7a10",
+     "#fff0c8"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/d2858b75-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/d2858b75.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/d2858b75.webp"
+   },
+   {
+    "id": "numeric-halftone-002",
+    "groupId": "numeric-halftone",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "inkHot": "#e6fff0",
+     "bgColor": "#000805",
+     "inkBlue": "#14d07a",
+     "inkDeep": "#003a24"
+    },
+    "ramp": [
+     "#000805",
+     "#003a24",
+     "#14d07a",
+     "#e6fff0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/12a52701-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/12a52701.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/12a52701.webp"
+   },
+   {
+    "id": "numeric-halftone-003",
+    "groupId": "numeric-halftone",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "inkHot": "#ffffff",
+     "bgColor": "#020203",
+     "inkBlue": "#9aa0ac",
+     "inkDeep": "#2a2a30"
+    },
+    "ramp": [
+     "#020203",
+     "#2a2a30",
+     "#9aa0ac",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/4beafc33-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/4beafc33.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/4beafc33.webp"
+   },
+   {
+    "id": "numeric-halftone-004",
+    "groupId": "numeric-halftone",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "inkHot": "#ffe6d6",
+     "bgColor": "#0a0002",
+     "inkBlue": "#ff3030",
+     "inkDeep": "#6a0612"
+    },
+    "ramp": [
+     "#0a0002",
+     "#6a0612",
+     "#ff3030",
+     "#ffe6d6"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/716d4aeb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/716d4aeb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/716d4aeb.webp"
+   },
+   {
+    "id": "numeric-halftone-005",
+    "groupId": "numeric-halftone",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "inkHot": "#b8f4ff",
+     "bgColor": "#0e0218",
+     "inkBlue": "#ff3ab0",
+     "inkDeep": "#4a0a62"
+    },
+    "ramp": [
+     "#0e0218",
+     "#4a0a62",
+     "#ff3ab0",
+     "#b8f4ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/9eef49fa-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/9eef49fa.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/numeric-halftone-38d451f125/9eef49fa.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "numeric-halftone.webp": "267000 bytes"
+ }
+}

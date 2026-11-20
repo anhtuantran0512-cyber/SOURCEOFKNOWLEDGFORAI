@@ -1,0 +1,73 @@
+{
+ "fetchedAt": "2026-11-20T15:45:05Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "rift",
+  "title": "Rift",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An acid-lime 404 where the zero between the fours is liquid mercury, breathing and leaning toward your cursor. Legal for purchase only on getlayers.ai — getlayers.ai/layer/rift",
+  "image": "https://storage.getlayers.ai/sections/rift-088db2c01f.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/rift-088db2c01f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/rift-088db2c01f-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/rift-088db2c01f-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/rift-088db2c01f-mobile.mp4",
+  "likes": 26,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "error-page"
+  ],
+  "tone": "light",
+  "mood": [
+   "brutal",
+   "playful"
+  ],
+  "keywords": [
+   "404",
+   "404 page",
+   "acid",
+   "blob",
+   "breathing",
+   "brutalist",
+   "chartreuse",
+   "cursor",
+   "cursor follow",
+   "cursor-follow",
+   "error",
+   "error page",
+   "error-page",
+   "fours",
+   "grotesk",
+   "leaning",
+   "lime",
+   "liquid",
+   "liquid-morph",
+   "mercury",
+   "morph",
+   "not found",
+   "not-found",
+   "page",
+   "page not found",
+   "rift",
+   "svg",
+   "swiss",
+   "zero"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "rift.webp": "26734 bytes"
+ }
+}

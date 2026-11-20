@@ -1,0 +1,55 @@
+{
+ "fetchedAt": "2026-11-20T15:45:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "violet-smoke-wave",
+  "title": "Violet Smoke Wave",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/violet-smoke-wave-d895f9abcd.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/violet-smoke-wave-d895f9abcd.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/violet-smoke-wave-d895f9abcd-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "billow",
+   "black",
+   "chiffon",
+   "dark",
+   "glass",
+   "pure",
+   "purple",
+   "sensual",
+   "silk",
+   "slow",
+   "smoke",
+   "translucent",
+   "veil",
+   "veils",
+   "violet",
+   "wave"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "violet-smoke-wave.webp": "60804 bytes"
+ }
+}

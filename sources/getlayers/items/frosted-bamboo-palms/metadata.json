@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:57Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "frosted-bamboo-palms",
+  "title": "Frosted Bamboo Palms",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/frosted-bamboo-palms-6684cb6504.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/frosted-bamboo-palms-6684cb6504.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/frosted-bamboo-palms-6684cb6504-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "bamboo",
+   "band",
+   "behind",
+   "botanical",
+   "dissolving",
+   "else",
+   "everywhere",
+   "floral",
+   "fog",
+   "fronds",
+   "frosted",
+   "glass",
+   "green",
+   "greenery",
+   "morning",
+   "one",
+   "palm",
+   "palms",
+   "press",
+   "sharp",
+   "spa",
+   "the",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "frosted-bamboo-palms.webp": "54614 bytes"
+ }
+}

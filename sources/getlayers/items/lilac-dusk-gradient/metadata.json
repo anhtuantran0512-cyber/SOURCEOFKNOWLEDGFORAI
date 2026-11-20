@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:45:37Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lilac-dusk-gradient",
+  "title": "Lilac Dusk Gradient",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/lilac-dusk-gradient-0421163b68.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lilac-dusk-gradient-0421163b68.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lilac-dusk-gradient-0421163b68-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "black",
+   "bottom",
+   "breathing",
+   "deep",
+   "dusk",
+   "edge",
+   "glass",
+   "glow",
+   "gradient",
+   "horizon",
+   "last",
+   "light",
+   "like",
+   "lilac",
+   "navy",
+   "pink",
+   "quiet",
+   "rises",
+   "twilight"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lilac-dusk-gradient.webp": "73750 bytes"
+ }
+}

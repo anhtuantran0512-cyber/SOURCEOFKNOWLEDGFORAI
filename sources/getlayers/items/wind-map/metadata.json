@@ -1,0 +1,244 @@
+{
+ "fetchedAt": "2026-11-20T15:44:55Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "wind-map",
+  "title": "Wind Map",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Thousands of glowing streamlines comb across a dark field like a live weather map, curling round pressure systems, stirred by your cursor and whipped into a storm. Legal for purchase only on getlayers.ai — getlayers.ai/layer/wind-map",
+  "image": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "calm",
+   "organic"
+  ],
+  "keywords": [
+   "abstract",
+   "background",
+   "black",
+   "blue",
+   "calm",
+   "click",
+   "click-storm",
+   "climate",
+   "curl noise",
+   "curl-noise",
+   "cursor",
+   "cursor stir",
+   "cyan",
+   "cyclone",
+   "dark",
+   "data visualization",
+   "data-visualization",
+   "dataviz",
+   "field",
+   "flow field",
+   "flow-field",
+   "flowing",
+   "forecast",
+   "hurricane",
+   "light",
+   "line-trails",
+   "lines",
+   "live",
+   "look",
+   "map",
+   "meteorology",
+   "near",
+   "particles",
+   "ping-pong-texture",
+   "pointer-vortex",
+   "pressure",
+   "round",
+   "science",
+   "spinning",
+   "storm",
+   "streamlines",
+   "strong",
+   "swirling",
+   "threads",
+   "threejs",
+   "trails",
+   "vector field",
+   "vortex",
+   "weather",
+   "weather map",
+   "white",
+   "wind",
+   "wind map"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "wind-map",
+    "groupId": "wind-map",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "fastColor": "#9fe8ff",
+     "slowColor": "#2a6bd8",
+     "fieldColor": "#05070d",
+     "stormColor": "#ffb060"
+    },
+    "ramp": [
+     "#05070d",
+     "#2a6bd8",
+     "#9fe8ff",
+     "#ffb060"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0.webp"
+   },
+   {
+    "id": "wind-map-001",
+    "groupId": "wind-map",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "fastColor": "#d6fff0",
+     "slowColor": "#138a7a",
+     "fieldColor": "#031012",
+     "stormColor": "#ff5a7a"
+    },
+    "ramp": [
+     "#031012",
+     "#138a7a",
+     "#d6fff0",
+     "#ff5a7a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/fd127a2a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/fd127a2a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/fd127a2a.webp"
+   },
+   {
+    "id": "wind-map-002",
+    "groupId": "wind-map",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "fastColor": "#ffd9a0",
+     "slowColor": "#a8401a",
+     "fieldColor": "#0d0603",
+     "stormColor": "#6ad0ff"
+    },
+    "ramp": [
+     "#0d0603",
+     "#a8401a",
+     "#ffd9a0",
+     "#6ad0ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/0bb45db0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/0bb45db0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/0bb45db0.webp"
+   },
+   {
+    "id": "wind-map-003",
+    "groupId": "wind-map",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "fastColor": "#ffffff",
+     "slowColor": "#6a6f78",
+     "fieldColor": "#0b0b0d",
+     "stormColor": "#ff4a2a"
+    },
+    "ramp": [
+     "#0b0b0d",
+     "#6a6f78",
+     "#ffffff",
+     "#ff4a2a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/7db798f3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/7db798f3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/7db798f3.webp"
+   },
+   {
+    "id": "wind-map-004",
+    "groupId": "wind-map",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "fastColor": "#f08ad8",
+     "slowColor": "#4a22b0",
+     "fieldColor": "#0a0614",
+     "stormColor": "#9fffe0"
+    },
+    "ramp": [
+     "#0a0614",
+     "#4a22b0",
+     "#f08ad8",
+     "#9fffe0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/a9f2265b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/a9f2265b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/a9f2265b.webp"
+   },
+   {
+    "id": "wind-map-005",
+    "groupId": "wind-map",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "fastColor": "#f4e7a8",
+     "slowColor": "#4e5a1e",
+     "fieldColor": "#070a06",
+     "stormColor": "#4ab0ff"
+    },
+    "ramp": [
+     "#070a06",
+     "#4e5a1e",
+     "#f4e7a8",
+     "#4ab0ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/51aa11f8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/51aa11f8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/wind-map-b149dcb8c0/51aa11f8.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "wind-map.webp": "199626 bytes"
+ }
+}

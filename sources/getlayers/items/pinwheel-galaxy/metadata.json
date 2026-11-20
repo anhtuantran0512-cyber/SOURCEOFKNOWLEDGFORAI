@@ -1,0 +1,177 @@
+{
+ "fetchedAt": "2026-11-20T15:44:31Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "pinwheel-galaxy",
+  "title": "Pinwheel Galaxy",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Premium",
+  "description": "A vast pink-and-magenta spiral galaxy winds slowly through the dark as warm embers lift off its arms.",
+  "image": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 36,
+  "createdAt": "2026-06-08",
+  "typeTags": [
+   "galaxy-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "technical"
+  ],
+  "keywords": [
+   "threejs",
+   "points",
+   "spiral-galaxy",
+   "emerald",
+   "sparks",
+   "scroll",
+   "pinwheel",
+   "galaxy",
+   "deep",
+   "logarithmic",
+   "spiral",
+   "whose",
+   "arms",
+   "wind",
+   "embers",
+   "lift",
+   "off",
+   "disc",
+   "space"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "pinwheel-galaxy",
+    "groupId": "pinwheel-galaxy",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "midColor": "#c026d3",
+     "rimColor": "#1a0833",
+     "armAccent": "#33f59a",
+     "atmoColor": "#ffd9f2",
+     "coreColor": "#ffd1f5",
+     "bulgeColor": "#ffb3ec",
+     "cornerBlue": "#1a0833",
+     "sparkColor": "#ffe066",
+     "cornerOrange": "#3a0d5a",
+     "sparkColorTop": "#ff7ae0"
+    },
+    "ramp": [
+     "#ffd9f2",
+     "#ffd1f5",
+     "#c026d3",
+     "#1a0833",
+     "#33f59a",
+     "#ffb3ec",
+     "#ffe066",
+     "#ff7ae0",
+     "#1a0833",
+     "#3a0d5a"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy.webp"
+   },
+   {
+    "id": "pinwheel-galaxy-001",
+    "groupId": "pinwheel-galaxy",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "midColor": "#25465a",
+     "rimColor": "#2f5b7b",
+     "armAccent": "#396e9d",
+     "atmoColor": "#0c171c",
+     "coreColor": "#19303b",
+     "bulgeColor": "#467ebb",
+     "cornerBlue": "#a9bada",
+     "sparkColor": "#6890c5",
+     "cornerOrange": "#c8d1e6",
+     "sparkColorTop": "#89a4cf"
+    },
+    "ramp": [
+     "#0c171c",
+     "#19303b",
+     "#25465a",
+     "#2f5b7b",
+     "#396e9d",
+     "#467ebb",
+     "#6890c5",
+     "#89a4cf",
+     "#a9bada",
+     "#c8d1e6"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy/77282f86-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy/77282f86.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy/77282f86.webp"
+   },
+   {
+    "id": "pinwheel-galaxy-002",
+    "groupId": "pinwheel-galaxy",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "midColor": "#214a35",
+     "rimColor": "#2d6947",
+     "armAccent": "#388856",
+     "atmoColor": "#070e0b",
+     "coreColor": "#142c21",
+     "bulgeColor": "#44a763",
+     "cornerBlue": "#9bd0a2",
+     "sparkColor": "#5cb974",
+     "cornerOrange": "#b9ddbc",
+     "sparkColorTop": "#7cc48a"
+    },
+    "ramp": [
+     "#070e0b",
+     "#142c21",
+     "#214a35",
+     "#2d6947",
+     "#388856",
+     "#44a763",
+     "#5cb974",
+     "#7cc48a",
+     "#9bd0a2",
+     "#b9ddbc"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy/bae60054-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy/bae60054.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pinwheel-galaxy/bae60054.webp"
+   }
+  ],
+  "variantCount": 3
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pinwheel-galaxy.webp": "148178 bytes"
+ }
+}

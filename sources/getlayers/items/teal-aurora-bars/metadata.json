@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:47:07Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "teal-aurora-bars",
+  "title": "Teal Aurora Bars",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/teal-aurora-bars-19fab1ec1a.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/teal-aurora-bars-19fab1ec1a.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/teal-aurora-bars-19fab1ec1a-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "aurora",
+   "bars",
+   "black",
+   "cold",
+   "equaliser",
+   "glass",
+   "glow",
+   "light",
+   "like",
+   "made",
+   "out",
+   "rendered",
+   "rise",
+   "rising",
+   "sound",
+   "teal",
+   "vertical",
+   "violet",
+   "visible"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "teal-aurora-bars.webp": "37562 bytes"
+ }
+}

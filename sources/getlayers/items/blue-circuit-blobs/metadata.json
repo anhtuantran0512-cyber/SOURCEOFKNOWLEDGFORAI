@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:44Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-circuit-blobs",
+  "title": "Blue Circuit Blobs",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-circuit-blobs-31b882768b.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blue-circuit-blobs-31b882768b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blue-circuit-blobs-31b882768b-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "aesthetic",
+   "blobs",
+   "blooms",
+   "blue",
+   "blueprint",
+   "board",
+   "circuit",
+   "concentric",
+   "cream",
+   "glass",
+   "going",
+   "grunge",
+   "ink",
+   "maze",
+   "spray",
+   "sprayed",
+   "spread",
+   "targets",
+   "tech",
+   "viral",
+   "zine"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-circuit-blobs.webp": "513574 bytes"
+ }
+}

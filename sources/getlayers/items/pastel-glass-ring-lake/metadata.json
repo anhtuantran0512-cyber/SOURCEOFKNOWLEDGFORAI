@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:44Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pastel-glass-ring-lake",
+  "title": "Pastel Glass Ring Lake",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pastel-glass-ring-lake-273ecfdf50.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pastel-glass-ring-lake-273ecfdf50.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pastel-glass-ring-lake-273ecfdf50-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "arch",
+   "blob",
+   "bubbles",
+   "clear",
+   "clouds",
+   "crystal",
+   "crystals",
+   "dreamy",
+   "focus",
+   "glass",
+   "inside",
+   "lake",
+   "morphs",
+   "pastel",
+   "pink",
+   "portal",
+   "ring",
+   "rocks",
+   "soft",
+   "still",
+   "weightless"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pastel-glass-ring-lake.webp": "96932 bytes"
+ }
+}

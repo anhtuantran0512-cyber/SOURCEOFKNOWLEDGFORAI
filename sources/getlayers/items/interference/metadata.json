@@ -1,0 +1,354 @@
+{
+ "fetchedAt": "2026-11-20T15:47:15Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "interference",
+  "title": "Interference",
+  "description": "Three slow emitters trading standing waves — bright fringes where the crests agree, black where nothing reaches.",
+  "nature": "fringe",
+  "family": "optical",
+  "tier": "Premium",
+  "likes": 23,
+  "createdAt": "2026-08-24",
+  "shaderHash": "6b31e4e195ae8868b6b66e971cce20ce",
+  "hues": [
+   "violet",
+   "red",
+   "orange",
+   "teal",
+   "blue",
+   "indigo",
+   "amber",
+   "pink",
+   "green"
+  ],
+  "variantCount": 11,
+  "variants": [
+   {
+    "id": "interference",
+    "groupId": "interference",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#150c33",
+     "colorB": "#4a1f8c",
+     "colorC": "#b45cf0",
+     "colorD": "#ffe8fb",
+     "bgColor": "#05040c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 23,
+    "previewVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea.webp"
+   },
+   {
+    "id": "interference-001",
+    "groupId": "interference",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c41e2a",
+     "colorB": "#e8342b",
+     "colorC": "#ff8f7a",
+     "colorD": "#ffffff",
+     "bgColor": "#8f1218"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/2e518bfe-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/2e518bfe.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/2e518bfe.webp"
+   },
+   {
+    "id": "interference-002",
+    "groupId": "interference",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e8342b",
+     "colorB": "#ff6a2b",
+     "colorC": "#f5c842",
+     "colorD": "#fff8ea",
+     "bgColor": "#2b0803"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/aed73480-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/aed73480.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/aed73480.webp"
+   },
+   {
+    "id": "interference-003",
+    "groupId": "interference",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#7b3fd9",
+     "colorB": "#c43ff0",
+     "colorC": "#f02be0",
+     "colorD": "#ffffff",
+     "bgColor": "#2e0f5c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/bc168535-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/bc168535.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/bc168535.webp"
+   },
+   {
+    "id": "interference-004",
+    "groupId": "interference",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b4be8",
+     "colorB": "#e8edff",
+     "colorC": "#e8342b",
+     "colorD": "#fff4ee",
+     "bgColor": "#0b1440"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/0f6d84a7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/0f6d84a7.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/0f6d84a7.webp"
+   },
+   {
+    "id": "interference-005",
+    "groupId": "interference",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b7be8",
+     "colorB": "#2bc8e8",
+     "colorC": "#4fe0d8",
+     "colorD": "#ccffdc",
+     "bgColor": "#0a2a5e"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/455a9386-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/455a9386.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/455a9386.webp"
+   },
+   {
+    "id": "interference-006",
+    "groupId": "interference",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#d4cff5",
+     "colorB": "#c8d0f0",
+     "colorC": "#bfe8d8",
+     "colorD": "#ffffff",
+     "bgColor": "#e8e4f5"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/8df988fe-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/8df988fe.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/8df988fe.webp"
+   },
+   {
+    "id": "interference-007",
+    "groupId": "interference",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e0d6ec",
+     "colorB": "#f5d28c",
+     "colorC": "#fae3b0",
+     "colorD": "#fffdf6",
+     "bgColor": "#efe6d2"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/4b994b67-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/4b994b67.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/4b994b67.webp"
+   },
+   {
+    "id": "interference-008",
+    "groupId": "interference",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#3fc8c0",
+     "colorB": "#8fd8b0",
+     "colorC": "#f04b8b",
+     "colorD": "#ffe0ee",
+     "bgColor": "#0d2f2e"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/e458c887-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/e458c887.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/e458c887.webp"
+   },
+   {
+    "id": "interference-009",
+    "groupId": "interference",
+    "name": "009",
+    "sortOrder": 9,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#1a0f33",
+     "colorB": "#6b2bc8",
+     "colorC": "#e02bc8",
+     "colorD": "#ffd6f5",
+     "bgColor": "#120823"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/9b6942ad-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/9b6942ad.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/9b6942ad.webp"
+   },
+   {
+    "id": "interference-010",
+    "groupId": "interference",
+    "name": "010",
+    "sortOrder": 10,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b5bff",
+     "colorB": "#dce8ff",
+     "colorC": "#ff6b5a",
+     "colorD": "#fff6f2",
+     "bgColor": "#0f2a8c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/44e57bc5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/44e57bc5.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/interference-7c3ad594ea/44e57bc5.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "interference.webp": "48558 bytes"
+ }
+}

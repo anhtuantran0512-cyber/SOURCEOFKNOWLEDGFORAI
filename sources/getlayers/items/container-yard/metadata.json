@@ -1,0 +1,135 @@
+{
+ "fetchedAt": "2026-11-20T15:44:49Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "container-yard",
+  "title": "Container Yard",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "Three shipping containers stacked in a clean white studio — painted steel, bare-metal fittings, one soft key.",
+  "image": "https://storage.getlayers.ai/3d_scenes/container-yard-fcde0a4101.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/container-yard-fcde0a4101.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/container-yard-fcde0a4101-preview.mp4",
+  "likes": 6,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical",
+   "brutal"
+  ],
+  "keywords": [
+   "bare",
+   "cargo",
+   "chain",
+   "clean",
+   "container",
+   "containers",
+   "crates",
+   "element",
+   "fittings",
+   "freight",
+   "heavy",
+   "industrial",
+   "key",
+   "light",
+   "logistics",
+   "metal",
+   "objects",
+   "one",
+   "painted",
+   "port",
+   "product",
+   "shipping",
+   "shot",
+   "soft",
+   "stack",
+   "stacked",
+   "steel",
+   "studio",
+   "supply",
+   "sweep",
+   "three",
+   "warehouse",
+   "weightless",
+   "white",
+   "yard"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "container-yard",
+    "groupId": "container-yard",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "paint1": "#000000",
+     "paint2": "#db0000",
+     "paint3": "#9aa0a6",
+     "paint4": "#9aa0a6",
+     "paint5": "#9aa0a6",
+     "ambBlue": "#000000",
+     "ambLight": "#eef2f6",
+     "ambGround": "#e0e0e0",
+     "dustColor": "#ffffff",
+     "leftColor": "#eef2ff",
+     "poolColor": "#ffffff",
+     "emberColor": "#fff2e2",
+     "skyBlueTop": "#ffffff",
+     "groundColor": "#424242",
+     "skyLightTop": "#ffffff",
+     "keyBlueColor": "#fff6ee",
+     "keyLightColor": "#ffffff",
+     "skyBlueHorizon": "#eef0f3",
+     "skyLightHorizon": "#ffffff"
+    },
+    "ramp": [
+     "#ffffff",
+     "#eef0f3",
+     "#ffffff",
+     "#ffffff",
+     "#fff6ee",
+     "#ffffff",
+     "#000000",
+     "#eef2f6",
+     "#e0e0e0",
+     "#fff2e2",
+     "#eef2ff",
+     "#000000",
+     "#db0000",
+     "#9aa0a6",
+     "#9aa0a6",
+     "#9aa0a6",
+     "#424242",
+     "#ffffff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/container-yard-fcde0a4101-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/container-yard-fcde0a4101.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/container-yard-fcde0a4101.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "container-yard.webp": "57452 bytes"
+ }
+}

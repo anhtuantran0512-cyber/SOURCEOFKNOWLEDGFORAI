@@ -1,0 +1,50 @@
+{
+ "fetchedAt": "2026-11-20T15:45:33Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glassy-horse",
+  "title": "Glassy Horse",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/glassy-horse-b1724bd4ab.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glassy-horse-b1724bd4ab.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glassy-horse-b1724bd4ab-preview.mp4",
+  "likes": 5,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "horse",
+   "chrome",
+   "neon",
+   "glass",
+   "dark",
+   "glassy",
+   "rearing",
+   "rimmed",
+   "electric",
+   "pink",
+   "blue",
+   "black",
+   "character"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glassy-horse.webp": "82642 bytes"
+ }
+}

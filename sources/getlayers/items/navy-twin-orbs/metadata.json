@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:43Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "navy-twin-orbs",
+  "title": "Navy Twin Orbs",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/navy-twin-orbs-b9e9fdedf5.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/navy-twin-orbs-b9e9fdedf5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/navy-twin-orbs-b9e9fdedf5-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "blue",
+   "blur",
+   "cream",
+   "eight",
+   "figure",
+   "glass",
+   "grain",
+   "grainy",
+   "haloed",
+   "heartbeat",
+   "hypnotic",
+   "minimal",
+   "navy",
+   "off",
+   "orbs",
+   "pale",
+   "slow",
+   "soft",
+   "stack",
+   "twin",
+   "warm",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "navy-twin-orbs.webp": "319102 bytes"
+ }
+}

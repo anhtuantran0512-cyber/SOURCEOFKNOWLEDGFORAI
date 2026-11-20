@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:46:58Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "floral-tv-room",
+  "title": "Floral Tv Room",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/floral-tv-room-a6cb574fef.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/floral-tv-room-a6cb574fef.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/floral-tv-room-a6cb574fef-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "analogue",
+   "before",
+   "bloom",
+   "broadcast",
+   "cascade",
+   "character",
+   "crt",
+   "crts",
+   "figure",
+   "floral",
+   "flowers",
+   "glowing",
+   "head",
+   "nostalgia",
+   "red",
+   "retro",
+   "room",
+   "roses",
+   "should",
+   "sits",
+   "spilling",
+   "surreal",
+   "television",
+   "wall",
+   "where"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "floral-tv-room.webp": "121774 bytes"
+ }
+}

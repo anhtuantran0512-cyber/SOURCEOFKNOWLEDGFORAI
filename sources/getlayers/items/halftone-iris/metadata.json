@@ -1,0 +1,184 @@
+{
+ "fetchedAt": "2026-11-20T15:44:52Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "halftone-iris",
+  "title": "Halftone Iris",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A sapphire halftone eye that blinks, breathes and follows you, gold catching in the scatter around its iris.",
+  "image": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "around",
+   "blink",
+   "blinks",
+   "breathes",
+   "catching",
+   "catchlight",
+   "dots",
+   "dual-bloom",
+   "eye",
+   "follows",
+   "gaze",
+   "gold",
+   "gpu-points",
+   "halftone",
+   "interactive",
+   "iris",
+   "lashes",
+   "particles",
+   "pupil",
+   "sapphire",
+   "scatter",
+   "shader",
+   "stipple",
+   "that",
+   "threejs",
+   "you"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "halftone-iris",
+    "groupId": "halftone-iris",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colDot": "#cfd9ee",
+     "colAura": "#2a3f74",
+     "colHalo": "#8f7bd8",
+     "colIris": "#3f6fb8",
+     "colDotDeep": "#5f7099",
+     "colCatchlight": "#ffe3a8"
+    },
+    "ramp": [
+     "#cfd9ee",
+     "#5f7099",
+     "#3f6fb8",
+     "#8f7bd8",
+     "#ffe3a8",
+     "#2a3f74"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e.webp"
+   },
+   {
+    "id": "halftone-iris-001",
+    "groupId": "halftone-iris",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colDot": "#e6cbee",
+     "colAura": "#3d2676",
+     "colHalo": "#833dd1",
+     "colIris": "#ab6bdc",
+     "colDotDeep": "#cb9de4",
+     "colCatchlight": "#5c2ea7"
+    },
+    "ramp": [
+     "#e6cbee",
+     "#cb9de4",
+     "#ab6bdc",
+     "#833dd1",
+     "#5c2ea7",
+     "#3d2676"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e/23317ba8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e/23317ba8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e/23317ba8.webp"
+   },
+   {
+    "id": "halftone-iris-002",
+    "groupId": "halftone-iris",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colDot": "#e7efe3",
+     "colAura": "#57623a",
+     "colHalo": "#91af68",
+     "colIris": "#aac591",
+     "colDotDeep": "#c7d9bb",
+     "colCatchlight": "#768c4e"
+    },
+    "ramp": [
+     "#e7efe3",
+     "#c7d9bb",
+     "#aac591",
+     "#91af68",
+     "#768c4e",
+     "#57623a"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e/c7d54118-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e/c7d54118.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e/c7d54118.webp"
+   },
+   {
+    "id": "halftone-iris-003",
+    "groupId": "halftone-iris",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colDot": "#091c0d",
+     "colAura": "#c8eabe",
+     "colHalo": "#45d13c",
+     "colIris": "#259b29",
+     "colDotDeep": "#195a21",
+     "colCatchlight": "#8ddb7f"
+    },
+    "ramp": [
+     "#091c0d",
+     "#195a21",
+     "#259b29",
+     "#45d13c",
+     "#8ddb7f",
+     "#c8eabe"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e/8730452e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e/8730452e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halftone-iris-13de4fe90e/8730452e.webp"
+   }
+  ],
+  "variantCount": 4
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "halftone-iris.webp": "52464 bytes"
+ }
+}

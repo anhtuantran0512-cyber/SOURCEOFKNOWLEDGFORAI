@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:46:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-reed-pond",
+  "title": "Glass Reed Pond",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-reed-pond-aa893f67c2.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-reed-pond-aa893f67c2.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-reed-pond-aa893f67c2-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "art",
+   "clear",
+   "cold",
+   "glass",
+   "hillside",
+   "left",
+   "light",
+   "like",
+   "moor",
+   "object",
+   "pale",
+   "pond",
+   "product",
+   "reed",
+   "reeds",
+   "reflection",
+   "ribbons",
+   "rise",
+   "rocks",
+   "rocky",
+   "sculpture",
+   "sky",
+   "small",
+   "still",
+   "twisting",
+   "water"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-reed-pond.webp": "111860 bytes"
+ }
+}

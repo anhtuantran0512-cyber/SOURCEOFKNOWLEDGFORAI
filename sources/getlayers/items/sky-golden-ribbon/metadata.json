@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "sky-golden-ribbon",
+  "title": "Sky Golden Ribbon",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/sky-golden-ribbon-10d2daf4c9.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/sky-golden-ribbon-10d2daf4c9.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/sky-golden-ribbon-10d2daf4c9-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "airy",
+   "breeze",
+   "clouds",
+   "down",
+   "glass",
+   "gold",
+   "golden",
+   "heavenly",
+   "light",
+   "lilac",
+   "pastel",
+   "peach",
+   "ribbon",
+   "ribbons",
+   "sheer",
+   "silk",
+   "sky",
+   "soft",
+   "stream",
+   "twist",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "sky-golden-ribbon.webp": "37944 bytes"
+ }
+}

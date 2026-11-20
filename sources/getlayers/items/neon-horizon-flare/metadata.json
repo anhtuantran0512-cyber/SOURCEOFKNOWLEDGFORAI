@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:47:04Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "neon-horizon-flare",
+  "title": "Neon Horizon Flare",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/neon-horizon-flare-9cf330f926.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/neon-horizon-flare-9cf330f926.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/neon-horizon-flare-9cf330f926-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "bands",
+   "blade",
+   "cyan",
+   "dark",
+   "edge",
+   "flare",
+   "glass",
+   "gold",
+   "gradient",
+   "horizon",
+   "lens",
+   "light",
+   "magenta",
+   "narrow",
+   "neon",
+   "plan",
+   "right",
+   "sideways",
+   "soft",
+   "spectrum",
+   "spilling",
+   "widens",
+   "with"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "neon-horizon-flare.webp": "23768 bytes"
+ }
+}

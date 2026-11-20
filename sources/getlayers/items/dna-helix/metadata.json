@@ -1,0 +1,93 @@
+{
+ "fetchedAt": "2026-11-20T15:44:41Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "dna-helix",
+  "title": "DNA Helix",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Premium",
+  "description": "A glowing double helix of particles spirals through deep midnight-blue space, its indigo-to-violet strands twisting and swaying.",
+  "image": "https://storage.getlayers.ai/3d_scenes/dna-helix.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/dna-helix.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/dna-helix-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/dna-helix-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 18,
+  "createdAt": "2026-06-06",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "organic"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "dna",
+   "helix",
+   "scroll",
+   "volumetric",
+   "double",
+   "twisting",
+   "floating",
+   "upward",
+   "through",
+   "deep",
+   "cosmic",
+   "blue",
+   "element"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "dna-helix",
+    "groupId": "dna-helix",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#03142e",
+     "colorLow": "#04123a",
+     "atmoColor": "#7fe6ff",
+     "colorHigh": "#27043e",
+     "flameColor": "#2bd6ff",
+     "flameColor2": "#aef0ff"
+    },
+    "ramp": [
+     "#03142e",
+     "#2bd6ff",
+     "#aef0ff",
+     "#7fe6ff",
+     "#04123a",
+     "#27043e"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/dna-helix-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/dna-helix.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/dna-helix.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "dna-helix.webp": "92436 bytes"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "fetchedAt": "2026-11-20T15:45:26Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "hills",
+  "title": "Hills",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Free",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/hills.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/hills.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/hills-preview.mp4",
+  "likes": 62,
+  "createdAt": "2026-04-14",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "hills",
+   "green",
+   "flowers",
+   "landscape",
+   "bright",
+   "rounded",
+   "dotted",
+   "purple",
+   "under",
+   "pale",
+   "open",
+   "sky",
+   "nature"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "hills.webp": "208642 bytes"
+ }
+}

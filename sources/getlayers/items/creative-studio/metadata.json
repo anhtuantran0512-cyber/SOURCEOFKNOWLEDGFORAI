@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:26:08Z",
+ "fetchedAt": "2026-11-20T15:43:20Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "creative-studio",
@@ -367,7 +367,7 @@
   "status": "premium"
  },
  "files": {
-  "creative-studio.webp": "156186 bytes",
-  "creative-studio-figma.webp": "113450 bytes"
+  "creative-studio.webp": "cached",
+  "creative-studio-figma.webp": "cached"
  }
 }

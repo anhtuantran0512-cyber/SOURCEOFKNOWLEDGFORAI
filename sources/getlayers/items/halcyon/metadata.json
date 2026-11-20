@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:26:22Z",
+ "fetchedAt": "2026-11-20T15:43:31Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "halcyon",
@@ -388,6 +388,6 @@
   "status": "premium"
  },
  "files": {
-  "halcyon.webp": "86568 bytes"
+  "halcyon.webp": "cached"
  }
 }

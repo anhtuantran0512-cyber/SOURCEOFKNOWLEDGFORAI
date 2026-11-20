@@ -1,0 +1,75 @@
+{
+ "fetchedAt": "2026-11-20T15:45:01Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "mirror-hall",
+  "title": "Mirror Hall",
+  "category": "section",
+  "tags": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "An immersive, infinitely draggable 3D carousel of glowing image-cards standing on a near-black reflective pool, their light rippling across the water as you spin the ring with inertia.",
+  "image": "https://storage.getlayers.ai/sections/mirror-hall.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/mirror-hall.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/mirror-hall-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/mirror-hall-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 157,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "carousel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "carousel",
+   "threejs",
+   "reflection",
+   "water",
+   "webgl",
+   "mirror",
+   "hall",
+   "rotunda",
+   "glowing",
+   "cards",
+   "standing",
+   "near",
+   "black",
+   "reflective",
+   "pool",
+   "their",
+   "light",
+   "spilling",
+   "rippling",
+   "across",
+   "you",
+   "spin",
+   "ring"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "mirror-hall.webp": "136196 bytes"
+ }
+}

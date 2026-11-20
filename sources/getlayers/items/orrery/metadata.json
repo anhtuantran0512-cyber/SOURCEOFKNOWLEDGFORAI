@@ -1,0 +1,277 @@
+{
+ "fetchedAt": "2026-11-20T15:44:57Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "orrery",
+  "title": "Orrery",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A brass clockwork orrery glows on midnight-blue velvet, planets circling a warm lamp-sun as the crank turns, each lifting and shining when you touch it. Legal for purchase only on getlayers.ai — getlayers.ai/layer/orrery",
+  "image": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm",
+   "technical"
+  ],
+  "keywords": [
+   "antique",
+   "astronomy",
+   "brass",
+   "cinematic",
+   "circling",
+   "click",
+   "click-moments",
+   "clockwork",
+   "crank",
+   "dark",
+   "deep",
+   "earth",
+   "element",
+   "enamel",
+   "gear",
+   "gears",
+   "glowing",
+   "hand",
+   "hover",
+   "hover-glow",
+   "interactive",
+   "jupiter",
+   "kepler-orbits",
+   "lamp",
+   "lifting",
+   "luxury",
+   "mahogany",
+   "mechanism",
+   "midnight",
+   "midnight blue",
+   "moment",
+   "moon",
+   "museum",
+   "orbit",
+   "orrery",
+   "pbr-brass",
+   "planets",
+   "playing",
+   "pmrem-studio",
+   "procedural-mechanism",
+   "product shot",
+   "saturn",
+   "solar system",
+   "sun",
+   "threejs",
+   "train",
+   "velvet",
+   "vintage",
+   "visible",
+   "wood"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "orrery",
+    "groupId": "orrery",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "sunColor": "#ff9a3a",
+     "brassDark": "#b8873a",
+     "woodColor": "#3a1a10",
+     "brassColor": "#dca64a",
+     "trailColor": "#e09a3c",
+     "velvetEdge": "#01041a",
+     "velvetColor": "#040a2c"
+    },
+    "ramp": [
+     "#dca64a",
+     "#b8873a",
+     "#3a1a10",
+     "#ff9a3a",
+     "#e09a3c",
+     "#040a2c",
+     "#01041a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6.webp"
+   },
+   {
+    "id": "orrery-001",
+    "groupId": "orrery",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#ffb35a",
+     "brassDark": "#8e4c26",
+     "woodColor": "#5a2e14",
+     "brassColor": "#c8743f",
+     "trailColor": "#d68748",
+     "velvetEdge": "#06140e",
+     "velvetColor": "#0f2e22"
+    },
+    "ramp": [
+     "#c8743f",
+     "#8e4c26",
+     "#5a2e14",
+     "#ffb35a",
+     "#d68748",
+     "#0f2e22",
+     "#06140e"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/38142556-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/38142556.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/38142556.webp"
+   },
+   {
+    "id": "orrery-002",
+    "groupId": "orrery",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#ffb860",
+     "brassDark": "#a87a34",
+     "woodColor": "#2a1408",
+     "brassColor": "#e0b45a",
+     "trailColor": "#e8a050",
+     "velvetEdge": "#050302",
+     "velvetColor": "#1c120a"
+    },
+    "ramp": [
+     "#e0b45a",
+     "#a87a34",
+     "#2a1408",
+     "#ffb860",
+     "#e8a050",
+     "#1c120a",
+     "#050302"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/e75e5fed-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/e75e5fed.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/e75e5fed.webp"
+   },
+   {
+    "id": "orrery-003",
+    "groupId": "orrery",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#ffe0a0",
+     "brassDark": "#2e3036",
+     "woodColor": "#1a0e08",
+     "brassColor": "#5a5e66",
+     "trailColor": "#d8b060",
+     "velvetEdge": "#3a2404",
+     "velvetColor": "#8a5a10"
+    },
+    "ramp": [
+     "#5a5e66",
+     "#2e3036",
+     "#1a0e08",
+     "#ffe0a0",
+     "#d8b060",
+     "#8a5a10",
+     "#3a2404"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/25266505-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/25266505.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/25266505.webp"
+   },
+   {
+    "id": "orrery-004",
+    "groupId": "orrery",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#ffd0b0",
+     "brassDark": "#b07462",
+     "woodColor": "#2a1418",
+     "brassColor": "#e6a58c",
+     "trailColor": "#f0a890",
+     "velvetEdge": "#1a0a1a",
+     "velvetColor": "#3b1a3a"
+    },
+    "ramp": [
+     "#e6a58c",
+     "#b07462",
+     "#2a1418",
+     "#ffd0b0",
+     "#f0a890",
+     "#3b1a3a",
+     "#1a0a1a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/25858edf-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/25858edf.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/25858edf.webp"
+   },
+   {
+    "id": "orrery-005",
+    "groupId": "orrery",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "sunColor": "#fff1d6",
+     "brassDark": "#9aa3ad",
+     "woodColor": "#140c0a",
+     "brassColor": "#d8dde3",
+     "trailColor": "#c8d2e0",
+     "velvetEdge": "#160306",
+     "velvetColor": "#3a0a12"
+    },
+    "ramp": [
+     "#d8dde3",
+     "#9aa3ad",
+     "#140c0a",
+     "#fff1d6",
+     "#c8d2e0",
+     "#3a0a12",
+     "#160306"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/8bf73eb5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/8bf73eb5.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orrery-7b666bd5a6/8bf73eb5.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "orrery.webp": "86134 bytes"
+ }
+}

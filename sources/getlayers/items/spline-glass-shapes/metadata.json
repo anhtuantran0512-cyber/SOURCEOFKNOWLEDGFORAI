@@ -1,0 +1,93 @@
+{
+ "fetchedAt": "2026-11-20T15:44:29Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "spline-glass-shapes",
+  "title": "Spline Glass Shapes",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A frosted glass ring drifting among pastel slabs over warm peach, every edge splitting the light that passes through it.",
+  "image": "https://storage.getlayers.ai/3d_scenes/spline-glass-shapes-1e3d4914f5.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/spline-glass-shapes-1e3d4914f5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/spline-glass-shapes-1e3d4914f5-preview.mp4",
+  "likes": 79,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "keywords": [
+   "among",
+   "chromatic",
+   "drifting",
+   "edge",
+   "element",
+   "every",
+   "frosted",
+   "glass",
+   "interactive",
+   "light",
+   "particles",
+   "passes",
+   "pastel",
+   "peach",
+   "pmndrs-port",
+   "ring",
+   "shapes",
+   "slabs",
+   "spline",
+   "splitting",
+   "studio-env",
+   "that",
+   "threejs",
+   "through",
+   "torus",
+   "transmission",
+   "transmission-glass",
+   "warm"
+  ],
+  "variants": [
+   {
+    "id": "spline-glass-shapes",
+    "groupId": "spline-glass-shapes",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "color": "#ffffff",
+     "attenuationColor": "#ffffff"
+    },
+    "ramp": [
+     "#ffffff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/spline-glass-shapes-1e3d4914f5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/spline-glass-shapes-1e3d4914f5.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/spline-glass-shapes-1e3d4914f5.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "spline-glass-shapes.webp": "21164 bytes"
+ }
+}

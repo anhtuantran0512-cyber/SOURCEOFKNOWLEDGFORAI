@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:46:53Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-light-orbits",
+  "title": "Blue Light Orbits",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-light-orbits-92f8b4d1f4.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blue-light-orbits-92f8b4d1f4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blue-light-orbits-92f8b4d1f4-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "black",
+   "blue",
+   "circling",
+   "cyan",
+   "dark",
+   "deep",
+   "drawn",
+   "each",
+   "filament",
+   "filaments",
+   "fold",
+   "light",
+   "long",
+   "long-exposure",
+   "memory",
+   "orbit",
+   "orbits",
+   "other",
+   "particles",
+   "pure",
+   "something",
+   "the",
+   "through",
+   "trails",
+   "wispy",
+   "with"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-light-orbits.webp": "288918 bytes"
+ }
+}

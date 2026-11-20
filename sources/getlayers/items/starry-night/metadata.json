@@ -1,0 +1,50 @@
+{
+ "fetchedAt": "2026-11-20T15:45:11Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "starry-night",
+  "title": "Starry Night",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/starry-night-a81971c4d2.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/starry-night-a81971c4d2.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/starry-night-a81971c4d2-preview.mp4",
+  "likes": 49,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "stars",
+   "night",
+   "valley",
+   "landscape",
+   "starry",
+   "shooting",
+   "streak",
+   "lantern",
+   "lit",
+   "overlook",
+   "above",
+   "glittering",
+   "nature"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "starry-night.webp": "173530 bytes"
+ }
+}

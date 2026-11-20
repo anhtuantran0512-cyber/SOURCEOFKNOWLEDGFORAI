@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:26:10Z",
+ "fetchedAt": "2026-11-20T15:43:22Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "voxelia",
@@ -398,6 +398,6 @@
   "status": "premium"
  },
  "files": {
-  "voxelia.webp": "21322 bytes"
+  "voxelia.webp": "cached"
  }
 }

@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:46:40Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "indigo-paint-swirl",
+  "title": "Indigo Paint Swirl",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/indigo-paint-swirl-f4c89dcb66.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/indigo-paint-swirl-f4c89dcb66.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/indigo-paint-swirl-f4c89dcb66-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "centre",
+   "cobalt",
+   "dreams",
+   "frame",
+   "glass",
+   "hypnotic",
+   "indigo",
+   "paint",
+   "painterly",
+   "pull",
+   "purple",
+   "slow",
+   "soft",
+   "spiral",
+   "stirring",
+   "strokes",
+   "swirl",
+   "violet",
+   "vortex"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "indigo-paint-swirl.webp": "52258 bytes"
+ }
+}

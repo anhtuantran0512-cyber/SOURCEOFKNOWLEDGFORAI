@@ -1,0 +1,52 @@
+{
+ "fetchedAt": "2026-11-20T15:45:12Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "metal-human",
+  "title": "Metal Human",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Free",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/metal-human.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/metal-human.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/metal-human-preview.mp4",
+  "likes": 126,
+  "createdAt": "2026-05-07",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "chrome",
+   "figure",
+   "abstract",
+   "3d",
+   "metal",
+   "human",
+   "liquid",
+   "sculpted",
+   "flowing",
+   "silver",
+   "striations",
+   "glowing",
+   "against",
+   "void",
+   "character"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "metal-human.webp": "117484 bytes"
+ }
+}

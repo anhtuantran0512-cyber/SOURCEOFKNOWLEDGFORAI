@@ -1,0 +1,67 @@
+{
+ "fetchedAt": "2026-11-20T15:46:00Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "golden-statue-touch",
+  "title": "Golden Statue Touch",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/golden-statue-touch-0959ce7ef0.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/golden-statue-touch-0959ce7ef0.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/golden-statue-touch-0959ce7ef0-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bearded",
+   "being",
+   "character",
+   "classical",
+   "clouds",
+   "creation",
+   "dark",
+   "down",
+   "eyes",
+   "figure",
+   "god",
+   "gold",
+   "golden",
+   "ignite",
+   "light",
+   "made",
+   "moment",
+   "myth",
+   "reaches",
+   "staged",
+   "statue",
+   "stone",
+   "strikes",
+   "the",
+   "them",
+   "touch",
+   "where",
+   "whose",
+   "young"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "golden-statue-touch.webp": "242908 bytes"
+ }
+}

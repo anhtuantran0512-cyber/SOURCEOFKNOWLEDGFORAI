@@ -1,0 +1,116 @@
+{
+ "fetchedAt": "2026-11-20T15:44:30Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "mosaic-hands",
+  "title": "Mosaic Hands",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "Two sculpted hands wearing a living LED mosaic of lime, violet, cyan and magenta tiles, glowing and rippling against a churning neon void.",
+  "image": "https://storage.getlayers.ai/3d_scenes/mosaic-hands-23973eecdb.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/mosaic-hands-23973eecdb.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/mosaic-hands-23973eecdb-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/mosaic-hands-23973eecdb-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 52,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "keywords": [
+   "threejs",
+   "glb",
+   "mosaic",
+   "neon",
+   "hands",
+   "sculpted",
+   "sheathed",
+   "glowing",
+   "tiles",
+   "against",
+   "dark",
+   "element"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "mosaic-hands",
+    "groupId": "mosaic-hands",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colCyan": "#41e0ff",
+     "colGreen": "#8aff3e",
+     "colViolet": "#a94bff",
+     "colYellow": "#eaff52",
+     "colMagenta": "#ff4fd8"
+    },
+    "ramp": [
+     "#8aff3e",
+     "#a94bff",
+     "#eaff52",
+     "#41e0ff",
+     "#ff4fd8"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/mosaic-hands-23973eecdb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/mosaic-hands-23973eecdb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/mosaic-hands-23973eecdb.webp"
+   },
+   {
+    "id": "mosaic-hands-001",
+    "groupId": "mosaic-hands",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colCyan": "#dc9287",
+     "colGreen": "#1d100a",
+     "colViolet": "#703421",
+     "colYellow": "#c94d31",
+     "colMagenta": "#f2dcda"
+    },
+    "ramp": [
+     "#1d100a",
+     "#703421",
+     "#c94d31",
+     "#dc9287",
+     "#f2dcda"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/mosaic-hands-23973eecdb/b0a2296e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/mosaic-hands-23973eecdb/b0a2296e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/mosaic-hands-23973eecdb/b0a2296e.webp"
+   }
+  ],
+  "variantCount": 2
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "mosaic-hands.webp": "146708 bytes"
+ }
+}

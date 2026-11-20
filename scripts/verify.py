@@ -95,7 +95,18 @@ def main() -> int:
         errors.append("sources/threeui/tags.json missing")
 
     gl = load(SOURCES / "getlayers" / "manifest.json")
-    report["getlayers"] = check_dirs(gl, "path", 62, errors, "getlayers")
+    report["getlayers"] = check_dirs(gl, "path", 892, errors, "getlayers")
+    for category, expected in (
+        ("template", 62),
+        ("3d_scene", 222),
+        ("section", 54),
+        ("background", 530),
+        ("gradient", 24),
+    ):
+        rows = sum(1 for row in gl if row.get("category") == category)
+        report["getlayers"][f"{category}_rows"] = rows
+        if rows != expected:
+            errors.append(f"getlayers {category}: {rows} rows, expected {expected}")
     stills_missing = sum(
         1 for row in gl if not row.get("preview") or not (ROOT / row["preview"]).exists()
     )
@@ -115,9 +126,17 @@ def main() -> int:
     if premium_leaks:
         errors.append(f"premium GetLayers prompts present in archive: {premium_leaks[:5]}")
     for name in ("getlayers",):
-        for required in ("catalog.json", "README.md", "INDEX.md"):
+        for required in ("README.md", "INDEX.md", "MEDIA.md", "media-sizes.json"):
             if not (SOURCES / name / required).exists():
                 errors.append(f"sources/{name}/{required} missing")
+        for category in ("template", "3d_scene", "section", "background", "gradient"):
+            if not (SOURCES / name / "catalog" / f"{category}.json").exists():
+                errors.append(f"sources/{name}/catalog/{category}.json missing")
+    media_rows = (SOURCES / "getlayers" / "MEDIA.md").read_text(encoding="utf-8").count("\n| `")
+    media_sizes = len(json.loads((SOURCES / "getlayers" / "media-sizes.json").read_text(encoding="utf-8")))
+    report["getlayers"]["media_files"] = media_rows
+    if media_rows != media_sizes:
+        errors.append(f"MEDIA.md lists {media_rows} files, media-sizes.json has {media_sizes}")
 
     report["errors"] = errors
     (ROOT / "verify-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -1,0 +1,51 @@
+{
+ "fetchedAt": "2026-11-20T15:45:14Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "night-flowers",
+  "title": "Night Flowers",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/night-flowers-c8cf6ff972.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/night-flowers-c8cf6ff972.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/night-flowers-c8cf6ff972-preview.mp4",
+  "likes": 25,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "flowers",
+   "meadow",
+   "night",
+   "moody",
+   "midnight",
+   "wildflowers",
+   "glows",
+   "faintly",
+   "beneath",
+   "brooding",
+   "cloud",
+   "torn",
+   "sky",
+   "floral"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "night-flowers.webp": "215782 bytes"
+ }
+}

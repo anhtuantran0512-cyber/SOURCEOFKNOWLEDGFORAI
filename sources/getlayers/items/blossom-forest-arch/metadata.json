@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:57Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blossom-forest-arch",
+  "title": "Blossom Forest Arch",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/blossom-forest-arch-50aa93b9ea.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blossom-forest-arch-50aa93b9ea.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blossom-forest-arch-50aa93b9ea-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "arch",
+   "blossom",
+   "clearing",
+   "door",
+   "fairytale",
+   "fern",
+   "floral",
+   "forest",
+   "green",
+   "into",
+   "kinder",
+   "moss",
+   "mossy",
+   "onto",
+   "opening",
+   "pink",
+   "smothered",
+   "somewhere",
+   "storybook",
+   "sunlit",
+   "twisted",
+   "white",
+   "wood",
+   "woodland"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blossom-forest-arch.webp": "425554 bytes"
+ }
+}

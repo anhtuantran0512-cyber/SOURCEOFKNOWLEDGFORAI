@@ -1,0 +1,79 @@
+{
+ "fetchedAt": "2026-11-20T15:45:02Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "segment-stack",
+  "title": "Segment Stack",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Giant condensed audience names on ink that flood volt-yellow as they open, each with its own live experiment readout. Legal for purchase only on getlayers.ai — getlayers.ai/layer/segment-stack",
+  "image": "https://storage.getlayers.ai/sections/segment-stack-f361993d18.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/segment-stack-f361993d18.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/segment-stack-f361993d18-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/segment-stack-f361993d18-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/segment-stack-f361993d18-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/segment-stack-f361993d18-figma.webp",
+  "hasFigma": true,
+  "likes": 39,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "features"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal",
+   "technical"
+  ],
+  "keywords": [
+   "ab testing",
+   "ab-testing",
+   "accordion",
+   "audience",
+   "audiences",
+   "condensed",
+   "condensed type",
+   "enterprise agencies startups",
+   "expandable list",
+   "experiment",
+   "experiments",
+   "features",
+   "flood",
+   "giant",
+   "hover expand",
+   "hover-expand",
+   "ink",
+   "live",
+   "names",
+   "neon yellow",
+   "open",
+   "readout",
+   "saas",
+   "segment",
+   "segments",
+   "stack",
+   "stats widget",
+   "use cases",
+   "use-cases",
+   "volt",
+   "who it is for",
+   "yellow"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "segment-stack.webp": "54034 bytes",
+  "segment-stack-figma.webp": "113148 bytes"
+ }
+}

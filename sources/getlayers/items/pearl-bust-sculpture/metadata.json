@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:45:37Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pearl-bust-sculpture",
+  "title": "Pearl Bust Sculpture",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pearl-bust-sculpture-cd90f316f5.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pearl-bust-sculpture-cd90f316f5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pearl-bust-sculpture-cd90f316f5-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "bust",
+   "character",
+   "closed",
+   "dissolving",
+   "ethereal",
+   "eyes",
+   "face",
+   "grey",
+   "light",
+   "lilac",
+   "marble",
+   "melting",
+   "opal",
+   "pale",
+   "pearl",
+   "pearly",
+   "sculpture",
+   "serene",
+   "statue",
+   "surrender",
+   "swirls",
+   "teal",
+   "tilts",
+   "upward"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pearl-bust-sculpture.webp": "135808 bytes"
+ }
+}

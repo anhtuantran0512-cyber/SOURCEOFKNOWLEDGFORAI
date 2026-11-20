@@ -1,0 +1,53 @@
+{
+ "fetchedAt": "2026-11-20T15:45:11Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "meow-yawn",
+  "title": "Meow Yawn",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/meow-yawn.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/meow-yawn.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/meow-yawn-preview.mp4",
+  "likes": 44,
+  "createdAt": "2026-05-05",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "cat",
+   "sky",
+   "grass",
+   "minimal",
+   "meow",
+   "yawn",
+   "plump",
+   "white",
+   "perched",
+   "atop",
+   "grassy",
+   "knoll",
+   "beneath",
+   "endless",
+   "cobalt",
+   "character"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "meow-yawn.webp": "99746 bytes"
+ }
+}

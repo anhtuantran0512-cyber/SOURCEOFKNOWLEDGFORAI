@@ -1,0 +1,69 @@
+{
+ "fetchedAt": "2026-11-20T15:45:06Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "unlock-better-sleep-cta",
+  "title": "Lime Marquee CTA",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A sunny lime app-download card where a community of faces drifts past in two gentle, opposing streams. Legal for purchase only on getlayers.ai — getlayers.ai/layer/unlock-better-sleep-cta",
+  "image": "https://storage.getlayers.ai/sections/unlock-better-sleep-cta-72df9dd505.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/unlock-better-sleep-cta-72df9dd505.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/unlock-better-sleep-cta-72df9dd505-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/unlock-better-sleep-cta-72df9dd505-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/unlock-better-sleep-cta-72df9dd505-mobile.mp4",
+  "likes": 17,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "cta"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "keywords": [
+   "app",
+   "app download",
+   "app-download",
+   "avatars",
+   "call to action",
+   "card",
+   "community",
+   "cta",
+   "download",
+   "download app",
+   "drifts",
+   "faces",
+   "gentle",
+   "green",
+   "health app",
+   "lime",
+   "marquee",
+   "opposing",
+   "past",
+   "sleep",
+   "social proof",
+   "streams",
+   "sunny",
+   "testimonial pills",
+   "wellness"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "unlock-better-sleep-cta.webp": "37450 bytes"
+ }
+}

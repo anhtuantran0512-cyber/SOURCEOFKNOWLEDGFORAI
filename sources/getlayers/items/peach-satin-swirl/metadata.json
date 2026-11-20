@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:45:52Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "peach-satin-swirl",
+  "title": "Peach Satin Swirl",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/peach-satin-swirl-85e92745d7.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/peach-satin-swirl-85e92745d7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/peach-satin-swirl-85e92745d7-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "burnt",
+   "cloth",
+   "deepening",
+   "fabric",
+   "folds",
+   "glass",
+   "orange",
+   "peach",
+   "rust",
+   "satin",
+   "shadow",
+   "slow",
+   "soft",
+   "spiral",
+   "sunbaked",
+   "swirl",
+   "tactile",
+   "turning",
+   "twists",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "peach-satin-swirl.webp": "482966 bytes"
+ }
+}

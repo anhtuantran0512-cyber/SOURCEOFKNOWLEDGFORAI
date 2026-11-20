@@ -1,0 +1,50 @@
+{
+ "fetchedAt": "2026-11-20T15:45:28Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "flower-arc",
+  "title": "Flower Arc",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Free",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/flower-arc.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/flower-arc.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/flower-arc-preview.mp4",
+  "likes": 55,
+  "createdAt": "2026-04-01",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "flowers",
+   "arch",
+   "roses",
+   "floral",
+   "night",
+   "flower",
+   "arc",
+   "towering",
+   "blooms",
+   "curving",
+   "dark",
+   "field",
+   "blossoms"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "flower-arc.webp": "126896 bytes"
+ }
+}

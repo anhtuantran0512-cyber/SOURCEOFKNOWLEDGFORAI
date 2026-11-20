@@ -1,0 +1,73 @@
+{
+ "fetchedAt": "2026-11-20T15:45:02Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "numeral-steps",
+  "title": "Numeral Steps",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A safety-orange process section where giant numerals rise from their rows as the steps glide past. Legal for purchase only on getlayers.ai — getlayers.ai/layer/numeral-steps",
+  "image": "https://storage.getlayers.ai/sections/numeral-steps-36a4546c6f.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/numeral-steps-36a4546c6f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/numeral-steps-36a4546c6f-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/numeral-steps-36a4546c6f-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/numeral-steps-36a4546c6f-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/numeral-steps-36a4546c6f-figma.webp",
+  "hasFigma": true,
+  "likes": 41,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "roadmap"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "agency process",
+   "big numbers",
+   "editorial",
+   "giant",
+   "glide",
+   "how it works",
+   "methodology",
+   "numbered steps",
+   "numeral",
+   "numerals",
+   "orange",
+   "parallax",
+   "parallax numerals",
+   "past",
+   "pinned section",
+   "process",
+   "process section",
+   "rise",
+   "roadmap",
+   "rows",
+   "safety",
+   "section",
+   "steps",
+   "sticky",
+   "sticky scroll",
+   "timeline"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "numeral-steps.webp": "57448 bytes",
+  "numeral-steps-figma.webp": "119146 bytes"
+ }
+}

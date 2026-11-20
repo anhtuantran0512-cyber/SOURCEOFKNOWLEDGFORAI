@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:55Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "violet-flower-statue",
+  "title": "Violet Flower Statue",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/violet-flower-statue-92b2cca622.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/violet-flower-statue-92b2cca622.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/violet-flower-statue-92b2cca622-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "antiquity",
+   "backdrop",
+   "blue",
+   "breaking",
+   "burst",
+   "character",
+   "classical",
+   "digital",
+   "dissolve",
+   "dissolves",
+   "flower",
+   "glossy",
+   "goddess",
+   "goes",
+   "pieces",
+   "pop",
+   "purple",
+   "sculpture",
+   "spheres",
+   "statue",
+   "violet",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "violet-flower-statue.webp": "72286 bytes"
+ }
+}

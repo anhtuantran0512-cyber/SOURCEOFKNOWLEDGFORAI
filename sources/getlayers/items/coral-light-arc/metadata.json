@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:46:02Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "coral-light-arc",
+  "title": "Coral Light Arc",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/coral-light-arc-1a89bf70bb.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/coral-light-arc-1a89bf70bb.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/coral-light-arc-1a89bf70bb-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "across",
+   "arc",
+   "aurora",
+   "beneath",
+   "coral",
+   "curve",
+   "dark",
+   "glass",
+   "glow",
+   "ground",
+   "its",
+   "itself",
+   "light",
+   "low",
+   "one",
+   "reflects",
+   "side",
+   "sweep",
+   "sweeps",
+   "teal",
+   "the",
+   "warm",
+   "white",
+   "wide"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "coral-light-arc.webp": "125558 bytes"
+ }
+}

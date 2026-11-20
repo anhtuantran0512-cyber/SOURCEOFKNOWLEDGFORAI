@@ -1,0 +1,69 @@
+{
+ "fetchedAt": "2026-11-20T15:45:06Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "cinder",
+  "title": "Cinder",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A dark FAQ where every question glows like a coal, a soft ember bloom smouldering at the edge of each row. Legal for purchase only on getlayers.ai — getlayers.ai/layer/cinder",
+  "image": "https://storage.getlayers.ai/sections/cinder-713badc3d8.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/cinder-713badc3d8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/cinder-713badc3d8-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/cinder-713badc3d8-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/cinder-713badc3d8-mobile.mp4",
+  "likes": 16,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "faq"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "accordion",
+   "agency",
+   "agency faq",
+   "bloom",
+   "cinder",
+   "coal",
+   "collapsible",
+   "dark",
+   "dark faq",
+   "edge",
+   "ember",
+   "expandable list",
+   "faq",
+   "glow",
+   "glows",
+   "help section",
+   "like",
+   "orange glow",
+   "question",
+   "questions and answers",
+   "row",
+   "smouldering",
+   "soft",
+   "support",
+   "warm dark"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cinder.webp": "58428 bytes"
+ }
+}

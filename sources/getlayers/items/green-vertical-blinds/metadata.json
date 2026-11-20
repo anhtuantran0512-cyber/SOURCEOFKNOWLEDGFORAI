@@ -1,0 +1,48 @@
+{
+ "fetchedAt": "2026-11-20T15:45:37Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "green-vertical-blinds",
+  "title": "Green Vertical Blinds",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/green-vertical-blinds-c135fa68c2.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/green-vertical-blinds-c135fa68c2.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/green-vertical-blinds-c135fa68c2-preview.mp4",
+  "likes": 3,
+  "createdAt": "2026-07-25",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "brutal"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "background",
+   "black",
+   "blinds",
+   "glass",
+   "green",
+   "slats",
+   "stripes",
+   "vertical"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "green-vertical-blinds.webp": "72566 bytes"
+ }
+}

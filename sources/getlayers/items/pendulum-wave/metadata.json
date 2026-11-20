@@ -1,0 +1,281 @@
+{
+ "fetchedAt": "2026-11-20T15:44:57Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "pendulum-wave",
+  "title": "Pendulum Wave",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Polished brass bobs hang still on a walnut and brass rig; a passing cursor sways them like wind chimes and a click sets them rippling in waves. Legal for purchase only on getlayers.ai — getlayers.ai/layer/pendulum-wave",
+  "image": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm",
+   "technical"
+  ],
+  "keywords": [
+   "audio",
+   "bells",
+   "bobs",
+   "brass",
+   "breeze",
+   "calming",
+   "chimes",
+   "click",
+   "click-release",
+   "cursor",
+   "desk",
+   "desk toy",
+   "element",
+   "executive toy",
+   "fades",
+   "hypnotic",
+   "instanced-mesh",
+   "interactive",
+   "kinetic",
+   "kinetic sculpture",
+   "light trails",
+   "light-trails",
+   "long",
+   "mesmerizing",
+   "minute",
+   "newton",
+   "pendulum",
+   "pendulum wave",
+   "physics",
+   "physics-simulation",
+   "pointer-interaction",
+   "product shot",
+   "releases",
+   "rest",
+   "rig",
+   "rings",
+   "ripple",
+   "satisfying",
+   "slowly",
+   "soft",
+   "soft-shadows",
+   "sound",
+   "strands",
+   "studio",
+   "sways",
+   "sweep",
+   "teal",
+   "threejs",
+   "travelling",
+   "walnut",
+   "wave",
+   "web-audio",
+   "wind chimes",
+   "wood"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "pendulum-wave",
+    "groupId": "pendulum-wave",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#5f93a0",
+     "barColor": "#d4ad66",
+     "bobColor": "#e9cc92",
+     "woodColor": "#4e2f1d",
+     "floorColor": "#24404a",
+     "trailColor": "#ffc46a",
+     "stringColor": "#f4ead8"
+    },
+    "ramp": [
+     "#e9cc92",
+     "#d4ad66",
+     "#4e2f1d",
+     "#f4ead8",
+     "#ffc46a",
+     "#24404a",
+     "#5f93a0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657.webp"
+   },
+   {
+    "id": "pendulum-wave-001",
+    "groupId": "pendulum-wave",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#3a3f47",
+     "barColor": "#c9ced6",
+     "bobColor": "#e6e9ee",
+     "woodColor": "#2a1d16",
+     "floorColor": "#1d2024",
+     "trailColor": "#9fd8ff",
+     "stringColor": "#e8eef5"
+    },
+    "ramp": [
+     "#e6e9ee",
+     "#c9ced6",
+     "#2a1d16",
+     "#e8eef5",
+     "#9fd8ff",
+     "#1d2024",
+     "#3a3f47"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/b86d6976-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/b86d6976.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/b86d6976.webp"
+   },
+   {
+    "id": "pendulum-wave-002",
+    "groupId": "pendulum-wave",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#b0583a",
+     "barColor": "#b8693c",
+     "bobColor": "#e0956a",
+     "woodColor": "#4e2f1d",
+     "floorColor": "#6e3222",
+     "trailColor": "#ffb07a",
+     "stringColor": "#f4ead8"
+    },
+    "ramp": [
+     "#e0956a",
+     "#b8693c",
+     "#4e2f1d",
+     "#f4ead8",
+     "#ffb07a",
+     "#6e3222",
+     "#b0583a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/5eb1414c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/5eb1414c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/5eb1414c.webp"
+   },
+   {
+    "id": "pendulum-wave-003",
+    "groupId": "pendulum-wave",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#6a1a1e",
+     "barColor": "#3a3a40",
+     "bobColor": "#2e2e33",
+     "woodColor": "#1e1414",
+     "floorColor": "#2a0a0c",
+     "trailColor": "#ff5a4a",
+     "stringColor": "#d8c8c0"
+    },
+    "ramp": [
+     "#2e2e33",
+     "#3a3a40",
+     "#1e1414",
+     "#d8c8c0",
+     "#ff5a4a",
+     "#2a0a0c",
+     "#6a1a1e"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/5468d042-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/5468d042.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/5468d042.webp"
+   },
+   {
+    "id": "pendulum-wave-004",
+    "groupId": "pendulum-wave",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#e3b9b0",
+     "barColor": "#d9a090",
+     "bobColor": "#ecb9a6",
+     "woodColor": "#c9b59c",
+     "floorColor": "#b78a84",
+     "trailColor": "#ffd0c0",
+     "stringColor": "#f4ead8"
+    },
+    "ramp": [
+     "#ecb9a6",
+     "#d9a090",
+     "#c9b59c",
+     "#f4ead8",
+     "#ffd0c0",
+     "#b78a84",
+     "#e3b9b0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/c71462b7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/c71462b7.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/c71462b7.webp"
+   },
+   {
+    "id": "pendulum-wave-005",
+    "groupId": "pendulum-wave",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#8fa596",
+     "barColor": "#d4ad66",
+     "bobColor": "#e9cc92",
+     "woodColor": "#4e2f1d",
+     "floorColor": "#4b5e52",
+     "trailColor": "#fff0b0",
+     "stringColor": "#f4ead8"
+    },
+    "ramp": [
+     "#e9cc92",
+     "#d4ad66",
+     "#4e2f1d",
+     "#f4ead8",
+     "#fff0b0",
+     "#4b5e52",
+     "#8fa596"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/18afa621-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/18afa621.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pendulum-wave-fbd7d4e657/18afa621.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pendulum-wave.webp": "91654 bytes"
+ }
+}

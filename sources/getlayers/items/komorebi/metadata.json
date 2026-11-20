@@ -1,0 +1,266 @@
+{
+ "fetchedAt": "2026-11-20T15:47:15Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "komorebi",
+  "title": "Komorebi",
+  "description": "Leaf shadow where the coarse canopy casts the softest edge and the small gaps project discs of the sun; the hand moves through it like a breeze.",
+  "nature": "shadow",
+  "family": "light",
+  "tier": "Premium",
+  "likes": 31,
+  "createdAt": "2026-08-24",
+  "shaderHash": "c3643207fa5d7d84af71b53027797633",
+  "hues": [
+   "teal",
+   "red",
+   "blue",
+   "indigo",
+   "green",
+   "magenta",
+   "violet",
+   "orange"
+  ],
+  "variantCount": 8,
+  "variants": [
+   {
+    "id": "komorebi",
+    "groupId": "komorebi",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#3fe07f",
+     "colorB": "#2b6eff",
+     "colorC": "#e0399a",
+     "colorD": "#ffd93f",
+     "bgColor": "#000000"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 30,
+    "previewVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee.webp"
+   },
+   {
+    "id": "komorebi-001",
+    "groupId": "komorebi",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e6ddcd",
+     "colorB": "#e8763a",
+     "colorC": "#3f74b8",
+     "colorD": "#fffdf8",
+     "bgColor": "#f6f2ea"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/71112192-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/71112192.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/71112192.webp"
+   },
+   {
+    "id": "komorebi-002",
+    "groupId": "komorebi",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0a1c3d",
+     "colorB": "#1e5ac8",
+     "colorC": "#7fa6e6",
+     "colorD": "#ddebff",
+     "bgColor": "#000000"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/27a68bce-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/27a68bce.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/27a68bce.webp"
+   },
+   {
+    "id": "komorebi-003",
+    "groupId": "komorebi",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2a1f5c",
+     "colorB": "#4b6bff",
+     "colorC": "#7b3fd9",
+     "colorD": "#b78fff",
+     "bgColor": "#100c24"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/3b884358-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/3b884358.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/3b884358.webp"
+   },
+   {
+    "id": "komorebi-004",
+    "groupId": "komorebi",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#1f7a6b",
+     "colorB": "#3fbfa0",
+     "colorC": "#c8e85c",
+     "colorD": "#e8f5a0",
+     "bgColor": "#0a2a24"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/6840411c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/6840411c.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/6840411c.webp"
+   },
+   {
+    "id": "komorebi-005",
+    "groupId": "komorebi",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#613563",
+     "colorB": "#ad58a5",
+     "colorC": "#cea4c4",
+     "colorD": "#f3ebf1",
+     "bgColor": "#19101b"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "magenta",
+    "tone": "dark",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/d300cc84-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/d300cc84.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/d300cc84.webp"
+   },
+   {
+    "id": "komorebi-006",
+    "groupId": "komorebi",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#ff7bc8",
+     "colorB": "#ff2d9b",
+     "colorC": "#ff9ed4",
+     "colorD": "#ffffff",
+     "bgColor": "#f0e8f5"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "magenta",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/1b118561-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/1b118561.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/1b118561.webp"
+   },
+   {
+    "id": "komorebi-007",
+    "groupId": "komorebi",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#141033",
+     "colorB": "#3a3fa8",
+     "colorC": "#8b3fd9",
+     "colorD": "#e0409a",
+     "bgColor": "#0a0a0c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/1622c637-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/1622c637.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/komorebi-02ac4b08ee/1622c637.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "komorebi.webp": "395338 bytes"
+ }
+}

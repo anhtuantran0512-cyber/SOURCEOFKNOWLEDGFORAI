@@ -1,0 +1,270 @@
+{
+ "fetchedAt": "2026-11-20T15:44:22Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "led-wall",
+  "title": "LED Wall",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A vast LED display wall seen through a long lens: glowing digits reshuffle softly through drifting white-hot cores, crisp across the wall and only gently softening into the distance, focus following the cursor. Legal for purchase only on getlayers.ai — getlayers.ai/layer/led-wall",
+  "image": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7-preview.mp4",
+  "likes": 131,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "keywords": [
+   "angle",
+   "blue",
+   "bokeh",
+   "camera",
+   "cinematic",
+   "cobalt",
+   "cores",
+   "cover",
+   "cursor",
+   "cursor focus",
+   "custom-shaders",
+   "cyan",
+   "dark",
+   "dashboard",
+   "data",
+   "depth of field",
+   "digits",
+   "display",
+   "drifting",
+   "fbm-field",
+   "field",
+   "focus",
+   "futuristic",
+   "glass",
+   "glow",
+   "grid",
+   "halftone",
+   "heats",
+   "hologram",
+   "hot",
+   "leans",
+   "led",
+   "led wall",
+   "led-matrix",
+   "lens",
+   "long",
+   "long lens",
+   "low",
+   "matrix",
+   "numbers",
+   "pixels",
+   "pointer-focus",
+   "postprocessing-bloom",
+   "racks",
+   "reshuffling",
+   "screen",
+   "seen",
+   "shader",
+   "stock market",
+   "tech",
+   "threejs",
+   "ticker",
+   "tilt-shift-dof",
+   "vast",
+   "wall",
+   "white"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "led-wall",
+    "groupId": "led-wall",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "inkHot": "#e8f1ff",
+     "bgColor": "#01040d",
+     "inkBlue": "#2c6bff",
+     "inkDeep": "#0b2bd6",
+     "envColor": "#9fb6ff",
+     "matrixColor": "#03060f"
+    },
+    "ramp": [
+     "#01040d",
+     "#03060f",
+     "#0b2bd6",
+     "#2c6bff",
+     "#e8f1ff",
+     "#9fb6ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7.webp"
+   },
+   {
+    "id": "led-wall-001",
+    "groupId": "led-wall",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "inkHot": "#eaffef",
+     "bgColor": "#000a03",
+     "inkBlue": "#19ff6a",
+     "inkDeep": "#004a1a",
+     "envColor": "#a0ffc0",
+     "matrixColor": "#020a04"
+    },
+    "ramp": [
+     "#000a03",
+     "#020a04",
+     "#004a1a",
+     "#19ff6a",
+     "#eaffef",
+     "#a0ffc0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/c3c4d0ea-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/c3c4d0ea.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/c3c4d0ea.webp"
+   },
+   {
+    "id": "led-wall-002",
+    "groupId": "led-wall",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "inkHot": "#ffe8ea",
+     "bgColor": "#0a0002",
+     "inkBlue": "#ff2a3a",
+     "inkDeep": "#5a0008",
+     "envColor": "#ff9aa0",
+     "matrixColor": "#0c0204"
+    },
+    "ramp": [
+     "#0a0002",
+     "#0c0204",
+     "#5a0008",
+     "#ff2a3a",
+     "#ffe8ea",
+     "#ff9aa0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/b4f10b71-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/b4f10b71.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/b4f10b71.webp"
+   },
+   {
+    "id": "led-wall-003",
+    "groupId": "led-wall",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "inkHot": "#cffaff",
+     "bgColor": "#08020f",
+     "inkBlue": "#ff3fd0",
+     "inkDeep": "#4a0a8a",
+     "envColor": "#ff9af0",
+     "matrixColor": "#0a0412"
+    },
+    "ramp": [
+     "#08020f",
+     "#0a0412",
+     "#4a0a8a",
+     "#ff3fd0",
+     "#cffaff",
+     "#ff9af0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/6b6233ef-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/6b6233ef.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/6b6233ef.webp"
+   },
+   {
+    "id": "led-wall-004",
+    "groupId": "led-wall",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "inkHot": "#eafffd",
+     "bgColor": "#000808",
+     "inkBlue": "#2fe0d0",
+     "inkDeep": "#00403e",
+     "envColor": "#a0fff4",
+     "matrixColor": "#020a0a"
+    },
+    "ramp": [
+     "#000808",
+     "#020a0a",
+     "#00403e",
+     "#2fe0d0",
+     "#eafffd",
+     "#a0fff4"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/da293272-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/da293272.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/da293272.webp"
+   },
+   {
+    "id": "led-wall-005",
+    "groupId": "led-wall",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "inkHot": "#fff2d6",
+     "bgColor": "#0a0400",
+     "inkBlue": "#ff8a1a",
+     "inkDeep": "#6a2a00",
+     "envColor": "#ffc890",
+     "matrixColor": "#0c0602"
+    },
+    "ramp": [
+     "#0a0400",
+     "#0c0602",
+     "#6a2a00",
+     "#ff8a1a",
+     "#fff2d6",
+     "#ffc890"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/db790284-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/db790284.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/led-wall-437456e6e7/db790284.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "led-wall.webp": "234580 bytes"
+ }
+}

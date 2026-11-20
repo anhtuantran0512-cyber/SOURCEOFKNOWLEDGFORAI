@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:56Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "candy-river-meadow",
+  "title": "Candy River Meadow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/candy-river-meadow-eac8ffaa6d.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/candy-river-meadow-eac8ffaa6d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/candy-river-meadow-eac8ffaa6d-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bears",
+   "between",
+   "book",
+   "can",
+   "candy",
+   "children",
+   "clear",
+   "flowers",
+   "gummy",
+   "into",
+   "landscape",
+   "lollipop",
+   "lollipops",
+   "meadow",
+   "meadows",
+   "nature",
+   "oversized",
+   "pastel",
+   "river",
+   "runs",
+   "soft",
+   "sugar",
+   "walk",
+   "you"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "candy-river-meadow.webp": "208390 bytes"
+ }
+}

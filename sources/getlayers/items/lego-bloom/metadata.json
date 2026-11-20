@@ -1,0 +1,143 @@
+{
+ "fetchedAt": "2026-11-20T15:44:59Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "lego-bloom",
+  "title": "Lego Bloom",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A cherry-red minifigure standing in mint air inside a slow cloud of coloured bricks.",
+  "image": "https://storage.getlayers.ai/3d_scenes/lego-bloom-1e5ee75d95.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/lego-bloom-1e5ee75d95.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/lego-bloom-1e5ee75d95-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "keywords": [
+   "air",
+   "blocks",
+   "bloom",
+   "bricks",
+   "cheerful",
+   "cherry",
+   "cloud",
+   "coloured",
+   "confetti",
+   "daylight",
+   "element",
+   "friendly",
+   "inside",
+   "kids",
+   "lego",
+   "minifig",
+   "minifigure",
+   "mint",
+   "plastic",
+   "play",
+   "red",
+   "shop",
+   "slow",
+   "soft",
+   "standing",
+   "toy",
+   "window"
+  ],
+  "variants": [
+   {
+    "id": "lego-bloom",
+    "groupId": "lego-bloom",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#e6f6ee",
+     "bgBottom": "#c6e9dc",
+     "figureColor": "#c01a14",
+     "groundColor": "#eef7f2"
+    },
+    "ramp": [
+     "#c01a14",
+     "#e6f6ee",
+     "#c6e9dc",
+     "#eef7f2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/lego-bloom-1e5ee75d95-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/lego-bloom-1e5ee75d95.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/lego-bloom-1e5ee75d95.webp"
+   },
+   {
+    "id": "lego-bloom-001",
+    "groupId": "lego-bloom",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#e1a1c1",
+     "bgBottom": "#ce6384",
+     "figureColor": "#f3e1ed",
+     "groundColor": "#a13e4b"
+    },
+    "ramp": [
+     "#f3e1ed",
+     "#e1a1c1",
+     "#ce6384",
+     "#a13e4b"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/lego-bloom-1e5ee75d95/f6243372-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/lego-bloom-1e5ee75d95/f6243372.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/lego-bloom-1e5ee75d95/f6243372.webp"
+   },
+   {
+    "id": "lego-bloom-002",
+    "groupId": "lego-bloom",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#6c356d",
+     "bgBottom": "#b170ba",
+     "figureColor": "#10080f",
+     "groundColor": "#e0cee5"
+    },
+    "ramp": [
+     "#10080f",
+     "#6c356d",
+     "#b170ba",
+     "#e0cee5"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/lego-bloom-1e5ee75d95/a352880e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/lego-bloom-1e5ee75d95/a352880e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/lego-bloom-1e5ee75d95/a352880e.webp"
+   }
+  ],
+  "variantCount": 3
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lego-bloom.webp": "33422 bytes"
+ }
+}

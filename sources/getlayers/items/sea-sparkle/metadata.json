@@ -1,0 +1,98 @@
+{
+ "fetchedAt": "2026-11-20T15:44:38Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "sea-sparkle",
+  "title": "Sea Sparkle",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A glittering bioluminescent creature adrift in the black void, its fuzzy cyan-to-indigo body flinging long spines into the dark while a warm orange glow shivers and sparkles at its heart.",
+  "image": "https://storage.getlayers.ai/3d_scenes/sea-sparkle.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/sea-sparkle.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/sea-sparkle-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/sea-sparkle-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 19,
+  "createdAt": "2026-07-01",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "bioluminescent",
+   "organism",
+   "bokeh",
+   "sea",
+   "sparkle",
+   "deep",
+   "suspended",
+   "blackness",
+   "cyan",
+   "body",
+   "bristling",
+   "radial",
+   "spines",
+   "around",
+   "warm",
+   "glowing",
+   "heart"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "sea-sparkle",
+    "groupId": "sea-sparkle",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colMid": "#3f9dff",
+     "colCore": "#fff1e0",
+     "colDeep": "#11357c",
+     "colWarm": "#ff7d33",
+     "colInner": "#bfe6ff",
+     "colSpark": "#ffffff"
+    },
+    "ramp": [
+     "#fff1e0",
+     "#ff7d33",
+     "#bfe6ff",
+     "#3f9dff",
+     "#11357c",
+     "#ffffff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sea-sparkle-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sea-sparkle.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sea-sparkle.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "sea-sparkle.webp": "122322 bytes"
+ }
+}

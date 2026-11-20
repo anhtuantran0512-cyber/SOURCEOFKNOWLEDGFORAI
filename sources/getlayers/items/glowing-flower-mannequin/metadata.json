@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:45:37Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glowing-flower-mannequin",
+  "title": "Glowing Flower Mannequin",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glowing-flower-mannequin-bf9efd8ca0.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glowing-flower-mannequin-bf9efd8ca0.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glowing-flower-mannequin-bf9efd8ca0-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "amber",
+   "character",
+   "clear",
+   "cyborg",
+   "filled",
+   "flower",
+   "flowers",
+   "garden",
+   "glass",
+   "glow",
+   "glowing",
+   "glows",
+   "heart",
+   "light",
+   "machine",
+   "mannequin",
+   "marigold",
+   "warm",
+   "warmth",
+   "white",
+   "within"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glowing-flower-mannequin.webp": "90820 bytes"
+ }
+}

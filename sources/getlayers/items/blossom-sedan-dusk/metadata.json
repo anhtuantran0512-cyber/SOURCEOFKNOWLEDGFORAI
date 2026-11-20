@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:47Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blossom-sedan-dusk",
+  "title": "Blossom Sedan Dusk",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/blossom-sedan-dusk",
+  "image": "https://storage.getlayers.ai/backgrounds/blossom-sedan-dusk-7989ec0c73.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blossom-sedan-dusk-7989ec0c73.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blossom-sedan-dusk-7989ec0c73-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "blossom",
+   "blossoms",
+   "bouquet",
+   "bush",
+   "carries",
+   "drive",
+   "dusk",
+   "evening",
+   "fairytale",
+   "headlights",
+   "lavender",
+   "marsh",
+   "object",
+   "pastel",
+   "pink",
+   "pond",
+   "product",
+   "sedan",
+   "sky",
+   "soft",
+   "twilight",
+   "vintage",
+   "violet"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blossom-sedan-dusk.webp": "171364 bytes"
+ }
+}

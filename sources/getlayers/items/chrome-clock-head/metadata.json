@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:45:53Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "chrome-clock-head",
+  "title": "Chrome Clock Head",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/chrome-clock-head-24b880db27.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/chrome-clock-head-24b880db27.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/chrome-clock-head-24b880db27-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bust",
+   "calm",
+   "character",
+   "chrome",
+   "clock",
+   "clocks",
+   "giant",
+   "gilded",
+   "head",
+   "holding",
+   "monument",
+   "pocket",
+   "rises",
+   "sea",
+   "standing",
+   "still",
+   "sunset",
+   "surreal",
+   "time",
+   "waiting",
+   "watch"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "chrome-clock-head.webp": "116786 bytes"
+ }
+}

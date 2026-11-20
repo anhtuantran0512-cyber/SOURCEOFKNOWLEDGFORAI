@@ -1,0 +1,230 @@
+{
+ "fetchedAt": "2026-11-20T15:44:55Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "solar-surface",
+  "title": "Solar Surface",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "The Sun's glowing limb curves across a black sky, boiling and fibrous, while towering prominences of red-gold plasma stream down their loops and jets leap from the edge. Legal for purchase only on getlayers.ai — getlayers.ai/layer/solar-surface",
+  "image": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "fire-plasma"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "brutal"
+  ],
+  "keywords": [
+   "astronomy",
+   "black",
+   "boiling",
+   "burning",
+   "chromosphere",
+   "cinematic",
+   "click-flare",
+   "corona",
+   "coronal rain",
+   "curves",
+   "down",
+   "edge",
+   "eruption",
+   "fbm-noise",
+   "fibrous",
+   "fire",
+   "fullscreen-shader",
+   "glowing",
+   "gold",
+   "granulation",
+   "h-alpha",
+   "hot",
+   "jets",
+   "leap",
+   "limb",
+   "loops",
+   "magnetic",
+   "nasa",
+   "orange",
+   "plasma",
+   "pointer-parallax",
+   "postprocessing-bloom",
+   "procedural-plasma",
+   "prominence",
+   "prominences",
+   "red",
+   "science",
+   "sdo",
+   "sky",
+   "solar",
+   "solar flare",
+   "solar surface",
+   "space",
+   "spicules",
+   "star",
+   "stream",
+   "sun",
+   "surface",
+   "telescope",
+   "threejs",
+   "towering",
+   "voronoi"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "solar-surface",
+    "groupId": "solar-surface",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "hotColor": "#ffb070",
+     "spaceColor": "#000000",
+     "plasmaColor": "#ff5414"
+    },
+    "ramp": [
+     "#ff5414",
+     "#ffb070",
+     "#000000"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18.webp"
+   },
+   {
+    "id": "solar-surface-001",
+    "groupId": "solar-surface",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "hotColor": "#cfe6ff",
+     "spaceColor": "#01030a",
+     "plasmaColor": "#2a6bff"
+    },
+    "ramp": [
+     "#2a6bff",
+     "#cfe6ff",
+     "#01030a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/3057c5c6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/3057c5c6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/3057c5c6.webp"
+   },
+   {
+    "id": "solar-surface-002",
+    "groupId": "solar-surface",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "hotColor": "#ff8a4a",
+     "spaceColor": "#050000",
+     "plasmaColor": "#b0140a"
+    },
+    "ramp": [
+     "#b0140a",
+     "#ff8a4a",
+     "#050000"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/05723811-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/05723811.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/05723811.webp"
+   },
+   {
+    "id": "solar-surface-003",
+    "groupId": "solar-surface",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "hotColor": "#e0fffa",
+     "spaceColor": "#000608",
+     "plasmaColor": "#0f8a9a"
+    },
+    "ramp": [
+     "#0f8a9a",
+     "#e0fffa",
+     "#000608"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/9c204f78-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/9c204f78.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/9c204f78.webp"
+   },
+   {
+    "id": "solar-surface-004",
+    "groupId": "solar-surface",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "hotColor": "#fff2c8",
+     "spaceColor": "#000000",
+     "plasmaColor": "#c88a10"
+    },
+    "ramp": [
+     "#c88a10",
+     "#fff2c8",
+     "#000000"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/469bdae1-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/469bdae1.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/469bdae1.webp"
+   },
+   {
+    "id": "solar-surface-005",
+    "groupId": "solar-surface",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "hotColor": "#ffe8f0",
+     "spaceColor": "#000000",
+     "plasmaColor": "#ff3a6a"
+    },
+    "ramp": [
+     "#ff3a6a",
+     "#ffe8f0",
+     "#000000"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/cca99b7d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/cca99b7d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/solar-surface-a849148e18/cca99b7d.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "solar-surface.webp": "130078 bytes"
+ }
+}

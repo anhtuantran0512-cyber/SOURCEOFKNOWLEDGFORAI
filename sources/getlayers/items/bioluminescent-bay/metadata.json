@@ -1,0 +1,270 @@
+{
+ "fetchedAt": "2026-11-20T15:44:20Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "bioluminescent-bay",
+  "title": "Bioluminescent Bay",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A black night sea under the Milky Way where every breaking crest glows electric blue, and a hand trailed through the water leaves a swirling wake of light. Legal for purchase only on getlayers.ai — getlayers.ai/layer/bioluminescent-bay",
+  "image": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b-preview.mp4",
+  "likes": 147,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "organic",
+   "luxe"
+  ],
+  "keywords": [
+   "bay",
+   "beach",
+   "bioluminescence",
+   "bioluminescent",
+   "black",
+   "blue",
+   "blue glow",
+   "breaking",
+   "calm",
+   "click",
+   "click-ripple",
+   "crest",
+   "cursor trail",
+   "cyan",
+   "dark",
+   "disturbance-field",
+   "electric",
+   "electric blue",
+   "glowing water",
+   "glows",
+   "hand",
+   "hand in water",
+   "horizon",
+   "interactive",
+   "leaves",
+   "light",
+   "magical",
+   "milky",
+   "milky way",
+   "mystic",
+   "nature",
+   "neon",
+   "night",
+   "night sea",
+   "night-sky",
+   "ocean",
+   "plankton",
+   "pointer-wake",
+   "postprocessing-bloom",
+   "raymarched",
+   "raymarching",
+   "ripples",
+   "sea",
+   "shore",
+   "starry sky",
+   "stars",
+   "stone",
+   "swirling",
+   "terrain",
+   "threejs",
+   "trailed",
+   "wake",
+   "water",
+   "waves",
+   "way"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "bioluminescent-bay",
+    "groupId": "bioluminescent-bay",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "skyTop": "#010208",
+     "glowHot": "#d8fbff",
+     "seaColor": "#030a14",
+     "glowColor": "#2fd8ff",
+     "starColor": "#dfe8ff",
+     "skyHorizon": "#0a1424"
+    },
+    "ramp": [
+     "#2fd8ff",
+     "#d8fbff",
+     "#030a14",
+     "#010208",
+     "#0a1424",
+     "#dfe8ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b.webp"
+   },
+   {
+    "id": "bioluminescent-bay-001",
+    "groupId": "bioluminescent-bay",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#04080c",
+     "glowHot": "#f5fffb",
+     "seaColor": "#030a14",
+     "glowColor": "#00ffd0",
+     "starColor": "#dfe8ff",
+     "skyHorizon": "#14232c"
+    },
+    "ramp": [
+     "#00ffd0",
+     "#f5fffb",
+     "#030a14",
+     "#04080c",
+     "#14232c",
+     "#dfe8ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/479405cc-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/479405cc.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/479405cc.webp"
+   },
+   {
+    "id": "bioluminescent-bay-002",
+    "groupId": "bioluminescent-bay",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#010208",
+     "glowHot": "#eef6ff",
+     "seaColor": "#02061a",
+     "glowColor": "#3fa8ff",
+     "starColor": "#dfe8ff",
+     "skyHorizon": "#101634"
+    },
+    "ramp": [
+     "#3fa8ff",
+     "#eef6ff",
+     "#02061a",
+     "#010208",
+     "#101634",
+     "#dfe8ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/8a7587ae-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/8a7587ae.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/8a7587ae.webp"
+   },
+   {
+    "id": "bioluminescent-bay-003",
+    "groupId": "bioluminescent-bay",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#080b20",
+     "glowHot": "#d8fbff",
+     "seaColor": "#070c1e",
+     "glowColor": "#4fc3ff",
+     "starColor": "#dfe8ff",
+     "skyHorizon": "#2e2850"
+    },
+    "ramp": [
+     "#4fc3ff",
+     "#d8fbff",
+     "#070c1e",
+     "#080b20",
+     "#2e2850",
+     "#dfe8ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/500248fd-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/500248fd.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/500248fd.webp"
+   },
+   {
+    "id": "bioluminescent-bay-004",
+    "groupId": "bioluminescent-bay",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#02040a",
+     "glowHot": "#e6ffe9",
+     "seaColor": "#030a14",
+     "glowColor": "#3dff9a",
+     "starColor": "#dfe8ff",
+     "skyHorizon": "#0b1a2a"
+    },
+    "ramp": [
+     "#3dff9a",
+     "#e6ffe9",
+     "#030a14",
+     "#02040a",
+     "#0b1a2a",
+     "#dfe8ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/aeae8167-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/aeae8167.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/aeae8167.webp"
+   },
+   {
+    "id": "bioluminescent-bay-005",
+    "groupId": "bioluminescent-bay",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#000105",
+     "glowHot": "#ffffff",
+     "seaColor": "#04060c",
+     "glowColor": "#7fd0ff",
+     "starColor": "#dfe8ff",
+     "skyHorizon": "#0a0f1a"
+    },
+    "ramp": [
+     "#7fd0ff",
+     "#ffffff",
+     "#04060c",
+     "#000105",
+     "#0a0f1a",
+     "#dfe8ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/2a14a789-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/2a14a789.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/bioluminescent-bay-f2f8d11d8b/2a14a789.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "bioluminescent-bay.webp": "53450 bytes"
+ }
+}

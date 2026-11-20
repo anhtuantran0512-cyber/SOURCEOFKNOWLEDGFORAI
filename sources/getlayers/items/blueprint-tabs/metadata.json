@@ -1,0 +1,73 @@
+{
+ "fetchedAt": "2026-11-20T15:45:02Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "blueprint-tabs",
+  "title": "Blueprint Tabs",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An architect's blueprint come alive: feature tabs that re-plot a building drawing while an assistant answers beside it. Legal for purchase only on getlayers.ai — getlayers.ai/layer/blueprint-tabs",
+  "image": "https://storage.getlayers.ai/sections/blueprint-tabs-6f6ae48458.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/blueprint-tabs-6f6ae48458.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/blueprint-tabs-6f6ae48458-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/blueprint-tabs-6f6ae48458-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/blueprint-tabs-6f6ae48458-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/blueprint-tabs-6f6ae48458-figma.webp",
+  "hasFigma": true,
+  "likes": 39,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "features"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "keywords": [
+   "ai assistant",
+   "ai-assistant",
+   "alive",
+   "answers",
+   "architect",
+   "architecture",
+   "assistant",
+   "autoplay",
+   "autoplay tabs",
+   "beside",
+   "bim",
+   "blueprint",
+   "building",
+   "chat card",
+   "come",
+   "construction",
+   "drawing",
+   "engineering",
+   "feature",
+   "feature tabs",
+   "features",
+   "key features",
+   "plot",
+   "product tour",
+   "saas features",
+   "tabs",
+   "technical drawing"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blueprint-tabs.webp": "115184 bytes",
+  "blueprint-tabs-figma.webp": "183824 bytes"
+ }
+}

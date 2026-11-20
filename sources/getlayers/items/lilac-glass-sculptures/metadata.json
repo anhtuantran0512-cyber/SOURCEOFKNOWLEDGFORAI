@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:45:49Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lilac-glass-sculptures",
+  "title": "Lilac Glass Sculptures",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/lilac-glass-sculptures-dce9832990.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lilac-glass-sculptures-dce9832990.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lilac-glass-sculptures-dce9832990-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "alien",
+   "chrome",
+   "coral",
+   "dreamscape",
+   "floating",
+   "frosted",
+   "frozen",
+   "garden",
+   "glass",
+   "grown",
+   "like",
+   "lilac",
+   "orbs",
+   "pebbles",
+   "sculpture",
+   "sculptures",
+   "shallow",
+   "silver",
+   "sprout",
+   "surreal",
+   "trees",
+   "twisting",
+   "violet",
+   "water"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lilac-glass-sculptures.webp": "225056 bytes"
+ }
+}

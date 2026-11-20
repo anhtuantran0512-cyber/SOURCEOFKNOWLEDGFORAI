@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:53Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "balloon-letters-garden",
+  "title": "Balloon Letters Garden",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/balloon-letters-garden-c78c3438f6.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/balloon-letters-garden-c78c3438f6.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/balloon-letters-garden-c78c3438f6-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "3d",
+   "among",
+   "balloon",
+   "blossom",
+   "candy",
+   "chrome",
+   "floral",
+   "flowers",
+   "garden",
+   "glossy",
+   "grass",
+   "inflatable",
+   "island",
+   "letters",
+   "made",
+   "mirror",
+   "optimism",
+   "pool",
+   "sit",
+   "spheres",
+   "sweets",
+   "toy",
+   "typography",
+   "where"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "balloon-letters-garden.webp": "376546 bytes"
+ }
+}

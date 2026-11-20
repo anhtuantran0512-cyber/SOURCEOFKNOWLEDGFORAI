@@ -25,7 +25,7 @@ url: "https://www.getlayers.ai/layer/flowstate"
 - Published: 2026-07-19 · likes: 157
 - Live page: https://www.getlayers.ai/layer/flowstate
 - Preview still: [`assets/flowstate.webp`](../../assets/flowstate.webp)
-- Figma preview: _not published for this template_
+- Figma preview: _not published for this item_
 
 ## Measured performance
 

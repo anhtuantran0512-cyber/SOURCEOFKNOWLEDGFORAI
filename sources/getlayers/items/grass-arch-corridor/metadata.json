@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:36Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "grass-arch-corridor",
+  "title": "Grass Arch Corridor",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/grass-arch-corridor",
+  "image": "https://storage.getlayers.ai/backgrounds/grass-arch-corridor-7ab6f32ec4.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/grass-arch-corridor-7ab6f32ec4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/grass-arch-corridor-7ab6f32ec4-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "brutal"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "arch",
+   "arched",
+   "arches",
+   "beige",
+   "cathedral",
+   "corridor",
+   "desert",
+   "floor",
+   "glowing",
+   "grass",
+   "grassy",
+   "hallway",
+   "horizon",
+   "infinite",
+   "landscape",
+   "long",
+   "nature",
+   "recedes",
+   "sandstone",
+   "swaying",
+   "tunnel",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "grass-arch-corridor.webp": "254030 bytes"
+ }
+}

@@ -1,0 +1,334 @@
+{
+ "fetchedAt": "2026-11-20T15:44:50Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "fluted-veil",
+  "title": "Fluted Veil",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A warm wave of crimson and lavender light drifts and churns behind a panel of vertical fluted glass, sliced into shimmering, grain-dusted corrugated columns.",
+  "image": "https://storage.getlayers.ai/3d_scenes/fluted-veil.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/fluted-veil-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/fluted-veil-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 5,
+  "createdAt": "2026-06-30",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "shader",
+   "glass",
+   "fluted",
+   "bloom",
+   "veil",
+   "warm",
+   "glowing",
+   "wave",
+   "rippling",
+   "behind",
+   "panel",
+   "vertical"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "fluted-veil",
+    "groupId": "fluted-veil",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colHot": "#ffccc0",
+     "colLav": "#b1a2c6",
+     "colRed": "#f23a2b",
+     "colDeep": "#8e1f2c",
+     "colPlum": "#2a1b30",
+     "colVoid": "#0c0710",
+     "colMauve": "#c99fb0"
+    },
+    "ramp": [
+     "#0c0710",
+     "#2a1b30",
+     "#b1a2c6",
+     "#c99fb0",
+     "#8e1f2c",
+     "#f23a2b",
+     "#ffccc0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-veil.webp"
+   },
+   {
+    "id": "fluted-veil-001",
+    "groupId": "fluted-veil",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colHot": "#ccd2eb",
+     "colLav": "#28287c",
+     "colRed": "#98a2da",
+     "colDeep": "#616ccc",
+     "colPlum": "#1b1946",
+     "colVoid": "#080713",
+     "colMauve": "#353bb4"
+    },
+    "ramp": [
+     "#080713",
+     "#1b1946",
+     "#28287c",
+     "#353bb4",
+     "#616ccc",
+     "#98a2da",
+     "#ccd2eb"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/a24b33e9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/a24b33e9.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-veil/a24b33e9.webp"
+   },
+   {
+    "id": "fluted-veil-002",
+    "groupId": "fluted-veil",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colHot": "#b1deac",
+     "colLav": "#2d7a29",
+     "colRed": "#87d07f",
+     "colDeep": "#5ac551",
+     "colPlum": "#1e4c1c",
+     "colVoid": "#0e210d",
+     "colMauve": "#3ba933"
+    },
+    "ramp": [
+     "#0e210d",
+     "#1e4c1c",
+     "#2d7a29",
+     "#3ba933",
+     "#5ac551",
+     "#87d07f",
+     "#b1deac"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/2c7b6deb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/2c7b6deb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-veil/2c7b6deb.webp"
+   },
+   {
+    "id": "fluted-veil-003",
+    "groupId": "fluted-veil",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colHot": "#d7b7d8",
+     "colLav": "#693365",
+     "colRed": "#c58ec4",
+     "colDeep": "#b363b0",
+     "colPlum": "#40213c",
+     "colVoid": "#170d16",
+     "colMauve": "#954590"
+    },
+    "ramp": [
+     "#170d16",
+     "#40213c",
+     "#693365",
+     "#954590",
+     "#b363b0",
+     "#c58ec4",
+     "#d7b7d8"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/4339cfce-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/4339cfce.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-veil/4339cfce.webp"
+   },
+   {
+    "id": "fluted-veil-004",
+    "groupId": "fluted-veil",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colHot": "#e0d2ef",
+     "colLav": "#302b91",
+     "colRed": "#b8a0e0",
+     "colDeep": "#876bd4",
+     "colPlum": "#1e225c",
+     "colVoid": "#0f142a",
+     "colMauve": "#4c34c9"
+    },
+    "ramp": [
+     "#0f142a",
+     "#1e225c",
+     "#302b91",
+     "#4c34c9",
+     "#876bd4",
+     "#b8a0e0",
+     "#e0d2ef"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/05d806cb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/05d806cb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-veil/05d806cb.webp"
+   },
+   {
+    "id": "fluted-veil-005",
+    "groupId": "fluted-veil",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colHot": "#e6f3d7",
+     "colLav": "#848f21",
+     "colRed": "#cae69e",
+     "colDeep": "#b9db62",
+     "colPlum": "#535316",
+     "colVoid": "#1b1908",
+     "colMauve": "#aece28"
+    },
+    "ramp": [
+     "#1b1908",
+     "#535316",
+     "#848f21",
+     "#aece28",
+     "#b9db62",
+     "#cae69e",
+     "#e6f3d7"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/c184cbfa-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/c184cbfa.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-veil/c184cbfa.webp"
+   },
+   {
+    "id": "fluted-veil-006",
+    "groupId": "fluted-veil",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colHot": "#c7e9e7",
+     "colLav": "#2a8179",
+     "colRed": "#96d9d4",
+     "colDeep": "#62ccc4",
+     "colPlum": "#1c4e49",
+     "colVoid": "#0b1d1b",
+     "colMauve": "#36b7ac"
+    },
+    "ramp": [
+     "#0b1d1b",
+     "#1c4e49",
+     "#2a8179",
+     "#36b7ac",
+     "#62ccc4",
+     "#96d9d4",
+     "#c7e9e7"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/59f26ad9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/59f26ad9.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-veil/59f26ad9.webp"
+   },
+   {
+    "id": "fluted-veil-007",
+    "groupId": "fluted-veil",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colHot": "#d8cbbd",
+     "colLav": "#6b4e39",
+     "colRed": "#c4ac95",
+     "colDeep": "#b18c6c",
+     "colPlum": "#433125",
+     "colVoid": "#1c1410",
+     "colMauve": "#956c4b"
+    },
+    "ramp": [
+     "#1c1410",
+     "#433125",
+     "#6b4e39",
+     "#956c4b",
+     "#b18c6c",
+     "#c4ac95",
+     "#d8cbbd"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/30de2fa2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/30de2fa2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-veil/30de2fa2.webp"
+   },
+   {
+    "id": "fluted-veil-008",
+    "groupId": "fluted-veil",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "colHot": "#d4cdeb",
+     "colLav": "#302d86",
+     "colRed": "#a89cdb",
+     "colDeep": "#7768cd",
+     "colPlum": "#1e1f53",
+     "colVoid": "#0e0f22",
+     "colMauve": "#4439bb"
+    },
+    "ramp": [
+     "#0e0f22",
+     "#1e1f53",
+     "#302d86",
+     "#4439bb",
+     "#7768cd",
+     "#a89cdb",
+     "#d4cdeb"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/796f2e91-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-veil/796f2e91.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-veil/796f2e91.webp"
+   }
+  ],
+  "variantCount": 9
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "fluted-veil.webp": "285950 bytes"
+ }
+}

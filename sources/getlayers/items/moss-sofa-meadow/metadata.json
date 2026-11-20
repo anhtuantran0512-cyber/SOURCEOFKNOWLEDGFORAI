@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:46:19Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "moss-sofa-meadow",
+  "title": "Moss Sofa Meadow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Free",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/moss-sofa-meadow-6cf3dc42d9.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/moss-sofa-meadow-6cf3dc42d9.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/moss-sofa-meadow-6cf3dc42d9-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "comfort",
+   "cream",
+   "field",
+   "from",
+   "furniture",
+   "ground",
+   "grown",
+   "landscape",
+   "living",
+   "meadow",
+   "moss",
+   "nature",
+   "pale",
+   "pastel",
+   "pink",
+   "room",
+   "sits",
+   "sky",
+   "sofa",
+   "surreal",
+   "the",
+   "under",
+   "upholstered",
+   "walls",
+   "wide",
+   "wildflowers",
+   "with"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "moss-sofa-meadow.webp": "197772 bytes"
+ }
+}

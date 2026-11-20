@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:47:06Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "purple-moire-petals",
+  "title": "Purple Moire Petals",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/purple-moire-petals-c49b71e1c0.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/purple-moire-petals-c49b71e1c0.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/purple-moire-petals-c49b71e1c0-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "banknote",
+   "bloom",
+   "engraved",
+   "fine",
+   "forms",
+   "glass",
+   "illusion",
+   "like",
+   "lines",
+   "moir",
+   "moire",
+   "optical",
+   "pattern",
+   "petal",
+   "petals",
+   "purple",
+   "resolving",
+   "ripple",
+   "soft",
+   "texture",
+   "violet"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "purple-moire-petals.webp": "678210 bytes"
+ }
+}

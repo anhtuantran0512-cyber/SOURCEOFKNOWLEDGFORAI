@@ -1,0 +1,66 @@
+{
+ "fetchedAt": "2026-11-20T15:46:44Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pastel-ruin-city",
+  "title": "Pastel Ruin City",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pastel-ruin-city-95d4dff2b1.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pastel-ruin-city-95d4dff2b1.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pastel-ruin-city-95d4dff2b1-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "among",
+   "arch",
+   "bursts",
+   "butterflies",
+   "candy",
+   "car",
+   "city",
+   "clouds",
+   "coated",
+   "dream",
+   "figures",
+   "flowering",
+   "glass",
+   "glowing",
+   "landscape",
+   "nature",
+   "party",
+   "pastel",
+   "pink",
+   "roses",
+   "ruin",
+   "ruins",
+   "streams",
+   "sugar",
+   "surreal",
+   "surrealism",
+   "vintage",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pastel-ruin-city.webp": "198622 bytes"
+ }
+}

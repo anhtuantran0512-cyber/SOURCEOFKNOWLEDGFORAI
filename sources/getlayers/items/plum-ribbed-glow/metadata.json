@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:46:01Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "plum-ribbed-glow",
+  "title": "Plum Ribbed Glow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/plum-ribbed-glow-eff75609a8.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/plum-ribbed-glow-eff75609a8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/plum-ribbed-glow-eff75609a8-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "and",
+   "backlit",
+   "behind",
+   "burns",
+   "centre",
+   "fills",
+   "fluted",
+   "frame",
+   "glass",
+   "glow",
+   "lamp",
+   "light",
+   "lit",
+   "plum",
+   "purple",
+   "ribbed",
+   "screen",
+   "velvet",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "plum-ribbed-glow.webp": "105888 bytes"
+ }
+}

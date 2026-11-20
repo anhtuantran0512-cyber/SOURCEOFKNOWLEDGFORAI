@@ -1,0 +1,153 @@
+{
+ "fetchedAt": "2026-11-20T15:44:49Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "filament-star",
+  "title": "Filament Star",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A white-hot core erupting into branching filaments that peel away through sapphire and violet before sinking into a soft halo.",
+  "image": "https://storage.getlayers.ai/3d_scenes/filament-star-fa496d7f1e.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/filament-star-fa496d7f1e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/filament-star-fa496d7f1e-preview.mp4",
+  "likes": 7,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "additive",
+   "amethyst",
+   "away",
+   "before",
+   "branching",
+   "burst",
+   "core",
+   "erupting",
+   "explosion",
+   "filament",
+   "filaments",
+   "halo",
+   "hot",
+   "interactive",
+   "line-geometry",
+   "particles",
+   "peel",
+   "plasma",
+   "sapphire",
+   "sinking",
+   "soft",
+   "star",
+   "strands",
+   "tendrils",
+   "that",
+   "threejs",
+   "through",
+   "violet",
+   "white"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "filament-star",
+    "groupId": "filament-star",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colMid": "#9fb6f2",
+     "colCore": "#fffaf0",
+     "colHalo": "#4a63c8",
+     "colInner": "#dce8ff",
+     "colOuter": "#6f5fd6"
+    },
+    "ramp": [
+     "#fffaf0",
+     "#dce8ff",
+     "#9fb6f2",
+     "#6f5fd6",
+     "#4a63c8"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/filament-star-fa496d7f1e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/filament-star-fa496d7f1e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/filament-star-fa496d7f1e.webp"
+   },
+   {
+    "id": "filament-star-001",
+    "groupId": "filament-star",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colMid": "#645ee2",
+     "colCore": "#ddd0f1",
+     "colHalo": "#2a4894",
+     "colInner": "#aa99e7",
+     "colOuter": "#3043cf"
+    },
+    "ramp": [
+     "#ddd0f1",
+     "#aa99e7",
+     "#645ee2",
+     "#3043cf",
+     "#2a4894"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/filament-star-fa496d7f1e/571eb5ca-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/filament-star-fa496d7f1e/571eb5ca.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/filament-star-fa496d7f1e/571eb5ca.webp"
+   },
+   {
+    "id": "filament-star-002",
+    "groupId": "filament-star",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colMid": "#725d9a",
+     "colCore": "#19141d",
+     "colHalo": "#dad9e6",
+     "colInner": "#493a5b",
+     "colOuter": "#a29cc0"
+    },
+    "ramp": [
+     "#19141d",
+     "#493a5b",
+     "#725d9a",
+     "#a29cc0",
+     "#dad9e6"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/filament-star-fa496d7f1e/da4f99a8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/filament-star-fa496d7f1e/da4f99a8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/filament-star-fa496d7f1e/da4f99a8.webp"
+   }
+  ],
+  "variantCount": 3
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "filament-star.webp": "219606 bytes"
+ }
+}

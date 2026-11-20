@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:40Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "stone-podium-meadow",
+  "title": "Stone Podium Meadow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/stone-podium-meadow-46630fbbaa.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/stone-podium-meadow-46630fbbaa.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/stone-podium-meadow-46630fbbaa-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "and",
+   "below",
+   "clouds",
+   "cloudy",
+   "empty",
+   "for",
+   "meadow",
+   "object",
+   "one",
+   "podium",
+   "product",
+   "round",
+   "sits",
+   "sky",
+   "stage",
+   "stone",
+   "sunlit",
+   "waiting",
+   "warm",
+   "wide",
+   "wildflower",
+   "wildflowers"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "stone-podium-meadow.webp": "201544 bytes"
+ }
+}

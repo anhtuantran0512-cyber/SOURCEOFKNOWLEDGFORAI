@@ -1,0 +1,47 @@
+{
+ "fetchedAt": "2026-11-20T15:47:12Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "soft-green-glow",
+  "title": "Soft Green Glow",
+  "category": "background",
+  "tags": [
+   "background",
+   "static"
+  ],
+  "stack": [
+   "background",
+   "static"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/soft-green-glow-623d210c09.webp",
+  "likes": 0,
+  "createdAt": "2026-07-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "abstract",
+   "background",
+   "cream",
+   "glass",
+   "glow",
+   "gradient",
+   "green",
+   "soft"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "soft-green-glow.webp": "28588 bytes"
+ }
+}

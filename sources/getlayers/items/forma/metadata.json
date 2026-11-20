@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:25:44Z",
+ "fetchedAt": "2026-11-20T15:43:06Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "forma",
@@ -420,7 +420,7 @@
   "status": "premium"
  },
  "files": {
-  "forma.webp": "177994 bytes",
-  "forma-figma.webp": "84926 bytes"
+  "forma.webp": "cached",
+  "forma-figma.webp": "cached"
  }
 }

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:25:06Z",
+ "fetchedAt": "2026-11-20T15:42:59Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "auralis",
@@ -496,6 +496,6 @@
   "status": "premium"
  },
  "files": {
-  "auralis.webp": "123540 bytes"
+  "auralis.webp": "cached"
  }
 }

@@ -1,0 +1,209 @@
+{
+ "fetchedAt": "2026-11-20T15:44:51Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "crimson-contour",
+  "title": "Crimson Contour",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Hot crimson iso-lines pooling and drifting across a black map, crowding tight wherever the hidden ground falls away.",
+  "image": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239-preview.mp4",
+  "likes": 4,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "keywords": [
+   "across",
+   "away",
+   "black",
+   "chart",
+   "contour",
+   "contour-lines",
+   "crimson",
+   "crowding",
+   "drifting",
+   "falls",
+   "gpu-terrain",
+   "ground",
+   "hidden",
+   "hot",
+   "interactive",
+   "iso",
+   "iso-lines",
+   "isoline",
+   "lines",
+   "map",
+   "particles",
+   "pink",
+   "pooling",
+   "red",
+   "relief",
+   "terrain",
+   "threejs",
+   "tight",
+   "topographic",
+   "waves",
+   "wherever"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "crimson-contour",
+    "groupId": "crimson-contour",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "dotColor": "#ff4d63",
+     "lineColor": "#ff1f2b",
+     "lineColor2": "#ff5f93"
+    },
+    "ramp": [
+     "#ff1f2b",
+     "#ff5f93",
+     "#ff4d63"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239.webp"
+   },
+   {
+    "id": "crimson-contour-001",
+    "groupId": "crimson-contour",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "dotColor": "#b7bae1",
+     "lineColor": "#1b1129",
+     "lineColor2": "#4e39af"
+    },
+    "ramp": [
+     "#1b1129",
+     "#4e39af",
+     "#b7bae1"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/27ed2166-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/27ed2166.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/27ed2166.webp"
+   },
+   {
+    "id": "crimson-contour-002",
+    "groupId": "crimson-contour",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "dotColor": "#c0ebda",
+     "lineColor": "#0d2a2a",
+     "lineColor2": "#2ac7a9"
+    },
+    "ramp": [
+     "#0d2a2a",
+     "#2ac7a9",
+     "#c0ebda"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/34bb3405-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/34bb3405.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/34bb3405.webp"
+   },
+   {
+    "id": "crimson-contour-003",
+    "groupId": "crimson-contour",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "dotColor": "#d6eaed",
+     "lineColor": "#111728",
+     "lineColor2": "#4084be"
+    },
+    "ramp": [
+     "#111728",
+     "#4084be",
+     "#d6eaed"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/650537c9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/650537c9.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/650537c9.webp"
+   },
+   {
+    "id": "crimson-contour-004",
+    "groupId": "crimson-contour",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "dotColor": "#c4eac2",
+     "lineColor": "#0c2211",
+     "lineColor2": "#2fbe3e"
+    },
+    "ramp": [
+     "#0c2211",
+     "#2fbe3e",
+     "#c4eac2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/97ec70ef-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/97ec70ef.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/97ec70ef.webp"
+   },
+   {
+    "id": "crimson-contour-005",
+    "groupId": "crimson-contour",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "dotColor": "#dfcfd6",
+     "lineColor": "#0e090c",
+     "lineColor2": "#8f5472"
+    },
+    "ramp": [
+     "#0e090c",
+     "#8f5472",
+     "#dfcfd6"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/01a9744c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/01a9744c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/crimson-contour-b97251a239/01a9744c.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "crimson-contour.webp": "101656 bytes"
+ }
+}

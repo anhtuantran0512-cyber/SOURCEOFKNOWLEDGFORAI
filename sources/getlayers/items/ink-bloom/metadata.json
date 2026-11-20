@@ -1,0 +1,276 @@
+{
+ "fetchedAt": "2026-11-20T15:44:21Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "ink-bloom",
+  "title": "Ink Bloom",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Drops of deep indigo and crimson ink plunge into a backlit tank and unfurl in slow motion, curling into tendrils that your cursor stirs. Legal for purchase only on getlayers.ai — getlayers.ai/layer/ink-bloom",
+  "image": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac-preview.mp4",
+  "likes": 138,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "fluid-iridescent"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "organic",
+   "luxe"
+  ],
+  "keywords": [
+   "backlit",
+   "bloom",
+   "blooming",
+   "blue",
+   "bright",
+   "calm",
+   "clear",
+   "click",
+   "click-drop",
+   "cloud",
+   "crimson",
+   "cursor",
+   "depth-of-field",
+   "drop",
+   "dye",
+   "fed",
+   "fluid",
+   "fluid-simulation",
+   "indigo",
+   "ink",
+   "ink drop",
+   "ink in water",
+   "interactive",
+   "iridescent",
+   "light",
+   "liquid",
+   "macro",
+   "marbling",
+   "mixing",
+   "new",
+   "organic",
+   "ping-pong-render-target",
+   "plum",
+   "plume",
+   "pointer-stir",
+   "red",
+   "shot",
+   "slow motion",
+   "smoke",
+   "stable-fluids",
+   "stirred",
+   "studio",
+   "swirl",
+   "tendrils",
+   "threejs",
+   "translucent",
+   "water",
+   "watercolor",
+   "white"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "ink-bloom",
+    "groupId": "ink-bloom",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "inkA": "#4a46b8",
+     "inkB": "#d42a4c",
+     "backEdge": "#aec4dc",
+     "keyColor": "#fff0dc",
+     "scatterA": "#5f74e6",
+     "scatterB": "#ff6f73",
+     "backCenter": "#fffbf4"
+    },
+    "ramp": [
+     "#4a46b8",
+     "#d42a4c",
+     "#5f74e6",
+     "#ff6f73",
+     "#fffbf4",
+     "#aec4dc",
+     "#fff0dc"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac.webp"
+   },
+   {
+    "id": "ink-bloom-001",
+    "groupId": "ink-bloom",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "inkA": "#1e2a6e",
+     "inkB": "#e8a92a",
+     "backEdge": "#c8b8a0",
+     "keyColor": "#fff0dc",
+     "scatterA": "#3a5ae0",
+     "scatterB": "#ffcf5a",
+     "backCenter": "#fff8ea"
+    },
+    "ramp": [
+     "#1e2a6e",
+     "#e8a92a",
+     "#3a5ae0",
+     "#ffcf5a",
+     "#fff8ea",
+     "#c8b8a0",
+     "#fff0dc"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/f953c5c6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/f953c5c6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/f953c5c6.webp"
+   },
+   {
+    "id": "ink-bloom-002",
+    "groupId": "ink-bloom",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "inkA": "#0f6a6a",
+     "inkB": "#ff6a4a",
+     "backEdge": "#a8d8c8",
+     "keyColor": "#fff0dc",
+     "scatterA": "#3ac8b8",
+     "scatterB": "#ff9a7a",
+     "backCenter": "#f4fff8"
+    },
+    "ramp": [
+     "#0f6a6a",
+     "#ff6a4a",
+     "#3ac8b8",
+     "#ff9a7a",
+     "#f4fff8",
+     "#a8d8c8",
+     "#fff0dc"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/ccce1560-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/ccce1560.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/ccce1560.webp"
+   },
+   {
+    "id": "ink-bloom-003",
+    "groupId": "ink-bloom",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "inkA": "#0e4a2a",
+     "inkB": "#7a3ab8",
+     "backEdge": "#b8c8b0",
+     "keyColor": "#fff0dc",
+     "scatterA": "#3aa86a",
+     "scatterB": "#b07aff",
+     "backCenter": "#fffdf0"
+    },
+    "ramp": [
+     "#0e4a2a",
+     "#7a3ab8",
+     "#3aa86a",
+     "#b07aff",
+     "#fffdf0",
+     "#b8c8b0",
+     "#fff0dc"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/89823ac2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/89823ac2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/89823ac2.webp"
+   },
+   {
+    "id": "ink-bloom-004",
+    "groupId": "ink-bloom",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "inkA": "#e86a1a",
+     "inkB": "#c81a6a",
+     "backEdge": "#e8c0a0",
+     "keyColor": "#fff0dc",
+     "scatterA": "#ffa060",
+     "scatterB": "#ff6aa8",
+     "backCenter": "#fff4e0"
+    },
+    "ramp": [
+     "#e86a1a",
+     "#c81a6a",
+     "#ffa060",
+     "#ff6aa8",
+     "#fff4e0",
+     "#e8c0a0",
+     "#fff0dc"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/cdce7480-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/cdce7480.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/cdce7480.webp"
+   },
+   {
+    "id": "ink-bloom-005",
+    "groupId": "ink-bloom",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "inkA": "#141414",
+     "inkB": "#d8281e",
+     "backEdge": "#d8ccb4",
+     "keyColor": "#fff0dc",
+     "scatterA": "#4a4a4a",
+     "scatterB": "#ff5a40",
+     "backCenter": "#fbf6ea"
+    },
+    "ramp": [
+     "#141414",
+     "#d8281e",
+     "#4a4a4a",
+     "#ff5a40",
+     "#fbf6ea",
+     "#d8ccb4",
+     "#fff0dc"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/361704ec-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/361704ec.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-bloom-9087c743ac/361704ec.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "ink-bloom.webp": "55328 bytes"
+ }
+}

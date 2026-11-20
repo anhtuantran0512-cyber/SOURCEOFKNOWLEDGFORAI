@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:47:04Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "overgrown-stone-face",
+  "title": "Overgrown Stone Face",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/overgrown-stone-face-509de36f9d.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/overgrown-stone-face-509de36f9d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/overgrown-stone-face-509de36f9d-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "below",
+   "character",
+   "cloaked",
+   "face",
+   "figure",
+   "giant",
+   "hovering",
+   "huge",
+   "land",
+   "monumental",
+   "moss",
+   "mossy",
+   "night",
+   "overgrown",
+   "person",
+   "red",
+   "remembering",
+   "ring",
+   "sleeps",
+   "small",
+   "stone",
+   "stone-face",
+   "the",
+   "thin",
+   "valley",
+   "world"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "overgrown-stone-face.webp": "158282 bytes"
+ }
+}

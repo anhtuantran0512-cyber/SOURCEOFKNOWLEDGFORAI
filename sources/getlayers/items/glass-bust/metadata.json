@@ -1,0 +1,106 @@
+{
+ "fetchedAt": "2026-11-20T15:44:29Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "glass-bust",
+  "title": "Glass Bust",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A monkey bust cast in smoky glass, the studio floor bending and splitting into rainbow through every fold.",
+  "image": "https://storage.getlayers.ai/3d_scenes/glass-bust-caebbd87ce.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/glass-bust-caebbd87ce.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/glass-bust-caebbd87ce-preview.mp4",
+  "likes": 67,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "keywords": [
+   "bending",
+   "bust",
+   "cast",
+   "crystal",
+   "dark",
+   "dispersion",
+   "element",
+   "every",
+   "expensive",
+   "floor",
+   "fold",
+   "glass",
+   "head",
+   "light",
+   "monkey",
+   "museum",
+   "prism",
+   "product",
+   "rainbow",
+   "refraction",
+   "sculpture",
+   "set",
+   "slow",
+   "smoked",
+   "smoky",
+   "splitting",
+   "statue",
+   "studio",
+   "suzanne",
+   "through",
+   "transmission",
+   "vitrine"
+  ],
+  "variants": [
+   {
+    "id": "glass-bust",
+    "groupId": "glass-bust",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgInner": "#3a3c42",
+     "bgOuter": "#08080a",
+     "floorColor": "#181a20",
+     "floorLight": "#aebbd6",
+     "glassColor": "#ffffff",
+     "shadowColor": "#000000",
+     "attenuationColor": "#a9b1c2"
+    },
+    "ramp": [
+     "#a9b1c2",
+     "#ffffff",
+     "#181a20",
+     "#aebbd6",
+     "#000000",
+     "#3a3c42",
+     "#08080a"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glass-bust-caebbd87ce-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glass-bust-caebbd87ce.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glass-bust-caebbd87ce.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-bust.webp": "44224 bytes"
+ }
+}

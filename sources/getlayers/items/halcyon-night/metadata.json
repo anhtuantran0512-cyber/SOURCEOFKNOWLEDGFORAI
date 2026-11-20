@@ -1,0 +1,102 @@
+{
+ "fetchedAt": "2026-11-20T15:44:25Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "halcyon-night",
+  "title": "Halcyon Gate — Night",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A still midnight sea mirrors a glowing moon and a slender brass arch beneath a deep indigo sky dusted with drifting cloud and quiet stars.",
+  "image": "https://storage.getlayers.ai/3d_scenes/halcyon-night.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-night.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/halcyon-night-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/halcyon-night-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 109,
+  "createdAt": "2026-06-30",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "shader",
+   "seascape",
+   "water",
+   "night",
+   "stars",
+   "halcyon",
+   "gate",
+   "moonlit",
+   "gateway",
+   "standing",
+   "dark",
+   "rippling",
+   "sea",
+   "beneath",
+   "star",
+   "strewn",
+   "indigo",
+   "sky"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "halcyon-night",
+    "groupId": "halcyon-night",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colSun": "#ff8670",
+     "colSkyTop": "#000219",
+     "colCloudLit": "#5244bb",
+     "colGoldDark": "#140038",
+     "colCloudDark": "#060057",
+     "colGoldLight": "#080042",
+     "colWaterDeep": "#03000f",
+     "colSkyHorizon": "#2a175e"
+    },
+    "ramp": [
+     "#000219",
+     "#2a175e",
+     "#ff8670",
+     "#5244bb",
+     "#060057",
+     "#03000f",
+     "#080042",
+     "#140038"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-night-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halcyon-night.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halcyon-night.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "halcyon-night.webp": "74622 bytes"
+ }
+}

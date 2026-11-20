@@ -1,0 +1,50 @@
+{
+ "fetchedAt": "2026-11-20T15:45:24Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "magic",
+  "title": "Magic",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/magic-c1476eba14.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/magic-c1476eba14.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/magic-c1476eba14-preview.mp4",
+  "likes": 14,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "hand",
+   "heart",
+   "iridescent",
+   "pastel",
+   "dreamy",
+   "magic",
+   "open",
+   "cradling",
+   "glowing",
+   "glass",
+   "soft",
+   "light",
+   "character"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "magic.webp": "65206 bytes"
+ }
+}

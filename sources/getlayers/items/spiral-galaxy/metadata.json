@@ -1,0 +1,122 @@
+{
+ "fetchedAt": "2026-11-20T15:44:42Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "spiral-galaxy",
+  "title": "Spiral Galaxy",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Premium",
+  "description": "A two-arm spiral galaxy glowing gold at its core and fading to violet across a dark indigo void.",
+  "image": "https://storage.getlayers.ai/3d_scenes/spiral-galaxy.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/spiral-galaxy.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/spiral-galaxy-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/spiral-galaxy-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 14,
+  "createdAt": "2026-04-03",
+  "typeTags": [
+   "galaxy-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "galaxy",
+   "spiral",
+   "scroll",
+   "slowly",
+   "turning",
+   "arm",
+   "molten",
+   "gold",
+   "core",
+   "fading",
+   "deep",
+   "violet",
+   "dust",
+   "space"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "spiral-galaxy",
+    "groupId": "spiral-galaxy",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#0e0626",
+     "atmoColor": "#d9b0ff",
+     "colorCore": "#ffe7a8",
+     "colorEdge": "#6b2bff",
+     "flameColor": "#ffe7a8",
+     "flameColor2": "#6b2bff"
+    },
+    "ramp": [
+     "#0e0626",
+     "#ffe7a8",
+     "#6b2bff",
+     "#d9b0ff",
+     "#6b2bff",
+     "#ffe7a8"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/spiral-galaxy-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/spiral-galaxy.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/spiral-galaxy.webp"
+   },
+   {
+    "id": "spiral-galaxy-001",
+    "groupId": "spiral-galaxy",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#24230f",
+     "atmoColor": "#c79955",
+     "colorCore": "#ebd8cd",
+     "colorEdge": "#d7b393",
+     "flameColor": "#5e5422",
+     "flameColor2": "#9b7d33"
+    },
+    "ramp": [
+     "#24230f",
+     "#5e5422",
+     "#9b7d33",
+     "#c79955",
+     "#d7b393",
+     "#ebd8cd"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/spiral-galaxy/69a5ca7b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/spiral-galaxy/69a5ca7b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/spiral-galaxy/69a5ca7b.webp"
+   }
+  ],
+  "variantCount": 2
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "spiral-galaxy.webp": "72212 bytes"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:58Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "amber-prism-wall",
+  "title": "Amber Prism Wall",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/amber-prism-wall-be2abee27a.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/amber-prism-wall-be2abee27a.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/amber-prism-wall-be2abee27a-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "across",
+   "amber",
+   "bright",
+   "cut",
+   "dark",
+   "dispersion",
+   "edge",
+   "fluted",
+   "glass",
+   "hard",
+   "light",
+   "onto",
+   "prism",
+   "rakes",
+   "room",
+   "spectral",
+   "spill",
+   "stone",
+   "through",
+   "throwing",
+   "wall",
+   "warm",
+   "wet"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "amber-prism-wall.webp": "107150 bytes"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:45:34Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "silver-ember-waves",
+  "title": "Silver Ember Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/silver-ember-waves-c2be21d9c7.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/silver-ember-waves-c2be21d9c7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/silver-ember-waves-c2be21d9c7-preview.mp4",
+  "likes": 3,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "dark",
+   "ember",
+   "fire",
+   "flow",
+   "folds",
+   "glass",
+   "glow",
+   "glowing",
+   "graphite",
+   "heat",
+   "layered",
+   "molten",
+   "orange",
+   "ribbons",
+   "silver",
+   "smooth",
+   "steel",
+   "warm",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "silver-ember-waves.webp": "76854 bytes"
+ }
+}

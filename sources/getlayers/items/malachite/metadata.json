@@ -1,0 +1,76 @@
+{
+ "fetchedAt": "2026-11-20T15:45:05Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "malachite",
+  "title": "Malachite",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A dark sign-up card beside a living emerald panel of flowing, marbled green silk. Legal for purchase only on getlayers.ai — getlayers.ai/layer/malachite",
+  "image": "https://storage.getlayers.ai/sections/malachite-4a4591bc9f.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/malachite-4a4591bc9f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/malachite-4a4591bc9f-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/malachite-4a4591bc9f-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/malachite-4a4591bc9f-mobile.mp4",
+  "likes": 24,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "auth"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "auth",
+   "beside",
+   "card",
+   "create account",
+   "dark",
+   "dark form",
+   "dashboard auth",
+   "emerald",
+   "flowing",
+   "form",
+   "google sign in",
+   "green",
+   "green gradient",
+   "living",
+   "login",
+   "malachite",
+   "marbled",
+   "oauth",
+   "onboarding",
+   "panel",
+   "registration",
+   "shader",
+   "sign",
+   "sign up",
+   "signup",
+   "signup form",
+   "silk",
+   "split",
+   "steps",
+   "webgl"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "malachite.webp": "48988 bytes"
+ }
+}

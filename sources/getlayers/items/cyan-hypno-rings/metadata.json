@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:47Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "cyan-hypno-rings",
+  "title": "Cyan Hypno Rings",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/cyan-hypno-rings-cb79011f36.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/cyan-hypno-rings-cb79011f36.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/cyan-hypno-rings-cb79011f36-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "centre",
+   "chromatic",
+   "concentric",
+   "crt",
+   "cyan",
+   "eye",
+   "fringed",
+   "glass",
+   "hypno",
+   "hypnotic",
+   "inward",
+   "like",
+   "monitor",
+   "pixel",
+   "pixelated",
+   "pull",
+   "pulling",
+   "pulse",
+   "red",
+   "rings",
+   "screen",
+   "staring",
+   "trance"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cyan-hypno-rings.webp": "598072 bytes"
+ }
+}

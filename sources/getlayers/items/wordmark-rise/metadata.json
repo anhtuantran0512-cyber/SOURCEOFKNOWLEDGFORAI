@@ -1,0 +1,73 @@
+{
+ "fetchedAt": "2026-11-20T15:45:04Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "wordmark-rise",
+  "title": "Wordmark Rise",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A cobalt-and-ink studio footer whose giant sliced wordmark springs up letter by letter and hops under your cursor. Legal for purchase only on getlayers.ai — getlayers.ai/layer/wordmark-rise",
+  "image": "https://storage.getlayers.ai/sections/wordmark-rise-ec0d40de40.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/wordmark-rise-ec0d40de40.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/wordmark-rise-ec0d40de40-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/wordmark-rise-ec0d40de40-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/wordmark-rise-ec0d40de40-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/wordmark-rise-ec0d40de40-figma.webp",
+  "hasFigma": true,
+  "likes": 29,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "footer"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "keywords": [
+   "agency footer",
+   "availability status",
+   "big logo footer",
+   "big-type",
+   "clocks",
+   "cobalt",
+   "contact cta",
+   "cursor",
+   "dark footer",
+   "footer",
+   "giant",
+   "giant wordmark",
+   "hops",
+   "ink",
+   "letter",
+   "letter animation",
+   "office locations",
+   "rise",
+   "site footer",
+   "sliced",
+   "spring",
+   "springs",
+   "studio",
+   "studio footer",
+   "wordmark",
+   "world clocks"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "wordmark-rise.webp": "40954 bytes",
+  "wordmark-rise-figma.webp": "101508 bytes"
+ }
+}

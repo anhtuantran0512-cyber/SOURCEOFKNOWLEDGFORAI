@@ -1,0 +1,226 @@
+{
+ "fetchedAt": "2026-11-20T15:44:53Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "puffy-inflate",
+  "title": "Puffy Inflate",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A glossy red vinyl inflatable letterform swells in springy steps until it presses flat against a glass pane, then sighs out into soft wrinkles and fills again. Legal for purchase only on getlayers.ai — getlayers.ai/layer/puffy-inflate",
+  "image": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "keywords": [
+   "3d text",
+   "against",
+   "balloon",
+   "brand",
+   "bubbly",
+   "case",
+   "clear-coat",
+   "click",
+   "click-step",
+   "cursor",
+   "denting",
+   "depth-of-field",
+   "element",
+   "filling",
+   "foil",
+   "fun",
+   "glass",
+   "glossy",
+   "gltf-model",
+   "glyph",
+   "hero",
+   "inflatable",
+   "inflate",
+   "interactive",
+   "latex",
+   "letters",
+   "membrane",
+   "morph-blend",
+   "physical-material",
+   "playful",
+   "pointer-dent",
+   "pressing",
+   "pressure",
+   "product",
+   "puffy",
+   "red",
+   "refilling",
+   "shiny",
+   "sighing",
+   "skin",
+   "soft shadow",
+   "springy",
+   "squishy",
+   "studio",
+   "threejs",
+   "toy",
+   "typography",
+   "vinyl",
+   "wall",
+   "warm"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "puffy-inflate",
+    "groupId": "puffy-inflate",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#d7cfc4",
+     "keyColor": "#fff6ec",
+     "deepColor": "#6a0e0a",
+     "puffColor": "#d8261c",
+     "shadowColor": "#5b4c40"
+    },
+    "ramp": [
+     "#d8261c",
+     "#6a0e0a",
+     "#fff6ec",
+     "#5b4c40",
+     "#d7cfc4"
+    ],
+    "createdAt": "2026-11-03",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594.webp"
+   },
+   {
+    "id": "puffy-inflate-001",
+    "groupId": "puffy-inflate",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#6c6a6e",
+     "keyColor": "#fff6ec",
+     "deepColor": "#5d6472",
+     "puffColor": "#d3d7de",
+     "shadowColor": "#141216"
+    },
+    "ramp": [
+     "#d3d7de",
+     "#5d6472",
+     "#fff6ec",
+     "#141216",
+     "#6c6a6e"
+    ],
+    "createdAt": "2026-11-03",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594/a782c4f8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594/a782c4f8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594/a782c4f8.webp"
+   },
+   {
+    "id": "puffy-inflate-002",
+    "groupId": "puffy-inflate",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#e4dcf2",
+     "keyColor": "#fff6ec",
+     "deepColor": "#4d2f96",
+     "puffColor": "#b49cf0",
+     "shadowColor": "#4a3a72"
+    },
+    "ramp": [
+     "#b49cf0",
+     "#4d2f96",
+     "#fff6ec",
+     "#4a3a72",
+     "#e4dcf2"
+    ],
+    "createdAt": "2026-11-03",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594/e38f62ca-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594/e38f62ca.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594/e38f62ca.webp"
+   },
+   {
+    "id": "puffy-inflate-003",
+    "groupId": "puffy-inflate",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#eee8df",
+     "keyColor": "#fff6ec",
+     "deepColor": "#000000",
+     "puffColor": "#16161a",
+     "shadowColor": "#3a3028"
+    },
+    "ramp": [
+     "#16161a",
+     "#000000",
+     "#fff6ec",
+     "#3a3028",
+     "#eee8df"
+    ],
+    "createdAt": "2026-11-03",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594/d91e85cb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594/d91e85cb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594/d91e85cb.webp"
+   },
+   {
+    "id": "puffy-inflate-004",
+    "groupId": "puffy-inflate",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#1c2a22",
+     "keyColor": "#f3fff0",
+     "deepColor": "#3c6a08",
+     "puffColor": "#c6ef1e",
+     "shadowColor": "#050806"
+    },
+    "ramp": [
+     "#c6ef1e",
+     "#3c6a08",
+     "#f3fff0",
+     "#050806",
+     "#1c2a22"
+    ],
+    "createdAt": "2026-11-03",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594/81850bd4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594/81850bd4.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/puffy-inflate-90bff58594/81850bd4.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "puffy-inflate.webp": "36794 bytes"
+ }
+}

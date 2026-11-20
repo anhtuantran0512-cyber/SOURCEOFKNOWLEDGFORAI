@@ -1,0 +1,48 @@
+{
+ "fetchedAt": "2026-11-20T15:45:43Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "olive-liquid-waves",
+  "title": "Olive Liquid Waves",
+  "category": "background",
+  "tags": [
+   "background",
+   "static"
+  ],
+  "stack": [
+   "background",
+   "static"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/olive-liquid-waves-2290ce6965.webp",
+  "likes": 2,
+  "createdAt": "2026-07-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "abstract",
+   "background",
+   "blobs",
+   "glass",
+   "glossy",
+   "green",
+   "liquid",
+   "olive",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "olive-liquid-waves.webp": "78468 bytes"
+ }
+}

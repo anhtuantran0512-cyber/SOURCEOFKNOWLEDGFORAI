@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:25:01Z",
+ "fetchedAt": "2026-11-20T15:42:56Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "dantora",
@@ -564,7 +564,7 @@
   "status": "premium"
  },
  "files": {
-  "dantora.webp": "132122 bytes",
-  "dantora-figma.webp": "85262 bytes"
+  "dantora.webp": "cached",
+  "dantora-figma.webp": "cached"
  }
 }

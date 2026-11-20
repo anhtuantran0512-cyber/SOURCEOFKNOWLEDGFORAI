@@ -1,0 +1,412 @@
+{
+ "fetchedAt": "2026-11-20T15:47:15Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "kindle",
+  "title": "Kindle",
+  "description": "A fire front creeping across a field — char behind it, an ember line, licks above.",
+  "nature": "fire",
+  "family": "light",
+  "tier": "Premium",
+  "likes": 21,
+  "createdAt": "2026-08-24",
+  "shaderHash": "e079f1d2d3689341f23f89ac5256035a",
+  "hues": [
+   "magenta",
+   "green",
+   "violet",
+   "teal",
+   "blue",
+   "red",
+   "indigo",
+   "orange",
+   "pink"
+  ],
+  "variantCount": 13,
+  "variants": [
+   {
+    "id": "kindle",
+    "groupId": "kindle",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#ffd0e8",
+     "colorB": "#ff7bc8",
+     "colorC": "#ff2d9b",
+     "colorD": "#fffdff",
+     "bgColor": "#f0e8f5"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "magenta",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 21,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd.webp"
+   },
+   {
+    "id": "kindle-001",
+    "groupId": "kindle",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0f3d35",
+     "colorB": "#c8e85c",
+     "colorC": "#3fbfa0",
+     "colorD": "#eef7c8",
+     "bgColor": "#041412"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/9a608d2c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/9a608d2c.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/9a608d2c.webp"
+   },
+   {
+    "id": "kindle-002",
+    "groupId": "kindle",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#1f6b52",
+     "colorB": "#2b6eff",
+     "colorC": "#e0399a",
+     "colorD": "#ffd93f",
+     "bgColor": "#000000"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/2b47d79a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/2b47d79a.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/2b47d79a.webp"
+   },
+   {
+    "id": "kindle-003",
+    "groupId": "kindle",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#ff9bc8",
+     "colorB": "#7fe8d8",
+     "colorC": "#2fd5c0",
+     "colorD": "#fff6fa",
+     "bgColor": "#ffd0e0"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/c7e392f0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/c7e392f0.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/c7e392f0.webp"
+   },
+   {
+    "id": "kindle-004",
+    "groupId": "kindle",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#061a4d",
+     "colorB": "#0a2a7a",
+     "colorC": "#2e6bff",
+     "colorD": "#9fc2ff",
+     "bgColor": "#010b24"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/469dfef9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/469dfef9.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/469dfef9.webp"
+   },
+   {
+    "id": "kindle-005",
+    "groupId": "kindle",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#16173f",
+     "colorB": "#3a3fa8",
+     "colorC": "#8b3fd9",
+     "colorD": "#e0409a",
+     "bgColor": "#0a0a0c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/53297955-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/53297955.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/53297955.webp"
+   },
+   {
+    "id": "kindle-006",
+    "groupId": "kindle",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2a0700",
+     "colorB": "#5c0f00",
+     "colorC": "#ff4d2e",
+     "colorD": "#ffd0c0",
+     "bgColor": "#000000"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/124cede7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/124cede7.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/124cede7.webp"
+   },
+   {
+    "id": "kindle-007",
+    "groupId": "kindle",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#1a1030",
+     "colorB": "#7b4bd9",
+     "colorC": "#b79bff",
+     "colorD": "#e9e0ff",
+     "bgColor": "#05040d"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/f3814b9b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/f3814b9b.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/f3814b9b.webp"
+   },
+   {
+    "id": "kindle-008",
+    "groupId": "kindle",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2a1f5c",
+     "colorB": "#7b3fd9",
+     "colorC": "#4b6bff",
+     "colorD": "#ded0ff",
+     "bgColor": "#140f2e"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/edb2532b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/edb2532b.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/edb2532b.webp"
+   },
+   {
+    "id": "kindle-009",
+    "groupId": "kindle",
+    "name": "009",
+    "sortOrder": 9,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0b2e7a",
+     "colorB": "#1e7fe0",
+     "colorC": "#6ec8ff",
+     "colorD": "#eaf6ff",
+     "bgColor": "#04143c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/49177376-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/49177376.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/49177376.webp"
+   },
+   {
+    "id": "kindle-010",
+    "groupId": "kindle",
+    "name": "010",
+    "sortOrder": 10,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#f5c9a0",
+     "colorB": "#c8d8f5",
+     "colorC": "#a8c8f0",
+     "colorD": "#fdf3e6",
+     "bgColor": "#f0d8c0"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/0f35b0c3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/0f35b0c3.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/0f35b0c3.webp"
+   },
+   {
+    "id": "kindle-011",
+    "groupId": "kindle",
+    "name": "011",
+    "sortOrder": 11,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#1b0a24",
+     "colorB": "#c46bff",
+     "colorC": "#ff6bd6",
+     "colorD": "#ffe0f4",
+     "bgColor": "#000000"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/c0e21cf3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/c0e21cf3.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/c0e21cf3.webp"
+   },
+   {
+    "id": "kindle-012",
+    "groupId": "kindle",
+    "name": "012",
+    "sortOrder": 12,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#1e3a8a",
+     "colorB": "#c2410c",
+     "colorC": "#f97316",
+     "colorD": "#fdba74",
+     "bgColor": "#050a1e"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/a7c08e3f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/a7c08e3f.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/kindle-3c6e7dd5cd/a7c08e3f.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "kindle.webp": "84792 bytes"
+ }
+}

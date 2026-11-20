@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:38Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-bloom-turntable",
+  "title": "Glass Bloom Turntable",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-bloom-turntable-975cbc4f35.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-bloom-turntable-975cbc4f35.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-bloom-turntable-975cbc4f35-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "arches",
+   "bellflower",
+   "bloom",
+   "blossoms",
+   "flowers",
+   "full",
+   "giant",
+   "glass",
+   "green",
+   "grown",
+   "meadow",
+   "music",
+   "object",
+   "product",
+   "repeat",
+   "sky",
+   "spring",
+   "sunny",
+   "tiny",
+   "turntable",
+   "vinyl",
+   "wildflower"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-bloom-turntable.webp": "246864 bytes"
+ }
+}

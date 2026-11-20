@@ -1,0 +1,281 @@
+{
+ "fetchedAt": "2026-11-20T15:44:24Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "fluted-keystone",
+  "title": "Fluted Keystone",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A fluted crystal vase turns in a twilight studio, bending the light into prismatic streaks and a glowing shadow while its shape keeps melting into new forms. Legal for purchase only on getlayers.ai — getlayers.ai/layer/fluted-keystone",
+  "image": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6-preview.mp4",
+  "likes": 113,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "fluid-iridescent"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm",
+   "technical"
+  ],
+  "keywords": [
+   "bend",
+   "caustic",
+   "caustics",
+   "click-throw",
+   "crystal",
+   "custom-glass-shader",
+   "depth-of-field",
+   "dispersion",
+   "elegant",
+   "endlessly",
+   "fluid",
+   "fluted",
+   "flutes",
+   "footed",
+   "forms",
+   "fxaa",
+   "generative",
+   "glass",
+   "heavy",
+   "hero",
+   "indigo",
+   "iridescent",
+   "keystone",
+   "light",
+   "luxury",
+   "minimal",
+   "morphing",
+   "new",
+   "pointer-morph",
+   "pottery",
+   "prism",
+   "prismatic",
+   "product shot",
+   "purple",
+   "rainbow",
+   "reflection",
+   "refraction",
+   "sculpture",
+   "shape",
+   "shape shifting",
+   "softbox",
+   "streaks",
+   "studio",
+   "superformula",
+   "sweep",
+   "thin-film",
+   "threejs",
+   "thrown",
+   "transparent",
+   "turning",
+   "turntable",
+   "twilight",
+   "vase",
+   "vessel"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "fluted-keystone",
+    "groupId": "fluted-keystone",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "keyColor": "#ffe8cf",
+     "rimColor": "#ffa860",
+     "edgeColor": "#04050b",
+     "glassTint": "#dff0ec",
+     "poolColor": "#f4b8a6",
+     "stripColor": "#e6efff",
+     "sweepColor": "#33395c"
+    },
+    "ramp": [
+     "#33395c",
+     "#f4b8a6",
+     "#04050b",
+     "#ffe8cf",
+     "#e6efff",
+     "#ffa860",
+     "#dff0ec"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6.webp"
+   },
+   {
+    "id": "fluted-keystone-001",
+    "groupId": "fluted-keystone",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "keyColor": "#ffe8cf",
+     "rimColor": "#ffd27a",
+     "edgeColor": "#04050b",
+     "glassTint": "#b8e8c8",
+     "poolColor": "#c8e8b0",
+     "stripColor": "#e6efff",
+     "sweepColor": "#1f3a2c"
+    },
+    "ramp": [
+     "#1f3a2c",
+     "#c8e8b0",
+     "#04050b",
+     "#ffe8cf",
+     "#e6efff",
+     "#ffd27a",
+     "#b8e8c8"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/fb9b4005-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/fb9b4005.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/fb9b4005.webp"
+   },
+   {
+    "id": "fluted-keystone-002",
+    "groupId": "fluted-keystone",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "keyColor": "#ffe2c0",
+     "rimColor": "#ffa860",
+     "edgeColor": "#04050b",
+     "glassTint": "#f0d8c0",
+     "poolColor": "#ffd2a0",
+     "stripColor": "#e6efff",
+     "sweepColor": "#8a4a32"
+    },
+    "ramp": [
+     "#8a4a32",
+     "#ffd2a0",
+     "#04050b",
+     "#ffe2c0",
+     "#e6efff",
+     "#ffa860",
+     "#f0d8c0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/b112da3c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/b112da3c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/b112da3c.webp"
+   },
+   {
+    "id": "fluted-keystone-003",
+    "groupId": "fluted-keystone",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "keyColor": "#ffe8cf",
+     "rimColor": "#ff8a3a",
+     "edgeColor": "#02030a",
+     "glassTint": "#a8c0ff",
+     "poolColor": "#4a7aff",
+     "stripColor": "#e6efff",
+     "sweepColor": "#0b1430"
+    },
+    "ramp": [
+     "#0b1430",
+     "#4a7aff",
+     "#02030a",
+     "#ffe8cf",
+     "#e6efff",
+     "#ff8a3a",
+     "#a8c0ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/410e7180-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/410e7180.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/410e7180.webp"
+   },
+   {
+    "id": "fluted-keystone-004",
+    "groupId": "fluted-keystone",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "keyColor": "#ffe8cf",
+     "rimColor": "#ffa860",
+     "edgeColor": "#04050b",
+     "glassTint": "#ffcf7a",
+     "poolColor": "#f0d8a8",
+     "stripColor": "#e6efff",
+     "sweepColor": "#9a8462"
+    },
+    "ramp": [
+     "#9a8462",
+     "#f0d8a8",
+     "#04050b",
+     "#ffe8cf",
+     "#e6efff",
+     "#ffa860",
+     "#ffcf7a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/7fbcfa09-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/7fbcfa09.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/7fbcfa09.webp"
+   },
+   {
+    "id": "fluted-keystone-005",
+    "groupId": "fluted-keystone",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "keyColor": "#fff2f0",
+     "rimColor": "#ffa860",
+     "edgeColor": "#04050b",
+     "glassTint": "#ffd0dc",
+     "poolColor": "#ffe0e4",
+     "stripColor": "#e6efff",
+     "sweepColor": "#b07a86"
+    },
+    "ramp": [
+     "#b07a86",
+     "#ffe0e4",
+     "#04050b",
+     "#fff2f0",
+     "#e6efff",
+     "#ffa860",
+     "#ffd0dc"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/444cdfd6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/444cdfd6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/fluted-keystone-8817d5fad6/444cdfd6.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "fluted-keystone.webp": "35668 bytes"
+ }
+}

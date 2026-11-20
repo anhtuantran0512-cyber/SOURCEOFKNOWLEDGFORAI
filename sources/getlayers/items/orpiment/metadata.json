@@ -1,0 +1,470 @@
+{
+ "fetchedAt": "2026-11-20T15:47:17Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "orpiment",
+  "title": "Orpiment",
+  "description": "Marbled pigment with the warp fed back into itself, veins at one level set and dust drifting along the filaments.",
+  "nature": "ink",
+  "family": "liquid",
+  "tier": "Premium",
+  "likes": 19,
+  "createdAt": "2026-08-24",
+  "shaderHash": "097a8392545a2d54bba37e6e75292b2d",
+  "hues": [
+   "indigo",
+   "green",
+   "pink",
+   "orange",
+   "blue",
+   "teal",
+   "violet",
+   "amber",
+   "red"
+  ],
+  "variantCount": 15,
+  "variants": [
+   {
+    "id": "orpiment",
+    "groupId": "orpiment",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#342169",
+     "colorB": "#4e33c6",
+     "colorC": "#958ddb",
+     "colorD": "#e3e2f4",
+     "bgColor": "#0c0814"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 19,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442.webp"
+   },
+   {
+    "id": "orpiment-001",
+    "groupId": "orpiment",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2f6335",
+     "colorB": "#4caf4a",
+     "colorC": "#9ccc94",
+     "colorD": "#e0ecdb",
+     "bgColor": "#0f1c12"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/89a2785c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/89a2785c.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/89a2785c.webp"
+   },
+   {
+    "id": "orpiment-002",
+    "groupId": "orpiment",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#08111f",
+     "colorB": "#f36414",
+     "colorC": "#1762c8",
+     "colorD": "#fbf8ed",
+     "bgColor": "#06080c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "pink",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/9c946fd7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/9c946fd7.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/9c946fd7.webp"
+   },
+   {
+    "id": "orpiment-003",
+    "groupId": "orpiment",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0a1a20",
+     "colorB": "#a222ee",
+     "colorC": "#2993b8",
+     "colorD": "#ebe6f7",
+     "bgColor": "#040b0e"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/226d8adb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/226d8adb.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/226d8adb.webp"
+   },
+   {
+    "id": "orpiment-004",
+    "groupId": "orpiment",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c1dbc8",
+     "colorB": "#9fcba3",
+     "colorC": "#82b581",
+     "colorD": "#6e9d66",
+     "bgColor": "#e2ede6"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/3d4cd026-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/3d4cd026.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/3d4cd026.webp"
+   },
+   {
+    "id": "orpiment-005",
+    "groupId": "orpiment",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#150c07",
+     "colorB": "#6a3d12",
+     "colorC": "#c9903a",
+     "colorD": "#f7e6c4",
+     "bgColor": "#07050a"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-22",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/61c58110-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/61c58110.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/61c58110.webp"
+   },
+   {
+    "id": "orpiment-006",
+    "groupId": "orpiment",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#442765",
+     "colorB": "#763fc0",
+     "colorC": "#b39ad8",
+     "colorD": "#f1eef7",
+     "bgColor": "#0d0811"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/6b9b8ee3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/6b9b8ee3.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/6b9b8ee3.webp"
+   },
+   {
+    "id": "orpiment-007",
+    "groupId": "orpiment",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b325e",
+     "colorB": "#4960b2",
+     "colorC": "#9cacd1",
+     "colorD": "#ebeff5",
+     "bgColor": "#08080f"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/6403b9e3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/6403b9e3.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/6403b9e3.webp"
+   },
+   {
+    "id": "orpiment-008",
+    "groupId": "orpiment",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#30533b",
+     "colorB": "#539b74",
+     "colorC": "#97c2b1",
+     "colorD": "#dbe9e5",
+     "bgColor": "#090f0a"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "dark",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/6e0a4f5b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/6e0a4f5b.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/6e0a4f5b.webp"
+   },
+   {
+    "id": "orpiment-009",
+    "groupId": "orpiment",
+    "name": "009",
+    "sortOrder": 9,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#daa6b2",
+     "colorB": "#c86881",
+     "colorC": "#9e425f",
+     "colorD": "#612f41",
+     "bgColor": "#f0e0e3"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "pink",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/21f5366a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/21f5366a.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/21f5366a.webp"
+   },
+   {
+    "id": "orpiment-010",
+    "groupId": "orpiment",
+    "name": "010",
+    "sortOrder": 10,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c6dadc",
+     "colorB": "#a3c9cb",
+     "colorC": "#85b4b4",
+     "colorD": "#699c9a",
+     "bgColor": "#e7eeef"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/d24acbf1-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/d24acbf1.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/d24acbf1.webp"
+   },
+   {
+    "id": "orpiment-011",
+    "groupId": "orpiment",
+    "name": "011",
+    "sortOrder": 11,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#0c122b",
+     "colorB": "#ef328a",
+     "colorC": "#1338df",
+     "colorD": "#fce7ef",
+     "bgColor": "#070910"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/92d626d1-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/92d626d1.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/92d626d1.webp"
+   },
+   {
+    "id": "orpiment-012",
+    "groupId": "orpiment",
+    "name": "012",
+    "sortOrder": 12,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#39495d",
+     "colorB": "#5f89a5",
+     "colorC": "#a7c1ca",
+     "colorD": "#ecf2f3",
+     "bgColor": "#101218"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "dark",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/2f260274-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/2f260274.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/2f260274.webp"
+   },
+   {
+    "id": "orpiment-013",
+    "groupId": "orpiment",
+    "name": "013",
+    "sortOrder": 13,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e4bfa5",
+     "colorB": "#da8d66",
+     "colorC": "#bd5c3a",
+     "colorD": "#7f3e2f",
+     "bgColor": "#f3e8df"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/761eb822-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/761eb822.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/761eb822.webp"
+   },
+   {
+    "id": "orpiment-014",
+    "groupId": "orpiment",
+    "name": "014",
+    "sortOrder": 14,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#54316f",
+     "colorB": "#954eba",
+     "colorC": "#c69dd4",
+     "colorD": "#f1e6f3",
+     "bgColor": "#1b1225"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/20f7dded-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/20f7dded.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/orpiment-8b902e1442/20f7dded.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "orpiment.webp": "274156 bytes"
+ }
+}

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:36Z",
+ "fetchedAt": "2026-11-20T15:42:41Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "prisma",
@@ -460,7 +460,7 @@
   "status": "premium"
  },
  "files": {
-  "prisma.webp": "106534 bytes",
-  "prisma-figma.webp": "152750 bytes"
+  "prisma.webp": "cached",
+  "prisma-figma.webp": "cached"
  }
 }

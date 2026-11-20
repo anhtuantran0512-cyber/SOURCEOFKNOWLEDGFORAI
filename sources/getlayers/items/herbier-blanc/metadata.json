@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:32Z",
+ "fetchedAt": "2026-11-20T15:42:38Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "herbier-blanc",
@@ -448,7 +448,7 @@
   "status": "premium"
  },
  "files": {
-  "herbier-blanc.webp": "122416 bytes",
-  "herbier-blanc-figma.webp": "218046 bytes"
+  "herbier-blanc.webp": "cached",
+  "herbier-blanc-figma.webp": "cached"
  }
 }

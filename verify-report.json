@@ -30,12 +30,18 @@
     "empty": 0
   },
   "getlayers": {
-    "rows": 62,
+    "rows": 892,
     "missing": 0,
     "empty": 0,
+    "template_rows": 62,
+    "3d_scene_rows": 222,
+    "section_rows": 54,
+    "background_rows": 530,
+    "gradient_rows": 24,
     "stills_missing": 0,
     "free_prompts": 1,
-    "premium_leaks": 0
+    "premium_leaks": 0,
+    "media_files": 5854
   },
   "errors": []
 }

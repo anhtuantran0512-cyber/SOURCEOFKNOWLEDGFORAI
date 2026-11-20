@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:48Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "floating-mirror-sphere",
+  "title": "Floating Mirror Sphere",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/floating-mirror-sphere-9dd4541452.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/floating-mirror-sphere-9dd4541452.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/floating-mirror-sphere-9dd4541452-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "ball",
+   "carpeted",
+   "cloud",
+   "countryside",
+   "daisies",
+   "disco",
+   "disco-ball",
+   "floating",
+   "green",
+   "hills",
+   "hovers",
+   "lavender",
+   "meadow",
+   "mirror",
+   "mirrored",
+   "object",
+   "party",
+   "product",
+   "reflected",
+   "sky",
+   "sphere",
+   "summer"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "floating-mirror-sphere.webp": "149550 bytes"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "fetchedAt": "2026-11-20T15:45:43Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "rainbow-light-waves",
+  "title": "Rainbow Light Waves",
+  "category": "background",
+  "tags": [
+   "background",
+   "static"
+  ],
+  "stack": [
+   "background",
+   "static"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/rainbow-light-waves-2e9c36f7c2.webp",
+  "likes": 2,
+  "createdAt": "2026-07-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "abstract",
+   "background",
+   "colorful",
+   "glass",
+   "holographic",
+   "light",
+   "rainbow",
+   "spectrum",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "rainbow-light-waves.webp": "94308 bytes"
+ }
+}

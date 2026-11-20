@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:21Z",
+ "fetchedAt": "2026-11-20T15:42:31Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "held-mint",
@@ -424,7 +424,7 @@
   "status": "premium"
  },
  "files": {
-  "held-mint.webp": "114934 bytes",
-  "held-mint-figma.webp": "298496 bytes"
+  "held-mint.webp": "cached",
+  "held-mint-figma.webp": "cached"
  }
 }

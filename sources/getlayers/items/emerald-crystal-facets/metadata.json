@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:41Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "emerald-crystal-facets",
+  "title": "Emerald Crystal Facets",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/emerald-crystal-facets-512d845d65.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/emerald-crystal-facets-512d845d65.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/emerald-crystal-facets-512d845d65-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "and",
+   "around",
+   "blown",
+   "cold",
+   "crowd",
+   "crystal",
+   "cut",
+   "emerald",
+   "facets",
+   "frame",
+   "gem",
+   "gemstone",
+   "glass",
+   "green",
+   "highlight",
+   "inside",
+   "macro",
+   "one",
+   "out",
+   "rainbows",
+   "refraction",
+   "small",
+   "throwing"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "emerald-crystal-facets.webp": "144810 bytes"
+ }
+}

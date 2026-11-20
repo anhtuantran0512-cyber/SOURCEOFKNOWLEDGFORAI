@@ -1,0 +1,100 @@
+{
+ "fetchedAt": "2026-11-20T15:44:27Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "twisted-glass-ribbon",
+  "title": "Twisted Glass Ribbon",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A wide band of glass twisted into a loop, dispersion running its full length as it turns.",
+  "image": "https://storage.getlayers.ai/3d_scenes/twisted-glass-ribbon-65eed01ac7.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/twisted-glass-ribbon-65eed01ac7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/twisted-glass-ribbon-65eed01ac7-preview.mp4",
+  "likes": 102,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "fluid-iridescent"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "abstract",
+   "band",
+   "blue",
+   "calm",
+   "dispersed",
+   "dispersion",
+   "fluid",
+   "full",
+   "glass",
+   "hypnotic",
+   "iridescent",
+   "length",
+   "light",
+   "loop",
+   "mobius",
+   "poster",
+   "prism",
+   "rainbow",
+   "ribbon",
+   "running",
+   "torus",
+   "turns",
+   "twist",
+   "twisted",
+   "wide"
+  ],
+  "variants": [
+   {
+    "id": "twisted-glass-ribbon",
+    "groupId": "twisted-glass-ribbon",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#f0f8ff",
+     "pool1": "#2b00ff",
+     "pool2": "#0032fa",
+     "pool3": "#414dfb",
+     "bgBottom": "#4778ff",
+     "ribbonColor": "#ffffff",
+     "attenuationColor": "#ffffff"
+    },
+    "ramp": [
+     "#ffffff",
+     "#ffffff",
+     "#f0f8ff",
+     "#4778ff",
+     "#2b00ff",
+     "#0032fa",
+     "#414dfb"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/twisted-glass-ribbon-65eed01ac7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/twisted-glass-ribbon-65eed01ac7.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/twisted-glass-ribbon-65eed01ac7.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "twisted-glass-ribbon.webp": "59610 bytes"
+ }
+}

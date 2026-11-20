@@ -1,0 +1,46 @@
+{
+ "fetchedAt": "2026-11-20T15:45:10Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "particle-ocean",
+  "title": "Particle Ocean",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/particle-ocean-ff19d3b598.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/particle-ocean-ff19d3b598.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/particle-ocean-ff19d3b598-preview.mp4",
+  "likes": 52,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "particles",
+   "waves",
+   "blue",
+   "abstract",
+   "particle",
+   "ocean",
+   "shimmering",
+   "rolls",
+   "luminous"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "particle-ocean.webp": "160708 bytes"
+ }
+}

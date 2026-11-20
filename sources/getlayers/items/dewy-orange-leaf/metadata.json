@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:46:48Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "dewy-orange-leaf",
+  "title": "Dewy Orange Leaf",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/dewy-orange-leaf-5a27b4c1bf.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/dewy-orange-leaf-5a27b4c1bf.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/dewy-orange-leaf-5a27b4c1bf-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "along",
+   "bead",
+   "blur",
+   "close",
+   "dew",
+   "dewy",
+   "droplets",
+   "drops",
+   "enough",
+   "green",
+   "hang",
+   "holding",
+   "landscape",
+   "leaf",
+   "macro",
+   "morning",
+   "nature",
+   "orange",
+   "pink",
+   "rain",
+   "soft",
+   "tiny",
+   "touch",
+   "world"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "dewy-orange-leaf.webp": "239964 bytes"
+ }
+}

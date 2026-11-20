@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:22:36Z",
+ "fetchedAt": "2026-11-20T15:43:44Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "laocoon",
@@ -373,6 +373,6 @@
   "status": "rate_limited"
  },
  "files": {
-  "laocoon.webp": "123736 bytes"
+  "laocoon.webp": "cached"
  }
 }

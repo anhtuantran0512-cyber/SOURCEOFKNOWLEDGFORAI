@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:47:00Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "melting-candy-clocks",
+  "title": "Melting Candy Clocks",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Free",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/melting-candy-clocks-38c8ea0103.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/melting-candy-clocks-38c8ea0103.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/melting-candy-clocks-38c8ea0103-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "bears",
+   "branch",
+   "candy",
+   "clocks",
+   "dal",
+   "dali",
+   "desert",
+   "drip",
+   "floor",
+   "going",
+   "gummy",
+   "habit",
+   "landscape",
+   "melting",
+   "nature",
+   "soft",
+   "sprinkles",
+   "stump",
+   "sugar",
+   "surreal",
+   "time",
+   "with"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "melting-candy-clocks.webp": "249000 bytes"
+ }
+}

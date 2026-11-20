@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:34Z",
+ "fetchedAt": "2026-11-20T15:42:39Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "stride",
@@ -375,7 +375,7 @@
   "status": "premium"
  },
  "files": {
-  "stride.webp": "101824 bytes",
-  "stride-figma.webp": "66826 bytes"
+  "stride.webp": "cached",
+  "stride-figma.webp": "cached"
  }
 }

@@ -1,0 +1,290 @@
+{
+ "fetchedAt": "2026-11-20T15:44:23Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "petal-tunnel",
+  "title": "Petal Tunnel",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A drifting flight down a winding tunnel of cherry-blossom petals at dusk toward a calm golden glow, the petals catching light through their thin edges. Legal for purchase only on getlayers.ai — getlayers.ai/layer/petal-tunnel",
+  "image": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593-preview.mp4",
+  "likes": 125,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "vortex-tunnel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "organic",
+   "luxe"
+  ],
+  "keywords": [
+   "acting",
+   "back-lit-translucency",
+   "beauty",
+   "blossom",
+   "breath",
+   "calm",
+   "camera-bank",
+   "cherry blossom",
+   "cursor",
+   "dreamy",
+   "dusk",
+   "ending",
+   "falling petals",
+   "flight",
+   "floating",
+   "flower",
+   "fly-through",
+   "glow",
+   "golden light",
+   "hero background",
+   "indigo",
+   "instanced-geometry",
+   "interactive",
+   "japan",
+   "japanese",
+   "light",
+   "petal",
+   "petals",
+   "pink",
+   "pointer-wind",
+   "procedural-texture",
+   "purple",
+   "romantic",
+   "sakura",
+   "selective-bloom",
+   "serene",
+   "soft",
+   "soft light",
+   "spring",
+   "sunset",
+   "threejs",
+   "tube",
+   "tumbling",
+   "tunnel",
+   "twilight",
+   "vertex-shader-animation",
+   "vortex",
+   "warm",
+   "wedding",
+   "wellness",
+   "wind"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "petal-tunnel",
+    "groupId": "petal-tunnel",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "skyTop": "#1c1236",
+     "fogColor": "#e88aa0",
+     "petalTip": "#ff6f9c",
+     "sunColor": "#ffc98a",
+     "skyBottom": "#ff9d7a",
+     "petalColor": "#ffc4d2",
+     "petalLight": "#fff3ec",
+     "shadeColor": "#5a4a9a"
+    },
+    "ramp": [
+     "#ffc4d2",
+     "#ff6f9c",
+     "#fff3ec",
+     "#ffc98a",
+     "#1c1236",
+     "#ff9d7a",
+     "#e88aa0",
+     "#5a4a9a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593.webp"
+   },
+   {
+    "id": "petal-tunnel-001",
+    "groupId": "petal-tunnel",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#0e1030",
+     "fogColor": "#a488d4",
+     "petalTip": "#8a5ad0",
+     "sunColor": "#ffe0f0",
+     "skyBottom": "#c890e0",
+     "petalColor": "#e2ccf4",
+     "petalLight": "#f6eeff",
+     "shadeColor": "#4a4090"
+    },
+    "ramp": [
+     "#e2ccf4",
+     "#8a5ad0",
+     "#f6eeff",
+     "#ffe0f0",
+     "#0e1030",
+     "#c890e0",
+     "#a488d4",
+     "#4a4090"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/a3365f5e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/a3365f5e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/a3365f5e.webp"
+   },
+   {
+    "id": "petal-tunnel-002",
+    "groupId": "petal-tunnel",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#2a1208",
+     "fogColor": "#d07040",
+     "petalTip": "#d0401a",
+     "sunColor": "#ffb060",
+     "skyBottom": "#ff8a40",
+     "petalColor": "#ffb070",
+     "petalLight": "#fff0d0",
+     "shadeColor": "#5a2a1a"
+    },
+    "ramp": [
+     "#ffb070",
+     "#d0401a",
+     "#fff0d0",
+     "#ffb060",
+     "#2a1208",
+     "#ff8a40",
+     "#d07040",
+     "#5a2a1a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/b5c57849-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/b5c57849.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/b5c57849.webp"
+   },
+   {
+    "id": "petal-tunnel-003",
+    "groupId": "petal-tunnel",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#1a2a4a",
+     "fogColor": "#b8c8e0",
+     "petalTip": "#f0c0c8",
+     "sunColor": "#ffe8d8",
+     "skyBottom": "#a8c0e0",
+     "petalColor": "#fbf4f2",
+     "petalLight": "#ffffff",
+     "shadeColor": "#4a5a8a"
+    },
+    "ramp": [
+     "#fbf4f2",
+     "#f0c0c8",
+     "#ffffff",
+     "#ffe8d8",
+     "#1a2a4a",
+     "#a8c0e0",
+     "#b8c8e0",
+     "#4a5a8a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/de70a3b9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/de70a3b9.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/de70a3b9.webp"
+   },
+   {
+    "id": "petal-tunnel-004",
+    "groupId": "petal-tunnel",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#2a0e2a",
+     "fogColor": "#f08a70",
+     "petalTip": "#ff5a4a",
+     "sunColor": "#ffd090",
+     "skyBottom": "#ffa060",
+     "petalColor": "#ffb8a0",
+     "petalLight": "#fff2e0",
+     "shadeColor": "#6a3a7a"
+    },
+    "ramp": [
+     "#ffb8a0",
+     "#ff5a4a",
+     "#fff2e0",
+     "#ffd090",
+     "#2a0e2a",
+     "#ffa060",
+     "#f08a70",
+     "#6a3a7a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/26455e3c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/26455e3c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/26455e3c.webp"
+   },
+   {
+    "id": "petal-tunnel-005",
+    "groupId": "petal-tunnel",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#05050f",
+     "fogColor": "#40203a",
+     "petalTip": "#ff5a90",
+     "sunColor": "#ff9a6a",
+     "skyBottom": "#3a1a40",
+     "petalColor": "#ffc0d4",
+     "petalLight": "#fff3ec",
+     "shadeColor": "#1a1a40"
+    },
+    "ramp": [
+     "#ffc0d4",
+     "#ff5a90",
+     "#fff3ec",
+     "#ff9a6a",
+     "#05050f",
+     "#3a1a40",
+     "#40203a",
+     "#1a1a40"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/b125af89-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/b125af89.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/petal-tunnel-e0d2e83593/b125af89.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "petal-tunnel.webp": "91066 bytes"
+ }
+}

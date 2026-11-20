@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:22:54Z",
+ "fetchedAt": "2026-11-20T15:44:02Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "flowstate",
@@ -365,6 +365,6 @@
   "status": "rate_limited"
  },
  "files": {
-  "flowstate.webp": "69630 bytes"
+  "flowstate.webp": "cached"
  }
 }

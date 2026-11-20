@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:46:35Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lone-chair-ravine",
+  "title": "Lone Chair Ravine",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark. Legal for purchase only on getlayers.ai — getlayers.ai/layer/lone-chair-ravine",
+  "image": "https://storage.getlayers.ai/backgrounds/lone-chair-ravine-17aff31a92.webp",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "bank",
+   "beside",
+   "chair",
+   "deep",
+   "forest",
+   "grass",
+   "grassy",
+   "green",
+   "landscape",
+   "lone",
+   "nature",
+   "oddity",
+   "plastic",
+   "quiet",
+   "ravine",
+   "single",
+   "sits",
+   "solitude",
+   "stream",
+   "white",
+   "wilderness",
+   "woods"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lone-chair-ravine.webp": "291790 bytes"
+ }
+}

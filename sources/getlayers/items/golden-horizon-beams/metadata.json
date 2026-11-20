@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:48Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "golden-horizon-beams",
+  "title": "Golden Horizon Beams",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/golden-horizon-beams-ffe5859706.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/golden-horizon-beams-ffe5859706.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/golden-horizon-beams-ffe5859706-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "beams",
+   "blue",
+   "bright",
+   "dawn",
+   "deep",
+   "fan",
+   "glass",
+   "glow",
+   "gold",
+   "golden",
+   "horizon",
+   "indigo",
+   "light",
+   "light-streaks",
+   "momentum",
+   "pale",
+   "promise",
+   "race",
+   "rays",
+   "sky",
+   "speed",
+   "streaks",
+   "warp"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "golden-horizon-beams.webp": "34068 bytes"
+ }
+}

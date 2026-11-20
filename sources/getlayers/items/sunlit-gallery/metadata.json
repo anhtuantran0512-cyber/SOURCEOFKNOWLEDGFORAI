@@ -1,0 +1,276 @@
+{
+ "fetchedAt": "2026-11-20T15:44:22Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "sunlit-gallery",
+  "title": "Sunlit Gallery",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A sunlit ivory gallery curves endlessly ahead, its glazed skylight striping the polished floor with warm sun while framed prints glow under their own small lights. Legal for purchase only on getlayers.ai — getlayers.ai/layer/sunlit-gallery",
+  "image": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4-preview.mp4",
+  "likes": 128,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "keywords": [
+   "airy",
+   "analytic-lighting",
+   "architecture",
+   "art",
+   "bright",
+   "camera-path",
+   "click-focus",
+   "corridor",
+   "cream",
+   "curve",
+   "daylight",
+   "drift",
+   "elegant",
+   "element",
+   "endless",
+   "exhibition",
+   "fly through",
+   "framed",
+   "framed prints",
+   "framed-prints",
+   "gallery",
+   "glazed",
+   "gsap",
+   "hall",
+   "haze",
+   "interior",
+   "ivory",
+   "lights",
+   "minimal",
+   "mirrored-floor",
+   "museum",
+   "paintings",
+   "picture",
+   "picture lights",
+   "pointer-look",
+   "polished floor",
+   "prints",
+   "procedural-architecture",
+   "reflection",
+   "row",
+   "showroom",
+   "skylight",
+   "stone floor",
+   "striping",
+   "sun",
+   "sunlight",
+   "sunlit",
+   "threejs",
+   "travertine",
+   "warm",
+   "white"
+  ],
+  "variants": [
+   {
+    "id": "sunlit-gallery",
+    "groupId": "sunlit-gallery",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "skyColor": "#fff2e0",
+     "sunColor": "#ffd29a",
+     "hazeColor": "#efdcc0",
+     "wallColor": "#efe5d4",
+     "frameColor": "#2a2018",
+     "stoneColor": "#d9c6a6",
+     "accentColor": "#c08a3e"
+    },
+    "ramp": [
+     "#efe5d4",
+     "#d9c6a6",
+     "#fff2e0",
+     "#ffd29a",
+     "#efdcc0",
+     "#2a2018",
+     "#c08a3e"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4.webp"
+   },
+   {
+    "id": "sunlit-gallery-001",
+    "groupId": "sunlit-gallery",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#fff2e0",
+     "sunColor": "#ffb060",
+     "hazeColor": "#f0c890",
+     "wallColor": "#f0dcc0",
+     "frameColor": "#2a2018",
+     "stoneColor": "#d9c6a6",
+     "accentColor": "#c08a3e"
+    },
+    "ramp": [
+     "#f0dcc0",
+     "#d9c6a6",
+     "#fff2e0",
+     "#ffb060",
+     "#f0c890",
+     "#2a2018",
+     "#c08a3e"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/f0b9b5ca-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/f0b9b5ca.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/f0b9b5ca.webp"
+   },
+   {
+    "id": "sunlit-gallery-002",
+    "groupId": "sunlit-gallery",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#eaf3ff",
+     "sunColor": "#fff6e8",
+     "hazeColor": "#f4f6fa",
+     "wallColor": "#fbfaf6",
+     "frameColor": "#2a2018",
+     "stoneColor": "#8a8070",
+     "accentColor": "#2a6ab0"
+    },
+    "ramp": [
+     "#fbfaf6",
+     "#8a8070",
+     "#eaf3ff",
+     "#fff6e8",
+     "#f4f6fa",
+     "#2a2018",
+     "#2a6ab0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/df8ca62e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/df8ca62e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/df8ca62e.webp"
+   },
+   {
+    "id": "sunlit-gallery-003",
+    "groupId": "sunlit-gallery",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#fff2e0",
+     "sunColor": "#ffd29a",
+     "hazeColor": "#e8c8a8",
+     "wallColor": "#8e2a22",
+     "frameColor": "#b08a3a",
+     "stoneColor": "#e2d4b8",
+     "accentColor": "#c08a3e"
+    },
+    "ramp": [
+     "#8e2a22",
+     "#e2d4b8",
+     "#fff2e0",
+     "#ffd29a",
+     "#e8c8a8",
+     "#b08a3a",
+     "#c08a3e"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/011bc5f7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/011bc5f7.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/011bc5f7.webp"
+   },
+   {
+    "id": "sunlit-gallery-004",
+    "groupId": "sunlit-gallery",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#b8c4ff",
+     "sunColor": "#ff8a5a",
+     "hazeColor": "#e8b8b8",
+     "wallColor": "#d8d4e4",
+     "frameColor": "#2a2018",
+     "stoneColor": "#d9c6a6",
+     "accentColor": "#c08a3e"
+    },
+    "ramp": [
+     "#d8d4e4",
+     "#d9c6a6",
+     "#b8c4ff",
+     "#ff8a5a",
+     "#e8b8b8",
+     "#2a2018",
+     "#c08a3e"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/2b367fa0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/2b367fa0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/2b367fa0.webp"
+   },
+   {
+    "id": "sunlit-gallery-005",
+    "groupId": "sunlit-gallery",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#dce8ff",
+     "sunColor": "#fff4e4",
+     "hazeColor": "#8a96b0",
+     "wallColor": "#2e2b28",
+     "frameColor": "#c8a050",
+     "stoneColor": "#4a443e",
+     "accentColor": "#c08a3e"
+    },
+    "ramp": [
+     "#2e2b28",
+     "#4a443e",
+     "#dce8ff",
+     "#fff4e4",
+     "#8a96b0",
+     "#c8a050",
+     "#c08a3e"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/71712ba2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/71712ba2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sunlit-gallery-6716ec92a4/71712ba2.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "sunlit-gallery.webp": "58126 bytes"
+ }
+}

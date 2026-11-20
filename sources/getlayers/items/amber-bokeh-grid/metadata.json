@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:46:44Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "amber-bokeh-grid",
+  "title": "Amber Bokeh Grid",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/amber-bokeh-grid-deb23e9354.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/amber-bokeh-grid-deb23e9354.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/amber-bokeh-grid-deb23e9354-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "amber",
+   "bokeh",
+   "dark",
+   "dusty",
+   "film",
+   "film-grain",
+   "focus",
+   "glow",
+   "grainy",
+   "grid",
+   "lamps",
+   "lens",
+   "lights",
+   "like",
+   "maroon",
+   "old",
+   "orbs",
+   "particles",
+   "pulsing",
+   "reel",
+   "scratched",
+   "soft",
+   "vintage",
+   "warm",
+   "warming"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "amber-bokeh-grid.webp": "333534 bytes"
+ }
+}

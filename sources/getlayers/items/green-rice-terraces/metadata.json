@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:46:36Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "green-rice-terraces",
+  "title": "Green Rice Terraces",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/green-rice-terraces",
+  "image": "https://storage.getlayers.ai/backgrounds/green-rice-terraces-15f5f39374.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/green-rice-terraces-15f5f39374.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/green-rice-terraces-15f5f39374-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "aerial",
+   "contour",
+   "contours",
+   "emerald",
+   "farmland",
+   "green",
+   "hills",
+   "hillside",
+   "landscape",
+   "like",
+   "lines",
+   "living",
+   "lush",
+   "map",
+   "nature",
+   "rice",
+   "rippling",
+   "shift",
+   "slowly",
+   "terraces",
+   "topographic",
+   "trees",
+   "view",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "green-rice-terraces.webp": "543248 bytes"
+ }
+}

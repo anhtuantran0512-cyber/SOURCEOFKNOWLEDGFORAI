@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:47:07Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "teal-bokeh-flare",
+  "title": "Teal Bokeh Flare",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/teal-bokeh-flare-93c7c9b738.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/teal-bokeh-flare-93c7c9b738.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/teal-bokeh-flare-93c7c9b738-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "across",
+   "against",
+   "blur",
+   "bokeh",
+   "caught",
+   "cold",
+   "cuts",
+   "deep",
+   "flare",
+   "frame",
+   "lens",
+   "macro",
+   "orange",
+   "particles",
+   "scattering",
+   "shade",
+   "soft",
+   "sunlight",
+   "teal",
+   "through",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "teal-bokeh-flare.webp": "32934 bytes"
+ }
+}

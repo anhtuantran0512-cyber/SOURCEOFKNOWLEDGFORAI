@@ -1,0 +1,57 @@
+{
+ "fetchedAt": "2026-11-20T15:46:52Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "windblown-meadow-grass",
+  "title": "Windblown Meadow Grass",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/windblown-meadow-grass-2a37f0ae67.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/windblown-meadow-grass-2a37f0ae67.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/windblown-meadow-grass-2a37f0ae67-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "backlight",
+   "bend",
+   "breeze",
+   "feathery",
+   "field",
+   "glowing",
+   "grass",
+   "grasses",
+   "green",
+   "landscape",
+   "lying",
+   "meadow",
+   "nature",
+   "ripple",
+   "soft",
+   "summer",
+   "sunlight",
+   "wind",
+   "windblown"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "windblown-meadow-grass.webp": "221938 bytes"
+ }
+}

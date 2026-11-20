@@ -1,0 +1,262 @@
+{
+ "fetchedAt": "2026-11-20T15:44:53Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "richet-burst",
+  "title": "Richet Burst",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A crescent of white chalk dust bursts and swirls around a dark empty eye in a black void, swirling away from your cursor and re-detonating when you click. Legal for purchase only on getlayers.ai — getlayers.ai/layer/richet-burst",
+  "image": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal",
+   "luxe"
+  ],
+  "keywords": [
+   "analytic-trajectory",
+   "around",
+   "ash",
+   "black",
+   "black and white",
+   "burst",
+   "bursting",
+   "chalk",
+   "churning",
+   "cinematic",
+   "click",
+   "click-burst",
+   "crescent",
+   "curl-noise",
+   "cursor",
+   "dark",
+   "debris",
+   "dramatic",
+   "dust",
+   "explosion",
+   "eye",
+   "fine",
+   "flour",
+   "flung",
+   "forever",
+   "glowing",
+   "gpu-particles",
+   "grayscale",
+   "interactive",
+   "mist",
+   "monochrome",
+   "motion",
+   "outward",
+   "particles",
+   "pointer-swirl",
+   "postprocessing-bloom",
+   "powder",
+   "richet",
+   "scattering",
+   "shockwave",
+   "smoke",
+   "sparks",
+   "studio",
+   "swirl",
+   "threejs",
+   "void",
+   "vortex",
+   "white"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "richet-burst",
+    "groupId": "richet-burst",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#000000",
+     "mistColor": "#a9afb8",
+     "powderDim": "#5c6268",
+     "powderHot": "#ffffff",
+     "streakColor": "#ffffff",
+     "powderBright": "#eef1f5"
+    },
+    "ramp": [
+     "#000000",
+     "#eef1f5",
+     "#5c6268",
+     "#ffffff",
+     "#ffffff",
+     "#a9afb8"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9.webp"
+   },
+   {
+    "id": "richet-burst-001",
+    "groupId": "richet-burst",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#000000",
+     "mistColor": "#b8945a",
+     "powderDim": "#8a6a3a",
+     "powderHot": "#fff4dc",
+     "streakColor": "#ffd890",
+     "powderBright": "#ffe2a8"
+    },
+    "ramp": [
+     "#000000",
+     "#ffe2a8",
+     "#8a6a3a",
+     "#fff4dc",
+     "#ffd890",
+     "#b8945a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/8241a0bd-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/8241a0bd.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/8241a0bd.webp"
+   },
+   {
+    "id": "richet-burst-002",
+    "groupId": "richet-burst",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#000000",
+     "mistColor": "#c0508a",
+     "powderDim": "#7a1e5a",
+     "powderHot": "#ffd0ea",
+     "streakColor": "#ff9ad0",
+     "powderBright": "#ff5ab4"
+    },
+    "ramp": [
+     "#000000",
+     "#ff5ab4",
+     "#7a1e5a",
+     "#ffd0ea",
+     "#ff9ad0",
+     "#c0508a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/de5396e3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/de5396e3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/de5396e3.webp"
+   },
+   {
+    "id": "richet-burst-003",
+    "groupId": "richet-burst",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#000000",
+     "mistColor": "#a04a20",
+     "powderDim": "#7a2a0a",
+     "powderHot": "#ffe0a0",
+     "streakColor": "#ffb060",
+     "powderBright": "#ff8a3a"
+    },
+    "ramp": [
+     "#000000",
+     "#ff8a3a",
+     "#7a2a0a",
+     "#ffe0a0",
+     "#ffb060",
+     "#a04a20"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/c2baffe4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/c2baffe4.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/c2baffe4.webp"
+   },
+   {
+    "id": "richet-burst-004",
+    "groupId": "richet-burst",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#000000",
+     "mistColor": "#6a9ac0",
+     "powderDim": "#3a6a8a",
+     "powderHot": "#ffffff",
+     "streakColor": "#d8f4ff",
+     "powderBright": "#bfe8ff"
+    },
+    "ramp": [
+     "#000000",
+     "#bfe8ff",
+     "#3a6a8a",
+     "#ffffff",
+     "#d8f4ff",
+     "#6a9ac0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/6bd1f2f6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/6bd1f2f6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/6bd1f2f6.webp"
+   },
+   {
+    "id": "richet-burst-005",
+    "groupId": "richet-burst",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#efe8dc",
+     "mistColor": "#8a7e70",
+     "powderDim": "#6a5e54",
+     "powderHot": "#000000",
+     "streakColor": "#3a302a",
+     "powderBright": "#2a2420"
+    },
+    "ramp": [
+     "#efe8dc",
+     "#2a2420",
+     "#6a5e54",
+     "#000000",
+     "#3a302a",
+     "#8a7e70"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/5779e3f6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/5779e3f6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/richet-burst-a80e777fc9/5779e3f6.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "richet-burst.webp": "148648 bytes"
+ }
+}

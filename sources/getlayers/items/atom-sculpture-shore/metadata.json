@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:46:44Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "atom-sculpture-shore",
+  "title": "Atom Sculpture Shore",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/atom-sculpture-shore-f48a7336b4.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/atom-sculpture-shore-f48a7336b4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/atom-sculpture-shore-f48a7336b4-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "atom",
+   "catching",
+   "dusk",
+   "evening",
+   "floating",
+   "left",
+   "light",
+   "like",
+   "monument",
+   "object",
+   "orbit",
+   "pale",
+   "pool",
+   "product",
+   "quiet",
+   "rings",
+   "rocks",
+   "rocky",
+   "science",
+   "sculpture",
+   "shore",
+   "soft",
+   "spheres",
+   "tidepool",
+   "wild"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "atom-sculpture-shore.webp": "212540 bytes"
+ }
+}

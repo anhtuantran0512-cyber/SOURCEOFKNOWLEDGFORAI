@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:29Z",
+ "fetchedAt": "2026-11-20T15:42:37Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "halden",
@@ -902,7 +902,7 @@
   "status": "premium"
  },
  "files": {
-  "halden.webp": "54318 bytes",
-  "halden-figma.webp": "205104 bytes"
+  "halden.webp": "cached",
+  "halden-figma.webp": "cached"
  }
 }

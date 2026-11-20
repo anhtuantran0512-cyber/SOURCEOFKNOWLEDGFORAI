@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:47:10Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "white-hood-blossoms",
+  "title": "White Hood Blossoms",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Free",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/white-hood-blossoms-10df132b0c.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/white-hood-blossoms-10df132b0c.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/white-hood-blossoms-10df132b0c-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "and",
+   "anonymity",
+   "bloom",
+   "blossom",
+   "blossoms",
+   "character",
+   "cool",
+   "editorial",
+   "face",
+   "figure",
+   "glossy",
+   "hood",
+   "mass",
+   "portrait",
+   "replaced",
+   "sage",
+   "small",
+   "stands",
+   "strange",
+   "surreal",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "white-hood-blossoms.webp": "108554 bytes"
+ }
+}

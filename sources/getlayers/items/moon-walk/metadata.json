@@ -1,0 +1,52 @@
+{
+ "fetchedAt": "2026-11-20T15:45:19Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "moon-walk",
+  "title": "Moon Walk",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Free",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/moon-walk.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/moon-walk.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/moon-walk-preview.mp4",
+  "likes": 83,
+  "createdAt": "2026-05-14",
+  "typeTags": [
+   "cosmic-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "vortex",
+   "portal",
+   "surreal",
+   "blue",
+   "moon",
+   "walk",
+   "lone",
+   "figure",
+   "steps",
+   "luminous",
+   "heart",
+   "vast",
+   "swirling",
+   "cosmic",
+   "space"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "moon-walk.webp": "184136 bytes"
+ }
+}

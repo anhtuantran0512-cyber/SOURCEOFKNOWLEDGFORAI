@@ -1,0 +1,88 @@
+{
+ "fetchedAt": "2026-11-20T15:44:31Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "cubic-gradient",
+  "title": "Cubic Gradient",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A frosted-glass mosaic of soft rounded tiles drifting through a flowing white-to-green haze, rippling with light wherever you touch it.",
+  "image": "https://storage.getlayers.ai/3d_scenes/cubic-gradient.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/cubic-gradient.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/cubic-gradient-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/cubic-gradient-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 31,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "keywords": [
+   "shader",
+   "gradient",
+   "mosaic",
+   "glass",
+   "light",
+   "cubic",
+   "frosted",
+   "tiles",
+   "drifting",
+   "soft",
+   "flowing",
+   "wash",
+   "green",
+   "white"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "cubic-gradient",
+    "groupId": "cubic-gradient",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colDeep": "#0a7a2c",
+     "colGreen": "#36d24a",
+     "colLight": "#ffffff"
+    },
+    "ramp": [
+     "#ffffff",
+     "#36d24a",
+     "#0a7a2c"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/cubic-gradient-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/cubic-gradient.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/cubic-gradient.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cubic-gradient.webp": "84396 bytes"
+ }
+}

@@ -1,0 +1,342 @@
+{
+ "fetchedAt": "2026-11-20T15:44:27Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "pressed-gold",
+  "title": "Pressed Gold",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A heap of gold letterforms behind cathedral glass, magnifying under a fingertip.",
+  "image": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4-preview.mp4",
+  "likes": 99,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "brutal"
+  ],
+  "keywords": [
+   "award",
+   "bathroom",
+   "behind",
+   "brass",
+   "cathedral",
+   "clutter",
+   "editorial",
+   "fingertip",
+   "frosted",
+   "gilded",
+   "glass",
+   "glyphs",
+   "gold",
+   "heap",
+   "letterform",
+   "letterforms",
+   "letters",
+   "magnifying",
+   "poster",
+   "pressed",
+   "shader",
+   "textured",
+   "type",
+   "typography",
+   "under",
+   "warm"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "pressed-gold",
+    "groupId": "pressed-gold",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#ecdcbe",
+     "goldA": "#d7a55c",
+     "goldB": "#b06f34",
+     "bgBottom": "#583719",
+     "keyColor": "#fff2d8",
+     "rimColor": "#382a1e",
+     "specColor": "#fff4dd"
+    },
+    "ramp": [
+     "#d7a55c",
+     "#b06f34",
+     "#ecdcbe",
+     "#583719",
+     "#fff2d8",
+     "#382a1e",
+     "#fff4dd"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4.webp"
+   },
+   {
+    "id": "pressed-gold-001",
+    "groupId": "pressed-gold",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#7d3a7d",
+     "goldA": "#180e1b",
+     "goldB": "#47254b",
+     "bgBottom": "#b04da6",
+     "keyColor": "#c480b5",
+     "rimColor": "#d9b2cc",
+     "specColor": "#f0e2ea"
+    },
+    "ramp": [
+     "#180e1b",
+     "#47254b",
+     "#7d3a7d",
+     "#b04da6",
+     "#c480b5",
+     "#d9b2cc",
+     "#f0e2ea"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/353ba6b4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/353ba6b4.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/353ba6b4.webp"
+   },
+   {
+    "id": "pressed-gold-002",
+    "groupId": "pressed-gold",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#a2d1d5",
+     "goldA": "#e5f2f1",
+     "goldB": "#c4e3e3",
+     "bgBottom": "#7ebcc9",
+     "keyColor": "#60a0b8",
+     "rimColor": "#4b809d",
+     "specColor": "#3e5f7a"
+    },
+    "ramp": [
+     "#e5f2f1",
+     "#c4e3e3",
+     "#a2d1d5",
+     "#7ebcc9",
+     "#60a0b8",
+     "#4b809d",
+     "#3e5f7a"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/bc15217e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/bc15217e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/bc15217e.webp"
+   },
+   {
+    "id": "pressed-gold-003",
+    "groupId": "pressed-gold",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#1f823f",
+     "goldA": "#07150b",
+     "goldB": "#144a25",
+     "bgBottom": "#28bd57",
+     "keyColor": "#52d57b",
+     "rimColor": "#8bdfa6",
+     "specColor": "#c1eccf"
+    },
+    "ramp": [
+     "#07150b",
+     "#144a25",
+     "#1f823f",
+     "#28bd57",
+     "#52d57b",
+     "#8bdfa6",
+     "#c1eccf"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/d0b677e2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/d0b677e2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/d0b677e2.webp"
+   },
+   {
+    "id": "pressed-gold-004",
+    "groupId": "pressed-gold",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#a3c0b0",
+     "goldA": "#d9e3df",
+     "goldB": "#bed1c8",
+     "bgBottom": "#87af96",
+     "keyColor": "#6e9c7c",
+     "rimColor": "#5b8265",
+     "specColor": "#4a674f"
+    },
+    "ramp": [
+     "#d9e3df",
+     "#bed1c8",
+     "#a3c0b0",
+     "#87af96",
+     "#6e9c7c",
+     "#5b8265",
+     "#4a674f"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/a07a223e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/a07a223e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/a07a223e.webp"
+   },
+   {
+    "id": "pressed-gold-005",
+    "groupId": "pressed-gold",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#736f40",
+     "goldA": "#19180f",
+     "goldB": "#464328",
+     "bgBottom": "#a39d56",
+     "keyColor": "#bbb783",
+     "rimColor": "#d2d0b1",
+     "specColor": "#ebeade"
+    },
+    "ramp": [
+     "#19180f",
+     "#464328",
+     "#736f40",
+     "#a39d56",
+     "#bbb783",
+     "#d2d0b1",
+     "#ebeade"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/4c5b667e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/4c5b667e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/4c5b667e.webp"
+   },
+   {
+    "id": "pressed-gold-006",
+    "groupId": "pressed-gold",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#738729",
+     "goldA": "#1b250e",
+     "goldB": "#43551d",
+     "bgBottom": "#acbc33",
+     "keyColor": "#cccf5f",
+     "rimColor": "#dad592",
+     "specColor": "#e9e2c3"
+    },
+    "ramp": [
+     "#1b250e",
+     "#43551d",
+     "#738729",
+     "#acbc33",
+     "#cccf5f",
+     "#dad592",
+     "#e9e2c3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/00985a43-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/00985a43.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/00985a43.webp"
+   },
+   {
+    "id": "pressed-gold-007",
+    "groupId": "pressed-gold",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#45735f",
+     "goldA": "#17231c",
+     "goldB": "#2e4b3d",
+     "bgBottom": "#5a9c83",
+     "keyColor": "#81b4a3",
+     "rimColor": "#aacac1",
+     "specColor": "#d1e1de"
+    },
+    "ramp": [
+     "#17231c",
+     "#2e4b3d",
+     "#45735f",
+     "#5a9c83",
+     "#81b4a3",
+     "#aacac1",
+     "#d1e1de"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/7364b561-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/7364b561.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/7364b561.webp"
+   },
+   {
+    "id": "pressed-gold-008",
+    "groupId": "pressed-gold",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#a49adc",
+     "goldA": "#d3d3ed",
+     "goldB": "#bbb7e4",
+     "bgBottom": "#8e7bd5",
+     "keyColor": "#7f62c8",
+     "rimColor": "#714bbb",
+     "specColor": "#67429f"
+    },
+    "ramp": [
+     "#d3d3ed",
+     "#bbb7e4",
+     "#a49adc",
+     "#8e7bd5",
+     "#7f62c8",
+     "#714bbb",
+     "#67429f"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/7efaf97a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/7efaf97a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pressed-gold-02a9d711f4/7efaf97a.webp"
+   }
+  ],
+  "variantCount": 9
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pressed-gold.webp": "303242 bytes"
+ }
+}

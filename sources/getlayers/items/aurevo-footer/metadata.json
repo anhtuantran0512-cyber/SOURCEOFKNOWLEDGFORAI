@@ -1,0 +1,78 @@
+{
+ "fetchedAt": "2026-11-20T15:45:06Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "aurevo-footer",
+  "title": "Aurevo Footer",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A dark tech footer whose bevelled sign-up panel glows with living green light that swells when you reach for it. Legal for purchase only on getlayers.ai — getlayers.ai/layer/aurevo-footer",
+  "image": "https://storage.getlayers.ai/sections/aurevo-footer-63ad3b552e.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/aurevo-footer-63ad3b552e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/aurevo-footer-63ad3b552e-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/aurevo-footer-63ad3b552e-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/aurevo-footer-63ad3b552e-mobile.mp4",
+  "likes": 19,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "footer"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "aurevo",
+   "bevelled",
+   "call to action",
+   "cta",
+   "dark",
+   "dark footer",
+   "data platform",
+   "footer",
+   "glows",
+   "green",
+   "green glow",
+   "hud",
+   "hud frame",
+   "light",
+   "link columns",
+   "living",
+   "newsletter",
+   "panel",
+   "reach",
+   "saas",
+   "saas footer",
+   "shader",
+   "shader background",
+   "sign",
+   "sign up",
+   "site footer",
+   "swells",
+   "tech",
+   "tech footer",
+   "webgl",
+   "webgl glow",
+   "when"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "aurevo-footer.webp": "50406 bytes"
+ }
+}

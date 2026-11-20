@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "teal-energy-burst",
+  "title": "Teal Energy Burst",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/teal-energy-burst-4779009e0c.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/teal-energy-burst-4779009e0c.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/teal-energy-burst-4779009e0c-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "cosmic-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "being",
+   "black",
+   "blazing",
+   "born",
+   "burst",
+   "core",
+   "cosmic",
+   "energy",
+   "erupts",
+   "explosion",
+   "green",
+   "like",
+   "plasma",
+   "power",
+   "raw",
+   "sky",
+   "smoke",
+   "space",
+   "star",
+   "starry",
+   "stars",
+   "teal",
+   "tendrils",
+   "twisting"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "teal-energy-burst.webp": "324024 bytes"
+ }
+}

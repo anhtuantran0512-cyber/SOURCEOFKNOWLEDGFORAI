@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:45:53Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "bubble-dome-hall",
+  "title": "Bubble Dome Hall",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/bubble-dome-hall-a064a68346.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/bubble-dome-hall-a064a68346.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/bubble-dome-hall-a064a68346-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "cosmic-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "architecture",
+   "atrium",
+   "beyond",
+   "bubble",
+   "circular",
+   "cosmic",
+   "dome",
+   "figures",
+   "floor",
+   "future",
+   "hall",
+   "hang",
+   "human",
+   "megastructure",
+   "pale",
+   "reflective",
+   "scale",
+   "sci",
+   "sci-fi",
+   "space",
+   "spheres",
+   "stand",
+   "suspended",
+   "teal",
+   "temple",
+   "tiny",
+   "vast"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "bubble-dome-hall.webp": "111624 bytes"
+ }
+}

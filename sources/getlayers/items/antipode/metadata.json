@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:47:15Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "antipode",
+  "title": "Antipode",
+  "description": "Two masses of light leaning against each other, brightest where they still disagree and black where neither reaches.",
+  "nature": "glow",
+  "family": "light",
+  "tier": "Premium",
+  "likes": 27,
+  "createdAt": "2026-08-24",
+  "shaderHash": "4612537c72e8a1e8f02b243fb76df883",
+  "hues": [
+   "red",
+   "orange",
+   "teal",
+   "indigo",
+   "amber",
+   "violet"
+  ],
+  "variantCount": 1,
+  "variants": [
+   {
+    "id": "antipode",
+    "groupId": "antipode",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#0b1020",
+     "colorB": "#e0651b",
+     "colorC": "#1d5fb8",
+     "colorD": "#fff3e0",
+     "bgColor": "#05060a"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-24",
+    "likes": 26,
+    "previewVideo": "https://storage.getlayers.ai/gradients/antipode-88350af1c9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/antipode-88350af1c9.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/antipode-88350af1c9.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "antipode.webp": "38258 bytes"
+ }
+}

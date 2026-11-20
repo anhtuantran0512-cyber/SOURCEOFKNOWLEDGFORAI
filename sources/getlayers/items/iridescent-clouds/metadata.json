@@ -1,0 +1,97 @@
+{
+ "fetchedAt": "2026-11-20T15:44:30Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "iridescent-clouds",
+  "title": "Iridescent Clouds",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shader",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shader",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Billowing amethyst-to-cyan cumulus drift across a violet dusk sky, lit by a warm peach glow that trails your cursor.",
+  "image": "https://storage.getlayers.ai/3d_scenes/iridescent-clouds.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/iridescent-clouds.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/iridescent-clouds-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/iridescent-clouds-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 39,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "luxe"
+  ],
+  "keywords": [
+   "shader",
+   "clouds",
+   "god-rays",
+   "sky",
+   "dreamscape",
+   "iridescent",
+   "billowing",
+   "amethyst",
+   "cyan",
+   "cloudbanks",
+   "lit",
+   "within",
+   "warm",
+   "drifting",
+   "glow"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "iridescent-clouds",
+    "groupId": "iridescent-clouds",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "skyTop": "#6a4fd0",
+     "cloudMid": "#9a8fe6",
+     "rayColor": "#cbb9ff",
+     "glowColor": "#ffcea0",
+     "skyBottom": "#3a2a86",
+     "cloudLight": "#cfeeff",
+     "cloudShadow": "#5b4ea6"
+    },
+    "ramp": [
+     "#6a4fd0",
+     "#3a2a86",
+     "#5b4ea6",
+     "#9a8fe6",
+     "#cfeeff",
+     "#ffcea0",
+     "#cbb9ff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/iridescent-clouds-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/iridescent-clouds.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/iridescent-clouds.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "iridescent-clouds.webp": "65596 bytes"
+ }
+}

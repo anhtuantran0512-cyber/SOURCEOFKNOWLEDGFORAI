@@ -1,0 +1,158 @@
+{
+ "fetchedAt": "2026-11-20T15:44:29Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "pin-drop",
+  "title": "Pin Drop",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "Red pushpins hanging in soft grey space, bowing out of the way as the cursor passes.",
+  "image": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e-preview.mp4",
+  "likes": 63,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "keywords": [
+   "blur",
+   "bokeh",
+   "bowing",
+   "cursor",
+   "depth-of-field",
+   "drop",
+   "element",
+   "float",
+   "gravity",
+   "grey",
+   "hanging",
+   "levitation",
+   "office",
+   "order",
+   "out",
+   "passes",
+   "pin",
+   "pins",
+   "playful",
+   "product",
+   "pushpin",
+   "pushpins",
+   "quiet",
+   "red",
+   "scatter",
+   "shot",
+   "soft",
+   "space",
+   "stationery",
+   "studio",
+   "tacks",
+   "way",
+   "zero"
+  ],
+  "variants": [
+   {
+    "id": "pin-drop",
+    "groupId": "pin-drop",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bg": "#e9e9ea",
+     "pinTint": "#ff2b32"
+    },
+    "ramp": [
+     "#e9e9ea",
+     "#ff2b32"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e.webp"
+   },
+   {
+    "id": "pin-drop-001",
+    "groupId": "pin-drop",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bg": "#1f0a24",
+     "pinTint": "#eec9f0"
+    },
+    "ramp": [
+     "#1f0a24",
+     "#eec9f0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e/f30fb77c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e/f30fb77c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e/f30fb77c.webp"
+   },
+   {
+    "id": "pin-drop-002",
+    "groupId": "pin-drop",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bg": "#c9e0ca",
+     "pinTint": "#42734a"
+    },
+    "ramp": [
+     "#c9e0ca",
+     "#42734a"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e/c4bf778a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e/c4bf778a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e/c4bf778a.webp"
+   },
+   {
+    "id": "pin-drop-003",
+    "groupId": "pin-drop",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bg": "#ccedde",
+     "pinTint": "#328d7c"
+    },
+    "ramp": [
+     "#ccedde",
+     "#328d7c"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e/7ab2df20-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e/7ab2df20.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pin-drop-2282d98a9e/7ab2df20.webp"
+   }
+  ],
+  "variantCount": 4
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pin-drop.webp": "94802 bytes"
+ }
+}

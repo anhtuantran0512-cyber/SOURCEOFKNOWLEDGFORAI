@@ -1,0 +1,98 @@
+{
+ "fetchedAt": "2026-11-20T15:44:50Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "spectral-warp",
+  "title": "Spectral Warp",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A white-hot diffraction star bursting into hundreds of full-spectrum rays that warp and fan across a twinkling starfield.",
+  "image": "https://storage.getlayers.ai/3d_scenes/spectral-warp.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/spectral-warp.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/spectral-warp-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/spectral-warp-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 6,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "fire-plasma"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "keywords": [
+   "threejs",
+   "shader",
+   "starburst",
+   "rainbow",
+   "diffraction",
+   "spectral",
+   "warp",
+   "white",
+   "hot",
+   "exploding",
+   "hundreds",
+   "full",
+   "spectrum",
+   "rays",
+   "across",
+   "twinkling",
+   "cosmic",
+   "dark",
+   "fire",
+   "plasma"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "spectral-warp",
+    "groupId": "spectral-warp",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTint": "#0a0822",
+     "bgColor": "#02030a",
+     "coreColor": "#ffffff",
+     "starColor": "#cfe9ff",
+     "clusterColor": "#ffc794"
+    },
+    "ramp": [
+     "#ffffff",
+     "#cfe9ff",
+     "#ffc794",
+     "#02030a",
+     "#0a0822"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/spectral-warp-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/spectral-warp.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/spectral-warp.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "spectral-warp.webp": "140424 bytes"
+ }
+}

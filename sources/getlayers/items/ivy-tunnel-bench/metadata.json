@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:47:00Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "ivy-tunnel-bench",
+  "title": "Ivy Tunnel Bench",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/ivy-tunnel-bench-a69735b6c7.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/ivy-tunnel-bench-a69735b6c7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/ivy-tunnel-bench-a69735b6c7-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "all",
+   "and",
+   "bench",
+   "deep",
+   "down",
+   "end",
+   "green",
+   "hedge",
+   "ivy",
+   "landscape",
+   "nature",
+   "nothing",
+   "overgrown",
+   "say",
+   "single",
+   "sit",
+   "solitude",
+   "somewhere",
+   "the",
+   "tunnel",
+   "waits",
+   "way"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "ivy-tunnel-bench.webp": "305136 bytes"
+ }
+}

@@ -1,0 +1,359 @@
+{
+ "fetchedAt": "2026-11-20T15:44:28Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "grass-shader",
+  "title": "Grass Shader",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A hillside of grass leaning and rippling under a breeze that follows wherever you move.",
+  "image": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d-preview.mp4",
+  "likes": 91,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "blades",
+   "breeze",
+   "field",
+   "follows",
+   "grass",
+   "hill",
+   "hillside",
+   "instanced",
+   "instanced-geometry",
+   "interactive",
+   "lawn",
+   "leaning",
+   "meadow",
+   "move",
+   "nature",
+   "particles",
+   "pmndrs-port",
+   "rippling",
+   "shader",
+   "terrain",
+   "that",
+   "threejs",
+   "under",
+   "waves",
+   "wherever",
+   "wind",
+   "you"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "grass-shader",
+    "groupId": "grass-shader",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "skyTop": "#b3d1ff",
+     "tipColor": "#00994d",
+     "cloudColor": "#ffffff",
+     "skyHorizon": "#b3daff",
+     "bottomColor": "#001a0d"
+    },
+    "ramp": [
+     "#00994d",
+     "#001a0d",
+     "#b3d1ff",
+     "#b3daff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d.webp"
+   },
+   {
+    "id": "grass-shader-001",
+    "groupId": "grass-shader",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#9f5069",
+     "tipColor": "#1a0f16",
+     "cloudColor": "#e4d1d1",
+     "skyHorizon": "#c28f97",
+     "bottomColor": "#5a3145"
+    },
+    "ramp": [
+     "#1a0f16",
+     "#5a3145",
+     "#9f5069",
+     "#c28f97",
+     "#e4d1d1"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/30631fae-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/30631fae.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/30631fae.webp"
+   },
+   {
+    "id": "grass-shader-002",
+    "groupId": "grass-shader",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#6076a0",
+     "tipColor": "#13131c",
+     "cloudColor": "#e5eaee",
+     "skyHorizon": "#a4b4c6",
+     "bottomColor": "#3a415d"
+    },
+    "ramp": [
+     "#13131c",
+     "#3a415d",
+     "#6076a0",
+     "#a4b4c6",
+     "#e5eaee"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/c96137de-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/c96137de.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/c96137de.webp"
+   },
+   {
+    "id": "grass-shader-003",
+    "groupId": "grass-shader",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#6b2cb7",
+     "tipColor": "#0d0611",
+     "cloudColor": "#d0c5eb",
+     "skyHorizon": "#9873d7",
+     "bottomColor": "#411c61"
+    },
+    "ramp": [
+     "#0d0611",
+     "#411c61",
+     "#6b2cb7",
+     "#9873d7",
+     "#d0c5eb"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/4932a4e0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/4932a4e0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/4932a4e0.webp"
+   },
+   {
+    "id": "grass-shader-004",
+    "groupId": "grass-shader",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#36a0a5",
+     "tipColor": "#0d1f1a",
+     "cloudColor": "#adcbdc",
+     "skyHorizon": "#6ab4c8",
+     "bottomColor": "#246058"
+    },
+    "ramp": [
+     "#0d1f1a",
+     "#246058",
+     "#36a0a5",
+     "#6ab4c8",
+     "#adcbdc"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/1796ba77-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/1796ba77.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/1796ba77.webp"
+   },
+   {
+    "id": "grass-shader-005",
+    "groupId": "grass-shader",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#aa9951",
+     "tipColor": "#222514",
+     "cloudColor": "#e7ddd4",
+     "skyHorizon": "#c8b593",
+     "bottomColor": "#656434"
+    },
+    "ramp": [
+     "#222514",
+     "#656434",
+     "#aa9951",
+     "#c8b593",
+     "#e7ddd4"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/ce1456f7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/ce1456f7.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/ce1456f7.webp"
+   },
+   {
+    "id": "grass-shader-006",
+    "groupId": "grass-shader",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#d96577",
+     "tipColor": "#eeceda",
+     "cloudColor": "#8f3932",
+     "skyHorizon": "#c53b40",
+     "bottomColor": "#e19bae"
+    },
+    "ramp": [
+     "#eeceda",
+     "#e19bae",
+     "#d96577",
+     "#c53b40",
+     "#8f3932"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/6a72d9cd-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/6a72d9cd.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/6a72d9cd.webp"
+   },
+   {
+    "id": "grass-shader-007",
+    "groupId": "grass-shader",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#a59c67",
+     "tipColor": "#202216",
+     "cloudColor": "#f3f0ec",
+     "skyHorizon": "#cac1ab",
+     "bottomColor": "#63633e"
+    },
+    "ramp": [
+     "#202216",
+     "#63633e",
+     "#a59c67",
+     "#cac1ab",
+     "#f3f0ec"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/3fb55770-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/3fb55770.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/3fb55770.webp"
+   },
+   {
+    "id": "grass-shader-008",
+    "groupId": "grass-shader",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#c93b8a",
+     "tipColor": "#1e0b15",
+     "cloudColor": "#f6e7f0",
+     "skyHorizon": "#dc94bf",
+     "bottomColor": "#72254d"
+    },
+    "ramp": [
+     "#1e0b15",
+     "#72254d",
+     "#c93b8a",
+     "#dc94bf",
+     "#f6e7f0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/d0c250e1-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/d0c250e1.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/d0c250e1.webp"
+   },
+   {
+    "id": "grass-shader-009",
+    "groupId": "grass-shader",
+    "name": "009",
+    "sortOrder": 9,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#5d30c3",
+     "tipColor": "#1a0e28",
+     "cloudColor": "#ccc6eb",
+     "skyHorizon": "#917ad8",
+     "bottomColor": "#412273"
+    },
+    "ramp": [
+     "#1a0e28",
+     "#412273",
+     "#5d30c3",
+     "#917ad8",
+     "#ccc6eb"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/3d126fe7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/3d126fe7.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/3d126fe7.webp"
+   },
+   {
+    "id": "grass-shader-010",
+    "groupId": "grass-shader",
+    "name": "010",
+    "sortOrder": 10,
+    "isDefault": false,
+    "colors": {
+     "skyTop": "#5f5898",
+     "tipColor": "#110f17",
+     "cloudColor": "#d6d7e4",
+     "skyHorizon": "#9796bf",
+     "bottomColor": "#3b3556"
+    },
+    "ramp": [
+     "#110f17",
+     "#3b3556",
+     "#5f5898",
+     "#9796bf",
+     "#d6d7e4"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/becaa78d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/becaa78d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/grass-shader-19ee40cf2d/becaa78d.webp"
+   }
+  ],
+  "variantCount": 11
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "grass-shader.webp": "213148 bytes"
+ }
+}

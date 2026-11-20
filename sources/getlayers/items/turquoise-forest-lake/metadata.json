@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:29Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "turquoise-forest-lake",
+  "title": "Turquoise Forest Lake",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Free",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/turquoise-forest-lake-13fecb84a0.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/turquoise-forest-lake-13fecb84a0.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/turquoise-forest-lake-13fecb84a0-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "along",
+   "among",
+   "bank",
+   "forest",
+   "green",
+   "hole",
+   "idyllic",
+   "knows",
+   "lake",
+   "landscape",
+   "nature",
+   "nobody",
+   "pool",
+   "purple",
+   "sits",
+   "storybook",
+   "sunbeams",
+   "sunlit",
+   "swimming",
+   "trunks",
+   "turquoise",
+   "wildflowers",
+   "woodland",
+   "yellow"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "turquoise-forest-lake.webp": "449860 bytes"
+ }
+}

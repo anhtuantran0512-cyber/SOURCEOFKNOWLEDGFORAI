@@ -1,0 +1,230 @@
+{
+ "fetchedAt": "2026-11-20T15:44:28Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "jade-cipher",
+  "title": "Jade Cipher",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A wall of jade characters falling through the dark, each streak flaring near-white before the trail fades out.",
+  "image": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459-preview.mp4",
+  "likes": 80,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "brutal"
+  ],
+  "keywords": [
+   "before",
+   "characters",
+   "chinese",
+   "cipher",
+   "cjk",
+   "code",
+   "dark",
+   "digital",
+   "each",
+   "fades",
+   "falling",
+   "flaring",
+   "glyph-rain",
+   "glyphs",
+   "green",
+   "interactive",
+   "jade",
+   "matrix",
+   "near",
+   "out",
+   "parallax",
+   "particles",
+   "rain",
+   "shader",
+   "streak",
+   "threejs",
+   "through",
+   "trail",
+   "wall",
+   "white"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "jade-cipher",
+    "groupId": "jade-cipher",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colHead": "#e6fff2",
+     "colTrail": "#3cf59a",
+     "colAmbient": "#123f2b"
+    },
+    "ramp": [
+     "#e6fff2",
+     "#3cf59a",
+     "#123f2b"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459.webp"
+   },
+   {
+    "id": "jade-cipher-001",
+    "groupId": "jade-cipher",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colHead": "#eacee5",
+     "colTrail": "#d37ec8",
+     "colAmbient": "#a24799"
+    },
+    "ramp": [
+     "#eacee5",
+     "#d37ec8",
+     "#a24799"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/66e09308-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/66e09308.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/66e09308.webp"
+   },
+   {
+    "id": "jade-cipher-002",
+    "groupId": "jade-cipher",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colHead": "#0e1e1d",
+     "colTrail": "#40b28b",
+     "colAmbient": "#cfe9da"
+    },
+    "ramp": [
+     "#0e1e1d",
+     "#40b28b",
+     "#cfe9da"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/c159a730-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/c159a730.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/c159a730.webp"
+   },
+   {
+    "id": "jade-cipher-003",
+    "groupId": "jade-cipher",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colHead": "#060f0e",
+     "colTrail": "#3495a2",
+     "colAmbient": "#b7d3e1"
+    },
+    "ramp": [
+     "#060f0e",
+     "#3495a2",
+     "#b7d3e1"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/1a3c7158-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/1a3c7158.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/1a3c7158.webp"
+   },
+   {
+    "id": "jade-cipher-004",
+    "groupId": "jade-cipher",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colHead": "#081206",
+     "colTrail": "#65c229",
+     "colAmbient": "#e3efcd"
+    },
+    "ramp": [
+     "#081206",
+     "#65c229",
+     "#e3efcd"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/a38b7112-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/a38b7112.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/a38b7112.webp"
+   },
+   {
+    "id": "jade-cipher-005",
+    "groupId": "jade-cipher",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colHead": "#221609",
+     "colTrail": "#d48c1f",
+     "colAmbient": "#f1e5ca"
+    },
+    "ramp": [
+     "#221609",
+     "#d48c1f",
+     "#f1e5ca"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/c63e4b65-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/c63e4b65.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/c63e4b65.webp"
+   },
+   {
+    "id": "jade-cipher-006",
+    "groupId": "jade-cipher",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colHead": "#e6f0f4",
+     "colTrail": "#68a1cd",
+     "colAmbient": "#2b4264"
+    },
+    "ramp": [
+     "#e6f0f4",
+     "#68a1cd",
+     "#2b4264"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/f7b02656-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/f7b02656.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jade-cipher-2945f70459/f7b02656.webp"
+   }
+  ],
+  "variantCount": 7
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "jade-cipher.webp": "198930 bytes"
+ }
+}

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:12Z",
+ "fetchedAt": "2026-11-20T15:42:25Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "brewns",
@@ -905,7 +905,7 @@
   "status": "premium"
  },
  "files": {
-  "brewns.webp": "81900 bytes",
-  "brewns-figma.webp": "103404 bytes"
+  "brewns.webp": "cached",
+  "brewns-figma.webp": "cached"
  }
 }

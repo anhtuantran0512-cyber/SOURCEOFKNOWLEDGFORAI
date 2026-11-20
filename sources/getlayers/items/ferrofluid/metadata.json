@@ -1,0 +1,260 @@
+{
+ "fetchedAt": "2026-11-20T15:44:58Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "ferrofluid",
+  "title": "Ferrofluid",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A polished steel spiral stands in a pool of black liquid that climbs its thread in glossy spikes, bristling under your cursor like a magnet. Legal for purchase only on getlayers.ai — getlayers.ai/layer/ferrofluid",
+  "image": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "fluid-iridescent"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "analytic-studio-lighting",
+   "back",
+   "black",
+   "black liquid",
+   "chrome",
+   "click",
+   "click-drop",
+   "climb",
+   "crowns",
+   "cursor",
+   "dark",
+   "dish",
+   "ferrofluid",
+   "fluid",
+   "futuristic",
+   "glossy",
+   "helix",
+   "hero",
+   "interactive",
+   "iridescent",
+   "kodama",
+   "liquid metal",
+   "luxury",
+   "magnet",
+   "magnetic fluid",
+   "minimal",
+   "mirror",
+   "pointer-magnet",
+   "procedural-mesh",
+   "product shot",
+   "raymarching",
+   "reflective",
+   "rise",
+   "rosensweig",
+   "science",
+   "sculpture",
+   "slow",
+   "slump",
+   "spikes",
+   "spiral",
+   "steel",
+   "studio",
+   "technology",
+   "thread",
+   "threejs",
+   "tower"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "ferrofluid",
+    "groupId": "ferrofluid",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#030304",
+     "rimColor": "#3b3e46",
+     "bgHorizon": "#0d0f15",
+     "highlight": "#eef2fa",
+     "floorColor": "#2a2c33",
+     "steelColor": "#c9cdd4"
+    },
+    "ramp": [
+     "#eef2fa",
+     "#c9cdd4",
+     "#3b3e46",
+     "#030304",
+     "#0d0f15",
+     "#2a2c33"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b.webp"
+   },
+   {
+    "id": "ferrofluid-001",
+    "groupId": "ferrofluid",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#080402",
+     "rimColor": "#5a3b1c",
+     "bgHorizon": "#2a1608",
+     "highlight": "#fff1d2",
+     "floorColor": "#3a2614",
+     "steelColor": "#d8b77a"
+    },
+    "ramp": [
+     "#fff1d2",
+     "#d8b77a",
+     "#5a3b1c",
+     "#080402",
+     "#2a1608",
+     "#3a2614"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/66dd52cb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/66dd52cb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/66dd52cb.webp"
+   },
+   {
+    "id": "ferrofluid-002",
+    "groupId": "ferrofluid",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#020606",
+     "rimColor": "#1d4a4a",
+     "bgHorizon": "#07201f",
+     "highlight": "#e6fffb",
+     "floorColor": "#163634",
+     "steelColor": "#b9d6d4"
+    },
+    "ramp": [
+     "#e6fffb",
+     "#b9d6d4",
+     "#1d4a4a",
+     "#020606",
+     "#07201f",
+     "#163634"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/92996a86-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/92996a86.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/92996a86.webp"
+   },
+   {
+    "id": "ferrofluid-003",
+    "groupId": "ferrofluid",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#060102",
+     "rimColor": "#5c1a22",
+     "bgHorizon": "#2a070c",
+     "highlight": "#ffe6e6",
+     "floorColor": "#3a1418",
+     "steelColor": "#d6c2c4"
+    },
+    "ramp": [
+     "#ffe6e6",
+     "#d6c2c4",
+     "#5c1a22",
+     "#060102",
+     "#2a070c",
+     "#3a1418"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/be464cb2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/be464cb2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/be464cb2.webp"
+   },
+   {
+    "id": "ferrofluid-004",
+    "groupId": "ferrofluid",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#14110d",
+     "rimColor": "#6a5a48",
+     "bgHorizon": "#4a3f33",
+     "highlight": "#fff8ea",
+     "floorColor": "#5a4f42",
+     "steelColor": "#d4d0c6"
+    },
+    "ramp": [
+     "#fff8ea",
+     "#d4d0c6",
+     "#6a5a48",
+     "#14110d",
+     "#4a3f33",
+     "#5a4f42"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/77c58056-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/77c58056.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/77c58056.webp"
+   },
+   {
+    "id": "ferrofluid-005",
+    "groupId": "ferrofluid",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#365a4a",
+     "rimColor": "#2e2a2a",
+     "bgHorizon": "#6c9a86",
+     "highlight": "#f6fbf8",
+     "floorColor": "#9cc6b2",
+     "steelColor": "#d9dce2"
+    },
+    "ramp": [
+     "#f6fbf8",
+     "#d9dce2",
+     "#2e2a2a",
+     "#365a4a",
+     "#6c9a86",
+     "#9cc6b2"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/b4ac640a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/b4ac640a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ferrofluid-7d48cdc26b/b4ac640a.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "ferrofluid.webp": "86484 bytes"
+ }
+}

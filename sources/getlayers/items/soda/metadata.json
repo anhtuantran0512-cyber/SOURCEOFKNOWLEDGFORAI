@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:22:24Z",
+ "fetchedAt": "2026-11-20T15:43:26Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "soda",
@@ -371,11 +371,11 @@
   ]
  },
  "prompt": {
-  "status": "ok",
+  "status": "cached",
   "path": "sources/getlayers/prompts/soda.md",
-  "chars": 37158
+  "chars": 37378
  },
  "files": {
-  "soda.webp": "130720 bytes"
+  "soda.webp": "cached"
  }
 }

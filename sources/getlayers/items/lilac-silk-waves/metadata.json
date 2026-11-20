@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:45:41Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lilac-silk-waves",
+  "title": "Lilac Silk Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/lilac-silk-waves-73e7700514.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lilac-silk-waves-73e7700514.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lilac-silk-waves-73e7700514-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "broad",
+   "catching",
+   "cool",
+   "drape",
+   "even",
+   "fabric",
+   "falls",
+   "folds",
+   "glass",
+   "light",
+   "lilac",
+   "linen",
+   "luxury",
+   "pale",
+   "quiet",
+   "silk",
+   "soft",
+   "waves",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lilac-silk-waves.webp": "31330 bytes"
+ }
+}

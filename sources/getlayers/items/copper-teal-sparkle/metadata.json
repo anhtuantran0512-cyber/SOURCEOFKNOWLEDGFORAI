@@ -1,0 +1,57 @@
+{
+ "fetchedAt": "2026-11-20T15:45:58Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "copper-teal-sparkle",
+  "title": "Copper Teal Sparkle",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/copper-teal-sparkle-ec085e8e3a.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/copper-teal-sparkle-ec085e8e3a.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/copper-teal-sparkle-ec085e8e3a-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "and",
+   "bokeh",
+   "bright",
+   "central",
+   "column",
+   "copper",
+   "curtain",
+   "curtains",
+   "expensive",
+   "fall",
+   "festive",
+   "glitter",
+   "light",
+   "particles",
+   "past",
+   "sparkle",
+   "stage",
+   "teal",
+   "vertical"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "copper-teal-sparkle.webp": "577708 bytes"
+ }
+}

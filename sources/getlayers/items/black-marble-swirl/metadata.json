@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:53Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "black-marble-swirl",
+  "title": "Black Marble Swirl",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/black-marble-swirl-754ea96d8b.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/black-marble-swirl-754ea96d8b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/black-marble-swirl-754ea96d8b-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "alive",
+   "black",
+   "come",
+   "dark",
+   "eddy",
+   "elegance",
+   "glass",
+   "glossy",
+   "grey",
+   "ink",
+   "like",
+   "liquid",
+   "marble",
+   "monochrome",
+   "polished",
+   "quiet",
+   "silver",
+   "stirred",
+   "stone",
+   "swirl",
+   "twist",
+   "veins"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "black-marble-swirl.webp": "163512 bytes"
+ }
+}

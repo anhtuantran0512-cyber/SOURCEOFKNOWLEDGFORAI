@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-jellyfish-forest",
+  "title": "Glass Jellyfish Forest",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-jellyfish-forest-7c593fefbe.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-jellyfish-forest-7c593fefbe.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-jellyfish-forest-7c593fefbe-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "around",
+   "crystal",
+   "drift",
+   "forest",
+   "glass",
+   "green",
+   "huge",
+   "hushed",
+   "jellyfish",
+   "landscape",
+   "luminous",
+   "nature",
+   "pale",
+   "pond",
+   "quartz",
+   "sea",
+   "standing",
+   "sunbeams",
+   "sunlit",
+   "tilted",
+   "wandered",
+   "woods"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-jellyfish-forest.webp": "266998 bytes"
+ }
+}

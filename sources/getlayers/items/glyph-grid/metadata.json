@@ -1,0 +1,224 @@
+{
+ "fetchedAt": "2026-11-20T15:44:30Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "glyph-grid",
+  "title": "Glyph Grid",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A drifting field of acid-lime tech glyphs flickering across black, punched through with bold solid rectangles and lit by your cursor.",
+  "image": "https://storage.getlayers.ai/3d_scenes/glyph-grid.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/glyph-grid-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/glyph-grid-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 41,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "brutal"
+  ],
+  "keywords": [
+   "shader",
+   "grid",
+   "glyphs",
+   "tech",
+   "glyph",
+   "drifting",
+   "acid",
+   "lime",
+   "dithered",
+   "across",
+   "black",
+   "voids"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "glyph-grid",
+    "groupId": "glyph-grid",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colBg": "#000000",
+     "colGlyph": "#c2f531"
+    },
+    "ramp": [
+     "#c2f531",
+     "#000000"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glyph-grid.webp"
+   },
+   {
+    "id": "glyph-grid-001",
+    "groupId": "glyph-grid",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colBg": "#e9ecf3",
+     "colGlyph": "#0f191c"
+    },
+    "ramp": [
+     "#0f191c",
+     "#e9ecf3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/458e19f3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/458e19f3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glyph-grid/458e19f3.webp"
+   },
+   {
+    "id": "glyph-grid-002",
+    "groupId": "glyph-grid",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colBg": "#dcdaf2",
+     "colGlyph": "#200f2c"
+    },
+    "ramp": [
+     "#200f2c",
+     "#dcdaf2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/8e5f7247-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/8e5f7247.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glyph-grid/8e5f7247.webp"
+   },
+   {
+    "id": "glyph-grid-003",
+    "groupId": "glyph-grid",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colBg": "#ade1e9",
+     "colGlyph": "#07111a"
+    },
+    "ramp": [
+     "#07111a",
+     "#ade1e9"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/a4715199-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/a4715199.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glyph-grid/a4715199.webp"
+   },
+   {
+    "id": "glyph-grid-004",
+    "groupId": "glyph-grid",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colBg": "#e2b4ce",
+     "colGlyph": "#1d0c0b"
+    },
+    "ramp": [
+     "#1d0c0b",
+     "#e2b4ce"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/735bf26a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/735bf26a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glyph-grid/735bf26a.webp"
+   },
+   {
+    "id": "glyph-grid-005",
+    "groupId": "glyph-grid",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colBg": "#184a5e",
+     "colGlyph": "#dbf3f6"
+    },
+    "ramp": [
+     "#dbf3f6",
+     "#184a5e"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/324c6959-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/324c6959.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glyph-grid/324c6959.webp"
+   },
+   {
+    "id": "glyph-grid-006",
+    "groupId": "glyph-grid",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colBg": "#1a3c67",
+     "colGlyph": "#bbc3ee"
+    },
+    "ramp": [
+     "#bbc3ee",
+     "#1a3c67"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/69820ab9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/69820ab9.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glyph-grid/69820ab9.webp"
+   },
+   {
+    "id": "glyph-grid-007",
+    "groupId": "glyph-grid",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colBg": "#e8e9f1",
+     "colGlyph": "#141d21"
+    },
+    "ramp": [
+     "#141d21",
+     "#e8e9f1"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/6e6c0398-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glyph-grid/6e6c0398.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glyph-grid/6e6c0398.webp"
+   }
+  ],
+  "variantCount": 8
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glyph-grid.webp": "246284 bytes"
+ }
+}

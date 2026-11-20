@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:46:45Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "chrome-flower-face",
+  "title": "Chrome Flower Face",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/chrome-flower-face-6e6be3ab1e.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/chrome-flower-face-6e6be3ab1e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/chrome-flower-face-6e6be3ab1e-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "away",
+   "beneath",
+   "bloom",
+   "blue",
+   "bouquet",
+   "character",
+   "chrome",
+   "coral",
+   "face",
+   "flower",
+   "flowers",
+   "giving",
+   "inside",
+   "life",
+   "liquid",
+   "melting",
+   "metal",
+   "molten",
+   "peels",
+   "reveal",
+   "sky",
+   "strips",
+   "surreal",
+   "way",
+   "wildflowers"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "chrome-flower-face.webp": "129010 bytes"
+ }
+}

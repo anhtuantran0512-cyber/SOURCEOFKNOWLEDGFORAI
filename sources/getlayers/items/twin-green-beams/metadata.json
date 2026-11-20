@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:47:10Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "twin-green-beams",
+  "title": "Twin Green Beams",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/twin-green-beams-21fbd811ab.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/twin-green-beams-21fbd811ab.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/twin-green-beams-21fbd811ab-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "beams",
+   "black",
+   "breaking",
+   "dark",
+   "fine",
+   "glass",
+   "glow",
+   "green",
+   "light",
+   "lights",
+   "line",
+   "lines",
+   "out",
+   "scanlines",
+   "screen",
+   "signal",
+   "splay",
+   "stage",
+   "the",
+   "through",
+   "twin",
+   "upward",
+   "vertical"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "twin-green-beams.webp": "35168 bytes"
+ }
+}

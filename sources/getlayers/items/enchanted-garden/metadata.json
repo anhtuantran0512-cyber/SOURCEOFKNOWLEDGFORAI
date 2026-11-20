@@ -1,0 +1,56 @@
+{
+ "fetchedAt": "2026-11-20T15:45:09Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "enchanted-garden",
+  "title": "Enchanted Garden",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/enchanted-garden-9f3dfe178e.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/enchanted-garden-9f3dfe178e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/enchanted-garden-9f3dfe178e-preview.mp4",
+  "likes": 55,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "garden",
+   "fantasy",
+   "flowers",
+   "lanterns",
+   "purple",
+   "enchanted",
+   "lantern",
+   "lit",
+   "stone",
+   "path",
+   "winding",
+   "through",
+   "violet",
+   "blossoms",
+   "toward",
+   "mossy",
+   "archway",
+   "landscape",
+   "nature"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "enchanted-garden.webp": "294810 bytes"
+ }
+}

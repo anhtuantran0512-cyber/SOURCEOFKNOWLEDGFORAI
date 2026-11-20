@@ -1,0 +1,292 @@
+{
+ "fetchedAt": "2026-11-20T15:44:51Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "kintsugi",
+  "title": "Kintsugi",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A turning marble bust mended with fine gold seams breaks apart under your cursor, shards tumbling with golden insides before settling back whole; a click shatters it entirely. Legal for purchase only on getlayers.ai — getlayers.ai/layer/kintsugi",
+  "image": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3-preview.mp4",
+  "likes": 3,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "art",
+   "away",
+   "broken",
+   "bust",
+   "chromatic aberration",
+   "chromatic-aberration",
+   "classical",
+   "click",
+   "click burst",
+   "click-burst",
+   "cursor",
+   "cursor interaction",
+   "dark",
+   "david",
+   "draco",
+   "elegant",
+   "element",
+   "exploding",
+   "fracture",
+   "gltf-model",
+   "gold",
+   "gold leaf",
+   "gold-leaf",
+   "golden",
+   "heals",
+   "japanese",
+   "kintsugi",
+   "leaf",
+   "lifts",
+   "luxury",
+   "marble",
+   "michelangelo",
+   "museum",
+   "netted",
+   "physical-material",
+   "pieces",
+   "pointer-displacement",
+   "premium",
+   "repair",
+   "reveal",
+   "sculpture",
+   "seams",
+   "shards",
+   "shatter",
+   "shatters",
+   "statue",
+   "stone",
+   "studio",
+   "threejs",
+   "turns",
+   "turntable",
+   "voronoi-fracture",
+   "warm",
+   "whole"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "kintsugi",
+    "groupId": "kintsugi",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#0a0908",
+     "goldDeep": "#8a5a12",
+     "keyColor": "#fff0dc",
+     "rimColor": "#ffd9a0",
+     "fillColor": "#8fa0c0",
+     "goldColor": "#f0a030",
+     "poolColor": "#2a2118",
+     "marbleColor": "#d9d2c6"
+    },
+    "ramp": [
+     "#d9d2c6",
+     "#f0a030",
+     "#8a5a12",
+     "#0a0908",
+     "#2a2118",
+     "#fff0dc",
+     "#8fa0c0",
+     "#ffd9a0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3.webp"
+   },
+   {
+    "id": "kintsugi-001",
+    "groupId": "kintsugi",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#140c06",
+     "goldDeep": "#9a6a10",
+     "keyColor": "#ffe8c8",
+     "rimColor": "#ffc070",
+     "fillColor": "#6a7aa0",
+     "goldColor": "#ffc040",
+     "poolColor": "#5a3418",
+     "marbleColor": "#1c1a1a"
+    },
+    "ramp": [
+     "#1c1a1a",
+     "#ffc040",
+     "#9a6a10",
+     "#140c06",
+     "#5a3418",
+     "#ffe8c8",
+     "#6a7aa0",
+     "#ffc070"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/d1d1e06f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/d1d1e06f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/d1d1e06f.webp"
+   },
+   {
+    "id": "kintsugi-002",
+    "groupId": "kintsugi",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#06100c",
+     "goldDeep": "#b8c4d0",
+     "keyColor": "#f0fff4",
+     "rimColor": "#d8f0ff",
+     "fillColor": "#a0c0d8",
+     "goldColor": "#ffffff",
+     "poolColor": "#1a3a2c",
+     "marbleColor": "#4a9a78"
+    },
+    "ramp": [
+     "#4a9a78",
+     "#ffffff",
+     "#b8c4d0",
+     "#06100c",
+     "#1a3a2c",
+     "#f0fff4",
+     "#a0c0d8",
+     "#d8f0ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/fa6ea22a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/fa6ea22a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/fa6ea22a.webp"
+   },
+   {
+    "id": "kintsugi-003",
+    "groupId": "kintsugi",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#1a0806",
+     "goldDeep": "#8a4a0a",
+     "keyColor": "#ffe0c0",
+     "rimColor": "#ffb070",
+     "fillColor": "#8a6a8a",
+     "goldColor": "#ffb030",
+     "poolColor": "#6a2016",
+     "marbleColor": "#b8603a"
+    },
+    "ramp": [
+     "#b8603a",
+     "#ffb030",
+     "#8a4a0a",
+     "#1a0806",
+     "#6a2016",
+     "#ffe0c0",
+     "#8a6a8a",
+     "#ffb070"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/8cc1a3e0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/8cc1a3e0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/8cc1a3e0.webp"
+   },
+   {
+    "id": "kintsugi-004",
+    "groupId": "kintsugi",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#04060e",
+     "goldDeep": "#9a7020",
+     "keyColor": "#fff4e0",
+     "rimColor": "#ffd890",
+     "fillColor": "#5a7ae0",
+     "goldColor": "#ffd060",
+     "poolColor": "#1a2a5a",
+     "marbleColor": "#2a46a8"
+    },
+    "ramp": [
+     "#2a46a8",
+     "#ffd060",
+     "#9a7020",
+     "#04060e",
+     "#1a2a5a",
+     "#fff4e0",
+     "#5a7ae0",
+     "#ffd890"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/a6ed2bc0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/a6ed2bc0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/a6ed2bc0.webp"
+   },
+   {
+    "id": "kintsugi-005",
+    "groupId": "kintsugi",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#1a1018",
+     "goldDeep": "#7a3a20",
+     "keyColor": "#fff0ec",
+     "rimColor": "#ffb0a0",
+     "fillColor": "#9a80b0",
+     "goldColor": "#e08a5a",
+     "poolColor": "#4a2a3a",
+     "marbleColor": "#e8b4b8"
+    },
+    "ramp": [
+     "#e8b4b8",
+     "#e08a5a",
+     "#7a3a20",
+     "#1a1018",
+     "#4a2a3a",
+     "#fff0ec",
+     "#9a80b0",
+     "#ffb0a0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/2b3b2b93-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/2b3b2b93.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/kintsugi-67c4f962e3/2b3b2b93.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "kintsugi.webp": "85248 bytes"
+ }
+}

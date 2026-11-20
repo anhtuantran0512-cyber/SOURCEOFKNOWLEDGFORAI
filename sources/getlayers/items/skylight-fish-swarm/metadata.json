@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:46:02Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "skylight-fish-swarm",
+  "title": "Skylight Fish Swarm",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Free",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/skylight-fish-swarm-dde3b0821a.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/skylight-fish-swarm-dde3b0821a.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/skylight-fish-swarm-dde3b0821a-preview.mp4",
+  "likes": 5,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "and",
+   "dark",
+   "drift",
+   "filled",
+   "fish",
+   "flooded",
+   "green",
+   "impossible",
+   "landscape",
+   "light-shaft",
+   "lit",
+   "nature",
+   "one",
+   "onto",
+   "open",
+   "quiet",
+   "room",
+   "sea",
+   "skylight",
+   "surreal",
+   "swarm",
+   "that",
+   "through",
+   "trees",
+   "tropical",
+   "underwater",
+   "with"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "skylight-fish-swarm.webp": "154544 bytes"
+ }
+}

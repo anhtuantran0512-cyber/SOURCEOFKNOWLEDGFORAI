@@ -1,0 +1,71 @@
+{
+ "fetchedAt": "2026-11-20T15:45:07Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "pricing-plans",
+  "title": "Spectrum Pricing",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A calm, crisp pricing pair where the Pro card wears a soft sunset-to-violet spectrum across its crown. Legal for purchase only on getlayers.ai — getlayers.ai/layer/pricing-plans",
+  "image": "https://storage.getlayers.ai/sections/pricing-plans-67d0d36f32.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/pricing-plans-67d0d36f32.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/pricing-plans-67d0d36f32-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/pricing-plans-67d0d36f32-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/pricing-plans-67d0d36f32-mobile.mp4",
+  "likes": 7,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "keywords": [
+   "ai writing",
+   "calm",
+   "card",
+   "clean",
+   "crisp",
+   "crown",
+   "free and pro",
+   "gradient",
+   "light",
+   "minimal",
+   "monthly yearly toggle",
+   "pair",
+   "plans",
+   "pricing",
+   "pricing table",
+   "pro",
+   "saas",
+   "saas pricing",
+   "segmented-control",
+   "soft",
+   "spectrum",
+   "subscription",
+   "sunset",
+   "two plans",
+   "two-tier",
+   "violet",
+   "wears"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pricing-plans.webp": "32444 bytes"
+ }
+}

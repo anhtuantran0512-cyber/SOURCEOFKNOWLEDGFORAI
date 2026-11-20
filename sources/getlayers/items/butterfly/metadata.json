@@ -1,0 +1,49 @@
+{
+ "fetchedAt": "2026-11-20T15:45:12Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "butterfly",
+  "title": "Butterfly",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/butterfly-ce4abf2e85.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/butterfly-ce4abf2e85.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/butterfly-ce4abf2e85-preview.mp4",
+  "likes": 28,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "butterfly",
+   "neon",
+   "particles",
+   "glow",
+   "abstract",
+   "woven",
+   "glowing",
+   "particle",
+   "threads",
+   "shimmering",
+   "black",
+   "character"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "butterfly.webp": "104012 bytes"
+ }
+}

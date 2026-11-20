@@ -1,0 +1,258 @@
+{
+ "fetchedAt": "2026-11-20T15:44:58Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "dichroic",
+  "title": "Dichroic",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Panes of hanging dichroic glass in a white daylit gallery each throw a glowing pool of colour onto the pale floor while their faces shine with the opposite hue as the light drifts. Legal for purchase only on getlayers.ai — getlayers.ai/layer/dichroic",
+  "image": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe",
+   "playful"
+  ],
+  "keywords": [
+   "analytic-lighting",
+   "art",
+   "calm",
+   "casting",
+   "click",
+   "click interactive",
+   "click-rehang",
+   "color shadows",
+   "colored glass",
+   "coloured",
+   "coloured light",
+   "complement",
+   "contemporary",
+   "cursor",
+   "cursor look",
+   "custom-shaders",
+   "cyan",
+   "daylight",
+   "daylit",
+   "dichroic",
+   "disc",
+   "drifts",
+   "element",
+   "eye",
+   "face",
+   "floor",
+   "gallery",
+   "glass",
+   "glows",
+   "hanging",
+   "installation",
+   "iridescent",
+   "light",
+   "magenta",
+   "minimal",
+   "moves",
+   "museum",
+   "orange",
+   "panes",
+   "pastel",
+   "pieces",
+   "pink",
+   "pointer-look",
+   "pool",
+   "prism",
+   "rehangs",
+   "slab",
+   "slowly",
+   "spectral-coatings",
+   "spectrum",
+   "standing",
+   "threejs",
+   "white",
+   "white room",
+   "wires"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "dichroic",
+    "groupId": "dichroic",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "skyColor": "#f4f2ee",
+     "wallColor": "#f3f0ea",
+     "floorColor": "#d9d4cc",
+     "lightColor": "#fff2df",
+     "ambientColor": "#34405a"
+    },
+    "ramp": [
+     "#f3f0ea",
+     "#d9d4cc",
+     "#34405a",
+     "#fff2df",
+     "#f4f2ee"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261.webp"
+   },
+   {
+    "id": "dichroic-001",
+    "groupId": "dichroic",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#f4f2ee",
+     "wallColor": "#e8c9c0",
+     "floorColor": "#b48f86",
+     "lightColor": "#fff2df",
+     "ambientColor": "#34405a"
+    },
+    "ramp": [
+     "#e8c9c0",
+     "#b48f86",
+     "#34405a",
+     "#fff2df",
+     "#f4f2ee"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/096136e8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/096136e8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/096136e8.webp"
+   },
+   {
+    "id": "dichroic-002",
+    "groupId": "dichroic",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#f4f2ee",
+     "wallColor": "#d9a07e",
+     "floorColor": "#8f5a40",
+     "lightColor": "#ffd2a0",
+     "ambientColor": "#5a3a30"
+    },
+    "ramp": [
+     "#d9a07e",
+     "#8f5a40",
+     "#5a3a30",
+     "#ffd2a0",
+     "#f4f2ee"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/379e12eb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/379e12eb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/379e12eb.webp"
+   },
+   {
+    "id": "dichroic-003",
+    "groupId": "dichroic",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#f4f2ee",
+     "wallColor": "#f2efe9",
+     "floorColor": "#cfc8bc",
+     "lightColor": "#fff2df",
+     "ambientColor": "#34405a"
+    },
+    "ramp": [
+     "#f2efe9",
+     "#cfc8bc",
+     "#34405a",
+     "#fff2df",
+     "#f4f2ee"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/f137071e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/f137071e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/f137071e.webp"
+   },
+   {
+    "id": "dichroic-004",
+    "groupId": "dichroic",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#f4f2ee",
+     "wallColor": "#2c3a66",
+     "floorColor": "#1d2844",
+     "lightColor": "#e0ebff",
+     "ambientColor": "#3a5088"
+    },
+    "ramp": [
+     "#2c3a66",
+     "#1d2844",
+     "#3a5088",
+     "#e0ebff",
+     "#f4f2ee"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/59656e77-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/59656e77.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/59656e77.webp"
+   },
+   {
+    "id": "dichroic-005",
+    "groupId": "dichroic",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#2f4fd8",
+     "wallColor": "#f3f0ea",
+     "floorColor": "#d9d4cc",
+     "lightColor": "#fff2df",
+     "ambientColor": "#34405a"
+    },
+    "ramp": [
+     "#f3f0ea",
+     "#d9d4cc",
+     "#34405a",
+     "#fff2df",
+     "#2f4fd8"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/bfab2f8c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/bfab2f8c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/dichroic-0e85a68261/bfab2f8c.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "dichroic.webp": "37968 bytes"
+ }
+}

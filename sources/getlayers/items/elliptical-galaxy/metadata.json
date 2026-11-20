@@ -1,0 +1,126 @@
+{
+ "fetchedAt": "2026-11-20T15:44:42Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "elliptical-galaxy",
+  "title": "Elliptical Galaxy",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Free",
+  "description": "A whole sky of tilted golden lens galaxies tumbling and twinkling across a deep-indigo void.",
+  "image": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 68,
+  "createdAt": "2026-05-09",
+  "typeTags": [
+   "galaxy-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "galaxy",
+   "stars",
+   "elliptical",
+   "scattered",
+   "field",
+   "tilted",
+   "golden",
+   "lens",
+   "galaxies",
+   "tumbling",
+   "deep",
+   "indigo",
+   "void",
+   "space"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "elliptical-galaxy",
+    "groupId": "elliptical-galaxy",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "midColor": "#ffb52a",
+     "rimColor": "#3a1402",
+     "atmoColor": "#ffd9a0",
+     "coreColor": "#fff3b0",
+     "cornerBlue": "#ffcf2a",
+     "cornerOrange": "#ff3b1f",
+     "twinkleColor": "#ff5e8a"
+    },
+    "ramp": [
+     "#fff3b0",
+     "#ffb52a",
+     "#3a1402",
+     "#ff5e8a",
+     "#ffcf2a",
+     "#ff3b1f",
+     "#ffd9a0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy.webp"
+   },
+   {
+    "id": "elliptical-galaxy-001",
+    "groupId": "elliptical-galaxy",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "midColor": "#304248",
+     "rimColor": "#47646e",
+     "atmoColor": "#cdd9dd",
+     "coreColor": "#182023",
+     "cornerBlue": "#81a3ae",
+     "cornerOrange": "#a7bec5",
+     "twinkleColor": "#5d8795"
+    },
+    "ramp": [
+     "#182023",
+     "#304248",
+     "#47646e",
+     "#5d8795",
+     "#81a3ae",
+     "#a7bec5",
+     "#cdd9dd"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy/3fc2da75-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy/3fc2da75.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy/3fc2da75.webp"
+   }
+  ],
+  "variantCount": 2
+ },
+ "prompt": {
+  "status": "rate_limited"
+ },
+ "files": {
+  "elliptical-galaxy.webp": "26260 bytes"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:47:03Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "mossy-rose-statue",
+  "title": "Mossy Rose Statue",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/mossy-rose-statue-9c17e64a4c.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/mossy-rose-statue-9c17e64a4c.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/mossy-rose-statue-9c17e64a4c-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "and",
+   "character",
+   "classical",
+   "dark",
+   "flowers",
+   "grey",
+   "grief",
+   "growing",
+   "hands",
+   "head",
+   "melancholy",
+   "moss",
+   "mossy",
+   "overgrown",
+   "pale",
+   "rests",
+   "rose",
+   "roses",
+   "sculpture",
+   "soft",
+   "statue"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "mossy-rose-statue.webp": "203638 bytes"
+ }
+}

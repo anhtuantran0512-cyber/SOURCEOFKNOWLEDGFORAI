@@ -1,0 +1,53 @@
+{
+ "fetchedAt": "2026-11-20T15:45:10Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "stone-arch",
+  "title": "Stone Arch",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/stone-arch-c4d4fdb950.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/stone-arch-c4d4fdb950.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/stone-arch-c4d4fdb950-preview.mp4",
+  "likes": 50,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "arch",
+   "mountains",
+   "mist",
+   "landscape",
+   "stone",
+   "lone",
+   "traveler",
+   "crosses",
+   "moss",
+   "covered",
+   "natural",
+   "above",
+   "misty",
+   "golden",
+   "valley",
+   "nature"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "stone-arch.webp": "141660 bytes"
+ }
+}

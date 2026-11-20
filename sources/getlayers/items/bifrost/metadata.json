@@ -1,0 +1,74 @@
+{
+ "fetchedAt": "2026-11-20T15:45:07Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "bifrost",
+  "title": "Bifrost",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Three tall realms of light on a black stage — silver, lavender and molten orange — each crowned by a metal rune. Legal for purchase only on getlayers.ai — getlayers.ai/layer/bifrost",
+  "image": "https://storage.getlayers.ai/sections/bifrost-de1dac38a4.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/bifrost-de1dac38a4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/bifrost-de1dac38a4-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/bifrost-de1dac38a4-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/bifrost-de1dac38a4-mobile.mp4",
+  "likes": 7,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "features"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "bifrost",
+   "black",
+   "blockchain",
+   "crowned",
+   "crypto",
+   "crypto landing",
+   "dark hero",
+   "dark mode",
+   "defi",
+   "feature cards",
+   "features",
+   "glow cards",
+   "gradient panels",
+   "lavender",
+   "light",
+   "metal",
+   "metallic badge",
+   "molten",
+   "orange",
+   "panels",
+   "product features",
+   "realms",
+   "rune",
+   "rune-badge",
+   "silver",
+   "stage",
+   "tall",
+   "three columns",
+   "triptych",
+   "web3"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "bifrost.webp": "39796 bytes"
+ }
+}

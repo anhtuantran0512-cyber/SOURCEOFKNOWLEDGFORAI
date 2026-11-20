@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:46:50Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "red-orb-glow",
+  "title": "Red Orb Glow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/red-orb-glow-470e9cf808.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/red-orb-glow-470e9cf808.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/red-orb-glow-470e9cf808-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "against",
+   "blue",
+   "breathing",
+   "flat",
+   "glass",
+   "glow",
+   "golden",
+   "gradient",
+   "halo",
+   "meditative",
+   "minimal",
+   "orange",
+   "orb",
+   "periwinkle",
+   "red",
+   "shrinks",
+   "soft",
+   "sun",
+   "swells",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "red-orb-glow.webp": "18260 bytes"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "fetchedAt": "2026-11-20T15:45:07Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "bento-proof-grid",
+  "title": "Bento Proof Grid",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A navy bento of lemon stat tiles, soft icon cards and photo carousels that makes the case for staying. Legal for purchase only on getlayers.ai — getlayers.ai/layer/bento-proof-grid",
+  "image": "https://storage.getlayers.ai/sections/bento-proof-grid-bc6de658ac.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/bento-proof-grid-bc6de658ac.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/bento-proof-grid-bc6de658ac-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/bento-proof-grid-bc6de658ac-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/bento-proof-grid-bc6de658ac-mobile.mp4",
+  "likes": 7,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "features"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "keywords": [
+   "benefits",
+   "bento",
+   "bento grid",
+   "cards",
+   "carousel",
+   "carousels",
+   "case",
+   "counter",
+   "features",
+   "grid",
+   "icon",
+   "lemon",
+   "makes",
+   "navy",
+   "photo",
+   "photo carousel",
+   "proof",
+   "service business",
+   "social proof",
+   "soft",
+   "stat",
+   "statistics",
+   "stats",
+   "staying",
+   "tiles",
+   "why choose us",
+   "yellow"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "bento-proof-grid.webp": "63948 bytes"
+ }
+}

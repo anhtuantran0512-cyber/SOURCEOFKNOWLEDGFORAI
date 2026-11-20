@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:36Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "golden-burst-figure",
+  "title": "Golden Burst Figure",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/golden-burst-figure-57088444b2.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/golden-burst-figure-57088444b2.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/golden-burst-figure-57088444b2-preview.mp4",
+  "likes": 3,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "and",
+   "burst",
+   "character",
+   "chest",
+   "chrome",
+   "deep",
+   "direction",
+   "divine",
+   "energy",
+   "erupts",
+   "every",
+   "expensive",
+   "figure",
+   "from",
+   "gold",
+   "golden",
+   "ignition",
+   "inside",
+   "rays",
+   "space",
+   "stands",
+   "the"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "golden-burst-figure.webp": "222370 bytes"
+ }
+}

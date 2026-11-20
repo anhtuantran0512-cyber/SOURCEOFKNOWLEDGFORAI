@@ -1,0 +1,220 @@
+{
+ "fetchedAt": "2026-11-20T15:44:28Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "orb",
+  "title": "Orb",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A luminous sphere of magenta-and-violet light, breathing softly in the dark with a liquid, iridescent sheen.",
+  "image": "https://storage.getlayers.ai/3d_scenes/orb.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/orb.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/orb-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/orb-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 81,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "fluid-iridescent"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "threejs",
+   "points",
+   "fibonacci-sphere",
+   "oil-slick",
+   "iridescent",
+   "orb",
+   "glowing",
+   "magenta",
+   "violet",
+   "point",
+   "sphere",
+   "viscous",
+   "oil",
+   "bead",
+   "that",
+   "follows",
+   "cursor",
+   "fluid"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "orb",
+    "groupId": "orb",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#170a2b",
+     "colorTop": "#ff52c7",
+     "atmoColor": "#c9a8ff",
+     "colorEdge": "#dbd1ff",
+     "flameColor": "#ff3db0",
+     "colorBottom": "#851eff",
+     "flameColor2": "#7a2dff"
+    },
+    "ramp": [
+     "#170a2b",
+     "#ff3db0",
+     "#7a2dff",
+     "#c9a8ff",
+     "#ff52c7",
+     "#851eff",
+     "#dbd1ff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orb.webp"
+   },
+   {
+    "id": "orb-001",
+    "groupId": "orb",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#0c221e",
+     "colorTop": "#47cbb1",
+     "atmoColor": "#2cad94",
+     "colorEdge": "#a5dfd3",
+     "flameColor": "#194e44",
+     "colorBottom": "#77d4c1",
+     "flameColor2": "#247d6c"
+    },
+    "ramp": [
+     "#0c221e",
+     "#194e44",
+     "#247d6c",
+     "#2cad94",
+     "#47cbb1",
+     "#77d4c1",
+     "#a5dfd3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orb/3818bdae-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orb/3818bdae.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orb/3818bdae.webp"
+   },
+   {
+    "id": "orb-002",
+    "groupId": "orb",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#271d0a",
+     "colorTop": "#dc7a3b",
+     "atmoColor": "#c2681c",
+     "colorEdge": "#e8b4a2",
+     "flameColor": "#583b13",
+     "colorBottom": "#e19570",
+     "flameColor2": "#8b5419"
+    },
+    "ramp": [
+     "#271d0a",
+     "#583b13",
+     "#8b5419",
+     "#c2681c",
+     "#dc7a3b",
+     "#e19570",
+     "#e8b4a2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orb/dcd3d9fe-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orb/dcd3d9fe.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orb/dcd3d9fe.webp"
+   },
+   {
+    "id": "orb-003",
+    "groupId": "orb",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#0d1214",
+     "colorTop": "#8a9ab6",
+     "atmoColor": "#5e789b",
+     "colorEdge": "#e3e5ec",
+     "flameColor": "#293740",
+     "colorBottom": "#b7bed1",
+     "flameColor2": "#44596d"
+    },
+    "ramp": [
+     "#0d1214",
+     "#293740",
+     "#44596d",
+     "#5e789b",
+     "#8a9ab6",
+     "#b7bed1",
+     "#e3e5ec"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orb/f6870ef5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orb/f6870ef5.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orb/f6870ef5.webp"
+   },
+   {
+    "id": "orb-004",
+    "groupId": "orb",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#212514",
+     "colorTop": "#9bc27f",
+     "atmoColor": "#81b04f",
+     "colorEdge": "#deebda",
+     "flameColor": "#455229",
+     "colorBottom": "#bbd6ad",
+     "flameColor2": "#65803d"
+    },
+    "ramp": [
+     "#212514",
+     "#455229",
+     "#65803d",
+     "#81b04f",
+     "#9bc27f",
+     "#bbd6ad",
+     "#deebda"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/orb/aa262219-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/orb/aa262219.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/orb/aa262219.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "orb.webp": "44630 bytes"
+ }
+}

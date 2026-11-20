@@ -1,0 +1,89 @@
+{
+ "fetchedAt": "2026-11-20T15:44:46Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "flying-dust",
+  "title": "Flying Dust",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Free",
+  "description": "Glowing rust-red and amber dust motes drift weightlessly toward you through a deep brown-black void.",
+  "image": "https://storage.getlayers.ai/3d_scenes/flying-dust.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/flying-dust.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/flying-dust-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/flying-dust-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 56,
+  "createdAt": "2026-04-27",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "dust",
+   "embers",
+   "flying",
+   "field",
+   "warm",
+   "ember",
+   "motes",
+   "drifting",
+   "endlessly",
+   "through",
+   "dark"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "flying-dust",
+    "groupId": "flying-dust",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#1a0a04",
+     "dustCool": "#b3401f",
+     "dustWarm": "#ffc46b",
+     "flameColor": "#ff7a2a",
+     "flameColor2": "#ffce5a"
+    },
+    "ramp": [
+     "#1a0a04",
+     "#ff7a2a",
+     "#ffce5a",
+     "#b3401f",
+     "#ffc46b"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/flying-dust-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/flying-dust.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/flying-dust.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "rate_limited"
+ },
+ "files": {
+  "flying-dust.webp": "14946 bytes"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:01Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "colonnade",
+  "title": "Colonnade",
+  "category": "section",
+  "tags": [
+   "section",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An interactive column accordion on warm paper where hovering a chapter slides its lush mesh-gradient panel upward while the last one exits the top — one continuous upward conveyor, headline and caption swapping in sync.",
+  "image": "https://storage.getlayers.ai/sections/colonnade.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/colonnade.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/colonnade-preview.mp4",
+  "likes": 57,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "features"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "accordion",
+   "columns",
+   "features",
+   "editorial",
+   "colonnade",
+   "row",
+   "chapter",
+   "warm",
+   "paper",
+   "each",
+   "sliding",
+   "panel",
+   "upward",
+   "you",
+   "move",
+   "between",
+   "them",
+   "one",
+   "continuous",
+   "conveyor"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "colonnade.webp": "23322 bytes"
+ }
+}

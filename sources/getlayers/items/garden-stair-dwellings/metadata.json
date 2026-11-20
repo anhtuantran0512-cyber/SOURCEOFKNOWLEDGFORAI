@@ -1,0 +1,66 @@
+{
+ "fetchedAt": "2026-11-20T15:46:38Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "garden-stair-dwellings",
+  "title": "Garden Stair Dwellings",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/garden-stair-dwellings-d118bae254.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/garden-stair-dwellings-d118bae254.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/garden-stair-dwellings-d118bae254-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "architecture",
+   "burrows",
+   "dwellings",
+   "edged",
+   "floating",
+   "garden",
+   "green",
+   "hills",
+   "homes",
+   "landscape",
+   "lavender",
+   "lining",
+   "link",
+   "mirror",
+   "moss",
+   "mossy",
+   "nature",
+   "pink",
+   "pool",
+   "round",
+   "soft",
+   "stair",
+   "staircases",
+   "stairs",
+   "still",
+   "tucked",
+   "utopia",
+   "windowed"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "garden-stair-dwellings.webp": "472604 bytes"
+ }
+}

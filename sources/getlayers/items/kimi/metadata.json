@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:22:28Z",
+ "fetchedAt": "2026-11-20T15:43:32Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "kimi",
@@ -924,7 +924,7 @@
   "status": "rate_limited"
  },
  "files": {
-  "kimi.webp": "92608 bytes",
-  "kimi-figma.webp": "126306 bytes"
+  "kimi.webp": "cached",
+  "kimi-figma.webp": "cached"
  }
 }

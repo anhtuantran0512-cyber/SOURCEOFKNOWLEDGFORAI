@@ -1,0 +1,92 @@
+{
+ "fetchedAt": "2026-11-20T15:47:18Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "cyanotype",
+  "title": "Cyanotype",
+  "description": "A hand-coated print: the brush that laid the sensitizer, the dry edge of the coat, and the tooth of the sheet.",
+  "nature": "paper",
+  "family": "material",
+  "tier": "Premium",
+  "likes": 16,
+  "createdAt": "2026-08-24",
+  "shaderHash": "3fb57508ded018b2a5251a4168458805",
+  "hues": [
+   "blue",
+   "indigo",
+   "orange",
+   "neutral",
+   "teal",
+   "red",
+   "green",
+   "pink"
+  ],
+  "variantCount": 2,
+  "variants": [
+   {
+    "id": "cyanotype",
+    "groupId": "cyanotype",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#e6e6dc",
+     "colorB": "#b9ccd6",
+     "colorC": "#5f86a4",
+     "colorD": "#1d3a55",
+     "bgColor": "#f3f0e6"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 16,
+    "previewVideo": "https://storage.getlayers.ai/gradients/cyanotype-4b6e611a02-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/cyanotype-4b6e611a02.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/cyanotype-4b6e611a02.webp"
+   },
+   {
+    "id": "cyanotype-001",
+    "groupId": "cyanotype",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#4b4553",
+     "colorB": "#7d708c",
+     "colorC": "#b0a8b7",
+     "colorD": "#e2dfe4",
+     "bgColor": "#1a181c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "muted",
+    "createdAt": "2026-08-19",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/cyanotype-4b6e611a02/eeeaa66a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/cyanotype-4b6e611a02/eeeaa66a.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/cyanotype-4b6e611a02/eeeaa66a.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cyanotype.webp": "148654 bytes"
+ }
+}

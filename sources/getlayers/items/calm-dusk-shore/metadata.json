@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:58Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "calm-dusk-shore",
+  "title": "Calm Dusk Shore",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/calm-dusk-shore-f62dd516a0.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/calm-dusk-shore-f62dd516a0.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/calm-dusk-shore-f62dd516a0-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "after",
+   "beautifully",
+   "calm",
+   "dark",
+   "dusk",
+   "edge",
+   "empty",
+   "flat",
+   "happening",
+   "headland",
+   "horizon",
+   "hour",
+   "landscape",
+   "minimal",
+   "nature",
+   "nothing",
+   "sea",
+   "shore",
+   "silver",
+   "sits",
+   "sky",
+   "sun",
+   "the",
+   "under"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "calm-dusk-shore.webp": "35450 bytes"
+ }
+}

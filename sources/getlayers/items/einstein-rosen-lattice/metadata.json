@@ -1,0 +1,145 @@
+{
+ "fetchedAt": "2026-11-20T15:44:28Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "einstein-rosen-lattice",
+  "title": "Einstein Rosen Lattice",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A platinum lattice wormhole funnelling down to a glowing throat, warm gold at the mouth and cold sapphire at the flaring rim.",
+  "image": "https://storage.getlayers.ai/3d_scenes/einstein-rosen-lattice-2b24e3c5d4.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/einstein-rosen-lattice-2b24e3c5d4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/einstein-rosen-lattice-2b24e3c5d4-preview.mp4",
+  "likes": 85,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "vortex-tunnel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "catenoid",
+   "cold",
+   "down",
+   "einstein",
+   "flaring",
+   "funnelling",
+   "glowing",
+   "gold",
+   "interactive",
+   "lattice",
+   "mouth",
+   "particles",
+   "platinum",
+   "portal",
+   "raymarch",
+   "rim",
+   "rings",
+   "rosen",
+   "sapphire",
+   "shader",
+   "spacetime",
+   "threejs",
+   "throat",
+   "tunnel",
+   "vortex",
+   "warm",
+   "wormhole"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "einstein-rosen-lattice",
+    "groupId": "einstein-rosen-lattice",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "rimTint": "#5878ff",
+     "glowColor": "#8fb4ff",
+     "lineColor": "#eef3ff",
+     "throatTint": "#ffd9a6"
+    },
+    "ramp": [
+     "#eef3ff",
+     "#ffd9a6",
+     "#5878ff",
+     "#8fb4ff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/einstein-rosen-lattice-2b24e3c5d4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/einstein-rosen-lattice-2b24e3c5d4.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/einstein-rosen-lattice-2b24e3c5d4.webp"
+   },
+   {
+    "id": "einstein-rosen-lattice-001",
+    "groupId": "einstein-rosen-lattice",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "rimTint": "#d2706d",
+     "glowColor": "#eed4d3",
+     "lineColor": "#2b1011",
+     "throatTint": "#912d2d"
+    },
+    "ramp": [
+     "#2b1011",
+     "#912d2d",
+     "#d2706d",
+     "#eed4d3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/einstein-rosen-lattice-2b24e3c5d4/0f7f5bdf-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/einstein-rosen-lattice-2b24e3c5d4/0f7f5bdf.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/einstein-rosen-lattice-2b24e3c5d4/0f7f5bdf.webp"
+   },
+   {
+    "id": "einstein-rosen-lattice-002",
+    "groupId": "einstein-rosen-lattice",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "rimTint": "#83a9ac",
+     "glowColor": "#d6e0e2",
+     "lineColor": "#0b100f",
+     "throatTint": "#426360"
+    },
+    "ramp": [
+     "#0b100f",
+     "#426360",
+     "#83a9ac",
+     "#d6e0e2"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/einstein-rosen-lattice-2b24e3c5d4/7a977848-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/einstein-rosen-lattice-2b24e3c5d4/7a977848.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/einstein-rosen-lattice-2b24e3c5d4/7a977848.webp"
+   }
+  ],
+  "variantCount": 3
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "einstein-rosen-lattice.webp": "333592 bytes"
+ }
+}

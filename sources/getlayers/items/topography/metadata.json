@@ -1,0 +1,292 @@
+{
+ "fetchedAt": "2026-11-20T15:44:22Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "topography",
+  "title": "Topography",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A living relief map at the blue hour: a slate landscape raked by one low gold sun and traced in glowing contour lines that creep as it breathes. Legal for purchase only on getlayers.ai — getlayers.ai/layer/topography",
+  "image": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f-preview.mp4",
+  "likes": 133,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "technical"
+  ],
+  "keywords": [
+   "analytic-antialiasing",
+   "blue",
+   "blue hour",
+   "brand",
+   "breathes",
+   "cartography",
+   "click",
+   "click-scan-ring",
+   "contour",
+   "contour lines",
+   "contour-lines",
+   "creep",
+   "cursor",
+   "dark",
+   "data",
+   "displaced-plane",
+   "drawn",
+   "dusk",
+   "elevation",
+   "glowing",
+   "glowing lines",
+   "gold",
+   "hills",
+   "hillshade",
+   "hour",
+   "isolines",
+   "land",
+   "landscape",
+   "lines",
+   "living",
+   "low",
+   "map",
+   "minimal",
+   "mint",
+   "mountains",
+   "outdoor",
+   "pointer-raise",
+   "raked",
+   "relief",
+   "ring",
+   "rippling",
+   "rising",
+   "scan",
+   "slate",
+   "soft-shadows",
+   "sun",
+   "survey",
+   "teal",
+   "tech",
+   "terrain",
+   "threejs",
+   "topographic",
+   "topography",
+   "waves"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "topography",
+    "groupId": "topography",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "skyColor": "#0c2340",
+     "sunColor": "#ffab55",
+     "hazeColor": "#2a4f74",
+     "highColor": "#ffd36a",
+     "lineColor": "#38e0bd",
+     "scanColor": "#ffffff",
+     "indexColor": "#c8fff0",
+     "groundColor": "#41628f"
+    },
+    "ramp": [
+     "#41628f",
+     "#0c2340",
+     "#2a4f74",
+     "#ffab55",
+     "#38e0bd",
+     "#c8fff0",
+     "#ffd36a",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f.webp"
+   },
+   {
+    "id": "topography-001",
+    "groupId": "topography",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#2a1608",
+     "sunColor": "#ffc070",
+     "hazeColor": "#6a4022",
+     "highColor": "#ffffff",
+     "lineColor": "#ffcf6a",
+     "scanColor": "#ffffff",
+     "indexColor": "#fff2c8",
+     "groundColor": "#5a3a22"
+    },
+    "ramp": [
+     "#5a3a22",
+     "#2a1608",
+     "#6a4022",
+     "#ffc070",
+     "#ffcf6a",
+     "#fff2c8",
+     "#ffffff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/957ff92e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/957ff92e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/957ff92e.webp"
+   },
+   {
+    "id": "topography-002",
+    "groupId": "topography",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#0a0306",
+     "sunColor": "#ff7058",
+     "hazeColor": "#3a0c14",
+     "highColor": "#fff0e0",
+     "lineColor": "#ff2a3a",
+     "scanColor": "#ffffff",
+     "indexColor": "#ffc0b0",
+     "groundColor": "#3a1a1e"
+    },
+    "ramp": [
+     "#3a1a1e",
+     "#0a0306",
+     "#3a0c14",
+     "#ff7058",
+     "#ff2a3a",
+     "#ffc0b0",
+     "#fff0e0",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/e8148f48-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/e8148f48.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/e8148f48.webp"
+   },
+   {
+    "id": "topography-003",
+    "groupId": "topography",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#0e2c3a",
+     "sunColor": "#ffa060",
+     "hazeColor": "#33646f",
+     "highColor": "#ffe6c0",
+     "lineColor": "#fff0dc",
+     "scanColor": "#ffffff",
+     "indexColor": "#ffffff",
+     "groundColor": "#b88a6a"
+    },
+    "ramp": [
+     "#b88a6a",
+     "#0e2c3a",
+     "#33646f",
+     "#ffa060",
+     "#fff0dc",
+     "#ffffff",
+     "#ffe6c0",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/37cfdf50-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/37cfdf50.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/37cfdf50.webp"
+   },
+   {
+    "id": "topography-004",
+    "groupId": "topography",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#081420",
+     "sunColor": "#c8dcff",
+     "hazeColor": "#1a3a3a",
+     "highColor": "#ffffff",
+     "lineColor": "#a8f060",
+     "scanColor": "#ffffff",
+     "indexColor": "#eaffc8",
+     "groundColor": "#2e4a32"
+    },
+    "ramp": [
+     "#2e4a32",
+     "#081420",
+     "#1a3a3a",
+     "#c8dcff",
+     "#a8f060",
+     "#eaffc8",
+     "#ffffff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/e4ca0277-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/e4ca0277.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/e4ca0277.webp"
+   },
+   {
+    "id": "topography-005",
+    "groupId": "topography",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "skyColor": "#2a1a3a",
+     "sunColor": "#ffb0a0",
+     "hazeColor": "#9a6680",
+     "highColor": "#ffe0a8",
+     "lineColor": "#ffc8d0",
+     "scanColor": "#ffffff",
+     "indexColor": "#fff0f0",
+     "groundColor": "#6a4a62"
+    },
+    "ramp": [
+     "#6a4a62",
+     "#2a1a3a",
+     "#9a6680",
+     "#ffb0a0",
+     "#ffc8d0",
+     "#fff0f0",
+     "#ffe0a8",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/7df16d79-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/7df16d79.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/topography-5826c1e30f/7df16d79.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "topography.webp": "92792 bytes"
+ }
+}

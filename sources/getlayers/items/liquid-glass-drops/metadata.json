@@ -1,0 +1,101 @@
+{
+ "fetchedAt": "2026-11-20T15:44:51Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "liquid-glass-drops",
+  "title": "Liquid Glass Drops",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A screen of coloured glass droplets merging and splitting on electric blue, reaching toward the cursor.",
+  "image": "https://storage.getlayers.ai/3d_scenes/liquid-glass-drops-c06c200318.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/liquid-glass-drops-c06c200318.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/liquid-glass-drops-c06c200318-preview.mp4",
+  "likes": 3,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "fluid-iridescent"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "luxe"
+  ],
+  "keywords": [
+   "beads",
+   "blob",
+   "blobs",
+   "blue",
+   "coloured",
+   "cursor",
+   "droplets",
+   "drops",
+   "electric",
+   "fluid",
+   "for",
+   "glass",
+   "goo",
+   "iridescent",
+   "lamp",
+   "lava",
+   "lava-lamp",
+   "liquid",
+   "made",
+   "marching-cubes",
+   "mercury",
+   "merge",
+   "merging",
+   "metaball",
+   "metaballs",
+   "obsidian",
+   "rainbow",
+   "reaches",
+   "reaching",
+   "screen",
+   "splitting",
+   "that",
+   "toward",
+   "you"
+  ],
+  "variants": [
+   {
+    "id": "liquid-glass-drops",
+    "groupId": "liquid-glass-drops",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#001eff",
+     "bgBottom": "#000000",
+     "attenuationColor": "#ffffff"
+    },
+    "ramp": [
+     "#ffffff",
+     "#001eff",
+     "#000000"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/liquid-glass-drops-c06c200318-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/liquid-glass-drops-c06c200318.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/liquid-glass-drops-c06c200318.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "liquid-glass-drops.webp": "95252 bytes"
+ }
+}

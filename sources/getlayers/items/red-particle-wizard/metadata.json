@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:45:32Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "red-particle-wizard",
+  "title": "Red Particle Wizard",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/red-particle-wizard-4aef3fdb7b.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/red-particle-wizard-4aef3fdb7b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/red-particle-wizard-4aef3fdb7b-preview.mp4",
+  "likes": 7,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bearded",
+   "built",
+   "character",
+   "data",
+   "face",
+   "figure",
+   "glowing",
+   "hud",
+   "leans",
+   "lines",
+   "machine",
+   "network",
+   "oracle",
+   "particle",
+   "particles",
+   "red",
+   "table",
+   "the",
+   "with",
+   "wizard"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "red-particle-wizard.webp": "443612 bytes"
+ }
+}

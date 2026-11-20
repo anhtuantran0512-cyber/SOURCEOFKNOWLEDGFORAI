@@ -1,0 +1,216 @@
+{
+ "fetchedAt": "2026-11-20T15:44:50Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "ink-ticker",
+  "title": "Ink Ticker",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A comic-book candlestick chart inked in bold black outlines, scrolling across warm paper.",
+  "image": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48-preview.mp4",
+  "likes": 5,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "keywords": [
+   "across",
+   "and",
+   "arrows",
+   "black",
+   "bold",
+   "book",
+   "candlestick",
+   "cel",
+   "cel-shaded",
+   "chart",
+   "colour",
+   "comic",
+   "element",
+   "finance",
+   "flat",
+   "heavy",
+   "ink",
+   "inked",
+   "line",
+   "manga",
+   "market",
+   "outline",
+   "outlines",
+   "paper",
+   "scrolling",
+   "stocks",
+   "ticker",
+   "toon",
+   "trading",
+   "warm"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "ink-ticker",
+    "groupId": "ink-ticker",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "paper": "#ece9e2",
+     "upColor": "#b4e12a",
+     "downColor": "#8a6cf0",
+     "gridColor": "#a7a294",
+     "lineColor": "#141210",
+     "wickColor": "#211f1c"
+    },
+    "ramp": [
+     "#ece9e2",
+     "#b4e12a",
+     "#8a6cf0",
+     "#211f1c",
+     "#141210",
+     "#a7a294"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48.webp"
+   },
+   {
+    "id": "ink-ticker-001",
+    "groupId": "ink-ticker",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "paper": "#17130f",
+     "upColor": "#4a3f2e",
+     "downColor": "#7f6c4b",
+     "gridColor": "#e7e3da",
+     "lineColor": "#c8bea6",
+     "wickColor": "#ab9871"
+    },
+    "ramp": [
+     "#17130f",
+     "#4a3f2e",
+     "#7f6c4b",
+     "#ab9871",
+     "#c8bea6",
+     "#e7e3da"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48/475c801f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48/475c801f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48/475c801f.webp"
+   },
+   {
+    "id": "ink-ticker-002",
+    "groupId": "ink-ticker",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "paper": "#0e1516",
+     "upColor": "#2d444c",
+     "downColor": "#4a6e84",
+     "gridColor": "#e1e4ed",
+     "lineColor": "#abb8ce",
+     "wickColor": "#7292b1"
+    },
+    "ramp": [
+     "#0e1516",
+     "#2d444c",
+     "#4a6e84",
+     "#7292b1",
+     "#abb8ce",
+     "#e1e4ed"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48/f88b14d8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48/f88b14d8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48/f88b14d8.webp"
+   },
+   {
+    "id": "ink-ticker-003",
+    "groupId": "ink-ticker",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "paper": "#15130c",
+     "upColor": "#494626",
+     "downColor": "#80803f",
+     "gridColor": "#dce2ca",
+     "lineColor": "#c0c895",
+     "wickColor": "#aab05e"
+    },
+    "ramp": [
+     "#15130c",
+     "#494626",
+     "#80803f",
+     "#aab05e",
+     "#c0c895",
+     "#dce2ca"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48/16c060e8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48/16c060e8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48/16c060e8.webp"
+   },
+   {
+    "id": "ink-ticker-004",
+    "groupId": "ink-ticker",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "paper": "#eae2e1",
+     "upColor": "#d2bdbc",
+     "downColor": "#bb9696",
+     "gridColor": "#5a3f43",
+     "lineColor": "#80565b",
+     "wickColor": "#a37073"
+    },
+    "ramp": [
+     "#eae2e1",
+     "#d2bdbc",
+     "#bb9696",
+     "#a37073",
+     "#80565b",
+     "#5a3f43"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48/71bb205b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48/71bb205b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ink-ticker-3d1b51ab48/71bb205b.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "ink-ticker.webp": "43684 bytes"
+ }
+}

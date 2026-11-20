@@ -1,0 +1,51 @@
+{
+ "fetchedAt": "2026-11-20T15:45:23Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "cube",
+  "title": "Cube",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/cube-87d9e63286.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/cube-87d9e63286.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/cube-87d9e63286-preview.mp4",
+  "likes": 15,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "cube",
+   "glass",
+   "surreal",
+   "clouds",
+   "reflection",
+   "glowing",
+   "resting",
+   "still",
+   "water",
+   "amid",
+   "violet",
+   "hills",
+   "dusk",
+   "abstract"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cube.webp": "133304 bytes"
+ }
+}

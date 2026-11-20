@@ -1,0 +1,73 @@
+{
+ "fetchedAt": "2026-11-20T15:45:05Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "quorum",
+  "title": "Quorum",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A bright, airy team intro where portraits and stat pills float around a bold headline, drifting as you move. Legal for purchase only on getlayers.ai — getlayers.ai/layer/quorum",
+  "image": "https://storage.getlayers.ai/sections/quorum-e3c4b55d3e.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/quorum-e3c4b55d3e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/quorum-e3c4b55d3e-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/quorum-e3c4b55d3e-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/quorum-e3c4b55d3e-mobile.mp4",
+  "likes": 20,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "showcase"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "playful"
+  ],
+  "keywords": [
+   "about us",
+   "agency hero",
+   "airy",
+   "around",
+   "bold",
+   "bright",
+   "collage",
+   "consulting",
+   "drifting",
+   "float",
+   "floating portraits",
+   "headline",
+   "hero",
+   "intro",
+   "light hero",
+   "meet the team",
+   "move",
+   "our experts",
+   "parallax",
+   "people",
+   "photo collage",
+   "pills",
+   "portraits",
+   "quorum",
+   "showcase",
+   "stat",
+   "stats pills",
+   "team",
+   "team section"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "quorum.webp": "55790 bytes"
+ }
+}

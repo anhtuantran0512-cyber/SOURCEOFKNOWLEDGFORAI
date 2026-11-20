@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:46:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-room-blossoms",
+  "title": "Glass Room Blossoms",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-room-blossoms-696a40498f.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-room-blossoms-696a40498f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-room-blossoms-696a40498f-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "blossoms",
+   "clouds",
+   "drowned",
+   "floral",
+   "glass",
+   "glowing",
+   "interior",
+   "pastel",
+   "pink",
+   "room",
+   "sits",
+   "sofa",
+   "soft",
+   "spring",
+   "sunset",
+   "tall",
+   "turned",
+   "weightless",
+   "white",
+   "windows"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-room-blossoms.webp": "253866 bytes"
+ }
+}

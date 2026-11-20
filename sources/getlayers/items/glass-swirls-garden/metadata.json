@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:11Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-swirls-garden",
+  "title": "Glass Swirls Garden",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Free",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-swirls-garden-f4c77da844.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-swirls-garden-f4c77da844.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-swirls-garden-f4c77da844-preview.mp4",
+  "likes": 4,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bed",
+   "bloom",
+   "blue",
+   "blue-sky",
+   "bright",
+   "butterflies",
+   "curls",
+   "dense",
+   "flecked",
+   "floral",
+   "flower",
+   "flowers",
+   "garden",
+   "glass",
+   "iridescent",
+   "loud",
+   "out",
+   "ribbons",
+   "rise",
+   "sky",
+   "spring",
+   "swirls",
+   "too",
+   "turned"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "glass-swirls-garden.webp": "127932 bytes"
+ }
+}

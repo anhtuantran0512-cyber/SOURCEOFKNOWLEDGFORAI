@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:25:08Z",
+ "fetchedAt": "2026-11-20T15:43:00Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "aerra",
@@ -584,7 +584,7 @@
   "status": "premium"
  },
  "files": {
-  "aerra.webp": "71916 bytes",
-  "aerra-figma.webp": "57514 bytes"
+  "aerra.webp": "cached",
+  "aerra-figma.webp": "cached"
  }
 }

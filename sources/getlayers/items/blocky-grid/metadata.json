@@ -1,0 +1,299 @@
+{
+ "fetchedAt": "2026-11-20T15:44:29Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "blocky-grid",
+  "title": "Blocky Grid",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A flawless white plane that erupts into glass tiles wherever the cursor passes, sky-blue showing from beneath.",
+  "image": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231-preview.mp4",
+  "likes": 68,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "technical"
+  ],
+  "keywords": [
+   "beneath",
+   "blocky",
+   "blue",
+   "clean",
+   "cubes",
+   "cursor",
+   "emergence",
+   "erupts",
+   "flawless",
+   "glass",
+   "grid",
+   "hero",
+   "hover",
+   "minimal",
+   "minimalism",
+   "mosaic",
+   "passes",
+   "plane",
+   "product",
+   "reveal",
+   "ripple",
+   "showing",
+   "sky",
+   "soft",
+   "squares",
+   "surface",
+   "tech",
+   "terrain",
+   "that",
+   "tiles",
+   "touch",
+   "wakes",
+   "waves",
+   "where",
+   "wherever",
+   "white",
+   "you"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "blocky-grid",
+    "groupId": "blocky-grid",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#f5f7fb",
+     "edgeColor": "#ffffff",
+     "shadeColor": "#d2ddf0",
+     "underColor": "#6f9dff"
+    },
+    "ramp": [
+     "#f5f7fb",
+     "#6f9dff",
+     "#ffffff",
+     "#d2ddf0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231.webp"
+   },
+   {
+    "id": "blocky-grid-001",
+    "groupId": "blocky-grid",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#f2d0da",
+     "edgeColor": "#d83680",
+     "shadeColor": "#8e265e",
+     "underColor": "#e781a7"
+    },
+    "ramp": [
+     "#f2d0da",
+     "#e781a7",
+     "#d83680",
+     "#8e265e"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/bf0d1067-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/bf0d1067.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/bf0d1067.webp"
+   },
+   {
+    "id": "blocky-grid-002",
+    "groupId": "blocky-grid",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#151c10",
+     "edgeColor": "#9eb36e",
+     "shadeColor": "#d6dbc0",
+     "underColor": "#576d39"
+    },
+    "ramp": [
+     "#151c10",
+     "#576d39",
+     "#9eb36e",
+     "#d6dbc0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/ecb4d1ae-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/ecb4d1ae.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/ecb4d1ae.webp"
+   },
+   {
+    "id": "blocky-grid-003",
+    "groupId": "blocky-grid",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#0b1c10",
+     "edgeColor": "#54c59e",
+     "shadeColor": "#b2e0d8",
+     "underColor": "#29784d"
+    },
+    "ramp": [
+     "#0b1c10",
+     "#29784d",
+     "#54c59e",
+     "#b2e0d8"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/5d2ebbd7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/5d2ebbd7.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/5d2ebbd7.webp"
+   },
+   {
+    "id": "blocky-grid-004",
+    "groupId": "blocky-grid",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#0e0909",
+     "edgeColor": "#af8877",
+     "shadeColor": "#e0d6ce",
+     "underColor": "#63423b"
+    },
+    "ramp": [
+     "#0e0909",
+     "#63423b",
+     "#af8877",
+     "#e0d6ce"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/f68856ec-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/f68856ec.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/f68856ec.webp"
+   },
+   {
+    "id": "blocky-grid-005",
+    "groupId": "blocky-grid",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#201223",
+     "edgeColor": "#c886c2",
+     "shadeColor": "#f3e8f1",
+     "underColor": "#823c85"
+    },
+    "ramp": [
+     "#201223",
+     "#823c85",
+     "#c886c2",
+     "#f3e8f1"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/a48170db-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/a48170db.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/a48170db.webp"
+   },
+   {
+    "id": "blocky-grid-006",
+    "groupId": "blocky-grid",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#281511",
+     "edgeColor": "#c77e65",
+     "shadeColor": "#e4ccc1",
+     "underColor": "#83412f"
+    },
+    "ramp": [
+     "#281511",
+     "#83412f",
+     "#c77e65",
+     "#e4ccc1"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/6c093678-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/6c093678.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/6c093678.webp"
+   },
+   {
+    "id": "blocky-grid-007",
+    "groupId": "blocky-grid",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#e0f7f4",
+     "edgeColor": "#27d4a2",
+     "shadeColor": "#1d7051",
+     "underColor": "#81e8d2"
+    },
+    "ramp": [
+     "#e0f7f4",
+     "#81e8d2",
+     "#27d4a2",
+     "#1d7051"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/3cd22919-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/3cd22919.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/3cd22919.webp"
+   },
+   {
+    "id": "blocky-grid-008",
+    "groupId": "blocky-grid",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#d0c5e6",
+     "edgeColor": "#9259c2",
+     "shadeColor": "#764094",
+     "underColor": "#ad8dd5"
+    },
+    "ramp": [
+     "#d0c5e6",
+     "#ad8dd5",
+     "#9259c2",
+     "#764094"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/6b34b252-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/6b34b252.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/blocky-grid-c7d14e9231/6b34b252.webp"
+   }
+  ],
+  "variantCount": 9
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blocky-grid.webp": "34436 bytes"
+ }
+}

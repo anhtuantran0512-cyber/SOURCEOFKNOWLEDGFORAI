@@ -1,0 +1,126 @@
+{
+ "fetchedAt": "2026-11-20T15:44:39Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "storm",
+  "title": "Storm",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Free",
+  "description": "A turbulent plasma orb of glowing points pulses and breathes, glowing from a crimson core to a gold rim.",
+  "image": "https://storage.getlayers.ai/3d_scenes/storm.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/storm.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/storm-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/storm-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 92,
+  "createdAt": "2026-05-16",
+  "typeTags": [
+   "fire-plasma"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "luxe"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "plasma",
+   "orb",
+   "scroll",
+   "storm",
+   "breathing",
+   "magenta",
+   "gold",
+   "that",
+   "swirls",
+   "slowly",
+   "around",
+   "itself",
+   "dark",
+   "fire"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "storm",
+    "groupId": "storm",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#1a0418",
+     "midColor": "#ff2d6b",
+     "rimColor": "#ffd36b",
+     "atmoColor": "#ff7ab0",
+     "coreColor": "#6a0a2a",
+     "flameColor": "#ff2d6b",
+     "flameColor2": "#ffd36b"
+    },
+    "ramp": [
+     "#1a0418",
+     "#ff2d6b",
+     "#ffd36b",
+     "#ff7ab0",
+     "#6a0a2a",
+     "#ff2d6b",
+     "#ffd36b"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/storm-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/storm.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/storm.webp"
+   },
+   {
+    "id": "storm-001",
+    "groupId": "storm",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#dcddd0",
+     "midColor": "#888160",
+     "rimColor": "#706951",
+     "atmoColor": "#afad87",
+     "coreColor": "#9e9971",
+     "flameColor": "#cccdb8",
+     "flameColor2": "#bebea0"
+    },
+    "ramp": [
+     "#dcddd0",
+     "#cccdb8",
+     "#bebea0",
+     "#afad87",
+     "#9e9971",
+     "#888160",
+     "#706951"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/storm/36b49158-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/storm/36b49158.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/storm/36b49158.webp"
+   }
+  ],
+  "variantCount": 2
+ },
+ "prompt": {
+  "status": "rate_limited"
+ },
+ "files": {
+  "storm.webp": "213660 bytes"
+ }
+}

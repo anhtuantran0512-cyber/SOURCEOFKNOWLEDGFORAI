@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:46:50Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "sea-cave-lagoon",
+  "title": "Sea Cave Lagoon",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/sea-cave-lagoon-150d673911.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/sea-cave-lagoon-150d673911.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/sea-cave-lagoon-150d673911-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "below",
+   "boulders",
+   "bright",
+   "cave",
+   "clear",
+   "clear-water",
+   "cliffs",
+   "cool",
+   "cove",
+   "lagoon",
+   "landscape",
+   "light",
+   "limestone",
+   "mediterranean",
+   "nature",
+   "onto",
+   "opens",
+   "pale",
+   "rippling",
+   "sea",
+   "secret",
+   "shimmer",
+   "sky",
+   "summer",
+   "turquoise",
+   "water"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "sea-cave-lagoon.webp": "367682 bytes"
+ }
+}

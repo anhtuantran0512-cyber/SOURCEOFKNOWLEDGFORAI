@@ -66,23 +66,29 @@ original attribution next to every file. Nothing here is sold, relicensed or pre
 
 ## 6. GetLayers — `sources/getlayers/`
 
-- Site: <https://www.getlayers.ai/templates>
-- Collected: **every template in the public catalogue (62)** with the full public record the site ships
-  to the browser — tier, stack, tags, tone, mood, keywords, type tags, publish date, likes, frame
-  timings, Lighthouse scores and audits, and all public asset URLs — plus the 62 poster stills and 40
-  Figma previews.
-- **Free prompts:** copied through the same public server action the "Copy prompt" button calls. That
-  endpoint grants **one prompt per anonymous visitor per day**; after that it answers `rate_limited`
-  ("sign in for unlimited free prompts"). One of the eleven free prompts was captured on the run that
-  built this folder; the rest are listed with their state and can be captured by re-running the
-  collector on a later day or with the reader's own signed-in cookie. No account was created and no
-  limit was worked around.
-- **Premium prompts (51):** the same endpoint answers
-  `{"_apiError":{"code":"forbidden","message":"Upgrade to access this prompt."}}`. They are **not**
-  collected, bypassed, guessed or reconstructed. Each brief links to the live page instead.
-- **Not bundled:** the four mp4 mockups per template and the two Lighthouse HTML reports (~1.1 GB).
-  Their exact URLs are recorded in each `ITEM.md`; `scripts/fetch_getlayers.py --media all` downloads
-  them locally.
+- Sites: <https://www.getlayers.ai/templates> · `/3d-scenes` · `/sections` · `/backgrounds` ·
+  `/gradients`
+- Collected: **every item in all five public catalogues (892)** — 62 templates, 222 3D scenes, 54
+  sections, 530 backgrounds, 24 gradients — with the full public record the site ships to the browser:
+  tier, stack, tags, tone, mood, keywords, type tags, publish date, likes, variants and their colour
+  ramps, frame timings, Lighthouse scores and audits, and all public asset URLs. Plus 892 poster stills
+  and 53 Figma previews.
+- **Free prompts (18: 11 templates + 7 3D scenes):** copied through the same public server actions the
+  "Copy prompt" buttons call. That endpoint grants **one prompt per anonymous visitor per day**; after
+  that it answers `rate_limited` ("sign in for unlimited free prompts"). One prompt (`soda`) was captured
+  on the run that built this folder; the other seventeen are listed with their state and can be captured
+  by re-running the collector on a later day or with the reader's own signed-in cookie. No account was
+  created and no limit was worked around.
+- **Premium prompts (845 premium items, plus the 29 free backgrounds whose prompts need Unlimited Plus):**
+  the endpoint answers `{"_apiError":{"code":"forbidden","message":"Upgrade to access this prompt."}}`
+  — and for backgrounds, *"Background prompts come with Unlimited Plus and Full Stack — free backgrounds
+  stay free to download."* They are **not** collected, bypassed, guessed or reconstructed. Each brief
+  links to the live page instead.
+- **Not bundled:** the published media — **10.0 GB in 5,854 files** (4K hero videos, preview clips, device
+  mockups, Lighthouse HTML reports). GitHub allows 100 MB per file and about 5 GB per repository, so none
+  of it is committed. Every file, its size and its URL is listed in
+  [`sources/getlayers/MEDIA.md`](sources/getlayers/MEDIA.md); `scripts/fetch_getlayers.py --media video`
+  or `--media all` downloads it locally.
 - Rights: previews and prompts remain the property of GetLayers / Textura Agency. They are included for
   personal study and reference with a link back to every item; this repository does not relicense them.
 - If you are the rights holder and want an entry removed, open an issue.

@@ -1,0 +1,102 @@
+{
+ "fetchedAt": "2026-11-20T15:44:52Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "jade-tide",
+  "title": "Jade Tide",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A deep forest-green ink wave curling in on itself, marbled and slow, like a woodblock sea held at the point of breaking.",
+  "image": "https://storage.getlayers.ai/3d_scenes/jade-tide-a465b28254.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/jade-tide-a465b28254.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/jade-tide-a465b28254-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "fluid-iridescent"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "breaking",
+   "curling",
+   "deep",
+   "fbm",
+   "fluid",
+   "forest",
+   "green",
+   "held",
+   "hokusai",
+   "ink",
+   "ink-wave",
+   "interactive",
+   "iridescent",
+   "itself",
+   "jade",
+   "like",
+   "liquid",
+   "marble",
+   "marbled",
+   "particles",
+   "point",
+   "sea",
+   "shader",
+   "slow",
+   "swirl",
+   "threejs",
+   "tide",
+   "wave",
+   "whirlpool",
+   "woodblock"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "jade-tide",
+    "groupId": "jade-tide",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colInk": "#0a1008",
+     "colDeep": "#161f10",
+     "colFoam": "#93a674",
+     "colJade": "#47593a",
+     "colLight": "#63784b"
+    },
+    "ramp": [
+     "#0a1008",
+     "#161f10",
+     "#47593a",
+     "#63784b",
+     "#93a674"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jade-tide-a465b28254-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jade-tide-a465b28254.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jade-tide-a465b28254.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "jade-tide.webp": "75050 bytes"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:46:59Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "frosted-orange-roses",
+  "title": "Frosted Orange Roses",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/frosted-orange-roses-ec470e30a0.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/frosted-orange-roses-ec470e30a0.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/frosted-orange-roses-ec470e30a0-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "and",
+   "behind",
+   "blooms",
+   "blue",
+   "breath",
+   "cool",
+   "cream",
+   "drawn",
+   "floral",
+   "frosted",
+   "glass",
+   "life",
+   "minimal",
+   "once",
+   "orange",
+   "roses",
+   "shadow",
+   "soft",
+   "soft-focus",
+   "stand",
+   "stems",
+   "still",
+   "through",
+   "warm",
+   "window"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "frosted-orange-roses.webp": "21478 bytes"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:45:54Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "copper-ribbon-curl",
+  "title": "Copper Ribbon Curl",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/copper-ribbon-curl-791e024be4.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/copper-ribbon-curl-791e024be4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/copper-ribbon-curl-791e024be4-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "against",
+   "brown",
+   "coils",
+   "confident",
+   "copper",
+   "curl",
+   "curve",
+   "dark",
+   "deep",
+   "gesture",
+   "glass",
+   "lit",
+   "orange",
+   "ribbon",
+   "rim",
+   "sculptural",
+   "shadow",
+   "single",
+   "slow",
+   "softly",
+   "tactile",
+   "thick",
+   "velvet",
+   "velvety",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "copper-ribbon-curl.webp": "89858 bytes"
+ }
+}

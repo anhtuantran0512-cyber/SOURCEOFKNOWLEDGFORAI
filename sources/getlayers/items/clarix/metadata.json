@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:25:10Z",
+ "fetchedAt": "2026-11-20T15:43:01Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "clarix",
@@ -456,6 +456,6 @@
   "status": "premium"
  },
  "files": {
-  "clarix.webp": "231524 bytes"
+  "clarix.webp": "cached"
  }
 }

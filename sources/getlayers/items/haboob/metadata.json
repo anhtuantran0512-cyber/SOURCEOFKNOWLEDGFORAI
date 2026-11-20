@@ -1,0 +1,239 @@
+{
+ "fetchedAt": "2026-11-20T15:44:58Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "haboob",
+  "title": "Haboob",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A weary walk across endless dunes as a pale sun burns through blown dust, wind ripples crossing the crests and far ridges dissolving into amber haze. Legal for purchase only on getlayers.ai — getlayers.ai/layer/haboob",
+  "image": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "organic",
+   "brutal"
+  ],
+  "keywords": [
+   "adaptive-resolution",
+   "amber",
+   "arid",
+   "atmospheric",
+   "blown",
+   "burns",
+   "cinematic",
+   "crests",
+   "crossing",
+   "desert",
+   "dissolving",
+   "dunes",
+   "dust",
+   "dust storm",
+   "endless",
+   "far",
+   "fog",
+   "fragment-shader",
+   "golden",
+   "haboob",
+   "haze",
+   "hazy",
+   "heat",
+   "heightfield",
+   "horizon",
+   "landscape",
+   "low sun",
+   "mirage",
+   "mountains",
+   "ochre",
+   "pale",
+   "pointer-look",
+   "raymarching",
+   "ridges",
+   "ripples",
+   "sahara",
+   "sand",
+   "sandstorm",
+   "sun",
+   "tan",
+   "terrain",
+   "threejs",
+   "walk",
+   "warm",
+   "waves",
+   "weary",
+   "webgl2",
+   "wind"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "haboob",
+    "groupId": "haboob",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "sunCore": "#ffd9a0",
+     "sunHalo": "#ff8a3c",
+     "skyColor": "#5d8fae",
+     "sandColor": "#e3a56b"
+    },
+    "ramp": [
+     "#e3a56b",
+     "#5d8fae",
+     "#ffd9a0",
+     "#ff8a3c"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d.webp"
+   },
+   {
+    "id": "haboob-001",
+    "groupId": "haboob",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "sunCore": "#fff0e0",
+     "sunHalo": "#ff9aa8",
+     "skyColor": "#9ab0d8",
+     "sandColor": "#e6a89a"
+    },
+    "ramp": [
+     "#e6a89a",
+     "#9ab0d8",
+     "#fff0e0",
+     "#ff9aa8"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/1bcdd964-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/1bcdd964.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/1bcdd964.webp"
+   },
+   {
+    "id": "haboob-002",
+    "groupId": "haboob",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "sunCore": "#ffd9a0",
+     "sunHalo": "#ff8a3c",
+     "skyColor": "#2f78c8",
+     "sandColor": "#d89a5a"
+    },
+    "ramp": [
+     "#d89a5a",
+     "#2f78c8",
+     "#ffd9a0",
+     "#ff8a3c"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/b122c77c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/b122c77c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/b122c77c.webp"
+   },
+   {
+    "id": "haboob-003",
+    "groupId": "haboob",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "sunCore": "#ffc8a0",
+     "sunHalo": "#ff7a5a",
+     "skyColor": "#2a3a70",
+     "sandColor": "#8a7a90"
+    },
+    "ramp": [
+     "#8a7a90",
+     "#2a3a70",
+     "#ffc8a0",
+     "#ff7a5a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/83322f10-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/83322f10.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/83322f10.webp"
+   },
+   {
+    "id": "haboob-004",
+    "groupId": "haboob",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "sunCore": "#ffe6c8",
+     "sunHalo": "#ff6a3a",
+     "skyColor": "#7a4a3c",
+     "sandColor": "#b8502e"
+    },
+    "ramp": [
+     "#b8502e",
+     "#7a4a3c",
+     "#ffe6c8",
+     "#ff6a3a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/7db3b45f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/7db3b45f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/7db3b45f.webp"
+   },
+   {
+    "id": "haboob-005",
+    "groupId": "haboob",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "sunCore": "#fff4e0",
+     "sunHalo": "#ffd0a0",
+     "skyColor": "#1f5aa8",
+     "sandColor": "#d0a882"
+    },
+    "ramp": [
+     "#d0a882",
+     "#1f5aa8",
+     "#fff4e0",
+     "#ffd0a0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/43278de8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/43278de8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/haboob-b3946ee41d/43278de8.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "haboob.webp": "29282 bytes"
+ }
+}

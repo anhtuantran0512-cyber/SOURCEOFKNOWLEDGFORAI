@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:46:42Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "navy-prism-glow",
+  "title": "Navy Prism Glow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/navy-prism-glow-d706401626.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/navy-prism-glow-d706401626.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/navy-prism-glow-d706401626-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "amber",
+   "blur",
+   "cobalt",
+   "dark",
+   "deep",
+   "glass",
+   "glow",
+   "horizon",
+   "leaking",
+   "light",
+   "navy",
+   "night",
+   "prism",
+   "quiet",
+   "rainbow",
+   "rises",
+   "soft",
+   "spectrum",
+   "wedge"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "navy-prism-glow.webp": "29460 bytes"
+ }
+}

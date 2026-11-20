@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:46:37Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "desert-arch-sphere",
+  "title": "Desert Arch Sphere",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/desert-arch-sphere",
+  "image": "https://storage.getlayers.ai/backgrounds/desert-arch-sphere-2712caaffe.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/desert-arch-sphere-2712caaffe.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/desert-arch-sphere-2712caaffe-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "arch",
+   "architectural",
+   "beside",
+   "blue",
+   "coloured",
+   "desert",
+   "dunes",
+   "foreground",
+   "golden",
+   "holds",
+   "minimal",
+   "mirage",
+   "monument",
+   "object",
+   "pale",
+   "pool",
+   "product",
+   "quiet",
+   "red",
+   "ripples",
+   "rock",
+   "sand",
+   "sphere",
+   "stairs",
+   "still"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "desert-arch-sphere.webp": "93266 bytes"
+ }
+}

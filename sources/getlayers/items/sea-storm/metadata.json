@@ -1,0 +1,52 @@
+{
+ "fetchedAt": "2026-11-20T15:45:17Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "sea-storm",
+  "title": "Sea Storm",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Free",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/sea-storm.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/sea-storm.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/sea-storm-preview.mp4",
+  "likes": 113,
+  "createdAt": "2026-05-22",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "organic",
+   "brutal"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "sea",
+   "storm",
+   "light",
+   "boat",
+   "single",
+   "shaft",
+   "golden",
+   "breaks",
+   "through",
+   "clouds",
+   "onto",
+   "lone",
+   "landscape",
+   "nature"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "sea-storm.webp": "33806 bytes"
+ }
+}

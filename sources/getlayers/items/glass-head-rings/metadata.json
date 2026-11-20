@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:41Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-head-rings",
+  "title": "Glass Head Rings",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-head-rings-65d5d40bd8.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-head-rings-65d5d40bd8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-head-rings-65d5d40bd8-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "and",
+   "body",
+   "carries",
+   "character",
+   "chrome",
+   "coloured",
+   "fast",
+   "full",
+   "futuristic",
+   "glass",
+   "glowing",
+   "head",
+   "light",
+   "light-trails",
+   "mid",
+   "mind",
+   "molten",
+   "overclocked",
+   "ring",
+   "rings",
+   "sparks",
+   "streaked",
+   "thought",
+   "trails"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-head-rings.webp": "328176 bytes"
+ }
+}

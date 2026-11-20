@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:43Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "orange-light-vortex",
+  "title": "Orange Light Vortex",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/orange-light-vortex-ebc74b4094.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/orange-light-vortex-ebc74b4094.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/orange-light-vortex-ebc74b4094-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "black",
+   "burn",
+   "burning",
+   "centre",
+   "dark",
+   "fine",
+   "fire",
+   "flaring",
+   "flower",
+   "glass",
+   "hundreds",
+   "hypnotic",
+   "light",
+   "like",
+   "orange",
+   "outward",
+   "pulled",
+   "spiral",
+   "streaks",
+   "violet",
+   "vortex"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "orange-light-vortex.webp": "218910 bytes"
+ }
+}

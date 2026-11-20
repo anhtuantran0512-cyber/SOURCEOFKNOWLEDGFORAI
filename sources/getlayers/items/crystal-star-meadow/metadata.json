@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:57Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "crystal-star-meadow",
+  "title": "Crystal Star Meadow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/crystal-star-meadow-7fb0fd0bab.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/crystal-star-meadow-7fb0fd0bab.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/crystal-star-meadow-7fb0fd0bab-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "among",
+   "blossom",
+   "bright",
+   "candyfloss",
+   "crystal",
+   "faceted",
+   "field",
+   "green",
+   "hill",
+   "landscape",
+   "left",
+   "meadow",
+   "nature",
+   "pink",
+   "prism",
+   "spring",
+   "spun",
+   "standing",
+   "stands",
+   "star",
+   "sugar",
+   "trees",
+   "wish"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "crystal-star-meadow.webp": "214944 bytes"
+ }
+}

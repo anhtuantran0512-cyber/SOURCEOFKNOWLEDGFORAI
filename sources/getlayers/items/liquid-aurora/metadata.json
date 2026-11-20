@@ -1,0 +1,103 @@
+{
+ "fetchedAt": "2026-11-20T15:44:31Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "liquid-aurora",
+  "title": "Liquid Aurora",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Tall chromatic tongues of liquid light rise and fold through a glowing spectrum, traced by thin dark creases like ink swirling in glass.",
+  "image": "https://storage.getlayers.ai/3d_scenes/liquid-aurora.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/liquid-aurora.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/liquid-aurora-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/liquid-aurora-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 33,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "luxe"
+  ],
+  "keywords": [
+   "shader",
+   "gradient",
+   "chromatic",
+   "fluid",
+   "aurora",
+   "liquid",
+   "slow",
+   "folding",
+   "ribbon",
+   "spectrum",
+   "rising",
+   "tall",
+   "tongues"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "liquid-aurora",
+    "groupId": "liquid-aurora",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colLav": "#c3b3ff",
+     "colRed": "#ff3c12",
+     "colBlue": "#1f4dff",
+     "colCyan": "#34d4d0",
+     "colNavy": "#0b1230",
+     "colPink": "#f0dbe6",
+     "colTeal": "#1d83ad",
+     "colCream": "#f3f1d6",
+     "colCrease": "#070318",
+     "colMaroon": "#4159d2",
+     "colViolet": "#8475ff"
+    },
+    "ramp": [
+     "#4159d2",
+     "#1f4dff",
+     "#34d4d0",
+     "#f3f1d6",
+     "#c3b3ff",
+     "#8475ff",
+     "#070318",
+     "#ff3c12",
+     "#0b1230",
+     "#1d83ad",
+     "#f0dbe6"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/liquid-aurora-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/liquid-aurora.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/liquid-aurora.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "liquid-aurora.webp": "173144 bytes"
+ }
+}

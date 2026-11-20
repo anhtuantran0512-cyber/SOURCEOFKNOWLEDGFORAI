@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:38Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "floral-sea-terrace",
+  "title": "Floral Sea Terrace",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/floral-sea-terrace-24306ca262.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/floral-sea-terrace-24306ca262.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/floral-sea-terrace-24306ca262-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bloomed",
+   "daisies",
+   "floral",
+   "flowers",
+   "fuzzy",
+   "green",
+   "hanging",
+   "holiday",
+   "interior",
+   "mornings",
+   "moss",
+   "overflows",
+   "pastel",
+   "pink",
+   "roses",
+   "sea",
+   "seaside",
+   "seats",
+   "soft",
+   "sunny",
+   "terrace",
+   "vines"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "floral-sea-terrace.webp": "374164 bytes"
+ }
+}

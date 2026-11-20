@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:27Z",
+ "fetchedAt": "2026-11-20T15:42:35Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "wanderlust",
@@ -574,7 +574,7 @@
   "status": "premium"
  },
  "files": {
-  "wanderlust.webp": "62010 bytes",
-  "wanderlust-figma.webp": "145126 bytes"
+  "wanderlust.webp": "cached",
+  "wanderlust-figma.webp": "cached"
  }
 }

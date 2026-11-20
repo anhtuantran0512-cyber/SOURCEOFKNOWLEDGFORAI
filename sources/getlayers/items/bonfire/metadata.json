@@ -1,0 +1,50 @@
+{
+ "fetchedAt": "2026-11-20T15:45:30Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "bonfire",
+  "title": "Bonfire",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/bonfire-d5bae03340.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/bonfire-d5bae03340.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/bonfire-d5bae03340-preview.mp4",
+  "likes": 9,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "fire",
+   "bonfire",
+   "night",
+   "warm",
+   "nature",
+   "small",
+   "campfire",
+   "crackling",
+   "amber",
+   "flame",
+   "surrounding",
+   "blue",
+   "landscape"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "bonfire.webp": "51972 bytes"
+ }
+}

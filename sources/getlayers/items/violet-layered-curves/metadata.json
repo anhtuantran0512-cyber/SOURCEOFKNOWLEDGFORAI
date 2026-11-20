@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:47:10Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "violet-layered-curves",
+  "title": "Violet Layered Curves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/violet-layered-curves-532dc923cd.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/violet-layered-curves-532dc923cd.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/violet-layered-curves-532dc923cd-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "and",
+   "cobalt",
+   "concentric",
+   "curves",
+   "deep",
+   "deliberate",
+   "folded",
+   "glass",
+   "gradient",
+   "into",
+   "layered",
+   "layers",
+   "pale",
+   "paper",
+   "pink",
+   "smooth",
+   "sunrise",
+   "sweep",
+   "through",
+   "violet"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "violet-layered-curves.webp": "44840 bytes"
+ }
+}

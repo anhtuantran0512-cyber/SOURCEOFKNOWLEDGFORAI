@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:46:52Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "chained-blue-figure",
+  "title": "Chained Blue Figure",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/chained-blue-figure-a3224619d5.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/chained-blue-figure-a3224619d5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/chained-blue-figure-a3224619d5-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "and",
+   "blue",
+   "bound",
+   "centre",
+   "chained",
+   "chains",
+   "character",
+   "cold",
+   "dark",
+   "drag",
+   "figure",
+   "heavy",
+   "held",
+   "off",
+   "place",
+   "smoke",
+   "stands",
+   "surreal",
+   "that",
+   "translucent"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "chained-blue-figure.webp": "102900 bytes"
+ }
+}

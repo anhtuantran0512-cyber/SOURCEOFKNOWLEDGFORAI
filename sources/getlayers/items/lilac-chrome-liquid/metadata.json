@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:49Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lilac-chrome-liquid",
+  "title": "Lilac Chrome Liquid",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/lilac-chrome-liquid-87ff2f09c7.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lilac-chrome-liquid-87ff2f09c7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lilac-chrome-liquid-87ff2f09c7-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "chrome",
+   "cyan",
+   "electric",
+   "flashing",
+   "folds",
+   "glass",
+   "holographic",
+   "iridescent",
+   "lilac",
+   "liquid",
+   "melts",
+   "metal",
+   "mirror",
+   "molten",
+   "peach",
+   "poured",
+   "pulse",
+   "ripples",
+   "tall",
+   "vertical",
+   "violet"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lilac-chrome-liquid.webp": "186602 bytes"
+ }
+}

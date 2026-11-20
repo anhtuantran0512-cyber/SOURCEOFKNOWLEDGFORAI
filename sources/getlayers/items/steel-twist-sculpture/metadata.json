@@ -1,0 +1,57 @@
+{
+ "fetchedAt": "2026-11-20T15:47:07Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "steel-twist-sculpture",
+  "title": "Steel Twist Sculpture",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/steel-twist-sculpture-f894cb89e8.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/steel-twist-sculpture-f894cb89e8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/steel-twist-sculpture-f894cb89e8-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "bare",
+   "floor",
+   "gallery",
+   "lit",
+   "minimal",
+   "object",
+   "one",
+   "product",
+   "restraint",
+   "ribbed",
+   "sculpture",
+   "steel",
+   "tall",
+   "twist",
+   "twists",
+   "wall",
+   "well",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "steel-twist-sculpture.webp": "104768 bytes"
+ }
+}

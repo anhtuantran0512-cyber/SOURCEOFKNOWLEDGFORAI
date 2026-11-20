@@ -1,0 +1,99 @@
+{
+ "fetchedAt": "2026-11-20T15:44:29Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "universe",
+  "title": "Universe",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Premium",
+  "description": "Twin point galaxies in blue and steel-gray paint themselves outward on expanding ellipses through a dark void.",
+  "image": "https://storage.getlayers.ai/3d_scenes/universe.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/universe.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/universe-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/universe-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 75,
+  "createdAt": "2026-06-08",
+  "typeTags": [
+   "galaxy-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "technical"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "galaxy",
+   "space",
+   "scroll",
+   "universe",
+   "twin",
+   "deep",
+   "blue",
+   "point",
+   "galaxies",
+   "painting",
+   "themselves",
+   "outward",
+   "across",
+   "silent",
+   "steel",
+   "lit",
+   "void"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "universe",
+    "groupId": "universe",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#070b18",
+     "colorMid": "#7d8aa8",
+     "atmoColor": "#bcd0ff",
+     "colorDeep": "#1e4cff",
+     "flameColor": "#2f6bff",
+     "colorBright": "#cfe0ff",
+     "flameColor2": "#9fb2d8"
+    },
+    "ramp": [
+     "#1e4cff",
+     "#7d8aa8",
+     "#cfe0ff",
+     "#070b18",
+     "#2f6bff",
+     "#9fb2d8",
+     "#bcd0ff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/universe-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/universe.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/universe.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "universe.webp": "192894 bytes"
+ }
+}

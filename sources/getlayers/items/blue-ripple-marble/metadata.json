@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:56Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-ripple-marble",
+  "title": "Blue Ripple Marble",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-ripple-marble-fe705ff8a3.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blue-ripple-marble-fe705ff8a3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blue-ripple-marble-fe705ff8a3-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "blue",
+   "breaking",
+   "concentric",
+   "dropped",
+   "edges",
+   "field",
+   "glass",
+   "glitch",
+   "marble",
+   "marbled",
+   "paint",
+   "pattern",
+   "pixel",
+   "pixels",
+   "ripple",
+   "ripples",
+   "soft",
+   "spread",
+   "stone",
+   "through",
+   "weather",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-ripple-marble.webp": "221810 bytes"
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "fetchedAt": "2026-11-20T15:44:29Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "pixel-glass",
+  "title": "Pixel Glass",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A chunky pixel glyph cast in clear glass, adrift in a starfield and bending the wordmark burning behind it.",
+  "image": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d-preview.mp4",
+  "likes": 79,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "keywords": [
+   "adrift",
+   "behind",
+   "bending",
+   "burning",
+   "cast",
+   "chunky",
+   "clear",
+   "element",
+   "extrude",
+   "glass",
+   "glyph",
+   "interactive",
+   "nebula",
+   "particles",
+   "pixel",
+   "refraction",
+   "retro",
+   "starfield",
+   "threejs",
+   "transmission",
+   "transmission-glass",
+   "voxel",
+   "wordmark"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "pixel-glass",
+    "groupId": "pixel-glass",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "haze": "#3a5cf0",
+     "nebula": "#263aa8",
+     "glassColor": "#f2f6ff",
+     "interiorTint": "#bcd2ff"
+    },
+    "ramp": [
+     "#f2f6ff",
+     "#bcd2ff",
+     "#263aa8",
+     "#3a5cf0"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d.webp"
+   },
+   {
+    "id": "pixel-glass-001",
+    "groupId": "pixel-glass",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "haze": "#96518e",
+     "nebula": "#b873bb",
+     "glassColor": "#e1d4e8",
+     "interiorTint": "#c9a3d2"
+    },
+    "ramp": [
+     "#e1d4e8",
+     "#c9a3d2",
+     "#b873bb",
+     "#96518e"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d/25c792e2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d/25c792e2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d/25c792e2.webp"
+   },
+   {
+    "id": "pixel-glass-002",
+    "groupId": "pixel-glass",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "haze": "#595281",
+     "nebula": "#7275ac",
+     "glassColor": "#d2d9e2",
+     "interiorTint": "#a1abc8"
+    },
+    "ramp": [
+     "#d2d9e2",
+     "#a1abc8",
+     "#7275ac",
+     "#595281"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d/6450a889-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d/6450a889.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d/6450a889.webp"
+   },
+   {
+    "id": "pixel-glass-003",
+    "groupId": "pixel-glass",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "haze": "#343b48",
+     "nebula": "#5f6b8b",
+     "glassColor": "#dfdfe8",
+     "interiorTint": "#9ca1bc"
+    },
+    "ramp": [
+     "#dfdfe8",
+     "#9ca1bc",
+     "#5f6b8b",
+     "#343b48"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d/70fc7733-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d/70fc7733.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d/70fc7733.webp"
+   },
+   {
+    "id": "pixel-glass-004",
+    "groupId": "pixel-glass",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "haze": "#4e4f23",
+     "nebula": "#ac9e40",
+     "glassColor": "#f6f0ea",
+     "interiorTint": "#d6c190"
+    },
+    "ramp": [
+     "#f6f0ea",
+     "#d6c190",
+     "#ac9e40",
+     "#4e4f23"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d/ac845a84-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d/ac845a84.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/pixel-glass-a9ff4b0b3d/ac845a84.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pixel-glass.webp": "42796 bytes"
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "fetchedAt": "2026-11-20T15:45:49Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lilac-glass-swell",
+  "title": "Lilac Glass Swell",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/lilac-glass-swell-9c1e2a22f4.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lilac-glass-swell-9c1e2a22f4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lilac-glass-swell-9c1e2a22f4-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "blue",
+   "bubbles",
+   "clinging",
+   "cool",
+   "dotted",
+   "glass",
+   "glossy",
+   "holographic",
+   "iridescent",
+   "lilac",
+   "liquid",
+   "swell",
+   "swirl",
+   "tide",
+   "tiny",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lilac-glass-swell.webp": "194130 bytes"
+ }
+}

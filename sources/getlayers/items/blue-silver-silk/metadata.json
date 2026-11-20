@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:46:56Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-silver-silk",
+  "title": "Blue Silver Silk",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-silver-silk-b303f675aa.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blue-silver-silk-b303f675aa.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blue-silver-silk-b303f675aa-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "blue",
+   "cobalt",
+   "cold",
+   "crease",
+   "drape",
+   "every",
+   "expensive",
+   "fabric",
+   "fall",
+   "folds",
+   "glass",
+   "highlight",
+   "length",
+   "running",
+   "satin",
+   "sheen",
+   "silk",
+   "silver",
+   "through"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-silver-silk.webp": "131804 bytes"
+ }
+}

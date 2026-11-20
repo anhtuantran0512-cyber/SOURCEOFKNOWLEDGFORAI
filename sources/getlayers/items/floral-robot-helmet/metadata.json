@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:59Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "floral-robot-helmet",
+  "title": "Floral Robot Helmet",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/floral-robot-helmet-b167d86845.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/floral-robot-helmet-b167d86845.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/floral-robot-helmet-b167d86845-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "away",
+   "blossom",
+   "character",
+   "dome",
+   "fiction",
+   "floral",
+   "flowers",
+   "full",
+   "glass",
+   "hearts",
+   "helmet",
+   "machine",
+   "packed",
+   "pink",
+   "portrait",
+   "robot",
+   "science",
+   "soft",
+   "surreal",
+   "tiny",
+   "turns",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "floral-robot-helmet.webp": "127288 bytes"
+ }
+}

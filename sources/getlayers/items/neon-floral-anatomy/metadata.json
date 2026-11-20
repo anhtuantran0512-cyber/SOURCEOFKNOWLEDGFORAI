@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:47:04Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "neon-floral-anatomy",
+  "title": "Neon Floral Anatomy",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/neon-floral-anatomy-67d2286230.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/neon-floral-anatomy-67d2286230.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/neon-floral-anatomy-67d2286230-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "anatomical",
+   "anatomy",
+   "biology",
+   "black",
+   "body",
+   "brain",
+   "carries",
+   "character",
+   "chest",
+   "figure",
+   "floral",
+   "flowers",
+   "for",
+   "full",
+   "glow",
+   "glowing",
+   "heart",
+   "light",
+   "like",
+   "lit",
+   "luminous",
+   "neon",
+   "nightclub",
+   "wired"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "neon-floral-anatomy.webp": "176348 bytes"
+ }
+}

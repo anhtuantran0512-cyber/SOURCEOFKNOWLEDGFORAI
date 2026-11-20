@@ -1,0 +1,66 @@
+{
+ "fetchedAt": "2026-11-20T15:46:57Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "dandelion-bokeh-glow",
+  "title": "Dandelion Bokeh Glow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/dandelion-bokeh-glow-5e1dc33d6b.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/dandelion-bokeh-glow-5e1dc33d6b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/dandelion-bokeh-glow-5e1dc33d6b-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "across",
+   "almost",
+   "blooms",
+   "bokeh",
+   "can",
+   "clock",
+   "dandelion",
+   "deep",
+   "fat",
+   "floral",
+   "foreground",
+   "glow",
+   "gold",
+   "golden",
+   "green",
+   "hear",
+   "hedge",
+   "late",
+   "light",
+   "macro",
+   "shade",
+   "shallow-focus",
+   "sits",
+   "softness",
+   "summer",
+   "through",
+   "while",
+   "you"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "dandelion-bokeh-glow.webp": "190296 bytes"
+ }
+}

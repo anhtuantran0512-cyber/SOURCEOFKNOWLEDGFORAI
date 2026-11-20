@@ -1,0 +1,197 @@
+{
+ "fetchedAt": "2026-11-20T15:44:54Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "jenga-tower",
+  "title": "Jenga Tower",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A Jenga tower standing in infinite white — knock it down with a click, and watch it rebuild itself.",
+  "image": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "keywords": [
+   "balance",
+   "beams",
+   "before",
+   "blocks",
+   "clean",
+   "click",
+   "collapse",
+   "down",
+   "element",
+   "fall",
+   "game",
+   "infinite",
+   "invites",
+   "itself",
+   "jenga",
+   "knock",
+   "physics",
+   "product",
+   "rebuild",
+   "shove",
+   "space",
+   "stack",
+   "standing",
+   "tension",
+   "that",
+   "the",
+   "tower",
+   "toy",
+   "tumble",
+   "watch",
+   "white",
+   "white-studio"
+  ],
+  "variants": [
+   {
+    "id": "jenga-tower",
+    "groupId": "jenga-tower",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#ffffff",
+     "bgBottom": "#e7eaee",
+     "blockTint": "#575757",
+     "groundShade": "#c6ccd4"
+    },
+    "ramp": [
+     "#ffffff",
+     "#e7eaee",
+     "#c6ccd4",
+     "#575757"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5.webp"
+   },
+   {
+    "id": "jenga-tower-001",
+    "groupId": "jenga-tower",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#d1d6ee",
+     "bgBottom": "#9493df",
+     "blockTint": "#633a9d",
+     "groundShade": "#7157cd"
+    },
+    "ramp": [
+     "#d1d6ee",
+     "#9493df",
+     "#7157cd",
+     "#633a9d"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5/732ddf4a-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5/732ddf4a.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5/732ddf4a.webp"
+   },
+   {
+    "id": "jenga-tower-002",
+    "groupId": "jenga-tower",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#ead5be",
+     "bgBottom": "#db976f",
+     "blockTint": "#6b2622",
+     "groundShade": "#bd4d2f"
+    },
+    "ramp": [
+     "#ead5be",
+     "#db976f",
+     "#bd4d2f",
+     "#6b2622"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5/7d7fd558-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5/7d7fd558.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5/7d7fd558.webp"
+   },
+   {
+    "id": "jenga-tower-003",
+    "groupId": "jenga-tower",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#e3cbdb",
+     "bgBottom": "#c486a6",
+     "blockTint": "#552e37",
+     "groundShade": "#9b4b69"
+    },
+    "ramp": [
+     "#e3cbdb",
+     "#c486a6",
+     "#9b4b69",
+     "#552e37"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5/ca2edc79-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5/ca2edc79.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5/ca2edc79.webp"
+   },
+   {
+    "id": "jenga-tower-004",
+    "groupId": "jenga-tower",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#ece4e7",
+     "bgBottom": "#cbb3c1",
+     "blockTint": "#7f5b7d",
+     "groundShade": "#aa82a1"
+    },
+    "ramp": [
+     "#ece4e7",
+     "#cbb3c1",
+     "#aa82a1",
+     "#7f5b7d"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5/ff03d5ac-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5/ff03d5ac.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/jenga-tower-ae3b1f9ec5/ff03d5ac.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "jenga-tower.webp": "32792 bytes"
+ }
+}

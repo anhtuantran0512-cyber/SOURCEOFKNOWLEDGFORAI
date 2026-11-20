@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:35Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lava-moss-bloom",
+  "title": "Lava Moss Bloom",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark. Legal for purchase only on getlayers.ai — getlayers.ai/layer/lava-moss-bloom",
+  "image": "https://storage.getlayers.ai/backgrounds/lava-moss-bloom-6ee95afb4b.webp",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "brutal"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "beside",
+   "black",
+   "bloom",
+   "blooming",
+   "cling",
+   "dew",
+   "dewy",
+   "fire",
+   "flowers",
+   "fragile",
+   "glowing",
+   "hot",
+   "landscape",
+   "lava",
+   "life",
+   "moss",
+   "nature",
+   "orange",
+   "river",
+   "rock",
+   "stone",
+   "tiny",
+   "volcanic",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lava-moss-bloom.webp": "200152 bytes"
+ }
+}

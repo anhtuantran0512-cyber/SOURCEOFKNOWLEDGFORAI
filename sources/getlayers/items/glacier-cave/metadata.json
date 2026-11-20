@@ -1,0 +1,267 @@
+{
+ "fetchedAt": "2026-11-20T15:44:20Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "glacier-cave",
+  "title": "Glacier Cave",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Drift endlessly through a glowing blue ice cave toward a white mouth of daylight, your warm headlamp sweeping scalloped walls as meltwater drops ring across the pool. Legal for purchase only on getlayers.ai — getlayers.ai/layer/glacier-cave",
+  "image": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8-preview.mp4",
+  "likes": 144,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "keywords": [
+   "arctic",
+   "blue",
+   "blue ice",
+   "cave",
+   "click-drip",
+   "cold",
+   "crystals",
+   "daylight",
+   "drift",
+   "drops",
+   "endless",
+   "endless-drift",
+   "endlessly",
+   "exploration",
+   "explore",
+   "flashlight",
+   "frost",
+   "frozen",
+   "glacial",
+   "glacier",
+   "glowing",
+   "headlamp",
+   "headlamp-pointer",
+   "ice",
+   "ice cave",
+   "ice-cave",
+   "iceland",
+   "infinite",
+   "intro-sequence",
+   "meltwater",
+   "mouth",
+   "particles",
+   "pool",
+   "procedural-voronoi",
+   "raymarching",
+   "ring",
+   "scalloped",
+   "serene",
+   "subsurface-scattering",
+   "sweeping",
+   "terrain",
+   "threejs",
+   "translucent",
+   "tunnel",
+   "turquoise",
+   "underground",
+   "vatnajokull",
+   "walls",
+   "warm",
+   "water drip",
+   "waves",
+   "white",
+   "winter"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "glacier-cave",
+    "groupId": "glacier-cave",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "iceTint": "#5ec7eb",
+     "daylight": "#e6f2ff",
+     "sediment": "#1c1a19",
+     "hazeColor": "#9fdcff",
+     "lampColor": "#ffb860",
+     "mouthColor": "#eef8ff"
+    },
+    "ramp": [
+     "#5ec7eb",
+     "#e6f2ff",
+     "#eef8ff",
+     "#1c1a19",
+     "#ffb860",
+     "#9fdcff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8.webp"
+   },
+   {
+    "id": "glacier-cave-001",
+    "groupId": "glacier-cave",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "iceTint": "#48a2dc",
+     "daylight": "#e6f2ff",
+     "sediment": "#1c1a19",
+     "hazeColor": "#8cc4ff",
+     "lampColor": "#ffc070",
+     "mouthColor": "#eef8ff"
+    },
+    "ramp": [
+     "#48a2dc",
+     "#e6f2ff",
+     "#eef8ff",
+     "#1c1a19",
+     "#ffc070",
+     "#8cc4ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/c7524f3f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/c7524f3f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/c7524f3f.webp"
+   },
+   {
+    "id": "glacier-cave-002",
+    "groupId": "glacier-cave",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "iceTint": "#78e0e6",
+     "daylight": "#effcff",
+     "sediment": "#1c1a19",
+     "hazeColor": "#b8f0f4",
+     "lampColor": "#ffb860",
+     "mouthColor": "#eef8ff"
+    },
+    "ramp": [
+     "#78e0e6",
+     "#effcff",
+     "#eef8ff",
+     "#1c1a19",
+     "#ffb860",
+     "#b8f0f4"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/7b7322d8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/7b7322d8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/7b7322d8.webp"
+   },
+   {
+    "id": "glacier-cave-003",
+    "groupId": "glacier-cave",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "iceTint": "#4aa6c4",
+     "daylight": "#ffe2bc",
+     "sediment": "#2a2018",
+     "hazeColor": "#cfdce2",
+     "lampColor": "#ffd090",
+     "mouthColor": "#ffe4c0"
+    },
+    "ramp": [
+     "#4aa6c4",
+     "#ffe2bc",
+     "#ffe4c0",
+     "#2a2018",
+     "#ffd090",
+     "#cfdce2"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/1ad10d9f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/1ad10d9f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/1ad10d9f.webp"
+   },
+   {
+    "id": "glacier-cave-004",
+    "groupId": "glacier-cave",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "iceTint": "#3a92c8",
+     "daylight": "#e6f2ff",
+     "sediment": "#1c1a19",
+     "hazeColor": "#5a9ad0",
+     "lampColor": "#ffb050",
+     "mouthColor": "#eef8ff"
+    },
+    "ramp": [
+     "#3a92c8",
+     "#e6f2ff",
+     "#eef8ff",
+     "#1c1a19",
+     "#ffb050",
+     "#5a9ad0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/89f7da9b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/89f7da9b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/89f7da9b.webp"
+   },
+   {
+    "id": "glacier-cave-005",
+    "groupId": "glacier-cave",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "iceTint": "#5cc8dc",
+     "daylight": "#eafff8",
+     "sediment": "#1c1a19",
+     "hazeColor": "#b4ecf2",
+     "lampColor": "#ffb860",
+     "mouthColor": "#eef8ff"
+    },
+    "ramp": [
+     "#5cc8dc",
+     "#eafff8",
+     "#eef8ff",
+     "#1c1a19",
+     "#ffb860",
+     "#b4ecf2"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/61be42d5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/61be42d5.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/glacier-cave-b427e9cca8/61be42d5.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glacier-cave.webp": "68224 bytes"
+ }
+}

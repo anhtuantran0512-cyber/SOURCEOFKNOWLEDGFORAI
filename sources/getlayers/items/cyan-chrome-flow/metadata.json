@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:46:47Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "cyan-chrome-flow",
+  "title": "Cyan Chrome Flow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/cyan-chrome-flow-0e18602bb1.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/cyan-chrome-flow-0e18602bb1.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/cyan-chrome-flow-0e18602bb1-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "aurora",
+   "black",
+   "chrome",
+   "cyan",
+   "flow",
+   "folds",
+   "glass",
+   "gravity",
+   "like",
+   "liquid",
+   "magenta",
+   "midnight",
+   "neon",
+   "roll",
+   "satin",
+   "silk",
+   "sky",
+   "starry",
+   "stars",
+   "zero"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cyan-chrome-flow.webp": "118566 bytes"
+ }
+}

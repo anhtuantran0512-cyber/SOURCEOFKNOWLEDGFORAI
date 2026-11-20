@@ -1,0 +1,87 @@
+{
+ "fetchedAt": "2026-11-20T15:44:38Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "acid-rain",
+  "title": "Acid Rain",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "shaders",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A psychedelic neon downpour of rainbow light streaming through a dark, star-flecked void, dissolved into glowing ASCII glyphs.",
+  "image": "https://storage.getlayers.ai/3d_scenes/acid-rain.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/acid-rain.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/acid-rain-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/acid-rain-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 20,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "keywords": [
+   "shader",
+   "ascii",
+   "plasma",
+   "neon",
+   "rainbow",
+   "acid",
+   "rain",
+   "downpour",
+   "curling",
+   "rendered",
+   "glowing",
+   "monospace",
+   "glyphs",
+   "twinkling",
+   "void"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "acid-rain",
+    "groupId": "acid-rain",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colBg": "#06010e",
+     "colStar": "#c66bff"
+    },
+    "ramp": [
+     "#06010e",
+     "#c66bff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/acid-rain-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/acid-rain.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/acid-rain.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "acid-rain.webp": "366946 bytes"
+ }
+}

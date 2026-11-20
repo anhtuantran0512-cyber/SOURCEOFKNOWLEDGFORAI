@@ -1,0 +1,57 @@
+{
+ "fetchedAt": "2026-11-20T15:47:06Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "starlight-flower-burst",
+  "title": "Starlight Flower Burst",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/starlight-flower-burst-5535c997fe.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/starlight-flower-burst-5535c997fe.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/starlight-flower-burst-5535c997fe-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "ascension",
+   "black",
+   "burst",
+   "character",
+   "diagram",
+   "figure",
+   "flower",
+   "flowers",
+   "gold",
+   "golden",
+   "hangs",
+   "light",
+   "luminous",
+   "radiating",
+   "sacred-geometry",
+   "starlight",
+   "unfolding",
+   "wireframe",
+   "with"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "starlight-flower-burst.webp": "200110 bytes"
+ }
+}

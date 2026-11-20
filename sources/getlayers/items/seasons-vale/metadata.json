@@ -1,0 +1,250 @@
+{
+ "fetchedAt": "2026-11-20T15:44:22Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "seasons-vale",
+  "title": "Seasons Vale",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A tiny block-built island floats in a turquoise lake, raising its own village brick by brick as the seasons sweep across it, blossom to snow to embers. Legal for purchase only on getlayers.ai — getlayers.ai/layer/seasons-vale",
+  "image": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c-preview.mp4",
+  "likes": 128,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "calm",
+   "organic"
+  ],
+  "keywords": [
+   "autumn",
+   "barn",
+   "blocks",
+   "builds",
+   "click-advance",
+   "cottage",
+   "cozy",
+   "cubes",
+   "cute",
+   "desert",
+   "diorama",
+   "element",
+   "game",
+   "houses",
+   "instanced-mesh",
+   "island",
+   "isometric",
+   "lake",
+   "lava",
+   "like",
+   "low poly",
+   "minecraft",
+   "miniature",
+   "minute",
+   "orbited",
+   "pointer-parallax",
+   "procedural-village",
+   "seasons",
+   "seasons-cycle",
+   "selective-bloom",
+   "slowly",
+   "snow",
+   "soft-shadows",
+   "spring",
+   "summer",
+   "threejs",
+   "tilt shift",
+   "tilt-shift",
+   "tower",
+   "trees",
+   "turns",
+   "vale",
+   "village",
+   "volcano",
+   "voxel",
+   "well",
+   "winter"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "seasons-vale",
+    "groupId": "seasons-vale",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "starColor": "#bcd0ff",
+     "cloudColor": "#ffffff",
+     "emberColor": "#ff6a2a",
+     "windowColor": "#ffcf87",
+     "lanternColor": "#ffb45a"
+    },
+    "ramp": [
+     "#ffcf87",
+     "#ffb45a",
+     "#ff6a2a",
+     "#bcd0ff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c.webp"
+   },
+   {
+    "id": "seasons-vale-001",
+    "groupId": "seasons-vale",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "starColor": "#bcd0ff",
+     "cloudColor": "#ffffff",
+     "emberColor": "#ff6a2a",
+     "windowColor": "#ffcf87",
+     "lanternColor": "#ffb45a"
+    },
+    "ramp": [
+     "#ffcf87",
+     "#ffb45a",
+     "#ff6a2a",
+     "#bcd0ff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/39ed70f9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/39ed70f9.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/39ed70f9.webp"
+   },
+   {
+    "id": "seasons-vale-002",
+    "groupId": "seasons-vale",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "starColor": "#bcd0ff",
+     "cloudColor": "#ffffff",
+     "emberColor": "#ff6a2a",
+     "windowColor": "#ffcf87",
+     "lanternColor": "#ffb45a"
+    },
+    "ramp": [
+     "#ffcf87",
+     "#ffb45a",
+     "#ff6a2a",
+     "#bcd0ff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/e9990f4b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/e9990f4b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/e9990f4b.webp"
+   },
+   {
+    "id": "seasons-vale-003",
+    "groupId": "seasons-vale",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "starColor": "#bcd0ff",
+     "cloudColor": "#ffffff",
+     "emberColor": "#ff6a2a",
+     "windowColor": "#ffcf87",
+     "lanternColor": "#ffb45a"
+    },
+    "ramp": [
+     "#ffcf87",
+     "#ffb45a",
+     "#ff6a2a",
+     "#bcd0ff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/220d5620-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/220d5620.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/220d5620.webp"
+   },
+   {
+    "id": "seasons-vale-004",
+    "groupId": "seasons-vale",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "starColor": "#bcd0ff",
+     "cloudColor": "#ffffff",
+     "emberColor": "#ff6a2a",
+     "windowColor": "#ffcf87",
+     "lanternColor": "#ffb45a"
+    },
+    "ramp": [
+     "#ffcf87",
+     "#ffb45a",
+     "#ff6a2a",
+     "#bcd0ff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/2b9ce334-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/2b9ce334.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/2b9ce334.webp"
+   },
+   {
+    "id": "seasons-vale-005",
+    "groupId": "seasons-vale",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "starColor": "#bcd0ff",
+     "cloudColor": "#ffffff",
+     "emberColor": "#ff6a2a",
+     "windowColor": "#ffcf87",
+     "lanternColor": "#ffb45a"
+    },
+    "ramp": [
+     "#ffcf87",
+     "#ffb45a",
+     "#ff6a2a",
+     "#bcd0ff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/f81a07ff-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/f81a07ff.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/seasons-vale-0074a8728c/f81a07ff.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "seasons-vale.webp": "128648 bytes"
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:47:05Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "plum-gold-bokeh",
+  "title": "Plum Gold Bokeh",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/plum-gold-bokeh-b26943324c.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/plum-gold-bokeh-b26943324c.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/plum-gold-bokeh-b26943324c-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "arc",
+   "blur",
+   "bokeh",
+   "circles",
+   "deep",
+   "distance",
+   "fat",
+   "focus",
+   "gather",
+   "glow",
+   "gold",
+   "golden",
+   "ground",
+   "lights",
+   "out",
+   "particles",
+   "party",
+   "plum",
+   "red",
+   "under",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "plum-gold-bokeh.webp": "29288 bytes"
+ }
+}

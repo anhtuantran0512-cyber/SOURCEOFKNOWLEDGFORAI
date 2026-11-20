@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "orange-light-threads",
+  "title": "Orange Light Threads",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/orange-light-threads-5fcc04c929.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/orange-light-threads-5fcc04c929.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/orange-light-threads-5fcc04c929-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "background",
+   "black",
+   "drifting",
+   "dusky",
+   "glass",
+   "glow",
+   "glowing",
+   "light",
+   "like",
+   "lines",
+   "loop",
+   "loops",
+   "motion",
+   "orange",
+   "plum",
+   "slow",
+   "smoke",
+   "soft",
+   "sparklers",
+   "tangle",
+   "threads",
+   "trails",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "orange-light-threads.webp": "141874 bytes"
+ }
+}

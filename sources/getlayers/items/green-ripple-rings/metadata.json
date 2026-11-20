@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:40Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "green-ripple-rings",
+  "title": "Green Ripple Rings",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/green-ripple-rings-b951cdc052.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/green-ripple-rings-b951cdc052.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/green-ripple-rings-b951cdc052-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "blue",
+   "concentric",
+   "cyan",
+   "dark",
+   "data",
+   "digital",
+   "dots",
+   "field",
+   "glowing",
+   "green",
+   "lime",
+   "navy",
+   "outward",
+   "particles",
+   "points",
+   "rings",
+   "ripple",
+   "ripples",
+   "signal",
+   "spreading",
+   "water",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "green-ripple-rings.webp": "595274 bytes"
+ }
+}

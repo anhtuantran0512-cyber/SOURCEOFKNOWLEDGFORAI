@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:45:47Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-cube-dunes",
+  "title": "Glass Cube Dunes",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/glass-cube-dunes",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-cube-dunes-242549c5f3.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-cube-dunes-242549c5f3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-cube-dunes-242549c5f3-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "candy",
+   "clouds",
+   "cotton",
+   "cube",
+   "dreamscape",
+   "dunes",
+   "glass",
+   "grass",
+   "grassy",
+   "minimal",
+   "object",
+   "overhead",
+   "pearly",
+   "pink",
+   "product",
+   "rest",
+   "shift",
+   "sphere",
+   "sunset"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-cube-dunes.webp": "194600 bytes"
+ }
+}

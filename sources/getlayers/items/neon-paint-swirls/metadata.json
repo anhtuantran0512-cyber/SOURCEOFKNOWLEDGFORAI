@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:46:43Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "neon-paint-swirls",
+  "title": "Neon Paint Swirls",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/neon-paint-swirls-ac5b4b4b8f.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/neon-paint-swirls-ac5b4b4b8f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/neon-paint-swirls-ac5b4b4b8f-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "alive",
+   "brushstrokes",
+   "brushy",
+   "come",
+   "coral",
+   "curls",
+   "deep",
+   "dust",
+   "festival",
+   "glass",
+   "glowing",
+   "joyful",
+   "loop",
+   "loud",
+   "neon",
+   "paint",
+   "pink",
+   "poster",
+   "purple",
+   "scattering",
+   "sparks",
+   "strokes",
+   "swirl",
+   "swirls",
+   "teal",
+   "yellow"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "neon-paint-swirls.webp": "223132 bytes"
+ }
+}

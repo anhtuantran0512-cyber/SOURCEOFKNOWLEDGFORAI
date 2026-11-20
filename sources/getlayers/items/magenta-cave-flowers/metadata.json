@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:00Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "magenta-cave-flowers",
+  "title": "Magenta Cave Flowers",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/magenta-cave-flowers-940afaaadd.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/magenta-cave-flowers-940afaaadd.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/magenta-cave-flowers-940afaaadd-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bed",
+   "bloom",
+   "blossom",
+   "cave",
+   "colour",
+   "dark",
+   "daylight",
+   "dense",
+   "falls",
+   "floral",
+   "flowers",
+   "hidden",
+   "impossible",
+   "light-shaft",
+   "magenta",
+   "one",
+   "onto",
+   "roof",
+   "shaft",
+   "something",
+   "the",
+   "through",
+   "window"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "magenta-cave-flowers.webp": "148628 bytes"
+ }
+}

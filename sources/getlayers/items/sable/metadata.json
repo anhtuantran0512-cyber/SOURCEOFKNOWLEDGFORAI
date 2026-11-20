@@ -1,0 +1,72 @@
+{
+ "fetchedAt": "2026-11-20T15:45:05Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "sable",
+  "title": "Sable",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A hushed boutique 404: towering cream Didone numerals on warm black, framed by quiet editorial navigation. Legal for purchase only on getlayers.ai — getlayers.ai/layer/sable",
+  "image": "https://storage.getlayers.ai/sections/sable-cf9fd2187b.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/sable-cf9fd2187b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/sable-cf9fd2187b-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/sable-cf9fd2187b-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/sable-cf9fd2187b-mobile.mp4",
+  "likes": 26,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "error-page"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "404",
+   "404 page",
+   "black",
+   "bodoni",
+   "boutique",
+   "cream",
+   "dark",
+   "didone",
+   "editorial",
+   "error",
+   "error page",
+   "error-page",
+   "fashion",
+   "framed",
+   "hushed",
+   "luxury",
+   "minimal",
+   "monochrome",
+   "navigation",
+   "not found",
+   "not-found",
+   "numerals",
+   "page",
+   "quiet",
+   "sable",
+   "serif",
+   "towering",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "sable.webp": "19568 bytes"
+ }
+}

@@ -1,0 +1,247 @@
+{
+ "fetchedAt": "2026-11-20T15:44:53Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "ivory-atrium",
+  "title": "Ivory Atrium",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "You glide endlessly through a bright, airy museum hall etched in fine graphite lines, framed prints streaming past; hover lifts a print and a click flies in. Legal for purchase only on getlayers.ai — getlayers.ai/layer/ivory-atrium",
+  "image": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "airy",
+   "alabaster",
+   "arcade",
+   "architectural",
+   "artwork",
+   "atrium",
+   "blueprint",
+   "brass",
+   "bright",
+   "camera",
+   "camera travel",
+   "camera-flythrough",
+   "canvas-procedural",
+   "catmull-rom-spline",
+   "cinematic",
+   "clean",
+   "click",
+   "corridor",
+   "cruised",
+   "element",
+   "endless",
+   "endlessly",
+   "exhibition",
+   "fly through",
+   "focus",
+   "framed",
+   "framed prints",
+   "gallery",
+   "graphite",
+   "grid",
+   "grid-lines",
+   "gsap",
+   "hall",
+   "hover",
+   "hover-and-focus",
+   "ivory",
+   "lift",
+   "light",
+   "lines",
+   "minimal",
+   "museum",
+   "pale",
+   "paper",
+   "past",
+   "pencil",
+   "polished floor",
+   "portfolio",
+   "print",
+   "prints",
+   "reflection",
+   "showroom",
+   "surface",
+   "textured-panels",
+   "threejs",
+   "traced",
+   "white",
+   "wireframe"
+  ],
+  "variants": [
+   {
+    "id": "ivory-atrium",
+    "groupId": "ivory-atrium",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "gridColor": "#c2c8d2",
+     "frameColor": "#3a3f4a",
+     "paperColor": "#eef0f3",
+     "accentColor": "#b07a2c"
+    },
+    "ramp": [
+     "#eef0f3",
+     "#c2c8d2",
+     "#b07a2c",
+     "#3a3f4a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3.webp"
+   },
+   {
+    "id": "ivory-atrium-001",
+    "groupId": "ivory-atrium",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "gridColor": "#76809a",
+     "frameColor": "#0e1014",
+     "paperColor": "#1c1f26",
+     "accentColor": "#c89a4a"
+    },
+    "ramp": [
+     "#1c1f26",
+     "#76809a",
+     "#c89a4a",
+     "#0e1014"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/51c2c09d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/51c2c09d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/51c2c09d.webp"
+   },
+   {
+    "id": "ivory-atrium-002",
+    "groupId": "ivory-atrium",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "gridColor": "#c4b49c",
+     "frameColor": "#5a4632",
+     "paperColor": "#efe6d8",
+     "accentColor": "#8a5a2a"
+    },
+    "ramp": [
+     "#efe6d8",
+     "#c4b49c",
+     "#8a5a2a",
+     "#5a4632"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/c0eb8c81-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/c0eb8c81.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/c0eb8c81.webp"
+   },
+   {
+    "id": "ivory-atrium-003",
+    "groupId": "ivory-atrium",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "gridColor": "#9fb8ac",
+     "frameColor": "#2e4a40",
+     "paperColor": "#e2ece6",
+     "accentColor": "#4a7a68"
+    },
+    "ramp": [
+     "#e2ece6",
+     "#9fb8ac",
+     "#4a7a68",
+     "#2e4a40"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/e2a71763-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/e2a71763.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/e2a71763.webp"
+   },
+   {
+    "id": "ivory-atrium-004",
+    "groupId": "ivory-atrium",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "gridColor": "#d0b0b4",
+     "frameColor": "#5a3a44",
+     "paperColor": "#f2e2e0",
+     "accentColor": "#a0505a"
+    },
+    "ramp": [
+     "#f2e2e0",
+     "#d0b0b4",
+     "#a0505a",
+     "#5a3a44"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/4d1bc540-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/4d1bc540.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/4d1bc540.webp"
+   },
+   {
+    "id": "ivory-atrium-005",
+    "groupId": "ivory-atrium",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "gridColor": "#8fb0e0",
+     "frameColor": "#0e1e3a",
+     "paperColor": "#22406e",
+     "accentColor": "#e8f0ff"
+    },
+    "ramp": [
+     "#22406e",
+     "#8fb0e0",
+     "#e8f0ff",
+     "#0e1e3a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/9d4a6c5c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/9d4a6c5c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ivory-atrium-e3a1857cd3/9d4a6c5c.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "ivory-atrium.webp": "116492 bytes"
+ }
+}

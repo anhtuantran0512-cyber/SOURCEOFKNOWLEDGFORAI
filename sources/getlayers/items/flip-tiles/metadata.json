@@ -1,0 +1,237 @@
+{
+ "fetchedAt": "2026-11-20T15:44:58Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "flip-tiles",
+  "title": "Flip Tiles",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A tactile field of soft white ceramic tiles with one frosted orange glass tile; hovering lifts a tile to reveal a tiny drawing beneath, and a click flips it over. Legal for purchase only on getlayers.ai — getlayers.ai/layer/flip-tiles",
+  "image": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "keywords": [
+   "another",
+   "cat",
+   "caustic",
+   "ceramic",
+   "clean",
+   "click",
+   "click-flip",
+   "depth-of-field",
+   "drawing",
+   "drawings",
+   "element",
+   "field",
+   "flip",
+   "flips",
+   "frosted",
+   "game",
+   "glass",
+   "grid",
+   "hover",
+   "hover-interaction",
+   "hovering",
+   "icons",
+   "illustrations",
+   "instanced-mesh",
+   "interactive",
+   "lifts",
+   "light",
+   "line art",
+   "little",
+   "minimal",
+   "orange",
+   "pcss-shadows",
+   "physical-glass",
+   "playful",
+   "product",
+   "reveal",
+   "rocket",
+   "sdf-line-art",
+   "seat",
+   "show",
+   "soft",
+   "soft shadow",
+   "studio",
+   "sun",
+   "tactile",
+   "threejs",
+   "tile",
+   "tiles",
+   "toy",
+   "whale",
+   "white"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "flip-tiles",
+    "groupId": "flip-tiles",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#f0f0f0",
+     "inkColor": "#8f8377",
+     "keyColor": "#ffffff",
+     "tileColor": "#f4f4f4",
+     "floorColor": "#efefef",
+     "glassColor": "#ff6a1f"
+    },
+    "ramp": [
+     "#f4f4f4",
+     "#efefef",
+     "#8f8377",
+     "#ff6a1f",
+     "#ffffff",
+     "#f0f0f0"
+    ],
+    "createdAt": "2026-11-04",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd.webp"
+   },
+   {
+    "id": "flip-tiles-001",
+    "groupId": "flip-tiles",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#f0f0f0",
+     "inkColor": "#8f8377",
+     "keyColor": "#ffffff",
+     "tileColor": "#f4f4f4",
+     "floorColor": "#efefef",
+     "glassColor": "#ff6a1f"
+    },
+    "ramp": [
+     "#f4f4f4",
+     "#efefef",
+     "#8f8377",
+     "#ff6a1f",
+     "#ffffff",
+     "#f0f0f0"
+    ],
+    "createdAt": "2026-11-04",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd/26ac087d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd/26ac087d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd/26ac087d.webp"
+   },
+   {
+    "id": "flip-tiles-002",
+    "groupId": "flip-tiles",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#ececec",
+     "inkColor": "#8f8377",
+     "keyColor": "#fff1e2",
+     "tileColor": "#f4f4f4",
+     "floorColor": "#efefef",
+     "glassColor": "#ff6a1f"
+    },
+    "ramp": [
+     "#f4f4f4",
+     "#efefef",
+     "#8f8377",
+     "#ff6a1f",
+     "#fff1e2",
+     "#ececec"
+    ],
+    "createdAt": "2026-11-04",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd/b14968a6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd/b14968a6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd/b14968a6.webp"
+   },
+   {
+    "id": "flip-tiles-003",
+    "groupId": "flip-tiles",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#f0f0f0",
+     "inkColor": "#7f7266",
+     "keyColor": "#fff3e4",
+     "tileColor": "#f4f4f4",
+     "floorColor": "#efefef",
+     "glassColor": "#2a6cff"
+    },
+    "ramp": [
+     "#f4f4f4",
+     "#efefef",
+     "#7f7266",
+     "#2a6cff",
+     "#fff3e4",
+     "#f0f0f0"
+    ],
+    "createdAt": "2026-11-04",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd/ae274849-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd/ae274849.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd/ae274849.webp"
+   },
+   {
+    "id": "flip-tiles-004",
+    "groupId": "flip-tiles",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#f0f0f0",
+     "inkColor": "#8f8377",
+     "keyColor": "#ffffff",
+     "tileColor": "#f4f4f4",
+     "floorColor": "#efefef",
+     "glassColor": "#ff6a1f"
+    },
+    "ramp": [
+     "#f4f4f4",
+     "#efefef",
+     "#8f8377",
+     "#ff6a1f",
+     "#ffffff",
+     "#f0f0f0"
+    ],
+    "createdAt": "2026-11-04",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd/c3055bb2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd/c3055bb2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/flip-tiles-73327766dd/c3055bb2.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "flip-tiles.webp": "98832 bytes"
+ }
+}

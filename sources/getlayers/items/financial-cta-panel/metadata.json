@@ -1,0 +1,68 @@
+{
+ "fetchedAt": "2026-11-20T15:45:05Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "financial-cta-panel",
+  "title": "Financial CTA Panel",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A deep green fintech panel with an elegant serif headline and a fan of payment cards you can shuffle. Legal for purchase only on getlayers.ai — getlayers.ai/layer/financial-cta-panel",
+  "image": "https://storage.getlayers.ai/sections/financial-cta-panel-0c6f204fd7.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/financial-cta-panel-0c6f204fd7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/financial-cta-panel-0c6f204fd7-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/financial-cta-panel-0c6f204fd7-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/financial-cta-panel-0c6f204fd7-mobile.mp4",
+  "likes": 21,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "cta"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "banking",
+   "banner",
+   "call to action",
+   "card stack",
+   "card-stack",
+   "cards",
+   "credit card",
+   "cta",
+   "deep",
+   "download",
+   "download app",
+   "elegant",
+   "fan",
+   "finance",
+   "financial",
+   "fintech",
+   "green",
+   "headline",
+   "panel",
+   "payment",
+   "payment cards",
+   "saas",
+   "serif",
+   "shuffle"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "financial-cta-panel.webp": "34102 bytes"
+ }
+}

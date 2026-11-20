@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:00Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "mauve-folded-planes",
+  "title": "Mauve Folded Planes",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/mauve-folded-planes-f82811b6e2.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/mauve-folded-planes-f82811b6e2.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/mauve-folded-planes-f82811b6e2-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "against",
+   "almost",
+   "along",
+   "crease",
+   "each",
+   "fold",
+   "folded",
+   "geometric",
+   "glass",
+   "gradient",
+   "large",
+   "light",
+   "lit",
+   "mauve",
+   "minimal",
+   "nothing",
+   "other",
+   "paper",
+   "planes",
+   "running",
+   "soft",
+   "well"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "mauve-folded-planes.webp": "19662 bytes"
+ }
+}

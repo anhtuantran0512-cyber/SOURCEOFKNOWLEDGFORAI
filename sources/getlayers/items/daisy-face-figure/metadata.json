@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:57Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "daisy-face-figure",
+  "title": "Daisy Face Figure",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/daisy-face-figure-ffb5f87266.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/daisy-face-figure-ffb5f87266.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/daisy-face-figure-ffb5f87266-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "and",
+   "cap",
+   "character",
+   "daisies",
+   "daisy",
+   "editorial",
+   "face",
+   "figure",
+   "grey",
+   "ivy",
+   "jacket",
+   "one",
+   "pale",
+   "portrait",
+   "quiet",
+   "refuses",
+   "should",
+   "stands",
+   "strange",
+   "surreal",
+   "that",
+   "where",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "daisy-face-figure.webp": "107004 bytes"
+ }
+}

@@ -1,0 +1,238 @@
+{
+ "fetchedAt": "2026-11-20T15:44:22Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "sandstorm",
+  "title": "Sandstorm",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An endless, weary walk across pale rolling dunes in a warm dust haze, a soft golden sun burning through drifting cloud toward distant hazy mountains. Legal for purchase only on getlayers.ai — getlayers.ai/layer/sandstorm",
+  "image": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264-preview.mp4",
+  "likes": 134,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "keywords": [
+   "arid",
+   "calm",
+   "camera-walk",
+   "cinematic",
+   "clouds",
+   "combed",
+   "desert",
+   "dreamy",
+   "dunes",
+   "dust",
+   "faint",
+   "fly-through",
+   "full-screen-shader",
+   "glsl3-webgl2",
+   "golden",
+   "haboob",
+   "haze",
+   "hero background",
+   "journey",
+   "landscape",
+   "lens flare",
+   "lens-flare",
+   "melting",
+   "mountains",
+   "pointer-look",
+   "procedural-terrain",
+   "raymarching",
+   "ripples",
+   "sahara",
+   "sand",
+   "sandstorm",
+   "sky",
+   "slow",
+   "soft",
+   "sun",
+   "teal",
+   "terrain",
+   "threejs",
+   "travel",
+   "trudge",
+   "vast",
+   "veil",
+   "volumetric-dust",
+   "walk",
+   "wallpaper",
+   "warm",
+   "waves",
+   "wind"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "sandstorm",
+    "groupId": "sandstorm",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "sunCore": "#ffcf87",
+     "sunHalo": "#ff6a24",
+     "skyColor": "#3a97b6",
+     "sandColor": "#fad1ad"
+    },
+    "ramp": [
+     "#fad1ad",
+     "#3a97b6",
+     "#ffcf87",
+     "#ff6a24"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264.webp"
+   },
+   {
+    "id": "sandstorm-001",
+    "groupId": "sandstorm",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "sunCore": "#ffcf87",
+     "sunHalo": "#ff6a24",
+     "skyColor": "#2a7fd0",
+     "sandColor": "#f2c890"
+    },
+    "ramp": [
+     "#f2c890",
+     "#2a7fd0",
+     "#ffcf87",
+     "#ff6a24"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/b0163770-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/b0163770.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/b0163770.webp"
+   },
+   {
+    "id": "sandstorm-002",
+    "groupId": "sandstorm",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "sunCore": "#ffd8a0",
+     "sunHalo": "#ff5a1a",
+     "skyColor": "#3a6aa0",
+     "sandColor": "#e8a868"
+    },
+    "ramp": [
+     "#e8a868",
+     "#3a6aa0",
+     "#ffd8a0",
+     "#ff5a1a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/fcc9b2ff-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/fcc9b2ff.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/fcc9b2ff.webp"
+   },
+   {
+    "id": "sandstorm-003",
+    "groupId": "sandstorm",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "sunCore": "#ffe0c8",
+     "sunHalo": "#ff7a8a",
+     "skyColor": "#7a7ab8",
+     "sandColor": "#f0b8a8"
+    },
+    "ramp": [
+     "#f0b8a8",
+     "#7a7ab8",
+     "#ffe0c8",
+     "#ff7a8a"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/7c62a5cd-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/7c62a5cd.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/7c62a5cd.webp"
+   },
+   {
+    "id": "sandstorm-004",
+    "groupId": "sandstorm",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "sunCore": "#ffd0a0",
+     "sunHalo": "#ff7a30",
+     "skyColor": "#a06a40",
+     "sandColor": "#c88a5a"
+    },
+    "ramp": [
+     "#c88a5a",
+     "#a06a40",
+     "#ffd0a0",
+     "#ff7a30"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/cef376df-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/cef376df.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/cef376df.webp"
+   },
+   {
+    "id": "sandstorm-005",
+    "groupId": "sandstorm",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "sunCore": "#e8f0ff",
+     "sunHalo": "#6a8ad0",
+     "skyColor": "#050a1e",
+     "sandColor": "#5a6a8a"
+    },
+    "ramp": [
+     "#5a6a8a",
+     "#050a1e",
+     "#e8f0ff",
+     "#6a8ad0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/9986f04d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/9986f04d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sandstorm-d4ba663264/9986f04d.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "sandstorm.webp": "44868 bytes"
+ }
+}

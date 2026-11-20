@@ -1,0 +1,51 @@
+{
+ "fetchedAt": "2026-11-20T15:45:09Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "siloutte",
+  "title": "Siloutte",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/siloutte-68d0d90347.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/siloutte-68d0d90347.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/siloutte-68d0d90347-preview.mp4",
+  "likes": 54,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal",
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "silhouette",
+   "light",
+   "ridge",
+   "dramatic",
+   "siloutte",
+   "lone",
+   "stands",
+   "glowing",
+   "where",
+   "shaft",
+   "amber",
+   "cuts",
+   "dark",
+   "character"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "siloutte.webp": "18380 bytes"
+ }
+}

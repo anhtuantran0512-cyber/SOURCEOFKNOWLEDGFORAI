@@ -1,0 +1,72 @@
+{
+ "fetchedAt": "2026-11-20T15:45:05Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "lucent",
+  "title": "Lucent",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A slowly turning block of prismatic glass that bends and magnifies a giant 404 floating in the dark behind it. Legal for purchase only on getlayers.ai — getlayers.ai/layer/lucent",
+  "image": "https://storage.getlayers.ai/sections/lucent-f4918dff55.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/lucent-f4918dff55.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/lucent-f4918dff55-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/lucent-f4918dff55-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/lucent-f4918dff55-mobile.mp4",
+  "likes": 26,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "error-page"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "3d hero",
+   "404",
+   "bends",
+   "block",
+   "chromatic",
+   "dark",
+   "design studio",
+   "dispersion",
+   "error",
+   "error page",
+   "floating",
+   "giant",
+   "glass",
+   "glass cube",
+   "hero",
+   "lucent",
+   "magnifies",
+   "not found",
+   "page",
+   "prism",
+   "prismatic",
+   "refraction",
+   "slowly",
+   "three.js",
+   "turning",
+   "webgl hero"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lucent.webp": "31022 bytes"
+ }
+}

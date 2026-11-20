@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:56Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "prism-star-burst",
+  "title": "Prism Star Burst",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/prism-star-burst-571bfa40f8.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/prism-star-burst-571bfa40f8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/prism-star-burst-571bfa40f8-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "black",
+   "burst",
+   "centre",
+   "dark",
+   "explode",
+   "fringes",
+   "glass",
+   "going",
+   "light",
+   "off",
+   "outward",
+   "prism",
+   "prismatic",
+   "radial",
+   "rays",
+   "spectral",
+   "spectrum",
+   "splitting",
+   "star",
+   "thrown",
+   "tips"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "prism-star-burst.webp": "97052 bytes"
+ }
+}

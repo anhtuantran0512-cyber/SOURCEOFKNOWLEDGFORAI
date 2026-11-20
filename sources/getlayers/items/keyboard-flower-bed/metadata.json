@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:46:35Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "keyboard-flower-bed",
+  "title": "Keyboard Flower Bed",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/keyboard-flower-bed",
+  "image": "https://storage.getlayers.ai/backgrounds/keyboard-flower-bed-667b530f83.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/keyboard-flower-bed-667b530f83.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/keyboard-flower-bed-667b530f83-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "bed",
+   "blooms",
+   "camera",
+   "colorful",
+   "drifts",
+   "flower",
+   "flowers",
+   "garden",
+   "growing",
+   "handmade",
+   "keyboard",
+   "keycaps",
+   "macro",
+   "moss",
+   "mossy",
+   "object",
+   "pink",
+   "product",
+   "purple",
+   "slowly",
+   "spelling",
+   "spring",
+   "sprout",
+   "tiny",
+   "white",
+   "words"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "keyboard-flower-bed.webp": "254924 bytes"
+ }
+}

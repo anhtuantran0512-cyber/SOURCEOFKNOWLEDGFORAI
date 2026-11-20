@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:24:55Z",
+ "fetchedAt": "2026-11-20T15:42:50Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "ai-creator",
@@ -799,7 +799,7 @@
   "status": "premium"
  },
  "files": {
-  "ai-creator.webp": "92136 bytes",
-  "ai-creator-figma.webp": "134076 bytes"
+  "ai-creator.webp": "cached",
+  "ai-creator-figma.webp": "cached"
  }
 }

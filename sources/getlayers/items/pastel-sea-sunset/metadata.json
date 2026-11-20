@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:52Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pastel-sea-sunset",
+  "title": "Pastel Sea Sunset",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pastel-sea-sunset-7a7aec8405.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pastel-sea-sunset-7a7aec8405.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pastel-sea-sunset-7a7aec8405-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "blur",
+   "breathing",
+   "coral",
+   "day",
+   "focus",
+   "gently",
+   "horizon",
+   "landscape",
+   "last",
+   "light",
+   "minute",
+   "nature",
+   "pastel",
+   "peach",
+   "rolls",
+   "sea",
+   "smeared",
+   "soft",
+   "sunset",
+   "teal",
+   "tide",
+   "warm",
+   "water"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pastel-sea-sunset.webp": "46966 bytes"
+ }
+}

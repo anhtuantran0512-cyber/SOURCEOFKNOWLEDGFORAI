@@ -1,0 +1,51 @@
+{
+ "fetchedAt": "2026-11-20T15:45:12Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "artistic-hands",
+  "title": "Artistic Hands",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/artistic-hands.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/artistic-hands.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/artistic-hands-preview.mp4",
+  "likes": 31,
+  "createdAt": "2026-03-30",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "hands",
+   "clouds",
+   "cinematic",
+   "dramatic",
+   "artistic",
+   "reaching",
+   "toward",
+   "each",
+   "other",
+   "through",
+   "parting",
+   "golden",
+   "storm",
+   "character"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "artistic-hands.webp": "78280 bytes"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:42Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lilac-rainbow-arcs",
+  "title": "Lilac Rainbow Arcs",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/lilac-rainbow-arcs-82a5c438f3.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lilac-rainbow-arcs-82a5c438f3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lilac-rainbow-arcs-82a5c438f3-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "across",
+   "and",
+   "arcs",
+   "bend",
+   "bent",
+   "crystal",
+   "field",
+   "flare",
+   "flares",
+   "fringes",
+   "glass",
+   "hard",
+   "light",
+   "lilac",
+   "prismatic",
+   "rainbow",
+   "sings",
+   "sparkle",
+   "star",
+   "throwing",
+   "until"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lilac-rainbow-arcs.webp": "72016 bytes"
+ }
+}

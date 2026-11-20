@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:47:04Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "orange-puffer-bouquet",
+  "title": "Orange Puffer Bouquet",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/orange-puffer-bouquet-f7664cb349.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/orange-puffer-bouquet-f7664cb349.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/orange-puffer-bouquet-f7664cb349-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "and",
+   "bouquet",
+   "bright",
+   "bursting",
+   "cap",
+   "character",
+   "coat",
+   "collar",
+   "daisies",
+   "deadpan",
+   "editorial",
+   "fashion",
+   "glossy",
+   "grey",
+   "orange",
+   "puffer",
+   "stand",
+   "surreal",
+   "warm",
+   "wearing"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "orange-puffer-bouquet.webp": "148870 bytes"
+ }
+}

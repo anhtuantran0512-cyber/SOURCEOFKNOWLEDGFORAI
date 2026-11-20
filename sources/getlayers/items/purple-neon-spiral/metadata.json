@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:46:49Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "purple-neon-spiral",
+  "title": "Purple Neon Spiral",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/purple-neon-spiral-cd10f7ea33.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/purple-neon-spiral-cd10f7ea33.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/purple-neon-spiral-cd10f7ea33-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "along",
+   "black",
+   "coil",
+   "electric",
+   "glass",
+   "glossy",
+   "glow",
+   "glowing",
+   "light",
+   "loops",
+   "neon",
+   "pure",
+   "purple",
+   "reflections",
+   "sleek",
+   "sliding",
+   "spiral",
+   "spirals",
+   "spring",
+   "violet"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "purple-neon-spiral.webp": "165264 bytes"
+ }
+}

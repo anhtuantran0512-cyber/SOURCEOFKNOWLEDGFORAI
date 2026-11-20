@@ -1,0 +1,179 @@
+{
+ "fetchedAt": "2026-11-20T15:44:59Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "signal-array",
+  "title": "Signal Array",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A traffic signal working in a grey studio, the whole field taking the colour of whichever lamp is lit.",
+  "image": "https://storage.getlayers.ai/3d_scenes/signal-array-5f1bb05d2e.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/signal-array-5f1bb05d2e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/signal-array-5f1bb05d2e-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical",
+   "playful"
+  ],
+  "keywords": [
+   "amber",
+   "array",
+   "city",
+   "civic",
+   "colour",
+   "crossing",
+   "cycle",
+   "element",
+   "field",
+   "grey",
+   "lamp",
+   "light",
+   "lights",
+   "lit",
+   "object",
+   "patient",
+   "plinth",
+   "product",
+   "rhythm",
+   "semaphore",
+   "sequence",
+   "signal",
+   "soft",
+   "stoplight",
+   "street",
+   "studio",
+   "taking",
+   "traffic",
+   "traffic-light",
+   "whichever",
+   "whole",
+   "working"
+  ],
+  "variants": [
+   {
+    "id": "signal-array",
+    "groupId": "signal-array",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#a9adb4",
+     "bgBottom": "#5b5f66",
+     "keyColor": "#fff4e6",
+     "redColor": "#ff2a1c",
+     "rimColor": "#ffffff",
+     "fillColor": "#cfe0ff",
+     "moteColor": "#ffffff",
+     "amberColor": "#ff9d12",
+     "greenColor": "#25e070"
+    },
+    "ramp": [
+     "#a9adb4",
+     "#5b5f66",
+     "#ff2a1c",
+     "#ff9d12",
+     "#25e070",
+     "#fff4e6",
+     "#cfe0ff",
+     "#ffffff",
+     "#ffffff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/signal-array-5f1bb05d2e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/signal-array-5f1bb05d2e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/signal-array-5f1bb05d2e.webp"
+   },
+   {
+    "id": "signal-array-001",
+    "groupId": "signal-array",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#0f1716",
+     "bgBottom": "#223735",
+     "keyColor": "#73a7ae",
+     "redColor": "#345756",
+     "rimColor": "#b5cbd1",
+     "fillColor": "#94b8bf",
+     "moteColor": "#d4e0e4",
+     "amberColor": "#457678",
+     "greenColor": "#569499"
+    },
+    "ramp": [
+     "#0f1716",
+     "#223735",
+     "#345756",
+     "#457678",
+     "#569499",
+     "#73a7ae",
+     "#94b8bf",
+     "#b5cbd1",
+     "#d4e0e4"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/signal-array-5f1bb05d2e/937f1b57-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/signal-array-5f1bb05d2e/937f1b57.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/signal-array-5f1bb05d2e/937f1b57.webp"
+   },
+   {
+    "id": "signal-array-002",
+    "groupId": "signal-array",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#10160a",
+     "bgBottom": "#263a18",
+     "keyColor": "#68c259",
+     "redColor": "#3a5f25",
+     "rimColor": "#a6daa6",
+     "fillColor": "#86cd80",
+     "moteColor": "#cae7cc",
+     "amberColor": "#498531",
+     "greenColor": "#54ad3c"
+    },
+    "ramp": [
+     "#10160a",
+     "#263a18",
+     "#3a5f25",
+     "#498531",
+     "#54ad3c",
+     "#68c259",
+     "#86cd80",
+     "#a6daa6",
+     "#cae7cc"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/signal-array-5f1bb05d2e/cac3ff9f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/signal-array-5f1bb05d2e/cac3ff9f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/signal-array-5f1bb05d2e/cac3ff9f.webp"
+   }
+  ],
+  "variantCount": 3
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "signal-array.webp": "44372 bytes"
+ }
+}

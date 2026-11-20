@@ -1,0 +1,209 @@
+{
+ "fetchedAt": "2026-11-20T15:44:48Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "aurum-peak",
+  "title": "Aurum Peak",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A single golden summit rising through drifting sunset cloud, burning brightest at the crest before its foot dissolves into the mist.",
+  "image": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3-preview.mp4",
+  "likes": 9,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "aurum",
+   "before",
+   "brightest",
+   "burning",
+   "cloud",
+   "crest",
+   "dissolves",
+   "drifting",
+   "fbm-clouds",
+   "foot",
+   "gold",
+   "golden",
+   "interactive",
+   "lowpoly",
+   "mist",
+   "mountain",
+   "particles",
+   "peak",
+   "rising",
+   "single",
+   "summit",
+   "sunset",
+   "terrain",
+   "threejs",
+   "through",
+   "waves",
+   "wireframe"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "aurum-peak",
+    "groupId": "aurum-peak",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#12100b",
+     "cloudHigh": "#e8bd6a",
+     "faceColor": "#483827",
+     "fillColor": "#ffcf72",
+     "hazeColor": "#7a5832",
+     "lineColor": "#c8862f",
+     "mistColor": "#8a6a3c",
+     "peakColor": "#ffdf9c",
+     "cloudColor": "#7c5a2c"
+    },
+    "ramp": [
+     "#12100b",
+     "#7c5a2c",
+     "#e8bd6a",
+     "#7a5832",
+     "#8a6a3c",
+     "#c8862f",
+     "#ffdf9c",
+     "#483827",
+     "#ffcf72"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3.webp"
+   },
+   {
+    "id": "aurum-peak-001",
+    "groupId": "aurum-peak",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#0b162a",
+     "cloudHigh": "#193976",
+     "faceColor": "#8cabe4",
+     "fillColor": "#b2c6eb",
+     "hazeColor": "#1d4b9f",
+     "lineColor": "#3a74db",
+     "mistColor": "#205cc9",
+     "peakColor": "#6490df",
+     "cloudColor": "#13284f"
+    },
+    "ramp": [
+     "#0b162a",
+     "#13284f",
+     "#193976",
+     "#1d4b9f",
+     "#205cc9",
+     "#3a74db",
+     "#6490df",
+     "#8cabe4",
+     "#b2c6eb"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3/77d6bd3c-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3/77d6bd3c.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3/77d6bd3c.webp"
+   },
+   {
+    "id": "aurum-peak-002",
+    "groupId": "aurum-peak",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#152424",
+     "cloudHigh": "#356260",
+     "faceColor": "#aed1d0",
+     "fillColor": "#cce1e1",
+     "hazeColor": "#44817f",
+     "lineColor": "#6fb3b1",
+     "mistColor": "#52a29f",
+     "peakColor": "#8fc2c0",
+     "cloudColor": "#264342"
+    },
+    "ramp": [
+     "#152424",
+     "#264342",
+     "#356260",
+     "#44817f",
+     "#52a29f",
+     "#6fb3b1",
+     "#8fc2c0",
+     "#aed1d0",
+     "#cce1e1"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3/4206b5f3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3/4206b5f3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3/4206b5f3.webp"
+   },
+   {
+    "id": "aurum-peak-003",
+    "groupId": "aurum-peak",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#dce4ea",
+     "cloudHigh": "#b5c4d5",
+     "faceColor": "#5a689a",
+     "fillColor": "#515985",
+     "hazeColor": "#a1b2cb",
+     "lineColor": "#7a8db6",
+     "mistColor": "#8ca0c2",
+     "peakColor": "#687aa9",
+     "cloudColor": "#c8d4df"
+    },
+    "ramp": [
+     "#dce4ea",
+     "#c8d4df",
+     "#b5c4d5",
+     "#a1b2cb",
+     "#8ca0c2",
+     "#7a8db6",
+     "#687aa9",
+     "#5a689a",
+     "#515985"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3/23abdedb-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3/23abdedb.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/aurum-peak-58d377aea3/23abdedb.webp"
+   }
+  ],
+  "variantCount": 4
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "aurum-peak.webp": "91688 bytes"
+ }
+}

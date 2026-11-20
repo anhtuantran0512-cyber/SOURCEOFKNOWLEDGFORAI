@@ -1,0 +1,98 @@
+{
+ "fetchedAt": "2026-11-20T15:44:33Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "plasma-burst",
+  "title": "Plasma Burst",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A white-hot core erupts into hundreds of curling electric-violet filaments wrapped in a haze of twinkling sparks, all aglow on pure black.",
+  "image": "https://storage.getlayers.ai/3d_scenes/plasma-burst.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/plasma-burst.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/plasma-burst-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/plasma-burst-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 24,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "fire-plasma"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "threejs",
+   "line-segments",
+   "filaments",
+   "plasma",
+   "sparks",
+   "particles",
+   "burst",
+   "white",
+   "hot",
+   "core",
+   "erupting",
+   "hundreds",
+   "curling",
+   "electric",
+   "through",
+   "haze",
+   "twinkling",
+   "fire"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "plasma-burst",
+    "groupId": "plasma-burst",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colMid": "#8a5cff",
+     "colCore": "#ffffff",
+     "colPink": "#ff8fcf",
+     "colInner": "#d7c3ff",
+     "colOuter": "#43249f",
+     "colSpark": "#f1e3ff"
+    },
+    "ramp": [
+     "#ffffff",
+     "#d7c3ff",
+     "#8a5cff",
+     "#43249f",
+     "#f1e3ff",
+     "#ff8fcf"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/plasma-burst-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/plasma-burst.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/plasma-burst.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "plasma-burst.webp": "83484 bytes"
+ }
+}

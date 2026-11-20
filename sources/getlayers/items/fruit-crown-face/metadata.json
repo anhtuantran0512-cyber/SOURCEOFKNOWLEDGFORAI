@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:48Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "fruit-crown-face",
+  "title": "Fruit Crown Face",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/fruit-crown-face-951cbbf179.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/fruit-crown-face-951cbbf179.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/fruit-crown-face-951cbbf179-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "blossoms",
+   "candy",
+   "character",
+   "coloured",
+   "crown",
+   "drips",
+   "face",
+   "frosted",
+   "fruit",
+   "glossy",
+   "green",
+   "lavender",
+   "lime",
+   "melancholy",
+   "pastel",
+   "pink",
+   "portrait",
+   "skinned",
+   "spheres",
+   "strange",
+   "surreal",
+   "sweet",
+   "weeps"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "fruit-crown-face.webp": "184126 bytes"
+ }
+}

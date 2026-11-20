@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:46:01Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "starlight-cosmic-figure",
+  "title": "Starlight Cosmic Figure",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/starlight-cosmic-figure-0b6b0fa09a.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/starlight-cosmic-figure-0b6b0fa09a.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/starlight-cosmic-figure-0b6b0fa09a-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "across",
+   "back",
+   "being",
+   "character",
+   "cosmic",
+   "ethereal",
+   "figure",
+   "looking",
+   "night",
+   "one",
+   "person",
+   "scale",
+   "silhouette",
+   "silhouetted",
+   "sky",
+   "small",
+   "something",
+   "spreads",
+   "starlight",
+   "starlit",
+   "stars",
+   "the",
+   "tiny",
+   "under",
+   "vast",
+   "very"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "starlight-cosmic-figure.webp": "303568 bytes"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "fetchedAt": "2026-11-20T15:45:30Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "violet-glass-waves",
+  "title": "Violet Glass Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/violet-glass-waves-4ea6b07a76.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/violet-glass-waves-4ea6b07a76.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/violet-glass-waves-4ea6b07a76-preview.mp4",
+  "likes": 8,
+  "createdAt": "2026-07-25",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "background",
+   "glass",
+   "purple",
+   "ribbon",
+   "teal",
+   "violet",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "violet-glass-waves.webp": "105934 bytes"
+ }
+}

@@ -1,0 +1,269 @@
+{
+ "fetchedAt": "2026-11-20T15:44:56Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "plague-culture",
+  "title": "Plague Culture",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Glowing green bacterial cells with blue nuclei and amber specks drift, fuse and divide under a dark microscope lens, swarming toward your cursor and flaring on a click. Legal for purchase only on getlayers.ai — getlayers.ai/layer/plague-culture",
+  "image": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "fluid-iridescent"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "technical"
+  ],
+  "keywords": [
+   "amber",
+   "background",
+   "bacteria",
+   "bacterial",
+   "biology",
+   "bioluminescent",
+   "blob",
+   "blue",
+   "bokeh",
+   "cells",
+   "click",
+   "click-pulse",
+   "culture",
+   "cursor",
+   "dark",
+   "depth of field",
+   "depth-of-field",
+   "divide",
+   "dividing",
+   "drift",
+   "flaring",
+   "fluid",
+   "fluorescence",
+   "fluorescent",
+   "fuse",
+   "fusing",
+   "glowing",
+   "green",
+   "hero",
+   "interactive",
+   "iridescent",
+   "lens",
+   "medical",
+   "metaball",
+   "metaballs",
+   "microbe",
+   "microscope",
+   "microscopic",
+   "navy",
+   "nuclei",
+   "organic",
+   "pathogen",
+   "petri dish",
+   "plague",
+   "pointer-chemotaxis",
+   "raymarching",
+   "science",
+   "signed-distance-field",
+   "specks",
+   "swarm",
+   "swarming",
+   "teal",
+   "threejs",
+   "translucent",
+   "virus"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "plague-culture",
+    "groupId": "plague-culture",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#03102a",
+     "bgBottom": "#010309",
+     "cellColor": "#2fe08e",
+     "coreColor": "#4a63ff",
+     "glowColor": "#a8ffd6",
+     "organelleColor": "#ff7a36"
+    },
+    "ramp": [
+     "#2fe08e",
+     "#4a63ff",
+     "#a8ffd6",
+     "#ff7a36",
+     "#03102a",
+     "#010309"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4.webp"
+   },
+   {
+    "id": "plague-culture-001",
+    "groupId": "plague-culture",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#0d0624",
+     "bgBottom": "#030108",
+     "cellColor": "#9a5cff",
+     "coreColor": "#ff4fb8",
+     "glowColor": "#e0c8ff",
+     "organelleColor": "#ffd060"
+    },
+    "ramp": [
+     "#9a5cff",
+     "#ff4fb8",
+     "#e0c8ff",
+     "#ffd060",
+     "#0d0624",
+     "#030108"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/e8f7389d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/e8f7389d.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/e8f7389d.webp"
+   },
+   {
+    "id": "plague-culture-002",
+    "groupId": "plague-culture",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#140a02",
+     "bgBottom": "#040201",
+     "cellColor": "#ffb43a",
+     "coreColor": "#d8281e",
+     "glowColor": "#ffe2a8",
+     "organelleColor": "#46c8ff"
+    },
+    "ramp": [
+     "#ffb43a",
+     "#d8281e",
+     "#ffe2a8",
+     "#46c8ff",
+     "#140a02",
+     "#040201"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/399d83fe-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/399d83fe.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/399d83fe.webp"
+   },
+   {
+    "id": "plague-culture-003",
+    "groupId": "plague-culture",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#12040a",
+     "bgBottom": "#030102",
+     "cellColor": "#ff4a5a",
+     "coreColor": "#30e0d0",
+     "glowColor": "#ffc0c8",
+     "organelleColor": "#b0ff60"
+    },
+    "ramp": [
+     "#ff4a5a",
+     "#30e0d0",
+     "#ffc0c8",
+     "#b0ff60",
+     "#12040a",
+     "#030102"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/3f2009e3-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/3f2009e3.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/3f2009e3.webp"
+   },
+   {
+    "id": "plague-culture-004",
+    "groupId": "plague-culture",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#021428",
+     "bgBottom": "#000308",
+     "cellColor": "#7fd8ff",
+     "coreColor": "#ff7a5a",
+     "glowColor": "#d8f4ff",
+     "organelleColor": "#ffe08a"
+    },
+    "ramp": [
+     "#7fd8ff",
+     "#ff7a5a",
+     "#d8f4ff",
+     "#ffe08a",
+     "#021428",
+     "#000308"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/46931d3e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/46931d3e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/46931d3e.webp"
+   },
+   {
+    "id": "plague-culture-005",
+    "groupId": "plague-culture",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#0a1020",
+     "bgBottom": "#020306",
+     "cellColor": "#cfd8e4",
+     "coreColor": "#ffb84a",
+     "glowColor": "#ffffff",
+     "organelleColor": "#7a9cff"
+    },
+    "ramp": [
+     "#cfd8e4",
+     "#ffb84a",
+     "#ffffff",
+     "#7a9cff",
+     "#0a1020",
+     "#020306"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/166af9ea-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/166af9ea.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/plague-culture-5407c53be4/166af9ea.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "plague-culture.webp": "44526 bytes"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:56Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "fiery-glass-park",
+  "title": "Fiery Glass Park",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/fiery-glass-park-cb862913e5.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/fiery-glass-park-cb862913e5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/fiery-glass-park-cb862913e5-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "among",
+   "bubbles",
+   "bulbous",
+   "chemistry",
+   "dreamy",
+   "fiery",
+   "glass",
+   "marsh",
+   "moss",
+   "mossy",
+   "park",
+   "pink",
+   "plume",
+   "reeds",
+   "rises",
+   "rock",
+   "roll",
+   "smoke",
+   "soft",
+   "spell",
+   "surreal",
+   "tall",
+   "wild"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "fiery-glass-park.webp": "251868 bytes"
+ }
+}

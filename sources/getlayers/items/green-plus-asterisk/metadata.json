@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:40Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "green-plus-asterisk",
+  "title": "Green Plus Asterisk",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/green-plus-asterisk-5d3b1eaf8e.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/green-plus-asterisk-5d3b1eaf8e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/green-plus-asterisk-5d3b1eaf8e-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "asterisk",
+   "blurred",
+   "crisp",
+   "dark",
+   "energy",
+   "friendly",
+   "glass",
+   "glyph",
+   "grain",
+   "grainy",
+   "green",
+   "greens",
+   "halftone",
+   "mint",
+   "party",
+   "plus",
+   "risograph",
+   "shape",
+   "shapes",
+   "shift",
+   "sign",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "green-plus-asterisk.webp": "647494 bytes"
+ }
+}

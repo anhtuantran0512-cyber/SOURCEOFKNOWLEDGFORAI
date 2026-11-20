@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:47:05Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pink-hills-van",
+  "title": "Pink Hills Van",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pink-hills-van-3485f1cc1d.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pink-hills-van-3485f1cc1d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pink-hills-van-3485f1cc1d-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "anywhere",
+   "clouds",
+   "cloudy",
+   "flowering",
+   "flowers",
+   "from",
+   "hills",
+   "landscape",
+   "long",
+   "nature",
+   "parked",
+   "pink",
+   "road-trip",
+   "rolling",
+   "sits",
+   "sky",
+   "small",
+   "somewhere",
+   "under",
+   "unreal",
+   "valley",
+   "van",
+   "way",
+   "wide"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pink-hills-van.webp": "308894 bytes"
+ }
+}

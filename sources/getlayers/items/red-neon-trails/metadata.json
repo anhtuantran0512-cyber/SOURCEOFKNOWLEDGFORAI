@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:45:42Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "red-neon-trails",
+  "title": "Red Neon Trails",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/red-neon-trails-1eed7bbaf3.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/red-neon-trails-1eed7bbaf3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/red-neon-trails-1eed7bbaf3-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "abstract",
+   "curve",
+   "dark",
+   "from",
+   "glass",
+   "haze",
+   "horizon",
+   "light",
+   "light-trails",
+   "long",
+   "long-exposure",
+   "neon",
+   "night",
+   "orange",
+   "plane",
+   "red",
+   "reflection",
+   "reflective",
+   "road",
+   "speed",
+   "the",
+   "trails",
+   "velocity",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "red-neon-trails.webp": "76644 bytes"
+ }
+}

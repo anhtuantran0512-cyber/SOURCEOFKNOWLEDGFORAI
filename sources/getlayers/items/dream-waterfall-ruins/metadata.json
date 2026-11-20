@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:37Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "dream-waterfall-ruins",
+  "title": "Dream Waterfall Ruins",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark. Legal for purchase only on getlayers.ai — getlayers.ai/layer/dream-waterfall-ruins",
+  "image": "https://storage.getlayers.ai/backgrounds/dream-waterfall-ruins-dda9a61c50.webp",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "armchair",
+   "beside",
+   "book",
+   "classical",
+   "clouds",
+   "come",
+   "dream",
+   "dreamlike",
+   "fantasy",
+   "figure",
+   "giant",
+   "landscape",
+   "library",
+   "life",
+   "moss",
+   "mossy",
+   "nature",
+   "open",
+   "pond",
+   "ruins",
+   "sky",
+   "spills",
+   "storybook",
+   "teal",
+   "waterfall"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "dream-waterfall-ruins.webp": "379042 bytes"
+ }
+}

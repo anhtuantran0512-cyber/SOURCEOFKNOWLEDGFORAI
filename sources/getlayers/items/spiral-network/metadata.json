@@ -1,0 +1,94 @@
+{
+ "fetchedAt": "2026-11-20T15:44:41Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "spiral-network",
+  "title": "Spiral Network",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Premium",
+  "description": "A slowly tilting spiral of cyan particles resolves into a glowing web of connected strands over a warm rust backdrop.",
+  "image": "https://storage.getlayers.ai/3d_scenes/spiral-network.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/spiral-network.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/spiral-network-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/spiral-network-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 14,
+  "createdAt": "2026-05-01",
+  "typeTags": [
+   "galaxy-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "organic"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "spiral",
+   "network",
+   "scroll",
+   "vast",
+   "web",
+   "drifting",
+   "resolving",
+   "diffuse",
+   "haze",
+   "interconnected",
+   "strands",
+   "light",
+   "galaxy",
+   "space"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "spiral-network",
+    "groupId": "spiral-network",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#1c0a02",
+     "atmoColor": "#ffb066",
+     "flameColor": "#ff7a1f",
+     "innerColor": "#cdefff",
+     "outerColor": "#2a6cff",
+     "flameColor2": "#ffce5a"
+    },
+    "ramp": [
+     "#1c0a02",
+     "#ff7a1f",
+     "#ffce5a",
+     "#ffb066",
+     "#cdefff",
+     "#2a6cff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/spiral-network-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/spiral-network.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/spiral-network.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "spiral-network.webp": "203412 bytes"
+ }
+}

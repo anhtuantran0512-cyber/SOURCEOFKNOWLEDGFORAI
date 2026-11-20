@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:59Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-heart-bust",
+  "title": "Glass Heart Bust",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-heart-bust-4e979324fd.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-heart-bust-4e979324fd.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-heart-bust-4e979324fd-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "anatomical",
+   "anatomy",
+   "around",
+   "bust",
+   "character",
+   "chest",
+   "classical",
+   "forest",
+   "forested",
+   "glass",
+   "head",
+   "heart",
+   "holds",
+   "inside",
+   "insides",
+   "kept",
+   "landscape",
+   "modern",
+   "person",
+   "sculpture",
+   "starfield",
+   "stars",
+   "surreal",
+   "valley"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glass-heart-bust.webp": "82912 bytes"
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "fetchedAt": "2026-11-20T15:45:06Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "simple-pricing-2",
+  "title": "Lime Glow Pricing",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A bright, confident pricing pair where a dark premium card smoulders with a soft lime glow. Legal for purchase only on getlayers.ai — getlayers.ai/layer/simple-pricing-2",
+  "image": "https://storage.getlayers.ai/sections/simple-pricing-2-eae21fe410.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/simple-pricing-2-eae21fe410.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/simple-pricing-2-eae21fe410-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/simple-pricing-2-eae21fe410-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/simple-pricing-2-eae21fe410-mobile.mp4",
+  "likes": 20,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "bold headline",
+   "bright",
+   "card",
+   "clean",
+   "confident",
+   "dark",
+   "dark card",
+   "free and premium",
+   "glow",
+   "lime",
+   "monthly yearly toggle",
+   "pair",
+   "plans",
+   "premium",
+   "pricing",
+   "pricing table",
+   "saas pricing",
+   "smoulders",
+   "soft",
+   "subscription",
+   "toggle",
+   "two plans",
+   "two-tier",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "simple-pricing-2.webp": "45320 bytes"
+ }
+}

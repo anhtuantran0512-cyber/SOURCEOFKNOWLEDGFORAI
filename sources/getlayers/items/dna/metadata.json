@@ -1,0 +1,53 @@
+{
+ "fetchedAt": "2026-11-20T15:45:09Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "dna",
+  "title": "Dna",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/dna-1c1004b999.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/dna-1c1004b999.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/dna-1c1004b999-preview.mp4",
+  "likes": 57,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "science-molecular"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "dna",
+   "helix",
+   "science",
+   "glass",
+   "blue",
+   "glassy",
+   "double",
+   "turning",
+   "slowly",
+   "base",
+   "pairs",
+   "lit",
+   "warm",
+   "amber",
+   "sparks",
+   "molecular"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "dna.webp": "76810 bytes"
+ }
+}

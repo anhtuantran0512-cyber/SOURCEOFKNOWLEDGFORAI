@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:47:10Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "tv-head-bouquet",
+  "title": "Tv Head Bouquet",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/tv-head-bouquet-e4989e1a58.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/tv-head-bouquet-e4989e1a58.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/tv-head-bouquet-e4989e1a58-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "against",
+   "and",
+   "bouquet",
+   "character",
+   "cream",
+   "daytime",
+   "figure",
+   "from",
+   "gentle",
+   "head",
+   "holds",
+   "linen",
+   "machine",
+   "odd",
+   "old",
+   "portrait",
+   "proposal",
+   "retro",
+   "sky",
+   "soft",
+   "surreal",
+   "tv-head"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "tv-head-bouquet.webp": "102206 bytes"
+ }
+}

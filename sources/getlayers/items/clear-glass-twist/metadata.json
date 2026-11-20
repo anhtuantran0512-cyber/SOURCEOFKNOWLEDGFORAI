@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:45:33Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "clear-glass-twist",
+  "title": "Clear Glass Twist",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/clear-glass-twist-0968129731.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/clear-glass-twist-0968129731.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/clear-glass-twist-0968129731-preview.mp4",
+  "likes": 4,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "aqua",
+   "blue",
+   "braid",
+   "caustic",
+   "caustics",
+   "clean",
+   "clear",
+   "fresh",
+   "given",
+   "glass",
+   "glinting",
+   "light",
+   "pale",
+   "ribbons",
+   "shape",
+   "sky",
+   "together",
+   "twist",
+   "water",
+   "weightless"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "clear-glass-twist.webp": "135018 bytes"
+ }
+}

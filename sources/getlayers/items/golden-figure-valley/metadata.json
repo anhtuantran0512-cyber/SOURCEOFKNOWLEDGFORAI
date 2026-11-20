@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:36Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "golden-figure-valley",
+  "title": "Golden Figure Valley",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark. Legal for purchase only on getlayers.ai — getlayers.ai/layer/golden-figure-valley",
+  "image": "https://storage.getlayers.ai/backgrounds/golden-figure-valley-50242e3550.webp",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "above",
+   "character",
+   "clouds",
+   "curled",
+   "dusk",
+   "edge",
+   "figure",
+   "gold",
+   "golden",
+   "grass",
+   "heroic",
+   "hilltop",
+   "moody",
+   "mossy",
+   "mountain",
+   "mountains",
+   "rock",
+   "sits",
+   "sky",
+   "statue",
+   "sunlit",
+   "valley",
+   "wildflower",
+   "wildflowers",
+   "world"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "golden-figure-valley.webp": "395752 bytes"
+ }
+}

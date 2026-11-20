@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:50Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "orange-cobalt-strands",
+  "title": "Orange Cobalt Strands",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/orange-cobalt-strands-51da45ab25.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/orange-cobalt-strands-51da45ab25.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/orange-cobalt-strands-51da45ab25-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "blue",
+   "cobalt",
+   "cold",
+   "copper",
+   "crossing",
+   "cyan",
+   "data",
+   "fibres",
+   "fine",
+   "glass",
+   "glowing",
+   "meets",
+   "metallic",
+   "orange",
+   "other",
+   "side",
+   "silk",
+   "strands",
+   "sweep",
+   "warm",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "orange-cobalt-strands.webp": "263798 bytes"
+ }
+}

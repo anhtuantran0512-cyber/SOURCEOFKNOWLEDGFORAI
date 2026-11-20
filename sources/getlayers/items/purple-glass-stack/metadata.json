@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:46:01Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "purple-glass-stack",
+  "title": "Purple Glass Stack",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/purple-glass-stack-92dc16e4ce.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/purple-glass-stack-92dc16e4ce.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/purple-glass-stack-92dc16e4ce-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "against",
+   "and",
+   "black",
+   "can",
+   "cold",
+   "column",
+   "data",
+   "each",
+   "edge",
+   "geometric",
+   "glass",
+   "layered",
+   "layers",
+   "lit",
+   "magenta",
+   "plates",
+   "purple",
+   "see",
+   "stack",
+   "structure",
+   "tall",
+   "tapered",
+   "violet",
+   "you"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "purple-glass-stack.webp": "91758 bytes"
+ }
+}

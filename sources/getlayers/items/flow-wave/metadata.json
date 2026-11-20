@@ -1,0 +1,95 @@
+{
+ "fetchedAt": "2026-11-20T15:44:31Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "flow-wave",
+  "title": "Flow Wave",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles"
+  ],
+  "stack": [
+   "threejs",
+   "particles"
+  ],
+  "tier": "Free",
+  "description": "A glowing sea of mint particle hills rolling endlessly under a deep-emerald haze.",
+  "image": "https://storage.getlayers.ai/3d_scenes/flow-wave.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/flow-wave.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/flow-wave-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/flow-wave-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 127,
+  "createdAt": "2026-05-15",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "wave",
+   "landscape",
+   "flow",
+   "vast",
+   "rolling",
+   "sheet",
+   "luminous",
+   "points",
+   "swelling",
+   "hills",
+   "you",
+   "fly",
+   "down",
+   "waves",
+   "terrain"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "flow-wave",
+    "groupId": "flow-wave",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#02160c",
+     "colorLow": "#02160c",
+     "atmoColor": "#7affbf",
+     "colorHigh": "#34e89a",
+     "flameColor": "#0aff7f",
+     "flameColor2": "#aef0c0"
+    },
+    "ramp": [
+     "#02160c",
+     "#0aff7f",
+     "#aef0c0",
+     "#7affbf",
+     "#02160c",
+     "#34e89a"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/flow-wave-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/flow-wave.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/flow-wave.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "rate_limited"
+ },
+ "files": {
+  "flow-wave.webp": "129828 bytes"
+ }
+}

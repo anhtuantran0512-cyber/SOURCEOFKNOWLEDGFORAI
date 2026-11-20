@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:01Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pastel-lava-blobs",
+  "title": "Pastel Lava Blobs",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pastel-lava-blobs-a704bc71a5.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pastel-lava-blobs-a704bc71a5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pastel-lava-blobs-a704bc71a5-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "and",
+   "blobs",
+   "dark",
+   "drift",
+   "each",
+   "edged",
+   "glass",
+   "gloopy",
+   "lamp",
+   "lava",
+   "lava-lamp",
+   "liquid",
+   "neon",
+   "one",
+   "organic",
+   "outlined",
+   "pastel",
+   "rim",
+   "sherbet",
+   "slow",
+   "soft",
+   "thin",
+   "voids"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pastel-lava-blobs.webp": "49108 bytes"
+ }
+}

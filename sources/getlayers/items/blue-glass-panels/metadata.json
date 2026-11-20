@@ -1,0 +1,46 @@
+{
+ "fetchedAt": "2026-11-20T15:45:34Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-glass-panels",
+  "title": "Blue Glass Panels",
+  "category": "background",
+  "tags": [
+   "background",
+   "static"
+  ],
+  "stack": [
+   "background",
+   "static"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark.",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-glass-panels-97cb038c8d.webp",
+  "likes": 4,
+  "createdAt": "2026-07-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "abstract",
+   "background",
+   "blue",
+   "fins",
+   "glass",
+   "panels",
+   "translucent"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-glass-panels.webp": "49158 bytes"
+ }
+}

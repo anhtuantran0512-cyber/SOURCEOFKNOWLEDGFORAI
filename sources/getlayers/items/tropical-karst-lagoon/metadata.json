@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:43Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "tropical-karst-lagoon",
+  "title": "Tropical Karst Lagoon",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/tropical-karst-lagoon-71472ce9ce.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/tropical-karst-lagoon-71472ce9ce.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/tropical-karst-lagoon-71472ce9ce-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "banana",
+   "far",
+   "frame",
+   "green",
+   "karst",
+   "karsts",
+   "lagoon",
+   "landscape",
+   "leaves",
+   "limestone",
+   "monsoon",
+   "nature",
+   "pale",
+   "quiet",
+   "rain",
+   "rainy",
+   "ringed",
+   "sky",
+   "somewhere",
+   "south",
+   "still",
+   "tropical",
+   "under"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "tropical-karst-lagoon.webp": "246676 bytes"
+ }
+}

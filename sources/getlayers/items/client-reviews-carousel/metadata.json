@@ -1,0 +1,72 @@
+{
+ "fetchedAt": "2026-11-20T15:45:06Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "client-reviews-carousel",
+  "title": "Client Reviews Carousel",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A bright editorial rail of soft grey quote cards that glides off the page edge, each voice framed by its brand. Legal for purchase only on getlayers.ai — getlayers.ai/layer/client-reviews-carousel",
+  "image": "https://storage.getlayers.ai/sections/client-reviews-carousel-c7ac797aed.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/client-reviews-carousel-c7ac797aed.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/client-reviews-carousel-c7ac797aed-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/client-reviews-carousel-c7ac797aed-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/client-reviews-carousel-c7ac797aed-mobile.mp4",
+  "likes": 13,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "testimonials"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "keywords": [
+   "agency",
+   "b2b",
+   "brand",
+   "bright",
+   "cards",
+   "carousel",
+   "case studies",
+   "client",
+   "client reviews",
+   "customer reviews",
+   "edge",
+   "editorial",
+   "framed",
+   "glides",
+   "grey",
+   "light",
+   "off",
+   "page",
+   "quote",
+   "quotes",
+   "rail",
+   "reviews",
+   "slider",
+   "social proof",
+   "social-proof",
+   "soft",
+   "testimonials",
+   "voice",
+   "what clients say"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "client-reviews-carousel.webp": "53894 bytes"
+ }
+}

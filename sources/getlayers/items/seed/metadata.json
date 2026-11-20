@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:24:50Z",
+ "fetchedAt": "2026-11-20T15:42:48Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "seed",
@@ -466,7 +466,7 @@
   "status": "premium"
  },
  "files": {
-  "seed.webp": "174872 bytes",
-  "seed-figma.webp": "217000 bytes"
+  "seed.webp": "cached",
+  "seed-figma.webp": "cached"
  }
 }

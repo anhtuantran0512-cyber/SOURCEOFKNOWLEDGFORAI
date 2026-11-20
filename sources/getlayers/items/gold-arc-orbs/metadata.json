@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "gold-arc-orbs",
+  "title": "Gold Arc Orbs",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/gold-arc-orbs-57f1843466.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/gold-arc-orbs-57f1843466.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/gold-arc-orbs-57f1843466-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "almost",
+   "arc",
+   "arcs",
+   "blue",
+   "deep",
+   "elegance",
+   "fibers",
+   "fine",
+   "glass",
+   "glow",
+   "glowing",
+   "gold",
+   "golden",
+   "light",
+   "navy",
+   "orbs",
+   "other",
+   "past",
+   "paths",
+   "quiet",
+   "soft",
+   "sweep",
+   "touching"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "gold-arc-orbs.webp": "96764 bytes"
+ }
+}

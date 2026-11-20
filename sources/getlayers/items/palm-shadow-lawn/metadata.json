@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:47:04Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "palm-shadow-lawn",
+  "title": "Palm Shadow Lawn",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/palm-shadow-lawn-84702e72df.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/palm-shadow-lawn-84702e72df.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/palm-shadow-lawn-84702e72df-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "floral"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "across",
+   "bright",
+   "clean",
+   "country",
+   "falls",
+   "floral",
+   "frame",
+   "frond",
+   "grass",
+   "green",
+   "hard",
+   "lawn",
+   "light",
+   "midday",
+   "minimal",
+   "one",
+   "palm",
+   "shade",
+   "shadow",
+   "splitting",
+   "sunlight",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "palm-shadow-lawn.webp": "682040 bytes"
+ }
+}

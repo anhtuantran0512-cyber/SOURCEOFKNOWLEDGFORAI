@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:50Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "violet-contour-waves",
+  "title": "Violet Contour Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/violet-contour-waves-c2b71051a9.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/violet-contour-waves-c2b71051a9.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/violet-contour-waves-c2b71051a9-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "blue",
+   "contour",
+   "dark",
+   "dream",
+   "fine",
+   "folds",
+   "glass",
+   "glowing",
+   "landscape",
+   "lines",
+   "magenta",
+   "map",
+   "neon",
+   "nocturnal",
+   "pale",
+   "rolling",
+   "sleek",
+   "topography",
+   "traced",
+   "violet",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "violet-contour-waves.webp": "325716 bytes"
+ }
+}

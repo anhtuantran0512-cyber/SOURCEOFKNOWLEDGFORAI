@@ -1,0 +1,48 @@
+{
+ "fetchedAt": "2026-11-20T15:45:09Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "purple-glass",
+  "title": "Purple Glass",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/purple-glass-df54bac45f.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/purple-glass-df54bac45f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/purple-glass-df54bac45f-preview.mp4",
+  "likes": 55,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "glass",
+   "abstract",
+   "purple",
+   "bubbles",
+   "ribbons",
+   "iridescent",
+   "floating",
+   "coil",
+   "through",
+   "black",
+   "expanse"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "purple-glass.webp": "88234 bytes"
+ }
+}

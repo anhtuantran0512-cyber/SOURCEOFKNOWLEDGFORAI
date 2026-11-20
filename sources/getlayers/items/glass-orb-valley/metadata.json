@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:45:44Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "glass-orb-valley",
+  "title": "Glass Orb Valley",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Free",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/glass-orb-valley-02ecd47ce2.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/glass-orb-valley-02ecd47ce2.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/glass-orb-valley-02ecd47ce2-preview.mp4",
+  "likes": 7,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "afternoon",
+   "behind",
+   "clear",
+   "down",
+   "glass",
+   "green",
+   "hillside",
+   "inside",
+   "inverted",
+   "landscape",
+   "lens",
+   "marble",
+   "nature",
+   "orb",
+   "quiet",
+   "rests",
+   "slope",
+   "sphere",
+   "summer",
+   "sunlit",
+   "the",
+   "upside",
+   "valley",
+   "world"
+  ]
+ },
+ "prompt": {
+  "status": "forbidden"
+ },
+ "files": {
+  "glass-orb-valley.webp": "371430 bytes"
+ }
+}

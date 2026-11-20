@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:08Z",
+ "fetchedAt": "2026-11-20T15:42:22Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "relay",
@@ -783,7 +783,7 @@
   "status": "premium"
  },
  "files": {
-  "relay.webp": "49164 bytes",
-  "relay-figma.webp": "129250 bytes"
+  "relay.webp": "cached",
+  "relay-figma.webp": "cached"
  }
 }

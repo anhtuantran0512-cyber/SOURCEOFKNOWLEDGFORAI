@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:47:04Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "opal-waterfall-sea",
+  "title": "Opal Waterfall Sea",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/opal-waterfall-sea-0e0ca2abba.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/opal-waterfall-sea-0e0ca2abba.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/opal-waterfall-sea-0e0ca2abba-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "cosmic-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "cosmic",
+   "dark",
+   "figure",
+   "luminous",
+   "one",
+   "opal",
+   "ornate",
+   "out",
+   "pouring",
+   "pours",
+   "scale",
+   "sea",
+   "small",
+   "space",
+   "stands",
+   "surreal",
+   "the",
+   "torrent",
+   "universe",
+   "used",
+   "vessel",
+   "waterfall",
+   "weapon",
+   "where"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "opal-waterfall-sea.webp": "208648 bytes"
+ }
+}

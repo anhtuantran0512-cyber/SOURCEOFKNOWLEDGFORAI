@@ -1,0 +1,231 @@
+{
+ "fetchedAt": "2026-11-20T15:44:55Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "vitrine-drift",
+  "title": "Vitrine Drift",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A wall of chunky glass tiles, each holding a glowing project card, that you drag across an endless grid while thick bevels bend the image into colour. Legal for purchase only on getlayers.ai — getlayers.ai/layer/vitrine-drift",
+  "image": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "fluid-iridescent"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "agency",
+   "bend",
+   "bevel",
+   "bevels",
+   "black",
+   "canvas-texture",
+   "card",
+   "cards",
+   "carousel",
+   "case studies",
+   "chromatic aberration",
+   "chromatic-aberration",
+   "chunky",
+   "colour",
+   "dark",
+   "drag",
+   "drag-pan",
+   "draggable",
+   "drift",
+   "endless",
+   "extrude-bevel",
+   "fluid",
+   "gallery",
+   "glass",
+   "glass tiles",
+   "glass-transmission",
+   "glassmorphism",
+   "glowing",
+   "grid",
+   "holding",
+   "image",
+   "inertia",
+   "infinite",
+   "infinite-grid",
+   "iridescent",
+   "portfolio",
+   "project",
+   "project-wall",
+   "projects",
+   "refraction",
+   "rounded",
+   "screens",
+   "scroll",
+   "showcase",
+   "slab",
+   "thick",
+   "threejs",
+   "tiles",
+   "transparent",
+   "tv",
+   "vitrine",
+   "wall",
+   "website",
+   "work"
+  ],
+  "variants": [
+   {
+    "id": "vitrine-drift",
+    "groupId": "vitrine-drift",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#0a0b10",
+     "bgBottom": "#020203",
+     "attenuationColor": "#ffffff"
+    },
+    "ramp": [
+     "#ffffff",
+     "#0a0b10",
+     "#020203"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc.webp"
+   },
+   {
+    "id": "vitrine-drift-001",
+    "groupId": "vitrine-drift",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#2e0a12",
+     "bgBottom": "#080204",
+     "attenuationColor": "#ffb050"
+    },
+    "ramp": [
+     "#ffb050",
+     "#2e0a12",
+     "#080204"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/679a7e96-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/679a7e96.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/679a7e96.webp"
+   },
+   {
+    "id": "vitrine-drift-002",
+    "groupId": "vitrine-drift",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#0c1838",
+     "bgBottom": "#02040c",
+     "attenuationColor": "#8ab4ff"
+    },
+    "ramp": [
+     "#8ab4ff",
+     "#0c1838",
+     "#02040c"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/3bfc056e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/3bfc056e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/3bfc056e.webp"
+   },
+   {
+    "id": "vitrine-drift-003",
+    "groupId": "vitrine-drift",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#2c3c32",
+     "bgBottom": "#0b130e",
+     "attenuationColor": "#d8f0e0"
+    },
+    "ramp": [
+     "#d8f0e0",
+     "#2c3c32",
+     "#0b130e"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/b2f0f41b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/b2f0f41b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/b2f0f41b.webp"
+   },
+   {
+    "id": "vitrine-drift-004",
+    "groupId": "vitrine-drift",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#ece7de",
+     "bgBottom": "#c9c1b4",
+     "attenuationColor": "#ffffff"
+    },
+    "ramp": [
+     "#ffffff",
+     "#ece7de",
+     "#c9c1b4"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/e057aac8-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/e057aac8.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/e057aac8.webp"
+   },
+   {
+    "id": "vitrine-drift-005",
+    "groupId": "vitrine-drift",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#1c0f30",
+     "bgBottom": "#06030c",
+     "attenuationColor": "#e0c8ff"
+    },
+    "ramp": [
+     "#e0c8ff",
+     "#1c0f30",
+     "#06030c"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/aa68dede-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/aa68dede.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vitrine-drift-fb81b0f4fc/aa68dede.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "vitrine-drift.webp": "252730 bytes"
+ }
+}

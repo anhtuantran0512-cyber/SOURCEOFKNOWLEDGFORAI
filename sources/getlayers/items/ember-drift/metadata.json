@@ -1,0 +1,293 @@
+{
+ "fetchedAt": "2026-11-20T15:44:24Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "ember-drift",
+  "title": "Ember Drift",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A calm, deep field of glowing embers drifts through warm dark smoke, sharp glints on the focal plane and soft lens-ringed bokeh around them, flaring on a click. Legal for purchase only on getlayers.ai — getlayers.ai/layer/ember-drift",
+  "image": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60-preview.mp4",
+  "likes": 115,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "against",
+   "around",
+   "atmospheric",
+   "background",
+   "below",
+   "big",
+   "bokeh",
+   "calm",
+   "cinematic",
+   "click",
+   "click-flare",
+   "cursor",
+   "dark",
+   "depth of field",
+   "depth-of-field",
+   "discs",
+   "drift",
+   "drifting",
+   "ember",
+   "embers",
+   "film",
+   "film still",
+   "fire",
+   "firelight",
+   "flare",
+   "focal",
+   "glints",
+   "glow",
+   "glowing",
+   "gold",
+   "hearth",
+   "instanced-quads",
+   "lens",
+   "like",
+   "moody",
+   "moves",
+   "night",
+   "orange",
+   "other",
+   "parallax",
+   "particles",
+   "plane",
+   "pointer-parallax",
+   "red",
+   "sharp",
+   "shot",
+   "sliding",
+   "smoke",
+   "soft",
+   "sparks",
+   "still",
+   "threejs",
+   "vertex-shader-particles",
+   "warm"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "ember-drift",
+    "groupId": "ember-drift",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bg": "#040202",
+     "emberHot": "#ffc061",
+     "emberMid": "#ff6a16",
+     "atmoInner": "#140609",
+     "atmoOuter": "#04040d",
+     "emberDeep": "#8a1e04",
+     "emberWhite": "#ffe0b0",
+     "hearthColor": "#ff8a3a"
+    },
+    "ramp": [
+     "#040202",
+     "#140609",
+     "#04040d",
+     "#ff8a3a",
+     "#8a1e04",
+     "#ff6a16",
+     "#ffc061",
+     "#ffe0b0"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60.webp"
+   },
+   {
+    "id": "ember-drift-001",
+    "groupId": "ember-drift",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bg": "#040202",
+     "emberHot": "#ffe08a",
+     "emberMid": "#e0a030",
+     "atmoInner": "#140c04",
+     "atmoOuter": "#050404",
+     "emberDeep": "#6a3a08",
+     "emberWhite": "#fff4d8",
+     "hearthColor": "#ffb850"
+    },
+    "ramp": [
+     "#040202",
+     "#140c04",
+     "#050404",
+     "#ffb850",
+     "#6a3a08",
+     "#e0a030",
+     "#ffe08a",
+     "#fff4d8"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/70757c2b-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/70757c2b.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/70757c2b.webp"
+   },
+   {
+    "id": "ember-drift-002",
+    "groupId": "ember-drift",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bg": "#010205",
+     "emberHot": "#bfe0ff",
+     "emberMid": "#3a8aff",
+     "atmoInner": "#040a1a",
+     "atmoOuter": "#010208",
+     "emberDeep": "#0a2a6a",
+     "emberWhite": "#f0f8ff",
+     "hearthColor": "#4a8aff"
+    },
+    "ramp": [
+     "#010205",
+     "#040a1a",
+     "#010208",
+     "#4a8aff",
+     "#0a2a6a",
+     "#3a8aff",
+     "#bfe0ff",
+     "#f0f8ff"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/12a9ed49-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/12a9ed49.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/12a9ed49.webp"
+   },
+   {
+    "id": "ember-drift-003",
+    "groupId": "ember-drift",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bg": "#010203",
+     "emberHot": "#ffb070",
+     "emberMid": "#2ac0a0",
+     "atmoInner": "#06141a",
+     "atmoOuter": "#020508",
+     "emberDeep": "#0a4a40",
+     "emberWhite": "#fff0dc",
+     "hearthColor": "#ff7a40"
+    },
+    "ramp": [
+     "#010203",
+     "#06141a",
+     "#020508",
+     "#ff7a40",
+     "#0a4a40",
+     "#2ac0a0",
+     "#ffb070",
+     "#fff0dc"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/01ca3280-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/01ca3280.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/01ca3280.webp"
+   },
+   {
+    "id": "ember-drift-004",
+    "groupId": "ember-drift",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bg": "#050306",
+     "emberHot": "#ffc0d4",
+     "emberMid": "#ff7aa8",
+     "atmoInner": "#1a0a14",
+     "atmoOuter": "#06040a",
+     "emberDeep": "#8a2a4a",
+     "emberWhite": "#fff0f4",
+     "hearthColor": "#ff8ab0"
+    },
+    "ramp": [
+     "#050306",
+     "#1a0a14",
+     "#06040a",
+     "#ff8ab0",
+     "#8a2a4a",
+     "#ff7aa8",
+     "#ffc0d4",
+     "#fff0f4"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/30e2dab7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/30e2dab7.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/30e2dab7.webp"
+   },
+   {
+    "id": "ember-drift-005",
+    "groupId": "ember-drift",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bg": "#010302",
+     "emberHot": "#e8ff90",
+     "emberMid": "#a8e040",
+     "atmoInner": "#06120a",
+     "atmoOuter": "#020604",
+     "emberDeep": "#2a4a08",
+     "emberWhite": "#f8ffd8",
+     "hearthColor": "#6a9a30"
+    },
+    "ramp": [
+     "#010302",
+     "#06120a",
+     "#020604",
+     "#6a9a30",
+     "#2a4a08",
+     "#a8e040",
+     "#e8ff90",
+     "#f8ffd8"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/7bbd0645-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/7bbd0645.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/ember-drift-fe6a091e60/7bbd0645.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "ember-drift.webp": "53740 bytes"
+ }
+}

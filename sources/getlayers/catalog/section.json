@@ -1,0 +1,3304 @@
+[
+ {
+  "id": "mirror-hall",
+  "title": "Mirror Hall",
+  "category": "section",
+  "tags": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "An immersive, infinitely draggable 3D carousel of glowing image-cards standing on a near-black reflective pool, their light rippling across the water as you spin the ring with inertia.",
+  "image": "https://storage.getlayers.ai/sections/mirror-hall.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/mirror-hall.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/mirror-hall-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/mirror-hall-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 157,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "carousel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "carousel",
+   "threejs",
+   "reflection",
+   "water",
+   "webgl",
+   "mirror",
+   "hall",
+   "rotunda",
+   "glowing",
+   "cards",
+   "standing",
+   "near",
+   "black",
+   "reflective",
+   "pool",
+   "their",
+   "light",
+   "spilling",
+   "rippling",
+   "across",
+   "you",
+   "spin",
+   "ring"
+  ]
+ },
+ {
+  "id": "cards-cascade",
+  "title": "Cards Cascade",
+  "category": "section",
+  "tags": [
+   "section",
+   "scroll-driven",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "scroll-driven",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A scroll-driven 3D card deck that fans flat at the back, rises to an upright crest, then folds forward and cascades straight down into a pit — pure-CSS depth beside a pinned editorial hero.",
+  "image": "https://storage.getlayers.ai/sections/cards-cascade.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/cards-cascade.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/cards-cascade-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/cards-cascade-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 99,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "cards"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "keywords": [
+   "cards",
+   "css-3d",
+   "scroll",
+   "deck",
+   "cascade",
+   "art",
+   "that",
+   "fans",
+   "flat",
+   "back",
+   "rises",
+   "single",
+   "upright",
+   "crest",
+   "then",
+   "folds",
+   "forward",
+   "cascades",
+   "pit"
+  ]
+ },
+ {
+  "id": "slider-slipstream",
+  "title": "Slider Slipstream",
+  "category": "section",
+  "tags": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An immersive infinite 3D carousel where portrait cards ride one tilted belt receding diagonally into the dark — near cards looming, far cards dissolving to black — as you drag, swipe or arrow-key through the stream.",
+  "image": "https://storage.getlayers.ai/sections/slider-slipstream.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/slider-slipstream.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/slider-slipstream-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/slider-slipstream-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 83,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "carousel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "carousel",
+   "css-3d",
+   "belt",
+   "editorial",
+   "slider",
+   "slipstream",
+   "river",
+   "portrait",
+   "cards",
+   "riding",
+   "one",
+   "tilted",
+   "that",
+   "recedes",
+   "black",
+   "looming",
+   "near",
+   "right",
+   "dissolving",
+   "far",
+   "left"
+  ]
+ },
+ {
+  "id": "cards-almanac",
+  "title": "Cards Almanac",
+  "category": "section",
+  "tags": [
+   "section",
+   "scroll-driven",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "scroll-driven",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A premium sticky card-stack where big dated dispatch cards pin to the screen and pile up as you scroll — each cover zooming to life as the next slides over it with a subtle 3D lean.",
+  "image": "https://storage.getlayers.ai/sections/cards-almanac.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/cards-almanac.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/cards-almanac-preview.mp4",
+  "likes": 73,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "cards"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "cards",
+   "sticky-stack",
+   "scroll",
+   "editorial",
+   "almanac",
+   "quiet",
+   "column",
+   "dispatch",
+   "that",
+   "pin",
+   "pile",
+   "you",
+   "each",
+   "one",
+   "settling",
+   "flat",
+   "last"
+  ]
+ },
+ {
+  "id": "carousel-under-the-radar",
+  "title": "Carousel Under The Radar",
+  "category": "section",
+  "tags": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A wheel/fan carousel whose image cards fan across the top like a spread hand around a hidden circle, framed by bold editorial type — drag to spin it endlessly or let it drift.",
+  "image": "https://storage.getlayers.ai/sections/carousel-under-the-radar.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/carousel-under-the-radar.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/carousel-under-the-radar-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/carousel-under-the-radar-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 69,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "carousel"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "carousel",
+   "wheel",
+   "fan",
+   "editorial",
+   "under",
+   "radar",
+   "wide",
+   "crown",
+   "ink",
+   "water",
+   "cards",
+   "fanning",
+   "across",
+   "top",
+   "frame",
+   "spun",
+   "hand",
+   "between",
+   "oversized",
+   "type"
+  ]
+ },
+ {
+  "id": "carousel-spotlight",
+  "title": "Carousel Spotlight",
+  "category": "section",
+  "tags": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A premium editorial gallery built around an infinite concave-arc carousel on a clean light stage, its title, rating and dots staying synced to the front card as you drag, swipe or click through with snap-to-card settling.",
+  "image": "https://storage.getlayers.ai/sections/carousel-spotlight.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/carousel-spotlight.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/carousel-spotlight-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/carousel-spotlight-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 69,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "carousel"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "keywords": [
+   "carousel",
+   "css-3d",
+   "gallery",
+   "editorial",
+   "spotlight",
+   "concave",
+   "ring",
+   "cards",
+   "curving",
+   "through",
+   "bright",
+   "stage",
+   "snapping",
+   "whichever",
+   "work",
+   "faces",
+   "you"
+  ]
+ },
+ {
+  "id": "colonnade",
+  "title": "Colonnade",
+  "category": "section",
+  "tags": [
+   "section",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An interactive column accordion on warm paper where hovering a chapter slides its lush mesh-gradient panel upward while the last one exits the top — one continuous upward conveyor, headline and caption swapping in sync.",
+  "image": "https://storage.getlayers.ai/sections/colonnade.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/colonnade.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/colonnade-preview.mp4",
+  "likes": 57,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "features"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "accordion",
+   "columns",
+   "features",
+   "editorial",
+   "colonnade",
+   "row",
+   "chapter",
+   "warm",
+   "paper",
+   "each",
+   "sliding",
+   "panel",
+   "upward",
+   "you",
+   "move",
+   "between",
+   "them",
+   "one",
+   "continuous",
+   "conveyor"
+  ]
+ },
+ {
+  "id": "curve-reel",
+  "title": "Curve Reel",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A looping reel of product cards bending around you on soft sage, slowing to bring the one you hover forward. Legal for purchase only on getlayers.ai — getlayers.ai/layer/curve-reel",
+  "image": "https://storage.getlayers.ai/sections/curve-reel-3dce10a7d9.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/curve-reel-3dce10a7d9.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/curve-reel-3dce10a7d9-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/curve-reel-3dce10a7d9-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/curve-reel-3dce10a7d9-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/curve-reel-3dce10a7d9-figma.webp",
+  "hasFigma": true,
+  "likes": 52,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "showcase"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "playful"
+  ],
+  "keywords": [
+   "3d card band",
+   "around",
+   "bending",
+   "bring",
+   "cards",
+   "carousel",
+   "concave",
+   "concave reel",
+   "curve",
+   "curved carousel",
+   "custom cursor",
+   "drag to spin",
+   "forward",
+   "hover",
+   "infinite loop",
+   "key features",
+   "looping",
+   "packaging",
+   "packaging studio",
+   "portfolio",
+   "portfolio showcase",
+   "product",
+   "product cards",
+   "project reel",
+   "reel",
+   "sage",
+   "showcase",
+   "slowing",
+   "soft",
+   "webgl",
+   "webgl carousel",
+   "work gallery"
+  ]
+ },
+ {
+  "id": "roadmap-ascent",
+  "title": "Roadmap Ascent",
+  "category": "section",
+  "tags": [
+   "section",
+   "scroll-driven",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "scroll-driven",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A scroll-pinned growth timeline where a glowing node glides down a month spine, lighting each milestone and rolling a split-flap counter upward against a lime-lit pixel bloom.",
+  "image": "https://storage.getlayers.ai/sections/roadmap-ascent.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/roadmap-ascent.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/roadmap-ascent-preview.mp4",
+  "likes": 42,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "roadmap"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "keywords": [
+   "roadmap",
+   "scroll",
+   "timeline",
+   "dataviz",
+   "ascent",
+   "dark",
+   "pinned",
+   "growth",
+   "story",
+   "where",
+   "fixed",
+   "node",
+   "holds",
+   "centre",
+   "climbs",
+   "through",
+   "toward",
+   "rising",
+   "count"
+  ]
+ },
+ {
+  "id": "numeral-steps",
+  "title": "Numeral Steps",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A safety-orange process section where giant numerals rise from their rows as the steps glide past. Legal for purchase only on getlayers.ai — getlayers.ai/layer/numeral-steps",
+  "image": "https://storage.getlayers.ai/sections/numeral-steps-36a4546c6f.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/numeral-steps-36a4546c6f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/numeral-steps-36a4546c6f-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/numeral-steps-36a4546c6f-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/numeral-steps-36a4546c6f-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/numeral-steps-36a4546c6f-figma.webp",
+  "hasFigma": true,
+  "likes": 41,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "roadmap"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "agency process",
+   "big numbers",
+   "editorial",
+   "giant",
+   "glide",
+   "how it works",
+   "methodology",
+   "numbered steps",
+   "numeral",
+   "numerals",
+   "orange",
+   "parallax",
+   "parallax numerals",
+   "past",
+   "pinned section",
+   "process",
+   "process section",
+   "rise",
+   "roadmap",
+   "rows",
+   "safety",
+   "section",
+   "steps",
+   "sticky",
+   "sticky scroll",
+   "timeline"
+  ]
+ },
+ {
+  "id": "headline-gallery",
+  "title": "Headline Gallery",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A towering cobalt headline with tilted polaroids tucked between its words and a slow-turning interior banner below. Legal for purchase only on getlayers.ai — getlayers.ai/layer/headline-gallery",
+  "image": "https://storage.getlayers.ai/sections/headline-gallery-e78b915c1f.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/headline-gallery-e78b915c1f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/headline-gallery-e78b915c1f-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/headline-gallery-e78b915c1f-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/headline-gallery-e78b915c1f-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/headline-gallery-e78b915c1f-figma.webp",
+  "hasFigma": true,
+  "likes": 40,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "showcase"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "keywords": [
+   "about",
+   "about us",
+   "banner",
+   "below",
+   "big headline",
+   "brand studio",
+   "cobalt",
+   "company story",
+   "condensed type",
+   "editorial",
+   "gallery",
+   "headline",
+   "hospitality",
+   "hotel",
+   "image slider",
+   "inline images",
+   "interior",
+   "photo collage",
+   "polaroid",
+   "polaroids",
+   "restaurant",
+   "showcase",
+   "slider",
+   "slow",
+   "tilted",
+   "towering",
+   "tucked",
+   "turning",
+   "words"
+  ]
+ },
+ {
+  "id": "blueprint-tabs",
+  "title": "Blueprint Tabs",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An architect's blueprint come alive: feature tabs that re-plot a building drawing while an assistant answers beside it. Legal for purchase only on getlayers.ai — getlayers.ai/layer/blueprint-tabs",
+  "image": "https://storage.getlayers.ai/sections/blueprint-tabs-6f6ae48458.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/blueprint-tabs-6f6ae48458.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/blueprint-tabs-6f6ae48458-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/blueprint-tabs-6f6ae48458-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/blueprint-tabs-6f6ae48458-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/blueprint-tabs-6f6ae48458-figma.webp",
+  "hasFigma": true,
+  "likes": 39,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "features"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "keywords": [
+   "ai assistant",
+   "ai-assistant",
+   "alive",
+   "answers",
+   "architect",
+   "architecture",
+   "assistant",
+   "autoplay",
+   "autoplay tabs",
+   "beside",
+   "bim",
+   "blueprint",
+   "building",
+   "chat card",
+   "come",
+   "construction",
+   "drawing",
+   "engineering",
+   "feature",
+   "feature tabs",
+   "features",
+   "key features",
+   "plot",
+   "product tour",
+   "saas features",
+   "tabs",
+   "technical drawing"
+  ]
+ },
+ {
+  "id": "segment-stack",
+  "title": "Segment Stack",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Giant condensed audience names on ink that flood volt-yellow as they open, each with its own live experiment readout. Legal for purchase only on getlayers.ai — getlayers.ai/layer/segment-stack",
+  "image": "https://storage.getlayers.ai/sections/segment-stack-f361993d18.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/segment-stack-f361993d18.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/segment-stack-f361993d18-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/segment-stack-f361993d18-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/segment-stack-f361993d18-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/segment-stack-f361993d18-figma.webp",
+  "hasFigma": true,
+  "likes": 39,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "features"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal",
+   "technical"
+  ],
+  "keywords": [
+   "ab testing",
+   "ab-testing",
+   "accordion",
+   "audience",
+   "audiences",
+   "condensed",
+   "condensed type",
+   "enterprise agencies startups",
+   "expandable list",
+   "experiment",
+   "experiments",
+   "features",
+   "flood",
+   "giant",
+   "hover expand",
+   "hover-expand",
+   "ink",
+   "live",
+   "names",
+   "neon yellow",
+   "open",
+   "readout",
+   "saas",
+   "segment",
+   "segments",
+   "stack",
+   "stats widget",
+   "use cases",
+   "use-cases",
+   "volt",
+   "who it is for",
+   "yellow"
+  ]
+ },
+ {
+  "id": "fold-split",
+  "title": "Fold Split",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A lilac split screen where one tap folds a real 3D bag into a tidy bundle that rolls across the seam. Legal for purchase only on getlayers.ai — getlayers.ai/layer/fold-split",
+  "image": "https://storage.getlayers.ai/sections/fold-split-9f04850884.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/fold-split-9f04850884.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/fold-split-9f04850884-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/fold-split-9f04850884-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/fold-split-9f04850884-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/fold-split-9f04850884-figma.webp",
+  "hasFigma": true,
+  "likes": 36,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "showcase"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "keywords": [
+   "3d",
+   "3d product",
+   "bag",
+   "before after",
+   "before-after",
+   "bundle",
+   "compare",
+   "ecommerce",
+   "fold",
+   "fold animation",
+   "folds",
+   "lilac",
+   "outdoor gear",
+   "packable",
+   "packable bag",
+   "product",
+   "product showcase",
+   "real",
+   "rolls",
+   "screen",
+   "seam",
+   "showcase",
+   "split",
+   "split screen",
+   "tap",
+   "three",
+   "three.js",
+   "tidy",
+   "toggle",
+   "travel",
+   "webgl"
+  ]
+ },
+ {
+  "id": "showcase-equator",
+  "title": "Showcase Equator",
+  "category": "section",
+  "tags": [
+   "section",
+   "scroll-driven",
+   "draggable",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "scroll-driven",
+   "draggable",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A split, scroll-pinned showcase that locks a column of frosted category pills to a shuffling deck of marbled reel-cards — scroll, flick or drag to advance them in perfect sync until the active category snaps into its white slot.",
+  "image": "https://storage.getlayers.ai/sections/showcase-equator.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/showcase-equator.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/showcase-equator-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/showcase-equator-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 36,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "showcase"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "keywords": [
+   "showcase",
+   "scroll",
+   "deck",
+   "split",
+   "equator",
+   "purple",
+   "beige",
+   "stage",
+   "where",
+   "shuffling",
+   "reel",
+   "cards",
+   "gliding",
+   "category",
+   "list",
+   "move",
+   "one"
+  ]
+ },
+ {
+  "id": "era-dial",
+  "title": "Era Dial",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A saffron history told on a giant dial: turn the ring and the decades roll past in photos and big light numerals. Legal for purchase only on getlayers.ai — getlayers.ai/layer/era-dial",
+  "image": "https://storage.getlayers.ai/sections/era-dial-e9baadeeed.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/era-dial-e9baadeeed.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/era-dial-e9baadeeed-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/era-dial-e9baadeeed-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/era-dial-e9baadeeed-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/era-dial-e9baadeeed-figma.webp",
+  "hasFigma": true,
+  "likes": 35,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "roadmap"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "about us",
+   "anniversary",
+   "big",
+   "chronology",
+   "decades",
+   "dial",
+   "drag",
+   "drag to rotate",
+   "era",
+   "giant",
+   "heritage",
+   "history",
+   "light",
+   "milestones",
+   "numerals",
+   "odometer",
+   "our story",
+   "past",
+   "photos",
+   "ring",
+   "roadmap",
+   "roll",
+   "rotary",
+   "saffron",
+   "timeline",
+   "told",
+   "turn",
+   "years"
+  ]
+ },
+ {
+  "id": "boarding-pass",
+  "title": "Boarding Pass",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Three cream boarding-pass tickets fan out on a tangerine field, the favourite stamped with a spinning pink sticker. Legal for purchase only on getlayers.ai — getlayers.ai/layer/boarding-pass",
+  "image": "https://storage.getlayers.ai/sections/boarding-pass-750a93ca1d.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/boarding-pass-750a93ca1d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/boarding-pass-750a93ca1d-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/boarding-pass-750a93ca1d-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/boarding-pass-750a93ca1d-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/boarding-pass-750a93ca1d-figma.webp",
+  "hasFigma": true,
+  "likes": 34,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "keywords": [
+   "billing toggle",
+   "billing-toggle",
+   "boarding",
+   "boarding pass",
+   "carousel",
+   "coverflow",
+   "cream",
+   "fan",
+   "favourite",
+   "field",
+   "monthly hourly",
+   "most popular",
+   "orange",
+   "pass",
+   "pink",
+   "plans",
+   "playful",
+   "pricing",
+   "pricing cards",
+   "spinning",
+   "spring",
+   "stamped",
+   "sticker",
+   "tangerine",
+   "tickets"
+  ]
+ },
+ {
+  "id": "value-quadrants",
+  "title": "Value Quadrants",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Four quiet value words on violet; touch one and its quadrant floods butter yellow over a fresh interior photograph. Legal for purchase only on getlayers.ai — getlayers.ai/layer/value-quadrants",
+  "image": "https://storage.getlayers.ai/sections/value-quadrants-9bb6229c6b.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/value-quadrants-9bb6229c6b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/value-quadrants-9bb6229c6b-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/value-quadrants-9bb6229c6b-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/value-quadrants-9bb6229c6b-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/value-quadrants-9bb6229c6b-figma.webp",
+  "hasFigma": true,
+  "likes": 33,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "features"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "keywords": [
+   "about",
+   "accordion",
+   "butter",
+   "features",
+   "floods",
+   "fresh",
+   "grid",
+   "hover reveal",
+   "hover-reveal",
+   "interior",
+   "interior design",
+   "mission",
+   "photo",
+   "photo background",
+   "photograph",
+   "principles",
+   "purple",
+   "quadrant",
+   "quadrants",
+   "quiet",
+   "studio",
+   "touch",
+   "value",
+   "values",
+   "violet",
+   "words",
+   "yellow"
+  ]
+ },
+ {
+  "id": "slider-spectra",
+  "title": "Slider Spectra",
+  "category": "section",
+  "tags": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "slider",
+   "draggable",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An immersive coverflow eyewear slider on a dark stage where the centre card lifts and casts a colored halo keyed to its own hue — it autoplays, and drag, swipe or arrow-keys spin the fan onward.",
+  "image": "https://storage.getlayers.ai/sections/slider-spectra.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/slider-spectra.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/slider-spectra-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/slider-spectra-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 32,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "carousel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "playful"
+  ],
+  "keywords": [
+   "carousel",
+   "coverflow",
+   "slider",
+   "eyewear",
+   "spectra",
+   "fan",
+   "cards",
+   "near",
+   "black",
+   "stage",
+   "centre",
+   "card",
+   "standing",
+   "bright",
+   "casting",
+   "halo",
+   "keyed",
+   "own",
+   "hue"
+  ]
+ },
+ {
+  "id": "name-cloud",
+  "title": "Name Cloud",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A wall of towering client names on vermilion; hover one and it inks navy while a little card drifts after the cursor. Legal for purchase only on getlayers.ai — getlayers.ai/layer/name-cloud",
+  "image": "https://storage.getlayers.ai/sections/name-cloud-e3979661ee.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/name-cloud-e3979661ee.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/name-cloud-e3979661ee-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/name-cloud-e3979661ee-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/name-cloud-e3979661ee-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/name-cloud-e3979661ee-figma.webp",
+  "hasFigma": true,
+  "likes": 31,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "showcase"
+  ],
+  "tone": "light",
+  "mood": [
+   "brutal",
+   "playful"
+  ],
+  "keywords": [
+   "agency",
+   "big type",
+   "brands",
+   "card",
+   "client",
+   "clients",
+   "cloud",
+   "cursor",
+   "drifts",
+   "hover",
+   "hover card",
+   "hover-card",
+   "inks",
+   "little",
+   "logo wall",
+   "logos",
+   "name",
+   "name cloud",
+   "names",
+   "navy",
+   "orange",
+   "partners",
+   "red",
+   "showcase",
+   "studio",
+   "towering",
+   "trusted by",
+   "trusted-by",
+   "typographic",
+   "vermilion",
+   "wall"
+  ]
+ },
+ {
+  "id": "jar-drop",
+  "title": "Jar Drop",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A chili-red signup where a glossy jar floats beside the form, then thuds down and wears your name when you join. Legal for purchase only on getlayers.ai — getlayers.ai/layer/jar-drop",
+  "image": "https://storage.getlayers.ai/sections/jar-drop-dc3a4c54eb.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/jar-drop-dc3a4c54eb.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/jar-drop-dc3a4c54eb-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/jar-drop-dc3a4c54eb-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/jar-drop-dc3a4c54eb-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/jar-drop-dc3a4c54eb-figma.webp",
+  "hasFigma": true,
+  "likes": 31,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "cta"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful"
+  ],
+  "keywords": [
+   "3d",
+   "beside",
+   "chili",
+   "countdown",
+   "cta",
+   "down",
+   "drop",
+   "email capture",
+   "floats",
+   "food",
+   "form",
+   "glossy",
+   "jar",
+   "join",
+   "name",
+   "newsletter",
+   "product",
+   "product launch",
+   "red",
+   "signup",
+   "subscribe",
+   "three.js",
+   "thuds",
+   "wears",
+   "when"
+  ]
+ },
+ {
+  "id": "marquee-seat",
+  "title": "Marquee Seat",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A plush lounge chair floats on a lemon-to-lavender haze as a giant line of type glides behind it. Legal for purchase only on getlayers.ai — getlayers.ai/layer/marquee-seat",
+  "image": "https://storage.getlayers.ai/sections/marquee-seat-f086fe9987.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/marquee-seat-f086fe9987.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/marquee-seat-f086fe9987-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/marquee-seat-f086fe9987-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/marquee-seat-f086fe9987-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/marquee-seat-f086fe9987-figma.webp",
+  "hasFigma": true,
+  "likes": 29,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "cta"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "playful"
+  ],
+  "keywords": [
+   "3d",
+   "banner",
+   "call to action",
+   "chair",
+   "cta",
+   "ecommerce",
+   "floats",
+   "furniture",
+   "giant",
+   "glides",
+   "gradient",
+   "haze",
+   "lavender",
+   "lemon",
+   "line",
+   "lounge",
+   "marquee",
+   "pastel",
+   "plush",
+   "product",
+   "scrolling text",
+   "seat",
+   "shop",
+   "three.js",
+   "type"
+  ]
+ },
+ {
+  "id": "wordmark-rise",
+  "title": "Wordmark Rise",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A cobalt-and-ink studio footer whose giant sliced wordmark springs up letter by letter and hops under your cursor. Legal for purchase only on getlayers.ai — getlayers.ai/layer/wordmark-rise",
+  "image": "https://storage.getlayers.ai/sections/wordmark-rise-ec0d40de40.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/wordmark-rise-ec0d40de40.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/wordmark-rise-ec0d40de40-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/wordmark-rise-ec0d40de40-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/wordmark-rise-ec0d40de40-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/sections/wordmark-rise-ec0d40de40-figma.webp",
+  "hasFigma": true,
+  "likes": 29,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "footer"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "keywords": [
+   "agency footer",
+   "availability status",
+   "big logo footer",
+   "big-type",
+   "clocks",
+   "cobalt",
+   "contact cta",
+   "cursor",
+   "dark footer",
+   "footer",
+   "giant",
+   "giant wordmark",
+   "hops",
+   "ink",
+   "letter",
+   "letter animation",
+   "office locations",
+   "rise",
+   "site footer",
+   "sliced",
+   "spring",
+   "springs",
+   "studio",
+   "studio footer",
+   "wordmark",
+   "world clocks"
+  ]
+ },
+ {
+  "id": "liquid-404",
+  "title": "Liquid 404",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A colossal Didone 404 shimmering over a slow, blurred tide of cobalt liquid light. Legal for purchase only on getlayers.ai — getlayers.ai/layer/liquid-404",
+  "image": "https://storage.getlayers.ai/sections/liquid-404-ee50070696.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/liquid-404-ee50070696.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/liquid-404-ee50070696-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/liquid-404-ee50070696-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/liquid-404-ee50070696-mobile.mp4",
+  "likes": 27,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "error-page"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "keywords": [
+   "404",
+   "404 page",
+   "agency 404",
+   "blue gradient",
+   "blurred",
+   "cobalt",
+   "colossal",
+   "dark error page",
+   "didone",
+   "error",
+   "error page",
+   "error-page",
+   "grain",
+   "light",
+   "liquid",
+   "liquid gradient",
+   "liquid-gradient",
+   "not found",
+   "page",
+   "page not found",
+   "serif numerals",
+   "shimmering",
+   "slow",
+   "svg-filter",
+   "tide"
+  ]
+ },
+ {
+  "id": "rift",
+  "title": "Rift",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "An acid-lime 404 where the zero between the fours is liquid mercury, breathing and leaning toward your cursor. Legal for purchase only on getlayers.ai — getlayers.ai/layer/rift",
+  "image": "https://storage.getlayers.ai/sections/rift-088db2c01f.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/rift-088db2c01f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/rift-088db2c01f-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/rift-088db2c01f-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/rift-088db2c01f-mobile.mp4",
+  "likes": 26,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "error-page"
+  ],
+  "tone": "light",
+  "mood": [
+   "brutal",
+   "playful"
+  ],
+  "keywords": [
+   "404",
+   "404 page",
+   "acid",
+   "blob",
+   "breathing",
+   "brutalist",
+   "chartreuse",
+   "cursor",
+   "cursor follow",
+   "cursor-follow",
+   "error",
+   "error page",
+   "error-page",
+   "fours",
+   "grotesk",
+   "leaning",
+   "lime",
+   "liquid",
+   "liquid-morph",
+   "mercury",
+   "morph",
+   "not found",
+   "not-found",
+   "page",
+   "page not found",
+   "rift",
+   "svg",
+   "swiss",
+   "zero"
+  ]
+ },
+ {
+  "id": "sable",
+  "title": "Sable",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A hushed boutique 404: towering cream Didone numerals on warm black, framed by quiet editorial navigation. Legal for purchase only on getlayers.ai — getlayers.ai/layer/sable",
+  "image": "https://storage.getlayers.ai/sections/sable-cf9fd2187b.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/sable-cf9fd2187b.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/sable-cf9fd2187b-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/sable-cf9fd2187b-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/sable-cf9fd2187b-mobile.mp4",
+  "likes": 26,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "error-page"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "404",
+   "404 page",
+   "black",
+   "bodoni",
+   "boutique",
+   "cream",
+   "dark",
+   "didone",
+   "editorial",
+   "error",
+   "error page",
+   "error-page",
+   "fashion",
+   "framed",
+   "hushed",
+   "luxury",
+   "minimal",
+   "monochrome",
+   "navigation",
+   "not found",
+   "not-found",
+   "numerals",
+   "page",
+   "quiet",
+   "sable",
+   "serif",
+   "towering",
+   "warm"
+  ]
+ },
+ {
+  "id": "lucent",
+  "title": "Lucent",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A slowly turning block of prismatic glass that bends and magnifies a giant 404 floating in the dark behind it. Legal for purchase only on getlayers.ai — getlayers.ai/layer/lucent",
+  "image": "https://storage.getlayers.ai/sections/lucent-f4918dff55.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/lucent-f4918dff55.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/lucent-f4918dff55-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/lucent-f4918dff55-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/lucent-f4918dff55-mobile.mp4",
+  "likes": 26,
+  "createdAt": "2026-11-11",
+  "typeTags": [
+   "error-page"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "3d hero",
+   "404",
+   "bends",
+   "block",
+   "chromatic",
+   "dark",
+   "design studio",
+   "dispersion",
+   "error",
+   "error page",
+   "floating",
+   "giant",
+   "glass",
+   "glass cube",
+   "hero",
+   "lucent",
+   "magnifies",
+   "not found",
+   "page",
+   "prism",
+   "prismatic",
+   "refraction",
+   "slowly",
+   "three.js",
+   "turning",
+   "webgl hero"
+  ]
+ },
+ {
+  "id": "tender",
+  "title": "Tender",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Two crisp pricing cards on soft grey — one plain, one glowing with a juicy coral-to-violet aurora. Legal for purchase only on getlayers.ai — getlayers.ai/layer/tender",
+  "image": "https://storage.getlayers.ai/sections/tender-2315a535ae.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/tender-2315a535ae.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/tender-2315a535ae-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/tender-2315a535ae-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/tender-2315a535ae-mobile.mp4",
+  "likes": 25,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "playful"
+  ],
+  "keywords": [
+   "aurora",
+   "aurora gradient",
+   "billing-toggle",
+   "cards",
+   "coral",
+   "crisp",
+   "featured plan",
+   "fintech",
+   "glowing",
+   "grey",
+   "juicy",
+   "light",
+   "light pricing",
+   "monthly annual toggle",
+   "plain",
+   "plan comparison",
+   "plans",
+   "pricing",
+   "pricing cards",
+   "saas pricing",
+   "soft",
+   "subscription",
+   "tariffs",
+   "tender",
+   "two plans",
+   "violet"
+  ]
+ },
+ {
+  "id": "malachite",
+  "title": "Malachite",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A dark sign-up card beside a living emerald panel of flowing, marbled green silk. Legal for purchase only on getlayers.ai — getlayers.ai/layer/malachite",
+  "image": "https://storage.getlayers.ai/sections/malachite-4a4591bc9f.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/malachite-4a4591bc9f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/malachite-4a4591bc9f-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/malachite-4a4591bc9f-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/malachite-4a4591bc9f-mobile.mp4",
+  "likes": 24,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "auth"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "auth",
+   "beside",
+   "card",
+   "create account",
+   "dark",
+   "dark form",
+   "dashboard auth",
+   "emerald",
+   "flowing",
+   "form",
+   "google sign in",
+   "green",
+   "green gradient",
+   "living",
+   "login",
+   "malachite",
+   "marbled",
+   "oauth",
+   "onboarding",
+   "panel",
+   "registration",
+   "shader",
+   "sign",
+   "sign up",
+   "signup",
+   "signup form",
+   "silk",
+   "split",
+   "steps",
+   "webgl"
+  ]
+ },
+ {
+  "id": "panacea",
+  "title": "Panacea",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A calm, clinical closing call to action on a lavender-to-aqua haze, resting above a frosted-glass footer. Legal for purchase only on getlayers.ai — getlayers.ai/layer/panacea",
+  "image": "https://storage.getlayers.ai/sections/panacea-a709173cea.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/panacea-a709173cea.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/panacea-a709173cea-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/panacea-a709173cea-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/panacea-a709173cea-mobile.mp4",
+  "likes": 23,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "footer"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "keywords": [
+   "above",
+   "action",
+   "aqua",
+   "call",
+   "call to action",
+   "calm",
+   "clinical",
+   "closing",
+   "closing cta",
+   "cta",
+   "footer",
+   "frosted",
+   "frosted glass",
+   "frosted-glass",
+   "glass",
+   "haze",
+   "health",
+   "healthcare",
+   "lavender",
+   "link columns",
+   "medical",
+   "mesh gradient",
+   "mesh-gradient",
+   "newsletter",
+   "newsletter signup",
+   "panacea",
+   "pastel",
+   "resting",
+   "site footer",
+   "telehealth",
+   "wellness"
+  ]
+ },
+ {
+  "id": "clients-say",
+  "title": "Clients Say",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Two bold quote cards on an acid-lime field, each quietly cycling through glowing client stories. Legal for purchase only on getlayers.ai — getlayers.ai/layer/clients-say",
+  "image": "https://storage.getlayers.ai/sections/clients-say-c92d268052.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/clients-say-c92d268052.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/clients-say-c92d268052-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/clients-say-c92d268052-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/clients-say-c92d268052-mobile.mp4",
+  "likes": 22,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "testimonials"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "brutal"
+  ],
+  "keywords": [
+   "acid",
+   "acid green",
+   "autoplay",
+   "b2b",
+   "bold",
+   "cards",
+   "carousel",
+   "case study",
+   "client",
+   "client quotes",
+   "clients",
+   "cycling",
+   "field",
+   "glowing",
+   "lime",
+   "quietly",
+   "quote",
+   "quotes",
+   "reviews",
+   "saas",
+   "say",
+   "social proof",
+   "social-proof",
+   "stories",
+   "testimonials",
+   "what our clients say"
+  ]
+ },
+ {
+  "id": "financial-cta-panel",
+  "title": "Financial CTA Panel",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A deep green fintech panel with an elegant serif headline and a fan of payment cards you can shuffle. Legal for purchase only on getlayers.ai — getlayers.ai/layer/financial-cta-panel",
+  "image": "https://storage.getlayers.ai/sections/financial-cta-panel-0c6f204fd7.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/financial-cta-panel-0c6f204fd7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/financial-cta-panel-0c6f204fd7-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/financial-cta-panel-0c6f204fd7-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/financial-cta-panel-0c6f204fd7-mobile.mp4",
+  "likes": 21,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "cta"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "banking",
+   "banner",
+   "call to action",
+   "card stack",
+   "card-stack",
+   "cards",
+   "credit card",
+   "cta",
+   "deep",
+   "download",
+   "download app",
+   "elegant",
+   "fan",
+   "finance",
+   "financial",
+   "fintech",
+   "green",
+   "headline",
+   "panel",
+   "payment",
+   "payment cards",
+   "saas",
+   "serif",
+   "shuffle"
+  ]
+ },
+ {
+  "id": "quorum",
+  "title": "Quorum",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A bright, airy team intro where portraits and stat pills float around a bold headline, drifting as you move. Legal for purchase only on getlayers.ai — getlayers.ai/layer/quorum",
+  "image": "https://storage.getlayers.ai/sections/quorum-e3c4b55d3e.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/quorum-e3c4b55d3e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/quorum-e3c4b55d3e-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/quorum-e3c4b55d3e-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/quorum-e3c4b55d3e-mobile.mp4",
+  "likes": 20,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "showcase"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "playful"
+  ],
+  "keywords": [
+   "about us",
+   "agency hero",
+   "airy",
+   "around",
+   "bold",
+   "bright",
+   "collage",
+   "consulting",
+   "drifting",
+   "float",
+   "floating portraits",
+   "headline",
+   "hero",
+   "intro",
+   "light hero",
+   "meet the team",
+   "move",
+   "our experts",
+   "parallax",
+   "people",
+   "photo collage",
+   "pills",
+   "portraits",
+   "quorum",
+   "showcase",
+   "stat",
+   "stats pills",
+   "team",
+   "team section"
+  ]
+ },
+ {
+  "id": "simple-pricing-2",
+  "title": "Lime Glow Pricing",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A bright, confident pricing pair where a dark premium card smoulders with a soft lime glow. Legal for purchase only on getlayers.ai — getlayers.ai/layer/simple-pricing-2",
+  "image": "https://storage.getlayers.ai/sections/simple-pricing-2-eae21fe410.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/simple-pricing-2-eae21fe410.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/simple-pricing-2-eae21fe410-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/simple-pricing-2-eae21fe410-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/simple-pricing-2-eae21fe410-mobile.mp4",
+  "likes": 20,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "bold headline",
+   "bright",
+   "card",
+   "clean",
+   "confident",
+   "dark",
+   "dark card",
+   "free and premium",
+   "glow",
+   "lime",
+   "monthly yearly toggle",
+   "pair",
+   "plans",
+   "premium",
+   "pricing",
+   "pricing table",
+   "saas pricing",
+   "smoulders",
+   "soft",
+   "subscription",
+   "toggle",
+   "two plans",
+   "two-tier",
+   "white"
+  ]
+ },
+ {
+  "id": "aurevo-footer",
+  "title": "Aurevo Footer",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A dark tech footer whose bevelled sign-up panel glows with living green light that swells when you reach for it. Legal for purchase only on getlayers.ai — getlayers.ai/layer/aurevo-footer",
+  "image": "https://storage.getlayers.ai/sections/aurevo-footer-63ad3b552e.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/aurevo-footer-63ad3b552e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/aurevo-footer-63ad3b552e-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/aurevo-footer-63ad3b552e-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/aurevo-footer-63ad3b552e-mobile.mp4",
+  "likes": 19,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "footer"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "aurevo",
+   "bevelled",
+   "call to action",
+   "cta",
+   "dark",
+   "dark footer",
+   "data platform",
+   "footer",
+   "glows",
+   "green",
+   "green glow",
+   "hud",
+   "hud frame",
+   "light",
+   "link columns",
+   "living",
+   "newsletter",
+   "panel",
+   "reach",
+   "saas",
+   "saas footer",
+   "shader",
+   "shader background",
+   "sign",
+   "sign up",
+   "site footer",
+   "swells",
+   "tech",
+   "tech footer",
+   "webgl",
+   "webgl glow",
+   "when"
+  ]
+ },
+ {
+  "id": "chroma",
+  "title": "Chroma",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A bright studio footer where a slowly turning glass jack splits the light into soft prism rainbows. Legal for purchase only on getlayers.ai — getlayers.ai/layer/chroma",
+  "image": "https://storage.getlayers.ai/sections/chroma-9e3104eee9.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/chroma-9e3104eee9.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/chroma-9e3104eee9-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/chroma-9e3104eee9-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/chroma-9e3104eee9-mobile.mp4",
+  "likes": 19,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "footer"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "playful"
+  ],
+  "keywords": [
+   "3d glass",
+   "bright",
+   "chroma",
+   "creative agency",
+   "dispersion",
+   "footer",
+   "glass",
+   "glass object",
+   "iridescent",
+   "jack",
+   "light",
+   "light footer",
+   "link columns",
+   "prism",
+   "rainbow",
+   "rainbows",
+   "site footer",
+   "slowly",
+   "social links",
+   "soft",
+   "splits",
+   "studio",
+   "studio render",
+   "turning",
+   "webgl",
+   "webgl footer"
+  ]
+ },
+ {
+  "id": "unlock-better-sleep-cta",
+  "title": "Lime Marquee CTA",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A sunny lime app-download card where a community of faces drifts past in two gentle, opposing streams. Legal for purchase only on getlayers.ai — getlayers.ai/layer/unlock-better-sleep-cta",
+  "image": "https://storage.getlayers.ai/sections/unlock-better-sleep-cta-72df9dd505.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/unlock-better-sleep-cta-72df9dd505.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/unlock-better-sleep-cta-72df9dd505-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/unlock-better-sleep-cta-72df9dd505-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/unlock-better-sleep-cta-72df9dd505-mobile.mp4",
+  "likes": 17,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "cta"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "keywords": [
+   "app",
+   "app download",
+   "app-download",
+   "avatars",
+   "call to action",
+   "card",
+   "community",
+   "cta",
+   "download",
+   "download app",
+   "drifts",
+   "faces",
+   "gentle",
+   "green",
+   "health app",
+   "lime",
+   "marquee",
+   "opposing",
+   "past",
+   "sleep",
+   "social proof",
+   "streams",
+   "sunny",
+   "testimonial pills",
+   "wellness"
+  ]
+ },
+ {
+  "id": "cinder",
+  "title": "Cinder",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A dark FAQ where every question glows like a coal, a soft ember bloom smouldering at the edge of each row. Legal for purchase only on getlayers.ai — getlayers.ai/layer/cinder",
+  "image": "https://storage.getlayers.ai/sections/cinder-713badc3d8.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/cinder-713badc3d8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/cinder-713badc3d8-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/cinder-713badc3d8-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/cinder-713badc3d8-mobile.mp4",
+  "likes": 16,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "faq"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "accordion",
+   "agency",
+   "agency faq",
+   "bloom",
+   "cinder",
+   "coal",
+   "collapsible",
+   "dark",
+   "dark faq",
+   "edge",
+   "ember",
+   "expandable list",
+   "faq",
+   "glow",
+   "glows",
+   "help section",
+   "like",
+   "orange glow",
+   "question",
+   "questions and answers",
+   "row",
+   "smouldering",
+   "soft",
+   "support",
+   "warm dark"
+  ]
+ },
+ {
+  "id": "cohort",
+  "title": "Cohort",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A warm, welcoming sign-up card ringed by a floating crowd of friendly faces that pop in and drift as you move. Legal for purchase only on getlayers.ai — getlayers.ai/layer/cohort",
+  "image": "https://storage.getlayers.ai/sections/cohort-36b918b2b1.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/cohort-36b918b2b1.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/cohort-36b918b2b1-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/cohort-36b918b2b1-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/cohort-36b918b2b1-mobile.mp4",
+  "likes": 14,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "cta"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm"
+  ],
+  "keywords": [
+   "avatars",
+   "call to action",
+   "card",
+   "cohort",
+   "community",
+   "crowd",
+   "cta",
+   "customer faces",
+   "drift",
+   "faces",
+   "floating",
+   "floating avatars",
+   "friendly",
+   "get started",
+   "join us",
+   "light cta",
+   "membership",
+   "move",
+   "pop",
+   "ringed",
+   "sign",
+   "sign up",
+   "signup",
+   "social proof",
+   "team faces",
+   "warm",
+   "welcoming"
+  ]
+ },
+ {
+  "id": "photon",
+  "title": "Photon",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Clean-energy pricing on deep forest green, with a lime plan card and faint streamlines weaving softly overhead. Legal for purchase only on getlayers.ai — getlayers.ai/layer/photon",
+  "image": "https://storage.getlayers.ai/sections/photon-7c7e0172b8.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/photon-7c7e0172b8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/photon-7c7e0172b8-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/photon-7c7e0172b8-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/photon-7c7e0172b8-mobile.mp4",
+  "likes": 14,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "billing switch",
+   "billing-toggle",
+   "card",
+   "clean",
+   "dark green",
+   "deep",
+   "energy",
+   "faint",
+   "forest",
+   "green",
+   "green energy",
+   "lime",
+   "monthly annual toggle",
+   "overhead",
+   "photon",
+   "plan",
+   "plans",
+   "pricing",
+   "pricing table",
+   "renewable",
+   "saas pricing",
+   "softly",
+   "streamlines",
+   "subscription",
+   "sustainability",
+   "tiers",
+   "weaving"
+  ]
+ },
+ {
+  "id": "client-reviews-carousel",
+  "title": "Client Reviews Carousel",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A bright editorial rail of soft grey quote cards that glides off the page edge, each voice framed by its brand. Legal for purchase only on getlayers.ai — getlayers.ai/layer/client-reviews-carousel",
+  "image": "https://storage.getlayers.ai/sections/client-reviews-carousel-c7ac797aed.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/client-reviews-carousel-c7ac797aed.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/client-reviews-carousel-c7ac797aed-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/client-reviews-carousel-c7ac797aed-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/client-reviews-carousel-c7ac797aed-mobile.mp4",
+  "likes": 13,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "testimonials"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "keywords": [
+   "agency",
+   "b2b",
+   "brand",
+   "bright",
+   "cards",
+   "carousel",
+   "case studies",
+   "client",
+   "client reviews",
+   "customer reviews",
+   "edge",
+   "editorial",
+   "framed",
+   "glides",
+   "grey",
+   "light",
+   "off",
+   "page",
+   "quote",
+   "quotes",
+   "rail",
+   "reviews",
+   "slider",
+   "social proof",
+   "social-proof",
+   "soft",
+   "testimonials",
+   "voice",
+   "what clients say"
+  ]
+ },
+ {
+  "id": "process-bento",
+  "title": "Process Bento",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A how-we-work bento of soft step cards on dark, punctuated by a cobalt intro tile and orange accents. Legal for purchase only on getlayers.ai — getlayers.ai/layer/process-bento",
+  "image": "https://storage.getlayers.ai/sections/process-bento-bbeda077c3.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/process-bento-bbeda077c3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/process-bento-bbeda077c3-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/process-bento-bbeda077c3-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/process-bento-bbeda077c3-mobile.mp4",
+  "likes": 12,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "roadmap"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "keywords": [
+   "accents",
+   "bento",
+   "bento grid",
+   "blue",
+   "cards",
+   "cobalt",
+   "dark",
+   "how",
+   "how it works",
+   "how-it-works",
+   "intro",
+   "onboarding",
+   "orange",
+   "process",
+   "punctuated",
+   "rental",
+   "roadmap",
+   "service steps",
+   "soft",
+   "step",
+   "steps",
+   "tile",
+   "timeline",
+   "work",
+   "workflow"
+  ]
+ },
+ {
+  "id": "zenith",
+  "title": "Zenith",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A midnight trading footer where a vast iridescent orb rises like blue dawn behind the final call to action. Legal for purchase only on getlayers.ai — getlayers.ai/layer/zenith",
+  "image": "https://storage.getlayers.ai/sections/zenith-f5d227a3e1.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/zenith-f5d227a3e1.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/zenith-f5d227a3e1-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/zenith-f5d227a3e1-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/zenith-f5d227a3e1-mobile.mp4",
+  "likes": 12,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "footer"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "action",
+   "blue",
+   "blue glow",
+   "call",
+   "call to action",
+   "closing cta",
+   "cta",
+   "dark footer",
+   "dawn",
+   "final",
+   "fintech",
+   "footer",
+   "iridescent",
+   "like",
+   "link columns",
+   "midnight",
+   "newsletter",
+   "orb",
+   "prop firm",
+   "rises",
+   "site footer",
+   "social links",
+   "trading",
+   "vast",
+   "webgl",
+   "webgl orb",
+   "zenith"
+  ]
+ },
+ {
+  "id": "reverie",
+  "title": "Reverie",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A moody bento of filmic photo cards under soft grain — a quote, a crowd, a glowing orb and a bold community stat. Legal for purchase only on getlayers.ai — getlayers.ai/layer/reverie",
+  "image": "https://storage.getlayers.ai/sections/reverie-d0fbac24c4.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/reverie-d0fbac24c4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/reverie-d0fbac24c4-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/reverie-d0fbac24c4-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/reverie-d0fbac24c4-mobile.mp4",
+  "likes": 12,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "gallery"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "bento",
+   "bento gallery",
+   "bento grid",
+   "bold",
+   "cards",
+   "community",
+   "creative",
+   "creative platform",
+   "crowd",
+   "dark editorial",
+   "editorial",
+   "film grain",
+   "filmic",
+   "gallery",
+   "glowing",
+   "grain",
+   "image cards",
+   "landing section",
+   "masonry",
+   "moody",
+   "orb",
+   "photo",
+   "photo grid",
+   "photo-cards",
+   "portfolio",
+   "quote",
+   "quote card",
+   "reverie",
+   "soft",
+   "stat",
+   "stats card"
+  ]
+ },
+ {
+  "id": "candor",
+  "title": "Candor",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A warm, reassuring FAQ in royal blue on lavender, led by a big italic headline and soft sparkle marks. Legal for purchase only on getlayers.ai — getlayers.ai/layer/candor",
+  "image": "https://storage.getlayers.ai/sections/candor-3fa846ed85.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/candor-3fa846ed85.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/candor-3fa846ed85-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/candor-3fa846ed85-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/candor-3fa846ed85-mobile.mp4",
+  "likes": 10,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "faq"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "playful"
+  ],
+  "keywords": [
+   "accordion",
+   "big",
+   "blue",
+   "blue and lavender",
+   "candor",
+   "community",
+   "expandable",
+   "faq",
+   "friendly",
+   "friendly faq",
+   "headline",
+   "help center",
+   "italic",
+   "italic heading",
+   "lavender",
+   "led",
+   "light faq",
+   "marks",
+   "nonprofit",
+   "questions",
+   "reassuring",
+   "royal",
+   "soft",
+   "sparkle",
+   "support",
+   "warm"
+  ]
+ },
+ {
+  "id": "lets-get-in-touch",
+  "title": "Let's Get In Touch",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A dark editorial contact form beneath a towering serif headline, all hairlines, restraint and quiet confidence. Legal for purchase only on getlayers.ai — getlayers.ai/layer/lets-get-in-touch",
+  "image": "https://storage.getlayers.ai/sections/lets-get-in-touch-b3ced2c965.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/lets-get-in-touch-b3ced2c965.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/lets-get-in-touch-b3ced2c965-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/lets-get-in-touch-b3ced2c965-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/lets-get-in-touch-b3ced2c965-mobile.mp4",
+  "likes": 8,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "cta"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "addresses",
+   "agency",
+   "all",
+   "beneath",
+   "confidence",
+   "contact",
+   "contact form",
+   "contact us",
+   "cta",
+   "dark",
+   "editorial",
+   "enquiry",
+   "form",
+   "get",
+   "get in touch",
+   "hairlines",
+   "headline",
+   "let",
+   "minimal",
+   "quiet",
+   "restraint",
+   "serif",
+   "studio",
+   "thank-you",
+   "touch",
+   "towering"
+  ]
+ },
+ {
+  "id": "bento-proof-grid",
+  "title": "Bento Proof Grid",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A navy bento of lemon stat tiles, soft icon cards and photo carousels that makes the case for staying. Legal for purchase only on getlayers.ai — getlayers.ai/layer/bento-proof-grid",
+  "image": "https://storage.getlayers.ai/sections/bento-proof-grid-bc6de658ac.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/bento-proof-grid-bc6de658ac.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/bento-proof-grid-bc6de658ac-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/bento-proof-grid-bc6de658ac-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/bento-proof-grid-bc6de658ac-mobile.mp4",
+  "likes": 7,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "features"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "keywords": [
+   "benefits",
+   "bento",
+   "bento grid",
+   "cards",
+   "carousel",
+   "carousels",
+   "case",
+   "counter",
+   "features",
+   "grid",
+   "icon",
+   "lemon",
+   "makes",
+   "navy",
+   "photo",
+   "photo carousel",
+   "proof",
+   "service business",
+   "social proof",
+   "soft",
+   "stat",
+   "statistics",
+   "stats",
+   "staying",
+   "tiles",
+   "why choose us",
+   "yellow"
+  ]
+ },
+ {
+  "id": "pricing-plans",
+  "title": "Spectrum Pricing",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A calm, crisp pricing pair where the Pro card wears a soft sunset-to-violet spectrum across its crown. Legal for purchase only on getlayers.ai — getlayers.ai/layer/pricing-plans",
+  "image": "https://storage.getlayers.ai/sections/pricing-plans-67d0d36f32.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/pricing-plans-67d0d36f32.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/pricing-plans-67d0d36f32-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/pricing-plans-67d0d36f32-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/pricing-plans-67d0d36f32-mobile.mp4",
+  "likes": 7,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "keywords": [
+   "ai writing",
+   "calm",
+   "card",
+   "clean",
+   "crisp",
+   "crown",
+   "free and pro",
+   "gradient",
+   "light",
+   "minimal",
+   "monthly yearly toggle",
+   "pair",
+   "plans",
+   "pricing",
+   "pricing table",
+   "pro",
+   "saas",
+   "saas pricing",
+   "segmented-control",
+   "soft",
+   "spectrum",
+   "subscription",
+   "sunset",
+   "two plans",
+   "two-tier",
+   "violet",
+   "wears"
+  ]
+ },
+ {
+  "id": "vantage",
+  "title": "Vantage",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A quiet monochrome FAQ: soft white question cards in a pale grey frame, with a dark pill inviting you to get in touch. Legal for purchase only on getlayers.ai — getlayers.ai/layer/vantage",
+  "image": "https://storage.getlayers.ai/sections/vantage-6c4584b85d.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/vantage-6c4584b85d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/vantage-6c4584b85d-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/vantage-6c4584b85d-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/vantage-6c4584b85d-mobile.mp4",
+  "likes": 7,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "faq"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "keywords": [
+   "accordion",
+   "cards",
+   "contact",
+   "contact card",
+   "dark",
+   "expandable",
+   "faq",
+   "frame",
+   "frequently asked questions",
+   "get",
+   "get in touch",
+   "grey",
+   "help section",
+   "inviting",
+   "light faq",
+   "minimal",
+   "minimal faq",
+   "monochrome",
+   "pale",
+   "pill",
+   "property",
+   "question",
+   "quiet",
+   "real estate",
+   "real-estate",
+   "soft",
+   "touch",
+   "vantage",
+   "white"
+  ]
+ },
+ {
+  "id": "bifrost",
+  "title": "Bifrost",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Three tall realms of light on a black stage — silver, lavender and molten orange — each crowned by a metal rune. Legal for purchase only on getlayers.ai — getlayers.ai/layer/bifrost",
+  "image": "https://storage.getlayers.ai/sections/bifrost-de1dac38a4.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/bifrost-de1dac38a4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/bifrost-de1dac38a4-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/bifrost-de1dac38a4-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/bifrost-de1dac38a4-mobile.mp4",
+  "likes": 7,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "features"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "bifrost",
+   "black",
+   "blockchain",
+   "crowned",
+   "crypto",
+   "crypto landing",
+   "dark hero",
+   "dark mode",
+   "defi",
+   "feature cards",
+   "features",
+   "glow cards",
+   "gradient panels",
+   "lavender",
+   "light",
+   "metal",
+   "metallic badge",
+   "molten",
+   "orange",
+   "panels",
+   "product features",
+   "realms",
+   "rune",
+   "rune-badge",
+   "silver",
+   "stage",
+   "tall",
+   "three columns",
+   "triptych",
+   "web3"
+  ]
+ },
+ {
+  "id": "backbone",
+  "title": "Backbone",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A footer standing in a field of light — thousands of glowing filaments burst upward behind bold stats and links. Legal for purchase only on getlayers.ai — getlayers.ai/layer/backbone",
+  "image": "https://storage.getlayers.ai/sections/backbone-124feb1ebc.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/backbone-124feb1ebc.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/backbone-124feb1ebc-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/backbone-124feb1ebc-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/backbone-124feb1ebc-mobile.mp4",
+  "likes": 5,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "footer"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "backbone",
+   "bloom",
+   "bold",
+   "burst",
+   "dark footer",
+   "field",
+   "filaments",
+   "fintech",
+   "firework",
+   "footer",
+   "glowing",
+   "indigo",
+   "key numbers",
+   "light",
+   "light burst",
+   "light-burst",
+   "links",
+   "metrics",
+   "newsletter",
+   "payments",
+   "site footer",
+   "standing",
+   "stats",
+   "stats footer",
+   "status bar",
+   "thousands",
+   "upward",
+   "webgl"
+  ]
+ },
+ {
+  "id": "halftone-pricing-trio",
+  "title": "Halftone Pricing Trio",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Three pricing cards glowing out of the dark, washed in violet light and blooming halftone dots. Legal for purchase only on getlayers.ai — getlayers.ai/layer/halftone-pricing-trio",
+  "image": "https://storage.getlayers.ai/sections/halftone-pricing-trio-805ecb57a5.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/halftone-pricing-trio-805ecb57a5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/halftone-pricing-trio-805ecb57a5-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/halftone-pricing-trio-805ecb57a5-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/halftone-pricing-trio-805ecb57a5-mobile.mp4",
+  "likes": 5,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "3d",
+   "ai tool",
+   "billing-toggle",
+   "blooming",
+   "cards",
+   "dark",
+   "dots",
+   "glow",
+   "glowing",
+   "halftone",
+   "light",
+   "monthly yearly toggle",
+   "plans",
+   "pricing",
+   "pricing table",
+   "purple",
+   "saas pricing",
+   "subscription",
+   "tiers",
+   "trio",
+   "violet",
+   "washed"
+  ]
+ },
+ {
+  "id": "glow-tier-plans",
+  "title": "Glow Tier Plans",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Four plans on pitch black, the top tiers lit from within by cool blue and indigo glows. Legal for purchase only on getlayers.ai — getlayers.ai/layer/glow-tier-plans",
+  "image": "https://storage.getlayers.ai/sections/glow-tier-plans-ebe61cd3ae.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/glow-tier-plans-ebe61cd3ae.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/glow-tier-plans-ebe61cd3ae-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/glow-tier-plans-ebe61cd3ae-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/glow-tier-plans-ebe61cd3ae-mobile.mp4",
+  "likes": 3,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "ai pricing",
+   "billing-toggle",
+   "black",
+   "blue",
+   "blue glow",
+   "cool",
+   "dark",
+   "four plans",
+   "glow",
+   "glows",
+   "gradient cards",
+   "indigo",
+   "lit",
+   "monthly yearly toggle",
+   "pitch",
+   "plans",
+   "pricing",
+   "pricing table",
+   "saas pricing",
+   "subscription",
+   "tier",
+   "tiers",
+   "tooltips",
+   "top",
+   "within"
+  ]
+ },
+ {
+  "id": "plans",
+  "title": "Violet Plans",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Oversized type on electric violet, crisp white plan cards and a sleek black add-on bar for retainer pricing. Legal for purchase only on getlayers.ai — getlayers.ai/layer/plans",
+  "image": "https://storage.getlayers.ai/sections/plans-9207f748c5.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/plans-9207f748c5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/plans-9207f748c5-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/plans-9207f748c5-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/plans-9207f748c5-mobile.mp4",
+  "likes": 3,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal",
+   "playful"
+  ],
+  "keywords": [
+   "add",
+   "add-on",
+   "agency pricing",
+   "bar",
+   "black",
+   "bold",
+   "cards",
+   "carousel",
+   "crisp",
+   "design subscription",
+   "electric",
+   "lime",
+   "oversized",
+   "oversized type",
+   "plan",
+   "plans",
+   "pricing",
+   "pricing cards",
+   "purple",
+   "retainer",
+   "scroll-snap",
+   "sleek",
+   "subscription",
+   "type",
+   "violet",
+   "white"
+  ]
+ }
+]

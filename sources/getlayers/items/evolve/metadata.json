@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:25:47Z",
+ "fetchedAt": "2026-11-20T15:43:08Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "evolve",
@@ -403,7 +403,7 @@
   "status": "premium"
  },
  "files": {
-  "evolve.webp": "217698 bytes",
-  "evolve-figma.webp": "114560 bytes"
+  "evolve.webp": "cached",
+  "evolve-figma.webp": "cached"
  }
 }

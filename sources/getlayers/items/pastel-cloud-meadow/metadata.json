@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:47:04Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pastel-cloud-meadow",
+  "title": "Pastel Cloud Meadow",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pastel-cloud-meadow-19fba4559d.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pastel-cloud-meadow-19fba4559d.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pastel-cloud-meadow-19fba4559d-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "2003",
+   "among",
+   "bright",
+   "budget",
+   "chrome",
+   "cloud",
+   "flowers",
+   "glass",
+   "glossy",
+   "gold",
+   "grass",
+   "hearts",
+   "landscape",
+   "lettering",
+   "meadow",
+   "mound",
+   "nature",
+   "nostalgia",
+   "pastel",
+   "screensaver",
+   "sits",
+   "stars",
+   "typography",
+   "with",
+   "y2k"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pastel-cloud-meadow.webp": "175758 bytes"
+ }
+}

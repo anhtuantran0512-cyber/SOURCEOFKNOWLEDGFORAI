@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:39Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pink-wired-figure",
+  "title": "Pink Wired Figure",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pink-wired-figure-7db7abac6f.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pink-wired-figure-7db7abac6f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pink-wired-figure-7db7abac6f-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "android",
+   "back",
+   "character",
+   "closed",
+   "cyborg",
+   "daydreaming",
+   "eyes",
+   "figure",
+   "floating",
+   "futuristic",
+   "glossy",
+   "glowing",
+   "head",
+   "machine",
+   "magenta",
+   "neon",
+   "pink",
+   "sparks",
+   "tenderness",
+   "tilts",
+   "trailing",
+   "wired",
+   "wires"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pink-wired-figure.webp": "143248 bytes"
+ }
+}

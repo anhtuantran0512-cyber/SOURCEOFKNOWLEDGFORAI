@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:35Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lion-statue-lagoon",
+  "title": "Lion Statue Lagoon",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark. Legal for purchase only on getlayers.ai — getlayers.ai/layer/lion-statue-lagoon",
+  "image": "https://storage.getlayers.ai/backgrounds/lion-statue-lagoon-12ed219ce3.webp",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "ancient",
+   "character",
+   "crouches",
+   "drifting",
+   "gold",
+   "golden",
+   "green",
+   "guardian",
+   "hour",
+   "jungle",
+   "lagoon",
+   "leaves",
+   "light",
+   "lion",
+   "mist",
+   "play",
+   "reflection",
+   "sanctuary",
+   "shafts",
+   "statue",
+   "still",
+   "sunbeams",
+   "sunlit",
+   "vines",
+   "water"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lion-statue-lagoon.webp": "200792 bytes"
+ }
+}

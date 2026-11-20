@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:37Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "cloud-lily-field",
+  "title": "Cloud Lily Field",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source file is a high-resolution poster image, without any watermark. Legal for purchase only on getlayers.ai — getlayers.ai/layer/cloud-lily-field",
+  "image": "https://storage.getlayers.ai/backgrounds/cloud-lily-field-1f662950f3.webp",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "organic"
+  ],
+  "mediaType": "static",
+  "keywords": [
+   "blue",
+   "chair",
+   "cloud",
+   "dark",
+   "field",
+   "grass",
+   "hillside",
+   "hovers",
+   "landscape",
+   "lilies",
+   "lily",
+   "lone",
+   "meadow",
+   "nature",
+   "orange",
+   "rain",
+   "sky",
+   "storm",
+   "summer",
+   "surreal",
+   "waiting",
+   "waits",
+   "wooden"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "cloud-lily-field.webp": "378394 bytes"
+ }
+}

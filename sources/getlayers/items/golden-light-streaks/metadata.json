@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:45:41Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "golden-light-streaks",
+  "title": "Golden Light Streaks",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/golden-light-streaks-e8fb1f1f71.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/golden-light-streaks-e8fb1f1f71.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/golden-light-streaks-e8fb1f1f71-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "across",
+   "arcs",
+   "band",
+   "black",
+   "brightest",
+   "compress",
+   "fast",
+   "fibres",
+   "glass",
+   "glow",
+   "gold",
+   "golden",
+   "hair",
+   "light",
+   "made",
+   "moving",
+   "strands",
+   "streaks",
+   "sweep",
+   "sweeping",
+   "warmth",
+   "where"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "golden-light-streaks.webp": "115544 bytes"
+ }
+}

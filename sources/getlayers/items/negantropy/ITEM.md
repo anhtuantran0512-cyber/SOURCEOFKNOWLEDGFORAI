@@ -25,11 +25,7 @@ url: "https://www.getlayers.ai/layer/negantropy"
 - Published: 2026-06-07 · likes: 114
 - Live page: https://www.getlayers.ai/layer/negantropy
 - Preview still: [`assets/negantropy.webp`](../../assets/negantropy.webp)
-- Figma preview: _not published for this template_
-
-## Measured performance
-
-_No frame-timing run published._
+- Figma preview: _not published for this item_
 
 ## Lighthouse
 
@@ -47,7 +43,7 @@ Full reports:
 
 **Premium — not collected.** The copy-prompt action answers
 `{"_apiError":{"code":"forbidden","message":"Upgrade to access this prompt."}}`
-for this template. This archive does not bypass, guess or reconstruct it:
+for this item. This archive does not bypass, guess or reconstruct it:
 buy or preview the prompt at https://www.getlayers.ai/layer/negantropy.
 
 ## Public assets

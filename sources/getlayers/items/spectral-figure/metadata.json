@@ -1,0 +1,113 @@
+{
+ "fetchedAt": "2026-11-20T15:44:59Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "spectral-figure",
+  "title": "Spectral Figure",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A figure made only of light — thickening to a glow through the torso, dissolving at the feet.",
+  "image": "https://storage.getlayers.ai/3d_scenes/spectral-figure-943a651396.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/spectral-figure-943a651396.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/spectral-figure-943a651396-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "keywords": [
+   "additive",
+   "apparition",
+   "aura",
+   "body",
+   "calm",
+   "diagnostic",
+   "dissolving",
+   "element",
+   "ethereal",
+   "feet",
+   "figure",
+   "ghost",
+   "glow",
+   "human",
+   "light",
+   "made",
+   "only",
+   "person",
+   "quiet",
+   "rings",
+   "scan",
+   "scanner",
+   "silhouette",
+   "spectral",
+   "thickening",
+   "through",
+   "torso",
+   "xray"
+  ],
+  "variants": [
+   {
+    "id": "spectral-figure",
+    "groupId": "spectral-figure",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bodyColor": "#424242",
+     "beaconColor": "#5c5c5c"
+    },
+    "ramp": [
+     "#424242",
+     "#5c5c5c"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/spectral-figure-943a651396-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/spectral-figure-943a651396.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/spectral-figure-943a651396.webp"
+   },
+   {
+    "id": "spectral-figure-001",
+    "groupId": "spectral-figure",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bodyColor": "#172121",
+     "beaconColor": "#e6eded"
+    },
+    "ramp": [
+     "#172121",
+     "#e6eded"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/spectral-figure-943a651396/3cfad4c0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/spectral-figure-943a651396/3cfad4c0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/spectral-figure-943a651396/3cfad4c0.webp"
+   }
+  ],
+  "variantCount": 2
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "spectral-figure.webp": "78080 bytes"
+ }
+}

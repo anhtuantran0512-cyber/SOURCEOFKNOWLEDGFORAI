@@ -1,0 +1,109 @@
+{
+ "fetchedAt": "2026-11-20T15:44:53Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "tidal-contours",
+  "title": "Tidal Contours",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A living depth chart of steel-blue contour rings, breathing and turning like a tidal eddy caught from orbit.",
+  "image": "https://storage.getlayers.ai/3d_scenes/tidal-contours-f1de2cbcb5.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/tidal-contours-f1de2cbcb5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/tidal-contours-f1de2cbcb5-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "waves-terrain"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical",
+   "organic"
+  ],
+  "keywords": [
+   "bathymetric",
+   "blue",
+   "breathing",
+   "caught",
+   "chart",
+   "contour",
+   "contour-bands",
+   "contours",
+   "depth",
+   "depth-ramp",
+   "eddy",
+   "interactive",
+   "like",
+   "living",
+   "map",
+   "orbit",
+   "particles",
+   "rings",
+   "shader",
+   "steel",
+   "steel-blue",
+   "terrain",
+   "threejs",
+   "tidal",
+   "topographic",
+   "turning",
+   "waves"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "tidal-contours",
+    "groupId": "tidal-contours",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "paper": "#f0efed",
+     "ramp0": "#dee8ed",
+     "ramp1": "#c3d8e4",
+     "ramp2": "#a9cadd",
+     "ramp3": "#69acd0",
+     "ramp4": "#398ab9",
+     "ramp5": "#33648a",
+     "ramp6": "#2b436a",
+     "ramp7": "#25182c",
+     "cyanTint": "#22a6e8"
+    },
+    "ramp": [
+     "#f0efed",
+     "#dee8ed",
+     "#c3d8e4",
+     "#a9cadd",
+     "#69acd0",
+     "#398ab9",
+     "#33648a",
+     "#2b436a",
+     "#25182c",
+     "#22a6e8"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/tidal-contours-f1de2cbcb5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/tidal-contours-f1de2cbcb5.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/tidal-contours-f1de2cbcb5.webp"
+   }
+  ],
+  "variantCount": 1
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "tidal-contours.webp": "32644 bytes"
+ }
+}

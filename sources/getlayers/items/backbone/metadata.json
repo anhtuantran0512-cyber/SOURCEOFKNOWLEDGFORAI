@@ -1,0 +1,74 @@
+{
+ "fetchedAt": "2026-11-20T15:45:07Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "backbone",
+  "title": "Backbone",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive",
+   "3d"
+  ],
+  "tier": "Premium",
+  "description": "A footer standing in a field of light — thousands of glowing filaments burst upward behind bold stats and links. Legal for purchase only on getlayers.ai — getlayers.ai/layer/backbone",
+  "image": "https://storage.getlayers.ai/sections/backbone-124feb1ebc.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/backbone-124feb1ebc.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/backbone-124feb1ebc-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/backbone-124feb1ebc-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/backbone-124feb1ebc-mobile.mp4",
+  "likes": 5,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "footer"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "backbone",
+   "bloom",
+   "bold",
+   "burst",
+   "dark footer",
+   "field",
+   "filaments",
+   "fintech",
+   "firework",
+   "footer",
+   "glowing",
+   "indigo",
+   "key numbers",
+   "light",
+   "light burst",
+   "light-burst",
+   "links",
+   "metrics",
+   "newsletter",
+   "payments",
+   "site footer",
+   "standing",
+   "stats",
+   "stats footer",
+   "status bar",
+   "thousands",
+   "upward",
+   "webgl"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "backbone.webp": "172200 bytes"
+ }
+}

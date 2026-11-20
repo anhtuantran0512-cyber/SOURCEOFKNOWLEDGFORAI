@@ -1,0 +1,245 @@
+{
+ "fetchedAt": "2026-11-20T15:44:44Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "vortex",
+  "title": "Vortex",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Free",
+  "description": "A searing white-hot star caught at the eye of a vast, slowly churning whirlpool of silken stardust adrift in the deep dark.",
+  "image": "https://storage.getlayers.ai/3d_scenes/vortex.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/vortex.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/vortex-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/3d_scenes/vortex-instruction.mp4",
+   "title": "Get full control over the scene",
+   "pill": "For Full Stack only",
+   "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+  },
+  "likes": 59,
+  "createdAt": "2026-06-29",
+  "typeTags": [
+   "vortex-tunnel",
+   "3d-element"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "threejs",
+   "particles",
+   "filaments",
+   "funnel",
+   "vortex",
+   "churning",
+   "luminous",
+   "spiralling",
+   "bright",
+   "digitised",
+   "core",
+   "tunnel"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "vortex",
+    "groupId": "vortex",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "coreBg": "#16213f",
+     "bgColor": "#0a1326",
+     "bgColor2": "#04060f",
+     "atmoColor": "#bcd6ff",
+     "coreColor": "#eaf3ff",
+     "starColor": "#cfe2ff",
+     "flameColor": "#3a78ff",
+     "sparkColor": "#bfe6ff",
+     "flameColor2": "#9fe0ff",
+     "strandColor": "#aecbff"
+    },
+    "ramp": [
+     "#eaf3ff",
+     "#aecbff",
+     "#bfe6ff",
+     "#0a1326",
+     "#04060f",
+     "#16213f",
+     "#3a78ff",
+     "#9fe0ff",
+     "#cfe2ff",
+     "#bcd6ff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vortex-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vortex.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vortex.webp"
+   },
+   {
+    "id": "vortex-001",
+    "groupId": "vortex",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "coreBg": "#4f6bae",
+     "bgColor": "#384d77",
+     "bgColor2": "#425c93",
+     "atmoColor": "#bdc5dc",
+     "coreColor": "#141a25",
+     "starColor": "#a2aed0",
+     "flameColor": "#6b81b9",
+     "sparkColor": "#2c3d5b",
+     "flameColor2": "#8797c4",
+     "strandColor": "#202c40"
+    },
+    "ramp": [
+     "#141a25",
+     "#202c40",
+     "#2c3d5b",
+     "#384d77",
+     "#425c93",
+     "#4f6bae",
+     "#6b81b9",
+     "#8797c4",
+     "#a2aed0",
+     "#bdc5dc"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vortex/d9504249-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vortex/d9504249.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vortex/d9504249.webp"
+   },
+   {
+    "id": "vortex-002",
+    "groupId": "vortex",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "coreBg": "#16213f",
+     "bgColor": "#0a1326",
+     "bgColor2": "#04060f",
+     "atmoColor": "#bcd6ff",
+     "coreColor": "#eaf3ff",
+     "starColor": "#cfe2ff",
+     "flameColor": "#3a78ff",
+     "sparkColor": "#bfe6ff",
+     "flameColor2": "#9fe0ff",
+     "strandColor": "#aecbff"
+    },
+    "ramp": [
+     "#eaf3ff",
+     "#aecbff",
+     "#bfe6ff",
+     "#0a1326",
+     "#04060f",
+     "#16213f",
+     "#3a78ff",
+     "#9fe0ff",
+     "#cfe2ff",
+     "#bcd6ff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vortex/0a78fe73-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vortex/0a78fe73.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vortex/0a78fe73.webp"
+   },
+   {
+    "id": "vortex-003",
+    "groupId": "vortex",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "coreBg": "#16213f",
+     "bgColor": "#0a1326",
+     "bgColor2": "#04060f",
+     "atmoColor": "#bcd6ff",
+     "coreColor": "#eaf3ff",
+     "starColor": "#cfe2ff",
+     "flameColor": "#3a78ff",
+     "sparkColor": "#bfe6ff",
+     "flameColor2": "#9fe0ff",
+     "strandColor": "#aecbff"
+    },
+    "ramp": [
+     "#eaf3ff",
+     "#aecbff",
+     "#bfe6ff",
+     "#0a1326",
+     "#04060f",
+     "#16213f",
+     "#3a78ff",
+     "#9fe0ff",
+     "#cfe2ff",
+     "#bcd6ff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vortex/4f93b1ec-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vortex/4f93b1ec.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vortex/4f93b1ec.webp"
+   },
+   {
+    "id": "vortex-004",
+    "groupId": "vortex",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "coreBg": "#16213f",
+     "bgColor": "#0a1326",
+     "bgColor2": "#04060f",
+     "atmoColor": "#bcd6ff",
+     "coreColor": "#eaf3ff",
+     "starColor": "#cfe2ff",
+     "flameColor": "#3a78ff",
+     "sparkColor": "#bfe6ff",
+     "flameColor2": "#9fe0ff",
+     "strandColor": "#aecbff"
+    },
+    "ramp": [
+     "#eaf3ff",
+     "#aecbff",
+     "#bfe6ff",
+     "#0a1326",
+     "#04060f",
+     "#16213f",
+     "#3a78ff",
+     "#9fe0ff",
+     "#cfe2ff",
+     "#bcd6ff"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/vortex/56bd9fa5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/vortex/56bd9fa5.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/vortex/56bd9fa5.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "rate_limited"
+ },
+ "files": {
+  "vortex.webp": "116708 bytes"
+ }
+}

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:22:47Z",
+ "fetchedAt": "2026-11-20T15:43:55Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "loopstack",
@@ -411,6 +411,6 @@
   "status": "rate_limited"
  },
  "files": {
-  "loopstack.webp": "158348 bytes"
+  "loopstack.webp": "cached"
  }
 }

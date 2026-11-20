@@ -1,0 +1,51 @@
+{
+ "fetchedAt": "2026-11-20T15:45:11Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "vivid-sunset",
+  "title": "Vivid Sunset",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/vivid-sunset-c3d76c9ffb.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/vivid-sunset-c3d76c9ffb.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/vivid-sunset-c3d76c9ffb-preview.mp4",
+  "likes": 46,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic",
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "sunset",
+   "sea",
+   "grass",
+   "vivid",
+   "blazing",
+   "pink",
+   "gold",
+   "melts",
+   "beyond",
+   "glowing",
+   "grassy",
+   "hill",
+   "landscape",
+   "nature"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "vivid-sunset.webp": "294190 bytes"
+ }
+}

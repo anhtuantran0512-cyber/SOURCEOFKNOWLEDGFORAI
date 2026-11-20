@@ -1,0 +1,67 @@
+{
+ "fetchedAt": "2026-11-20T15:45:03Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "showcase-equator",
+  "title": "Showcase Equator",
+  "category": "section",
+  "tags": [
+   "section",
+   "scroll-driven",
+   "draggable",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "scroll-driven",
+   "draggable",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A split, scroll-pinned showcase that locks a column of frosted category pills to a shuffling deck of marbled reel-cards — scroll, flick or drag to advance them in perfect sync until the active category snaps into its white slot.",
+  "image": "https://storage.getlayers.ai/sections/showcase-equator.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/showcase-equator.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/showcase-equator-preview.mp4",
+  "controller": {
+   "videoUrl": "https://storage.getlayers.ai/sections/showcase-equator-instruction.mp4",
+   "title": "Own the full source of this section",
+   "pill": "For Full Stack only",
+   "subtitle": "The download ships the complete, self-contained source so you can drop it into any stack and adapt the layout, copy and interactions as much as you wish"
+  },
+  "likes": 36,
+  "createdAt": "2026-07-04",
+  "typeTags": [
+   "showcase"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "keywords": [
+   "showcase",
+   "scroll",
+   "deck",
+   "split",
+   "equator",
+   "purple",
+   "beige",
+   "stage",
+   "where",
+   "shuffling",
+   "reel",
+   "cards",
+   "gliding",
+   "category",
+   "list",
+   "move",
+   "one"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "showcase-equator.webp": "81094 bytes"
+ }
+}

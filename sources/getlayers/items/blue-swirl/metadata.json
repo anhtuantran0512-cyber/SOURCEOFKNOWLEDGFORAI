@@ -1,0 +1,49 @@
+{
+ "fetchedAt": "2026-11-20T15:45:30Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "blue-swirl",
+  "title": "Blue Swirl",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/blue-swirl-11082e5f20.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/blue-swirl-11082e5f20.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/blue-swirl-11082e5f20-preview.mp4",
+  "likes": 9,
+  "createdAt": "2026-07-08",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "glass",
+   "swirl",
+   "abstract",
+   "blue",
+   "purple",
+   "glossy",
+   "ribbons",
+   "violet",
+   "winding",
+   "across",
+   "black",
+   "void"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "blue-swirl.webp": "99776 bytes"
+ }
+}

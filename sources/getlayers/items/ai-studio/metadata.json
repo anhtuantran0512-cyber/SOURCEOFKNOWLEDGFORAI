@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:23:10Z",
+ "fetchedAt": "2026-11-20T15:42:23Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "ai-studio",
@@ -379,6 +379,6 @@
   "status": "premium"
  },
  "files": {
-  "ai-studio.webp": "53798 bytes"
+  "ai-studio.webp": "cached"
  }
 }

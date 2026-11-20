@@ -1,0 +1,59 @@
+{
+ "fetchedAt": "2026-11-20T15:45:38Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "orange-ink-smoke",
+  "title": "Orange Ink Smoke",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/orange-ink-smoke-4998585ea8.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/orange-ink-smoke-4998585ea8.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/orange-ink-smoke-4998585ea8-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "billow",
+   "billows",
+   "bloom",
+   "charcoal",
+   "drawn",
+   "edge",
+   "fire",
+   "fluid",
+   "glass",
+   "ink",
+   "mist",
+   "orange",
+   "pale",
+   "plume",
+   "slow",
+   "smoke",
+   "smouldering",
+   "softening",
+   "unfurls",
+   "water"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "orange-ink-smoke.webp": "41324 bytes"
+ }
+}

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T15:25:55Z",
+ "fetchedAt": "2026-11-20T15:43:14Z",
  "source": "https://www.getlayers.ai/templates",
  "item": {
   "id": "noema",
@@ -467,7 +467,7 @@
   "status": "premium"
  },
  "files": {
-  "noema.webp": "187074 bytes",
-  "noema-figma.webp": "101238 bytes"
+  "noema.webp": "cached",
+  "noema-figma.webp": "cached"
  }
 }

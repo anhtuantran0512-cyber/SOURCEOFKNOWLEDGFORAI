@@ -1,0 +1,242 @@
+{
+ "fetchedAt": "2026-11-20T15:44:19Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "voxel-cube",
+  "title": "Voxel Cube",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A cube of soft blue plastic blocks floats in a seamless blue studio, its surface swelling and shrinking in waves; a click bursts it into a reassembling cloud. Legal for purchase only on getlayers.ai — getlayers.ai/layer/voxel-cube",
+  "image": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0-preview.mp4",
+  "likes": 151,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "3d-element"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful",
+   "calm",
+   "technical"
+  ],
+  "keywords": [
+   "3d",
+   "abstract",
+   "ambient-occlusion",
+   "blocks",
+   "blue",
+   "breathing",
+   "burst",
+   "bursting",
+   "chrome",
+   "clean",
+   "click",
+   "click-burst",
+   "cloud",
+   "cube",
+   "cubes",
+   "cursor",
+   "cyclorama",
+   "element",
+   "explode",
+   "geometric",
+   "grid",
+   "instanced-mesh",
+   "interactive",
+   "metal",
+   "minimal",
+   "motion design",
+   "plastic",
+   "pointer-ripple",
+   "procedural-waves",
+   "product",
+   "pulse",
+   "reassemble",
+   "reassembles",
+   "ripple",
+   "rippling",
+   "seamless",
+   "seamless backdrop",
+   "small",
+   "soft shadow",
+   "studio",
+   "studio-lighting",
+   "sweep",
+   "threejs",
+   "voxel",
+   "waves"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "voxel-cube",
+    "groupId": "voxel-cube",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#11559e",
+     "keyColor": "#fbfdff",
+     "bgHorizon": "#76c6fd",
+     "cubeColor": "#4893e0",
+     "floorColor": "#5db0ee",
+     "metalColor": "#b4c4dc",
+     "accentColor": "#ff7a4d"
+    },
+    "ramp": [
+     "#4893e0",
+     "#ff7a4d",
+     "#b4c4dc",
+     "#11559e",
+     "#76c6fd",
+     "#5db0ee",
+     "#fbfdff"
+    ],
+    "createdAt": "2026-11-04",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0.webp"
+   },
+   {
+    "id": "voxel-cube-001",
+    "groupId": "voxel-cube",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#11559e",
+     "keyColor": "#fbfdff",
+     "bgHorizon": "#76c6fd",
+     "cubeColor": "#4893e0",
+     "floorColor": "#5db0ee",
+     "metalColor": "#b4c4dc",
+     "accentColor": "#ff7a4d"
+    },
+    "ramp": [
+     "#4893e0",
+     "#ff7a4d",
+     "#b4c4dc",
+     "#11559e",
+     "#76c6fd",
+     "#5db0ee",
+     "#fbfdff"
+    ],
+    "createdAt": "2026-11-04",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0/dd3c3eb6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0/dd3c3eb6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0/dd3c3eb6.webp"
+   },
+   {
+    "id": "voxel-cube-002",
+    "groupId": "voxel-cube",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#1a5fb4",
+     "keyColor": "#fbfdff",
+     "bgHorizon": "#62b4ef",
+     "cubeColor": "#4893e0",
+     "floorColor": "#3f93dc",
+     "metalColor": "#b4c4dc",
+     "accentColor": "#ff7a4d"
+    },
+    "ramp": [
+     "#4893e0",
+     "#ff7a4d",
+     "#b4c4dc",
+     "#1a5fb4",
+     "#62b4ef",
+     "#3f93dc",
+     "#fbfdff"
+    ],
+    "createdAt": "2026-11-04",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0/8b44fef7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0/8b44fef7.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0/8b44fef7.webp"
+   },
+   {
+    "id": "voxel-cube-003",
+    "groupId": "voxel-cube",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#c3c9d2",
+     "keyColor": "#fbfdff",
+     "bgHorizon": "#f3f4f6",
+     "cubeColor": "#eef0f3",
+     "floorColor": "#e2e5ea",
+     "metalColor": "#b4c4dc",
+     "accentColor": "#ff6a3d"
+    },
+    "ramp": [
+     "#eef0f3",
+     "#ff6a3d",
+     "#b4c4dc",
+     "#c3c9d2",
+     "#f3f4f6",
+     "#e2e5ea",
+     "#fbfdff"
+    ],
+    "createdAt": "2026-11-04",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0/3bbda0b2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0/3bbda0b2.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0/3bbda0b2.webp"
+   },
+   {
+    "id": "voxel-cube-004",
+    "groupId": "voxel-cube",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#040b18",
+     "keyColor": "#ffd7ad",
+     "bgHorizon": "#113360",
+     "cubeColor": "#3a7ee0",
+     "floorColor": "#0b2444",
+     "metalColor": "#c9d2e2",
+     "accentColor": "#ff7a4d"
+    },
+    "ramp": [
+     "#3a7ee0",
+     "#ff7a4d",
+     "#c9d2e2",
+     "#040b18",
+     "#113360",
+     "#0b2444",
+     "#ffd7ad"
+    ],
+    "createdAt": "2026-11-04",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0/d7f5bbc5-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0/d7f5bbc5.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/voxel-cube-87a9b931e0/d7f5bbc5.webp"
+   }
+  ],
+  "variantCount": 5
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "voxel-cube.webp": "112576 bytes"
+ }
+}

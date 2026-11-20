@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:46:46Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "coral-soft-blobs",
+  "title": "Coral Soft Blobs",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/coral-soft-blobs-5b5dcf8161.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/coral-soft-blobs-5b5dcf8161.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/coral-soft-blobs-5b5dcf8161-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "playful"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "another",
+   "blobs",
+   "blush",
+   "coral",
+   "drift",
+   "drip",
+   "fuzzy",
+   "glass",
+   "grain",
+   "lamp",
+   "lava",
+   "mustard",
+   "peach",
+   "pink",
+   "retro",
+   "seventies",
+   "soft",
+   "stretching",
+   "sunlight",
+   "thin",
+   "warmth"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "coral-soft-blobs.webp": "177560 bytes"
+ }
+}

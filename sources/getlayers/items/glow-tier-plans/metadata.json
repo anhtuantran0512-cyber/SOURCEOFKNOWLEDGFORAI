@@ -1,0 +1,69 @@
+{
+ "fetchedAt": "2026-11-20T15:45:07Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "glow-tier-plans",
+  "title": "Glow Tier Plans",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Four plans on pitch black, the top tiers lit from within by cool blue and indigo glows. Legal for purchase only on getlayers.ai — getlayers.ai/layer/glow-tier-plans",
+  "image": "https://storage.getlayers.ai/sections/glow-tier-plans-ebe61cd3ae.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/glow-tier-plans-ebe61cd3ae.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/glow-tier-plans-ebe61cd3ae-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/glow-tier-plans-ebe61cd3ae-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/glow-tier-plans-ebe61cd3ae-mobile.mp4",
+  "likes": 3,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "ai pricing",
+   "billing-toggle",
+   "black",
+   "blue",
+   "blue glow",
+   "cool",
+   "dark",
+   "four plans",
+   "glow",
+   "glows",
+   "gradient cards",
+   "indigo",
+   "lit",
+   "monthly yearly toggle",
+   "pitch",
+   "plans",
+   "pricing",
+   "pricing table",
+   "saas pricing",
+   "subscription",
+   "tier",
+   "tiers",
+   "tooltips",
+   "top",
+   "within"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "glow-tier-plans.webp": "51062 bytes"
+ }
+}

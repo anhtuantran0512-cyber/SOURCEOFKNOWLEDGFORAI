@@ -1,0 +1,52 @@
+{
+ "fetchedAt": "2026-11-20T15:45:12Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "koi-art",
+  "title": "Koi Art",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [],
+  "tier": "Premium",
+  "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+  "image": "https://storage.getlayers.ai/backgrounds/koi-art.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/koi-art.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/koi-art-preview.mp4",
+  "likes": 35,
+  "createdAt": "2026-04-18",
+  "typeTags": [
+   "character"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "koi",
+   "fish",
+   "lotus",
+   "underwater",
+   "glow",
+   "art",
+   "luminous",
+   "spiralling",
+   "through",
+   "dark",
+   "water",
+   "above",
+   "glowing",
+   "white",
+   "character"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "koi-art.webp": "168484 bytes"
+ }
+}

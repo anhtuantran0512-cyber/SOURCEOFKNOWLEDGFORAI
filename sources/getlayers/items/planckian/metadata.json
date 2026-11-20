@@ -1,0 +1,470 @@
+{
+ "fetchedAt": "2026-11-20T15:47:14Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "planckian",
+  "title": "Planckian",
+  "description": "The colour of a temperature: hot metal lights one channel at a time, red then green then blue, and the whole sequence from deep cherry through orange to white falls out of the order they switch on in.",
+  "nature": "fire",
+  "family": "light",
+  "tier": "Premium",
+  "likes": 33,
+  "createdAt": "2026-08-24",
+  "shaderHash": "feb5929b220c06af69d8219c24aa52df",
+  "hues": [
+   "violet",
+   "orange",
+   "teal",
+   "red",
+   "blue",
+   "green",
+   "magenta",
+   "indigo",
+   "amber"
+  ],
+  "variantCount": 15,
+  "variants": [
+   {
+    "id": "planckian",
+    "groupId": "planckian",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#2b4be8",
+     "colorB": "#c41e2a",
+     "colorC": "#e8342b",
+     "colorD": "#ffffff",
+     "bgColor": "#1e3ac8"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-20",
+    "likes": 33,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d.webp"
+   },
+   {
+    "id": "planckian-001",
+    "groupId": "planckian",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#ff4d2e",
+     "colorB": "#ffa02b",
+     "colorC": "#f5c842",
+     "colorD": "#ffffff",
+     "bgColor": "#e8342b"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-20",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/bc07a4b9-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/bc07a4b9.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/bc07a4b9.webp"
+   },
+   {
+    "id": "planckian-002",
+    "groupId": "planckian",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c8e0d0",
+     "colorB": "#3fc8c0",
+     "colorC": "#8fd8b0",
+     "colorD": "#f04b8b",
+     "bgColor": "#2f9a96"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-20",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/ae075725-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/ae075725.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/ae075725.webp"
+   },
+   {
+    "id": "planckian-003",
+    "groupId": "planckian",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e8342b",
+     "colorB": "#ff5a4b",
+     "colorC": "#ffd8d0",
+     "colorD": "#ffffff",
+     "bgColor": "#c9271f"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/9b494168-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/9b494168.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/9b494168.webp"
+   },
+   {
+    "id": "planckian-004",
+    "groupId": "planckian",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c9bce6",
+     "colorB": "#b3c2f2",
+     "colorC": "#cfd8f5",
+     "colorD": "#e8ecfb",
+     "bgColor": "#a9b8ec"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/b789f804-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/b789f804.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/b789f804.webp"
+   },
+   {
+    "id": "planckian-005",
+    "groupId": "planckian",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#cbbdf7",
+     "colorB": "#93e6c6",
+     "colorC": "#dff0ea",
+     "colorD": "#f2f0fb",
+     "bgColor": "#b2bff2"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-20",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/8db78170-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/8db78170.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/8db78170.webp"
+   },
+   {
+    "id": "planckian-006",
+    "groupId": "planckian",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#d5cbe8",
+     "colorB": "#d2ecb4",
+     "colorC": "#eef0dc",
+     "colorD": "#f9f9ef",
+     "bgColor": "#bcc6ee"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "green",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-20",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/f18b3003-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/f18b3003.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/f18b3003.webp"
+   },
+   {
+    "id": "planckian-007",
+    "groupId": "planckian",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#7b3fd9",
+     "colorB": "#c43ff0",
+     "colorC": "#f02be0",
+     "colorD": "#ffffff",
+     "bgColor": "#4a1180"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-20",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/60bf86ba-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/60bf86ba.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/60bf86ba.webp"
+   },
+   {
+    "id": "planckian-008",
+    "groupId": "planckian",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e8342b",
+     "colorB": "#ff6b5a",
+     "colorC": "#ffa899",
+     "colorD": "#ffffff",
+     "bgColor": "#b3221a"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-20",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/101eb063-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/101eb063.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/101eb063.webp"
+   },
+   {
+    "id": "planckian-009",
+    "groupId": "planckian",
+    "name": "009",
+    "sortOrder": 9,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b4be8",
+     "colorB": "#c41e2a",
+     "colorC": "#e8342b",
+     "colorD": "#ffe8e0",
+     "bgColor": "#1f3ac0"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "magenta",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-20",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/8006ab50-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/8006ab50.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/8006ab50.webp"
+   },
+   {
+    "id": "planckian-010",
+    "groupId": "planckian",
+    "name": "010",
+    "sortOrder": 10,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e8d0f0",
+     "colorB": "#ff2bc0",
+     "colorC": "#ff8ade",
+     "colorD": "#ffffff",
+     "bgColor": "#c43fe0"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "magenta",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-20",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/affc8095-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/affc8095.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/affc8095.webp"
+   },
+   {
+    "id": "planckian-011",
+    "groupId": "planckian",
+    "name": "011",
+    "sortOrder": 11,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#f2e7d4",
+     "colorB": "#f7d99a",
+     "colorC": "#fae3b0",
+     "colorD": "#fdf6e6",
+     "bgColor": "#d8cfe8"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-20",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/4118e009-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/4118e009.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/4118e009.webp"
+   },
+   {
+    "id": "planckian-012",
+    "groupId": "planckian",
+    "name": "012",
+    "sortOrder": 12,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#6f96ff",
+     "colorB": "#dce8ff",
+     "colorC": "#ff6b5a",
+     "colorD": "#ffffff",
+     "bgColor": "#2b5bff"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-20",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/32098e50-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/32098e50.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/32098e50.webp"
+   },
+   {
+    "id": "planckian-013",
+    "groupId": "planckian",
+    "name": "013",
+    "sortOrder": 13,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#3a1470",
+     "colorB": "#6b2bc8",
+     "colorC": "#8b3fe0",
+     "colorD": "#e02bc8",
+     "bgColor": "#1a0f33"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-20",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/b8866508-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/b8866508.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/b8866508.webp"
+   },
+   {
+    "id": "planckian-014",
+    "groupId": "planckian",
+    "name": "014",
+    "sortOrder": 14,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b7be8",
+     "colorB": "#2bc8e8",
+     "colorC": "#4fe0d8",
+     "colorD": "#7fe8a0",
+     "bgColor": "#1e5cc0"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-20",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/881ba19d-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/881ba19d.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/planckian-35aedb233d/881ba19d.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "planckian.webp": "33738 bytes"
+ }
+}

@@ -1,0 +1,326 @@
+{
+ "fetchedAt": "2026-11-20T15:47:14Z",
+ "source": "https://www.getlayers.ai/gradients",
+ "item": {
+  "id": "serigraph",
+  "title": "Serigraph",
+  "description": "A print rather than a ramp: five screens, one flat colour each, and what keeps it from reading as banding is where they stop — not at a level line but wherever a coarse mesh says.",
+  "nature": "paper",
+  "family": "material",
+  "tier": "Premium",
+  "likes": 37,
+  "createdAt": "2026-08-24",
+  "shaderHash": "adbb0661fd15e82c9c0583e3c7d8dd18",
+  "hues": [
+   "red",
+   "violet",
+   "orange",
+   "teal",
+   "indigo",
+   "blue",
+   "pink",
+   "green",
+   "magenta",
+   "amber"
+  ],
+  "variantCount": 10,
+  "variants": [
+   {
+    "id": "serigraph",
+    "groupId": "serigraph",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "colorA": "#2a1060",
+     "colorB": "#c02a58",
+     "colorC": "#f08a20",
+     "colorD": "#f7e6c0",
+     "bgColor": "#08060c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 37,
+    "previewVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220.webp"
+   },
+   {
+    "id": "serigraph-001",
+    "groupId": "serigraph",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#7b3fd9",
+     "colorB": "#c43ff0",
+     "colorC": "#f02be0",
+     "colorD": "#fff4fd",
+     "bgColor": "#2b0b3d"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/17847365-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/17847365.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/17847365.webp"
+   },
+   {
+    "id": "serigraph-002",
+    "groupId": "serigraph",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e8342b",
+     "colorB": "#ff6a2e",
+     "colorC": "#f5c842",
+     "colorD": "#fffdf6",
+     "bgColor": "#230904"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "orange",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/2e4d32d2-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/2e4d32d2.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/2e4d32d2.webp"
+   },
+   {
+    "id": "serigraph-003",
+    "groupId": "serigraph",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b7be8",
+     "colorB": "#2bc8e8",
+     "colorC": "#7fe8a0",
+     "colorD": "#eafff4",
+     "bgColor": "#052a3c"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/847b9685-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/847b9685.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/847b9685.webp"
+   },
+   {
+    "id": "serigraph-004",
+    "groupId": "serigraph",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#4a1a8c",
+     "colorB": "#6b2bc8",
+     "colorC": "#8b3fe0",
+     "colorD": "#f45be0",
+     "bgColor": "#140a26"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "violet",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/c548f6ec-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/c548f6ec.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/c548f6ec.webp"
+   },
+   {
+    "id": "serigraph-005",
+    "groupId": "serigraph",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#3fc8c0",
+     "colorB": "#8fd8b0",
+     "colorC": "#c8e0d0",
+     "colorD": "#f04b8b",
+     "bgColor": "#06302e"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "teal",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/aa062e0f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/aa062e0f.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/aa062e0f.webp"
+   },
+   {
+    "id": "serigraph-006",
+    "groupId": "serigraph",
+    "name": "006",
+    "sortOrder": 6,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b4be8",
+     "colorB": "#93a9f5",
+     "colorC": "#fff4f0",
+     "colorD": "#e8342b",
+     "bgColor": "#101a52"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "dark",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/579bf77f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/579bf77f.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/579bf77f.webp"
+   },
+   {
+    "id": "serigraph-007",
+    "groupId": "serigraph",
+    "name": "007",
+    "sortOrder": 7,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#e8342b",
+     "colorB": "#ff6b5a",
+     "colorC": "#ff9d84",
+     "colorD": "#fffaf6",
+     "bgColor": "#8f1a14"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "red",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/67d3c99f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/67d3c99f.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/67d3c99f.webp"
+   },
+   {
+    "id": "serigraph-008",
+    "groupId": "serigraph",
+    "name": "008",
+    "sortOrder": 8,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#2b5bff",
+     "colorB": "#c6d9ff",
+     "colorC": "#fff2ee",
+     "colorD": "#ff6b5a",
+     "bgColor": "#0a1740"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "indigo",
+    "tone": "light",
+    "saturation": "vivid",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/076fccc7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/076fccc7.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/076fccc7.webp"
+   },
+   {
+    "id": "serigraph-009",
+    "groupId": "serigraph",
+    "name": "009",
+    "sortOrder": 9,
+    "isDefault": false,
+    "colors": {
+     "colorA": "#c8d0f0",
+     "colorB": "#d4cff5",
+     "colorC": "#e8e4f5",
+     "colorD": "#fbfaff",
+     "bgColor": "#bfe8d8"
+    },
+    "ramp": [
+     "bgColor",
+     "colorA",
+     "colorB",
+     "colorC",
+     "colorD"
+    ],
+    "hue": "blue",
+    "tone": "light",
+    "saturation": "muted",
+    "createdAt": "2026-08-23",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/890332a7-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/890332a7.mp4",
+    "poster": "https://storage.getlayers.ai/gradients/serigraph-a6248bb220/890332a7.webp"
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "serigraph.webp": "27102 bytes"
+ }
+}

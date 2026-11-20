@@ -1,0 +1,63 @@
+{
+ "fetchedAt": "2026-11-20T15:47:04Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "neon-sound-waves",
+  "title": "Neon Sound Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/neon-sound-waves-da5c6a0d78.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/neon-sound-waves-da5c6a0d78.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/neon-sound-waves-da5c6a0d78-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "audio",
+   "board",
+   "can",
+   "circuit",
+   "cyan",
+   "dark",
+   "data",
+   "field",
+   "floor",
+   "glass",
+   "instrumentation",
+   "magenta",
+   "neon",
+   "off",
+   "reflect",
+   "ripple",
+   "see",
+   "signal",
+   "sound",
+   "synthwave",
+   "waveform",
+   "waveforms",
+   "waves",
+   "you"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "neon-sound-waves.webp": "307054 bytes"
+ }
+}

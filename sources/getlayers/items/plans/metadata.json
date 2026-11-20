@@ -1,0 +1,70 @@
+{
+ "fetchedAt": "2026-11-20T15:45:07Z",
+ "source": "https://www.getlayers.ai/sections",
+ "item": {
+  "id": "plans",
+  "title": "Violet Plans",
+  "category": "section",
+  "tags": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "stack": [
+   "section",
+   "ui",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "Oversized type on electric violet, crisp white plan cards and a sleek black add-on bar for retainer pricing. Legal for purchase only on getlayers.ai — getlayers.ai/layer/plans",
+  "image": "https://storage.getlayers.ai/sections/plans-9207f748c5.webp",
+  "posterVideo": "https://storage.getlayers.ai/sections/plans-9207f748c5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/sections/plans-9207f748c5-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/sections/plans-9207f748c5-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/sections/plans-9207f748c5-mobile.mp4",
+  "likes": 3,
+  "createdAt": "2026-11-10",
+  "typeTags": [
+   "pricing"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal",
+   "playful"
+  ],
+  "keywords": [
+   "add",
+   "add-on",
+   "agency pricing",
+   "bar",
+   "black",
+   "bold",
+   "cards",
+   "carousel",
+   "crisp",
+   "design subscription",
+   "electric",
+   "lime",
+   "oversized",
+   "oversized type",
+   "plan",
+   "plans",
+   "pricing",
+   "pricing cards",
+   "purple",
+   "retainer",
+   "scroll-snap",
+   "sleek",
+   "subscription",
+   "type",
+   "violet",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "plans.webp": "70662 bytes"
+ }
+}

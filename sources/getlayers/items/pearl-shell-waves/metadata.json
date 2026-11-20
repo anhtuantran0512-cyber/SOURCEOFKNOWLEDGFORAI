@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:47:05Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pearl-shell-waves",
+  "title": "Pearl Shell Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pearl-shell-waves-7711f483e7.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pearl-shell-waves-7711f483e7.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pearl-shell-waves-7711f483e7-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "across",
+   "and",
+   "cream",
+   "expensive",
+   "folds",
+   "frame",
+   "glass",
+   "gold",
+   "highlights",
+   "inside",
+   "iridescent",
+   "macro",
+   "nacre",
+   "nacreous",
+   "organic",
+   "oyster",
+   "pearl",
+   "ripple",
+   "shell",
+   "the",
+   "waves"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pearl-shell-waves.webp": "72542 bytes"
+ }
+}

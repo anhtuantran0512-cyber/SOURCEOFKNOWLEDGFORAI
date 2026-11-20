@@ -25,7 +25,7 @@ url: "https://www.getlayers.ai/layer/lumora"
 - Published: 2026-05-14 · likes: 399
 - Live page: https://www.getlayers.ai/layer/lumora
 - Preview still: [`assets/lumora.webp`](../../assets/lumora.webp)
-- Figma preview: _not published for this template_
+- Figma preview: _not published for this item_
 
 ## Measured performance
 

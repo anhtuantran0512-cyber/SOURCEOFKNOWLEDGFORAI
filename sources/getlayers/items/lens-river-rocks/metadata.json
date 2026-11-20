@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-11-20T15:46:35Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lens-river-rocks",
+  "title": "Lens River Rocks",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped. Legal for purchase only on getlayers.ai — getlayers.ai/layer/lens-river-rocks",
+  "image": "https://storage.getlayers.ai/backgrounds/lens-river-rocks-b239a7f015.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lens-river-rocks-b239a7f015.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lens-river-rocks-b239a7f015-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "product-object"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical",
+   "organic"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "camera",
+   "drifts",
+   "gear",
+   "giant",
+   "green",
+   "island",
+   "left",
+   "lens",
+   "mist",
+   "misty",
+   "morning",
+   "mossy",
+   "object",
+   "product",
+   "quiet",
+   "rests",
+   "river",
+   "rocks",
+   "rocky",
+   "shoot",
+   "stream",
+   "trees",
+   "water"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lens-river-rocks.webp": "258034 bytes"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "fetchedAt": "2026-11-20T15:45:42Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "lilac-thread-waves",
+  "title": "Lilac Thread Waves",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/lilac-thread-waves-561dda9f84.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/lilac-thread-waves-561dda9f84.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/lilac-thread-waves-561dda9f84-preview.mp4",
+  "likes": 2,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "across",
+   "brushed",
+   "field",
+   "fine",
+   "flow",
+   "glass",
+   "hair",
+   "lilac",
+   "lines",
+   "pale",
+   "silk",
+   "standing",
+   "sweep",
+   "the",
+   "thousands",
+   "thread",
+   "threads",
+   "waves",
+   "wind"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lilac-thread-waves.webp": "588930 bytes"
+ }
+}

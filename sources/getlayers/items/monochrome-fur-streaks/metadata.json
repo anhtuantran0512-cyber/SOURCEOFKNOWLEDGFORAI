@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:46:41Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "monochrome-fur-streaks",
+  "title": "Monochrome Fur Streaks",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/monochrome-fur-streaks-26bc7bc7f1.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/monochrome-fur-streaks-26bc7bc7f1.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/monochrome-fur-streaks-26bc7bc7f1-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "brutal"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "apart",
+   "black",
+   "blocks",
+   "broken",
+   "distortion",
+   "frame",
+   "fur",
+   "glass",
+   "glitch",
+   "glitchy",
+   "like",
+   "monochrome",
+   "pixel",
+   "raw",
+   "restless",
+   "signal",
+   "smear",
+   "streaks",
+   "tearing",
+   "texture",
+   "whip",
+   "white"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "monochrome-fur-streaks.webp": "549712 bytes"
+ }
+}

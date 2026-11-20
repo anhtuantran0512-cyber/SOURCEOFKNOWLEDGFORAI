@@ -1,0 +1,256 @@
+{
+ "fetchedAt": "2026-11-20T15:44:21Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "quantum-collapse",
+  "title": "Quantum Collapse",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A glowing cloud of blue and violet light hangs in deep space round a golden nucleus, turning slowly; move the cursor to observe it and the cloud condenses. Legal for purchase only on getlayers.ai — getlayers.ai/layer/quantum-collapse",
+  "image": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83-preview.mp4",
+  "likes": 137,
+  "createdAt": "2026-11-09",
+  "typeTags": [
+   "particles"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "atom",
+   "blue",
+   "chemistry",
+   "cinematic",
+   "cloud",
+   "collapse",
+   "condenses",
+   "cursor",
+   "dark",
+   "deep",
+   "electron",
+   "electron cloud",
+   "futuristic",
+   "glow",
+   "glowing",
+   "gold",
+   "golden",
+   "hangs",
+   "hydrogen",
+   "hydrogen-orbital",
+   "interactive",
+   "light",
+   "lobes",
+   "minimal",
+   "move",
+   "navy",
+   "nebula",
+   "nucleus",
+   "observe",
+   "observer",
+   "orbit-camera",
+   "orbital",
+   "particles",
+   "physics",
+   "point-cloud",
+   "pointer-observer",
+   "points",
+   "probability",
+   "purple",
+   "quantum",
+   "round",
+   "science",
+   "scientific",
+   "slowly",
+   "space",
+   "sparkle",
+   "threejs",
+   "turning",
+   "violet",
+   "volume",
+   "volume-raymarching",
+   "volumetric",
+   "wavefunction"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "quantum-collapse",
+    "groupId": "quantum-collapse",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgTop": "#0b1230",
+     "bgBottom": "#03050f",
+     "colorPlus": "#3f86ff",
+     "colorMinus": "#b85cff",
+     "nucleusColor": "#ffcf6b"
+    },
+    "ramp": [
+     "#3f86ff",
+     "#b85cff",
+     "#ffcf6b",
+     "#0b1230",
+     "#03050f"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83.webp"
+   },
+   {
+    "id": "quantum-collapse-001",
+    "groupId": "quantum-collapse",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#1a0e0a",
+     "bgBottom": "#040302",
+     "colorPlus": "#ff8a3a",
+     "colorMinus": "#2ad0c8",
+     "nucleusColor": "#fff0d0"
+    },
+    "ramp": [
+     "#ff8a3a",
+     "#2ad0c8",
+     "#fff0d0",
+     "#1a0e0a",
+     "#040302"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/2408c019-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/2408c019.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/2408c019.webp"
+   },
+   {
+    "id": "quantum-collapse-002",
+    "groupId": "quantum-collapse",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#08160f",
+     "bgBottom": "#020604",
+     "colorPlus": "#ff2a5a",
+     "colorMinus": "#2ae88a",
+     "nucleusColor": "#ffe08a"
+    },
+    "ramp": [
+     "#ff2a5a",
+     "#2ae88a",
+     "#ffe08a",
+     "#08160f",
+     "#020604"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/6c251c76-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/6c251c76.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/6c251c76.webp"
+   },
+   {
+    "id": "quantum-collapse-003",
+    "groupId": "quantum-collapse",
+    "name": "003",
+    "sortOrder": 3,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#241606",
+     "bgBottom": "#070402",
+     "colorPlus": "#ffcf5a",
+     "colorMinus": "#f0e4c4",
+     "nucleusColor": "#ffffff"
+    },
+    "ramp": [
+     "#ffcf5a",
+     "#f0e4c4",
+     "#ffffff",
+     "#241606",
+     "#070402"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/66c54404-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/66c54404.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/66c54404.webp"
+   },
+   {
+    "id": "quantum-collapse-004",
+    "groupId": "quantum-collapse",
+    "name": "004",
+    "sortOrder": 4,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#3a1a4a",
+     "bgBottom": "#120618",
+     "colorPlus": "#ff8ac8",
+     "colorMinus": "#8a6aff",
+     "nucleusColor": "#ffe0f0"
+    },
+    "ramp": [
+     "#ff8ac8",
+     "#8a6aff",
+     "#ffe0f0",
+     "#3a1a4a",
+     "#120618"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/4046eacc-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/4046eacc.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/4046eacc.webp"
+   },
+   {
+    "id": "quantum-collapse-005",
+    "groupId": "quantum-collapse",
+    "name": "005",
+    "sortOrder": 5,
+    "isDefault": false,
+    "colors": {
+     "bgTop": "#021616",
+     "bgBottom": "#000606",
+     "colorPlus": "#3affe8",
+     "colorMinus": "#f0ff3a",
+     "nucleusColor": "#ffffff"
+    },
+    "ramp": [
+     "#3affe8",
+     "#f0ff3a",
+     "#ffffff",
+     "#021616",
+     "#000606"
+    ],
+    "createdAt": "2026-10-26",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/a42a43da-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/a42a43da.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/quantum-collapse-ab637e3b83/a42a43da.webp"
+   }
+  ],
+  "variantCount": 6
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "quantum-collapse.webp": "35574 bytes"
+ }
+}

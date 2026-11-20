@@ -1,0 +1,61 @@
+{
+ "fetchedAt": "2026-11-20T15:47:04Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pastel-brush-strokes",
+  "title": "Pastel Brush Strokes",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pastel-brush-strokes-1c58918b92.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pastel-brush-strokes-1c58918b92.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pastel-brush-strokes-1c58918b92-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "across",
+   "and",
+   "blurred",
+   "brush",
+   "cream",
+   "diagonally",
+   "frame",
+   "glass",
+   "its",
+   "long",
+   "motion",
+   "muted",
+   "own",
+   "painterly",
+   "painting",
+   "pastel",
+   "peach",
+   "sage",
+   "soft",
+   "strokes",
+   "sweep",
+   "warm"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pastel-brush-strokes.webp": "139756 bytes"
+ }
+}

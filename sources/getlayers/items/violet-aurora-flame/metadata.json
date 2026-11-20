@@ -1,0 +1,64 @@
+{
+ "fetchedAt": "2026-11-20T15:45:56Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "violet-aurora-flame",
+  "title": "Violet Aurora Flame",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/violet-aurora-flame-42021d167f.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/violet-aurora-flame-42021d167f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/violet-aurora-flame-42021d167f-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "above",
+   "abstract",
+   "along",
+   "aurora",
+   "bottom",
+   "curtains",
+   "dark",
+   "down",
+   "edge",
+   "fire",
+   "flame",
+   "glass",
+   "glow",
+   "glowing",
+   "light",
+   "lights",
+   "like",
+   "lilac",
+   "northern",
+   "peach",
+   "rising",
+   "soft",
+   "undulates",
+   "upside",
+   "violet",
+   "wave"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "violet-aurora-flame.webp": "130754 bytes"
+ }
+}

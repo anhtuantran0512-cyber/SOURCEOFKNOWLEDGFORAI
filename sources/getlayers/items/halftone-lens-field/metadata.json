@@ -1,0 +1,153 @@
+{
+ "fetchedAt": "2026-11-20T15:44:55Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "halftone-lens-field",
+  "title": "Halftone Lens Field",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "stack": [
+   "threejs",
+   "particles",
+   "interactive"
+  ],
+  "tier": "Premium",
+  "description": "A pale mint halftone sheet swelling into soft lenses, denting under your touch and rippling wherever you press.",
+  "image": "https://storage.getlayers.ai/3d_scenes/halftone-lens-field-9b7c629070.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/halftone-lens-field-9b7c629070.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/halftone-lens-field-9b7c629070-preview.mp4",
+  "likes": 1,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "2d-shader"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "keywords": [
+   "denting",
+   "displacement",
+   "dome",
+   "dots",
+   "field",
+   "grid",
+   "halftone",
+   "interactive",
+   "lattice",
+   "lens",
+   "lenses",
+   "mint",
+   "pale",
+   "particles",
+   "press",
+   "ripple",
+   "rippling",
+   "shader",
+   "sheet",
+   "soft",
+   "swelling",
+   "threejs",
+   "touch",
+   "under",
+   "wherever",
+   "wire",
+   "wire-grid",
+   "you",
+   "your"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "halftone-lens-field",
+    "groupId": "halftone-lens-field",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "bgColor": "#151a17",
+     "dimColor": "#4a5c3c",
+     "glowColor": "#a8d47a",
+     "lineColor": "#d8f0c0",
+     "accentColor": "#e2f6c8"
+    },
+    "ramp": [
+     "#151a17",
+     "#d8f0c0",
+     "#e2f6c8",
+     "#4a5c3c",
+     "#a8d47a"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halftone-lens-field-9b7c629070-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halftone-lens-field-9b7c629070.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halftone-lens-field-9b7c629070.webp"
+   },
+   {
+    "id": "halftone-lens-field-001",
+    "groupId": "halftone-lens-field",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#0c0915",
+     "dimColor": "#b084cd",
+     "glowColor": "#e1cee9",
+     "lineColor": "#3a265e",
+     "accentColor": "#733fac"
+    },
+    "ramp": [
+     "#0c0915",
+     "#3a265e",
+     "#733fac",
+     "#b084cd",
+     "#e1cee9"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halftone-lens-field-9b7c629070/ec9a448f-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halftone-lens-field-9b7c629070/ec9a448f.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halftone-lens-field-9b7c629070/ec9a448f.webp"
+   },
+   {
+    "id": "halftone-lens-field-002",
+    "groupId": "halftone-lens-field",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "bgColor": "#071b16",
+     "dimColor": "#70e0b3",
+     "glowColor": "#c5efdc",
+     "lineColor": "#186e56",
+     "accentColor": "#22c990"
+    },
+    "ramp": [
+     "#071b16",
+     "#186e56",
+     "#22c990",
+     "#70e0b3",
+     "#c5efdc"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/halftone-lens-field-9b7c629070/16b731a6-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/halftone-lens-field-9b7c629070/16b731a6.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/halftone-lens-field-9b7c629070/16b731a6.webp"
+   }
+  ],
+  "variantCount": 3
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "halftone-lens-field.webp": "442518 bytes"
+ }
+}

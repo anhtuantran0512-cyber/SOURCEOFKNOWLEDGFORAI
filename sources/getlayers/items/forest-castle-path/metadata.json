@@ -1,0 +1,65 @@
+{
+ "fetchedAt": "2026-11-20T15:46:52Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "forest-castle-path",
+  "title": "Forest Castle Path",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/forest-castle-path-f777617f7e.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/forest-castle-path-f777617f7e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/forest-castle-path-f777617f7e-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-09-21",
+  "typeTags": [
+   "landscape-nature"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "accident",
+   "and",
+   "castle",
+   "damp",
+   "dark",
+   "find",
+   "forest",
+   "forgotten",
+   "gothic",
+   "green",
+   "half",
+   "landscape",
+   "mist",
+   "muddy",
+   "nature",
+   "overgrown",
+   "path",
+   "place",
+   "runs",
+   "standing",
+   "summer",
+   "through",
+   "toward",
+   "track",
+   "turreted",
+   "woodland",
+   "you"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "forest-castle-path.webp": "366160 bytes"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "fetchedAt": "2026-11-20T15:45:34Z",
+ "source": "https://www.getlayers.ai/backgrounds",
+ "item": {
+  "id": "pink-glass-helix",
+  "title": "Pink Glass Helix",
+  "category": "background",
+  "tags": [
+   "background"
+  ],
+  "stack": [
+   "background"
+  ],
+  "tier": "Premium",
+  "description": "Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.",
+  "image": "https://storage.getlayers.ai/backgrounds/pink-glass-helix-66aa80b30c.webp",
+  "posterVideo": "https://storage.getlayers.ai/backgrounds/pink-glass-helix-66aa80b30c.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/backgrounds/pink-glass-helix-66aa80b30c-preview.mp4",
+  "likes": 3,
+  "createdAt": "2026-10-15",
+  "typeTags": [
+   "abstract-glass"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "mediaType": "animated",
+  "keywords": [
+   "abstract",
+   "against",
+   "backdrop",
+   "candy",
+   "clean",
+   "clear",
+   "coil",
+   "coloured",
+   "cool",
+   "glass",
+   "glasswork",
+   "helix",
+   "pink",
+   "ribbons",
+   "rose",
+   "slowly",
+   "soft",
+   "spiral",
+   "teal",
+   "tinted",
+   "transparent",
+   "turning"
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "pink-glass-helix.webp": "149452 bytes"
+ }
+}

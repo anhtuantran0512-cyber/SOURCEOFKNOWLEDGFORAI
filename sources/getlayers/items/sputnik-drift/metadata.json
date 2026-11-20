@@ -1,0 +1,172 @@
+{
+ "fetchedAt": "2026-11-20T15:44:59Z",
+ "source": "https://www.getlayers.ai/3d-scenes",
+ "item": {
+  "id": "sputnik-drift",
+  "title": "Sputnik Drift",
+  "category": "3d_scene",
+  "tags": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "stack": [
+   "threejs",
+   "model",
+   "shaders"
+  ],
+  "tier": "Premium",
+  "description": "A chrome satellite hanging in deep space, leaning toward you as shooting stars pass behind it.",
+  "image": "https://storage.getlayers.ai/3d_scenes/sputnik-drift-9926f9b763.webp",
+  "posterVideo": "https://storage.getlayers.ai/3d_scenes/sputnik-drift-9926f9b763.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/3d_scenes/sputnik-drift-9926f9b763-preview.mp4",
+  "likes": 0,
+  "createdAt": "2026-08-22",
+  "typeTags": [
+   "galaxy-space"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "against",
+   "antenna",
+   "behind",
+   "chrome",
+   "cold",
+   "cosmos",
+   "deep",
+   "drift",
+   "fiction",
+   "galaxy",
+   "hanging",
+   "leaning",
+   "metal",
+   "meteor",
+   "orbit",
+   "pass",
+   "patient",
+   "polished",
+   "retro",
+   "satellite",
+   "science",
+   "shooting",
+   "space",
+   "sputnik",
+   "stars",
+   "the",
+   "toward",
+   "universe",
+   "void",
+   "you"
+  ],
+  "sceneLive": true,
+  "variants": [
+   {
+    "id": "sputnik-drift",
+    "groupId": "sputnik-drift",
+    "name": "Default",
+    "sortOrder": 0,
+    "isDefault": true,
+    "colors": {
+     "glowA": "#33236a",
+     "glowB": "#123a5e",
+     "bgColor": "#03031c",
+     "rimColor": "#9cc0ff",
+     "sunColor": "#fff2d6",
+     "starColor": "#eaf2ff",
+     "shootColor": "#ffffff",
+     "sputnikTint": "#a3a3a3"
+    },
+    "ramp": [
+     "#03031c",
+     "#33236a",
+     "#123a5e",
+     "#fff2d6",
+     "#9cc0ff",
+     "#eaf2ff",
+     "#ffffff",
+     "#a3a3a3"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sputnik-drift-9926f9b763-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sputnik-drift-9926f9b763.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sputnik-drift-9926f9b763.webp"
+   },
+   {
+    "id": "sputnik-drift-001",
+    "groupId": "sputnik-drift",
+    "name": "001",
+    "sortOrder": 1,
+    "isDefault": false,
+    "colors": {
+     "glowA": "#1b5558",
+     "glowB": "#258585",
+     "bgColor": "#0f292c",
+     "rimColor": "#47d2c6",
+     "sunColor": "#2db5af",
+     "starColor": "#77dacc",
+     "shootColor": "#a4e3d8",
+     "sputnikTint": "#d0efe8"
+    },
+    "ramp": [
+     "#0f292c",
+     "#1b5558",
+     "#258585",
+     "#2db5af",
+     "#47d2c6",
+     "#77dacc",
+     "#a4e3d8",
+     "#d0efe8"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sputnik-drift-9926f9b763/55cff13e-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sputnik-drift-9926f9b763/55cff13e.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sputnik-drift-9926f9b763/55cff13e.webp"
+   },
+   {
+    "id": "sputnik-drift-002",
+    "groupId": "sputnik-drift",
+    "name": "002",
+    "sortOrder": 2,
+    "isDefault": false,
+    "colors": {
+     "glowA": "#4e2c12",
+     "glowB": "#7c4118",
+     "bgColor": "#231509",
+     "rimColor": "#d96624",
+     "sunColor": "#ac541c",
+     "starColor": "#de8353",
+     "shootColor": "#e3a182",
+     "sputnikTint": "#eac1af"
+    },
+    "ramp": [
+     "#231509",
+     "#4e2c12",
+     "#7c4118",
+     "#ac541c",
+     "#d96624",
+     "#de8353",
+     "#e3a182",
+     "#eac1af"
+    ],
+    "createdAt": "2026-08-25",
+    "likes": 0,
+    "previewVideo": "https://storage.getlayers.ai/3d_scenes/sputnik-drift-9926f9b763/e83eef41-preview.mp4",
+    "heroVideo": "https://storage.getlayers.ai/3d_scenes/sputnik-drift-9926f9b763/e83eef41.mp4",
+    "poster": "https://storage.getlayers.ai/3d_scenes/sputnik-drift-9926f9b763/e83eef41.webp"
+   }
+  ],
+  "variantCount": 3
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "sputnik-drift.webp": "18446 bytes"
+ }
+}
