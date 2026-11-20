@@ -107,6 +107,8 @@ sources/getlayers/
 ├── INDEX.md                      # every item, grouped by library
 ├── MEDIA.md                      # 5,854 media files: field, size, URL (not committed)
 ├── media-sizes.json              # HEAD Content-Length per media URL
+├── media-free.json               # what is downloaded: 47 free items, 232 files, 595 MB
+├── media/<id>/                   # free items only: video, stills, Lighthouse reports
 ├── items/<id>/ITEM.md            # brief: direction, stack, variants, frame timings, Lighthouse
 ├── items/<id>/metadata.json      # full public record (+ page JSON-LD for templates)
 ├── prompts/<id>.md               # free-tier prompts, verbatim
@@ -141,10 +143,11 @@ The repository is text-only. No videos, no font binaries, no image dumps. Screen
 `assets/previews/` are small and only used by the README. If a reference needs media, link to the original
 URL instead of committing it.
 
-One named exception: `sources/getlayers/assets/` holds one poster still per item (892 × ~150 KB) and the
-Figma preview where the site publishes one (53 × ~150 KB) — about 147 MB, because the still is the only
-way to see what an item looks like when its source is premium. The rest of the published media — **10.0
-GB in 5,854 files** of 4K video, preview clips, mockups and Lighthouse HTML — is **not** committed: that
-is past GitHub's 100 MB per-file and 5 GB per-repository limits. Every file is listed with its size and
-URL in `sources/getlayers/MEDIA.md`, and `scripts/fetch_getlayers.py --media video|all` downloads it
-locally.
+Two named exceptions, both under `sources/getlayers/`. `assets/` holds one poster still per item (892 ×
+~150 KB) plus the Figma preview where the site publishes one (53 × ~150 KB) — about 147 MB, because the
+still is the only way to see what an item looks like when its source is premium. `media/` holds the whole
+free tier — 47 items, 232 files, 595 MB, largest file 13 MB — because that media is public and small
+enough to keep. The remaining **10.0 GB in 5,854 files** of 4K video, preview clips, mockups and
+Lighthouse HTML is **not** committed: that is past GitHub's 100 MB per-file and 5 GB per-repository
+limits. Every file is listed with its size and URL in `sources/getlayers/MEDIA.md`, and
+`scripts/fetch_getlayers.py --media video|all` downloads it locally.

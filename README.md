@@ -150,9 +150,10 @@ paid MotionSites prompt leaked in, and that the two newer sources are present an
 - GetLayers premium prompts (874 of 892 items) answer `forbidden` on the site's copy endpoint and are
   not included. Its free prompts are copied through the same button a visitor uses, at one per day per
   anonymous visitor — no account was created and no limit was worked around.
-- GetLayers' 10 GB of published video and Lighthouse HTML is **not** committed (GitHub allows 100 MB per
-  file and 5 GB per repository). Every file is listed with its size and URL in
-  [`sources/getlayers/MEDIA.md`](sources/getlayers/MEDIA.md).
+- GetLayers' free tier is fully downloaded — 47 items, 232 media files, 595 MB in
+  [`sources/getlayers/media/`](sources/getlayers/media/). The other 10 GB of published video and
+  Lighthouse HTML is **not** committed (GitHub allows 100 MB per file and 5 GB per repository); every file
+  is listed with its size and URL in [`sources/getlayers/MEDIA.md`](sources/getlayers/MEDIA.md).
 - The archive is a snapshot. Re-run the collectors if a link is stale.
 - If you own content here and want it removed, open an issue.
 

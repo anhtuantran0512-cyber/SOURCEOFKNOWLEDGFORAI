@@ -3,15 +3,18 @@
 > Auto-generated from `catalog/*.json` and `media-sizes.json` — do not edit by hand, run `scripts/build_source_indexes.py`.
 > **5,854 files · 10.0 GB** — measured with a `HEAD` request on 2026-11-20.
 
-The media is **not committed**: at 10.0 GB it is far past GitHub's 100 MB per-file and 5 GB per-repository limits, and a clone would take hours. Every file stays on GetLayers' CDN; this inventory lists each unique file once, with its size, so a reader can fetch exactly what a project needs:
+The full set is **not committed**: at 10.0 GB it is far past GitHub's 100 MB per-file and 5 GB per-repository limits, and a clone would take hours. Every file stays on GetLayers' CDN; this inventory lists each unique file once, with its size, so a reader can fetch exactly what a project needs:
 
 ```bash
 curl -O <url>                                     # one file
 python3 scripts/fetch_getlayers.py --media video  # mockups + preview clips
 python3 scripts/fetch_getlayers.py --media all    # + hero video and Lighthouse HTML
+python3 scripts/fetch_getlayers_free.py          # the free tier, into media/
 ```
 
 The poster stills for all 892 items *are* committed, in `assets/`.
+
+The **free tier is committed** too: 47 free items, 232 files, 595 MB, in `media/<id>/` — every video, still and Lighthouse report the site publishes for them, downloaded by `scripts/fetch_getlayers_free.py`. Premium media is not fetched at all.
 
 | Library | Files | Size |
 |---|---:|---:|

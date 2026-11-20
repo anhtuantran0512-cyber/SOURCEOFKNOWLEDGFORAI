@@ -7,6 +7,7 @@ animated backgrounds and pure-WebGL gradients.
 - Libraries: **62 templates · 222 3D scenes · 54 sections · 530 backgrounds · 24 gradients**
 - Tier split: **47 Free · 845 Premium**
 - Stills: **892** poster stills · **53** Figma previews
+- Free media: **232 files · 595 MB** committed in `media/` — every asset the site publishes for the 47 free items
 - Free prompts captured: **1** (`soda`) — the copy endpoint allows one per visitor per day, see below
 - Format: one folder per item (`ITEM.md` + `metadata.json`), plus `prompts/`, `assets/` and `catalog/`
 - Rights: previews and prompts remain the property of GetLayers / Textura Agency; not relicensed here.
@@ -22,6 +23,8 @@ animated backgrounds and pure-WebGL gradients.
 | `assets/<id>.webp` | poster still |
 | `assets/<id>-figma.webp` | Figma preview, where the site publishes one (53 items) |
 | `catalog/<category>.json` | the catalogue payload the site ships, untouched |
+| `media/<id>/` | free items only: poster video, preview clip, device mockups, stills, Lighthouse reports |
+| `MEDIA.md` · `media-sizes.json` · `media-free.json` | full inventory (10.0 GB, 5,854 files) and the record of what is downloaded |
 
 ## The five libraries
 
@@ -61,14 +64,19 @@ stills and all 53 Figma previews are bundled.
 - **Free backgrounds (29) are free to *download*, not to prompt.** Their 4K mp4 is public; the prompt is
   not. The still and the video URL are archived, the prompt is not.
 
-- **Video and Lighthouse HTML (not committed).** Across the five libraries the published media measures
-  **10.0 GB in 5,854 files** — 4K hero videos, preview clips, device mockups, Lighthouse reports. That is
-  far past GitHub's per-file (100 MB) and repository (5 GB) limits, so none of it is committed. Every URL
-  and every file's size is recorded in `MEDIA.md` and in each `ITEM.md`; fetch what you need locally:
+- **Premium media (not fetched).** Nothing behind the paywall is downloaded, so the archive never holds
+  what a subscription buys.
+
+- **All media, 10.0 GB in 5,854 files.** Across the five libraries the published media measures 10.0 GB —
+  4K hero videos, preview clips, device mockups, Lighthouse reports. That is far past GitHub's per-file
+  (100 MB) and repository (5 GB) limits, so it is not all committed. The **free tier is** (595 MB, 232
+  files, largest file 13 MB); for the rest, `MEDIA.md` lists every URL and size, and each `ITEM.md` carries
+  its own:
 
   ```bash
-  python3 scripts/fetch_getlayers.py --media video   # + mockups and preview clips
-  python3 scripts/fetch_getlayers.py --media all     # + hero video and Lighthouse HTML
+  python3 scripts/fetch_getlayers_free.py           # free tier → media/ (already committed)
+  python3 scripts/fetch_getlayers.py --media video  # + mockups and preview clips
+  python3 scripts/fetch_getlayers.py --media all    # + hero video and Lighthouse HTML
   ```
 
 ## How it was collected
@@ -90,6 +98,7 @@ descriptive User-Agent, retries with backoff, and it stops asking for a prompt t
 python3 scripts/fetch_getlayers.py                    # metadata + stills + free prompts
 python3 scripts/fetch_getlayers.py --category gradient # one library only
 python3 scripts/fetch_getlayers.py --media all        # + videos and Lighthouse reports
+python3 scripts/fetch_getlayers_free.py               # free-tier media into media/
 python3 scripts/build_source_indexes.py               # regenerate INDEX.md and MEDIA.md
 python3 scripts/verify.py                             # counts, frontmatter, free/paid boundary
 ```

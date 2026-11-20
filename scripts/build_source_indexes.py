@@ -241,7 +241,7 @@ def index_getlayers_media() -> None:
         "`scripts/build_source_indexes.py`.\n"
         f"> **{len(inventory):,} files · {total / 1e9:.1f} GB** — measured with a `HEAD` request on "
         "2026-11-20.\n\n"
-        f"The media is **not committed**: at {total / 1e9:.1f} GB it is far past GitHub's 100 MB per-file "
+        f"The full set is **not committed**: at {total / 1e9:.1f} GB it is far past GitHub's 100 MB per-file "
         "and 5 GB per-repository limits, and a clone would take hours. Every file stays on GetLayers' CDN; this "
         "inventory lists each unique file once, with its size, so a reader can fetch exactly what a "
         "project needs:\n\n"
@@ -249,9 +249,19 @@ def index_getlayers_media() -> None:
         "curl -O <url>                                     # one file\n"
         "python3 scripts/fetch_getlayers.py --media video  # mockups + preview clips\n"
         "python3 scripts/fetch_getlayers.py --media all    # + hero video and Lighthouse HTML\n"
+        "python3 scripts/fetch_getlayers_free.py          # the free tier, into media/\n"
         "```\n\n"
         "The poster stills for all 892 items *are* committed, in `assets/`.\n"
     )
+    free_media = SOURCES / "getlayers" / "media-free.json"
+    if free_media.exists():
+        free = json.loads(free_media.read_text(encoding="utf-8"))
+        out += (
+            f"\nThe **free tier is committed** too: {free['items']} free items, {free['files']} files, "
+            f"{free['bytes'] / 1e6:.0f} MB, in `media/<id>/` — every video, still and Lighthouse report "
+            "the site publishes for them, downloaded by `scripts/fetch_getlayers_free.py`. Premium media "
+            "is not fetched at all.\n"
+        )
     out += "\n| Library | Files | Size |\n|---|---:|---:|\n"
     for key, label in GETLAYERS_GROUPS:
         rows = [row for row in inventory if row[0] == key]

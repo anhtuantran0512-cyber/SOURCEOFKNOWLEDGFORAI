@@ -84,9 +84,11 @@ original attribution next to every file. Nothing here is sold, relicensed or pre
   — and for backgrounds, *"Background prompts come with Unlimited Plus and Full Stack — free backgrounds
   stay free to download."* They are **not** collected, bypassed, guessed or reconstructed. Each brief
   links to the live page instead.
-- **Not bundled:** the published media — **10.0 GB in 5,854 files** (4K hero videos, preview clips, device
-  mockups, Lighthouse HTML reports). GitHub allows 100 MB per file and about 5 GB per repository, so none
-  of it is committed. Every file, its size and its URL is listed in
+- **Free-tier media: bundled.** The 47 free items ship with everything the site publishes for them —
+  232 files, 595 MB, largest file 13 MB — in [`sources/getlayers/media/`](sources/getlayers/media/).
+- **Premium and remaining media: not bundled.** The full published set is **10.0 GB in 5,854 files**
+  (4K hero videos, preview clips, device mockups, Lighthouse HTML reports). GitHub allows 100 MB per file
+  and about 5 GB per repository, so it stays on the CDN. Every file, its size and its URL is listed in
   [`sources/getlayers/MEDIA.md`](sources/getlayers/MEDIA.md); `scripts/fetch_getlayers.py --media video`
   or `--media all` downloads it locally.
 - Rights: previews and prompts remain the property of GetLayers / Textura Agency. They are included for

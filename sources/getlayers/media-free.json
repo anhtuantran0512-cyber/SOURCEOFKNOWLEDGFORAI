@@ -1,0 +1,2010 @@
+{
+ "source": "https://www.getlayers.ai",
+ "collectedAt": "2026-11-20T16:16:59Z",
+ "scope": "items whose tier is Free — everything else stays on the CDN",
+ "items": 47,
+ "files": 232,
+ "bytes": 595315666,
+ "entries": [
+  {
+   "id": "elliptical-galaxy",
+   "title": "Elliptical Galaxy",
+   "category": "3d_scene",
+   "bytes": 21113708,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy.webp",
+     "path": "sources/getlayers/media/elliptical-galaxy/elliptical-galaxy.webp",
+     "bytes": 26260,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy.mp4",
+     "path": "sources/getlayers/media/elliptical-galaxy/elliptical-galaxy.mp4",
+     "bytes": 4707305,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy-preview.mp4",
+     "path": "sources/getlayers/media/elliptical-galaxy/elliptical-galaxy-preview.mp4",
+     "bytes": 970432,
+     "status": "ok"
+    },
+    {
+     "field": "videoUrl",
+     "url": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy-instruction.mp4",
+     "path": "sources/getlayers/media/elliptical-galaxy/elliptical-galaxy-instruction.mp4",
+     "bytes": 5498796,
+     "status": "ok"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy-preview.mp4",
+     "path": "sources/getlayers/media/elliptical-galaxy/elliptical-galaxy-preview-2.mp4",
+     "bytes": 970432,
+     "status": "ok"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy.mp4",
+     "path": "sources/getlayers/media/elliptical-galaxy/elliptical-galaxy-2.mp4",
+     "bytes": 4707305,
+     "status": "ok"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy.webp",
+     "path": "sources/getlayers/media/elliptical-galaxy/elliptical-galaxy-2.webp",
+     "bytes": 26260,
+     "status": "ok"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy/3fc2da75-preview.mp4",
+     "path": "sources/getlayers/media/elliptical-galaxy/3fc2da75-preview.mp4",
+     "bytes": 178333,
+     "status": "ok"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy/3fc2da75.mp4",
+     "path": "sources/getlayers/media/elliptical-galaxy/3fc2da75.mp4",
+     "bytes": 4005861,
+     "status": "ok"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/elliptical-galaxy/3fc2da75.webp",
+     "path": "sources/getlayers/media/elliptical-galaxy/3fc2da75.webp",
+     "bytes": 22724,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "flow-wave",
+   "title": "Flow Wave",
+   "category": "3d_scene",
+   "bytes": 36335872,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/3d_scenes/flow-wave.webp",
+     "path": "sources/getlayers/media/flow-wave/flow-wave.webp",
+     "bytes": 129828,
+     "status": "cached"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/flow-wave.mp4",
+     "path": "sources/getlayers/media/flow-wave/flow-wave.mp4",
+     "bytes": 12090342,
+     "status": "cached"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/3d_scenes/flow-wave-preview.mp4",
+     "path": "sources/getlayers/media/flow-wave/flow-wave-preview.mp4",
+     "bytes": 945027,
+     "status": "cached"
+    },
+    {
+     "field": "videoUrl",
+     "url": "https://storage.getlayers.ai/3d_scenes/flow-wave-instruction.mp4",
+     "path": "sources/getlayers/media/flow-wave/flow-wave-instruction.mp4",
+     "bytes": 10005478,
+     "status": "cached"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/flow-wave-preview.mp4",
+     "path": "sources/getlayers/media/flow-wave/flow-wave-preview-2.mp4",
+     "bytes": 945027,
+     "status": "cached"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/flow-wave.mp4",
+     "path": "sources/getlayers/media/flow-wave/flow-wave-2.mp4",
+     "bytes": 12090342,
+     "status": "cached"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/flow-wave.webp",
+     "path": "sources/getlayers/media/flow-wave/flow-wave-2.webp",
+     "bytes": 129828,
+     "status": "cached"
+    }
+   ]
+  },
+  {
+   "id": "flying-dust",
+   "title": "Flying Dust",
+   "category": "3d_scene",
+   "bytes": 7985656,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/3d_scenes/flying-dust.webp",
+     "path": "sources/getlayers/media/flying-dust/flying-dust.webp",
+     "bytes": 14946,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/flying-dust.mp4",
+     "path": "sources/getlayers/media/flying-dust/flying-dust.mp4",
+     "bytes": 680625,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/3d_scenes/flying-dust-preview.mp4",
+     "path": "sources/getlayers/media/flying-dust/flying-dust-preview.mp4",
+     "bytes": 980846,
+     "status": "ok"
+    },
+    {
+     "field": "videoUrl",
+     "url": "https://storage.getlayers.ai/3d_scenes/flying-dust-instruction.mp4",
+     "path": "sources/getlayers/media/flying-dust/flying-dust-instruction.mp4",
+     "bytes": 4632822,
+     "status": "ok"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/flying-dust-preview.mp4",
+     "path": "sources/getlayers/media/flying-dust/flying-dust-preview-2.mp4",
+     "bytes": 980846,
+     "status": "ok"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/flying-dust.mp4",
+     "path": "sources/getlayers/media/flying-dust/flying-dust-2.mp4",
+     "bytes": 680625,
+     "status": "ok"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/flying-dust.webp",
+     "path": "sources/getlayers/media/flying-dust/flying-dust-2.webp",
+     "bytes": 14946,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "starfield-close",
+   "title": "Starfield Close",
+   "category": "3d_scene",
+   "bytes": 9187443,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/3d_scenes/starfield-close.webp",
+     "path": "sources/getlayers/media/starfield-close/starfield-close.webp",
+     "bytes": 12162,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/starfield-close.mp4",
+     "path": "sources/getlayers/media/starfield-close/starfield-close.mp4",
+     "bytes": 896718,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/3d_scenes/starfield-close-preview.mp4",
+     "path": "sources/getlayers/media/starfield-close/starfield-close-preview.mp4",
+     "bytes": 970789,
+     "status": "ok"
+    },
+    {
+     "field": "videoUrl",
+     "url": "https://storage.getlayers.ai/3d_scenes/starfield-close-instruction.mp4",
+     "path": "sources/getlayers/media/starfield-close/starfield-close-instruction.mp4",
+     "bytes": 5428105,
+     "status": "ok"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/starfield-close-preview.mp4",
+     "path": "sources/getlayers/media/starfield-close/starfield-close-preview-2.mp4",
+     "bytes": 970789,
+     "status": "ok"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/starfield-close.mp4",
+     "path": "sources/getlayers/media/starfield-close/starfield-close-2.mp4",
+     "bytes": 896718,
+     "status": "ok"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/starfield-close.webp",
+     "path": "sources/getlayers/media/starfield-close/starfield-close-2.webp",
+     "bytes": 12162,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "storm",
+   "title": "Storm",
+   "category": "3d_scene",
+   "bytes": 42724082,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/3d_scenes/storm.webp",
+     "path": "sources/getlayers/media/storm/storm.webp",
+     "bytes": 213660,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/storm.mp4",
+     "path": "sources/getlayers/media/storm/storm.mp4",
+     "bytes": 11452959,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/3d_scenes/storm-preview.mp4",
+     "path": "sources/getlayers/media/storm/storm-preview.mp4",
+     "bytes": 2009139,
+     "status": "ok"
+    },
+    {
+     "field": "videoUrl",
+     "url": "https://storage.getlayers.ai/3d_scenes/storm-instruction.mp4",
+     "path": "sources/getlayers/media/storm/storm-instruction.mp4",
+     "bytes": 10047715,
+     "status": "ok"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/storm-preview.mp4",
+     "path": "sources/getlayers/media/storm/storm-preview-2.mp4",
+     "bytes": 2009139,
+     "status": "ok"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/storm.mp4",
+     "path": "sources/getlayers/media/storm/storm-2.mp4",
+     "bytes": 11452959,
+     "status": "ok"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/storm.webp",
+     "path": "sources/getlayers/media/storm/storm-2.webp",
+     "bytes": 213660,
+     "status": "ok"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/storm/36b49158-preview.mp4",
+     "path": "sources/getlayers/media/storm/36b49158-preview.mp4",
+     "bytes": 209583,
+     "status": "ok"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/storm/36b49158.mp4",
+     "path": "sources/getlayers/media/storm/36b49158.mp4",
+     "bytes": 5077978,
+     "status": "ok"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/storm/36b49158.webp",
+     "path": "sources/getlayers/media/storm/36b49158.webp",
+     "bytes": 37290,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "tunnel",
+   "title": "Tunnel",
+   "category": "3d_scene",
+   "bytes": 40893379,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/3d_scenes/tunnel.webp",
+     "path": "sources/getlayers/media/tunnel/tunnel.webp",
+     "bytes": 367164,
+     "status": "cached"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/tunnel.mp4",
+     "path": "sources/getlayers/media/tunnel/tunnel.mp4",
+     "bytes": 12891634,
+     "status": "cached"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/3d_scenes/tunnel-preview.mp4",
+     "path": "sources/getlayers/media/tunnel/tunnel-preview.mp4",
+     "bytes": 2090841,
+     "status": "cached"
+    },
+    {
+     "field": "videoUrl",
+     "url": "https://storage.getlayers.ai/3d_scenes/tunnel-instruction.mp4",
+     "path": "sources/getlayers/media/tunnel/tunnel-instruction.mp4",
+     "bytes": 10194101,
+     "status": "cached"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/tunnel-preview.mp4",
+     "path": "sources/getlayers/media/tunnel/tunnel-preview-2.mp4",
+     "bytes": 2090841,
+     "status": "cached"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/tunnel.mp4",
+     "path": "sources/getlayers/media/tunnel/tunnel-2.mp4",
+     "bytes": 12891634,
+     "status": "cached"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/tunnel.webp",
+     "path": "sources/getlayers/media/tunnel/tunnel-2.webp",
+     "bytes": 367164,
+     "status": "cached"
+    }
+   ]
+  },
+  {
+   "id": "vortex",
+   "title": "Vortex",
+   "category": "3d_scene",
+   "bytes": 59935273,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex.webp",
+     "path": "sources/getlayers/media/vortex/vortex.webp",
+     "bytes": 116708,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex.mp4",
+     "path": "sources/getlayers/media/vortex/vortex.mp4",
+     "bytes": 10844237,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex-preview.mp4",
+     "path": "sources/getlayers/media/vortex/vortex-preview.mp4",
+     "bytes": 981672,
+     "status": "ok"
+    },
+    {
+     "field": "videoUrl",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex-instruction.mp4",
+     "path": "sources/getlayers/media/vortex/vortex-instruction.mp4",
+     "bytes": 10015245,
+     "status": "ok"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex-preview.mp4",
+     "path": "sources/getlayers/media/vortex/vortex-preview-2.mp4",
+     "bytes": 981672,
+     "status": "ok"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex.mp4",
+     "path": "sources/getlayers/media/vortex/vortex-2.mp4",
+     "bytes": 10844237,
+     "status": "ok"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex.webp",
+     "path": "sources/getlayers/media/vortex/vortex-2.webp",
+     "bytes": 116708,
+     "status": "ok"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex/d9504249-preview.mp4",
+     "path": "sources/getlayers/media/vortex/d9504249-preview.mp4",
+     "bytes": 279638,
+     "status": "ok"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex/d9504249.mp4",
+     "path": "sources/getlayers/media/vortex/d9504249.mp4",
+     "bytes": 5720220,
+     "status": "ok"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex/d9504249.webp",
+     "path": "sources/getlayers/media/vortex/d9504249.webp",
+     "bytes": 47918,
+     "status": "ok"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex/0a78fe73-preview.mp4",
+     "path": "sources/getlayers/media/vortex/0a78fe73-preview.mp4",
+     "bytes": 845773,
+     "status": "ok"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex/0a78fe73.mp4",
+     "path": "sources/getlayers/media/vortex/0a78fe73.mp4",
+     "bytes": 5661765,
+     "status": "ok"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex/0a78fe73.webp",
+     "path": "sources/getlayers/media/vortex/0a78fe73.webp",
+     "bytes": 101058,
+     "status": "ok"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex/4f93b1ec-preview.mp4",
+     "path": "sources/getlayers/media/vortex/4f93b1ec-preview.mp4",
+     "bytes": 997120,
+     "status": "ok"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex/4f93b1ec.mp4",
+     "path": "sources/getlayers/media/vortex/4f93b1ec.mp4",
+     "bytes": 5745539,
+     "status": "ok"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex/4f93b1ec.webp",
+     "path": "sources/getlayers/media/vortex/4f93b1ec.webp",
+     "bytes": 137872,
+     "status": "ok"
+    },
+    {
+     "field": "previewVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex/56bd9fa5-preview.mp4",
+     "path": "sources/getlayers/media/vortex/56bd9fa5-preview.mp4",
+     "bytes": 714419,
+     "status": "ok"
+    },
+    {
+     "field": "heroVideo",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex/56bd9fa5.mp4",
+     "path": "sources/getlayers/media/vortex/56bd9fa5.mp4",
+     "bytes": 5675022,
+     "status": "ok"
+    },
+    {
+     "field": "poster",
+     "url": "https://storage.getlayers.ai/3d_scenes/vortex/56bd9fa5.webp",
+     "path": "sources/getlayers/media/vortex/56bd9fa5.webp",
+     "bytes": 108450,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "blue-plasma-burst",
+   "title": "Blue Plasma Burst",
+   "category": "background",
+   "bytes": 1719735,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/blue-plasma-burst-355052bd59.webp",
+     "path": "sources/getlayers/media/blue-plasma-burst/blue-plasma-burst-355052bd59.webp",
+     "bytes": 114140,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/blue-plasma-burst-355052bd59.mp4",
+     "path": "sources/getlayers/media/blue-plasma-burst/blue-plasma-burst-355052bd59.mp4",
+     "bytes": 1426399,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/blue-plasma-burst-355052bd59-preview.mp4",
+     "path": "sources/getlayers/media/blue-plasma-burst/blue-plasma-burst-355052bd59-preview.mp4",
+     "bytes": 179196,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "charcoal-silk-folds",
+   "title": "Charcoal Silk Folds",
+   "category": "background",
+   "bytes": 2912789,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/charcoal-silk-folds-6dfa5e56de.webp",
+     "path": "sources/getlayers/media/charcoal-silk-folds/charcoal-silk-folds-6dfa5e56de.webp",
+     "bytes": 269362,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/charcoal-silk-folds-6dfa5e56de.mp4",
+     "path": "sources/getlayers/media/charcoal-silk-folds/charcoal-silk-folds-6dfa5e56de.mp4",
+     "bytes": 2479587,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/charcoal-silk-folds-6dfa5e56de-preview.mp4",
+     "path": "sources/getlayers/media/charcoal-silk-folds/charcoal-silk-folds-6dfa5e56de-preview.mp4",
+     "bytes": 163840,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "chrome-orb-meadow",
+   "title": "Chrome Orb Meadow",
+   "category": "background",
+   "bytes": 6780106,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/chrome-orb-meadow-82f70fd9d1.webp",
+     "path": "sources/getlayers/media/chrome-orb-meadow/chrome-orb-meadow-82f70fd9d1.webp",
+     "bytes": 424134,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/chrome-orb-meadow-82f70fd9d1.mp4",
+     "path": "sources/getlayers/media/chrome-orb-meadow/chrome-orb-meadow-82f70fd9d1.mp4",
+     "bytes": 5927315,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/chrome-orb-meadow-82f70fd9d1-preview.mp4",
+     "path": "sources/getlayers/media/chrome-orb-meadow/chrome-orb-meadow-82f70fd9d1-preview.mp4",
+     "bytes": 428657,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "crimson-cream-swirl",
+   "title": "Crimson Cream Swirl",
+   "category": "background",
+   "bytes": 3990453,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/crimson-cream-swirl-d5ce701844.webp",
+     "path": "sources/getlayers/media/crimson-cream-swirl/crimson-cream-swirl-d5ce701844.webp",
+     "bytes": 406348,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/crimson-cream-swirl-d5ce701844.mp4",
+     "path": "sources/getlayers/media/crimson-cream-swirl/crimson-cream-swirl-d5ce701844.mp4",
+     "bytes": 3419276,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/crimson-cream-swirl-d5ce701844-preview.mp4",
+     "path": "sources/getlayers/media/crimson-cream-swirl/crimson-cream-swirl-d5ce701844-preview.mp4",
+     "bytes": 164829,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "flower-arc",
+   "title": "Flower Arc",
+   "category": "background",
+   "bytes": 7446720,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/flower-arc.webp",
+     "path": "sources/getlayers/media/flower-arc/flower-arc.webp",
+     "bytes": 126896,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/flower-arc.mp4",
+     "path": "sources/getlayers/media/flower-arc/flower-arc.mp4",
+     "bytes": 6330997,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/flower-arc-preview.mp4",
+     "path": "sources/getlayers/media/flower-arc/flower-arc-preview.mp4",
+     "bytes": 988827,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "flower-field",
+   "title": "Flower Field",
+   "category": "background",
+   "bytes": 6140573,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/flower-field.webp",
+     "path": "sources/getlayers/media/flower-field/flower-field.webp",
+     "bytes": 272042,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/flower-field.mp4",
+     "path": "sources/getlayers/media/flower-field/flower-field.mp4",
+     "bytes": 4881484,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/flower-field-preview.mp4",
+     "path": "sources/getlayers/media/flower-field/flower-field-preview.mp4",
+     "bytes": 987047,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "glass-flower",
+   "title": "Glass Flower",
+   "category": "background",
+   "bytes": 3746090,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/glass-flower.webp",
+     "path": "sources/getlayers/media/glass-flower/glass-flower.webp",
+     "bytes": 55832,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/glass-flower.mp4",
+     "path": "sources/getlayers/media/glass-flower/glass-flower.mp4",
+     "bytes": 2699798,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/glass-flower-preview.mp4",
+     "path": "sources/getlayers/media/glass-flower/glass-flower-preview.mp4",
+     "bytes": 990460,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "glass-orb-valley",
+   "title": "Glass Orb Valley",
+   "category": "background",
+   "bytes": 5070674,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/glass-orb-valley-02ecd47ce2.webp",
+     "path": "sources/getlayers/media/glass-orb-valley/glass-orb-valley-02ecd47ce2.webp",
+     "bytes": 371430,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/glass-orb-valley-02ecd47ce2.mp4",
+     "path": "sources/getlayers/media/glass-orb-valley/glass-orb-valley-02ecd47ce2.mp4",
+     "bytes": 4445794,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/glass-orb-valley-02ecd47ce2-preview.mp4",
+     "path": "sources/getlayers/media/glass-orb-valley/glass-orb-valley-02ecd47ce2-preview.mp4",
+     "bytes": 253450,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "glass-swirls-garden",
+   "title": "Glass Swirls Garden",
+   "category": "background",
+   "bytes": 2860924,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/glass-swirls-garden-f4c77da844.webp",
+     "path": "sources/getlayers/media/glass-swirls-garden/glass-swirls-garden-f4c77da844.webp",
+     "bytes": 127932,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/glass-swirls-garden-f4c77da844.mp4",
+     "path": "sources/getlayers/media/glass-swirls-garden/glass-swirls-garden-f4c77da844.mp4",
+     "bytes": 2532405,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/glass-swirls-garden-f4c77da844-preview.mp4",
+     "path": "sources/getlayers/media/glass-swirls-garden/glass-swirls-garden-f4c77da844-preview.mp4",
+     "bytes": 200587,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "hidden-garden-stairs",
+   "title": "Hidden Garden Stairs",
+   "category": "background",
+   "bytes": 2958229,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/hidden-garden-stairs-cfdfcbe68c.webp",
+     "path": "sources/getlayers/media/hidden-garden-stairs/hidden-garden-stairs-cfdfcbe68c.webp",
+     "bytes": 415304,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/hidden-garden-stairs-cfdfcbe68c.mp4",
+     "path": "sources/getlayers/media/hidden-garden-stairs/hidden-garden-stairs-cfdfcbe68c.mp4",
+     "bytes": 2398108,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/hidden-garden-stairs-cfdfcbe68c-preview.mp4",
+     "path": "sources/getlayers/media/hidden-garden-stairs/hidden-garden-stairs-cfdfcbe68c-preview.mp4",
+     "bytes": 144817,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "hills",
+   "title": "Hills",
+   "category": "background",
+   "bytes": 7402226,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/hills.webp",
+     "path": "sources/getlayers/media/hills/hills.webp",
+     "bytes": 208642,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/hills.mp4",
+     "path": "sources/getlayers/media/hills/hills.mp4",
+     "bytes": 6177751,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/hills-preview.mp4",
+     "path": "sources/getlayers/media/hills/hills-preview.mp4",
+     "bytes": 1015833,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "indoor-garden-window",
+   "title": "Indoor Garden Window",
+   "category": "background",
+   "bytes": 3632948,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/indoor-garden-window-28be4836ce.webp",
+     "path": "sources/getlayers/media/indoor-garden-window/indoor-garden-window-28be4836ce.webp",
+     "bytes": 258602,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/indoor-garden-window-28be4836ce.mp4",
+     "path": "sources/getlayers/media/indoor-garden-window/indoor-garden-window-28be4836ce.mp4",
+     "bytes": 3164656,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/indoor-garden-window-28be4836ce-preview.mp4",
+     "path": "sources/getlayers/media/indoor-garden-window/indoor-garden-window-28be4836ce-preview.mp4",
+     "bytes": 209690,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jungle-swirl-portal",
+   "title": "Jungle Swirl Portal",
+   "category": "background",
+   "bytes": 2304579,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/jungle-swirl-portal-cdf5e096dd.webp",
+     "path": "sources/getlayers/media/jungle-swirl-portal/jungle-swirl-portal-cdf5e096dd.webp",
+     "bytes": 325012,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/jungle-swirl-portal-cdf5e096dd.mp4",
+     "path": "sources/getlayers/media/jungle-swirl-portal/jungle-swirl-portal-cdf5e096dd.mp4",
+     "bytes": 1844746,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/jungle-swirl-portal-cdf5e096dd-preview.mp4",
+     "path": "sources/getlayers/media/jungle-swirl-portal/jungle-swirl-portal-cdf5e096dd-preview.mp4",
+     "bytes": 134821,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "material-hills",
+   "title": "Material Hills",
+   "category": "background",
+   "bytes": 7283470,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/material-hills.webp",
+     "path": "sources/getlayers/media/material-hills/material-hills.webp",
+     "bytes": 165926,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/material-hills.mp4",
+     "path": "sources/getlayers/media/material-hills/material-hills.mp4",
+     "bytes": 6122413,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/material-hills-preview.mp4",
+     "path": "sources/getlayers/media/material-hills/material-hills-preview.mp4",
+     "bytes": 995131,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "melting-candy-clocks",
+   "title": "Melting Candy Clocks",
+   "category": "background",
+   "bytes": 1995312,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/melting-candy-clocks-38c8ea0103.webp",
+     "path": "sources/getlayers/media/melting-candy-clocks/melting-candy-clocks-38c8ea0103.webp",
+     "bytes": 249000,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/melting-candy-clocks-38c8ea0103.mp4",
+     "path": "sources/getlayers/media/melting-candy-clocks/melting-candy-clocks-38c8ea0103.mp4",
+     "bytes": 1617408,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/melting-candy-clocks-38c8ea0103-preview.mp4",
+     "path": "sources/getlayers/media/melting-candy-clocks/melting-candy-clocks-38c8ea0103-preview.mp4",
+     "bytes": 128904,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "metal-human",
+   "title": "Metal Human",
+   "category": "background",
+   "bytes": 3301564,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/metal-human.webp",
+     "path": "sources/getlayers/media/metal-human/metal-human.webp",
+     "bytes": 117484,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/metal-human.mp4",
+     "path": "sources/getlayers/media/metal-human/metal-human.mp4",
+     "bytes": 2166337,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/metal-human-preview.mp4",
+     "path": "sources/getlayers/media/metal-human/metal-human-preview.mp4",
+     "bytes": 1017743,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "moon-walk",
+   "title": "Moon Walk",
+   "category": "background",
+   "bytes": 10299023,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/moon-walk.webp",
+     "path": "sources/getlayers/media/moon-walk/moon-walk.webp",
+     "bytes": 184136,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/moon-walk.mp4",
+     "path": "sources/getlayers/media/moon-walk/moon-walk.mp4",
+     "bytes": 9129128,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/moon-walk-preview.mp4",
+     "path": "sources/getlayers/media/moon-walk/moon-walk-preview.mp4",
+     "bytes": 985759,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "moss-sofa-meadow",
+   "title": "Moss Sofa Meadow",
+   "category": "background",
+   "bytes": 3543912,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/moss-sofa-meadow-6cf3dc42d9.webp",
+     "path": "sources/getlayers/media/moss-sofa-meadow/moss-sofa-meadow-6cf3dc42d9.webp",
+     "bytes": 197772,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/moss-sofa-meadow-6cf3dc42d9.mp4",
+     "path": "sources/getlayers/media/moss-sofa-meadow/moss-sofa-meadow-6cf3dc42d9.mp4",
+     "bytes": 3111198,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/moss-sofa-meadow-6cf3dc42d9-preview.mp4",
+     "path": "sources/getlayers/media/moss-sofa-meadow/moss-sofa-meadow-6cf3dc42d9-preview.mp4",
+     "bytes": 234942,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "pampas-lake-hills",
+   "title": "Pampas Lake Hills",
+   "category": "background",
+   "bytes": 2233749,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/pampas-lake-hills-6d80d66285.webp",
+     "path": "sources/getlayers/media/pampas-lake-hills/pampas-lake-hills-6d80d66285.webp",
+     "bytes": 193690,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/pampas-lake-hills-6d80d66285.mp4",
+     "path": "sources/getlayers/media/pampas-lake-hills/pampas-lake-hills-6d80d66285.mp4",
+     "bytes": 1919126,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/pampas-lake-hills-6d80d66285-preview.mp4",
+     "path": "sources/getlayers/media/pampas-lake-hills/pampas-lake-hills-6d80d66285-preview.mp4",
+     "bytes": 120933,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "purple-desert",
+   "title": "Purple Desert",
+   "category": "background",
+   "bytes": 4359104,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/purple-desert.webp",
+     "path": "sources/getlayers/media/purple-desert/purple-desert.webp",
+     "bytes": 36026,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/purple-desert.mp4",
+     "path": "sources/getlayers/media/purple-desert/purple-desert.mp4",
+     "bytes": 3335005,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/purple-desert-preview.mp4",
+     "path": "sources/getlayers/media/purple-desert/purple-desert-preview.mp4",
+     "bytes": 988073,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "rose-covered-figure",
+   "title": "Rose Covered Figure",
+   "category": "background",
+   "bytes": 2443348,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/rose-covered-figure-b9d59ad44f.webp",
+     "path": "sources/getlayers/media/rose-covered-figure/rose-covered-figure-b9d59ad44f.webp",
+     "bytes": 133128,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/rose-covered-figure-b9d59ad44f.mp4",
+     "path": "sources/getlayers/media/rose-covered-figure/rose-covered-figure-b9d59ad44f.mp4",
+     "bytes": 2168667,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/rose-covered-figure-b9d59ad44f-preview.mp4",
+     "path": "sources/getlayers/media/rose-covered-figure/rose-covered-figure-b9d59ad44f-preview.mp4",
+     "bytes": 141553,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "sea-storm",
+   "title": "Sea Storm",
+   "category": "background",
+   "bytes": 2246851,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/sea-storm.webp",
+     "path": "sources/getlayers/media/sea-storm/sea-storm.webp",
+     "bytes": 33806,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/sea-storm.mp4",
+     "path": "sources/getlayers/media/sea-storm/sea-storm.mp4",
+     "bytes": 1231901,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/sea-storm-preview.mp4",
+     "path": "sources/getlayers/media/sea-storm/sea-storm-preview.mp4",
+     "bytes": 981144,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "silver-line-waves",
+   "title": "Silver Line Waves",
+   "category": "background",
+   "bytes": 5171505,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/silver-line-waves-8bd84503db.webp",
+     "path": "sources/getlayers/media/silver-line-waves/silver-line-waves-8bd84503db.webp",
+     "bytes": 196000,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/silver-line-waves-8bd84503db.mp4",
+     "path": "sources/getlayers/media/silver-line-waves/silver-line-waves-8bd84503db.mp4",
+     "bytes": 4592017,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/silver-line-waves-8bd84503db-preview.mp4",
+     "path": "sources/getlayers/media/silver-line-waves/silver-line-waves-8bd84503db-preview.mp4",
+     "bytes": 383488,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "skylight-fish-swarm",
+   "title": "Skylight Fish Swarm",
+   "category": "background",
+   "bytes": 2195506,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/skylight-fish-swarm-dde3b0821a.webp",
+     "path": "sources/getlayers/media/skylight-fish-swarm/skylight-fish-swarm-dde3b0821a.webp",
+     "bytes": 154544,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/skylight-fish-swarm-dde3b0821a.mp4",
+     "path": "sources/getlayers/media/skylight-fish-swarm/skylight-fish-swarm-dde3b0821a.mp4",
+     "bytes": 1894938,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/skylight-fish-swarm-dde3b0821a-preview.mp4",
+     "path": "sources/getlayers/media/skylight-fish-swarm/skylight-fish-swarm-dde3b0821a-preview.mp4",
+     "bytes": 146024,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "soft-grey-waves",
+   "title": "Soft Grey Waves",
+   "category": "background",
+   "bytes": 853550,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/soft-grey-waves-243322fe13.webp",
+     "path": "sources/getlayers/media/soft-grey-waves/soft-grey-waves-243322fe13.webp",
+     "bytes": 30028,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/soft-grey-waves-243322fe13.mp4",
+     "path": "sources/getlayers/media/soft-grey-waves/soft-grey-waves-243322fe13.mp4",
+     "bytes": 738239,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/soft-grey-waves-243322fe13-preview.mp4",
+     "path": "sources/getlayers/media/soft-grey-waves/soft-grey-waves-243322fe13-preview.mp4",
+     "bytes": 85283,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "sunny-grass-mound",
+   "title": "Sunny Grass Mound",
+   "category": "background",
+   "bytes": 7230914,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/sunny-grass-mound-430c7233d3.webp",
+     "path": "sources/getlayers/media/sunny-grass-mound/sunny-grass-mound-430c7233d3.webp",
+     "bytes": 162828,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/sunny-grass-mound-430c7233d3.mp4",
+     "path": "sources/getlayers/media/sunny-grass-mound/sunny-grass-mound-430c7233d3.mp4",
+     "bytes": 6866397,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/sunny-grass-mound-430c7233d3-preview.mp4",
+     "path": "sources/getlayers/media/sunny-grass-mound/sunny-grass-mound-430c7233d3-preview.mp4",
+     "bytes": 201689,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "teal-neon-dashes",
+   "title": "Teal Neon Dashes",
+   "category": "background",
+   "bytes": 2841427,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/teal-neon-dashes-bfe3d45283.webp",
+     "path": "sources/getlayers/media/teal-neon-dashes/teal-neon-dashes-bfe3d45283.webp",
+     "bytes": 320488,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/teal-neon-dashes-bfe3d45283.mp4",
+     "path": "sources/getlayers/media/teal-neon-dashes/teal-neon-dashes-bfe3d45283.mp4",
+     "bytes": 2386795,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/teal-neon-dashes-bfe3d45283-preview.mp4",
+     "path": "sources/getlayers/media/teal-neon-dashes/teal-neon-dashes-bfe3d45283-preview.mp4",
+     "bytes": 134144,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "turquoise-forest-lake",
+   "title": "Turquoise Forest Lake",
+   "category": "background",
+   "bytes": 3643056,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/turquoise-forest-lake-13fecb84a0.webp",
+     "path": "sources/getlayers/media/turquoise-forest-lake/turquoise-forest-lake-13fecb84a0.webp",
+     "bytes": 449860,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/turquoise-forest-lake-13fecb84a0.mp4",
+     "path": "sources/getlayers/media/turquoise-forest-lake/turquoise-forest-lake-13fecb84a0.mp4",
+     "bytes": 3029743,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/turquoise-forest-lake-13fecb84a0-preview.mp4",
+     "path": "sources/getlayers/media/turquoise-forest-lake/turquoise-forest-lake-13fecb84a0-preview.mp4",
+     "bytes": 163453,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "white-hood-blossoms",
+   "title": "White Hood Blossoms",
+   "category": "background",
+   "bytes": 2315206,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/backgrounds/white-hood-blossoms-10df132b0c.webp",
+     "path": "sources/getlayers/media/white-hood-blossoms/white-hood-blossoms-10df132b0c.webp",
+     "bytes": 108554,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/backgrounds/white-hood-blossoms-10df132b0c.mp4",
+     "path": "sources/getlayers/media/white-hood-blossoms/white-hood-blossoms-10df132b0c.mp4",
+     "bytes": 2083764,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/backgrounds/white-hood-blossoms-10df132b0c-preview.mp4",
+     "path": "sources/getlayers/media/white-hood-blossoms/white-hood-blossoms-10df132b0c-preview.mp4",
+     "bytes": 122888,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "artist",
+   "title": "Kai Nomura",
+   "category": "template",
+   "bytes": 26570710,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/templates/artist.webp",
+     "path": "sources/getlayers/media/artist/artist.webp",
+     "bytes": 71972,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/templates/artist.mp4",
+     "path": "sources/getlayers/media/artist/artist.mp4",
+     "bytes": 12435848,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/templates/artist-preview.mp4",
+     "path": "sources/getlayers/media/artist/artist-preview.mp4",
+     "bytes": 1212280,
+     "status": "ok"
+    },
+    {
+     "field": "mockupDesktop",
+     "url": "https://storage.getlayers.ai/templates/artist-desktop.mp4",
+     "path": "sources/getlayers/media/artist/artist-desktop.mp4",
+     "bytes": 5221613,
+     "status": "ok"
+    },
+    {
+     "field": "mockupMobile",
+     "url": "https://storage.getlayers.ai/templates/artist-mobile.mp4",
+     "path": "sources/getlayers/media/artist/artist-mobile.mp4",
+     "bytes": 6493902,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/artist-pagespeed-mobile-79926f696f.html",
+     "path": "sources/getlayers/media/artist/artist-pagespeed-mobile-79926f696f.html",
+     "bytes": 468727,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/artist-pagespeed-desktop-c52b993850.html",
+     "path": "sources/getlayers/media/artist/artist-pagespeed-desktop-c52b993850.html",
+     "bytes": 666368,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "ascend",
+   "title": "Ascend",
+   "category": "template",
+   "bytes": 38507021,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/templates/ascend.webp",
+     "path": "sources/getlayers/media/ascend/ascend.webp",
+     "bytes": 100658,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/templates/ascend.mp4",
+     "path": "sources/getlayers/media/ascend/ascend.mp4",
+     "bytes": 13177997,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/templates/ascend-preview.mp4",
+     "path": "sources/getlayers/media/ascend/ascend-preview.mp4",
+     "bytes": 1252387,
+     "status": "ok"
+    },
+    {
+     "field": "mockupDesktop",
+     "url": "https://storage.getlayers.ai/templates/ascend-desktop.mp4",
+     "path": "sources/getlayers/media/ascend/ascend-desktop.mp4",
+     "bytes": 10411155,
+     "status": "ok"
+    },
+    {
+     "field": "mockupMobile",
+     "url": "https://storage.getlayers.ai/templates/ascend-mobile.mp4",
+     "path": "sources/getlayers/media/ascend/ascend-mobile.mp4",
+     "bytes": 12453641,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/ascend-pagespeed-mobile-0f9a34c232.html",
+     "path": "sources/getlayers/media/ascend/ascend-pagespeed-mobile-0f9a34c232.html",
+     "bytes": 492395,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/ascend-pagespeed-desktop-66b89a93a8.html",
+     "path": "sources/getlayers/media/ascend/ascend-pagespeed-desktop-66b89a93a8.html",
+     "bytes": 618788,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "baseline",
+   "title": "Baseline",
+   "category": "template",
+   "bytes": 22292897,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/templates/baseline.webp",
+     "path": "sources/getlayers/media/baseline/baseline.webp",
+     "bytes": 26044,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/templates/baseline.mp4",
+     "path": "sources/getlayers/media/baseline/baseline.mp4",
+     "bytes": 13209854,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/templates/baseline-preview.mp4",
+     "path": "sources/getlayers/media/baseline/baseline-preview.mp4",
+     "bytes": 1192879,
+     "status": "ok"
+    },
+    {
+     "field": "mockupDesktop",
+     "url": "https://storage.getlayers.ai/templates/baseline-desktop.mp4",
+     "path": "sources/getlayers/media/baseline/baseline-desktop.mp4",
+     "bytes": 3306877,
+     "status": "ok"
+    },
+    {
+     "field": "mockupMobile",
+     "url": "https://storage.getlayers.ai/templates/baseline-mobile.mp4",
+     "path": "sources/getlayers/media/baseline/baseline-mobile.mp4",
+     "bytes": 3381581,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/baseline-pagespeed-mobile-197cd6e55c.html",
+     "path": "sources/getlayers/media/baseline/baseline-pagespeed-mobile-197cd6e55c.html",
+     "bytes": 546408,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/baseline-pagespeed-desktop-bb3b60eb57.html",
+     "path": "sources/getlayers/media/baseline/baseline-pagespeed-desktop-bb3b60eb57.html",
+     "bytes": 629254,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "flowstate",
+   "title": "Flowstate",
+   "category": "template",
+   "bytes": 5201267,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/templates/flowstate-4c494408e1.webp",
+     "path": "sources/getlayers/media/flowstate/flowstate-4c494408e1.webp",
+     "bytes": 69630,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/templates/flowstate-4c494408e1.mp4",
+     "path": "sources/getlayers/media/flowstate/flowstate-4c494408e1.mp4",
+     "bytes": 1585678,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/templates/flowstate-4c494408e1-preview.mp4",
+     "path": "sources/getlayers/media/flowstate/flowstate-4c494408e1-preview.mp4",
+     "bytes": 238542,
+     "status": "ok"
+    },
+    {
+     "field": "mockupDesktop",
+     "url": "https://storage.getlayers.ai/templates/flowstate-4c494408e1-desktop.mp4",
+     "path": "sources/getlayers/media/flowstate/flowstate-4c494408e1-desktop.mp4",
+     "bytes": 1300240,
+     "status": "ok"
+    },
+    {
+     "field": "mockupMobile",
+     "url": "https://storage.getlayers.ai/templates/flowstate-4c494408e1-mobile.mp4",
+     "path": "sources/getlayers/media/flowstate/flowstate-4c494408e1-mobile.mp4",
+     "bytes": 992056,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/flowstate-pagespeed-mobile-3bec222d6c.html",
+     "path": "sources/getlayers/media/flowstate/flowstate-pagespeed-mobile-3bec222d6c.html",
+     "bytes": 501410,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/flowstate-pagespeed-desktop-6ac078cd36.html",
+     "path": "sources/getlayers/media/flowstate/flowstate-pagespeed-desktop-6ac078cd36.html",
+     "bytes": 513711,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "gravity-webgl",
+   "title": "Gravity",
+   "category": "template",
+   "bytes": 30663363,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/templates/gravity-webgl.webp",
+     "path": "sources/getlayers/media/gravity-webgl/gravity-webgl.webp",
+     "bytes": 104448,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/templates/gravity-webgl.mp4",
+     "path": "sources/getlayers/media/gravity-webgl/gravity-webgl.mp4",
+     "bytes": 13244399,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/templates/gravity-webgl-preview.mp4",
+     "path": "sources/getlayers/media/gravity-webgl/gravity-webgl-preview.mp4",
+     "bytes": 1219061,
+     "status": "ok"
+    },
+    {
+     "field": "mockupDesktop",
+     "url": "https://storage.getlayers.ai/templates/gravity-webgl-desktop.mp4",
+     "path": "sources/getlayers/media/gravity-webgl/gravity-webgl-desktop.mp4",
+     "bytes": 7143278,
+     "status": "ok"
+    },
+    {
+     "field": "mockupMobile",
+     "url": "https://storage.getlayers.ai/templates/gravity-webgl-mobile.mp4",
+     "path": "sources/getlayers/media/gravity-webgl/gravity-webgl-mobile.mp4",
+     "bytes": 7802136,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/gravity-webgl-pagespeed-mobile-9f07e99b29.html",
+     "path": "sources/getlayers/media/gravity-webgl/gravity-webgl-pagespeed-mobile-9f07e99b29.html",
+     "bytes": 515436,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/gravity-webgl-pagespeed-desktop-bc55a48a98.html",
+     "path": "sources/getlayers/media/gravity-webgl/gravity-webgl-pagespeed-desktop-bc55a48a98.html",
+     "bytes": 634605,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "kimi",
+   "title": "Kimi",
+   "category": "template",
+   "bytes": 21731017,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/templates/kimi-04a9449ab2.webp",
+     "path": "sources/getlayers/media/kimi/kimi-04a9449ab2.webp",
+     "bytes": 92608,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/templates/kimi-04a9449ab2.mp4",
+     "path": "sources/getlayers/media/kimi/kimi-04a9449ab2.mp4",
+     "bytes": 7907266,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/templates/kimi-04a9449ab2-preview.mp4",
+     "path": "sources/getlayers/media/kimi/kimi-04a9449ab2-preview.mp4",
+     "bytes": 1546925,
+     "status": "ok"
+    },
+    {
+     "field": "mockupDesktop",
+     "url": "https://storage.getlayers.ai/templates/kimi-04a9449ab2-desktop.mp4",
+     "path": "sources/getlayers/media/kimi/kimi-04a9449ab2-desktop.mp4",
+     "bytes": 6043106,
+     "status": "ok"
+    },
+    {
+     "field": "mockupMobile",
+     "url": "https://storage.getlayers.ai/templates/kimi-04a9449ab2-mobile.mp4",
+     "path": "sources/getlayers/media/kimi/kimi-04a9449ab2-mobile.mp4",
+     "bytes": 4909596,
+     "status": "ok"
+    },
+    {
+     "field": "figmaPreview",
+     "url": "https://storage.getlayers.ai/templates/kimi-04a9449ab2-figma.webp",
+     "path": "sources/getlayers/media/kimi/kimi-04a9449ab2-figma.webp",
+     "bytes": 126306,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/kimi-pagespeed-mobile-c7f73e6ff4.html",
+     "path": "sources/getlayers/media/kimi/kimi-pagespeed-mobile-c7f73e6ff4.html",
+     "bytes": 581621,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/kimi-pagespeed-desktop-53dcbe35ff.html",
+     "path": "sources/getlayers/media/kimi/kimi-pagespeed-desktop-53dcbe35ff.html",
+     "bytes": 523589,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "laocoon",
+   "title": "Laocoon",
+   "category": "template",
+   "bytes": 33809068,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/templates/laocoon.webp",
+     "path": "sources/getlayers/media/laocoon/laocoon.webp",
+     "bytes": 123736,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/templates/laocoon.mp4",
+     "path": "sources/getlayers/media/laocoon/laocoon.mp4",
+     "bytes": 12973344,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/templates/laocoon-preview.mp4",
+     "path": "sources/getlayers/media/laocoon/laocoon-preview.mp4",
+     "bytes": 1194007,
+     "status": "ok"
+    },
+    {
+     "field": "mockupDesktop",
+     "url": "https://storage.getlayers.ai/templates/laocoon-desktop.mp4",
+     "path": "sources/getlayers/media/laocoon/laocoon-desktop.mp4",
+     "bytes": 9953739,
+     "status": "ok"
+    },
+    {
+     "field": "mockupMobile",
+     "url": "https://storage.getlayers.ai/templates/laocoon-mobile.mp4",
+     "path": "sources/getlayers/media/laocoon/laocoon-mobile.mp4",
+     "bytes": 8296350,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/laocoon-pagespeed-mobile-1e1b9b48be.html",
+     "path": "sources/getlayers/media/laocoon/laocoon-pagespeed-mobile-1e1b9b48be.html",
+     "bytes": 563128,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/laocoon-pagespeed-desktop-e832e10aa4.html",
+     "path": "sources/getlayers/media/laocoon/laocoon-pagespeed-desktop-e832e10aa4.html",
+     "bytes": 704764,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "loopstack",
+   "title": "Loopstack",
+   "category": "template",
+   "bytes": 16914661,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/templates/loopstack.webp",
+     "path": "sources/getlayers/media/loopstack/loopstack.webp",
+     "bytes": 158348,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/templates/loopstack.mp4",
+     "path": "sources/getlayers/media/loopstack/loopstack.mp4",
+     "bytes": 13152290,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/templates/loopstack-preview.mp4",
+     "path": "sources/getlayers/media/loopstack/loopstack-preview.mp4",
+     "bytes": 1196084,
+     "status": "ok"
+    },
+    {
+     "field": "mockupDesktop",
+     "url": "https://storage.getlayers.ai/templates/loopstack-desktop.mp4",
+     "path": "sources/getlayers/media/loopstack/loopstack-desktop.mp4",
+     "bytes": 799539,
+     "status": "ok"
+    },
+    {
+     "field": "mockupMobile",
+     "url": "https://storage.getlayers.ai/templates/loopstack-mobile.mp4",
+     "path": "sources/getlayers/media/loopstack/loopstack-mobile.mp4",
+     "bytes": 598140,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/loopstack-pagespeed-mobile-ce1a241e05.html",
+     "path": "sources/getlayers/media/loopstack/loopstack-pagespeed-mobile-ce1a241e05.html",
+     "bytes": 482474,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/loopstack-pagespeed-desktop-a6b0ed921e.html",
+     "path": "sources/getlayers/media/loopstack/loopstack-pagespeed-desktop-a6b0ed921e.html",
+     "bytes": 527786,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "lumora",
+   "title": "Lumora",
+   "category": "template",
+   "bytes": 21030161,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/templates/lumora.webp",
+     "path": "sources/getlayers/media/lumora/lumora.webp",
+     "bytes": 93066,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/templates/lumora.mp4",
+     "path": "sources/getlayers/media/lumora/lumora.mp4",
+     "bytes": 12774639,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/templates/lumora-preview.mp4",
+     "path": "sources/getlayers/media/lumora/lumora-preview.mp4",
+     "bytes": 1187969,
+     "status": "ok"
+    },
+    {
+     "field": "mockupDesktop",
+     "url": "https://storage.getlayers.ai/templates/lumora-desktop.mp4",
+     "path": "sources/getlayers/media/lumora/lumora-desktop.mp4",
+     "bytes": 2670584,
+     "status": "ok"
+    },
+    {
+     "field": "mockupMobile",
+     "url": "https://storage.getlayers.ai/templates/lumora-mobile.mp4",
+     "path": "sources/getlayers/media/lumora/lumora-mobile.mp4",
+     "bytes": 3089587,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/lumora-pagespeed-mobile-a997756174.html",
+     "path": "sources/getlayers/media/lumora/lumora-pagespeed-mobile-a997756174.html",
+     "bytes": 618626,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/lumora-pagespeed-desktop-14e5f406b3.html",
+     "path": "sources/getlayers/media/lumora/lumora-pagespeed-desktop-14e5f406b3.html",
+     "bytes": 595690,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "marcus-vane",
+   "title": "Marcus Vane",
+   "category": "template",
+   "bytes": 22168030,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/templates/marcus-vane.webp",
+     "path": "sources/getlayers/media/marcus-vane/marcus-vane.webp",
+     "bytes": 59342,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/templates/marcus-vane.mp4",
+     "path": "sources/getlayers/media/marcus-vane/marcus-vane.mp4",
+     "bytes": 10447712,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/templates/marcus-vane-preview.mp4",
+     "path": "sources/getlayers/media/marcus-vane/marcus-vane-preview.mp4",
+     "bytes": 1190187,
+     "status": "ok"
+    },
+    {
+     "field": "mockupDesktop",
+     "url": "https://storage.getlayers.ai/templates/marcus-vane-desktop.mp4",
+     "path": "sources/getlayers/media/marcus-vane/marcus-vane-desktop.mp4",
+     "bytes": 4695251,
+     "status": "ok"
+    },
+    {
+     "field": "mockupMobile",
+     "url": "https://storage.getlayers.ai/templates/marcus-vane-mobile.mp4",
+     "path": "sources/getlayers/media/marcus-vane/marcus-vane-mobile.mp4",
+     "bytes": 4577931,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/marcus-vane-pagespeed-mobile-5c295ba04f.html",
+     "path": "sources/getlayers/media/marcus-vane/marcus-vane-pagespeed-mobile-5c295ba04f.html",
+     "bytes": 557513,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/marcus-vane-pagespeed-desktop-88e5aa0b0d.html",
+     "path": "sources/getlayers/media/marcus-vane/marcus-vane-pagespeed-desktop-88e5aa0b0d.html",
+     "bytes": 640094,
+     "status": "ok"
+    }
+   ]
+  },
+  {
+   "id": "soda",
+   "title": "Soda",
+   "category": "template",
+   "bytes": 19328515,
+   "files": [
+    {
+     "field": "image",
+     "url": "https://storage.getlayers.ai/templates/soda.webp",
+     "path": "sources/getlayers/media/soda/soda.webp",
+     "bytes": 130720,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideo",
+     "url": "https://storage.getlayers.ai/templates/soda.mp4",
+     "path": "sources/getlayers/media/soda/soda.mp4",
+     "bytes": 12972917,
+     "status": "ok"
+    },
+    {
+     "field": "posterVideoPreview",
+     "url": "https://storage.getlayers.ai/templates/soda-preview.mp4",
+     "path": "sources/getlayers/media/soda/soda-preview.mp4",
+     "bytes": 1193247,
+     "status": "ok"
+    },
+    {
+     "field": "mockupDesktop",
+     "url": "https://storage.getlayers.ai/templates/soda-desktop.mp4",
+     "path": "sources/getlayers/media/soda/soda-desktop.mp4",
+     "bytes": 1566752,
+     "status": "ok"
+    },
+    {
+     "field": "mockupMobile",
+     "url": "https://storage.getlayers.ai/templates/soda-mobile.mp4",
+     "path": "sources/getlayers/media/soda/soda-mobile.mp4",
+     "bytes": 2216635,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/soda-pagespeed-mobile-45cb2e3a4f.html",
+     "path": "sources/getlayers/media/soda/soda-pagespeed-mobile-45cb2e3a4f.html",
+     "bytes": 551667,
+     "status": "ok"
+    },
+    {
+     "field": "reportUrl",
+     "url": "https://storage.getlayers.ai/reports/soda-pagespeed-desktop-a5fe78a4a8.html",
+     "path": "sources/getlayers/media/soda/soda-pagespeed-desktop-a5fe78a4a8.html",
+     "bytes": 696577,
+     "status": "ok"
+    }
+   ]
+  }
+ ]
+}

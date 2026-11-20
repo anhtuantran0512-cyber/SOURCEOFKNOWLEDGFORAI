@@ -126,7 +126,7 @@ def main() -> int:
     if premium_leaks:
         errors.append(f"premium GetLayers prompts present in archive: {premium_leaks[:5]}")
     for name in ("getlayers",):
-        for required in ("README.md", "INDEX.md", "MEDIA.md", "media-sizes.json"):
+        for required in ("README.md", "INDEX.md", "MEDIA.md", "media-sizes.json", "media-free.json"):
             if not (SOURCES / name / required).exists():
                 errors.append(f"sources/{name}/{required} missing")
         for category in ("template", "3d_scene", "section", "background", "gradient"):
@@ -137,6 +137,27 @@ def main() -> int:
     report["getlayers"]["media_files"] = media_rows
     if media_rows != media_sizes:
         errors.append(f"MEDIA.md lists {media_rows} files, media-sizes.json has {media_sizes}")
+
+    # The free tier is small enough to keep, so its bytes are committed and must be
+    # complete: every free item present, every listed file on disk, no premium leak.
+    free_media = json.loads((SOURCES / "getlayers" / "media-free.json").read_text(encoding="utf-8"))
+    tiers = {row["id"]: row.get("tier") for row in gl}
+    free_ids = {ident for ident, tier in tiers.items() if tier == "Free"}
+    entries = free_media["entries"]
+    missing_media = [
+        file["path"] for entry in entries for file in entry["files"] if not (ROOT / file["path"]).exists()
+    ]
+    leaked_media = [entry["id"] for entry in entries if entry["id"] not in free_ids]
+    uncovered = sorted(free_ids - {entry["id"] for entry in entries})
+    report["getlayers"]["free_media_files"] = free_media["files"]
+    report["getlayers"]["free_media_missing"] = len(missing_media)
+    report["getlayers"]["free_media_premium_leaks"] = len(leaked_media)
+    if missing_media:
+        errors.append(f"free GetLayers media missing on disk: {missing_media[:3]}")
+    if leaked_media:
+        errors.append(f"premium GetLayers media committed: {leaked_media[:3]}")
+    if uncovered:
+        errors.append(f"free GetLayers items without media: {uncovered[:3]}")
 
     report["errors"] = errors
     (ROOT / "verify-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

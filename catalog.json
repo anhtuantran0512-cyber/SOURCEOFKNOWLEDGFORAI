@@ -40,7 +40,10 @@
       "free_prompts_captured": 1,
       "locked_prompts": 891,
       "media_files": 5854,
-      "media_bytes": 10039242693
+      "media_bytes": 10039242693,
+      "free_media_path": "sources/getlayers/media/",
+      "free_media_files": 232,
+      "free_media_bytes": 595315666
     },
     "lucianlabs": {
       "manifest": "sources/lucianlabs/manifest.json",
