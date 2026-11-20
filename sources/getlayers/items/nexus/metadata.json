@@ -1,0 +1,493 @@
+{
+ "fetchedAt": "2026-11-20T15:23:41Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "nexus",
+  "title": "Nexus",
+  "category": "template",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A cheerful robot astronaut hovers over a dusk field of glowing pylons that swell and ripple under your cursor.",
+  "image": "https://storage.getlayers.ai/templates/nexus-4d86deb149.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/nexus-4d86deb149.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/nexus-4d86deb149-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/nexus-4d86deb149-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/nexus-4d86deb149-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/nexus-4d86deb149-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-24T02:46:27.731Z",
+     "runs": 5,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 10,
+     "p99": 10.3,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 977,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-24T02:46:27.731Z",
+     "runs": 5,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 10.2,
+     "p99": 10.3,
+     "max": 10.5,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 968,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/nexus-pagespeed-mobile-1fafe393d7.html",
+     "testedAt": "2026-10-24T03:05:33.824Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 1651,
+      "TBT": 2,
+      "CLS": 0,
+      "SI": 2753
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/nexus-pagespeed-desktop-55759bb7ca.html",
+     "testedAt": "2026-10-24T03:06:07.244Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 441,
+      "TBT": 27,
+      "CLS": 0,
+      "SI": 462
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": true
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 205,
+  "createdAt": "2026-10-24",
+  "typeTags": [
+   "hero",
+   "ai-tech"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical"
+  ],
+  "keywords": [
+   "3d",
+   "3d character",
+   "against",
+   "ai",
+   "android",
+   "animated",
+   "animation",
+   "around",
+   "artificial intelligence",
+   "astronaut",
+   "audiowide",
+   "big typography",
+   "black",
+   "blend mode",
+   "blending",
+   "blinking",
+   "bloom",
+   "bokeh",
+   "bold type",
+   "bot",
+   "bottom",
+   "character",
+   "cheerful",
+   "cinematic",
+   "click",
+   "cloth",
+   "columns",
+   "contact",
+   "counter",
+   "cursor",
+   "cursor interaction",
+   "curtain",
+   "curtain reveal",
+   "cute",
+   "cute robot",
+   "cyber",
+   "cyberpunk",
+   "dark",
+   "dash",
+   "depth of field",
+   "devices",
+   "displacement",
+   "display type",
+   "draco",
+   "drawing",
+   "drawn",
+   "droid",
+   "dropping",
+   "dusk",
+   "emoji",
+   "exclusion",
+   "eyes",
+   "face",
+   "field",
+   "film grain",
+   "floating",
+   "fly in",
+   "flying",
+   "following",
+   "friendly robot",
+   "future",
+   "futuristic",
+   "gadget",
+   "giant logotype",
+   "glb",
+   "glow",
+   "glowing",
+   "glsl",
+   "gltf",
+   "golden hour",
+   "green",
+   "grid",
+   "hairline rules",
+   "hairlines",
+   "hand",
+   "hardware",
+   "haze",
+   "head",
+   "headline",
+   "helmet",
+   "hero",
+   "hex grid",
+   "horizon",
+   "hover",
+   "hovering",
+   "hovers",
+   "huge",
+   "innovation",
+   "interactive",
+   "lab",
+   "labs",
+   "landing page",
+   "landscape",
+   "letter animation",
+   "levitate",
+   "like",
+   "loader",
+   "markers",
+   "mascot",
+   "metal",
+   "mouse follow",
+   "neon",
+   "nextjs",
+   "nexus",
+   "noise",
+   "noise waves",
+   "off",
+   "one page",
+   "one screen",
+   "orange",
+   "parallax",
+   "pillars",
+   "postprocessing",
+   "preloader",
+   "product studio",
+   "purple",
+   "pylons",
+   "react-spring",
+   "retro futurism",
+   "rigged gltf",
+   "ripple",
+   "robot",
+   "robot mascot",
+   "robotic",
+   "robots",
+   "rolling",
+   "sage",
+   "sci-fi",
+   "science fiction",
+   "screen",
+   "sending",
+   "shader",
+   "sky",
+   "slow",
+   "smile",
+   "smiley",
+   "space",
+   "space age",
+   "space suit",
+   "spaceman",
+   "split",
+   "spring-text-engine",
+   "square",
+   "startup",
+   "sunset",
+   "swell",
+   "swelling",
+   "teal",
+   "tech",
+   "technology",
+   "terrain",
+   "thin",
+   "thousands",
+   "three.js",
+   "threejs",
+   "tips",
+   "twilight",
+   "urbanist",
+   "visor",
+   "visor face",
+   "wave",
+   "waves",
+   "waving",
+   "wearable",
+   "wearables",
+   "webgl",
+   "white",
+   "xus"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/nexus",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Nexus",
+    "description": "Nexus — a premium website template from the GetLayers library. A cheerful robot astronaut hovers over a dusk field of glowing pylons that swell and ripple under your cursor.",
+    "url": "https://www.getlayers.ai/layer/nexus",
+    "image": "https://storage.getlayers.ai/templates/nexus-4d86deb149.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-10-24",
+    "keywords": "hero, threejs, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Nexus",
+      "item": "https://www.getlayers.ai/layer/nexus"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "nexus.webp": "76124 bytes",
+  "nexus-figma.webp": "127968 bytes"
+ }
+}

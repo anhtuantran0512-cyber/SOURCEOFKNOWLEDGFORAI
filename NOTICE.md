@@ -6,6 +6,7 @@ original attribution next to every file. Nothing here is sold, relicensed or pre
 | Source | Upstream repository | License on record |
 |---|---|---|
 | CodeFronts | <https://github.com/codefronts/toolkit> (tools only, not the catalogue) | MIT |
+| GetLayers | <https://github.com/textura-agency/ai-design-vault> (agent starter kit, not the prompts) | previews and prompts property of GetLayers / Textura Agency |
 | lucianLabs | <https://github.com/Seokwoooo/lucian-uxui-prompt> | MIT (c) 2026 Seokwoooo |
 | lucianLabs skill | <https://github.com/Seokwoooo/lucian-uxui> | MIT |
 | MotionSites AI | none | free prompts, property of MotionSites AI |
@@ -63,18 +64,41 @@ original attribution next to every file. Nothing here is sold, relicensed or pre
   link back to every item.
 - If you are the rights holder and want an entry removed, open an issue.
 
-## 6. Generated / original material
+## 6. GetLayers — `sources/getlayers/`
+
+- Site: <https://www.getlayers.ai/templates>
+- Collected: **every template in the public catalogue (62)** with the full public record the site ships
+  to the browser — tier, stack, tags, tone, mood, keywords, type tags, publish date, likes, frame
+  timings, Lighthouse scores and audits, and all public asset URLs — plus the 62 poster stills and 40
+  Figma previews.
+- **Free prompts:** copied through the same public server action the "Copy prompt" button calls. That
+  endpoint grants **one prompt per anonymous visitor per day**; after that it answers `rate_limited`
+  ("sign in for unlimited free prompts"). One of the eleven free prompts was captured on the run that
+  built this folder; the rest are listed with their state and can be captured by re-running the
+  collector on a later day or with the reader's own signed-in cookie. No account was created and no
+  limit was worked around.
+- **Premium prompts (51):** the same endpoint answers
+  `{"_apiError":{"code":"forbidden","message":"Upgrade to access this prompt."}}`. They are **not**
+  collected, bypassed, guessed or reconstructed. Each brief links to the live page instead.
+- **Not bundled:** the four mp4 mockups per template and the two Lighthouse HTML reports (~1.1 GB).
+  Their exact URLs are recorded in each `ITEM.md`; `scripts/fetch_getlayers.py --media all` downloads
+  them locally.
+- Rights: previews and prompts remain the property of GetLayers / Textura Agency. They are included for
+  personal study and reference with a link back to every item; this repository does not relicense them.
+- If you are the rights holder and want an entry removed, open an issue.
+
+## 7. Generated / original material
 
 Files under `docs/`, the repository structure, the index files and `scripts/` are original work for this
 archive and may be reused under MIT. They do not relicense any third-party content listed above.
 
-## 7. External assets referenced inside prompts
+## 8. External assets referenced inside prompts
 
 Some prompts reference third-party images, fonts, videos or CDN URLs (for example `images.higgs.ai`,
 `cloudfront.net`, Google Fonts). Those URLs belong to their owners, may expire, and are **not** bundled
 here. Replace them with your own assets before shipping anything.
 
-## 8. No affiliation
+## 9. No affiliation
 
-This repository is not affiliated with CodeFronts, lucianLabs, MotionSites AI, Pin UI / Shadcn Labs or
-ThreeUI. Names and links are used for attribution only.
+This repository is not affiliated with CodeFronts, GetLayers / Textura Agency, lucianLabs, MotionSites
+AI, Pin UI / Shadcn Labs or ThreeUI. Names and links are used for attribution only.

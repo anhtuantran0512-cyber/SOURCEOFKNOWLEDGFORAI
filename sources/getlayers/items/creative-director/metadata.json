@@ -1,0 +1,377 @@
+{
+ "fetchedAt": "2026-11-20T15:25:03Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "creative-director",
+  "title": "Creative Director",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A portfolio that smolders — molten reds drift like a lava lamp beneath film grain while case studies glide past in a slow heat haze.",
+  "image": "https://storage.getlayers.ai/templates/creative-director.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/creative-director.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/creative-director-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/creative-director-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/creative-director-mobile.mp4",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T17:46:06.887Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 10,
+     "p99": 10.3,
+     "max": 41.9,
+     "droppedPct": 0.27,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1502,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T17:46:06.887Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.8,
+     "p99": 10.2,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 924,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/creative-director-pagespeed-mobile-ccee8ab99e.html",
+     "testedAt": "2026-10-08T16:18:48.023Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 2498,
+      "TBT": 43,
+      "CLS": 0,
+      "SI": 2715
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/creative-director-pagespeed-desktop-efd19eb35e.html",
+     "testedAt": "2026-10-08T16:19:45.831Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 245,
+      "LCP": 538,
+      "TBT": 26,
+      "CLS": 0,
+      "SI": 455
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "likes": 161,
+  "createdAt": "2026-06-25",
+  "typeTags": [
+   "full-page",
+   "portfolio",
+   "agency-studio"
+  ],
+  "tone": "dark",
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "keywords": [
+   "portfolio",
+   "art-director",
+   "creative",
+   "webgl",
+   "lava",
+   "shader",
+   "cinematic",
+   "grain",
+   "scroll",
+   "next",
+   "director",
+   "pure",
+   "black",
+   "art",
+   "full",
+   "screen",
+   "hero",
+   "video",
+   "lit",
+   "mouse",
+   "following",
+   "molten",
+   "orange",
+   "glow",
+   "dot",
+   "matrix",
+   "scramble",
+   "wordmark",
+   "sitting",
+   "one",
+   "continuous",
+   "raymarched",
+   "backdrop",
+   "that",
+   "blurs",
+   "blooms",
+   "behind",
+   "glass",
+   "case",
+   "study",
+   "cards",
+   "services",
+   "grid",
+   "horizontal",
+   "project",
+   "carousel",
+   "get",
+   "touch",
+   "footer",
+   "all",
+   "single",
+   "lenis",
+   "clock",
+   "spring",
+   "reveals",
+   "film",
+   "page",
+   "agency",
+   "studio"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp",
+  "hasFigma": false
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/creative-director",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Creative Director",
+    "description": "Creative Director — a premium website template from the GetLayers library. A portfolio that smolders — molten reds drift like a lava lamp beneath film grain while case studies glide past in a slow heat haze.",
+    "url": "https://www.getlayers.ai/layer/creative-director",
+    "image": "https://storage.getlayers.ai/templates/creative-director.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-06-25",
+    "keywords": "landing page, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Creative Director",
+      "item": "https://www.getlayers.ai/layer/creative-director"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "creative-director.webp": "97752 bytes"
+ }
+}

@@ -1,0 +1,539 @@
+{
+ "fetchedAt": "2026-11-20T15:25:50Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "fromzero",
+  "title": "Fromzero",
+  "category": "template",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A midnight valley where a floating screen turns to meet your cursor — an eye framed by falling code, its light spilling onto a black lake that ripples wherever you point.",
+  "image": "https://storage.getlayers.ai/templates/fromzero-b5f0a96b6f.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/fromzero-b5f0a96b6f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/fromzero-b5f0a96b6f-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/fromzero-b5f0a96b6f-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/fromzero-b5f0a96b6f-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/fromzero-b5f0a96b6f-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T18:22:52.621Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 9.2,
+     "p99": 9.3,
+     "max": 16.2,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1004,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T18:22:52.621Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.3,
+     "p99": 16.7,
+     "max": 17.5,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 940,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/fromzero-pagespeed-mobile-e3f637e760.html",
+     "testedAt": "2026-10-08T16:23:37.807Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 1951,
+      "TBT": 39,
+      "CLS": 0,
+      "SI": 901
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/fromzero-pagespeed-desktop-fbf379f5a7.html",
+     "testedAt": "2026-10-08T16:23:49.605Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 401,
+      "TBT": 0,
+      "CLS": 0,
+      "SI": 355
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 121,
+  "createdAt": "2026-07-28",
+  "typeTags": [
+   "hero",
+   "agency-studio",
+   "ai-tech"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "keywords": [
+   "100",
+   "3d",
+   "accent",
+   "across",
+   "against",
+   "agency",
+   "air",
+   "amber",
+   "analytic",
+   "and",
+   "around",
+   "arrow",
+   "art-direction",
+   "atmospheric",
+   "back",
+   "bar",
+   "been",
+   "billboard",
+   "black",
+   "blinking",
+   "bloom",
+   "box",
+   "brand",
+   "brands",
+   "breaks",
+   "bright",
+   "build",
+   "build-log",
+   "camera",
+   "canvas",
+   "caret",
+   "carrying",
+   "centre",
+   "character",
+   "cinematic",
+   "code",
+   "coding",
+   "compiling",
+   "counter",
+   "counts",
+   "creative",
+   "cta",
+   "cursor",
+   "curtain",
+   "dark",
+   "dead",
+   "decode",
+   "decodes",
+   "depth",
+   "dividers",
+   "dolly",
+   "down",
+   "draco",
+   "drifts",
+   "editor",
+   "element",
+   "everywhere",
+   "exactly",
+   "expanding",
+   "eye",
+   "face",
+   "falling",
+   "fictional",
+   "file",
+   "film",
+   "film-grain",
+   "finish",
+   "floating",
+   "floats",
+   "floor",
+   "fog",
+   "follow",
+   "framed",
+   "from",
+   "fromzer",
+   "fromzero",
+   "frosted",
+   "fullscreen",
+   "gaze",
+   "gets",
+   "glass",
+   "glb",
+   "glitch",
+   "glow",
+   "gold",
+   "grain",
+   "hairline",
+   "has",
+   "haze",
+   "header",
+   "headline",
+   "hero",
+   "human",
+   "identity",
+   "image",
+   "immersive",
+   "itself",
+   "lake",
+   "leaves",
+   "left",
+   "letter",
+   "light",
+   "like",
+   "line",
+   "live",
+   "loader",
+   "logs",
+   "look",
+   "look-back",
+   "make",
+   "maps",
+   "matrix",
+   "meet",
+   "middle",
+   "midnight",
+   "mirror",
+   "monolith",
+   "moody",
+   "mountain",
+   "near",
+   "next",
+   "nextjs",
+   "night",
+   "normal",
+   "one",
+   "one-screen",
+   "onto",
+   "out",
+   "overline",
+   "page",
+   "panel",
+   "parallax",
+   "planes",
+   "point",
+   "pointer",
+   "portfolio",
+   "poster",
+   "preloader",
+   "progress",
+   "pure",
+   "rain",
+   "raining",
+   "real",
+   "rectangles",
+   "reflection",
+   "reflective",
+   "relief",
+   "remembers",
+   "reveal",
+   "right",
+   "ringed",
+   "rings",
+   "ripple",
+   "ripples",
+   "rippling",
+   "rock",
+   "running",
+   "running-code",
+   "scanlines",
+   "scene",
+   "scramble",
+   "screen",
+   "scroll",
+   "scrolling",
+   "showing",
+   "single-viewport",
+   "site",
+   "six",
+   "slate",
+   "slides",
+   "slow",
+   "snippets",
+   "source",
+   "spilling",
+   "spring",
+   "springs",
+   "stamps",
+   "stare",
+   "straight",
+   "streaming",
+   "studio",
+   "tailwind",
+   "tech",
+   "terminal",
+   "terrain",
+   "that",
+   "the",
+   "themselves",
+   "then",
+   "threejs",
+   "through",
+   "tilt",
+   "tilting",
+   "travel",
+   "turns",
+   "typing",
+   "under",
+   "valley",
+   "video",
+   "video-panel",
+   "viewport",
+   "wake",
+   "warm",
+   "watch",
+   "watches",
+   "watching",
+   "water",
+   "way",
+   "web",
+   "webgl",
+   "where",
+   "wherever",
+   "white",
+   "wordmark",
+   "yellow",
+   "you",
+   "your"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/fromzero",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Fromzero",
+    "description": "Fromzero — a premium website template from the GetLayers library. A midnight valley where a floating screen turns to meet your cursor — an eye framed by falling code, its light spilling onto a black lake that ripples wherever you point.",
+    "url": "https://www.getlayers.ai/layer/fromzero",
+    "image": "https://storage.getlayers.ai/templates/fromzero-b5f0a96b6f.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-07-28",
+    "keywords": "hero, threejs, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Fromzero",
+      "item": "https://www.getlayers.ai/layer/fromzero"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "fromzero.webp": "96988 bytes",
+  "fromzero-figma.webp": "77018 bytes"
+ }
+}

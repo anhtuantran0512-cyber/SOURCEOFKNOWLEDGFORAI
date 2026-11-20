@@ -1,0 +1,571 @@
+{
+ "fetchedAt": "2026-11-20T15:25:13Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "lumea",
+  "title": "Lumea",
+  "category": "template",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A stone monk meditates on a floating rock in a near-black void — ringed by glowing amber orbit lines and a slow spiral of tumbling debris that parts around your cursor, under one soft shaft of light and a camera that never stops circling.",
+  "image": "https://storage.getlayers.ai/templates/lumea-e7c8ac2bce.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/lumea-e7c8ac2bce.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/lumea-e7c8ac2bce-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/lumea-e7c8ac2bce-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/lumea-e7c8ac2bce-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/lumea-e7c8ac2bce-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T19:10:56.222Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 9.9,
+     "p99": 10.2,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 966,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T19:10:56.222Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.9,
+     "p99": 10.3,
+     "max": 10.5,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 971,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/lumea-pagespeed-mobile-cc99ef00ef.html",
+     "testedAt": "2026-10-08T16:30:38.521Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 929,
+      "LCP": 2251,
+      "TBT": 18,
+      "CLS": 0,
+      "SI": 1273
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/lumea-pagespeed-desktop-f25d732d48.html",
+     "testedAt": "2026-10-08T16:31:10.483Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 260,
+      "LCP": 441,
+      "TBT": 16,
+      "CLS": 0,
+      "SI": 435
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 134,
+  "createdAt": "2026-07-30",
+  "typeTags": [
+   "hero",
+   "agency-studio"
+  ],
+  "tone": "dark",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "keywords": [
+   "100",
+   "300",
+   "3d",
+   "aberration",
+   "above",
+   "agency",
+   "always",
+   "amber",
+   "and",
+   "around",
+   "aside",
+   "asteroids",
+   "atmospheric",
+   "away",
+   "back",
+   "beam",
+   "big",
+   "bigger",
+   "black",
+   "bleed",
+   "blend",
+   "bloom",
+   "blooms",
+   "blur",
+   "boot",
+   "bottom",
+   "boulders",
+   "brand",
+   "buddha",
+   "camera",
+   "canvas",
+   "carries",
+   "chromatic",
+   "cinematic",
+   "circles",
+   "circling",
+   "climbs",
+   "clockwise",
+   "compiled",
+   "counter",
+   "creative",
+   "cursor",
+   "dark",
+   "debris",
+   "design",
+   "difference",
+   "dispersion",
+   "display",
+   "down",
+   "draco",
+   "dramatic",
+   "draws",
+   "drift",
+   "dust",
+   "dutch",
+   "endlessly",
+   "every",
+   "fades",
+   "falling",
+   "figure",
+   "film",
+   "floating",
+   "fog",
+   "forever",
+   "frame",
+   "fringe",
+   "from",
+   "frosted",
+   "full",
+   "fullscreen",
+   "genuinely",
+   "glass",
+   "glassmorphism",
+   "glowing",
+   "gltf",
+   "god-rays",
+   "gold",
+   "grain",
+   "gravity",
+   "halo",
+   "hand",
+   "haze",
+   "headline",
+   "heavier",
+   "helix",
+   "hero",
+   "high",
+   "him",
+   "holding",
+   "idea",
+   "identity",
+   "immersive",
+   "inks",
+   "inside",
+   "interactive",
+   "intro",
+   "island",
+   "itself",
+   "letter",
+   "levitating",
+   "levitation",
+   "light",
+   "line",
+   "lines",
+   "loader",
+   "low",
+   "lumea",
+   "marble",
+   "masked",
+   "meditates",
+   "meditating",
+   "meditation",
+   "mindfulness",
+   "mist",
+   "model",
+   "monastery",
+   "monk",
+   "moody",
+   "motes",
+   "motion",
+   "museum",
+   "mystic",
+   "mystical",
+   "nav",
+   "navbar",
+   "near",
+   "nearby",
+   "never",
+   "next",
+   "nextjs",
+   "night",
+   "nowhere",
+   "one",
+   "only",
+   "onto",
+   "orbit",
+   "orbit-camera",
+   "orbiting",
+   "out",
+   "outline",
+   "parallax",
+   "particles",
+   "parts",
+   "peaceful",
+   "pedestal",
+   "per",
+   "percentage",
+   "pill",
+   "pitch",
+   "pointer",
+   "portfolio",
+   "preloader",
+   "pushes",
+   "r3f",
+   "rakes",
+   "rays",
+   "ready",
+   "real",
+   "refuses",
+   "rendered",
+   "repel",
+   "repulsion",
+   "reveal",
+   "right",
+   "ring",
+   "ringed",
+   "ringing",
+   "rings",
+   "rock",
+   "rocks",
+   "same",
+   "say",
+   "scene",
+   "screen",
+   "scroll",
+   "sculpture",
+   "serene",
+   "serif",
+   "settle",
+   "shader",
+   "shadow",
+   "shaft",
+   "shards",
+   "single",
+   "site",
+   "slightly",
+   "slow",
+   "slowly",
+   "soft",
+   "source",
+   "sparkle",
+   "spiral",
+   "spiritual",
+   "split",
+   "spotlight",
+   "spring",
+   "square",
+   "statue",
+   "stone",
+   "stops",
+   "studio",
+   "style",
+   "subtle",
+   "swallows",
+   "swings",
+   "tagline",
+   "temple",
+   "that",
+   "the",
+   "then",
+   "they",
+   "three",
+   "threejs",
+   "through",
+   "tilt",
+   "tilted",
+   "time",
+   "trailing",
+   "tranquil",
+   "truly",
+   "tumbling",
+   "turning",
+   "two",
+   "under",
+   "underdamped",
+   "until",
+   "uppercase",
+   "vertical",
+   "viewport",
+   "vignette",
+   "visible",
+   "void",
+   "volumetric",
+   "warm",
+   "way",
+   "webgl",
+   "weight",
+   "wellness",
+   "while",
+   "white",
+   "with",
+   "wonder",
+   "your",
+   "zen",
+   "zero-gravity"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/lumea",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Lumea",
+    "description": "Lumea — a premium website template from the GetLayers library. A stone monk meditates on a floating rock in a near-black void — ringed by glowing amber orbit lines and a slow spiral of tumbling debris that parts around your cursor, under one soft shaft of light and a camera that never stops circling.",
+    "url": "https://www.getlayers.ai/layer/lumea",
+    "image": "https://storage.getlayers.ai/templates/lumea-e7c8ac2bce.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-07-30",
+    "keywords": "hero, threejs, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lumea",
+      "item": "https://www.getlayers.ai/layer/lumea"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lumea.webp": "82288 bytes",
+  "lumea-figma.webp": "60798 bytes"
+ }
+}

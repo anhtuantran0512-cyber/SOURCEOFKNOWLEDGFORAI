@@ -1,0 +1,597 @@
+{
+ "fetchedAt": "2026-11-20T15:24:59Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "codescan",
+  "title": "Codescan",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A dark room where a figure stands watching a wall of televisions — the lens drifts after your cursor and racks focus onto whatever set you touch, then flies past the wall, through two lines standing in the fog, and finds a portfolio assembling itself out of the haze.",
+  "image": "https://storage.getlayers.ai/templates/codescan-a4075f0387.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/codescan-a4075f0387.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/codescan-a4075f0387-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/codescan-a4075f0387-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/codescan-a4075f0387-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/codescan-a4075f0387-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T17:36:28.402Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.4,
+     "p95": 16.3,
+     "p99": 17.7,
+     "max": 25.3,
+     "droppedPct": 0.12,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1561,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T17:36:28.402Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 10,
+     "p99": 10.3,
+     "max": 18.2,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1113,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/codescan-pagespeed-mobile-8235a7d3b4.html",
+     "testedAt": "2026-10-08T16:18:02.372Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 921,
+      "LCP": 2551,
+      "TBT": 28,
+      "CLS": 0,
+      "SI": 921
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/codescan-pagespeed-desktop-0f9af9f09d.html",
+     "testedAt": "2026-10-08T16:18:30.673Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 262,
+      "LCP": 441,
+      "TBT": 12,
+      "CLS": 0,
+      "SI": 465
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "ImageObject",
+      "WebSite",
+      "WebPage"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 171,
+  "createdAt": "2026-08-10",
+  "typeTags": [
+   "full-page",
+   "agency-studio",
+   "portfolio"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "brutal"
+  ],
+  "keywords": [
+   "3d",
+   "about",
+   "above",
+   "after",
+   "again",
+   "agency",
+   "all",
+   "along",
+   "analogue",
+   "and",
+   "arriving",
+   "arrow",
+   "art-direction",
+   "asked",
+   "assemble",
+   "away",
+   "back",
+   "begins",
+   "behind",
+   "better",
+   "black",
+   "bloom",
+   "bokeh",
+   "bracket",
+   "brackets",
+   "branding",
+   "broadcast",
+   "brutal",
+   "but",
+   "camera",
+   "can",
+   "caption",
+   "card",
+   "cards",
+   "carousel",
+   "carrying",
+   "cascade",
+   "case-study",
+   "cases",
+   "chip",
+   "chromatic-aberration",
+   "cinema",
+   "cinematic",
+   "climbing",
+   "clip",
+   "clock",
+   "close",
+   "closing",
+   "codescan",
+   "collective",
+   "column",
+   "come",
+   "coming",
+   "continuous",
+   "corner",
+   "corridor",
+   "counter",
+   "creative",
+   "creative-agency",
+   "crt",
+   "cursor",
+   "cut",
+   "cyan",
+   "cylinder",
+   "dark",
+   "date",
+   "deliberately",
+   "depth-of-field",
+   "depths",
+   "design studio",
+   "design-studio",
+   "different",
+   "director",
+   "dissolving",
+   "down",
+   "draco",
+   "drag",
+   "draggable",
+   "drifts",
+   "dust",
+   "each",
+   "eight",
+   "everything",
+   "exactly",
+   "facing",
+   "far",
+   "figure",
+   "film",
+   "first",
+   "five",
+   "fixed",
+   "flies",
+   "flying",
+   "focus",
+   "fog",
+   "follows",
+   "footprint",
+   "for",
+   "forget",
+   "forming",
+   "fourteen",
+   "fps",
+   "frame",
+   "full",
+   "geometry",
+   "glass",
+   "glb",
+   "grain",
+   "hairline",
+   "haze",
+   "heavy",
+   "horizon",
+   "hover",
+   "hovering",
+   "hud",
+   "identity",
+   "instrument",
+   "interior",
+   "into",
+   "its",
+   "landing page",
+   "last",
+   "leaving",
+   "lens",
+   "let",
+   "lets",
+   "letter",
+   "level",
+   "lift",
+   "lifts",
+   "light",
+   "lines",
+   "lit",
+   "loader",
+   "mint",
+   "motion",
+   "name",
+   "never",
+   "next",
+   "nextjs",
+   "nobody",
+   "nothing",
+   "off",
+   "once",
+   "one",
+   "one-shot",
+   "onto",
+   "opens",
+   "other",
+   "out",
+   "own",
+   "page",
+   "panel",
+   "panels",
+   "particles",
+   "past",
+   "photographs",
+   "picture",
+   "pixel",
+   "pixel-dissolve",
+   "pixels",
+   "playing",
+   "point",
+   "portfolio",
+   "preloader",
+   "previous",
+   "production",
+   "project",
+   "pulls",
+   "rack-focus",
+   "racks",
+   "ragged",
+   "raises",
+   "rather",
+   "readout",
+   "real",
+   "retro",
+   "ring",
+   "room",
+   "round",
+   "row",
+   "rule",
+   "rules",
+   "running",
+   "same",
+   "says",
+   "scanline",
+   "scatter-text",
+   "scene",
+   "screens",
+   "scroll-driven",
+   "scrolling",
+   "selected-work",
+   "sentences",
+   "set",
+   "sets",
+   "settle",
+   "short",
+   "shot",
+   "shoulder",
+   "showing",
+   "side",
+   "silhouette",
+   "site",
+   "sits",
+   "slide",
+   "soon",
+   "spring",
+   "springing",
+   "squares",
+   "stacked",
+   "staggered",
+   "stand",
+   "standing",
+   "stands",
+   "start",
+   "starts",
+   "steering",
+   "still",
+   "stopping",
+   "stops",
+   "studio",
+   "tags",
+   "take",
+   "tall",
+   "tally",
+   "team",
+   "technical",
+   "television",
+   "televisions",
+   "than",
+   "that",
+   "the",
+   "then",
+   "thing",
+   "three",
+   "threejs",
+   "through",
+   "throw",
+   "trail",
+   "turned",
+   "turns",
+   "tv",
+   "two",
+   "types",
+   "uncovering",
+   "under",
+   "vhs",
+   "video",
+   "video-texture",
+   "vignette",
+   "wall",
+   "watch",
+   "watched",
+   "watching",
+   "wave",
+   "way",
+   "webgl",
+   "whatever",
+   "where",
+   "while",
+   "whole",
+   "window",
+   "with",
+   "without",
+   "words",
+   "work",
+   "you"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/codescan",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Codescan",
+    "description": "Codescan — a premium website template from the GetLayers library. A dark room where a figure stands watching a wall of televisions — the lens drifts after your cursor and racks focus onto whatever set you touch, then flies past the wall, through two lines standing in the fog, and finds a portfolio assembling itself out of the haze.",
+    "url": "https://www.getlayers.ai/layer/codescan",
+    "image": "https://storage.getlayers.ai/templates/codescan-a4075f0387.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-08-10",
+    "keywords": "landing page, threejs, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Codescan",
+      "item": "https://www.getlayers.ai/layer/codescan"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "codescan.webp": "116704 bytes",
+  "codescan-figma.webp": "55976 bytes"
+ }
+}

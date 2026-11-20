@@ -97,6 +97,24 @@ sources/threeui/
 Metadata only: title, category, runtime, description, live URL, preview image. Component source is sold
 through ThreeUI's Pro MCP and is deliberately absent — briefs link to the live page instead.
 
+## `sources/getlayers/`
+
+```
+sources/getlayers/
+├── README.md
+├── manifest.json                 # 62 rows
+├── catalog.json                  # the public catalogue, as the site ships it
+├── INDEX.md
+├── items/<id>/ITEM.md            # brief: direction, stack, frame timings, Lighthouse
+├── items/<id>/metadata.json      # full public record + page JSON-LD
+├── prompts/<id>.md               # free-tier prompts, verbatim
+└── assets/<id>.webp              # poster still (+ -figma.webp where published)
+```
+
+Whole-page and hero templates. The metadata is complete; the prompts are not. 11 templates are free and
+51 are premium — premium copy answers `forbidden` and is never included. Free prompts are copied through
+the public copy action, which allows one prompt per anonymous visitor per day.
+
 ## Adding a new source
 
 1. Create `sources/<name>/`.
@@ -118,3 +136,8 @@ through ThreeUI's Pro MCP and is deliberately absent — briefs link to the live
 The repository is text-only. No videos, no font binaries, no image dumps. Screenshots in
 `assets/previews/` are small and only used by the README. If a reference needs media, link to the original
 URL instead of committing it.
+
+One named exception: `sources/getlayers/assets/` holds one poster still per template (62 × ~130 KB) and
+the Figma preview where the site publishes one (40 × ~150 KB) — about 16 MB, because the still is the
+only way to see what a template looks like when the source is premium. Its four mp4 mockups and two
+Lighthouse HTML reports per template are **not** committed; those URLs live in each `ITEM.md`.

@@ -1,8 +1,9 @@
 {
-  "generated": "2026-11-19",
+  "generated": "2026-11-20",
   "totals": {
-    "all": 6770,
+    "all": 6832,
     "codefronts": 5047,
+    "getlayers": 62,
     "lucianlabs": 400,
     "motionsites_free": 321,
     "pinui": 41,
@@ -13,6 +14,16 @@
     "codefronts": {
       "manifest": "sources/codefronts/manifest.json",
       "readme": "sources/codefronts/README.md"
+    },
+    "getlayers": {
+      "manifest": "sources/getlayers/manifest.json",
+      "catalog": "sources/getlayers/catalog.json",
+      "readme": "sources/getlayers/README.md",
+      "site": "https://www.getlayers.ai/templates",
+      "free_templates": 11,
+      "premium_templates": 51,
+      "free_prompts_captured": 1,
+      "locked_prompts": 51
     },
     "lucianlabs": {
       "manifest": "sources/lucianlabs/manifest.json",

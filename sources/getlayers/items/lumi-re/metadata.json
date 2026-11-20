@@ -1,0 +1,521 @@
+{
+ "fetchedAt": "2026-11-20T15:23:06Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "lumi-re",
+  "title": "Lumière",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A living emerald pendant hangs in a turning ring of photographs, then gold rings spin through a quiet cream atelier. Legal for purchase only on getlayers.ai — getlayers.ai/layer/lumi-re",
+  "image": "https://storage.getlayers.ai/templates/lumi-re-9893947dfd.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/lumi-re-9893947dfd.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/lumi-re-9893947dfd-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/lumi-re-9893947dfd-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/lumi-re-9893947dfd-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/lumi-re-9893947dfd-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-30T06:57:40.526Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.5,
+     "p95": 16.9,
+     "p99": 18.5,
+     "max": 66.2,
+     "droppedPct": 1.19,
+     "over50": 1,
+     "over100": 0,
+     "frames": 1542,
+     "verdict": "smooth"
+    },
+    "desktop": {
+     "testedAt": "2026-10-30T06:57:40.526Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 10.2,
+     "p99": 17.1,
+     "max": 25.4,
+     "droppedPct": 0.13,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1474,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/lumi-re-pagespeed-mobile-2163e8dab4.html",
+     "testedAt": "2026-10-30T11:27:22.752Z",
+     "lighthouse": "13.6.0",
+     "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 907,
+      "LCP": 3001,
+      "TBT": 145,
+      "CLS": 0,
+      "SI": 907
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/lumi-re-pagespeed-desktop-c7a2470764.html",
+     "testedAt": "2026-10-30T11:27:55.585Z",
+     "lighthouse": "13.6.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 96,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 277,
+      "LCP": 761,
+      "TBT": 36,
+      "CLS": 0,
+      "SI": 695
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 337,
+  "createdAt": "2026-10-30",
+  "typeTags": [
+   "full-page",
+   "ecommerce"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "3d product",
+   "3d ring",
+   "3d rings",
+   "accessories",
+   "add",
+   "add to cart",
+   "around",
+   "artisan",
+   "atelier",
+   "backdrop",
+   "beauty",
+   "beige",
+   "beside",
+   "black",
+   "blur",
+   "blur reveal",
+   "blurred",
+   "bone",
+   "boutique",
+   "bracelet",
+   "bracelets",
+   "button",
+   "capitals",
+   "card",
+   "card ring",
+   "cart",
+   "catalog",
+   "catching",
+   "category",
+   "category index",
+   "chain",
+   "collection",
+   "collections",
+   "colour inversion",
+   "coming",
+   "cornered",
+   "counter",
+   "cream",
+   "cursor",
+   "cursor tilt",
+   "dark stage",
+   "diamond",
+   "diamond ring",
+   "diamonds",
+   "dispersion",
+   "earrings",
+   "ecommerce",
+   "editorial",
+   "eight",
+   "emerald",
+   "emerald pendant",
+   "engagement ring",
+   "engagement rings",
+   "exr",
+   "fashion",
+   "fills",
+   "fine",
+   "fine jewellery",
+   "fine jewelry",
+   "footer",
+   "full",
+   "full page",
+   "full-bleed photo",
+   "gem",
+   "gem refraction",
+   "gemstone",
+   "gemstones",
+   "glb",
+   "glinting",
+   "gold",
+   "goldsmith",
+   "growing",
+   "halo",
+   "hand",
+   "handcrafted",
+   "handmade",
+   "handmade jewellery",
+   "hanging",
+   "hangs",
+   "headlines",
+   "hover cards",
+   "inside",
+   "instrument serif",
+   "italic",
+   "italic capitals",
+   "jeweler",
+   "jeweller",
+   "jewellery",
+   "jewellery brand",
+   "jewellery shop",
+   "jewellery store",
+   "jewelry",
+   "jewelry shop",
+   "jewelry store",
+   "landing page",
+   "larimar",
+   "lenis",
+   "letter",
+   "letter reveal",
+   "light",
+   "lines",
+   "living",
+   "lookbook",
+   "lumi",
+   "luxury",
+   "luxury brand",
+   "maison",
+   "manrope",
+   "necklace",
+   "necklaces",
+   "newsletter",
+   "nextjs",
+   "online shop",
+   "online store",
+   "page",
+   "paper",
+   "paper texture",
+   "parallax",
+   "pearl",
+   "pearls",
+   "pendant",
+   "peridot",
+   "philosophy",
+   "photo",
+   "photograph",
+   "photographs",
+   "pill",
+   "pills",
+   "pinned scroll",
+   "place",
+   "pmrem",
+   "precious stones",
+   "preloader",
+   "price",
+   "price pill",
+   "product",
+   "product carousel",
+   "quiet",
+   "quiet luxury",
+   "radial cluster",
+   "ray tracing",
+   "ray-traced gems",
+   "react-spring",
+   "refraction",
+   "revolution",
+   "ring",
+   "ring of photos",
+   "rings",
+   "rose",
+   "rose gold",
+   "rotating cluster",
+   "sapphire",
+   "screen",
+   "scroll",
+   "scroll animation",
+   "scroll scrubbed",
+   "scroll storytelling",
+   "serif",
+   "shop",
+   "silver",
+   "slots",
+   "slowly",
+   "small",
+   "small batch",
+   "soft",
+   "spin",
+   "splitting",
+   "spring-text-engine",
+   "stack",
+   "stage",
+   "steps",
+   "store",
+   "studio",
+   "sunlit",
+   "text swap",
+   "three-mesh-bvh",
+   "three.js",
+   "threejs",
+   "tilts",
+   "turn",
+   "turning",
+   "turns",
+   "turquoise",
+   "type",
+   "watch",
+   "watchmaker",
+   "wearing",
+   "webgl",
+   "wedding bands",
+   "wedding rings",
+   "white",
+   "white gold",
+   "yellow gold",
+   "zoom into photo",
+   "zoom transition"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/lumi-re",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Lumière",
+    "description": "Lumière — a premium website template from the GetLayers library. A living emerald pendant hangs in a turning ring of photographs, then gold rings spin through a quiet cream atelier. Legal for purchase only on getlayers.ai — getlayers.ai/layer/lumi-re.",
+    "url": "https://www.getlayers.ai/layer/lumi-re",
+    "image": "https://storage.getlayers.ai/templates/lumi-re-9893947dfd.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-10-30",
+    "keywords": "landing page, threejs, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lumière",
+      "item": "https://www.getlayers.ai/layer/lumi-re"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "lumi-re.webp": "84874 bytes",
+  "lumi-re-figma.webp": "157612 bytes"
+ }
+}

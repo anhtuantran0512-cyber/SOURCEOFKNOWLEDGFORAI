@@ -1,0 +1,627 @@
+{
+ "fetchedAt": "2026-11-20T15:26:28Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "fathom",
+  "title": "Fathom",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "An ocean-freight page where a container ship glides by on scroll, a bay plan lights your slot and a crane lowers a box. Legal for purchase only on getlayers.ai — getlayers.ai/layer/fathom",
+  "image": "https://storage.getlayers.ai/templates/fathom-a8c2405830.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/fathom-a8c2405830.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/fathom-a8c2405830-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/fathom-a8c2405830-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/fathom-a8c2405830-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/fathom-a8c2405830-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-11-12T05:19:28.678Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 9.2,
+     "p99": 16.1,
+     "max": 17.6,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1593,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-11-12T05:19:28.678Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.2,
+     "p99": 11.3,
+     "max": 25,
+     "droppedPct": 0.22,
+     "over50": 0,
+     "over100": 0,
+     "frames": 912,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/fathom-pagespeed-mobile-c86047f1ef.html",
+     "testedAt": "2026-11-12T05:26:55.375Z",
+     "lighthouse": "13.6.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 97,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 919,
+      "LCP": 919,
+      "TBT": 11,
+      "CLS": 0,
+      "SI": 919
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/fathom-pagespeed-desktop-f423909378.html",
+     "testedAt": "2026-11-12T05:27:49.831Z",
+     "lighthouse": "13.6.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 97,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 246,
+      "LCP": 521,
+      "TBT": 47,
+      "CLS": 0,
+      "SI": 1024
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": true
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 11,
+  "createdAt": "2026-11-12",
+  "typeTags": [
+   "full-page",
+   "logistics"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "keywords": [
+   "above",
+   "aerial",
+   "ais",
+   "along",
+   "antwerp",
+   "arrival",
+   "asia",
+   "auto-advancing tabs",
+   "autocomplete",
+   "availability",
+   "away",
+   "b2b",
+   "backdrop blur",
+   "background video",
+   "band",
+   "bars",
+   "bay",
+   "bay plan",
+   "below",
+   "berth",
+   "big type",
+   "blue",
+   "boat",
+   "book a slot",
+   "booking",
+   "box",
+   "calm",
+   "card",
+   "cargo",
+   "cargo ship",
+   "carousel",
+   "carrier",
+   "chart",
+   "check digit",
+   "cinematic",
+   "circular reveal",
+   "clean",
+   "clip-path",
+   "clip-path reveal",
+   "cold chain",
+   "command k",
+   "commitments",
+   "company website",
+   "consolidation",
+   "container",
+   "container line",
+   "container ship",
+   "container shipping",
+   "container tracking",
+   "containers",
+   "containership",
+   "coordinates",
+   "corporate",
+   "course",
+   "course line",
+   "crane",
+   "crosshair",
+   "cursor",
+   "curtain",
+   "dark blue",
+   "data table",
+   "days",
+   "departure",
+   "departures",
+   "dock",
+   "docking",
+   "docks",
+   "drawn",
+   "drifts",
+   "drone shot",
+   "enterprise",
+   "eta",
+   "europe",
+   "export",
+   "faint",
+   "fathom",
+   "fcl",
+   "feu",
+   "fill",
+   "flat rack",
+   "fleet",
+   "footer",
+   "footer reveal",
+   "forwarder",
+   "free",
+   "freight",
+   "freight forwarder",
+   "freight forwarding",
+   "frosted glass",
+   "full",
+   "full container",
+   "full page",
+   "full screen hero",
+   "gantry",
+   "giant",
+   "giant wordmark",
+   "glass header",
+   "glides",
+   "gliding",
+   "global trade",
+   "glowing",
+   "grey",
+   "grotesk",
+   "hairlines",
+   "hamburg",
+   "harbor",
+   "harbour",
+   "headline",
+   "heavy lift",
+   "homepage",
+   "hook",
+   "horizon",
+   "host grotesk",
+   "hover",
+   "hover highlight",
+   "hud",
+   "huge",
+   "import",
+   "industrial",
+   "intermodal",
+   "intro animation",
+   "iso 6346",
+   "landing page",
+   "lanes",
+   "latitude",
+   "lcl",
+   "lenis",
+   "lifting",
+   "light",
+   "light typography",
+   "lights",
+   "line",
+   "line draw",
+   "line reveal",
+   "little",
+   "live tracking",
+   "loading screen",
+   "logistics",
+   "logistics company",
+   "logistics website",
+   "longitude",
+   "looping",
+   "looping video",
+   "lowered",
+   "lowers",
+   "manifest",
+   "map animation",
+   "marine",
+   "maritime",
+   "marquee",
+   "mask reveal",
+   "media source",
+   "minimal",
+   "mist",
+   "modern",
+   "nautical",
+   "nautical chart",
+   "naval",
+   "navigation",
+   "navy",
+   "new york",
+   "next.js",
+   "nextjs",
+   "night",
+   "number",
+   "ocean",
+   "ocean carrier",
+   "ocean freight",
+   "onto",
+   "opens",
+   "orange",
+   "orange accent",
+   "out of gauge",
+   "overshoot",
+   "page",
+   "pale blue",
+   "pallets",
+   "parallax",
+   "parcel tracking",
+   "pinned",
+   "pinned hero",
+   "pinned section",
+   "plan",
+   "plots",
+   "port",
+   "ports",
+   "preloader",
+   "price",
+   "pricing",
+   "professional",
+   "progress bar",
+   "progress ring",
+   "project cargo",
+   "quay",
+   "quote",
+   "radar",
+   "rate",
+   "rates",
+   "react",
+   "react spring",
+   "react-spring",
+   "reefer",
+   "reflection",
+   "refrigerated",
+   "reservation",
+   "ring",
+   "rings",
+   "rippled",
+   "ripples",
+   "rising",
+   "rotterdam",
+   "route",
+   "route map",
+   "routes",
+   "row",
+   "sailing",
+   "sailing schedule",
+   "sailings",
+   "sans serif",
+   "schedule",
+   "schedule table",
+   "schibsted grotesk",
+   "screen",
+   "scroll",
+   "scroll scrubbed",
+   "scroll video",
+   "scroll-driven video",
+   "scrub",
+   "scrub on scroll",
+   "sea",
+   "sea freight",
+   "seamless",
+   "seamless loop",
+   "search",
+   "search bar",
+   "seat map",
+   "settling",
+   "shanghai",
+   "shared box",
+   "ship",
+   "shipment tracking",
+   "shipping",
+   "shipping company",
+   "shipping container",
+   "shipping line",
+   "shipping routes",
+   "shipping website",
+   "ships",
+   "sideways",
+   "signal orange",
+   "singapore",
+   "slot",
+   "slot booking",
+   "slot picker",
+   "slots",
+   "smooth scroll",
+   "springs",
+   "sticky hero",
+   "stowage plan",
+   "supply chain",
+   "surfaces",
+   "sweeps",
+   "swinging",
+   "table",
+   "tabs",
+   "tailwind",
+   "tanker",
+   "terminal",
+   "teu",
+   "text reveal",
+   "thin",
+   "tick",
+   "ticker",
+   "timetable",
+   "track and trace",
+   "tracking",
+   "trade",
+   "trade lanes",
+   "transit",
+   "transit bar",
+   "transit time",
+   "trustworthy",
+   "turning",
+   "twice",
+   "vessel",
+   "video",
+   "video background",
+   "video hero",
+   "video scrubbing",
+   "viewfinder",
+   "voyage",
+   "water",
+   "waterline",
+   "waves",
+   "website template",
+   "whichever",
+   "white",
+   "why us",
+   "winch",
+   "wipe reveal",
+   "wiped",
+   "word",
+   "wordmark"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/fathom",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Fathom",
+    "description": "Fathom — a premium website template from the GetLayers library. An ocean-freight page where a container ship glides by on scroll, a bay plan lights your slot and a crane lowers a box. Legal for purchase only on getlayers.ai — getlayers.ai/layer/fathom.",
+    "url": "https://www.getlayers.ai/layer/fathom",
+    "image": "https://storage.getlayers.ai/templates/fathom-a8c2405830.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-11-12",
+    "keywords": "landing page, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Fathom",
+      "item": "https://www.getlayers.ai/layer/fathom"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "fathom.webp": "164656 bytes",
+  "fathom-figma.webp": "496954 bytes"
+ }
+}

@@ -1,0 +1,416 @@
+{
+ "fetchedAt": "2026-11-20T15:25:52Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "vexon",
+  "title": "Vexon",
+  "category": "template",
+  "tags": [
+   "hero",
+   "threejs",
+   "react"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "react"
+  ],
+  "tier": "Premium",
+  "description": "A black, GPU-particle halo breathes behind a dark AI landing where data resolves into your unfair advantage.",
+  "image": "https://storage.getlayers.ai/templates/vexon.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/vexon.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/vexon-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/vexon-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/vexon-mobile.mp4",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T20:19:01.145Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 10.2,
+     "p99": 16.6,
+     "max": 18.6,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 780,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T20:19:01.145Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.8,
+     "p99": 10.3,
+     "max": 24.9,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 621,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/vexon-pagespeed-mobile-bd8f21b83c.html",
+     "testedAt": "2026-10-08T16:37:04.095Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 902,
+      "LCP": 3152,
+      "TBT": 101,
+      "CLS": 0,
+      "SI": 902
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/vexon-pagespeed-desktop-bf3a72d30c.html",
+     "testedAt": "2026-10-08T16:37:14.364Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 521,
+      "TBT": 53,
+      "CLS": 0,
+      "SI": 364
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "likes": 121,
+  "createdAt": "2026-06-07",
+  "typeTags": [
+   "hero",
+   "ai-tech"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "hero",
+   "webgl",
+   "threejs",
+   "particles",
+   "halo",
+   "preloader",
+   "ai",
+   "cursor",
+   "dark",
+   "vite",
+   "premium",
+   "intelligence",
+   "landing",
+   "cinematic",
+   "particle",
+   "void",
+   "pure",
+   "black",
+   "system",
+   "boot",
+   "into",
+   "fly",
+   "through",
+   "reveal",
+   "giant",
+   "blur",
+   "headlines",
+   "over",
+   "glowing",
+   "blue",
+   "ring",
+   "instrument",
+   "panel",
+   "chrome",
+   "with",
+   "custom",
+   "mix",
+   "blend",
+   "vexon",
+   "single",
+   "page",
+   "built",
+   "one",
+   "full",
+   "screen",
+   "three",
+   "gpu",
+   "160",
+   "000",
+   "additively",
+   "blended",
+   "points",
+   "forming",
+   "cool",
+   "donut",
+   "lit",
+   "deep",
+   "mid",
+   "hot",
+   "white",
+   "top",
+   "shimmering",
+   "simplex",
+   "turbulence",
+   "canvas",
+   "sphere",
+   "ticks",
+   "100",
+   "hands",
+   "off",
+   "staggered",
+   "entrance",
+   "that",
+   "coalesces",
+   "then",
+   "per",
+   "character",
+   "glassy",
+   "parallax",
+   "hover",
+   "cards",
+   "follow",
+   "chip",
+   "modular",
+   "bordered",
+   "mission",
+   "grid",
+   "logo",
+   "marquee",
+   "difference",
+   "complete",
+   "tech"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp",
+  "hasFigma": false
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/vexon",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Vexon",
+    "description": "Vexon — a premium website template from the GetLayers library. A black, GPU-particle halo breathes behind a dark AI landing where data resolves into your unfair advantage.",
+    "url": "https://www.getlayers.ai/layer/vexon",
+    "image": "https://storage.getlayers.ai/templates/vexon.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-06-07",
+    "keywords": "hero, threejs, react",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Vexon",
+      "item": "https://www.getlayers.ai/layer/vexon"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "vexon.webp": "282668 bytes"
+ }
+}

@@ -1,16 +1,17 @@
 # INDEX
 
-Auto-generated entry point for the archive. Last build: 2026-11-19.
+Auto-generated entry point for the archive. Last build: 2026-11-20.
 
 | Folder | Items | What it is |
 |---|---:|---|
 | `sources/codefronts/` | 5,047 | Components, layouts, navigation, motion, snippets, design styles |
+| `sources/getlayers/` | 62 | Page/hero templates: stack, tone, frame timings, Lighthouse, previews, 11 free prompts |
 | `sources/lucianlabs/` | 400 | MIT UI elements with runnable demos and ready prompts |
 | `sources/motionsites/` | 321 | Free website-section prompts (paid prompts excluded) |
 | `sources/pinui/` | 41 | 30 React components + 11 blocs, TSX/CSS source, shadcn install |
 | `sources/threeui/` | 961 | 3D/WebGL/motion catalogue + 1,485 tag pages (metadata only) |
 
-**Total reference items: 6,770** (+1,485 ThreeUI tag pages)
+**Total reference items: 6,832** (+1,485 ThreeUI tag pages)
 
 ## Source priority
 
@@ -19,6 +20,8 @@ Auto-generated entry point for the archive. Last build: 2026-11-19.
 3. **MotionSites** — whole-section briefs and art direction.
 4. **lucianLabs** — highest craft per element, working code, runnable demo.
 5. **CodeFronts** — widest coverage, component-sized CSS/Tailwind snippets.
+6. **GetLayers** — whole-page and hero templates with stack, tone and a measured performance budget;
+   free prompts verbatim, premium prompts locked.
 
 Each library has a generated `INDEX.md` listing every item: `sources/<name>/INDEX.md`.
 
@@ -44,6 +47,7 @@ Each library has a generated `INDEX.md` listing every item: `sources/<name>/INDE
 | Rising isometric data blocks | `sources/lucianlabs/prompts/animation/202-iso-data-blocks.md` | animated isometric bar chart |
 | WebGL particle background | `sources/threeui/items/backgrounds/` | direction + runtime for canvas/Three.js backgrounds |
 | Sticky stacked cards | `sources/codefronts/components/css-cards/stacked-card-cascade.md` | cards that stack and scale on scroll |
+| Cinematic 3D product hero | `sources/getlayers/items/soda/ITEM.md` | free prompt: one-file Three.js hero, 37 KB brief, measured at 60 fps |
 
 ## How to search without loading everything
 
@@ -56,5 +60,5 @@ done
 
 ## License
 
-Each file keeps its origin and license. See [`NOTICE.md`](NOTICE.md). Paid MotionSites content and
-ThreeUI source files are not included.
+Each file keeps its origin and license. See [`NOTICE.md`](NOTICE.md). Paid MotionSites content,
+ThreeUI source files and the 51 premium GetLayers prompts are not included.

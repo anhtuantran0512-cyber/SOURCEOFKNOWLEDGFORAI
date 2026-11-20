@@ -1,0 +1,384 @@
+{
+ "fetchedAt": "2026-11-20T15:23:10Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "ai-studio",
+  "title": "AI Studio",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A chrome star turns in the dark and the whole page becomes one cinematic scroll — violet light, a bloom of drifting particles, and a camera that flies clean through it. A neural-brand showreel that thinks ahead.",
+  "image": "https://storage.getlayers.ai/templates/ai-studio.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/ai-studio.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/ai-studio-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/ai-studio-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/ai-studio-mobile.mp4",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T16:40:33.388Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.4,
+     "p95": 16.9,
+     "p99": 25,
+     "max": 75.1,
+     "droppedPct": 2.35,
+     "over50": 2,
+     "over100": 0,
+     "frames": 1503,
+     "verdict": "smooth"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T16:40:33.388Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 10,
+     "p99": 10.4,
+     "max": 75.3,
+     "droppedPct": 1.54,
+     "over50": 1,
+     "over100": 0,
+     "frames": 2153,
+     "verdict": "smooth"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/ai-studio-pagespeed-mobile-664c9237a6.html",
+     "testedAt": "2026-10-08T16:11:52.399Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 2476,
+      "TBT": 19,
+      "CLS": 0,
+      "SI": 901
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/ai-studio-pagespeed-desktop-aba9273c1c.html",
+     "testedAt": "2026-10-08T16:12:13.957Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 505,
+      "TBT": 22,
+      "CLS": 0,
+      "SI": 279
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "likes": 313,
+  "createdAt": "2026-06-28",
+  "typeTags": [
+   "full-page",
+   "ai-tech",
+   "agency-studio"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "keywords": [
+   "showreel",
+   "agency",
+   "ai",
+   "webgl",
+   "particles",
+   "carousel",
+   "scroll",
+   "cinematic",
+   "next",
+   "studio",
+   "driven",
+   "that",
+   "lives",
+   "fixed",
+   "black",
+   "stage",
+   "full",
+   "bleed",
+   "mesh",
+   "gradient",
+   "hero",
+   "card",
+   "flips",
+   "cosine",
+   "sorted",
+   "product",
+   "opens",
+   "34k",
+   "point",
+   "violet",
+   "particle",
+   "sphere",
+   "hands",
+   "off",
+   "horizontal",
+   "portfolio",
+   "video",
+   "rail",
+   "wrapped",
+   "aurora",
+   "glow",
+   "then",
+   "flies",
+   "camera",
+   "through",
+   "parallax",
+   "image",
+   "grid",
+   "chrome",
+   "brand",
+   "star",
+   "finale",
+   "every",
+   "phase",
+   "scrubbed",
+   "one",
+   "clock",
+   "page",
+   "tech"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp",
+  "hasFigma": false
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/ai-studio",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "AI Studio",
+    "description": "AI Studio — a premium website template from the GetLayers library. A chrome star turns in the dark and the whole page becomes one cinematic scroll — violet light, a bloom of drifting particles, and a camera that flies clean through it. A neural-brand showreel that thinks ahead.",
+    "url": "https://www.getlayers.ai/layer/ai-studio",
+    "image": "https://storage.getlayers.ai/templates/ai-studio.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-06-28",
+    "keywords": "landing page, threejs, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "AI Studio",
+      "item": "https://www.getlayers.ai/layer/ai-studio"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "ai-studio.webp": "53798 bytes"
+ }
+}

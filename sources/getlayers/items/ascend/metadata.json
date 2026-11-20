@@ -1,0 +1,377 @@
+{
+ "fetchedAt": "2026-11-20T15:22:43Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "ascend",
+  "title": "Ascend",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "threejs",
+   "react"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "react"
+  ],
+  "tier": "Free",
+  "description": "A living Earth turns in deep space behind a mint-lit SaaS landing page — city lights, drifting clouds, and radar pings glowing as the planet sinks and swings with every scroll.",
+  "image": "https://storage.getlayers.ai/templates/ascend.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/ascend.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/ascend-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/ascend-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/ascend-mobile.mp4",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T17:05:04.527Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 10,
+     "p99": 10.3,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1009,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T17:05:04.527Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.9,
+     "p99": 10.3,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 677,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/ascend-pagespeed-mobile-0f9a34c232.html",
+     "testedAt": "2026-10-08T16:14:12.752Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 1501,
+      "TBT": 26,
+      "CLS": 0.022,
+      "SI": 3587
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/ascend-pagespeed-desktop-66b89a93a8.html",
+     "testedAt": "2026-10-08T16:14:49.614Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 401,
+      "TBT": 17,
+      "CLS": 0,
+      "SI": 394
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "likes": 216,
+  "createdAt": "2026-05-20",
+  "typeTags": [
+   "hero",
+   "saas"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "saas",
+   "landing",
+   "webgl",
+   "planet",
+   "earth",
+   "space",
+   "scroll",
+   "bloom",
+   "glass",
+   "vite",
+   "ascend",
+   "single",
+   "page",
+   "immersive",
+   "experience",
+   "one",
+   "fixed",
+   "photoreal",
+   "day",
+   "night",
+   "city",
+   "lights",
+   "shader",
+   "drifting",
+   "cloud",
+   "shells",
+   "atmosphere",
+   "halo",
+   "starfield",
+   "radar",
+   "ping",
+   "markers",
+   "composited",
+   "through",
+   "corner",
+   "flame",
+   "pass",
+   "sits",
+   "behind",
+   "four",
+   "sections",
+   "hero",
+   "features",
+   "live",
+   "dashboard",
+   "showcase",
+   "cta",
+   "footer",
+   "while",
+   "clock",
+   "zooms",
+   "swings",
+   "across"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp",
+  "hasFigma": false
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/ascend",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Ascend",
+    "description": "Ascend — a free website template from the GetLayers library. A living Earth turns in deep space behind a mint-lit SaaS landing page — city lights, drifting clouds, and radar pings glowing as the planet sinks and swings with every scroll.",
+    "url": "https://www.getlayers.ai/layer/ascend",
+    "image": "https://storage.getlayers.ai/templates/ascend.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-05-20",
+    "keywords": "landing page, threejs, react",
+    "isAccessibleForFree": true,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "0",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ascend",
+      "item": "https://www.getlayers.ai/layer/ascend"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "rate_limited"
+ },
+ "files": {
+  "ascend.webp": "100658 bytes"
+ }
+}

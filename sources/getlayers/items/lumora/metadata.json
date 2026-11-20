@@ -1,0 +1,375 @@
+{
+ "fetchedAt": "2026-11-20T15:22:32Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "lumora",
+  "title": "Lumora",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "tier": "Free",
+  "description": "An independent design-and-engineering studio rendered in near-black calm — bold work surfacing with quiet, fluid precision as the page drifts past.",
+  "image": "https://storage.getlayers.ai/templates/lumora.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/lumora.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/lumora-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/lumora-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/lumora-mobile.mp4",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T19:19:28.114Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 10,
+     "p99": 10.3,
+     "max": 18.2,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1344,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T19:19:28.114Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.9,
+     "p99": 10.3,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 701,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/lumora-pagespeed-mobile-a997756174.html",
+     "testedAt": "2026-10-08T16:31:34.333Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 2251,
+      "TBT": 81,
+      "CLS": 0,
+      "SI": 1145
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/lumora-pagespeed-desktop-14e5f406b3.html",
+     "testedAt": "2026-10-08T16:32:23.772Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 457,
+      "TBT": 106,
+      "CLS": 0,
+      "SI": 256
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "likes": 399,
+  "createdAt": "2026-05-14",
+  "typeTags": [
+   "full-page",
+   "agency-studio",
+   "portfolio"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe"
+  ],
+  "keywords": [
+   "studio",
+   "agency",
+   "portfolio",
+   "editorial",
+   "creative-studio",
+   "light",
+   "warm-neutral",
+   "next",
+   "lumora",
+   "warm",
+   "white",
+   "landing",
+   "page",
+   "carried",
+   "oversized",
+   "brand",
+   "watermark",
+   "single",
+   "burnt",
+   "orange",
+   "accent",
+   "full",
+   "bleed",
+   "liquid",
+   "reveal",
+   "hero",
+   "portrait",
+   "carousel",
+   "highlight",
+   "card",
+   "globe",
+   "backed",
+   "statement",
+   "four",
+   "pill",
+   "create",
+   "band",
+   "dark",
+   "grid",
+   "services",
+   "rail",
+   "counting",
+   "stats",
+   "block",
+   "wordmark",
+   "footer",
+   "all",
+   "stacked",
+   "under",
+   "one",
+   "lenis",
+   "scroll",
+   "clock"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp",
+  "hasFigma": false
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/lumora",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Lumora",
+    "description": "Lumora — a free website template from the GetLayers library. An independent design-and-engineering studio rendered in near-black calm — bold work surfacing with quiet, fluid precision as the page drifts past.",
+    "url": "https://www.getlayers.ai/layer/lumora",
+    "image": "https://storage.getlayers.ai/templates/lumora.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-05-14",
+    "keywords": "landing page, nextjs",
+    "isAccessibleForFree": true,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "0",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lumora",
+      "item": "https://www.getlayers.ai/layer/lumora"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "rate_limited"
+ },
+ "files": {
+  "lumora.webp": "93066 bytes"
+ }
+}

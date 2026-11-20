@@ -1,0 +1,590 @@
+{
+ "fetchedAt": "2026-11-20T15:25:08Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "aerra",
+  "title": "Aerra",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A house standing alone on a mountain slope at dusk, its name set eight hundred pixels tall behind it — letters that climb apart as you scroll, a valley you repaint by moving the cursor over it, a facade you turn in your hand, and a matte-black mark drifting the whole length of the page behind glass.",
+  "image": "https://storage.getlayers.ai/templates/aerra-1ac2dea4cb.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/aerra-1ac2dea4cb.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/aerra-1ac2dea4cb-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/aerra-1ac2dea4cb-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/aerra-1ac2dea4cb-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/aerra-1ac2dea4cb-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T16:29:42.058Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 10.1,
+     "p99": 10.3,
+     "max": 24.7,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1192,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T16:29:42.058Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 10,
+     "p99": 10.2,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 936,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/aerra-pagespeed-mobile-1d343fbceb.html",
+     "testedAt": "2026-10-08T16:11:55.959Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 907,
+      "LCP": 2265,
+      "TBT": 79,
+      "CLS": 0,
+      "SI": 907
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/aerra-pagespeed-desktop-61ce1687f1.html",
+     "testedAt": "2026-10-08T16:12:35.883Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 361,
+      "LCP": 694,
+      "TBT": 113,
+      "CLS": 0,
+      "SI": 402
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 150,
+  "createdAt": "2026-08-10",
+  "typeTags": [
+   "full-page",
+   "hospitality-travel",
+   "ecommerce"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "keywords": [
+   "100",
+   "14rem",
+   "360",
+   "5rem",
+   "801px",
+   "about",
+   "acreage",
+   "aerra",
+   "against",
+   "alone",
+   "along",
+   "alternating",
+   "and",
+   "apart",
+   "architect",
+   "architecture",
+   "arrival",
+   "audience",
+   "away",
+   "backdrop-blur",
+   "behind",
+   "being",
+   "black",
+   "block",
+   "blue hour",
+   "blur",
+   "both",
+   "bottom",
+   "box",
+   "brand",
+   "building",
+   "but",
+   "button",
+   "cabin",
+   "calm",
+   "cancels",
+   "caption",
+   "card",
+   "cards",
+   "cedar",
+   "cells",
+   "centre",
+   "chalet",
+   "clears",
+   "climb",
+   "clip",
+   "clip-path",
+   "clipped",
+   "closes",
+   "come",
+   "contact",
+   "contact form",
+   "count",
+   "counter",
+   "counting",
+   "countryside",
+   "cpu",
+   "cursor",
+   "curtain",
+   "cut",
+   "diagonal",
+   "dimmed",
+   "does",
+   "down",
+   "draco",
+   "drag",
+   "draggable",
+   "drifting",
+   "drifts",
+   "drives",
+   "drops",
+   "dusk",
+   "each",
+   "ecommerce",
+   "edge",
+   "edges",
+   "editorial",
+   "eight",
+   "either",
+   "empty",
+   "estate",
+   "every",
+   "exactly",
+   "facade",
+   "face",
+   "fading",
+   "fields",
+   "fighting",
+   "finished",
+   "first",
+   "forest",
+   "frame",
+   "freehold",
+   "frosted",
+   "full",
+   "glass",
+   "glb",
+   "glyph",
+   "gradient",
+   "gradient-text",
+   "grid",
+   "grows",
+   "half",
+   "hand",
+   "headline",
+   "heat",
+   "height",
+   "hero",
+   "hole",
+   "holiday-home",
+   "home",
+   "hospitality",
+   "house",
+   "hundred",
+   "inside",
+   "instead",
+   "interior",
+   "into",
+   "itself",
+   "keeping",
+   "labels",
+   "laid",
+   "landing",
+   "landing page",
+   "lands",
+   "leaves",
+   "left",
+   "length",
+   "letter",
+   "letters",
+   "light",
+   "listing",
+   "location",
+   "luxury",
+   "mark",
+   "mask",
+   "matte",
+   "metal",
+   "minimal",
+   "mountain",
+   "name",
+   "nearest",
+   "never",
+   "next",
+   "nextjs",
+   "night",
+   "number",
+   "numbers",
+   "off",
+   "once",
+   "one",
+   "only",
+   "opening",
+   "opens",
+   "out",
+   "oversized-type",
+   "own",
+   "page",
+   "painted",
+   "painting",
+   "pairs",
+   "panel",
+   "parallax",
+   "pass",
+   "percentage",
+   "photograph",
+   "photographic",
+   "pill",
+   "pixel-reveal",
+   "pixels",
+   "placeholders",
+   "plan",
+   "play",
+   "played",
+   "playing",
+   "playthrough",
+   "preloader",
+   "premium",
+   "property",
+   "quiet",
+   "quote",
+   "rather",
+   "raw",
+   "real-estate",
+   "relocation",
+   "residence",
+   "resolve",
+   "resolves",
+   "retreat",
+   "reveal",
+   "ridge",
+   "rises",
+   "rotate",
+   "rounded",
+   "runs",
+   "same",
+   "sampling",
+   "screen",
+   "scroll",
+   "scrolling",
+   "scrubber",
+   "second",
+   "second-home",
+   "section",
+   "seeked",
+   "shader",
+   "sheet",
+   "single",
+   "site",
+   "six",
+   "slides",
+   "slope",
+   "slowly",
+   "sold",
+   "speed",
+   "split-text",
+   "splits",
+   "spring",
+   "spring-text-engine",
+   "standing",
+   "statistics",
+   "stop",
+   "straight",
+   "subtitle",
+   "surface",
+   "than",
+   "that",
+   "the",
+   "their",
+   "them",
+   "then",
+   "they",
+   "three",
+   "threejs",
+   "through",
+   "transparent",
+   "travel",
+   "travelling",
+   "turning",
+   "turntable",
+   "twice",
+   "under",
+   "underlined",
+   "until",
+   "valley",
+   "video",
+   "viewing",
+   "viewport",
+   "villa",
+   "walks",
+   "webgl",
+   "which",
+   "while",
+   "white",
+   "whole",
+   "whose",
+   "window",
+   "with",
+   "word",
+   "wordmark",
+   "writing",
+   "you",
+   "your"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/aerra",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Aerra",
+    "description": "Aerra — a premium website template from the GetLayers library. A house standing alone on a mountain slope at dusk, its name set eight hundred pixels tall behind it — letters that climb apart as you scroll, a valley you repaint by moving the cursor over it, a facade you turn in your hand, and a matte-black mark drifting the whole length of the page behind glass.",
+    "url": "https://www.getlayers.ai/layer/aerra",
+    "image": "https://storage.getlayers.ai/templates/aerra-1ac2dea4cb.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-08-10",
+    "keywords": "landing page, threejs, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Aerra",
+      "item": "https://www.getlayers.ai/layer/aerra"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "aerra.webp": "71916 bytes",
+  "aerra-figma.webp": "57514 bytes"
+ }
+}

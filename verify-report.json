@@ -29,5 +29,13 @@
     "missing": 0,
     "empty": 0
   },
+  "getlayers": {
+    "rows": 62,
+    "missing": 0,
+    "empty": 0,
+    "stills_missing": 0,
+    "free_prompts": 1,
+    "premium_leaks": 0
+  },
   "errors": []
 }

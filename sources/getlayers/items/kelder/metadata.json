@@ -1,0 +1,574 @@
+{
+ "fetchedAt": "2026-11-20T15:26:26Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "kelder",
+  "title": "Kelder",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A deep-blue treasury page where a live dashboard tilts into place, halftone dots pulse and silk lines draw themselves. Legal for purchase only on getlayers.ai — getlayers.ai/layer/kelder",
+  "image": "https://storage.getlayers.ai/templates/kelder-16e7bb63f4.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/kelder-16e7bb63f4.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/kelder-16e7bb63f4-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/kelder-16e7bb63f4-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/kelder-16e7bb63f4-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/kelder-16e7bb63f4-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-11-12T03:06:22.105Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 9.2,
+     "p99": 9.3,
+     "max": 16.9,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 2029,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-11-12T03:06:22.105Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.1,
+     "p99": 9.3,
+     "max": 10.9,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1013,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/kelder-pagespeed-mobile-ce11a20127.html",
+     "testedAt": "2026-11-12T03:14:25.741Z",
+     "lighthouse": "13.6.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 97,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 924,
+      "LCP": 924,
+      "TBT": 55,
+      "CLS": 0,
+      "SI": 1318
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/kelder-pagespeed-desktop-98f7586606.html",
+     "testedAt": "2026-11-12T03:15:11.507Z",
+     "lighthouse": "13.6.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 97,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 259,
+      "LCP": 461,
+      "TBT": 58,
+      "CLS": 0,
+      "SI": 548
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 12,
+  "createdAt": "2026-11-12",
+  "typeTags": [
+   "full-page",
+   "fintech"
+  ],
+  "tone": "light",
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "keywords": [
+   "3d",
+   "3d envelope",
+   "3d tilt",
+   "accent",
+   "account",
+   "account dashboard",
+   "accounting",
+   "allocation",
+   "area chart",
+   "art",
+   "assembles",
+   "asset management",
+   "b2b",
+   "back",
+   "balance",
+   "bank",
+   "banking",
+   "banknote",
+   "bar chart",
+   "bars",
+   "bento",
+   "bento grid",
+   "beside",
+   "big",
+   "big numbers",
+   "big wordmark",
+   "block",
+   "blue",
+   "blue gradient",
+   "bonds",
+   "both",
+   "bright",
+   "business bank",
+   "business banking",
+   "button fill",
+   "button hover",
+   "calm",
+   "canvas",
+   "canvas animation",
+   "card",
+   "card hover",
+   "cards",
+   "cash management",
+   "cash sweep",
+   "centre",
+   "cfo",
+   "charts",
+   "clean",
+   "click ripple",
+   "clockwise",
+   "company banking",
+   "company cash",
+   "compliance",
+   "corporate",
+   "corporate banking",
+   "corporate treasury",
+   "count up",
+   "counter",
+   "cube",
+   "cursor",
+   "cursor effect",
+   "cursor trail",
+   "custodian",
+   "custody",
+   "dark",
+   "dashboard",
+   "dashed",
+   "data visualization",
+   "day",
+   "deep",
+   "deep blue",
+   "demo",
+   "demo dashboard",
+   "deposits",
+   "dot",
+   "dot art",
+   "dot grid",
+   "dot matrix",
+   "dot pattern",
+   "dots",
+   "down",
+   "draw",
+   "drawing",
+   "earn interest",
+   "email signup",
+   "envelope",
+   "face",
+   "feature cards",
+   "fee",
+   "few",
+   "field",
+   "finance",
+   "finance team",
+   "financial",
+   "fintech",
+   "flattens",
+   "flowing lines",
+   "footer",
+   "footer reveal",
+   "full",
+   "full page",
+   "funnel display",
+   "generative",
+   "giant",
+   "glides",
+   "government bills",
+   "gradient",
+   "gradient hero",
+   "grid",
+   "growing",
+   "halftone",
+   "headline",
+   "hero",
+   "high yield",
+   "hover effects",
+   "how it works",
+   "idle cash",
+   "instrument",
+   "interactive",
+   "interest",
+   "investing",
+   "investment",
+   "investment firm",
+   "isometric",
+   "isometric cube",
+   "kelder",
+   "kpi",
+   "landing page",
+   "left",
+   "lenis",
+   "letter",
+   "lid",
+   "lifts",
+   "light",
+   "like",
+   "lime",
+   "lime accent",
+   "line",
+   "line chart",
+   "line flow",
+   "line reveal",
+   "lines",
+   "live",
+   "loading screen",
+   "logo animation",
+   "mask reveal",
+   "microinteractions",
+   "mifid",
+   "minimal",
+   "mobile menu",
+   "modern",
+   "money market",
+   "money market funds",
+   "moon",
+   "navy",
+   "neobank",
+   "neon lime",
+   "newsletter",
+   "nextjs",
+   "number animation",
+   "numbers",
+   "numerals",
+   "odometer",
+   "off",
+   "onboarding",
+   "overnight deposits",
+   "page",
+   "parallax",
+   "payments",
+   "perspective",
+   "pie",
+   "pixel",
+   "pixel art",
+   "place",
+   "plate",
+   "portfolio",
+   "preloader",
+   "pricing",
+   "process",
+   "professional",
+   "pulse",
+   "pulses",
+   "react",
+   "react-spring",
+   "regulated",
+   "reveal",
+   "ribbon",
+   "right",
+   "rings",
+   "ripple",
+   "rises",
+   "rising",
+   "rolling",
+   "rolling numbers",
+   "runs",
+   "saas",
+   "sans serif",
+   "savings",
+   "scroll",
+   "scroll animation",
+   "scroll scrubbed",
+   "scroll storytelling",
+   "seconds",
+   "security",
+   "seven",
+   "sides",
+   "silk",
+   "silk lines",
+   "sky",
+   "sky blue",
+   "slides",
+   "sme banking",
+   "startup banking",
+   "stats",
+   "step",
+   "steps",
+   "sticky footer",
+   "sticky header",
+   "strands",
+   "subscribe",
+   "surplus cash",
+   "sweep account",
+   "swells",
+   "t-bills",
+   "tailwind",
+   "technical",
+   "text reveal",
+   "thin",
+   "tiles",
+   "tilt",
+   "tilt on scroll",
+   "tilted",
+   "tilts",
+   "timeline",
+   "translucent",
+   "treasury",
+   "treasury bills",
+   "treasury management",
+   "trust",
+   "trustworthy",
+   "turn",
+   "turns",
+   "twinkle",
+   "typography",
+   "wealth",
+   "website template",
+   "white",
+   "wobbly",
+   "wordmark",
+   "yield"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/kelder",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Kelder",
+    "description": "Kelder — a premium website template from the GetLayers library. A deep-blue treasury page where a live dashboard tilts into place, halftone dots pulse and silk lines draw themselves. Legal for purchase only on getlayers.ai — getlayers.ai/layer/kelder.",
+    "url": "https://www.getlayers.ai/layer/kelder",
+    "image": "https://storage.getlayers.ai/templates/kelder-16e7bb63f4.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-11-12",
+    "keywords": "landing page, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kelder",
+      "item": "https://www.getlayers.ai/layer/kelder"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "kelder.webp": "171958 bytes",
+  "kelder-figma.webp": "220920 bytes"
+ }
+}

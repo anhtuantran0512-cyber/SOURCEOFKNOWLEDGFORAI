@@ -1,0 +1,416 @@
+{
+ "fetchedAt": "2026-11-20T15:22:47Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "loopstack",
+  "title": "Loopstack",
+  "category": "template",
+  "tags": [
+   "hero"
+  ],
+  "stack": [
+   "hero"
+  ],
+  "tier": "Free",
+  "description": "A black canvas where a flower blooms behind your every word, and a glowing cursor whispers hello.",
+  "image": "https://storage.getlayers.ai/templates/loopstack.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/loopstack.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/loopstack-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/loopstack-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/loopstack-mobile.mp4",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T19:06:34.802Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 10,
+     "p99": 10.3,
+     "max": 17.1,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 983,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T19:06:34.802Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.9,
+     "p99": 10.3,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 980,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/loopstack-pagespeed-mobile-ce1a241e05.html",
+     "testedAt": "2026-10-08T16:28:26.699Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 95,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 3001,
+      "TBT": 43,
+      "CLS": 0,
+      "SI": 901
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/loopstack-pagespeed-desktop-a6b0ed921e.html",
+     "testedAt": "2026-10-08T16:31:00.406Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 561,
+      "TBT": 0,
+      "CLS": 0,
+      "SI": 355
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "likes": 187,
+  "createdAt": "2026-06-07",
+  "typeTags": [
+   "hero"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "hero",
+   "teaser",
+   "beta",
+   "waitlist",
+   "video-background",
+   "flower",
+   "cursor",
+   "custom-cursor",
+   "glass",
+   "dark",
+   "black",
+   "minimal",
+   "serif",
+   "neon",
+   "single-screen",
+   "static",
+   "loopstack",
+   "single",
+   "non",
+   "scrolling",
+   "screen",
+   "closed",
+   "invite",
+   "playfair",
+   "headline",
+   "rises",
+   "word",
+   "out",
+   "own",
+   "mask",
+   "blurred",
+   "full",
+   "bleed",
+   "film",
+   "that",
+   "owns",
+   "lower",
+   "viewport",
+   "soft",
+   "scrim",
+   "bled",
+   "down",
+   "top",
+   "edge",
+   "hold",
+   "type",
+   "rounded",
+   "book",
+   "demo",
+   "pill",
+   "carrying",
+   "one",
+   "pulsing",
+   "lime",
+   "live",
+   "dot",
+   "hairline",
+   "footer",
+   "bar",
+   "floats",
+   "dead",
+   "centre",
+   "video",
+   "stay",
+   "touch",
+   "think",
+   "build",
+   "repeat",
+   "socials",
+   "four",
+   "links",
+   "copyright",
+   "9vw",
+   "wordmark",
+   "sweeps",
+   "letter",
+   "left",
+   "along",
+   "bottom",
+   "white",
+   "outline",
+   "ring",
+   "pinned",
+   "exactly",
+   "while",
+   "frosted",
+   "say",
+   "hello",
+   "trails",
+   "behind",
+   "both",
+   "collapse",
+   "nothing",
+   "moment",
+   "pointer",
+   "reaches",
+   "cta"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp",
+  "hasFigma": false
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/loopstack",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Loopstack",
+    "description": "Loopstack — a free website template from the GetLayers library. A black canvas where a flower blooms behind your every word, and a glowing cursor whispers hello.",
+    "url": "https://www.getlayers.ai/layer/loopstack",
+    "image": "https://storage.getlayers.ai/templates/loopstack.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-06-07",
+    "keywords": "hero",
+    "isAccessibleForFree": true,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "0",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Loopstack",
+      "item": "https://www.getlayers.ai/layer/loopstack"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "rate_limited"
+ },
+ "files": {
+  "loopstack.webp": "158348 bytes"
+ }
+}

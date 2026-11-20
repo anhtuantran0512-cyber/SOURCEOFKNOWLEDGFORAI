@@ -1,0 +1,419 @@
+{
+ "fetchedAt": "2026-11-20T15:25:16Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "altitude",
+  "title": "Altitude",
+  "category": "template",
+  "tags": [
+   "hero",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A still mountain night that stirs to life wherever the cursor drifts — warm and cool ink swirls through the dark and bends the starlit sky behind an invitation to stays past the end of the road.",
+  "image": "https://storage.getlayers.ai/templates/altitude-6a55d25c1e.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/altitude-6a55d25c1e.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/altitude-6a55d25c1e-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/altitude-6a55d25c1e-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/altitude-6a55d25c1e-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/altitude-6a55d25c1e-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T16:47:10.635Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 9.2,
+     "p99": 9.3,
+     "max": 15.8,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 965,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T16:47:10.635Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.2,
+     "p99": 9.3,
+     "max": 9.5,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 972,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/altitude-pagespeed-mobile-b1df1bb876.html",
+     "testedAt": "2026-10-08T16:11:25.842Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 1501,
+      "TBT": 3,
+      "CLS": 0.001,
+      "SI": 3610
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/altitude-pagespeed-desktop-84d1366716.html",
+     "testedAt": "2026-10-08T16:11:59.796Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 490,
+      "TBT": 4,
+      "CLS": 0,
+      "SI": 446
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 130,
+  "createdAt": "2026-07-20",
+  "typeTags": [
+   "hero",
+   "hospitality-travel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "hero",
+   "hospitality",
+   "cabins",
+   "retreat",
+   "travel",
+   "webgl",
+   "fluid",
+   "vortex",
+   "cursor",
+   "video-background",
+   "night-sky",
+   "glass",
+   "preloader",
+   "serif",
+   "dark",
+   "next",
+   "lantern",
+   "the",
+   "night",
+   "sky",
+   "you",
+   "forgot",
+   "existed",
+   "ink",
+   "marbling",
+   "under",
+   "quiet",
+   "expensive",
+   "one",
+   "screen",
+   "nothing",
+   "else",
+   "altitude",
+   "single",
+   "shot",
+   "looping",
+   "starry",
+   "video",
+   "drawn",
+   "webgl2",
+   "solver",
+   "that",
+   "also",
+   "warps",
+   "invisible",
+   "stirring",
+   "point",
+   "orbits",
+   "spring",
+   "lagged",
+   "marbles",
+   "yellow",
+   "blue",
+   "drags",
+   "chromatically",
+   "splits",
+   "picture",
+   "where",
+   "moves",
+   "then",
+   "dies",
+   "away",
+   "within",
+   "second",
+   "stopping",
+   "gilda",
+   "display",
+   "line",
+   "rises",
+   "letter",
+   "out",
+   "blur",
+   "left",
+   "right",
+   "fade",
+   "mask",
+   "enquiry",
+   "capsule",
+   "stats",
+   "bar",
+   "lift",
+   "springs",
+   "hairline",
+   "column",
+   "rules",
+   "rule",
+   "themselves",
+   "down",
+   "frame",
+   "all",
+   "released",
+   "once",
+   "comet",
+   "field",
+   "counts",
+   "100",
+   "opens",
+   "page",
+   "like",
+   "aperture"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/altitude",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Altitude",
+    "description": "Altitude — a premium website template from the GetLayers library. A still mountain night that stirs to life wherever the cursor drifts — warm and cool ink swirls through the dark and bends the starlit sky behind an invitation to stays past the end of the road.",
+    "url": "https://www.getlayers.ai/layer/altitude",
+    "image": "https://storage.getlayers.ai/templates/altitude-6a55d25c1e.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-07-20",
+    "keywords": "hero, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Altitude",
+      "item": "https://www.getlayers.ai/layer/altitude"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "altitude.webp": "139798 bytes",
+  "altitude-figma.webp": "83798 bytes"
+ }
+}

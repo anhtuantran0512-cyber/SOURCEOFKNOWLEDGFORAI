@@ -1,0 +1,585 @@
+{
+ "fetchedAt": "2026-11-20T15:26:03Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "stride-nine",
+  "title": "Stride Nine",
+  "category": "template",
+  "tags": [
+   "hero",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "Two sprinters caught mid-stride against a deep blue sky, a headline set across them in unbroken white caps — and the air itself catching and dragging wherever you move.",
+  "image": "https://storage.getlayers.ai/templates/stride-nine-a6fc990c1f.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/stride-nine-a6fc990c1f.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/stride-nine-a6fc990c1f-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/stride-nine-a6fc990c1f-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/stride-nine-a6fc990c1f-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/stride-nine-a6fc990c1f-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T20:10:10.042Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 10,
+     "p99": 10.2,
+     "max": 16.9,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 317,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T20:10:10.042Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.8,
+     "p99": 10.3,
+     "max": 10.3,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 984,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/stride-nine-pagespeed-mobile-1db4c9e35b.html",
+     "testedAt": "2026-10-08T16:35:58.545Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 1951,
+      "TBT": 43,
+      "CLS": 0,
+      "SI": 901
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/stride-nine-pagespeed-desktop-29cbf43328.html",
+     "testedAt": "2026-10-08T16:36:33.423Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 521,
+      "TBT": 14,
+      "CLS": 0,
+      "SI": 241
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 107,
+  "createdAt": "2026-08-06",
+  "typeTags": [
+   "hero",
+   "sports-education",
+   "ecommerce"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal",
+   "technical"
+  ],
+  "keywords": [
+   "120ms",
+   "1240ms",
+   "28px",
+   "52px",
+   "90px",
+   "absolute",
+   "across",
+   "activewear",
+   "after",
+   "against",
+   "agrees",
+   "air",
+   "airflow",
+   "alone",
+   "along",
+   "already",
+   "and",
+   "anisotropic",
+   "apparel",
+   "are",
+   "around",
+   "arrive",
+   "arriving",
+   "assurance",
+   "athlete",
+   "athletes",
+   "athletics",
+   "authored",
+   "axis",
+   "back",
+   "baked",
+   "bar",
+   "before",
+   "biased",
+   "bleed",
+   "blend",
+   "block",
+   "blue",
+   "blur",
+   "bottom",
+   "bracketed",
+   "brand",
+   "break",
+   "brutal",
+   "buffer",
+   "buttons",
+   "canvas",
+   "capitals",
+   "caps",
+   "card",
+   "carries",
+   "catching",
+   "caught",
+   "chain",
+   "cinematic",
+   "copy",
+   "counting",
+   "cover",
+   "cropped",
+   "crossed",
+   "crossing",
+   "ctas",
+   "cursor",
+   "curved",
+   "dark",
+   "decode",
+   "deep",
+   "delays",
+   "diagonal",
+   "difference",
+   "difference-blend",
+   "dimensional",
+   "directly",
+   "disc",
+   "displacement",
+   "displaces",
+   "does",
+   "drag",
+   "dragging",
+   "drawn",
+   "draws",
+   "driven",
+   "ecommerce",
+   "editorial",
+   "education",
+   "ellipse",
+   "endurance",
+   "entrance",
+   "every",
+   "everything",
+   "eyebrow",
+   "fade",
+   "failsafe",
+   "falloffs",
+   "field",
+   "fine",
+   "first",
+   "fitness",
+   "five",
+   "floats",
+   "fold",
+   "fonts",
+   "footage",
+   "frame",
+   "frosted",
+   "frozen",
+   "full",
+   "full-bleed",
+   "fullscreen",
+   "gate",
+   "gaussian",
+   "gear",
+   "geist",
+   "glass",
+   "glsl",
+   "grades",
+   "grips",
+   "gym",
+   "hairline",
+   "happening",
+   "headline",
+   "hero",
+   "instead",
+   "interactive",
+   "interface",
+   "item",
+   "itself",
+   "jogging",
+   "just",
+   "kit",
+   "layer",
+   "lays",
+   "lead",
+   "leaves",
+   "left",
+   "lifting",
+   "lifts",
+   "line",
+   "lines",
+   "live",
+   "load",
+   "loader",
+   "loading",
+   "looping",
+   "marathon",
+   "mid",
+   "mile",
+   "milestones",
+   "mono",
+   "motion",
+   "move",
+   "moving",
+   "nav",
+   "next",
+   "nextjs",
+   "nike",
+   "nine",
+   "one",
+   "one-screen",
+   "only",
+   "orange",
+   "page",
+   "pass",
+   "performance",
+   "photograph",
+   "photographic",
+   "picture",
+   "pinned",
+   "pointer",
+   "points",
+   "poster",
+   "preloader",
+   "react-spring",
+   "real",
+   "refuses",
+   "result",
+   "right",
+   "rotated",
+   "row",
+   "run",
+   "runner",
+   "runners",
+   "running",
+   "same",
+   "screen",
+   "second",
+   "separated",
+   "set",
+   "shader",
+   "shoes",
+   "shop",
+   "silently",
+   "single",
+   "six",
+   "sixteen",
+   "sky",
+   "smear",
+   "smears",
+   "sneakers",
+   "something",
+   "space",
+   "speed",
+   "sport",
+   "sports",
+   "sportswear",
+   "spring-text-engine",
+   "sprint",
+   "sprinter",
+   "sprinters",
+   "square",
+   "standing",
+   "start",
+   "starts",
+   "stats",
+   "step",
+   "still",
+   "store",
+   "streaks",
+   "streamlines",
+   "stride",
+   "subject",
+   "summed",
+   "tagline",
+   "telemetry",
+   "that",
+   "the",
+   "their",
+   "them",
+   "then",
+   "three",
+   "through",
+   "top",
+   "touch",
+   "track",
+   "trail",
+   "training",
+   "travelling",
+   "turbulence",
+   "two",
+   "unbroken",
+   "uncovered",
+   "uncovering",
+   "uneven",
+   "untouched",
+   "uppercase",
+   "video",
+   "wake",
+   "warm",
+   "way",
+   "webgl",
+   "webgl2",
+   "weight",
+   "wherever",
+   "while",
+   "white",
+   "whole",
+   "whose",
+   "wordmark",
+   "you",
+   "your"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/stride-nine",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Stride Nine",
+    "description": "Stride Nine — a premium website template from the GetLayers library. Two sprinters caught mid-stride against a deep blue sky, a headline set across them in unbroken white caps — and the air itself catching and dragging wherever you move.",
+    "url": "https://www.getlayers.ai/layer/stride-nine",
+    "image": "https://storage.getlayers.ai/templates/stride-nine-a6fc990c1f.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-08-06",
+    "keywords": "hero, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Stride Nine",
+      "item": "https://www.getlayers.ai/layer/stride-nine"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "stride-nine.webp": "88082 bytes",
+  "stride-nine-figma.webp": "92490 bytes"
+ }
+}

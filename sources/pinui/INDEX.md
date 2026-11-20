@@ -1,7 +1,7 @@
 # Pin UI — index
 
 > Auto-generated from `manifest.json` — do not edit by hand, run `scripts/build_source_indexes.py`.
-> **41 items** · priority 1 of 5 · MIT components and page sections with real TSX/CSS.
+> **41 items** · priority 1 of 6 · MIT components and page sections with real TSX/CSS.
 
 Install any item: `npx shadcn@latest add "https://www.pinui.xyz/r/<name>.json"`.
 Each folder holds `ITEM.md` (what it does + install), `meta.json`, the `.tsx` and its `.css`.

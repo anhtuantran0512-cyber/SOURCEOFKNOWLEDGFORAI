@@ -1,0 +1,580 @@
+{
+ "fetchedAt": "2026-11-20T15:23:27Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "wanderlust",
+  "title": "Wanderlust",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A dark, windswept travel site that lingers on wide country and quiet mornings — the kind of page that makes leaving feel overdue.",
+  "image": "https://storage.getlayers.ai/templates/wanderlust-555800a518.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/wanderlust-555800a518.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/wanderlust-555800a518-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/wanderlust-555800a518-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/wanderlust-555800a518-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/wanderlust-555800a518-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T20:26:51.490Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 10,
+     "p99": 10.3,
+     "max": 10.5,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1485,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T20:26:51.490Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.8,
+     "p99": 10.2,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 843,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/wanderlust-pagespeed-mobile-2e84030057.html",
+     "testedAt": "2026-10-08T16:38:08.690Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 81,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 907,
+      "LCP": 4426,
+      "TBT": 219,
+      "CLS": 0,
+      "SI": 1787
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/wanderlust-pagespeed-desktop-0c6edf0b11.html",
+     "testedAt": "2026-10-08T16:39:08.340Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 97,
+      "accessibility": 97,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 248,
+      "LCP": 881,
+      "TBT": 129,
+      "CLS": 0,
+      "SI": 613
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "TravelAgency",
+      "ImageObject",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 225,
+  "createdAt": "2026-08-23",
+  "typeTags": [
+   "full-page",
+   "hospitality-travel"
+  ],
+  "tone": "dark",
+  "mood": [
+   "organic",
+   "luxe"
+  ],
+  "keywords": [
+   "1024",
+   "55ms",
+   "accordion",
+   "across",
+   "adventure",
+   "adventure brand",
+   "adventure travel",
+   "aerial",
+   "after",
+   "alone",
+   "along",
+   "alphas",
+   "already",
+   "also",
+   "and",
+   "angle",
+   "around",
+   "arrives",
+   "assembles",
+   "atmospheric",
+   "backdrop",
+   "because",
+   "behind",
+   "below",
+   "bits",
+   "black",
+   "bleed",
+   "blocks",
+   "booking",
+   "brightened",
+   "built",
+   "camera",
+   "capital",
+   "captions",
+   "cinematic",
+   "clip",
+   "collage",
+   "company",
+   "continuous",
+   "counter",
+   "counting",
+   "country",
+   "cream",
+   "cta",
+   "cursor",
+   "cut",
+   "dark",
+   "destination",
+   "destinations",
+   "directions",
+   "display",
+   "dissolved",
+   "documentary",
+   "editorial",
+   "else",
+   "encoder",
+   "escape",
+   "every",
+   "everywhere",
+   "expedition",
+   "experiences",
+   "exploration",
+   "explore",
+   "exposure",
+   "fewest",
+   "film",
+   "film-grain",
+   "first",
+   "fjords",
+   "flying",
+   "following",
+   "footage",
+   "footer",
+   "found",
+   "four",
+   "frame",
+   "frosted",
+   "full",
+   "gallery",
+   "gather",
+   "gathering",
+   "glacial",
+   "glass",
+   "goes",
+   "golden",
+   "grain",
+   "group",
+   "guided tours",
+   "half",
+   "hands",
+   "handwriting",
+   "handwritten",
+   "headline",
+   "height",
+   "hiking",
+   "hospitality",
+   "hover-widen",
+   "iceland",
+   "immersive",
+   "instead",
+   "interface",
+   "into",
+   "italic",
+   "itinerary",
+   "itself",
+   "journey",
+   "jumps",
+   "lamp",
+   "landing",
+   "landing page",
+   "landscape",
+   "last",
+   "layered",
+   "leading",
+   "leaning",
+   "left",
+   "lenis",
+   "lens",
+   "light",
+   "like",
+   "line",
+   "list",
+   "loader",
+   "looked",
+   "looking",
+   "manifesto",
+   "mask",
+   "media",
+   "moment",
+   "monochrome",
+   "moody",
+   "mountain",
+   "mountains",
+   "nature",
+   "near",
+   "near-black",
+   "never",
+   "newsletter",
+   "next",
+   "nextjs",
+   "nordic",
+   "note",
+   "nothing",
+   "off",
+   "once",
+   "one",
+   "onto",
+   "opening",
+   "opens",
+   "out",
+   "outdoors",
+   "over",
+   "own",
+   "page",
+   "panels",
+   "pans",
+   "parallax",
+   "photographic",
+   "photography",
+   "pinned",
+   "played",
+   "point",
+   "pointer-follow",
+   "polaroid",
+   "polaroids",
+   "postcards",
+   "preloader",
+   "quite",
+   "rather",
+   "react-spring",
+   "reader",
+   "recording",
+   "red",
+   "reserved",
+   "resolution",
+   "restack",
+   "retreat",
+   "reveal",
+   "rides",
+   "river",
+   "road trip",
+   "saturated",
+   "scaling",
+   "scandinavian",
+   "scattered",
+   "scene",
+   "scenic",
+   "scroll",
+   "scroll driven",
+   "scroll-scrub",
+   "serif",
+   "shot",
+   "single",
+   "single-ink",
+   "sixteen",
+   "slides",
+   "slow travel",
+   "small",
+   "small group",
+   "small group trips",
+   "spent",
+   "stack",
+   "stagger",
+   "stepped",
+   "sticky",
+   "stops",
+   "storytelling",
+   "table",
+   "tailwind",
+   "tally",
+   "than",
+   "that",
+   "the",
+   "their",
+   "them",
+   "then",
+   "there",
+   "three",
+   "tilt",
+   "tilting",
+   "tour operator",
+   "tourism",
+   "tours",
+   "toward",
+   "travel",
+   "travel agency",
+   "travel blog",
+   "trekking",
+   "trip planning",
+   "trips",
+   "true",
+   "type",
+   "under",
+   "valley",
+   "vertical",
+   "video",
+   "video-hero",
+   "view",
+   "wanderlust",
+   "warm",
+   "what",
+   "when",
+   "where",
+   "while",
+   "whole",
+   "whose",
+   "widen",
+   "wilderness",
+   "window",
+   "word",
+   "word-reveal",
+   "wordmark",
+   "writes",
+   "written",
+   "you"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/wanderlust",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Wanderlust",
+    "description": "Wanderlust — a premium website template from the GetLayers library. A dark, windswept travel site that lingers on wide country and quiet mornings — the kind of page that makes leaving feel overdue.",
+    "url": "https://www.getlayers.ai/layer/wanderlust",
+    "image": "https://storage.getlayers.ai/templates/wanderlust-555800a518.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-08-23",
+    "keywords": "landing page, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Wanderlust",
+      "item": "https://www.getlayers.ai/layer/wanderlust"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "wanderlust.webp": "62010 bytes",
+  "wanderlust-figma.webp": "145126 bytes"
+ }
+}

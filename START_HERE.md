@@ -3,7 +3,7 @@
 > ⚠️ **IMPORTANT SOURCE FOR WEB — 100% USE**
 >
 > Every design decision must be traceable to this repository. Before writing UI code you query **all
-> five** libraries in `sources/`, open at most three real references, and record the coverage block in
+> six** libraries in `sources/`, open at most three real references, and record the coverage block in
 > §2. A brief without that block is rejected — no exceptions, no "I already know how to build a card".
 
 > Why this filename: `AGENT.md` and `AGENTS.md` are excluded by the host's global gitignore,
@@ -15,14 +15,14 @@
 |---:|---|---|
 | 1 | this file | the rule, the order, the acceptance block |
 | 2 | [`llms.txt`](llms.txt) | one-page map for LLM crawlers |
-| 3 | [`sources/README.md`](sources/README.md) | how to choose between the five libraries |
+| 3 | [`sources/README.md`](sources/README.md) | how to choose between the six libraries |
 | 4 | [`sources/<name>/INDEX.md`](sources/) | **every item** in that library, as a link + one line |
 | 5 | the item file you picked | the prompt, the code, the brief |
 
 `INDEX.md` per folder is the answer to "what is in here" — it is generated from `manifest.json`, so it is
 complete and current. Read it instead of listing folders or loading 66 MB of JSON.
 
-## 1. What exists — 6,770 items across five libraries
+## 1. What exists — 6,832 items across six libraries
 
 | Priority | Library | Items | What it gives | Code? |
 |---:|---|---:|---|---|
@@ -31,10 +31,11 @@ complete and current. Read it instead of listing folders or loading 66 MB of JSO
 | 3 | [`sources/motionsites/`](sources/motionsites/INDEX.md) | 321 | Whole-section briefs: hero, pricing, footer, ecommerce, SaaS | prompt only |
 | 4 | [`sources/lucianlabs/`](sources/lucianlabs/INDEX.md) | 400 | MIT elements with working code, runnable demo, theme tokens | ✅ full source |
 | 5 | [`sources/codefronts/`](sources/codefronts/INDEX.md) | 5,047 | Breadth: components, layouts, navigation, motion, design styles | prompt + code |
+| 6 | [`sources/getlayers/`](sources/getlayers/INDEX.md) | 62 | Whole-page and hero templates: stack, tone, frame timings, Lighthouse, previews | 11 free prompts, 51 locked |
 
 ## 2. The 100% rule (hard gate)
 
-1. **Query all five folders** — at minimum their `INDEX.md`. Cost is one grep each.
+1. **Query all six folders** — at minimum their `INDEX.md`. Cost is one grep each.
 2. **Choose in priority order** 1 → 5. A cheaper-looking CodeFronts snippet does not outrank a Pin UI
    component that has real behaviour, and a ThreeUI reference outranks nothing for code (it has none).
 3. **Open at most three files.** One strong reference beats three weak ones.
@@ -47,10 +48,11 @@ complete and current. Read it instead of listing folders or loading 66 MB of JSO
 - motionsites: used hero/interactive-discovery — spotlight reveal direction
 - lucianlabs : used #056 — pricing toggle motion values (160ms, cubic-bezier(.2,.8,.2,1))
 - codefronts : checked pricing/hero — nothing closer than the two above
+- getlayers  : used soda — cinematic 3D hero direction, frame budget for the product stage
 - decision   : Pin UI structure + lucianLabs motion + MotionSites section flow
 ```
 
-Five lines. One per library. `used` or `skipped — <reason>`. Missing line = missing coverage.
+Six lines. One per library. `used` or `skipped — <reason>`. Missing line = missing coverage.
 
 5. **Never invent** an item, an id or a path. If an `INDEX.md` lists it, it exists; otherwise say "not in
    the archive" and build from first principles with the same tokens.
@@ -65,7 +67,7 @@ curl -s $BASE/sources/pinui/INDEX.md       | grep -i "pricing"
 curl -s $BASE/sources/threeui/INDEX.md     | grep -i "background"
 
 # every library at once, by keyword
-for s in pinui threeui motionsites lucianlabs codefronts; do
+for s in pinui threeui motionsites lucianlabs codefronts getlayers; do
   echo "== $s"; curl -s $BASE/sources/$s/INDEX.md | grep -i "dashboard" | head -5
 done
 
@@ -85,6 +87,7 @@ Cloned? the same greps work locally: `grep -ri "pricing" sources/*/INDEX.md`.
 | Pricing, hero, footer, FAQ, ecommerce section | motionsites | codefronts for the parts inside |
 | 3D hero, WebGL background, scroll-driven scene | threeui (direction) | lucianlabs + codefronts for the parts |
 | Layout, navigation, page skeleton, design style | codefronts | pinui for interactive islands |
+| Whole page or hero with a named stack and perf budget | getlayers | threeui for 3D direction, pinui for islands |
 
 ## 5. Adaptation rules
 
@@ -99,7 +102,7 @@ Cloned? the same greps work locally: `grep -ri "pricing" sources/*/INDEX.md`.
 
 ## 6. Before you say done
 
-- [ ] coverage block present, five lines
+- [ ] coverage block present, six lines
 - [ ] 390 / 768 / 1440 px checked
 - [ ] keyboard path works, focus visible
 - [ ] `prefers-reduced-motion` path exists

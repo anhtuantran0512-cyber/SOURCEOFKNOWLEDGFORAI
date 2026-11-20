@@ -1,0 +1,570 @@
+{
+ "fetchedAt": "2026-11-20T15:25:01Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "dantora",
+  "title": "Dantora",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A medical clinic told through ink in water — a green double helix that never stops shedding plumes, swirling outward on an evolving noise flow and parting wherever your cursor goes, with photographs trailing off the pointer, a rail of services that scrubs sideways under your scroll, and every block riding up over the one before it.",
+  "image": "https://storage.getlayers.ai/templates/dantora-ee8f83f9a3.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/dantora-ee8f83f9a3.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/dantora-ee8f83f9a3-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/dantora-ee8f83f9a3-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/dantora-ee8f83f9a3-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/dantora-ee8f83f9a3-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T17:55:41.166Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.4,
+     "p95": 16.3,
+     "p99": 17.6,
+     "max": 33.3,
+     "droppedPct": 0.37,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1433,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T17:55:41.166Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.9,
+     "p99": 10.3,
+     "max": 33.3,
+     "droppedPct": 0.19,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1026,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/dantora-pagespeed-mobile-9e912016f0.html",
+     "testedAt": "2026-10-08T16:19:24.300Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 906,
+      "LCP": 1537,
+      "TBT": 25,
+      "CLS": 0,
+      "SI": 3840
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/dantora-pagespeed-desktop-5ca8bd8dde.html",
+     "testedAt": "2026-10-08T16:20:17.078Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 273,
+      "LCP": 421,
+      "TBT": 20,
+      "CLS": 0,
+      "SI": 366
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "MedicalClinic",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 168,
+  "createdAt": "2026-08-11",
+  "typeTags": [
+   "full-page",
+   "health-science"
+  ],
+  "tone": "light",
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "keywords": [
+   "000",
+   "160",
+   "3d",
+   "about",
+   "after",
+   "along",
+   "already",
+   "and",
+   "another",
+   "appears",
+   "appointment",
+   "around",
+   "arriving",
+   "away",
+   "ball",
+   "band",
+   "banner",
+   "bar",
+   "because",
+   "behind",
+   "between",
+   "biotech",
+   "black",
+   "bleeding",
+   "blended",
+   "block",
+   "blocks",
+   "blur",
+   "blur-reveal",
+   "booking",
+   "born",
+   "both",
+   "bottom",
+   "bounce",
+   "brand",
+   "built",
+   "calm",
+   "camera",
+   "cards",
+   "carousel",
+   "carrying",
+   "check-up",
+   "clean",
+   "clears",
+   "climbing",
+   "clinic",
+   "clips",
+   "clockwise",
+   "clouds",
+   "comes",
+   "consultation",
+   "contact",
+   "contact form",
+   "continuously",
+   "copy",
+   "count",
+   "counter",
+   "cursor",
+   "cursor-trail",
+   "curtain",
+   "dantora",
+   "darkens",
+   "deform",
+   "diagnosis",
+   "diagnostics",
+   "diagonal",
+   "diffusion",
+   "disperses",
+   "dissolving",
+   "dna",
+   "doctor",
+   "doctors",
+   "double",
+   "down",
+   "drag",
+   "drawing",
+   "drawn",
+   "draws",
+   "drifts",
+   "dropped",
+   "dye",
+   "each",
+   "editorial",
+   "evolving",
+   "falling",
+   "fills",
+   "five",
+   "flow",
+   "focus",
+   "following",
+   "form",
+   "four",
+   "frosted",
+   "full",
+   "function",
+   "genetic-testing",
+   "genetics",
+   "genomic",
+   "glass",
+   "glowing",
+   "glsl",
+   "green",
+   "hard",
+   "health",
+   "healthcare",
+   "helix",
+   "hero",
+   "horizontal-scroll",
+   "hospital",
+   "hugging",
+   "image-trail",
+   "imaging",
+   "ink",
+   "instead",
+   "into",
+   "itself",
+   "lab",
+   "laboratory",
+   "landing",
+   "landing page",
+   "lazily",
+   "life",
+   "life-sciences",
+   "lift",
+   "light",
+   "lime",
+   "loader",
+   "mark",
+   "medical",
+   "mid",
+   "mint",
+   "more",
+   "mouse",
+   "moves",
+   "moving",
+   "much",
+   "multiply",
+   "next",
+   "nextjs",
+   "noise",
+   "normalised",
+   "nothing",
+   "nowhere",
+   "numbers",
+   "oldest",
+   "one",
+   "opens",
+   "out",
+   "outward",
+   "over",
+   "overlay",
+   "page",
+   "pale",
+   "panel",
+   "paper",
+   "parallax",
+   "part",
+   "particles",
+   "parting",
+   "path",
+   "patient",
+   "photographs",
+   "physician",
+   "pinned",
+   "pins",
+   "plume",
+   "point",
+   "point-cloud",
+   "pointer",
+   "points",
+   "practice",
+   "preloader",
+   "prevention",
+   "private",
+   "progress",
+   "pure",
+   "pushed",
+   "radiology",
+   "rail",
+   "rather",
+   "releasing",
+   "resolving",
+   "rides",
+   "ring",
+   "runway",
+   "scaling",
+   "science",
+   "screening",
+   "scroll",
+   "scroll-hijack",
+   "scrolled",
+   "scrub",
+   "sequence",
+   "service",
+   "settling",
+   "shader",
+   "shedding",
+   "sideways",
+   "simplex",
+   "slider",
+   "sliding",
+   "soft",
+   "spawns",
+   "specialist",
+   "spring-text-engine",
+   "statistics",
+   "stays",
+   "sticky",
+   "strand",
+   "swelling",
+   "swirls",
+   "team",
+   "than",
+   "that",
+   "the",
+   "their",
+   "them",
+   "then",
+   "thinning",
+   "thins",
+   "threejs",
+   "throw",
+   "top",
+   "transitions",
+   "trustworthy",
+   "turn",
+   "twice",
+   "under",
+   "underneath",
+   "viewport",
+   "wall",
+   "was",
+   "water",
+   "webgl",
+   "wellness",
+   "where",
+   "wherever",
+   "while",
+   "white",
+   "whose",
+   "without",
+   "words",
+   "you",
+   "your"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/dantora",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Dantora",
+    "description": "Dantora — a premium website template from the GetLayers library. A medical clinic told through ink in water — a green double helix that never stops shedding plumes, swirling outward on an evolving noise flow and parting wherever your cursor goes, with photographs trailing off the pointer, a rail of services that scrubs sideways under your scroll, and every block riding up over the one before it.",
+    "url": "https://www.getlayers.ai/layer/dantora",
+    "image": "https://storage.getlayers.ai/templates/dantora-ee8f83f9a3.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-08-11",
+    "keywords": "landing page, threejs, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Dantora",
+      "item": "https://www.getlayers.ai/layer/dantora"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "dantora.webp": "132122 bytes",
+  "dantora-figma.webp": "85262 bytes"
+ }
+}

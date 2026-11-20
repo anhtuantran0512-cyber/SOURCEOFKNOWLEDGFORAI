@@ -1,7 +1,7 @@
 # lucianLabs — index
 
 > Auto-generated from `manifest.json` — do not edit by hand, run `scripts/build_source_indexes.py`.
-> **400 items** · priority 4 of 5 · MIT elements with working code, theme tokens and a runnable demo. 400/400 matches the upstream repo.
+> **400 items** · priority 4 of 6 · MIT elements with working code, theme tokens and a runnable demo. 400/400 matches the upstream repo.
 
 Every prompt is ready to paste; `demos/...html` opens in a browser. Tokens live in `tokens.css`.
 

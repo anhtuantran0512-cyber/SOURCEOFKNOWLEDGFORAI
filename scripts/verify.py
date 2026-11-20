@@ -94,6 +94,31 @@ def main() -> int:
     if not (SOURCES / "threeui" / "tags.json").exists():
         errors.append("sources/threeui/tags.json missing")
 
+    gl = load(SOURCES / "getlayers" / "manifest.json")
+    report["getlayers"] = check_dirs(gl, "path", 62, errors, "getlayers")
+    stills_missing = sum(
+        1 for row in gl if not row.get("preview") or not (ROOT / row["preview"]).exists()
+    )
+    report["getlayers"]["stills_missing"] = stills_missing
+    if stills_missing:
+        errors.append(f"getlayers poster stills missing: {stills_missing}")
+    prompt_rows = [row for row in gl if row.get("prompt_path")]
+    for row in prompt_rows:
+        path = ROOT / row["prompt_path"]
+        if not path.exists():
+            errors.append(f"getlayers prompt missing: {row['prompt_path']}")
+        elif not path.read_text(encoding="utf-8", errors="ignore").startswith("---"):
+            errors.append(f"getlayers prompt missing frontmatter: {row['prompt_path']}")
+    premium_leaks = [row["id"] for row in gl if row.get("tier") != "Free" and row.get("prompt_path")]
+    report["getlayers"]["free_prompts"] = len(prompt_rows)
+    report["getlayers"]["premium_leaks"] = len(premium_leaks)
+    if premium_leaks:
+        errors.append(f"premium GetLayers prompts present in archive: {premium_leaks[:5]}")
+    for name in ("getlayers",):
+        for required in ("catalog.json", "README.md", "INDEX.md"):
+            if not (SOURCES / name / required).exists():
+                errors.append(f"sources/{name}/{required} missing")
+
     report["errors"] = errors
     (ROOT / "verify-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 

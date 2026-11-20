@@ -1,0 +1,355 @@
+{
+ "fetchedAt": "2026-11-20T15:22:39Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "baseline",
+  "title": "Baseline",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "tier": "Free",
+  "description": "A members' tennis club and academy carried with championship poise — deep court-blue, confident type, and a calm scroll that reveals the coaching, the courts, and the pedigree one beat at a time.",
+  "image": "https://storage.getlayers.ai/templates/baseline.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/baseline.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/baseline-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/baseline-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/baseline-mobile.mp4",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T17:15:35.750Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 10,
+     "p99": 10.3,
+     "max": 18.3,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1613,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T17:15:35.750Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.9,
+     "p99": 10.3,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 702,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/baseline-pagespeed-mobile-197cd6e55c.html",
+     "testedAt": "2026-10-08T16:16:11.608Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 1951,
+      "TBT": 81,
+      "CLS": 0,
+      "SI": 1107
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/baseline-pagespeed-desktop-bb3b60eb57.html",
+     "testedAt": "2026-10-08T16:17:52.615Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 461,
+      "TBT": 12,
+      "CLS": 0.001,
+      "SI": 425
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "SportsActivityLocation",
+      "ImageObject",
+      "PostalAddress",
+      "OpeningHoursSpecification",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "likes": 252,
+  "createdAt": "2026-05-09",
+  "typeTags": [
+   "full-page",
+   "sports-education"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "keywords": [
+   "marketing",
+   "sports",
+   "academy",
+   "blue",
+   "next",
+   "baseline",
+   "bright",
+   "confident",
+   "tennis",
+   "landing",
+   "page",
+   "royal",
+   "white",
+   "hero",
+   "court",
+   "trust",
+   "bar",
+   "program",
+   "cards",
+   "facilities",
+   "stat",
+   "counters",
+   "testimonials",
+   "closing",
+   "footer",
+   "contact",
+   "modal",
+   "full",
+   "education"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp",
+  "hasFigma": false
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/baseline",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Baseline",
+    "description": "Baseline — a free website template from the GetLayers library. A members' tennis club and academy carried with championship poise — deep court-blue, confident type, and a calm scroll that reveals the coaching, the courts, and the pedigree one beat at a time.",
+    "url": "https://www.getlayers.ai/layer/baseline",
+    "image": "https://storage.getlayers.ai/templates/baseline.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-05-09",
+    "keywords": "landing page, nextjs",
+    "isAccessibleForFree": true,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "0",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Baseline",
+      "item": "https://www.getlayers.ai/layer/baseline"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "rate_limited"
+ },
+ "files": {
+  "baseline.webp": "26044 bytes"
+ }
+}

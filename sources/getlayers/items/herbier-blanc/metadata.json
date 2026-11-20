@@ -1,0 +1,454 @@
+{
+ "fetchedAt": "2026-11-20T15:23:32Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "herbier-blanc",
+  "title": "Herbier Blanc",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A small Lyon perfume house in paper and crimson: a bottle gathered out of mist, a sealed letter, a handwritten note.",
+  "image": "https://storage.getlayers.ai/templates/herbier-blanc-16cf9a3827.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/herbier-blanc-16cf9a3827.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/herbier-blanc-16cf9a3827-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/herbier-blanc-16cf9a3827-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/herbier-blanc-16cf9a3827-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/herbier-blanc-16cf9a3827-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-16T03:20:32.034Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.4,
+     "p95": 16.6,
+     "p99": 17.3,
+     "max": 24.6,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1862,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-16T03:20:32.034Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.2,
+     "p99": 9.4,
+     "max": 17.1,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1080,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/herbier-blanc-pagespeed-mobile-7638d46359.html",
+     "testedAt": "2026-10-16T03:28:16.259Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 1109,
+      "LCP": 1109,
+      "TBT": 32,
+      "CLS": 0,
+      "SI": 2231
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/herbier-blanc-pagespeed-desktop-0d028970a4.html",
+     "testedAt": "2026-10-16T03:29:24.801Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 327,
+      "LCP": 607,
+      "TBT": 19,
+      "CLS": 0,
+      "SI": 575
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 221,
+  "createdAt": "2026-10-16",
+  "typeTags": [
+   "full-page",
+   "ecommerce"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "artisan",
+   "atelier",
+   "beauty",
+   "black",
+   "blanc",
+   "block",
+   "botanical",
+   "bottle",
+   "boutique",
+   "burgundy",
+   "calligraphy",
+   "chamomile",
+   "cosmetics",
+   "craft",
+   "cream",
+   "crimson",
+   "cursor",
+   "cursor ripple",
+   "curtain",
+   "curtain reveal",
+   "curtains",
+   "daisy",
+   "discovery set",
+   "eau de parfum",
+   "ecommerce",
+   "editorial",
+   "envelope",
+   "field",
+   "film grain",
+   "fine",
+   "floral",
+   "flowers",
+   "formula",
+   "fragrance",
+   "france",
+   "french",
+   "full",
+   "gathered",
+   "gathering",
+   "gerbera",
+   "gerberas",
+   "glass",
+   "glass bottle",
+   "grasse",
+   "hand",
+   "handmade",
+   "handwriting",
+   "handwritten",
+   "herbarium",
+   "herbier",
+   "house",
+   "image sequence",
+   "ink",
+   "landing page",
+   "lenis",
+   "letter",
+   "lifting",
+   "like",
+   "luxury",
+   "lyon",
+   "mist",
+   "name",
+   "next",
+   "nextjs",
+   "niche perfume",
+   "note",
+   "odometer",
+   "off",
+   "one page",
+   "one-page",
+   "online store",
+   "opens",
+   "orange",
+   "oxblood",
+   "page",
+   "paper",
+   "parallax",
+   "parfum",
+   "particles",
+   "parting",
+   "passes",
+   "perfume",
+   "perfume brand",
+   "perfume house",
+   "perfume shop",
+   "perfumer",
+   "perfumery",
+   "photo",
+   "pinned section",
+   "preloader",
+   "product launch",
+   "product page",
+   "react-spring",
+   "red",
+   "rippling",
+   "rising",
+   "row",
+   "sample",
+   "samples",
+   "scent",
+   "script",
+   "scroll",
+   "scroll video",
+   "scroll-scrubbed video",
+   "sealed",
+   "serif",
+   "sheet transition",
+   "sheet transitions",
+   "sheets",
+   "shop",
+   "signature",
+   "signed",
+   "single product",
+   "six",
+   "skincare",
+   "slanted",
+   "small",
+   "small batch",
+   "stacked sections",
+   "stationery",
+   "sticky",
+   "uncover",
+   "vials",
+   "vortex",
+   "warm",
+   "water",
+   "water ripple",
+   "webgl",
+   "whirl",
+   "written"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/herbier-blanc",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Herbier Blanc",
+    "description": "Herbier Blanc — a premium website template from the GetLayers library. A small Lyon perfume house in paper and crimson: a bottle gathered out of mist, a sealed letter, a handwritten note.",
+    "url": "https://www.getlayers.ai/layer/herbier-blanc",
+    "image": "https://storage.getlayers.ai/templates/herbier-blanc-16cf9a3827.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-10-16",
+    "keywords": "landing page, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Herbier Blanc",
+      "item": "https://www.getlayers.ai/layer/herbier-blanc"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "herbier-blanc.webp": "122416 bytes",
+  "herbier-blanc-figma.webp": "218046 bytes"
+ }
+}

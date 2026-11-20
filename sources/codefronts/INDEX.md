@@ -1,7 +1,7 @@
 # CodeFronts — index
 
 > Auto-generated from `manifest.json` — do not edit by hand, run `scripts/build_source_indexes.py`.
-> **5047 items** · priority 5 of 5 · Widest standalone CSS/Tailwind coverage. Each file is a ready-to-paste prompt with code.
+> **5047 items** · priority 5 of 6 · Widest standalone CSS/Tailwind coverage. Each file is a ready-to-paste prompt with code.
 
 Too big to read top to bottom: filter `manifest.json` or search this file (`Ctrl+F` / `grep -i`).
 

@@ -1,7 +1,7 @@
 # MotionSites AI — index
 
 > Auto-generated from `manifest.json` — do not edit by hand, run `scripts/build_source_indexes.py`.
-> **321 items** · priority 3 of 5 · Free website-section prompts (hero, pricing, footer, ecommerce, SaaS). Paid prompts excluded.
+> **321 items** · priority 3 of 6 · Free website-section prompts (hero, pricing, footer, ecommerce, SaaS). Paid prompts excluded.
 
 Each file is a section brief with layout, copy direction and the code block the site publishes.
 

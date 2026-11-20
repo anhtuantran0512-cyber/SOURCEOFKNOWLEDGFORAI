@@ -33,7 +33,7 @@ Source priority:
 
 Every folder has a generated `INDEX.md` listing all of its items (`sources/<name>/INDEX.md`) — read that
 first, it answers "what is in here" without loading the manifests. `sources/README.md` explains how to
-choose between the five, and `llms.txt` is the crawler-sized map of the whole repository.
+choose between the six, and `llms.txt` is the crawler-sized map of the whole repository.
 
 ---
 

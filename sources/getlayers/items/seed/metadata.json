@@ -1,0 +1,472 @@
+{
+ "fetchedAt": "2026-11-20T15:24:50Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "seed",
+  "title": "Seed",
+  "category": "template",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A dandelion clock glowing in golden-hour backlight — breathe on it and its seeds drift off on the wind.",
+  "image": "https://storage.getlayers.ai/templates/seed-0c0d9637a5.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/seed-0c0d9637a5.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/seed-0c0d9637a5-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/seed-0c0d9637a5-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/seed-0c0d9637a5-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/seed-0c0d9637a5-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-23T13:20:57.914Z",
+     "runs": 5,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 9.2,
+     "p99": 9.3,
+     "max": 9.3,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 332,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-23T13:20:57.914Z",
+     "runs": 5,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.2,
+     "p99": 9.3,
+     "max": 16.8,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 962,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/seed-pagespeed-mobile-d3ca7473a3.html",
+     "testedAt": "2026-10-23T16:21:20.780Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 1951,
+      "TBT": 49,
+      "CLS": 0,
+      "SI": 1156
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/seed-pagespeed-desktop-aaf857aac2.html",
+     "testedAt": "2026-10-23T16:22:12.865Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 524,
+      "TBT": 10,
+      "CLS": 0,
+      "SI": 407
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": true
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 202,
+  "createdAt": "2026-10-24",
+  "typeTags": [
+   "hero"
+  ],
+  "tone": "light",
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "keywords": [
+   "3d",
+   "air",
+   "archway",
+   "away",
+   "back",
+   "backlight",
+   "backlit",
+   "bloom",
+   "blooming",
+   "blow",
+   "blows",
+   "blur in",
+   "bokeh",
+   "botanical",
+   "brand",
+   "breath",
+   "breathe",
+   "calm",
+   "centre",
+   "click",
+   "click to blow",
+   "climbs",
+   "clock",
+   "close-up",
+   "counter",
+   "cream",
+   "cross",
+   "cursor",
+   "cursor interaction",
+   "dandelion",
+   "dandelion clock",
+   "deep",
+   "depth of field",
+   "dots",
+   "drawn",
+   "dreamy",
+   "drift",
+   "drifting",
+   "drifting seeds",
+   "eco",
+   "editorial",
+   "field",
+   "floating",
+   "flower",
+   "flowered",
+   "forest",
+   "forest green",
+   "frosted",
+   "frosted glass",
+   "garden",
+   "giant",
+   "giant wordmark",
+   "glass",
+   "glassmorphism",
+   "glow",
+   "glowing",
+   "glsl",
+   "gold",
+   "golden",
+   "golden hour",
+   "grass",
+   "green",
+   "grows",
+   "gust",
+   "hair",
+   "hairline rules",
+   "hero",
+   "hero section",
+   "hole",
+   "hour",
+   "instrument serif",
+   "interactive",
+   "landing page",
+   "leaning",
+   "lenis",
+   "lens flare",
+   "letting",
+   "like",
+   "line",
+   "lit",
+   "live",
+   "loader",
+   "looping",
+   "low",
+   "macro",
+   "make a wish",
+   "mask reveal",
+   "meadow",
+   "mouse interaction",
+   "nature",
+   "nextjs",
+   "off",
+   "one-page",
+   "onto",
+   "opening",
+   "organic",
+   "organic brand",
+   "pappus",
+   "particles",
+   "peaceful",
+   "photoreal",
+   "pill buttons",
+   "pills",
+   "poetic",
+   "preloader",
+   "procedural",
+   "react",
+   "react-spring",
+   "realistic",
+   "rest",
+   "reveal",
+   "round",
+   "rules",
+   "seed",
+   "seeds",
+   "serene",
+   "serif",
+   "shader",
+   "single screen",
+   "soft",
+   "soft focus",
+   "spring",
+   "stat card",
+   "stone",
+   "strips",
+   "summer",
+   "sun",
+   "sun flare",
+   "sunlight",
+   "sunset",
+   "sustainability",
+   "tailwind",
+   "text animation",
+   "thin",
+   "three.js",
+   "threejs",
+   "tiny",
+   "tumbling",
+   "video",
+   "video card",
+   "warm",
+   "wave",
+   "webgl",
+   "wellness",
+   "white",
+   "wind",
+   "wish"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/seed",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Seed",
+    "description": "Seed — a premium website template from the GetLayers library. A dandelion clock glowing in golden-hour backlight — breathe on it and its seeds drift off on the wind.",
+    "url": "https://www.getlayers.ai/layer/seed",
+    "image": "https://storage.getlayers.ai/templates/seed-0c0d9637a5.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-10-24",
+    "keywords": "hero, threejs, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Seed",
+      "item": "https://www.getlayers.ai/layer/seed"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "seed.webp": "174872 bytes",
+  "seed-figma.webp": "217000 bytes"
+ }
+}

@@ -1,6 +1,6 @@
-# sources/ — the five libraries
+# sources/ — the six libraries
 
-**6,770 reference items.** Open the `INDEX.md` of a folder to see every item it holds; open `README.md` for how that source was collected and licensed.
+**6,832 reference items.** Open the `INDEX.md` of a folder to see every item it holds; open `README.md` for how that source was collected and licensed.
 
 ## Read in this order
 
@@ -11,6 +11,7 @@
 | 3 | [`motionsites/`](motionsites/) | 321 | [`INDEX.md`](motionsites/INDEX.md) | Whole-section briefs and art direction. Free prompts only. |
 | 4 | [`lucianlabs/`](lucianlabs/) | 400 | [`INDEX.md`](lucianlabs/INDEX.md) | Highest craft per element: MIT, working code, runnable demo. |
 | 5 | [`codefronts/`](codefronts/) | 5047 | [`INDEX.md`](codefronts/INDEX.md) | Breadth: 5,047 CSS/Tailwind components, layouts, motion, design styles. |
+| 6 | [`getlayers/`](getlayers/) | 62 | [`INDEX.md`](getlayers/INDEX.md) | Whole-page and hero templates with stack, tone and measured performance. Free prompts + metadata. |
 
 ## Choosing rule
 
@@ -19,8 +20,9 @@
 3. Whole section or landing-page structure → **motionsites**.
 4. 3D, WebGL, scroll-driven hero → **threeui** for direction, then build.
 5. Anything else — layout, navigation, motion, design style → **codefronts**.
+6. Whole page or hero with a named stack and a measured perf budget → **getlayers**.
 
-All five must be checked before code is written; the coverage block is defined in [`../START_HERE.md`](../START_HERE.md).
+All six must be checked before code is written; the coverage block is defined in [`../START_HERE.md`](../START_HERE.md).
 
 ## Machine-readable
 

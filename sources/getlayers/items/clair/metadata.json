@@ -1,0 +1,374 @@
+{
+ "fetchedAt": "2026-11-20T15:26:24Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "clair",
+  "title": "Clair",
+  "category": "template",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A prism-glass lightning bolt hangs in a slow indigo current, splitting the light into violet and amber as it leans toward you — a dark, exacting hero for a product that promises the clearer call.",
+  "image": "https://storage.getlayers.ai/templates/clair-809ec0c996.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/clair-809ec0c996.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/clair-809ec0c996-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/clair-809ec0c996-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/clair-809ec0c996-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/clair-809ec0c996-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T17:25:10.047Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 9.9,
+     "p99": 10.3,
+     "max": 16.7,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 318,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T17:25:10.047Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.9,
+     "p99": 10.3,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 982,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/clair-pagespeed-mobile-3ea1f5b415.html",
+     "testedAt": "2026-10-08T16:16:09.972Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 1801,
+      "TBT": 17,
+      "CLS": 0,
+      "SI": 3468
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/clair-pagespeed-desktop-433b7ad949.html",
+     "testedAt": "2026-10-08T16:17:00.146Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 527,
+      "TBT": 5,
+      "CLS": 0,
+      "SI": 241
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "ImageObject",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 83,
+  "createdAt": "2026-07-12",
+  "typeTags": [
+   "hero",
+   "ai-tech",
+   "saas"
+  ],
+  "tone": "dark",
+  "mood": [
+   "brutal",
+   "technical"
+  ],
+  "keywords": [
+   "hero",
+   "product",
+   "ai",
+   "saas",
+   "webgl",
+   "glass",
+   "lightning-bolt",
+   "video-background",
+   "dark",
+   "next",
+   "clair",
+   "brutal",
+   "technical",
+   "white",
+   "mulish",
+   "type",
+   "pure",
+   "black",
+   "stage",
+   "indigo",
+   "violet",
+   "swirl",
+   "running",
+   "full",
+   "bleed",
+   "behind",
+   "live",
+   "lightning",
+   "bolt",
+   "dispersive",
+   "amber",
+   "lit",
+   "leaning",
+   "toward",
+   "cursor",
+   "per",
+   "letter",
+   "headline",
+   "cascade",
+   "word",
+   "copy",
+   "reveals",
+   "released",
+   "intro",
+   "preloader",
+   "tech"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/clair",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Clair",
+    "description": "Clair — a premium website template from the GetLayers library. A prism-glass lightning bolt hangs in a slow indigo current, splitting the light into violet and amber as it leans toward you — a dark, exacting hero for a product that promises the clearer call.",
+    "url": "https://www.getlayers.ai/layer/clair",
+    "image": "https://storage.getlayers.ai/templates/clair-809ec0c996.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-07-12",
+    "keywords": "hero, threejs, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Clair",
+      "item": "https://www.getlayers.ai/layer/clair"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "clair.webp": "134260 bytes",
+  "clair-figma.webp": "92144 bytes"
+ }
+}

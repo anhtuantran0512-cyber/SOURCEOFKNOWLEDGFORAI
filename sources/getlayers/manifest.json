@@ -1,0 +1,2333 @@
+[
+ {
+  "id": "soda",
+  "title": "Soda",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "ecommerce"
+  ],
+  "typeTags": [
+   "hero",
+   "ecommerce"
+  ],
+  "category": "template",
+  "tier": "Free",
+  "tone": "dark",
+  "tags": [
+   "hero"
+  ],
+  "stack": [
+   "hero"
+  ],
+  "mood": [
+   "organic",
+   "playful"
+  ],
+  "createdAt": "2026-06-07",
+  "likes": 444,
+  "description": "A 3D soda can floats and follows your cursor while berries scatter from your touch and the whole world shifts color when you pick a flavor.",
+  "path": "sources/getlayers/items/soda/ITEM.md",
+  "prompt_path": "sources/getlayers/prompts/soda.md",
+  "preview": "sources/getlayers/assets/soda.webp",
+  "url": "https://www.getlayers.ai/layer/soda",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "kimi",
+  "title": "Kimi",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "sports-education",
+   "portfolio"
+  ],
+  "typeTags": [
+   "full-page",
+   "sports-education",
+   "portfolio"
+  ],
+  "category": "template",
+  "tier": "Free",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "createdAt": "2026-09-09",
+  "likes": 418,
+  "description": "A Formula 1 driver's site where the helmet burns off his portrait as the page loads and comes back only where your cursor has just been, the season's circuit runs a lap when you reach it, and every block after that lands over the last one like a stack of cards.",
+  "path": "sources/getlayers/items/kimi/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/kimi.webp",
+  "url": "https://www.getlayers.ai/layer/kimi",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "lumora",
+  "title": "Lumora",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "agency-studio",
+   "portfolio"
+  ],
+  "typeTags": [
+   "full-page",
+   "agency-studio",
+   "portfolio"
+  ],
+  "category": "template",
+  "tier": "Free",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe"
+  ],
+  "createdAt": "2026-05-14",
+  "likes": 399,
+  "description": "An independent design-and-engineering studio rendered in near-black calm — bold work surfacing with quiet, fluid precision as the page drifts past.",
+  "path": "sources/getlayers/items/lumora/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/lumora.webp",
+  "url": "https://www.getlayers.ai/layer/lumora",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "laocoon",
+  "title": "Laocoon",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "portfolio"
+  ],
+  "typeTags": [
+   "hero",
+   "portfolio"
+  ],
+  "category": "template",
+  "tier": "Free",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "threejs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs"
+  ],
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "createdAt": "2026-06-07",
+  "likes": 268,
+  "description": "A cinematic WebGL homage to the Laocoön — a glowing bronze sculpture you orbit as you scroll, wrapped in molten forge sparks and a breathing liquid-metal shader that drifts from bronze to deep sapphire.",
+  "path": "sources/getlayers/items/laocoon/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/laocoon.webp",
+  "url": "https://www.getlayers.ai/layer/laocoon",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "baseline",
+  "title": "Baseline",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "sports-education"
+  ],
+  "typeTags": [
+   "full-page",
+   "sports-education"
+  ],
+  "category": "template",
+  "tier": "Free",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "createdAt": "2026-05-09",
+  "likes": 252,
+  "description": "A members' tennis club and academy carried with championship poise — deep court-blue, confident type, and a calm scroll that reveals the coaching, the courts, and the pedigree one beat at a time.",
+  "path": "sources/getlayers/items/baseline/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/baseline.webp",
+  "url": "https://www.getlayers.ai/layer/baseline",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "ascend",
+  "title": "Ascend",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "saas"
+  ],
+  "typeTags": [
+   "hero",
+   "saas"
+  ],
+  "category": "template",
+  "tier": "Free",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "threejs",
+   "react"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "react"
+  ],
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "createdAt": "2026-05-20",
+  "likes": 216,
+  "description": "A living Earth turns in deep space behind a mint-lit SaaS landing page — city lights, drifting clouds, and radar pings glowing as the planet sinks and swings with every scroll.",
+  "path": "sources/getlayers/items/ascend/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/ascend.webp",
+  "url": "https://www.getlayers.ai/layer/ascend",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "loopstack",
+  "title": "Loopstack",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [],
+  "typeTags": [
+   "hero"
+  ],
+  "category": "template",
+  "tier": "Free",
+  "tone": "dark",
+  "tags": [
+   "hero"
+  ],
+  "stack": [
+   "hero"
+  ],
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "createdAt": "2026-06-07",
+  "likes": 187,
+  "description": "A black canvas where a flower blooms behind your every word, and a glowing cursor whispers hello.",
+  "path": "sources/getlayers/items/loopstack/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/loopstack.webp",
+  "url": "https://www.getlayers.ai/layer/loopstack",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "marcus-vane",
+  "title": "Marcus Vane",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "portfolio"
+  ],
+  "typeTags": [
+   "full-page",
+   "portfolio"
+  ],
+  "category": "template",
+  "tier": "Free",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "brutal"
+  ],
+  "createdAt": "2026-06-16",
+  "likes": 186,
+  "description": "A founder stands framed inside his own towering name — a cinematic, dark study in conviction, ventures, and two decades of building the impossible.",
+  "path": "sources/getlayers/items/marcus-vane/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/marcus-vane.webp",
+  "url": "https://www.getlayers.ai/layer/marcus-vane",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "flowstate",
+  "title": "Flowstate",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "saas"
+  ],
+  "typeTags": [
+   "full-page",
+   "saas"
+  ],
+  "category": "template",
+  "tier": "Free",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "nextjs"
+  ],
+  "mood": [
+   "organic",
+   "luxe"
+  ],
+  "createdAt": "2026-07-19",
+  "likes": 157,
+  "description": "A living fluid drifts through ink-dark calm as a single line settles into place — a hero built for focus, stillness, and deep work.",
+  "path": "sources/getlayers/items/flowstate/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/flowstate.webp",
+  "url": "https://www.getlayers.ai/layer/flowstate",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "gravity-webgl",
+  "title": "Gravity",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "agency-studio"
+  ],
+  "typeTags": [
+   "hero",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Free",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "threejs",
+   "react"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "react"
+  ],
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "createdAt": "2026-06-07",
+  "likes": 131,
+  "description": "A WebGL field of glossy spheres that drops, scatters, and reassembles into a heart as you scroll — chasing your cursor the whole way.",
+  "path": "sources/getlayers/items/gravity-webgl/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/gravity-webgl.webp",
+  "url": "https://www.getlayers.ai/layer/gravity-webgl",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "artist",
+  "title": "Kai Nomura",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "portfolio"
+  ],
+  "typeTags": [
+   "full-page",
+   "portfolio"
+  ],
+  "category": "template",
+  "tier": "Free",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe"
+  ],
+  "createdAt": "2026-06-16",
+  "likes": 70,
+  "description": "A generative artist's portfolio in hushed, monochrome minimalism — works of light, code, and memory drifting past as you scroll.",
+  "path": "sources/getlayers/items/artist/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/artist.webp",
+  "url": "https://www.getlayers.ai/layer/artist",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "lumi-re",
+  "title": "Lumière",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "ecommerce"
+  ],
+  "typeTags": [
+   "full-page",
+   "ecommerce"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "createdAt": "2026-10-30",
+  "likes": 337,
+  "description": "A living emerald pendant hangs in a turning ring of photographs, then gold rings spin through a quiet cream atelier. Legal for purchase only on getlayers.ai — getlayers.ai/layer/lumi-re",
+  "path": "sources/getlayers/items/lumi-re/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/lumi-re.webp",
+  "url": "https://www.getlayers.ai/layer/lumi-re",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "relay",
+  "title": "Relay",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "saas"
+  ],
+  "typeTags": [
+   "full-page",
+   "saas"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "createdAt": "2026-09-26",
+  "likes": 330,
+  "description": "A workflow-automation landing page in black and lime where one stream of light runs the whole length of the site: a lime ring counts the page in and folds away into the logo, a live refund flow runs inside a tilting glass window in the hero, a plate opens out of the logo and folds back into it mid-page, and every section from a Tuesday dashboard to a pricing meter you drag arrives out of focus and settles like a precise mechanism.",
+  "path": "sources/getlayers/items/relay/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/relay.webp",
+  "url": "https://www.getlayers.ai/layer/relay",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "ai-studio",
+  "title": "AI Studio",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "ai-tech",
+   "agency-studio"
+  ],
+  "typeTags": [
+   "full-page",
+   "ai-tech",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "createdAt": "2026-06-28",
+  "likes": 313,
+  "description": "A chrome star turns in the dark and the whole page becomes one cinematic scroll — violet light, a bloom of drifting particles, and a camera that flies clean through it. A neural-brand showreel that thinks ahead.",
+  "path": "sources/getlayers/items/ai-studio/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/ai-studio.webp",
+  "url": "https://www.getlayers.ai/layer/ai-studio",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "brewns",
+  "title": "Brewns",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "hospitality-travel",
+   "ecommerce"
+  ],
+  "typeTags": [
+   "full-page",
+   "hospitality-travel",
+   "ecommerce"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "createdAt": "2026-09-12",
+  "likes": 277,
+  "description": "A specialty coffee house one-pager where a drawn cup fills and pours away to open the page, a bag and cup of beans stand in a lit studio you can grab and spin, four product cards lean toward your hand, an iced latte turns on a clock face as you scroll, coffee beans drift weightless behind a tilted cup, and a thermal printer feeds your receipt out of its slot.",
+  "path": "sources/getlayers/items/brewns/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/brewns.webp",
+  "url": "https://www.getlayers.ai/layer/brewns",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "artefakt",
+  "title": "Artefakt",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "ecommerce"
+  ],
+  "typeTags": [
+   "full-page",
+   "ecommerce"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "createdAt": "2026-08-28",
+  "likes": 271,
+  "description": "A near-black outerwear concept drawn on a lattice that lights up in squares under your cursor, where a lacquered, iridescent jacket travels down the page from one screen to the next — turning to your hand, sleeves trailing a beat behind — and every label decodes out of static as it arrives.",
+  "path": "sources/getlayers/items/artefakt/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/artefakt.webp",
+  "url": "https://www.getlayers.ai/layer/artefakt",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "house",
+  "title": "House",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "agency-studio",
+   "portfolio"
+  ],
+  "typeTags": [
+   "full-page",
+   "agency-studio",
+   "portfolio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "createdAt": "2026-09-14",
+  "likes": 266,
+  "description": "A cinematic fly-through of a glass house that you scrub with the scroll, statement words pinned to its corners, an interior riding up behind a frosted panel, stats counting up on a blurred drum, a star warping out to swallow the screen and a showreel zooming through it — then a footer uncovered like a curtain with its wordmark rising letter by letter.",
+  "path": "sources/getlayers/items/house/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/house.webp",
+  "url": "https://www.getlayers.ai/layer/house",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "vesper",
+  "title": "Vesper",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "saas"
+  ],
+  "typeTags": [
+   "full-page",
+   "saas"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "createdAt": "2026-07-12",
+  "likes": 257,
+  "description": "A cloud of mint and violet light breathes as an orb, blows open into a spiral galaxy, and gathers itself into a thinking brain — a dark, living interface that answers every move you make.",
+  "path": "sources/getlayers/items/vesper/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/vesper.webp",
+  "url": "https://www.getlayers.ai/layer/vesper",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "held-mint",
+  "title": "Held-Mint",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "fintech",
+   "ecommerce"
+  ],
+  "typeTags": [
+   "full-page",
+   "fintech",
+   "ecommerce"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "brutal",
+   "playful"
+  ],
+  "createdAt": "2026-10-11",
+  "likes": 255,
+  "description": "Rare collectible cards locked behind graffiti-tagged steel, barbed wire and a stamp that seals the pile.",
+  "path": "sources/getlayers/items/held-mint/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/held-mint.webp",
+  "url": "https://www.getlayers.ai/layer/held-mint",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "flora",
+  "title": "Flora",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "fintech",
+   "ai-tech"
+  ],
+  "typeTags": [
+   "full-page",
+   "fintech",
+   "ai-tech"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "organic",
+   "technical"
+  ],
+  "createdAt": "2026-09-26",
+  "likes": 248,
+  "description": "A private-relay protocol’s launch page told as one long camera move through a dandelion drawn in light: the page opens through a keyhole onto the plant swaying once in a night field where a fire front creeps, the head turns and lets its seeds go as you scroll, a flower opens where the core was and an iris gathers in the dark after it, readings fly off with the petals, and six screens of copy set with a script S take their turns over the same stretch of scroll, from “Send first. Be seen later” to an invitation to be someone else’s first hop.",
+  "path": "sources/getlayers/items/flora/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/flora.webp",
+  "url": "https://www.getlayers.ai/layer/flora",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "kumo",
+  "title": "Kumo",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "agency-studio",
+   "portfolio"
+  ],
+  "typeTags": [
+   "full-page",
+   "agency-studio",
+   "portfolio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "nextjs"
+  ],
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "createdAt": "2026-10-08",
+  "likes": 228,
+  "description": "A hand-painted animation studio told as one unbroken shot through an autumn city, sewn together by clouds.",
+  "path": "sources/getlayers/items/kumo/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/kumo.webp",
+  "url": "https://www.getlayers.ai/layer/kumo",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "wanderlust",
+  "title": "Wanderlust",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "hospitality-travel"
+  ],
+  "typeTags": [
+   "full-page",
+   "hospitality-travel"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "organic",
+   "luxe"
+  ],
+  "createdAt": "2026-08-23",
+  "likes": 225,
+  "description": "A dark, windswept travel site that lingers on wide country and quiet mornings — the kind of page that makes leaving feel overdue.",
+  "path": "sources/getlayers/items/wanderlust/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/wanderlust.webp",
+  "url": "https://www.getlayers.ai/layer/wanderlust",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "halden",
+  "title": "Halden",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "ecommerce"
+  ],
+  "typeTags": [
+   "full-page",
+   "ecommerce"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "createdAt": "2026-09-14",
+  "likes": 222,
+  "description": "A Danish furniture house on warm paper and brand red, where the hero's photographs uncover and turn red under your hand, a manifesto writes itself letter by letter around two cut-out chairs that rock when pointed at, a red band slides down a catalogue of nine categories with tilted previews riding along, product cards flood a chip red as you approach, and a spotlight picks each piece out of a Copenhagen apartment.",
+  "path": "sources/getlayers/items/halden/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/halden.webp",
+  "url": "https://www.getlayers.ai/layer/halden",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "herbier-blanc",
+  "title": "Herbier Blanc",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "ecommerce"
+  ],
+  "typeTags": [
+   "full-page",
+   "ecommerce"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "createdAt": "2026-10-16",
+  "likes": 221,
+  "description": "A small Lyon perfume house in paper and crimson: a bottle gathered out of mist, a sealed letter, a handwritten note.",
+  "path": "sources/getlayers/items/herbier-blanc/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/herbier-blanc.webp",
+  "url": "https://www.getlayers.ai/layer/herbier-blanc",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "stride",
+  "title": "Stride",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "fintech",
+   "saas"
+  ],
+  "typeTags": [
+   "full-page",
+   "fintech",
+   "saas"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "brutal",
+   "playful"
+  ],
+  "createdAt": "2026-07-05",
+  "likes": 219,
+  "description": "Modern banking rendered as momentum — a deep-blue fintech landing where a filament of light pulses at the heart of the hero, cool, precise, and quietly in motion.",
+  "path": "sources/getlayers/items/stride/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/stride.webp",
+  "url": "https://www.getlayers.ai/layer/stride",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "prisma",
+  "title": "Prisma",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "ai-tech",
+   "agency-studio",
+   "portfolio"
+  ],
+  "typeTags": [
+   "hero",
+   "ai-tech",
+   "agency-studio",
+   "portfolio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe"
+  ],
+  "createdAt": "2026-10-30",
+  "likes": 214,
+  "description": "A frosted vermilion glass Rubik's cube turns its layers forever over a rising orb, bursting apart at your click. Legal for purchase only on getlayers.ai — getlayers.ai/layer/prisma",
+  "path": "sources/getlayers/items/prisma/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/prisma.webp",
+  "url": "https://www.getlayers.ai/layer/prisma",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "longplay",
+  "title": "Longplay",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "agency-studio"
+  ],
+  "typeTags": [
+   "hero",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "createdAt": "2026-09-14",
+  "likes": 208,
+  "description": "A single screen of blue meadow you can comb with your cursor, a floating television lighting the grass from the crest, cyan motes rising through a cumulus sky, and a viewfinder frame of frosted pills and hairlines that blur in around a script headline once a counting curtain lifts.",
+  "path": "sources/getlayers/items/longplay/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/longplay.webp",
+  "url": "https://www.getlayers.ai/layer/longplay",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "new-era",
+  "title": "New Era",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "health-science"
+  ],
+  "typeTags": [
+   "full-page",
+   "health-science"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical",
+   "organic"
+  ],
+  "createdAt": "2026-06-28",
+  "likes": 207,
+  "description": "A luminous swarm of orange-and-blue particles drifts through deep space, endlessly reshaping itself as you scroll — a cinematic voyage from a single point of light to a vast spiral galaxy.",
+  "path": "sources/getlayers/items/new-era/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/new-era.webp",
+  "url": "https://www.getlayers.ai/layer/new-era",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "nexus",
+  "title": "Nexus",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "ai-tech"
+  ],
+  "typeTags": [
+   "hero",
+   "ai-tech"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical"
+  ],
+  "createdAt": "2026-10-24",
+  "likes": 205,
+  "description": "A cheerful robot astronaut hovers over a dusk field of glowing pylons that swell and ripple under your cursor.",
+  "path": "sources/getlayers/items/nexus/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/nexus.webp",
+  "url": "https://www.getlayers.ai/layer/nexus",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "seed",
+  "title": "Seed",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [],
+  "typeTags": [
+   "hero"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "organic",
+   "calm"
+  ],
+  "createdAt": "2026-10-24",
+  "likes": 202,
+  "description": "A dandelion clock glowing in golden-hour backlight — breathe on it and its seeds drift off on the wind.",
+  "path": "sources/getlayers/items/seed/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/seed.webp",
+  "url": "https://www.getlayers.ai/layer/seed",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "ridgeline",
+  "title": "Ridgeline",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [],
+  "typeTags": [
+   "full-page"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "calm",
+   "technical"
+  ],
+  "createdAt": "2026-09-22",
+  "likes": 187,
+  "description": "A Portland roofer's one-pager whose headline slides shut like a seam over a full-bleed standing-seam roof, with callouts that type themselves onto the photograph when you point at a seam, a statement that fills in letter by letter while four figures roll up like a counter, service cards that clear out of a blur, an accordion walking through the four steps of a job, marker-pinned photographs of finished roofs, and a closing photograph that shrinks from the whole screen into its frame before the request form fades up beside it.",
+  "path": "sources/getlayers/items/ridgeline/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/ridgeline.webp",
+  "url": "https://www.getlayers.ai/layer/ridgeline",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "ai-creator",
+  "title": "AI Creator",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "ai-tech",
+   "portfolio"
+  ],
+  "typeTags": [
+   "full-page",
+   "ai-tech",
+   "portfolio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "createdAt": "2026-09-07",
+  "likes": 180,
+  "description": "A photogrammetry bust on a porcelain stage that burns in as the curtain lifts, dissolves into a live blue fire-field as you scroll, and sends its own wireframe travelling across the screen to assemble a chromed \"AI\" — before seven photographs fold round a box and the invitation rides up on a tilting blue plane.",
+  "path": "sources/getlayers/items/ai-creator/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/ai-creator.webp",
+  "url": "https://www.getlayers.ai/layer/ai-creator",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "northwall",
+  "title": "Northwall",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "agency-studio"
+  ],
+  "typeTags": [
+   "full-page",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "technical"
+  ],
+  "createdAt": "2026-09-17",
+  "likes": 178,
+  "description": "A construction firm's one-pager that opens behind a monogram filling like a gauge while photographs are dealt out like cards, the last one growing out of the deck to become the hero itself, a gallery of concrete and glass turning under five rotating disciplines, project cards that draw themselves open from the top, five process steps that blur away behind a photograph tilting toward your hand, and a single portrait that travels down the team rows to whichever name you point at.",
+  "path": "sources/getlayers/items/northwall/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/northwall.webp",
+  "url": "https://www.getlayers.ai/layer/northwall",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "codescan",
+  "title": "Codescan",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "agency-studio",
+   "portfolio"
+  ],
+  "typeTags": [
+   "full-page",
+   "agency-studio",
+   "portfolio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical",
+   "brutal"
+  ],
+  "createdAt": "2026-08-10",
+  "likes": 171,
+  "description": "A dark room where a figure stands watching a wall of televisions — the lens drifts after your cursor and racks focus onto whatever set you touch, then flies past the wall, through two lines standing in the fog, and finds a portfolio assembling itself out of the haze.",
+  "path": "sources/getlayers/items/codescan/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/codescan.webp",
+  "url": "https://www.getlayers.ai/layer/codescan",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "dantora",
+  "title": "Dantora",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "health-science"
+  ],
+  "typeTags": [
+   "full-page",
+   "health-science"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "calm",
+   "organic"
+  ],
+  "createdAt": "2026-08-11",
+  "likes": 168,
+  "description": "A medical clinic told through ink in water — a green double helix that never stops shedding plumes, swirling outward on an evolving noise flow and parting wherever your cursor goes, with photographs trailing off the pointer, a rail of services that scrubs sideways under your scroll, and every block riding up over the one before it.",
+  "path": "sources/getlayers/items/dantora/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/dantora.webp",
+  "url": "https://www.getlayers.ai/layer/dantora",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "creative-director",
+  "title": "Creative Director",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "portfolio",
+   "agency-studio"
+  ],
+  "typeTags": [
+   "full-page",
+   "portfolio",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "playful",
+   "luxe"
+  ],
+  "createdAt": "2026-06-25",
+  "likes": 161,
+  "description": "A portfolio that smolders — molten reds drift like a lava lamp beneath film grain while case studies glide past in a slow heat haze.",
+  "path": "sources/getlayers/items/creative-director/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/creative-director.webp",
+  "url": "https://www.getlayers.ai/layer/creative-director",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "auralis",
+  "title": "Auralis",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "agency-studio",
+   "ai-tech"
+  ],
+  "typeTags": [
+   "full-page",
+   "agency-studio",
+   "ai-tech"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "calm",
+   "luxe",
+   "technical"
+  ],
+  "createdAt": "2026-07-27",
+  "likes": 160,
+  "description": "One unbroken camera flight through a silver studio where thousands of glowing beads keep changing their mind about what they are — an X that bursts into violet ribbons, a hand that crumbles into a rippling curtain, and a tree that grows out of the fog for the finale.",
+  "path": "sources/getlayers/items/auralis/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/auralis.webp",
+  "url": "https://www.getlayers.ai/layer/auralis",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "aerra",
+  "title": "Aerra",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "hospitality-travel",
+   "ecommerce"
+  ],
+  "typeTags": [
+   "full-page",
+   "hospitality-travel",
+   "ecommerce"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "createdAt": "2026-08-10",
+  "likes": 150,
+  "description": "A house standing alone on a mountain slope at dusk, its name set eight hundred pixels tall behind it — letters that climb apart as you scroll, a valley you repaint by moving the cursor over it, a facade you turn in your hand, and a matte-black mark drifting the whole length of the page behind glass.",
+  "path": "sources/getlayers/items/aerra/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/aerra.webp",
+  "url": "https://www.getlayers.ai/layer/aerra",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "clarix",
+  "title": "Clarix",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "ai-tech",
+   "agency-studio"
+  ],
+  "typeTags": [
+   "full-page",
+   "ai-tech",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "threejs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs"
+  ],
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "createdAt": "2026-06-26",
+  "likes": 135,
+  "description": "A cinematic scroll where a holographic ASCII model dissolves into being, words fly through space, and a logo assembles itself from thousands of glowing particles.",
+  "path": "sources/getlayers/items/clarix/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/clarix.webp",
+  "url": "https://www.getlayers.ai/layer/clarix",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "lumea",
+  "title": "Lumea",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "agency-studio"
+  ],
+  "typeTags": [
+   "hero",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "calm",
+   "luxe"
+  ],
+  "createdAt": "2026-07-30",
+  "likes": 134,
+  "description": "A stone monk meditates on a floating rock in a near-black void — ringed by glowing amber orbit lines and a slow spiral of tumbling debris that parts around your cursor, under one soft shaft of light and a camera that never stops circling.",
+  "path": "sources/getlayers/items/lumea/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/lumea.webp",
+  "url": "https://www.getlayers.ai/layer/lumea",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "altitude",
+  "title": "Altitude",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "hospitality-travel"
+  ],
+  "typeTags": [
+   "hero",
+   "hospitality-travel"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "createdAt": "2026-07-20",
+  "likes": 130,
+  "description": "A still mountain night that stirs to life wherever the cursor drifts — warm and cool ink swirls through the dark and bends the starlit sky behind an invitation to stays past the end of the road.",
+  "path": "sources/getlayers/items/altitude/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/altitude.webp",
+  "url": "https://www.getlayers.ai/layer/altitude",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "forma",
+  "title": "Forma",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "agency-studio"
+  ],
+  "typeTags": [
+   "hero",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "hero",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "createdAt": "2026-07-21",
+  "likes": 127,
+  "description": "A violet lavender valley ripples under your cursor as a studio's contact page assembles itself — heading, form, and cards settling in one by one.",
+  "path": "sources/getlayers/items/forma/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/forma.webp",
+  "url": "https://www.getlayers.ai/layer/forma",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "evolve",
+  "title": "Evolve",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "ai-tech"
+  ],
+  "typeTags": [
+   "hero",
+   "ai-tech"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "createdAt": "2026-08-04",
+  "likes": 125,
+  "description": "A jet-black AI hero where a human head of tens of thousands of glowing particles — blue key, red rim — drifts, breathes and turns to follow the cursor over a hairline blueprint grid, while the headline sweeps in letter by letter and stat figures settle out of scrambled glyphs.",
+  "path": "sources/getlayers/items/evolve/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/evolve.webp",
+  "url": "https://www.getlayers.ai/layer/evolve",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "fromzero",
+  "title": "Fromzero",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "agency-studio",
+   "ai-tech"
+  ],
+  "typeTags": [
+   "hero",
+   "agency-studio",
+   "ai-tech"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "createdAt": "2026-07-28",
+  "likes": 121,
+  "description": "A midnight valley where a floating screen turns to meet your cursor — an eye framed by falling code, its light spilling onto a black lake that ripples wherever you point.",
+  "path": "sources/getlayers/items/fromzero/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/fromzero.webp",
+  "url": "https://www.getlayers.ai/layer/fromzero",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "vexon",
+  "title": "Vexon",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "ai-tech"
+  ],
+  "typeTags": [
+   "hero",
+   "ai-tech"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "threejs",
+   "react"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "react"
+  ],
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "createdAt": "2026-06-07",
+  "likes": 121,
+  "description": "A black, GPU-particle halo breathes behind a dark AI landing where data resolves into your unfair advantage.",
+  "path": "sources/getlayers/items/vexon/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/vexon.webp",
+  "url": "https://www.getlayers.ai/layer/vexon",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "helion",
+  "title": "Helion",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "agency-studio"
+  ],
+  "typeTags": [
+   "full-page",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "createdAt": "2026-07-15",
+  "likes": 118,
+  "description": "A field of blue particles spirals into a slow vortex and draws together into a single mark — the dark, gravitational hero for a studio that promises to give brands weight.",
+  "path": "sources/getlayers/items/helion/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/helion.webp",
+  "url": "https://www.getlayers.ai/layer/helion",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "noema",
+  "title": "Noema",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "agency-studio"
+  ],
+  "typeTags": [
+   "hero",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "technical",
+   "calm"
+  ],
+  "createdAt": "2026-07-24",
+  "likes": 116,
+  "description": "A portrait dissolving into slow-drifting light against deep navy, split by a towering serif headline — a studio hero that feels like a thought catching form.",
+  "path": "sources/getlayers/items/noema/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/noema.webp",
+  "url": "https://www.getlayers.ai/layer/noema",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "negantropy",
+  "title": "Negantropy",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "health-science"
+  ],
+  "typeTags": [
+   "full-page",
+   "health-science"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "organic",
+   "technical",
+   "luxe"
+  ],
+  "createdAt": "2026-06-07",
+  "likes": 114,
+  "description": "A scroll through deep space where cosmic particle fields assemble, ignite, and pour through an hourglass — a cinematic tribute to refusing to fall apart.",
+  "path": "sources/getlayers/items/negantropy/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/negantropy.webp",
+  "url": "https://www.getlayers.ai/layer/negantropy",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "lumen",
+  "title": "Lumen",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "fintech"
+  ],
+  "typeTags": [
+   "full-page",
+   "fintech"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe"
+  ],
+  "createdAt": "2026-07-03",
+  "likes": 112,
+  "description": "A debit card surfaces from a moonlit sea, tilting to your touch as ripples fan across the water beneath a brass gate on the horizon — a fintech hero with the calm of still water.",
+  "path": "sources/getlayers/items/lumen/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/lumen.webp",
+  "url": "https://www.getlayers.ai/layer/lumen",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "stride-nine",
+  "title": "Stride Nine",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "sports-education",
+   "ecommerce"
+  ],
+  "typeTags": [
+   "hero",
+   "sports-education",
+   "ecommerce"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "nextjs"
+  ],
+  "mood": [
+   "brutal",
+   "technical"
+  ],
+  "createdAt": "2026-08-06",
+  "likes": 107,
+  "description": "Two sprinters caught mid-stride against a deep blue sky, a headline set across them in unbroken white caps — and the air itself catching and dragging wherever you move.",
+  "path": "sources/getlayers/items/stride-nine/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/stride-nine.webp",
+  "url": "https://www.getlayers.ai/layer/stride-nine",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "gring-x",
+  "title": "GringX",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "ai-tech"
+  ],
+  "typeTags": [
+   "hero",
+   "ai-tech"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical"
+  ],
+  "createdAt": "2026-07-08",
+  "likes": 106,
+  "description": "An AI decision layer rendered as a living orb of blue light, cupped in open hands against the dark — calm, luminous, and quietly futuristic.",
+  "path": "sources/getlayers/items/gring-x/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/gring-x.webp",
+  "url": "https://www.getlayers.ai/layer/gring-x",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "creative-studio",
+  "title": "Creative Studio",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "agency-studio"
+  ],
+  "typeTags": [
+   "full-page",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "playful"
+  ],
+  "createdAt": "2026-07-06",
+  "likes": 100,
+  "description": "A void-black creative-studio hero where a solar swell of amber particles ripples beneath faint orbital rings — identity and art direction rendered as light in motion.",
+  "path": "sources/getlayers/items/creative-studio/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/creative-studio.webp",
+  "url": "https://www.getlayers.ai/layer/creative-studio",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "stackside",
+  "title": "Stackside",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "fintech",
+   "saas"
+  ],
+  "typeTags": [
+   "full-page",
+   "fintech",
+   "saas"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "hero",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "nextjs"
+  ],
+  "mood": [
+   "brutal",
+   "luxe"
+  ],
+  "createdAt": "2026-07-15",
+  "likes": 99,
+  "description": "A grayscale portrait dissolves into halftone dots and turns beneath your pointer — a cool, editorial hero for a finance product with something to prove.",
+  "path": "sources/getlayers/items/stackside/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/stackside.webp",
+  "url": "https://www.getlayers.ai/layer/stackside",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "voxelia",
+  "title": "Voxelia",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "sports-education"
+  ],
+  "typeTags": [
+   "hero",
+   "sports-education"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "playful",
+   "technical"
+  ],
+  "createdAt": "2026-07-31",
+  "likes": 99,
+  "description": "A cobalt-blue, pixel-art-flavoured hero where twelve glossy chess pieces swarm a glowing white king under real physics — shove them with the cursor and they tumble, collide and coast back — while a soft field of pixel waves ripples behind the card and a pixelated flood of blue does the reveal.",
+  "path": "sources/getlayers/items/voxelia/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/voxelia.webp",
+  "url": "https://www.getlayers.ai/layer/voxelia",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "dringle",
+  "title": "Dringle",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "agency-studio"
+  ],
+  "typeTags": [
+   "hero",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe"
+  ],
+  "createdAt": "2026-07-10",
+  "likes": 96,
+  "description": "Chrome hands cradle a slowly turning star over a pour of violet glass, while a light, unhurried hero makes its case — a brand studio polished until it's the one you reach for.",
+  "path": "sources/getlayers/items/dringle/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/dringle.webp",
+  "url": "https://www.getlayers.ai/layer/dringle",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "neural-monitor",
+  "title": "Neural Monitor",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "health-science",
+   "ai-tech"
+  ],
+  "typeTags": [
+   "full-page",
+   "health-science",
+   "ai-tech"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical"
+  ],
+  "createdAt": "2026-06-10",
+  "likes": 87,
+  "description": "A luminous point-cloud brain hangs in the dark while the scan glides region by region — then lets go, scattering into a living constellation of signal.",
+  "path": "sources/getlayers/items/neural-monitor/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/neural-monitor.webp",
+  "url": "https://www.getlayers.ai/layer/neural-monitor",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "cortex",
+  "title": "Cortex",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "ai-tech",
+   "agency-studio"
+  ],
+  "typeTags": [
+   "hero",
+   "ai-tech",
+   "agency-studio"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "technical"
+  ],
+  "createdAt": "2026-07-02",
+  "likes": 85,
+  "description": "Threads of chromatic light bend and sway toward your cursor across the dark, while a colossal wordmark rises from the fold — a landing hero that feels like intelligence coming online.",
+  "path": "sources/getlayers/items/cortex/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/cortex.webp",
+  "url": "https://www.getlayers.ai/layer/cortex",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "halcyon",
+  "title": "Halcyon",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "ecommerce"
+  ],
+  "typeTags": [
+   "full-page",
+   "ecommerce"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "luxe",
+   "calm"
+  ],
+  "createdAt": "2026-06-30",
+  "likes": 85,
+  "description": "A  pocket watch drifts above an endless sea as the sky burns from dawn to dusk to moonlit night — a slow, cinematic voyage for a timepiece made to outlast generations. 3D watch model was created by Eddyson Work (https://sketchfab.com/LepriconGreen)",
+  "path": "sources/getlayers/items/halcyon/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/halcyon.webp",
+  "url": "https://www.getlayers.ai/layer/halcyon",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "clair",
+  "title": "Clair",
+  "kind": "template",
+  "layout": "hero",
+  "industries": [
+   "ai-tech",
+   "saas"
+  ],
+  "typeTags": [
+   "hero",
+   "ai-tech",
+   "saas"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "dark",
+  "tags": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "threejs",
+   "nextjs"
+  ],
+  "mood": [
+   "brutal",
+   "technical"
+  ],
+  "createdAt": "2026-07-12",
+  "likes": 83,
+  "description": "A prism-glass lightning bolt hangs in a slow indigo current, splitting the light into violet and amber as it leans toward you — a dark, exacting hero for a product that promises the clearer call.",
+  "path": "sources/getlayers/items/clair/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/clair.webp",
+  "url": "https://www.getlayers.ai/layer/clair",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "kelder",
+  "title": "Kelder",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "fintech"
+  ],
+  "typeTags": [
+   "full-page",
+   "fintech"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "createdAt": "2026-11-12",
+  "likes": 12,
+  "description": "A deep-blue treasury page where a live dashboard tilts into place, halftone dots pulse and silk lines draw themselves. Legal for purchase only on getlayers.ai — getlayers.ai/layer/kelder",
+  "path": "sources/getlayers/items/kelder/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/kelder.webp",
+  "url": "https://www.getlayers.ai/layer/kelder",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "fathom",
+  "title": "Fathom",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "logistics"
+  ],
+  "typeTags": [
+   "full-page",
+   "logistics"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "technical",
+   "calm"
+  ],
+  "createdAt": "2026-11-12",
+  "likes": 11,
+  "description": "An ocean-freight page where a container ship glides by on scroll, a bay plan lights your slot and a crane lowers a box. Legal for purchase only on getlayers.ai — getlayers.ai/layer/fathom",
+  "path": "sources/getlayers/items/fathom/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/fathom.webp",
+  "url": "https://www.getlayers.ai/layer/fathom",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ },
+ {
+  "id": "leeward",
+  "title": "Leeward",
+  "kind": "template",
+  "layout": "full-page",
+  "industries": [
+   "energy"
+  ],
+  "typeTags": [
+   "full-page",
+   "energy"
+  ],
+  "category": "template",
+  "tier": "Premium",
+  "tone": "light",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "mood": [
+   "calm",
+   "technical"
+  ],
+  "createdAt": "2026-11-12",
+  "likes": 7,
+  "description": "Turbines turn over working farmland as one field grows, square by square, from a survey mast into a running wind park. Legal for purchase only on getlayers.ai — getlayers.ai/layer/leeward",
+  "path": "sources/getlayers/items/leeward/ITEM.md",
+  "prompt_path": null,
+  "preview": "sources/getlayers/assets/leeward.webp",
+  "url": "https://www.getlayers.ai/layer/leeward",
+  "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"
+ }
+]

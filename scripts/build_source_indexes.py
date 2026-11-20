@@ -21,6 +21,7 @@ PRIORITY = [
     ("motionsites", 3, "Whole-section briefs and art direction. Free prompts only."),
     ("lucianlabs", 4, "Highest craft per element: MIT, working code, runnable demo."),
     ("codefronts", 5, "Breadth: 5,047 CSS/Tailwind components, layouts, motion, design styles."),
+    ("getlayers", 6, "Whole-page and hero templates with stack, tone and measured performance. Free prompts + metadata."),
 ]
 
 
@@ -49,7 +50,7 @@ def head(title: str, total: int, rank: int, note: str, extra: str = "") -> str:
         f"# {title}\n\n"
         f"> Auto-generated from `manifest.json` — do not edit by hand, run "
         f"`scripts/build_source_indexes.py`.\n"
-        f"> **{total} items** · priority {rank} of 5 · {note}\n{extra}\n"
+        f"> **{total} items** · priority {rank} of 6 · {note}\n{extra}\n"
     )
 
 
@@ -169,10 +170,40 @@ def index_codefronts() -> None:
     write(SOURCES / "codefronts/INDEX.md", out)
 
 
+def index_getlayers() -> None:
+    rows = load("getlayers")
+    groups = defaultdict(list)
+    for row in rows:
+        groups[row.get("layout") or "—"].append(row)
+    out = head(
+        "GetLayers — index", len(rows), 6,
+        "Whole-page and hero templates with stack, tone and measured performance. Free prompts; premium stays locked.",
+        "\n`ITEM.md` carries the art direction, stack, frame timings and Lighthouse scores; "
+        "`prompts/` holds the free prompts verbatim. Premium prompts are not in this archive.\n",
+    )
+    out += "\n| Layout | Templates | Free |\n|---|---:|---:|\n"
+    for layout, items in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+        free = sum(1 for row in items if row.get("tier") == "Free")
+        out += f"| {layout} | {len(items)} | {free} |\n"
+    for layout, items in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+        out += (
+            f"\n## {layout} ({len(items)})\n\n"
+            "| Title | Industry | Tone | Tier | Likes | Brief |\n|---|---|---|---|---:|---|\n"
+        )
+        for row in sorted(items, key=lambda r: -(r.get("likes") or 0)):
+            link = rel(row["path"], "getlayers")
+            industries = ", ".join(row.get("industries") or []) or "—"
+            out += (
+                f"| {row['title']} | {industries} | {row.get('tone', '—')} | {row.get('tier', '—')} | "
+                f"{row.get('likes', 0)} | [`{link.split('/')[-2]}`]({link}) |\n"
+            )
+    write(SOURCES / "getlayers/INDEX.md", out)
+
+
 def write_hub(counts: dict[str, int]) -> None:
     total = sum(counts.values())
     out = (
-        "# sources/ — the five libraries\n\n"
+        "# sources/ — the six libraries\n\n"
         f"**{total:,} reference items.** Open the `INDEX.md` of a folder to see every item it holds; "
         "open `README.md` for how that source was collected and licensed.\n\n"
         "## Read in this order\n\n"
@@ -186,9 +217,10 @@ def write_hub(counts: dict[str, int]) -> None:
         "2. Micro-interaction, chart, form, dashboard → **lucianlabs** (MIT, working code).\n"
         "3. Whole section or landing-page structure → **motionsites**.\n"
         "4. 3D, WebGL, scroll-driven hero → **threeui** for direction, then build.\n"
-        "5. Anything else — layout, navigation, motion, design style → **codefronts**.\n\n"
-        "All five must be checked before code is written; the coverage block is defined in "
-        "[`../AGENT.md`](../AGENT.md).\n\n"
+        "5. Anything else — layout, navigation, motion, design style → **codefronts**.\n"
+        "6. Whole page or hero with a named stack and a measured perf budget → **getlayers**.\n\n"
+        "All six must be checked before code is written; the coverage block is defined in "
+        "[`../START_HERE.md`](../START_HERE.md).\n\n"
         "## Machine-readable\n\n"
         "- `manifest.json` per folder: id, title, category, tags, path.\n"
         "- `catalog.json` per folder: original catalogue metadata.\n"
@@ -201,16 +233,16 @@ def write_llms_txt(counts: dict[str, int]) -> None:
     total = sum(counts.values())
     out = (
         "# SOURCEOFKNOWLEDGFORAI\n\n"
-        f"> {total:,} front-end design references from five public libraries, as markdown briefs with "
-        "metadata and source links. Mandatory reference for any UI work: check all five folders, open at "
+        f"> {total:,} front-end design references from six public libraries, as markdown briefs with "
+        "metadata and source links. Mandatory reference for any UI work: check all six folders, open at "
         "most three files, state what you used.\n\n"
         "## Read first\n\n"
-        "- [AGENT.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/AGENT.md): "
+        "- [START_HERE.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/START_HERE.md): "
         "binding rules, 100% coverage, verification.\n"
         "- [INDEX.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/INDEX.md): totals, "
         "source priority, highest-value picks.\n"
         "- [sources/README.md](https://github.com/broamstuck-cybr/SOURCEOFKNOWLEDGFORAI/blob/main/sources/README.md): "
-        "how to choose between the five libraries.\n\n"
+        "how to choose between the six libraries.\n\n"
         "## Libraries\n\n"
     )
     for name, rank, note in PRIORITY:
@@ -224,7 +256,8 @@ def write_llms_txt(counts: dict[str, int]) -> None:
         "- lucianlabs: prompt with full working HTML/CSS/JS + runnable demo + `tokens.css`.\n"
         "- motionsites: whole-section brief (free prompts only).\n"
         "- threeui: catalogue brief — title, runtime, live URL, preview. No component source.\n"
-        "- codefronts: ready-to-paste prompt containing the component's HTML/CSS/JS.\n\n"
+        "- codefronts: ready-to-paste prompt containing the component's HTML/CSS/JS.\n"
+        "- getlayers: template brief — art direction, stack, frame timings, Lighthouse; free prompts verbatim.\n\n"
         "## Rules\n\n"
         "- Query every folder before choosing; record `## Source coverage (100%)` in the brief.\n"
         "- Keep license headers (MIT comments, `Source:` lines).\n"
@@ -239,7 +272,14 @@ def write_llms_txt(counts: dict[str, int]) -> None:
 
 
 def main() -> int:
-    jobs = [index_pinui, index_threeui, index_motionsites, index_lucianlabs, index_codefronts]
+    jobs = [
+        index_pinui,
+        index_threeui,
+        index_motionsites,
+        index_lucianlabs,
+        index_codefronts,
+        index_getlayers,
+    ]
     print("Generating source indexes…")
     for job in jobs:
         job()

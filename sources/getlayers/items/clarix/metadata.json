@@ -1,0 +1,461 @@
+{
+ "fetchedAt": "2026-11-20T15:25:10Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "clarix",
+  "title": "Clarix",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "threejs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs"
+  ],
+  "tier": "Premium",
+  "description": "A cinematic scroll where a holographic ASCII model dissolves into being, words fly through space, and a logo assembles itself from thousands of glowing particles.",
+  "image": "https://storage.getlayers.ai/templates/clarix.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/clarix.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/clarix-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/clarix-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/clarix-mobile.mp4",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T17:28:45.882Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.4,
+     "p95": 15.7,
+     "p99": 17.3,
+     "max": 33.5,
+     "droppedPct": 0.2,
+     "over50": 0,
+     "over100": 0,
+     "frames": 2860,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T17:28:45.882Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.8,
+     "p99": 10.2,
+     "max": 16.3,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 2019,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/clarix-pagespeed-mobile-5b1a32ee86.html",
+     "testedAt": "2026-10-08T16:17:11.982Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 936,
+      "LCP": 2101,
+      "TBT": 89,
+      "CLS": 0,
+      "SI": 936
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/clarix-pagespeed-desktop-daffbec8e8.html",
+     "testedAt": "2026-10-08T16:18:04.493Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 300,
+      "LCP": 500,
+      "TBT": 76,
+      "CLS": 0,
+      "SI": 395
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "likes": 135,
+  "createdAt": "2026-06-26",
+  "typeTags": [
+   "full-page",
+   "ai-tech",
+   "agency-studio"
+  ],
+  "tone": "light",
+  "mood": [
+   "luxe",
+   "organic"
+  ],
+  "keywords": [
+   "landing",
+   "webgl",
+   "threejs",
+   "glb",
+   "draco",
+   "ascii",
+   "holographic",
+   "scroll",
+   "preloader",
+   "particles",
+   "glass",
+   "marquee",
+   "light",
+   "vite",
+   "agency",
+   "cinematic",
+   "screen",
+   "film",
+   "white",
+   "page",
+   "iridescent",
+   "object",
+   "dissolving",
+   "into",
+   "halftone",
+   "grid",
+   "airy",
+   "editorial",
+   "whitespace",
+   "with",
+   "corner",
+   "pinned",
+   "index",
+   "labels",
+   "frosted",
+   "panels",
+   "sliding",
+   "over",
+   "live",
+   "gradient",
+   "field",
+   "wordmark",
+   "shattering",
+   "drifting",
+   "particle",
+   "galaxy",
+   "clarix",
+   "viewport",
+   "single",
+   "creative",
+   "studio",
+   "driven",
+   "end",
+   "one",
+   "clock",
+   "compressed",
+   "shaded",
+   "fresnel",
+   "rim",
+   "flowing",
+   "curved",
+   "lines",
+   "per",
+   "pixel",
+   "dither",
+   "that",
+   "morphs",
+   "squares",
+   "circles",
+   "colour",
+   "runs",
+   "warm",
+   "flies",
+   "through",
+   "six",
+   "choreographed",
+   "phases",
+   "anchored",
+   "hero",
+   "three",
+   "giant",
+   "words",
+   "arc",
+   "past",
+   "lens",
+   "perspective",
+   "curve",
+   "panel",
+   "statistics",
+   "full",
+   "height",
+   "left",
+   "column",
+   "feature",
+   "split",
+   "assembled",
+   "logo",
+   "own",
+   "alpha",
+   "channel",
+   "plus",
+   "500",
+   "ambient",
+   "drifters",
+   "centred",
+   "outro",
+   "lifts",
+   "footer",
+   "frame",
+   "behind",
+   "all",
+   "procedural",
+   "rounded",
+   "boxes",
+   "pulses",
+   "blue",
+   "cyan",
+   "hot",
+   "pink",
+   "red",
+   "ripples",
+   "away",
+   "cursor",
+   "stepped",
+   "000",
+   "100",
+   "odometer",
+   "blob",
+   "gates",
+   "entrance",
+   "then",
+   "space",
+   "reveal",
+   "circle",
+   "carves",
+   "model",
+   "existence",
+   "tech"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp",
+  "hasFigma": false
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/clarix",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Clarix",
+    "description": "Clarix — a premium website template from the GetLayers library. A cinematic scroll where a holographic ASCII model dissolves into being, words fly through space, and a logo assembles itself from thousands of glowing particles.",
+    "url": "https://www.getlayers.ai/layer/clarix",
+    "image": "https://storage.getlayers.ai/templates/clarix.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-06-26",
+    "keywords": "landing page, threejs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Clarix",
+      "item": "https://www.getlayers.ai/layer/clarix"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "clarix.webp": "231524 bytes"
+ }
+}

@@ -1,0 +1,354 @@
+{
+ "fetchedAt": "2026-11-20T15:23:17Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "vesper",
+  "title": "Vesper",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "threejs",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A cloud of mint and violet light breathes as an orb, blows open into a spiral galaxy, and gathers itself into a thinking brain — a dark, living interface that answers every move you make.",
+  "image": "https://storage.getlayers.ai/templates/vesper-06e69bbad0.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/vesper-06e69bbad0.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/vesper-06e69bbad0-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/vesper-06e69bbad0-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/vesper-06e69bbad0-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/vesper-06e69bbad0-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T20:13:46.549Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.6,
+     "p95": 16.8,
+     "p99": 18.1,
+     "max": 34.8,
+     "droppedPct": 0.29,
+     "over50": 0,
+     "over100": 0,
+     "frames": 1410,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T20:13:46.549Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 10.1,
+     "p99": 16.6,
+     "max": 18.2,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 979,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/vesper-pagespeed-mobile-56b7637b0d.html",
+     "testedAt": "2026-10-08T16:35:49.709Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 2101,
+      "TBT": 52,
+      "CLS": 0,
+      "SI": 3426
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/vesper-pagespeed-desktop-958470b0ac.html",
+     "testedAt": "2026-10-08T16:36:56.670Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 481,
+      "TBT": 61,
+      "CLS": 0,
+      "SI": 294
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 257,
+  "createdAt": "2026-07-12",
+  "typeTags": [
+   "full-page",
+   "saas"
+  ],
+  "tone": "dark",
+  "mood": [
+   "technical",
+   "luxe"
+  ],
+  "keywords": [
+   "product",
+   "developer-tool",
+   "webgl",
+   "orb",
+   "hud",
+   "next",
+   "vesper",
+   "dark",
+   "technical",
+   "page",
+   "built",
+   "around",
+   "live",
+   "instrument",
+   "not",
+   "decoration",
+   "frosted",
+   "financial",
+   "readouts",
+   "faq",
+   "all",
+   "held",
+   "together",
+   "one",
+   "scroll",
+   "clock",
+   "full",
+   "saas"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/vesper",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Vesper",
+    "description": "Vesper — a premium website template from the GetLayers library. A cloud of mint and violet light breathes as an orb, blows open into a spiral galaxy, and gathers itself into a thinking brain — a dark, living interface that answers every move you make.",
+    "url": "https://www.getlayers.ai/layer/vesper",
+    "image": "https://storage.getlayers.ai/templates/vesper-06e69bbad0.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-07-12",
+    "keywords": "landing page, threejs, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Vesper",
+      "item": "https://www.getlayers.ai/layer/vesper"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "vesper.webp": "204328 bytes",
+  "vesper-figma.webp": "123234 bytes"
+ }
+}

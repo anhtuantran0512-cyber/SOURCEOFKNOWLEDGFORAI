@@ -1,0 +1,349 @@
+{
+ "fetchedAt": "2026-11-20T15:22:51Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "marcus-vane",
+  "title": "Marcus Vane",
+  "category": "template",
+  "tags": [
+   "landing page",
+   "nextjs"
+  ],
+  "stack": [
+   "landing page",
+   "nextjs"
+  ],
+  "tier": "Free",
+  "description": "A founder stands framed inside his own towering name — a cinematic, dark study in conviction, ventures, and two decades of building the impossible.",
+  "image": "https://storage.getlayers.ai/templates/marcus-vane.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/marcus-vane.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/marcus-vane-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/marcus-vane-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/marcus-vane-mobile.mp4",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T19:24:07.838Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 10,
+     "p99": 10.3,
+     "max": 91.9,
+     "droppedPct": 0.48,
+     "over50": 1,
+     "over100": 0,
+     "frames": 2486,
+     "verdict": "smooth"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T19:24:07.838Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.9,
+     "p99": 10.2,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 929,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/marcus-vane-pagespeed-mobile-5c295ba04f.html",
+     "testedAt": "2026-10-08T16:31:39.377Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 95,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 1051,
+      "LCP": 2851,
+      "TBT": 97,
+      "CLS": 0,
+      "SI": 1051
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/marcus-vane-pagespeed-desktop-88e5aa0b0d.html",
+     "testedAt": "2026-10-08T16:32:21.390Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 281,
+      "LCP": 561,
+      "TBT": 47,
+      "CLS": 0,
+      "SI": 319
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Person",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "likes": 186,
+  "createdAt": "2026-06-16",
+  "typeTags": [
+   "full-page",
+   "portfolio"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "brutal"
+  ],
+  "keywords": [
+   "founder",
+   "portfolio",
+   "personal-brand",
+   "cinematic",
+   "dark",
+   "next",
+   "marcus",
+   "vane",
+   "near",
+   "black",
+   "site",
+   "built",
+   "around",
+   "enormous",
+   "anton",
+   "wordmark",
+   "single",
+   "electric",
+   "ember",
+   "accent",
+   "preloader",
+   "marquee",
+   "ventures",
+   "impact",
+   "voices",
+   "sections",
+   "stacked",
+   "under",
+   "one",
+   "scroll",
+   "full",
+   "page"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp",
+  "hasFigma": false
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/marcus-vane",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Marcus Vane",
+    "description": "Marcus Vane — a free website template from the GetLayers library. A founder stands framed inside his own towering name — a cinematic, dark study in conviction, ventures, and two decades of building the impossible.",
+    "url": "https://www.getlayers.ai/layer/marcus-vane",
+    "image": "https://storage.getlayers.ai/templates/marcus-vane.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-06-16",
+    "keywords": "landing page, nextjs",
+    "isAccessibleForFree": true,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "0",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Marcus Vane",
+      "item": "https://www.getlayers.ai/layer/marcus-vane"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "rate_limited"
+ },
+ "files": {
+  "marcus-vane.webp": "59342 bytes"
+ }
+}

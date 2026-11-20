@@ -1,7 +1,7 @@
 # ThreeUI — index
 
 > Auto-generated from `manifest.json` — do not edit by hand, run `scripts/build_source_indexes.py`.
-> **961 items** · priority 2 of 5 · Catalogue of 3D, WebGL and motion work. No source files: choose a direction, then build or buy.
+> **961 items** · priority 2 of 6 · Catalogue of 3D, WebGL and motion work. No source files: choose a direction, then build or buy.
 
 Runtime tells you the cost: CSS/GSAP is cheap, Three.js/R3F needs a perf budget.
 

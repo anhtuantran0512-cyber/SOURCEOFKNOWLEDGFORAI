@@ -1,0 +1,473 @@
+{
+ "fetchedAt": "2026-11-20T15:25:55Z",
+ "source": "https://www.getlayers.ai/templates",
+ "item": {
+  "id": "noema",
+  "title": "Noema",
+  "category": "template",
+  "tags": [
+   "hero",
+   "nextjs"
+  ],
+  "stack": [
+   "hero",
+   "nextjs"
+  ],
+  "tier": "Premium",
+  "description": "A portrait dissolving into slow-drifting light against deep navy, split by a towering serif headline — a studio hero that feels like a thought catching form.",
+  "image": "https://storage.getlayers.ai/templates/noema-656d33b840.webp",
+  "posterVideo": "https://storage.getlayers.ai/templates/noema-656d33b840.mp4",
+  "posterVideoPreview": "https://storage.getlayers.ai/templates/noema-656d33b840-preview.mp4",
+  "mockupDesktop": "https://storage.getlayers.ai/templates/noema-656d33b840-desktop.mp4",
+  "mockupMobile": "https://storage.getlayers.ai/templates/noema-656d33b840-mobile.mp4",
+  "figmaPreview": "https://storage.getlayers.ai/templates/noema-656d33b840-figma.webp",
+  "optimizationReport": {
+   "performance": {
+    "mobile": {
+     "testedAt": "2026-10-05T19:41:17.178Z",
+     "runs": 3,
+     "viewport": {
+      "width": 390,
+      "height": 844
+     },
+     "cpuSlowdown": 4,
+     "network": "4g",
+     "input": "touch",
+     "p50": 8.3,
+     "p95": 10.1,
+     "p99": 10.3,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 960,
+     "verdict": "ideal"
+    },
+    "desktop": {
+     "testedAt": "2026-10-05T19:41:17.178Z",
+     "runs": 3,
+     "viewport": {
+      "width": 1440,
+      "height": 900
+     },
+     "cpuSlowdown": 1,
+     "network": "wifi",
+     "input": "wheel",
+     "p50": 8.3,
+     "p95": 9.9,
+     "p99": 10.3,
+     "max": 10.4,
+     "droppedPct": 0,
+     "over50": 0,
+     "over100": 0,
+     "frames": 975,
+     "verdict": "ideal"
+    }
+   },
+   "seo": {
+    "mobile": {
+     "reportUrl": "https://storage.getlayers.ai/reports/noema-pagespeed-mobile-3cd846ad9b.html",
+     "testedAt": "2026-10-08T16:33:00.595Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 901,
+      "LCP": 2101,
+      "TBT": 12,
+      "CLS": 0,
+      "SI": 1286
+     }
+    },
+    "desktop": {
+     "reportUrl": "https://storage.getlayers.ai/reports/noema-pagespeed-desktop-d19aaf9f0d.html",
+     "testedAt": "2026-10-08T16:33:24.720Z",
+     "lighthouse": "13.5.0",
+     "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+     },
+     "metrics": {
+      "FCP": 241,
+      "LCP": 361,
+      "TBT": 23,
+      "CLS": 0,
+      "SI": 410
+     }
+    },
+    "audits": [
+     {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "pass": true
+     },
+     {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "pass": true
+     },
+     {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "pass": true
+     },
+     {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "pass": true
+     },
+     {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "pass": true
+     },
+     {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "pass": true
+     },
+     {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "pass": true
+     },
+     {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "pass": true
+     },
+     {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "pass": true
+     }
+    ],
+    "declares": {
+     "jsonLd": [
+      "Organization",
+      "WebSite"
+     ],
+     "openGraph": true,
+     "twitterCard": true,
+     "canonical": true,
+     "sitemap": true,
+     "robots": true,
+     "llms": false
+    }
+   }
+  },
+  "hasFigma": true,
+  "likes": 116,
+  "createdAt": "2026-07-24",
+  "typeTags": [
+   "hero",
+   "agency-studio"
+  ],
+  "tone": "dark",
+  "mood": [
+   "luxe",
+   "technical",
+   "calm"
+  ],
+  "keywords": [
+   "000",
+   "100",
+   "above-the-fold",
+   "against",
+   "agency",
+   "ai",
+   "all",
+   "and",
+   "around",
+   "art-direction",
+   "away",
+   "base",
+   "beams",
+   "behind",
+   "below",
+   "bottom",
+   "branding",
+   "brighten",
+   "built",
+   "bust",
+   "card",
+   "carves",
+   "centre",
+   "cinematic",
+   "continuously",
+   "counter",
+   "creative-studio",
+   "ctas",
+   "cursor",
+   "curtain",
+   "dark",
+   "deep-blue",
+   "diagonal",
+   "didone",
+   "display-type",
+   "doing",
+   "dom",
+   "domain",
+   "drift",
+   "drifting",
+   "dust",
+   "edges",
+   "editorial",
+   "elegant",
+   "embers",
+   "empty",
+   "entirely",
+   "envision",
+   "face",
+   "fall",
+   "far",
+   "featured",
+   "flanking",
+   "forming",
+   "frame",
+   "front",
+   "full",
+   "generative",
+   "glsl",
+   "god-rays",
+   "gpu",
+   "gradient",
+   "hairline",
+   "hard",
+   "head",
+   "headline",
+   "hero",
+   "human",
+   "identity",
+   "immersive",
+   "italiana",
+   "left",
+   "lifts",
+   "light",
+   "light-rays",
+   "line",
+   "lit",
+   "made",
+   "margins",
+   "masthead",
+   "materialising",
+   "materialize",
+   "midnight",
+   "minimal",
+   "navy",
+   "nebula",
+   "next",
+   "next16",
+   "nextjs",
+   "noema",
+   "non",
+   "nothing",
+   "off",
+   "one",
+   "out",
+   "over",
+   "pairing",
+   "particle",
+   "particles",
+   "pixel",
+   "point",
+   "point-cloud",
+   "pointcloud",
+   "portfolio",
+   "portrait",
+   "preloader",
+   "progress",
+   "pushed",
+   "raw",
+   "react",
+   "regenerate",
+   "rendered",
+   "right",
+   "room",
+   "row",
+   "scene",
+   "screen",
+   "scrolling",
+   "scrollless",
+   "scrolls",
+   "serif",
+   "shader",
+   "shadow",
+   "shedding",
+   "side",
+   "single",
+   "single-screen",
+   "smoke",
+   "split",
+   "split-headline",
+   "starfield",
+   "still",
+   "stream",
+   "studio",
+   "subtitle",
+   "surface",
+   "talking",
+   "that",
+   "the",
+   "they",
+   "through",
+   "ticks",
+   "top",
+   "twin",
+   "upper",
+   "upward",
+   "vertical",
+   "volumetric",
+   "warped",
+   "webgl",
+   "while",
+   "white",
+   "work"
+  ],
+  "stackPreview": "/mocks/stack-preview-v2.webp"
+ },
+ "page": {
+  "url": "https://www.getlayers.ai/layer/noema",
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "@id": "https://www.getlayers.ai/#organization",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "logo": {
+       "@type": "ImageObject",
+       "@id": "https://www.getlayers.ai/#logo",
+       "url": "https://www.getlayers.ai/android-icon-192x192.png",
+       "width": 192,
+       "height": 192,
+       "caption": "GetLayers"
+      },
+      "image": {
+       "@id": "https://www.getlayers.ai/#logo"
+      },
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "sameAs": [
+       "https://twitter.com/alexsavo_",
+       "https://textura.agency"
+      ],
+      "founder": {
+       "@type": "Organization",
+       "name": "Textura Agency",
+       "url": "https://textura.agency"
+      }
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.getlayers.ai/#website",
+      "name": "GetLayers",
+      "alternateName": "GetLayers AI",
+      "url": "https://www.getlayers.ai",
+      "description": "A curated library of AI-ready web templates, 3D WebGL scenes, animated backgrounds and gradients. Copy the prompt, build it in your own stack.",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "potentialAction": {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.getlayers.ai/templates?q={search_term_string}"
+       },
+       "query-input": "required name=search_term_string"
+      },
+      "hasPart": {
+       "@id": "https://studio.getlayers.ai/#app"
+      }
+     },
+     {
+      "@type": "WebApplication",
+      "@id": "https://studio.getlayers.ai/#app",
+      "name": "GetLayers Studio",
+      "url": "https://studio.getlayers.ai/",
+      "description": "Make custom 3D scenes, AI images and video for your website, remix premium scenes from the GetLayers library, and upscale pictures and clips.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "en",
+      "publisher": {
+       "@id": "https://www.getlayers.ai/#organization"
+      },
+      "isPartOf": {
+       "@id": "https://www.getlayers.ai/#website"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Noema",
+    "description": "Noema — a premium website template from the GetLayers library. A portrait dissolving into slow-drifting light against deep navy, split by a towering serif headline — a studio hero that feels like a thought catching form.",
+    "url": "https://www.getlayers.ai/layer/noema",
+    "image": "https://storage.getlayers.ai/templates/noema-656d33b840.webp",
+    "inLanguage": "en",
+    "dateCreated": "2026-07-24",
+    "keywords": "hero, nextjs",
+    "isAccessibleForFree": false,
+    "creator": {
+     "@type": "Organization",
+     "name": "Textura Agency",
+     "url": "https://textura.agency"
+    },
+    "publisher": {
+     "@id": "https://www.getlayers.ai/#organization"
+    },
+    "isPartOf": {
+     "@id": "https://www.getlayers.ai/#website"
+    },
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.getlayers.ai/pricing",
+     "availability": "https://schema.org/InStock",
+     "price": "99",
+     "priceCurrency": "USD"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Library",
+      "item": "https://www.getlayers.ai/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Templates",
+      "item": "https://www.getlayers.ai/templates"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Noema",
+      "item": "https://www.getlayers.ai/layer/noema"
+     }
+    ]
+   }
+  ]
+ },
+ "prompt": {
+  "status": "premium"
+ },
+ "files": {
+  "noema.webp": "187074 bytes",
+  "noema-figma.webp": "101238 bytes"
+ }
+}
