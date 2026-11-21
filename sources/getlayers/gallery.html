@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GetLayers — the 47 free items</title>
+<style>
+  :root {
+    --ink: #0b0c0d; --panel: #141618; --line: #26292c;
+    --text: #eceeef; --muted: #9aa0a6; --accent: #d6f36b;
+    --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--ink); color: var(--text); }
+  body { font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
+
+  header { border-bottom: 1px solid var(--line); }
+  .top { display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-end; justify-content: space-between; padding: 56px 0 28px; }
+  .eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); }
+  h1 { font-size: clamp(30px, 5vw, 52px); line-height: 1.02; letter-spacing: -.03em; margin: 12px 0 0; font-weight: 500; }
+  h1 em { font-style: normal; color: var(--muted); }
+  .lede { max-width: 46ch; color: var(--muted); font-size: 14px; line-height: 1.6; margin: 14px 0 0; }
+  .stats { display: flex; gap: 26px; font-family: var(--mono); }
+  .stats div span { display: block; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .stats div strong { font-size: 24px; font-weight: 500; letter-spacing: -.02em; }
+
+  .bar { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--ink) 92%, transparent);
+          backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .bar .wrap { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 12px 24px; }
+  .chip { font-family: var(--mono); font-size: 12px; letter-spacing: .04em; color: var(--muted);
+           background: transparent; border: 1px solid var(--line); border-radius: 999px;
+           padding: 7px 13px; cursor: pointer; display: inline-flex; gap: 8px; align-items: center; }
+  .chip span { color: #6b7075; font-size: 10px; }
+  .chip:hover { color: var(--text); border-color: #3a3f44; }
+  .chip[aria-pressed="true"] { color: var(--ink); background: var(--accent); border-color: var(--accent); }
+  .chip[aria-pressed="true"] span { color: #4d5a12; }
+  .search { margin-left: auto; flex: 1 1 180px; max-width: 260px; }
+  .search input { width: 100%; background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+                   color: var(--text); font-family: var(--mono); font-size: 12px; padding: 8px 11px; }
+  .search input:focus { outline: none; border-color: #4a5055; }
+
+  main { padding: 32px 0 72px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
+           display: flex; flex-direction: column; }
+  .card:hover, .card:focus-within { border-color: #3a3f44; }
+  .card[hidden] { display: none; }
+  .frame { position: relative; aspect-ratio: 16 / 10; background: #0e1012; overflow: hidden; }
+  .frame img, .frame video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .frame video { opacity: 0; transition: opacity .35s ease; }
+  .card:hover .frame video, .card:focus-within .frame video { opacity: 1; }
+  .badge { position: absolute; top: 10px; left: 10px; font-family: var(--mono); font-size: 10px;
+            letter-spacing: .1em; text-transform: uppercase; padding: 4px 7px; border-radius: 4px;
+            background: rgba(11,12,13,.72); color: #cfd3d6; border: 1px solid rgba(255,255,255,.08); }
+  .badge.free { background: var(--accent); color: #10120a; border-color: transparent; }
+  .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .name { font-size: 16px; font-weight: 500; letter-spacing: -.01em; margin: 0; display: flex;
+           justify-content: space-between; gap: 10px; align-items: baseline; }
+  .name a { text-decoration: none; }
+  .name a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .likes { font-family: var(--mono); font-size: 11px; color: #6b7075; white-space: nowrap; }
+  .desc { color: var(--muted); font-size: 13px; line-height: 1.55; margin: 0;
+           display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .meta { font-family: var(--mono); font-size: 10.5px; letter-spacing: .05em; color: #6b7075;
+           margin-top: auto; padding-top: 6px; display: flex; flex-wrap: wrap; gap: 6px 10px; }
+  .meta i { font-style: normal; color: #8b9196; }
+  .links { display: flex; gap: 14px; font-family: var(--mono); font-size: 11px; padding-top: 4px; }
+  .links a { color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; }
+  .links a:hover { color: var(--accent); border-color: var(--accent); }
+
+  footer { border-top: 1px solid var(--line); padding: 26px 0 60px; color: #6b7075; font-size: 12px; line-height: 1.7; }
+  footer a { color: var(--muted); }
+  .empty { color: var(--muted); font-family: var(--mono); font-size: 13px; padding: 40px 0; }
+  @media (prefers-reduced-motion: reduce) {
+    .frame video { display: none; }
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap top">
+    <div>
+      <p class="eyebrow">GetLayers · free tier</p>
+      <h1>Forty-seven items,<br><em>every file kept.</em></h1>
+      <p class="lede">The free half of five GetLayers libraries — templates, 3D scenes and animated
+        backgrounds — with the motion, mockups and Lighthouse reports the site publishes for them.</p>
+    </div>
+    <div class="stats">
+      <div><span>items</span><strong>47</strong></div>
+      <div><span>files</span><strong>232</strong></div>
+      <div><span>prompts</span><strong>2</strong></div>
+      <div><span>size</span><strong>0.60 GB</strong></div>
+    </div>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="wrap">
+    <button class="chip" data-filter="all" type="button" aria-pressed="true">All<span>47</span></button>
+    <button class="chip" data-filter="template" type="button">Template<span>11</span></button><button class="chip" data-filter="3d_scene" type="button">3D scene<span>7</span></button><button class="chip" data-filter="background" type="button">Background<span>29</span></button>
+    <label class="search"><input id="q" type="search" placeholder="search title, tag, stack…" aria-label="Search items"></label>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden>Nothing matches that filter.</p>
+</main>
+
+<footer class="wrap">
+  Every file here is published free on <a href="https://www.getlayers.ai">getlayers.ai</a> and belongs to
+  GetLayers / Textura — see <a href="../../NOTICE.md">NOTICE.md</a>. The 845 premium items and their
+  prompts are not included. Briefs live in <a href="INDEX.md">INDEX.md</a>; every URL and size, free or
+  not, is in <a href="MEDIA.md">MEDIA.md</a>.
+</footer>
+
+<script type="application/json" id="data">{"items":[{"id":"ascend","title":"Ascend","category":"template","tone":"dark","stack":["landing page","threejs","react"],"tags":["landing page","threejs","react"],"likes":216,"description":"A living Earth turns in deep space behind a mint-lit SaaS landing page — city lights, drifting clouds, and radar pings glowing as the planet sinks and swings with every scroll.","poster":"media/ascend/ascend.webp","video":"media/ascend/ascend-preview.mp4","bytes":38507021,"files":7,"prompt":false},{"id":"baseline","title":"Baseline","category":"template","tone":"light","stack":["landing page","nextjs"],"tags":["landing page","nextjs"],"likes":252,"description":"A members' tennis club and academy carried with championship poise — deep court-blue, confident type, and a calm scroll that reveals the coaching, the courts, and the pedigree one beat at a time.","poster":"media/baseline/baseline.webp","video":"media/baseline/baseline-preview.mp4","bytes":22292897,"files":7,"prompt":false},{"id":"flowstate","title":"Flowstate","category":"template","tone":"dark","stack":["hero","nextjs"],"tags":["hero","nextjs"],"likes":157,"description":"A living fluid drifts through ink-dark calm as a single line settles into place — a hero built for focus, stillness, and deep work.","poster":"media/flowstate/flowstate-4c494408e1.webp","video":"media/flowstate/flowstate-4c494408e1-preview.mp4","bytes":5201267,"files":7,"prompt":false},{"id":"gravity-webgl","title":"Gravity","category":"template","tone":"light","stack":["landing page","threejs","react"],"tags":["landing page","threejs","react"],"likes":131,"description":"A WebGL field of glossy spheres that drops, scatters, and reassembles into a heart as you scroll — chasing your cursor the whole way.","poster":"media/gravity-webgl/gravity-webgl.webp","video":"media/gravity-webgl/gravity-webgl-preview.mp4","bytes":30663363,"files":7,"prompt":false},{"id":"artist","title":"Kai Nomura","category":"template","tone":"light","stack":["landing page","nextjs"],"tags":["landing page","nextjs"],"likes":70,"description":"A generative artist's portfolio in hushed, monochrome minimalism — works of light, code, and memory drifting past as you scroll.","poster":"media/artist/artist.webp","video":"media/artist/artist-preview.mp4","bytes":26570710,"files":7,"prompt":false},{"id":"kimi","title":"Kimi","category":"template","tone":"light","stack":["landing page","threejs","nextjs"],"tags":["landing page","threejs","nextjs"],"likes":418,"description":"A Formula 1 driver's site where the helmet burns off his portrait as the page loads and comes back only where your cursor has just been, the season's circuit runs a lap when you reach it, and every block after that lands over the last one like a stack of cards.","poster":"media/kimi/kimi-04a9449ab2.webp","video":"media/kimi/kimi-04a9449ab2-preview.mp4","bytes":21731017,"files":8,"prompt":false},{"id":"laocoon","title":"Laocoon","category":"template","tone":"dark","stack":["landing page","threejs"],"tags":["landing page","threejs"],"likes":268,"description":"A cinematic WebGL homage to the Laocoön — a glowing bronze sculpture you orbit as you scroll, wrapped in molten forge sparks and a breathing liquid-metal shader that drifts from bronze to deep sapphire.","poster":"media/laocoon/laocoon.webp","video":"media/laocoon/laocoon-preview.mp4","bytes":33809068,"files":7,"prompt":false},{"id":"loopstack","title":"Loopstack","category":"template","tone":"dark","stack":["hero"],"tags":["hero"],"likes":187,"description":"A black canvas where a flower blooms behind your every word, and a glowing cursor whispers hello.","poster":"media/loopstack/loopstack.webp","video":"media/loopstack/loopstack-preview.mp4","bytes":16914661,"files":7,"prompt":false},{"id":"lumora","title":"Lumora","category":"template","tone":"light","stack":["landing page","nextjs"],"tags":["landing page","nextjs"],"likes":399,"description":"An independent design-and-engineering studio rendered in near-black calm — bold work surfacing with quiet, fluid precision as the page drifts past.","poster":"media/lumora/lumora.webp","video":"media/lumora/lumora-preview.mp4","bytes":21030161,"files":7,"prompt":false},{"id":"marcus-vane","title":"Marcus Vane","category":"template","tone":"dark","stack":["landing page","nextjs"],"tags":["landing page","nextjs"],"likes":186,"description":"A founder stands framed inside his own towering name — a cinematic, dark study in conviction, ventures, and two decades of building the impossible.","poster":"media/marcus-vane/marcus-vane.webp","video":"media/marcus-vane/marcus-vane-preview.mp4","bytes":22168030,"files":7,"prompt":false},{"id":"soda","title":"Soda","category":"template","tone":"dark","stack":["hero"],"tags":["hero"],"likes":444,"description":"A 3D soda can floats and follows your cursor while berries scatter from your touch and the whole world shifts color when you pick a flavor.","poster":"media/soda/soda.webp","video":"media/soda/soda-preview.mp4","bytes":19328515,"files":7,"prompt":true},{"id":"elliptical-galaxy","title":"Elliptical Galaxy","category":"3d_scene","tone":"dark","stack":["threejs","particles"],"tags":["threejs","particles"],"likes":68,"description":"A whole sky of tilted golden lens galaxies tumbling and twinkling across a deep-indigo void.","poster":"media/elliptical-galaxy/elliptical-galaxy.webp","video":"media/elliptical-galaxy/elliptical-galaxy-preview.mp4","bytes":21113708,"files":10,"prompt":false},{"id":"flow-wave","title":"Flow Wave","category":"3d_scene","tone":"dark","stack":["threejs","particles"],"tags":["threejs","particles"],"likes":127,"description":"A glowing sea of mint particle hills rolling endlessly under a deep-emerald haze.","poster":"media/flow-wave/flow-wave.webp","video":"media/flow-wave/flow-wave-preview.mp4","bytes":36335872,"files":7,"prompt":true},{"id":"flying-dust","title":"Flying Dust","category":"3d_scene","tone":"dark","stack":["threejs","particles"],"tags":["threejs","particles"],"likes":56,"description":"Glowing rust-red and amber dust motes drift weightlessly toward you through a deep brown-black void.","poster":"media/flying-dust/flying-dust.webp","video":"media/flying-dust/flying-dust-preview.mp4","bytes":7985656,"files":7,"prompt":false},{"id":"starfield-close","title":"Starfield Close","category":"3d_scene","tone":"dark","stack":["threejs","particles"],"tags":["threejs","particles"],"likes":109,"description":"A dense field of mint and bone-white stars wraps the camera and streams past like an endless tunnel of starlight.","poster":"media/starfield-close/starfield-close.webp","video":"media/starfield-close/starfield-close-preview.mp4","bytes":9187443,"files":7,"prompt":false},{"id":"storm","title":"Storm","category":"3d_scene","tone":"dark","stack":["threejs","particles"],"tags":["threejs","particles"],"likes":92,"description":"A turbulent plasma orb of glowing points pulses and breathes, glowing from a crimson core to a gold rim.","poster":"media/storm/storm.webp","video":"media/storm/storm-preview.mp4","bytes":42724082,"files":10,"prompt":false},{"id":"tunnel","title":"Tunnel","category":"3d_scene","tone":"dark","stack":["threejs","particles"],"tags":["threejs","particles"],"likes":111,"description":"A glowing wormhole of particles ripples and swirls deeper into deep indigo and electric cyan.","poster":"media/tunnel/tunnel.webp","video":"media/tunnel/tunnel-preview.mp4","bytes":40893379,"files":7,"prompt":false},{"id":"vortex","title":"Vortex","category":"3d_scene","tone":"dark","stack":["threejs","particles","interactive"],"tags":["threejs","particles","interactive"],"likes":59,"description":"A searing white-hot star caught at the eye of a vast, slowly churning whirlpool of silken stardust adrift in the deep dark.","poster":"media/vortex/vortex.webp","video":"media/vortex/vortex-preview.mp4","bytes":59935273,"files":19,"prompt":false},{"id":"blue-plasma-burst","title":"Blue Plasma Burst","category":"background","tone":"light","stack":["background"],"tags":["background"],"likes":0,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/blue-plasma-burst/blue-plasma-burst-355052bd59.webp","video":"media/blue-plasma-burst/blue-plasma-burst-355052bd59-preview.mp4","bytes":1719735,"files":3,"prompt":false},{"id":"charcoal-silk-folds","title":"Charcoal Silk Folds","category":"background","tone":"dark","stack":["background"],"tags":["background"],"likes":3,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/charcoal-silk-folds/charcoal-silk-folds-6dfa5e56de.webp","video":"media/charcoal-silk-folds/charcoal-silk-folds-6dfa5e56de-preview.mp4","bytes":2912789,"files":3,"prompt":false},{"id":"chrome-orb-meadow","title":"Chrome Orb Meadow","category":"background","tone":"light","stack":["background"],"tags":["background"],"likes":1,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/chrome-orb-meadow/chrome-orb-meadow-82f70fd9d1.webp","video":"media/chrome-orb-meadow/chrome-orb-meadow-82f70fd9d1-preview.mp4","bytes":6780106,"files":3,"prompt":false},{"id":"crimson-cream-swirl","title":"Crimson Cream Swirl","category":"background","tone":"light","stack":["background"],"tags":["background"],"likes":1,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/crimson-cream-swirl/crimson-cream-swirl-d5ce701844.webp","video":"media/crimson-cream-swirl/crimson-cream-swirl-d5ce701844-preview.mp4","bytes":3990453,"files":3,"prompt":false},{"id":"flower-arc","title":"Flower Arc","category":"background","tone":"dark","stack":[],"tags":["background"],"likes":55,"description":"Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped","poster":"media/flower-arc/flower-arc.webp","video":"media/flower-arc/flower-arc-preview.mp4","bytes":7446720,"files":3,"prompt":false},{"id":"flower-field","title":"Flower Field","category":"background","tone":"dark","stack":[],"tags":["background"],"likes":38,"description":"Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped","poster":"media/flower-field/flower-field.webp","video":"media/flower-field/flower-field-preview.mp4","bytes":6140573,"files":3,"prompt":false},{"id":"glass-flower","title":"Glass Flower","category":"background","tone":"dark","stack":[],"tags":["background"],"likes":69,"description":"Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped","poster":"media/glass-flower/glass-flower.webp","video":"media/glass-flower/glass-flower-preview.mp4","bytes":3746090,"files":3,"prompt":false},{"id":"glass-orb-valley","title":"Glass Orb Valley","category":"background","tone":"dark","stack":["background"],"tags":["background"],"likes":7,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/glass-orb-valley/glass-orb-valley-02ecd47ce2.webp","video":"media/glass-orb-valley/glass-orb-valley-02ecd47ce2-preview.mp4","bytes":5070674,"files":3,"prompt":false},{"id":"glass-swirls-garden","title":"Glass Swirls Garden","category":"background","tone":"light","stack":["background"],"tags":["background"],"likes":4,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/glass-swirls-garden/glass-swirls-garden-f4c77da844.webp","video":"media/glass-swirls-garden/glass-swirls-garden-f4c77da844-preview.mp4","bytes":2860924,"files":3,"prompt":false},{"id":"hidden-garden-stairs","title":"Hidden Garden Stairs","category":"background","tone":"dark","stack":["background"],"tags":["background"],"likes":4,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/hidden-garden-stairs/hidden-garden-stairs-cfdfcbe68c.webp","video":"media/hidden-garden-stairs/hidden-garden-stairs-cfdfcbe68c-preview.mp4","bytes":2958229,"files":3,"prompt":false},{"id":"hills","title":"Hills","category":"background","tone":"light","stack":[],"tags":["background"],"likes":62,"description":"Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped","poster":"media/hills/hills.webp","video":"media/hills/hills-preview.mp4","bytes":7402226,"files":3,"prompt":false},{"id":"indoor-garden-window","title":"Indoor Garden Window","category":"background","tone":"dark","stack":["background"],"tags":["background"],"likes":1,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/indoor-garden-window/indoor-garden-window-28be4836ce.webp","video":"media/indoor-garden-window/indoor-garden-window-28be4836ce-preview.mp4","bytes":3632948,"files":3,"prompt":false},{"id":"jungle-swirl-portal","title":"Jungle Swirl Portal","category":"background","tone":"dark","stack":["background"],"tags":["background"],"likes":1,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/jungle-swirl-portal/jungle-swirl-portal-cdf5e096dd.webp","video":"media/jungle-swirl-portal/jungle-swirl-portal-cdf5e096dd-preview.mp4","bytes":2304579,"files":3,"prompt":false},{"id":"material-hills","title":"Material Hills","category":"background","tone":"light","stack":[],"tags":["background"],"likes":83,"description":"Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped","poster":"media/material-hills/material-hills.webp","video":"media/material-hills/material-hills-preview.mp4","bytes":7283470,"files":3,"prompt":false},{"id":"melting-candy-clocks","title":"Melting Candy Clocks","category":"background","tone":"light","stack":["background"],"tags":["background"],"likes":0,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/melting-candy-clocks/melting-candy-clocks-38c8ea0103.webp","video":"media/melting-candy-clocks/melting-candy-clocks-38c8ea0103-preview.mp4","bytes":1995312,"files":3,"prompt":false},{"id":"metal-human","title":"Metal Human","category":"background","tone":"dark","stack":[],"tags":["background"],"likes":126,"description":"Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped","poster":"media/metal-human/metal-human.webp","video":"media/metal-human/metal-human-preview.mp4","bytes":3301564,"files":3,"prompt":false},{"id":"moon-walk","title":"Moon Walk","category":"background","tone":"dark","stack":[],"tags":["background"],"likes":83,"description":"Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped","poster":"media/moon-walk/moon-walk.webp","video":"media/moon-walk/moon-walk-preview.mp4","bytes":10299023,"files":3,"prompt":false},{"id":"moss-sofa-meadow","title":"Moss Sofa Meadow","category":"background","tone":"light","stack":["background"],"tags":["background"],"likes":2,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/moss-sofa-meadow/moss-sofa-meadow-6cf3dc42d9.webp","video":"media/moss-sofa-meadow/moss-sofa-meadow-6cf3dc42d9-preview.mp4","bytes":3543912,"files":3,"prompt":false},{"id":"pampas-lake-hills","title":"Pampas Lake Hills","category":"background","tone":"light","stack":["background"],"tags":["background"],"likes":4,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/pampas-lake-hills/pampas-lake-hills-6d80d66285.webp","video":"media/pampas-lake-hills/pampas-lake-hills-6d80d66285-preview.mp4","bytes":2233749,"files":3,"prompt":false},{"id":"purple-desert","title":"Purple Desert","category":"background","tone":"dark","stack":[],"tags":["background"],"likes":121,"description":"Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped","poster":"media/purple-desert/purple-desert.webp","video":"media/purple-desert/purple-desert-preview.mp4","bytes":4359104,"files":3,"prompt":false},{"id":"rose-covered-figure","title":"Rose Covered Figure","category":"background","tone":"light","stack":["background"],"tags":["background"],"likes":3,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/rose-covered-figure/rose-covered-figure-b9d59ad44f.webp","video":"media/rose-covered-figure/rose-covered-figure-b9d59ad44f-preview.mp4","bytes":2443348,"files":3,"prompt":false},{"id":"sea-storm","title":"Sea Storm","category":"background","tone":"dark","stack":[],"tags":["background"],"likes":113,"description":"Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped","poster":"media/sea-storm/sea-storm.webp","video":"media/sea-storm/sea-storm-preview.mp4","bytes":2246851,"files":3,"prompt":false},{"id":"silver-line-waves","title":"Silver Line Waves","category":"background","tone":"light","stack":["background"],"tags":["background"],"likes":4,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/silver-line-waves/silver-line-waves-8bd84503db.webp","video":"media/silver-line-waves/silver-line-waves-8bd84503db-preview.mp4","bytes":5171505,"files":3,"prompt":false},{"id":"skylight-fish-swarm","title":"Skylight Fish Swarm","category":"background","tone":"dark","stack":["background"],"tags":["background"],"likes":5,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/skylight-fish-swarm/skylight-fish-swarm-dde3b0821a.webp","video":"media/skylight-fish-swarm/skylight-fish-swarm-dde3b0821a-preview.mp4","bytes":2195506,"files":3,"prompt":false},{"id":"soft-grey-waves","title":"Soft Grey Waves","category":"background","tone":"light","stack":["background"],"tags":["background"],"likes":4,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/soft-grey-waves/soft-grey-waves-243322fe13.webp","video":"media/soft-grey-waves/soft-grey-waves-243322fe13-preview.mp4","bytes":853550,"files":3,"prompt":false},{"id":"sunny-grass-mound","title":"Sunny Grass Mound","category":"background","tone":"light","stack":["background"],"tags":["background"],"likes":1,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/sunny-grass-mound/sunny-grass-mound-430c7233d3.webp","video":"media/sunny-grass-mound/sunny-grass-mound-430c7233d3-preview.mp4","bytes":7230914,"files":3,"prompt":false},{"id":"teal-neon-dashes","title":"Teal Neon Dashes","category":"background","tone":"dark","stack":["background"],"tags":["background"],"likes":0,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/teal-neon-dashes/teal-neon-dashes-bfe3d45283.webp","video":"media/teal-neon-dashes/teal-neon-dashes-bfe3d45283-preview.mp4","bytes":2841427,"files":3,"prompt":false},{"id":"turquoise-forest-lake","title":"Turquoise Forest Lake","category":"background","tone":"dark","stack":["background"],"tags":["background"],"likes":1,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/turquoise-forest-lake/turquoise-forest-lake-13fecb84a0.webp","video":"media/turquoise-forest-lake/turquoise-forest-lake-13fecb84a0-preview.mp4","bytes":3643056,"files":3,"prompt":false},{"id":"white-hood-blossoms","title":"White Hood Blossoms","category":"background","tone":"light","stack":["background"],"tags":["background"],"likes":0,"description":"Source files include a 4K video and a 2K poster, without any watermarks.\nThe video background is looped.","poster":"media/white-hood-blossoms/white-hood-blossoms-10df132b0c.webp","video":"media/white-hood-blossoms/white-hood-blossoms-10df132b0c-preview.mp4","bytes":2315206,"files":3,"prompt":false}],"totals":{"items":47,"files":232,"bytes":595315666,"prompts":2,"byCategory":{"template":11,"3d_scene":7,"background":29,"section":0,"gradient":0}}}</script>
+<script>
+const DATA = JSON.parse(document.getElementById("data").textContent);
+const LABEL = {template:"Template","3d_scene":"3D scene",background:"Background",section:"Section",gradient:"Gradient"};
+const kb = n => n > 1e6 ? (n / 1e6).toFixed(1) + " MB" : Math.round(n / 1e3) + " KB";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c]);
+
+const grid = document.getElementById("grid");
+const empty = document.getElementById("empty");
+const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+const cards = DATA.items.map(item => {
+  const el = document.createElement("article");
+  el.className = "card";
+  el.dataset.category = item.category;
+  el.dataset.search = [item.title, item.id, item.category, item.tone, item.description,
+                       ...(item.stack || []), ...(item.tags || [])].join(" ").toLowerCase();
+  el.innerHTML = `
+    <div class="frame">
+      ${item.poster ? `<img src="${esc(item.poster)}" alt="" loading="lazy" decoding="async">` : ""}
+      ${item.video && !reduced ? `<video src="${esc(item.video)}" muted loop playsinline preload="none"></video>` : ""}
+      <span class="badge">${LABEL[item.category] || item.category}</span>
+      ${item.prompt ? `<span class="badge free" style="left:auto;right:10px">prompt</span>` : ""}
+    </div>
+    <div class="body">
+      <h2 class="name"><a href="items/${esc(item.id)}/ITEM.md">${esc(item.title)}</a>
+        <span class="likes">♥ ${item.likes}</span></h2>
+      <p class="desc">${esc(item.description)}</p>
+      <div class="meta">
+        <span><i>${item.files}</i> files</span><span><i>${kb(item.bytes)}</i></span>
+        ${item.tone ? `<span><i>${esc(item.tone)}</i></span>` : ""}
+        ${(item.stack || []).slice(0, 3).map(s => `<span>${esc(s)}</span>`).join("")}
+      </div>
+      <div class="links">
+        <a href="items/${esc(item.id)}/ITEM.md">brief</a>
+        ${item.prompt ? `<a href="prompts/${esc(item.id)}.md">prompt</a>` : ""}
+        <a href="https://www.getlayers.ai/layer/${esc(item.id)}" rel="noopener">live ↗</a>
+      </div>
+    </div>`;
+  const video = el.querySelector("video");
+  if (video) {
+    const play = () => { video.play().catch(() => {}); };
+    const stop = () => { video.pause(); video.currentTime = 0; };
+    el.addEventListener("mouseenter", play);
+    el.addEventListener("mouseleave", stop);
+    el.addEventListener("focusin", play);
+    el.addEventListener("focusout", stop);
+  }
+  return el;
+});
+cards.forEach(card => grid.appendChild(card));
+
+let filter = "all";
+const apply = () => {
+  const term = document.getElementById("q").value.trim().toLowerCase();
+  let shown = 0;
+  cards.forEach(card => {
+    const ok = (filter === "all" || card.dataset.category === filter) &&
+               (!term || card.dataset.search.includes(term));
+    card.hidden = !ok;
+    if (ok) shown++;
+  });
+  empty.hidden = shown > 0;
+};
+document.querySelectorAll(".chip").forEach(chip => {
+  chip.addEventListener("click", () => {
+    filter = chip.dataset.filter;
+    document.querySelectorAll(".chip").forEach(other => other.setAttribute("aria-pressed", String(other === chip)));
+    apply();
+  });
+});
+document.getElementById("q").addEventListener("input", apply);
+</script>
+</body>
+</html>

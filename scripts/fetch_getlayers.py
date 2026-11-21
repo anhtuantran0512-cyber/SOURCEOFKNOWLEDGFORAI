@@ -24,6 +24,7 @@ works around the limit, and a `forbidden` answer is recorded, never retried.
 
 Usage:
     python3 scripts/fetch_getlayers.py                     # metadata + stills + free prompts
+    python3 scripts/fetch_getlayers.py --prompts-only      # only the free prompts still missing
     python3 scripts/fetch_getlayers.py --category template # one library only
     python3 scripts/fetch_getlayers.py --media video       # + mockup/preview mp4 per item
     python3 scripts/fetch_getlayers.py --media all         # + hero video and Lighthouse HTML
@@ -531,6 +532,59 @@ async def collect_category(
     return len(items)
 
 
+async def collect_missing_prompts(client: httpx.AsyncClient, args: argparse.Namespace) -> int:
+    """Fetch only the free prompts the archive is still missing.
+
+    The site hands out one anonymous copy per visitor per day, so a run stops at the
+    first `rate_limited` instead of knocking on the door seventeen more times.
+    """
+    manifest_path = OUT / "manifest.json"
+    manifest: list[dict[str, Any]] = json.loads(manifest_path.read_text(encoding="utf-8"))
+    todo = [row for row in manifest if row["tier"] == "Free" and not row["prompt_path"]]
+    print(f"free prompts missing: {len(todo)}", flush=True)
+    started, captured, limited = time.time(), 0, 0
+    for row in todo:
+        ident, category = row["id"], row["category"]
+        page, action = CATEGORIES[category]
+        record_path = OUT / "items" / ident / "metadata.json"
+        if not record_path.exists() or not action:
+            print(f"  {ident:<26} no metadata", flush=True)
+            continue
+        record = json.loads(record_path.read_text(encoding="utf-8"))
+        item = record["item"]
+        prompt, status = await fetch_prompt(client, item, page, action)
+        if prompt:
+            (OUT / "prompts" / f"{ident}.md").write_text(prompt_markdown(item, prompt), encoding="utf-8")
+            record["prompt"] = {
+                "status": status,
+                "path": f"sources/getlayers/prompts/{ident}.md",
+                "chars": len(prompt),
+            }
+            record_path.write_text(json.dumps(record, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            (OUT / "items" / ident / "ITEM.md").write_text(item_markdown(item, status), encoding="utf-8")
+            row["prompt_path"] = f"sources/getlayers/prompts/{ident}.md"
+            captured += 1
+        else:
+            record["prompt"] = {"status": status}
+            record_path.write_text(json.dumps(record, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            (OUT / "items" / ident / "ITEM.md").write_text(item_markdown(item, status), encoding="utf-8")
+            print(f"  {ident:<26} {status}", flush=True)
+            if status == "rate_limited":
+                limited += 1
+                print("  daily grant spent — stopping", flush=True)
+                break
+        print(f"  {ident:<26} {status}", flush=True)
+        await asyncio.sleep(1.5)
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    total = sum(1 for row in manifest if row["prompt_path"])
+    print(
+        f"done in {time.time() - started:.1f}s · captured={captured} · "
+        f"still missing={len(todo) - captured} · free prompts on file={total}",
+        flush=True,
+    )
+    return 0
+
+
 async def run(args: argparse.Namespace) -> int:
     started = time.time()
     for sub in ("items", "prompts", "assets", "catalog"):
@@ -540,6 +594,10 @@ async def run(args: argparse.Namespace) -> int:
     if args.cookie:
         headers["Cookie"] = args.cookie
     categories = [args.category] if args.category else list(CATEGORIES)
+
+    if args.prompts_only:
+        async with httpx.AsyncClient(timeout=90, follow_redirects=True, headers=headers) as client:
+            return await collect_missing_prompts(client, args)
 
     manifest: list[dict[str, Any]] = []
     expected = 0
@@ -574,6 +632,11 @@ def main() -> int:
         help="none: stills only (default) · video: + mockup/preview mp4 · all: + hero video and Lighthouse HTML",
     )
     parser.add_argument("--force", action="store_true", help="re-download files that already exist")
+    parser.add_argument(
+        "--prompts-only",
+        action="store_true",
+        help="fetch only the free prompts still missing, leaving the rest of the archive alone",
+    )
     parser.add_argument(
         "--cookie",
         default="",

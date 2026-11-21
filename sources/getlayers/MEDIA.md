@@ -14,7 +14,7 @@ python3 scripts/fetch_getlayers_free.py          # the free tier, into media/
 
 The poster stills for all 892 items *are* committed, in `assets/`.
 
-The **free tier is committed** too: 47 free items, 232 files, 595 MB, in `media/<id>/` — every video, still and Lighthouse report the site publishes for them, downloaded by `scripts/fetch_getlayers_free.py`. Premium media is not fetched at all.
+The **free tier is committed** too: 47 free items, 232 files, 595 MB, in `media/<id>/` — every video, still and Lighthouse report the site publishes for them, downloaded by `scripts/fetch_getlayers_free.py`. Premium media is not fetched at all. To browse that set, open `gallery.html` — it plays the local files and needs no server.
 
 | Library | Files | Size |
 |---|---:|---:|

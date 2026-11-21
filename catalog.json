@@ -37,13 +37,14 @@
       "free_items": 47,
       "premium_items": 845,
       "free_prompts": 18,
-      "free_prompts_captured": 1,
+      "free_prompts_captured": 2,
       "locked_prompts": 891,
       "media_files": 5854,
       "media_bytes": 10039242693,
       "free_media_path": "sources/getlayers/media/",
       "free_media_files": 232,
-      "free_media_bytes": 595315666
+      "free_media_bytes": 595315666,
+      "gallery": "sources/getlayers/gallery.html"
     },
     "lucianlabs": {
       "manifest": "sources/lucianlabs/manifest.json",

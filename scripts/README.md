@@ -10,6 +10,7 @@ endpoints the websites use in a browser.
 | `fetch_motionsites.py` | Reads the public catalogue, fetches **only** `is_free = true` prompts, writes markdown files. Paid prompts are never requested. |
 | `fetch_getlayers.py` | Reads the five catalogue pages (templates, 3D scenes, sections, backgrounds, gradients) for all 892 items, each template's `/layer/<id>` page for its JSON-LD, downloads poster and Figma stills, and calls the public copy-prompt actions for **free-tier items only**. Premium answers `forbidden` and is never retried. `--media video|all` also fetches mp4s and Lighthouse HTML. |
 | `fetch_getlayers_free.py` | Streams every media file of the 47 free GetLayers items into `sources/getlayers/media/<id>/` and records them in `media-free.json`. Resumable, skips anything premium. |
+| `build_getlayers_gallery.py` | Renders `sources/getlayers/gallery.html` from `media-free.json` + `manifest.json`: one offline page for the 47 free items, posters and hover clips included. |
 | `build_index.py` | Regenerates `INDEX.md`, per-source `README.md` files and `catalog.json`. |
 | `verify.py` | Validates counts, files, frontmatter, demos and the free/paid boundary. |
 
@@ -34,6 +35,7 @@ python3 scripts/fetch_getlayers.py --cookie-file ~/gl-cookies.txt   # signed-in 
 
 # GetLayers free-tier media — 232 files, 595 MB, resumable
 python3 scripts/fetch_getlayers_free.py
+python3 scripts/build_getlayers_gallery.py   # rebuild gallery.html from what was downloaded
 
 # Rebuild + verify
 python3 scripts/build_index.py

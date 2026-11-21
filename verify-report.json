@@ -39,12 +39,14 @@
     "background_rows": 530,
     "gradient_rows": 24,
     "stills_missing": 0,
-    "free_prompts": 1,
+    "free_prompts": 2,
     "premium_leaks": 0,
     "media_files": 5854,
     "free_media_files": 232,
     "free_media_missing": 0,
-    "free_media_premium_leaks": 0
+    "free_media_premium_leaks": 0,
+    "gallery_items": 47,
+    "gallery_dangling": 0
   },
   "errors": []
 }

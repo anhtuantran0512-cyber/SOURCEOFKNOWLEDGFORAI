@@ -109,6 +109,7 @@ sources/getlayers/
 ├── media-sizes.json              # HEAD Content-Length per media URL
 ├── media-free.json               # what is downloaded: 47 free items, 232 files, 595 MB
 ├── media/<id>/                   # free items only: video, stills, Lighthouse reports
+├── gallery.html                  # the 47 free items as one offline page (posters + hover clips)
 ├── items/<id>/ITEM.md            # brief: direction, stack, variants, frame timings, Lighthouse
 ├── items/<id>/metadata.json      # full public record (+ page JSON-LD for templates)
 ├── prompts/<id>.md               # free-tier prompts, verbatim

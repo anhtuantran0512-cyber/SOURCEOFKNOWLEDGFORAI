@@ -8,7 +8,8 @@ animated backgrounds and pure-WebGL gradients.
 - Tier split: **47 Free · 845 Premium**
 - Stills: **892** poster stills · **53** Figma previews
 - Free media: **232 files · 595 MB** committed in `media/` — every asset the site publishes for the 47 free items
-- Free prompts captured: **1** (`soda`) — the copy endpoint allows one per visitor per day, see below
+- Free prompts captured: **2** (`soda`, `flow-wave`) — the copy endpoint allows one per visitor per day, see below
+- Gallery: **[`gallery.html`](gallery.html)** — the 47 free items as one offline page, every clip and poster local
 - Format: one folder per item (`ITEM.md` + `metadata.json`), plus `prompts/`, `assets/` and `catalog/`
 - Rights: previews and prompts remain the property of GetLayers / Textura Agency; not relicensed here.
   See [`NOTICE.md`](../../NOTICE.md).
@@ -24,6 +25,7 @@ animated backgrounds and pure-WebGL gradients.
 | `assets/<id>-figma.webp` | Figma preview, where the site publishes one (53 items) |
 | `catalog/<category>.json` | the catalogue payload the site ships, untouched |
 | `media/<id>/` | free items only: poster video, preview clip, device mockups, stills, Lighthouse reports |
+| `gallery.html` | the 47 free items as a filterable page; open it in a browser, no server needed |
 | `MEDIA.md` · `media-sizes.json` · `media-free.json` | full inventory (10.0 GB, 5,854 files) and the record of what is downloaded |
 
 ## The five libraries
@@ -53,12 +55,13 @@ stills and all 53 Figma previews are bundled.
   download."* Briefs link to the live page instead. Nothing is guessed or reconstructed.
 - **Free prompts (18: 11 templates + 7 3D scenes).** Free, but the copy endpoint grants **one prompt per
   anonymous visitor per day** and then answers `rate_limited` — *"You've used today's free copy — sign in
-  for unlimited free prompts."* One prompt (`soda`) was captured on the run that built this archive; the
-  other seventeen are listed with the exact state in their brief. Re-run the collector on a later day, or
-  pass your own signed-in session cookie, to capture them all:
+  for unlimited free prompts."* Two are captured (`soda`, `flow-wave`), each on a different day; the other
+  sixteen are listed with the exact state in their brief. Re-run the collector on a later day, or pass
+  your own signed-in session cookie, to capture them all:
 
   ```bash
-  python3 scripts/fetch_getlayers.py --cookie-file ~/gl-cookies.txt
+  python3 scripts/fetch_getlayers.py --prompts-only              # whatever today's grant allows
+  python3 scripts/fetch_getlayers.py --cookie-file ~/gl-cookies.txt   # signed in: all 18 at once
   ```
 
 - **Free backgrounds (29) are free to *download*, not to prompt.** Their 4K mp4 is public; the prompt is
@@ -99,6 +102,7 @@ python3 scripts/fetch_getlayers.py                    # metadata + stills + free
 python3 scripts/fetch_getlayers.py --category gradient # one library only
 python3 scripts/fetch_getlayers.py --media all        # + videos and Lighthouse reports
 python3 scripts/fetch_getlayers_free.py               # free-tier media into media/
+python3 scripts/build_getlayers_gallery.py            # regenerate gallery.html
 python3 scripts/build_source_indexes.py               # regenerate INDEX.md and MEDIA.md
 python3 scripts/verify.py                             # counts, frontmatter, free/paid boundary
 ```

@@ -87,7 +87,9 @@
   "variantCount": 1
  },
  "prompt": {
-  "status": "rate_limited"
+  "status": "ok",
+  "path": "sources/getlayers/prompts/flow-wave.md",
+  "chars": 16605
  },
  "files": {
   "flow-wave.webp": "129828 bytes"

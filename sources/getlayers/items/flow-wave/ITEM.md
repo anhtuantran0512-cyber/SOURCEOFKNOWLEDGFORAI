@@ -37,11 +37,10 @@ url: "https://www.getlayers.ai/layer/flow-wave"
 
 ## Prompt
 
-The prompt is published free on the site, but its copy endpoint grants **one prompt per
-anonymous visitor per day** and that grant was already spent when this archive ran.
-Nothing is guessed here. Re-run `scripts/fetch_getlayers.py` on a later day, or pass a
-signed-in session cookie (`--cookie-file`) to capture every free prompt in one pass:
-https://www.getlayers.ai/layer/flow-wave
+Free prompt, verbatim: [`prompts/flow-wave.md`](../../prompts/flow-wave.md)
+
+It rebuilds the reference as one self-contained `index.html` and states every constant,
+asset URL and interaction the original uses.
 
 ## Public assets
 

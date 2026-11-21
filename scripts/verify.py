@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -158,6 +159,33 @@ def main() -> int:
         errors.append(f"premium GetLayers media committed: {leaked_media[:3]}")
     if uncovered:
         errors.append(f"free GetLayers items without media: {uncovered[:3]}")
+
+    # gallery.html is the browsable view of that free tier; its embedded inventory has
+    # to name every free item and every file it points at has to exist.
+    gallery_path = SOURCES / "getlayers" / "gallery.html"
+    if not gallery_path.exists():
+        errors.append("sources/getlayers/gallery.html missing")
+    else:
+        html = gallery_path.read_text(encoding="utf-8")
+        block = re.search(
+            r'<script type="application/json" id="data">(.*?)</script>', html, re.S
+        )
+        gallery = json.loads(block.group(1)) if block else {"items": []}
+        gallery_ids = {item["id"] for item in gallery["items"]}
+        dangling = [
+            item[key]
+            for item in gallery["items"]
+            for key in ("poster", "video")
+            if item.get(key) and not (SOURCES / "getlayers" / item[key]).exists()
+        ]
+        report["getlayers"]["gallery_items"] = len(gallery_ids)
+        report["getlayers"]["gallery_dangling"] = len(dangling)
+        if gallery_ids != free_ids:
+            errors.append(
+                f"gallery.html lists {len(gallery_ids)} items, free tier has {len(free_ids)}"
+            )
+        if dangling:
+            errors.append(f"gallery.html points at missing media: {dangling[:3]}")
 
     report["errors"] = errors
     (ROOT / "verify-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -260,7 +260,8 @@ def index_getlayers_media() -> None:
             f"\nThe **free tier is committed** too: {free['items']} free items, {free['files']} files, "
             f"{free['bytes'] / 1e6:.0f} MB, in `media/<id>/` — every video, still and Lighthouse report "
             "the site publishes for them, downloaded by `scripts/fetch_getlayers_free.py`. Premium media "
-            "is not fetched at all.\n"
+            "is not fetched at all. To browse that set, open `gallery.html` — it plays the local files "
+            "and needs no server.\n"
         )
     out += "\n| Library | Files | Size |\n|---|---:|---:|\n"
     for key, label in GETLAYERS_GROUPS:

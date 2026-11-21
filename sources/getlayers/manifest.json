@@ -29,7 +29,7 @@
   "likes": 127,
   "description": "A glowing sea of mint particle hills rolling endlessly under a deep-emerald haze.",
   "path": "sources/getlayers/items/flow-wave/ITEM.md",
-  "prompt_path": null,
+  "prompt_path": "sources/getlayers/prompts/flow-wave.md",
   "preview": "sources/getlayers/assets/flow-wave.webp",
   "url": "https://www.getlayers.ai/layer/flow-wave",
   "license": "GetLayers preview and prompt — property of GetLayers / Textura; see NOTICE.md"

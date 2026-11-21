@@ -29,7 +29,7 @@ cloning anything.
 | 3 | [`sources/motionsites/`](sources/motionsites/) | 321 | [`INDEX.md`](sources/motionsites/INDEX.md) | Free website-section prompts: hero, pricing, footer, ecommerce, SaaS, dashboards | prompt only | Free prompts, property of MotionSites AI |
 | 4 | [`sources/lucianlabs/`](sources/lucianlabs/) | 400 | [`INDEX.md`](sources/lucianlabs/INDEX.md) | 200 interface + 200 animation elements with runnable demos and theme tokens | full HTML/CSS/JS | MIT (c) 2026 Seokwoooo |
 | 5 | [`sources/codefronts/`](sources/codefronts/) | 5,047 | [`INDEX.md`](sources/codefronts/INDEX.md) | CSS/Tailwind components, layouts, navigation, motion, snippets, design styles — one ready-to-paste prompt per item | prompt + code | MIT (stated by CodeFronts) |
-| 6 | [`sources/getlayers/`](sources/getlayers/) | 892 | [`INDEX.md`](sources/getlayers/INDEX.md) · [`MEDIA.md`](sources/getlayers/MEDIA.md) | Five libraries — templates, 3D scenes, sections, backgrounds, gradients: stack, tone, variants, frame timings, Lighthouse scores, poster + Figma previews, free prompts verbatim, every media URL with its size | 18 free prompts (1 captured) · 845 premium items | property of GetLayers / Textura |
+| 6 | [`sources/getlayers/`](sources/getlayers/) | 892 | [`gallery.html`](sources/getlayers/gallery.html) · [`INDEX.md`](sources/getlayers/INDEX.md) · [`MEDIA.md`](sources/getlayers/MEDIA.md) | Five libraries — templates, 3D scenes, sections, backgrounds, gradients: stack, tone, variants, frame timings, Lighthouse scores, poster + Figma previews, free prompts verbatim, every media URL with its size, and all 47 free items downloaded with a browsable gallery | 18 free prompts (2 captured) · 845 premium items | property of GetLayers / Textura |
 
 Paid MotionSites prompts, ThreeUI source files and the 874 premium GetLayers items are **not**
 included. Nothing was paywalled or scraped from a private API. See [`NOTICE.md`](NOTICE.md).
@@ -151,7 +151,8 @@ paid MotionSites prompt leaked in, and that the two newer sources are present an
   not included. Its free prompts are copied through the same button a visitor uses, at one per day per
   anonymous visitor — no account was created and no limit was worked around.
 - GetLayers' free tier is fully downloaded — 47 items, 232 media files, 595 MB in
-  [`sources/getlayers/media/`](sources/getlayers/media/). The other 10 GB of published video and
+  [`sources/getlayers/media/`](sources/getlayers/media/), browsable in
+  [`sources/getlayers/gallery.html`](sources/getlayers/gallery.html) (open it directly, it needs no server). The other 10 GB of published video and
   Lighthouse HTML is **not** committed (GitHub allows 100 MB per file and 5 GB per repository); every file
   is listed with its size and URL in [`sources/getlayers/MEDIA.md`](sources/getlayers/MEDIA.md).
 - The archive is a snapshot. Re-run the collectors if a link is stale.
